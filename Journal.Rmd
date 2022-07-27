@@ -30,6 +30,20 @@ Updated on: `r Sys.Date()`
 
 6. Hongsakhone, S., Islam, M., and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. Journal of Economic Structures, 10, 1-24.  (https://doi.org/10.1186/s40008-020-00231-3)
 
+7. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., & Islam, M. (2021). Climate-induced stressors to peace: A review of recent literature. Environmental Research Letters, 16, 073006.  (https://doi.org/10.1088/1748-9326/abfc08)
+
+8. Simangan, D., Virji, H., Hendrix, C., Islam, M., Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. Sustainability Science, 16, 1097-1109.  (https://doi.org/10.1007/s11625-021-00970-7)
+
+9. Essandoh, O. K., Islam, M., and Kakinaka, M. (2020). Linking international trade and foreign direct investment to CO2 emissions: Any differences between developed and developing countries? Science of The Total Environment, 712, 136437. (https://doi.org/10.1016/j.scitotenv.2019.136437)
+
+10. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., Islam M., and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. Journal of Environmental Management, 264, 110328.  (https://doi.org/10.1016/j.jenvman.2020.110328)
+
+11. Hotak, S., Islam, M., Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. Environmental Science and Pollution Research, 27, 24115-24128.  (https://doi.org/10.1007/s11356-020-08478-w)
+
+12. Coulibaly, T., Islam, M., and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries. Economics of Disasters and Climate Change, 4, 347-363.  (https://doi.org/10.1007/s41885-019-00057-9)
+
+
+
 # Reports (peer-review)
 Updated on: `r Sys.Date()`
 
