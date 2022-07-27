@@ -38,7 +38,7 @@ Time series and panel data analysis
 # Spatial Economics
 Geographic information system for social science
 
-# Work Experience
+### Work Experience
 
 1. 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
@@ -48,13 +48,13 @@ Geographic information system for social science
 
 4. 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
 
-# Computer programs
+### Computer programs
 R, Python, STATA, EViews, ArcGIS, QGIS, Origin, LaTeX, oTree, GNU Emacs
 
-# Languages
+### Languages
 English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
-# External links
+### External links
 
 1. Kochi University of Technology: (https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
 
