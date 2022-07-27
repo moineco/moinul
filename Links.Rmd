@@ -1,9 +1,18 @@
 ---
 title: "Lectures"
-output: html_document
+output: 
+ html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
 ---
 
-### Geoinformatics
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
 
-### International Trade and International Finance
-
+# Geoinformatics
+# International Trade and International Finance
