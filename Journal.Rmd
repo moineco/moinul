@@ -42,7 +42,35 @@ Updated on: `r Sys.Date()`
 
 12. Coulibaly, T., Islam, M., and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries. Economics of Disasters and Climate Change, 4, 347-363.  (https://doi.org/10.1007/s41885-019-00057-9)
 
+13. Coulibaly, T., Wakamatsu, M., Islam, M., Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas (2020). Ecological Economics, 175, 106707.  (https://doi.org/10.1016/j.ecolecon.2020.106707)
 
+14. Islam, M., and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. Resources, Conservation and Recycling, 145, 126-138.  (https://doi.org/10.1016/j.resconrec.2019.02.027)
+
+15. Managi, S., Islam, M., Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature’s contributions to people. Sustainability Science, 1463-1465.  (https://doi.org/10.1007/s11625-019-00732-6)
+
+16. Islam, M., Kanemoto, K., and Managi, S. (2019). Growth potential for CO2 emissions transfer by tariff reduction. Environmental Research Letters, 14, 024011.  (https://iopscience.iop.org/article/10.1088/1748-9326/aaf688/meta)
+
+17. Yamaguchi, R., Islam, M., and Managi, S. (2019). Inclusive wealth in the 21st century. Letters in Spatial and Resource Sciences, 12, 101-111.  (https://doi.org/10.1007/s12076-019-00229-x)
+
+18. Ying Lee, C., Lotsu, S., Islam, M., Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana. Energies, 12, 3684.  (https://doi.org/10.3390/en12193684)
+
+19. Islam, M., Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review. Sustainability Science, 14, 159-174.  (https://doi.org/10.1007/s11625-018-0597-7)
+
+20. Islam, M., and Managi, S. (2018). Sustainable adaptation to multiple water risks in agriculture: Evidence from Bangladesh. Sustainability (Switzerland), 10(6). (https://doi.org/10.3390/su10061734)
+
+21. Rajapaksa, D., Islam, M., and Managi, S. (2018). Pro-environmental behavior: The role of public perception in infrastructure and the social factors for sustainable development. Sustainability (Switzerland), 10, 937.  (https://doi.org/10.3390/su10040937)
+
+22. Tolliver, C., Islam, M., Shin, K., and Managi, S. (2018). The impact of energy security risks on energy consumption. International Journal of Innovation and Sustainable Development, 12, 258–270.  (https://doi.org/10.1504/IJISD.2018.091522)
+
+23. Sugiawan, Y., Islam, M., and Managi, S. (2017). Global marine fisheries with environmental sustainability. Economic Analysis and Policy, 55, 158-168.  (https://doi.org/10.1016/j.eap.2017.08.004)
+
+24. Rajapaksa, D., Islam, M., and Managi, S. (2017). Natural capital depletion: The impact of natural disasters on inclusive growth. Economics of Disasters and Climate Change, 1, 233–244. (https://doi.org/10.1007/s41885-017-0009-y)
+
+25. Islam, M., Kanemoto, K., and Managi, S. (2016). Impact of trade openness and sector trade on embodied greenhouse gases emissions and air pollutants. Journal of Industrial Ecology, 20, 494-505. (https://doi.org/10.1111/jiec.12455)
+
+26. Islam, M., Kotani, K., and Managi, S. (2016). Climate perception and flood mitigation cooperation: A Bangladesh case study. Economic Analysis and Policy, 49, 117-133.  (https://doi.org/10.1016/j.eap.2016.01.001)
+
+27. Islam, M., and Kotani, K. (2016). Changing seasonality in Bangladesh. Regional Environmental Change, 16, 585-590. (https://doi.org/10.1007/s10113-015-0758-5)
 
 # Reports (peer-review)
 Updated on: `r Sys.Date()`
