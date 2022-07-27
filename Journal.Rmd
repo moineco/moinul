@@ -20,9 +20,15 @@ Updated on: `r Sys.Date()`
 
 1. Islam, M., Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01143-w)
 
-2. Managi, S., Islam, M., Saito, O. et al. (2022). Valuation of nature and nature’s contributions to people. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01140-z)
+2. Managi, S., Islam, M., Saito, O. et al. (2022). Valuation of nature and nature’s contributions to people. Sustainability Science, 17, 701-705. (https://doi.org/10.1007/s11625-022-01140-z)
 
-3. Islam, M., and Managi, S. (2021). Valuation of Nature’s Contribution in Ladakh, India: An Inclusive Wealth Method. Sustainability Science (forthcoming).(https://doi.org/10.1007/s11625-021-01030-w)
+3. Islam, M., and Managi, S. (2021). Valuation of Nature’s Contribution in Ladakh, India: An Inclusive Wealth Method. Sustainability Science, 17, 905-918. (https://doi.org/10.1007/s11625-021-01030-w)
+
+4. N’dri, L., Islam, M., and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? Journal of Cleaner Production, 297, 126642. (https://doi.org/10.1016/j.jclepro.2021.126642)
+
+5. Badamvaanchig, M., Islam, M., and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric? Resources Policy, 70, 101955. (https://doi.org/10.1016/j.resourpol.2020.101955)
+
+6. Hongsakhone, S., Islam, M., and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. Journal of Economic Structures, 10, 1-24.  (https://doi.org/10.1186/s40008-020-00231-3)
 
 # Reports (peer-review)
 Updated on: `r Sys.Date()`
