@@ -21,7 +21,7 @@ The research method focuses on the following three points.
 1. Development Economics 
 2. Experimental Economics
 3. Environmental Economics
-4. Spacial Economics
+4. Spatial Economics
 
 I have extensive experience to conduct experimental research by using the methods of online experiment, field experiment, laboratory experiment and spatial econometrics. I use computer programming (Python), data analysis software (R, oTree) and geographic information system (GIS) for experimental research design. Based on the experimental data analysis, my goal is to identify and develop suitable policy framework that will contribute to the policies for sustainable environments and societies. 
 
@@ -35,7 +35,35 @@ Laboratory experiment, online experiment, and field experiment. Experimental eco
 # Environmental Economics
 Time series and panel data analysis
 
-# Spacial Economics
+# Spatial Economics
 Geographic information system for social science
 
+# Work Experience
 
+1. 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
+
+2. 2019, Assistant Professor, Graduate School for International Development and Cooperation (IDEC), Hiroshima University, Hiroshima, Japan 
+
+3. 2016, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan 
+
+4. 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
+
+# Computer programs
+R, Python, STATA, EViews, ArcGIS, QGIS, Origin, LaTeX, oTree, GNU Emacs
+
+# Languages
+English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+
+# External links
+
+1. Kochi University of Technology: (https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
+
+2. Publons: (https://publons.com/researcher/4127115/moinul-islam/)
+
+3. Google Scholar: (https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
+
+4. Scopus: (https://www.scopus.com/authid/detail.uri?authorId=55348122400)
+
+5. Research Map: (https://researchmap.jp/moinul/?lang=english)
+
+6. ORCID: (https://orcid.org/0000-0002-0309-3156)
