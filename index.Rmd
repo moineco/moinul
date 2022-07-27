@@ -18,19 +18,9 @@ This is the website of Dr. Moinul Islam. He is working as an assistant professor
 
 Ph.D., Kyushu University (2016)
 
-# My first post
-
-Compiled: `r Sys.Date()`
-
-Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
-
-# My second post
-
-Compiled: `r Sys.Date()`
-
 Enjoy your research
 
-## Contents 
+# Contents 
 
 1. Research and dreams
 

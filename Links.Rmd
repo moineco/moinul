@@ -3,10 +3,7 @@ title: "Lectures"
 output: html_document
 ---
 
-### R and R-Studio
+### Geoinformatics
 
+### International Trade and International Finance
 
-### Additional R resources
-
-1. Google is great, Google your problem
-2. Rmarkdown is excellent.

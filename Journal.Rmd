@@ -16,17 +16,21 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 
 # Journal Articles (peer-review) 
-
 Updated on: `r Sys.Date()`
 
 1. Islam, M., Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01143-w)
 
 2. Managi, S., Islam, M., Saito, O. et al. (2022). Valuation of nature and nature’s contributions to people. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01140-z)
 
-# Reports (peer-review)
+3. Islam, M., and Managi, S. (2021). Valuation of Nature’s Contribution in Ladakh, India: An Inclusive Wealth Method. Sustainability Science (forthcoming).(https://doi.org/10.1007/s11625-021-01030-w)
 
+# Reports (peer-review)
 Updated on: `r Sys.Date()`
 
 1. Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). Available from 
 (https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
 
+# Book chapters
+Updated on: `r Sys.Date()`
+
+1. Islam, M., and Managi, S. (2021). Global human capital: View from inclusive wealth. In Measuring Human Capital, Academic Press, Fraumeni, Barbara M. (Ed), (forthcoming). ISBN: 9780128190579 (https://www.elsevier.com/books/measuring-human-capital/fraumeni/978-0-12-819057-9)
