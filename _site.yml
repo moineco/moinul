@@ -1,0 +1,11 @@
+name: "Moinul Lab"
+navbar:
+  title: "Moinul Lab"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: Journal.html
+    - text: "Lectures"
+      href: Links.html
+output_dir: "docs"

@@ -1,0 +1,12 @@
+---
+title: "Lectures"
+output: html_document
+---
+
+### R and R-Studio
+
+
+### Additional R resources
+
+1. Google is great, Google your problem
+2. Rmarkdown is excellent.

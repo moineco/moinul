@@ -1,0 +1,39 @@
+---
+title: "Moinul Lab"
+output: 
+ html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+This is the website of Dr. Moinul Islam. He is working as an assistant professor at Kochi University of Technology.
+
+Ph.D., Kyushu University (2016)
+
+# My first post
+
+Compiled: `r Sys.Date()`
+
+Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
+
+# My second post
+
+Compiled: `r Sys.Date()`
+
+Enjoy your research
+
+## Contents 
+
+1. Research and dreams
+
+2. My publications
+
+3. Lectures

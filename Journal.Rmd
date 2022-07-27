@@ -1,0 +1,30 @@
+---
+title: "Publications"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+
+# Journal Articles (peer-review) 
+
+Updated on: `r Sys.Date()`
+
+1. Islam, M., Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01143-w)
+
+# Reports (peer-review)
+
+compiled: `r Sys.Date()`
+
+1. Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). Available from 
+(https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
+
