@@ -15,7 +15,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 
-# Journal Articles (peer-review) 
+# Journal articles (peer-review) 
 Updated on: `r Sys.Date()`
 
 1. Islam, M., Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. Sustainability Science (forthcoming). (https://doi.org/10.1007/s11625-022-01143-w)
@@ -72,7 +72,7 @@ Updated on: `r Sys.Date()`
 
 27. Islam, M., and Kotani, K. (2016). Changing seasonality in Bangladesh. Regional Environmental Change, 16, 585-590. (https://doi.org/10.1007/s10113-015-0758-5)
 
-# Reports (peer-review)
+# International reports (peer-review)
 Updated on: `r Sys.Date()`
 
 1. Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). Available from 
@@ -108,7 +108,7 @@ Updated on: `r Sys.Date()`
 3. Islam, M., and Managi, S. Farmer’s adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
 
 
-# International symposium/workshop
+# International symposiums
 Updated on: `r Sys.Date()`
 
 1. Future Design 2022, Kochi University of Technology, Japan, 29-30 January 2022.
@@ -120,7 +120,7 @@ Updated on: `r Sys.Date()`
 4. Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, 27-28 March 2018.
 
 
-# Research Grant
+# Research grants
 Updated on: `r Sys.Date()`
 
 1. Grants-in-Aid for Scientific Research from the Japanese government. Category:  Grant-in-Aid for Early-Career Scientists. Grant number: 21K13290. Project period: 2021/04-2025/03. 
