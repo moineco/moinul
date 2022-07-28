@@ -14,8 +14,9 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree from Kyushu University in 2016. My laboratory focuses on development economics, experimental economics, environmental economics, and spacial economics.
+I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree from Kyushu University in 2016. My research focuses are development economics, experimental economics, environmental economics, and spatial economics.
 
+# Research focus
 The research method focuses on the following three points.
 
 1. Development Economics 
@@ -25,26 +26,7 @@ The research method focuses on the following three points.
 
 I have extensive experience to conduct experimental research by using the methods of online experiment, field experiment, laboratory experiment and spatial econometrics. I use computer programming (Python), data analysis software (R, oTree) and geographic information system (GIS) for experimental research design. Based on the experimental data analysis, my goal is to identify and develop suitable policy framework that will contribute to the policies for sustainable environments and societies. 
 
-# 1. Development Economics
-
-# 2. Experimental Economics
-Experimental economics is a rapidly growing field that is upgrading with technological advancements.
-
-2.1 Laboratory experiment
-
-2.2 Online experiment
-
-2.3 Field experiment
-
-# 3. Environmental Economics
-
-3.1 Time series analysis
-
-3.2 Panel data analysis
-
-# 4. Spatial Economics
-Geographic information system for social science
-
+# Experience
 Working Experience:
 
 - 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
