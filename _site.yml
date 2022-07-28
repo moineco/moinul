@@ -1,6 +1,6 @@
-name: "Moinul Lab"
+name: "Moinul"
 navbar:
-  title: "Moinul Lab"
+  title: "Moinul"
   left:
     - text: "Home"
       href: index.html
