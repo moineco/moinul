@@ -48,7 +48,11 @@ Work Experience
 4. 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
 
 Computer programs
-R, Python, STATA, EViews, ArcGIS, QGIS, Origin, LaTeX, oTree, GNU Emacs
+1. R, Python
+2. STATA, EViews 
+3. ArcGIS, QGIS 
+4. oTree, zTree
+5. GNU Emacs
 
 Languages
 English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
