@@ -16,7 +16,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree from Kyushu University in 2016. My research focuses are development economics, experimental economics, environmental economics, and spatial economics.
 
-# Research focus
+# Research focus:
 The research method focuses on the following three points.
 
 1. Development Economics 
@@ -26,7 +26,7 @@ The research method focuses on the following three points.
 
 I have extensive experience to conduct experimental research by using the methods of online experiment, field experiment, laboratory experiment and spatial econometrics. I use computer programming (Python), data analysis software (R, oTree) and geographic information system (GIS) for experimental research design. Based on the experimental data analysis, my goal is to identify and develop suitable policy framework that will contribute to the policies for sustainable environments and societies. 
 
-# Experience
+# Experience:
 Working Experience:
 
 - 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
