@@ -72,7 +72,7 @@ Updated on: `r Sys.Date()`
 
 27. Islam, M., and Kotani, K. (2016). Changing seasonality in Bangladesh. Regional Environmental Change, 16, 585-590. (https://doi.org/10.1007/s10113-015-0758-5)
 
-# International reports (peer-review)
+# Reports (peer-review)
 Updated on: `r Sys.Date()`
 
 1. Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). Available from 
