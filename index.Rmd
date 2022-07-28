@@ -27,6 +27,8 @@ The research method focuses on the following three points.
 I have extensive experience to conduct experimental research by using the methods of online experiment, field experiment, laboratory experiment and spatial econometrics. I use computer programming (Python), data analysis software (R, oTree) and geographic information system (GIS) for experimental research design. Based on the experimental data analysis, my goal is to identify and develop suitable policy framework that will contribute to the policies for sustainable environments and societies. 
 
 # Experience:
+
+
 Working Experience:
 
 - 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
@@ -36,6 +38,7 @@ Working Experience:
 - 2016, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan 
 
 - 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
+
 
 Computer programs:
 
@@ -49,9 +52,11 @@ Computer programs:
 
 - GNU Emacs
 
+
 Languages:
 
 English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+
 
 External links:
 
@@ -66,6 +71,7 @@ External links:
 5. Research Map: (https://researchmap.jp/moinul/?lang=english)
 
 6. ORCID: (https://orcid.org/0000-0002-0309-3156)
+
 
 Affiliation:
 
