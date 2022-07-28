@@ -29,7 +29,7 @@ I have extensive experience to conduct experimental research by using the method
 # Experience:
 
 
-Working Experience:
+**Working Experience**:
 
 - 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
@@ -40,7 +40,7 @@ Working Experience:
 - 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
 
 
-Computer programs:
+**Computer programs**:
 
 - R, Python
 
@@ -53,12 +53,12 @@ Computer programs:
 - GNU Emacs
 
 
-Languages:
+**Languages**:
 
 English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 
-External links:
+**External links**:
 
 1. Kochi University of Technology: (https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
 
@@ -73,7 +73,7 @@ External links:
 6. ORCID: (https://orcid.org/0000-0002-0309-3156)
 
 
-Affiliation:
+**Affiliation**:
 
 1. Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
