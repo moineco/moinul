@@ -16,17 +16,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Geoinformatics
 
-- Course materials
+- Lecture materials
 (https://moineco.github.io/geoinformatics/)
 
-In progress...
 
 # International Trade & Finance
 
-- Course materials
+- Lecture materials
 (https://moineco.github.io/international_trade_finance/)
 
-In progress...
 
 # Spatial Econometrics
-In progress...
+- Lecture materials (In progress...)
