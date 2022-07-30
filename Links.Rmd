@@ -16,40 +16,78 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Geoinformatics
 
-- Lecture materials
+### Lecture materials are available from the following website:
 (https://moineco.github.io/geoinformatics/)
 
 The course contents of geoinformatics are as below:
 
+Part 1: What is geographic information system (GIS)?
+
+- Lecture 1 Introduction to GIS
+
+- Lecture 2 GIS for Economics (New information provision)
+
+- Lecture 3 GIS for Economics (Geocoding for survey and experiment)
+
+- Lecture 4 GIS for Management (Biodiversity)
+
+- Lecture 5 GIS for Management (Natural resource management)
+
+Part 2: What is geographic data?
+
+- Lecture 6 Spatial data collection, storage and management
+
+- Lecture 7 Spatial data visualization
+
+- Lecture 8 Spatial data process
+
+- Lecture 9 Spatial data create
+
+- Lecture 10 Spatial data analysis
+
+Part 3: How geographic data applied in the study of real-world issues?
+
+- Lecture 11 Social applications of GIS
+
+- Lecture 12 GIS to solving real world problems using local examples 1
+
+- Lecture 13 GIS to solving real world problems using local examples 2
+
+- Lecture 14 GIS to solving real world problems using global example 1
+
+- Lecture 15 GIS to solving real world problems using global example 2
+
+
+
 # International Trade & Finance
 
-- Lecture materials
+### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
 
 The course contents of international trade and finance are as below:
 
-PART 1: International Trade Theory
+Part 1: International Trade Theory
 
 - The Ricardian Model
 - The Heckscher-Ohlin Model
 - The Standard Trade Model
 - External Economies of Scale
 
-PART 2: International Trade Policy
+Part 2: International Trade Policy
 
 - The Instruments of Trade Policy
 - The Political Economy of Trade Policy
 - Trade Policy in Developing Countries
 - Controversies in Trade Policy
 
-PART 3: Open-Economy Macroeconomics
+Part 3: Open-Economy Macroeconomics
 
 - National Income Accounting
 - Exchange Rates and the Foreign Exchange Market
 - Money, Interest Rates, and Exchange Rates
 - Fixed Exchange Rates and Foreign Exchange Intervention
 
-PART 4: International Macroeconomic Policy
+Part 4: International Macroeconomic Policy
 
 - International Monetary Systems
 - Financial Globalization
