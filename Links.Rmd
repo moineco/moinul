@@ -25,6 +25,33 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture materials
 (https://moineco.github.io/international_trade_finance/)
 
+#### Syllabus
+PART 1: International Trade Theory
+
+- The Ricardian Model
+- The Heckscher-Ohlin Model
+- The Standard Trade Model
+- External Economies of Scale
+
+PART 2: International Trade Policy
+
+- The Instruments of Trade Policy
+- The Political Economy of Trade Policy
+- Trade Policy in Developing Countries
+- Controversies in Trade Policy
+
+PART 3: Open-Economy Macroeconomics
+
+- National Income Accounting
+- Exchange Rates and the Foreign Exchange Market
+- Money, Interest Rates, and Exchange Rates
+- Fixed Exchange Rates and Foreign Exchange Intervention
+
+PART 4: International Macroeconomic Policy
+- International Monetary Systems
+- Financial Globalization
+- Optimum Currency Areas
+- Developing Countries: Growth, Crisis, and Reform
 
 # Spatial Econometrics
 - Lecture materials (In progress...)
