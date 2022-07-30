@@ -19,13 +19,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture materials
 (https://moineco.github.io/geoinformatics/)
 
+The course contents of geoinformatics are as below:
 
 # International Trade & Finance
 
 - Lecture materials
 (https://moineco.github.io/international_trade_finance/)
 
-#### Syllabus
+The course contents of international trade and finance are as below:
+
 PART 1: International Trade Theory
 
 - The Ricardian Model
@@ -48,6 +50,7 @@ PART 3: Open-Economy Macroeconomics
 - Fixed Exchange Rates and Foreign Exchange Intervention
 
 PART 4: International Macroeconomic Policy
+
 - International Monetary Systems
 - Financial Globalization
 - Optimum Currency Areas
