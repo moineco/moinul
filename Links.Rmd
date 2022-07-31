@@ -16,7 +16,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Geoinformatics
 
-### Lecture materials are available from the following website:
+##### Lecture materials are available from the following website:
 (https://moineco.github.io/geoinformatics/)
 
 The course contents of geoinformatics are as below:
@@ -61,38 +61,37 @@ Part 3: How geographic data applied in the study of real-world issues?
 
 # International Trade & Finance
 
-### Lecture materials are available from the following website:
+##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
 
 The course contents of international trade and finance are as below:
 
 Part 1: International Trade Theory
 
-- The Ricardian Model
-- The Heckscher-Ohlin Model
-- The Standard Trade Model
-- External Economies of Scale
+- Lecture 1 The Ricardian Model
+- Lecture 2 The Heckscher-Ohlin Model
+- Lecture 3 The Standard Trade Model
+- Lecture 4 External Economies of Scale
 
 Part 2: International Trade Policy
 
-- The Instruments of Trade Policy
-- The Political Economy of Trade Policy
-- Trade Policy in Developing Countries
-- Controversies in Trade Policy
+- Lecture 5 The Instruments of Trade Policy
+- Lecture 6 The Political Economy of Trade Policy
+- Lecture 7 Trade Policy in Developing Countries
+- Lecture 8 Controversies in Trade Policy
 
 Part 3: Open-Economy Macroeconomics
 
-- National Income Accounting
-- Exchange Rates and the Foreign Exchange Market
-- Money, Interest Rates, and Exchange Rates
-- Fixed Exchange Rates and Foreign Exchange Intervention
+- Lecture 9 National Income Accounting
+- Lecture 10 Exchange Rates and the Foreign Exchange Market
+- Lecture 11 Money, Interest Rates, and Exchange Rates
+- Lecture 12 Fixed Exchange Rates and Foreign Exchange Intervention
 
 Part 4: International Macroeconomic Policy
 
-- International Monetary Systems
-- Financial Globalization
-- Optimum Currency Areas
-- Developing Countries: Growth, Crisis, and Reform
+- Lecture 13 International Monetary Systems
+- Lecture 14 Financial Globalization
+- Lecture 15 Developing Countries: Growth, Crisis, and Reform
 
 # Spatial Econometrics
 - Lecture materials (In progress...)
