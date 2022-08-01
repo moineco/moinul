@@ -94,4 +94,50 @@ Part 4: International Macroeconomic Policy
 - Lecture 15 Developing Countries: Growth, Crisis, and Reform
 
 # Spatial Econometrics
-- Lecture materials (In progress...)
+
+This course is a lecture-based introduction to the methodology and application of spatial econometric models. The course will consists of lecture as well as laboratory exercises where we will learn how to use the free software Rmarkdown and QGIS in order to estimate spatial econometric models. 
+
+##### Lecture materials are available from the following website:
+
+(Website creation is in progress...)
+
+The course contents of spatial econometrics are as below:
+
+Part 1: Introduction to Spatial Econometrics
+
+- Lecture 1: Basics for Geographic Information Systems (GIS) and Spatial Data
+
+- Lecture 2: 
+
+- Lecture 3:
+
+- Lecture 4:
+
+Part 2: Spatial Models
+
+- Lecture 5: Spatial Statistics
+
+- Lecture 6: Spatial Econometrics
+
+- Lecture 7:
+
+- Lecture 8:
+
+Part 3: Maximum Likelihood Estimation
+
+- Lecture 9: 
+
+- Lecture 10:
+
+- Lecture 11:
+
+- Lecture 12:
+
+Part 4: IV and GMM Estimators
+
+- Lecture 13:
+
+- Lecture 14:
+
+- Lecture 15: 
+
