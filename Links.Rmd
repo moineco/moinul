@@ -58,7 +58,6 @@ Part 3: How geographic data applied in the study of real-world issues?
 - Lecture 15 GIS to solving real world problems using global example 2
 
 
-
 # International Trade & Finance
 
 ##### Lecture materials are available from the following website:
@@ -116,7 +115,7 @@ The course contents of spatial econometrics are as below:
 
 Part 1: Introduction to Spatial Econometrics
 
-- Lecture 1: Basics for Geographic Information Systems (GIS) and Spatial Data
+- Lecture 1: Basics for geographic information systems (GIS) and spatial data
 
 - Lecture 2: Data, spatial classes and basic graphics
 
@@ -130,9 +129,9 @@ Part 2: Spatial Models
 
 - Lecture 6: Non-linear spatial models
 
-- Lecture 7: The Linear Regression Model with Spatial Data
+- Lecture 7: The linear regression model with spatial data
 
-- Lecture 8: Panel Data Models with Spatial Data
+- Lecture 8: Panel data models with spatial data
 
 Part 3: Applied Spatial Statistics and Econometrics
 
