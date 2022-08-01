@@ -69,28 +69,39 @@ The course contents of international trade and finance are as below:
 Part 1: International Trade Theory
 
 - Lecture 1 The Ricardian Model
+
 - Lecture 2 The Heckscher-Ohlin Model
+
 - Lecture 3 The Standard Trade Model
+
 - Lecture 4 External Economies of Scale
 
 Part 2: International Trade Policy
 
 - Lecture 5 The Instruments of Trade Policy
+
 - Lecture 6 The Political Economy of Trade Policy
+
 - Lecture 7 Trade Policy in Developing Countries
+
 - Lecture 8 Controversies in Trade Policy
 
 Part 3: Open-Economy Macroeconomics
 
 - Lecture 9 National Income Accounting
+
 - Lecture 10 Exchange Rates and the Foreign Exchange Market
+
 - Lecture 11 Money, Interest Rates, and Exchange Rates
+
 - Lecture 12 Fixed Exchange Rates and Foreign Exchange Intervention
 
 Part 4: International Macroeconomic Policy
 
 - Lecture 13 International Monetary Systems
+
 - Lecture 14 Financial Globalization
+
 - Lecture 15 Developing Countries: Growth, Crisis, and Reform
 
 # Spatial Econometrics
@@ -107,37 +118,37 @@ Part 1: Introduction to Spatial Econometrics
 
 - Lecture 1: Basics for Geographic Information Systems (GIS) and Spatial Data
 
-- Lecture 2: 
+- Lecture 2: Data, spatial classes and basic graphics
 
-- Lecture 3:
+- Lecture 3: Basic operations in the R software
 
-- Lecture 4:
+- Lecture 4: Foundations of spatial microeconometrics modeling
 
 Part 2: Spatial Models
 
-- Lecture 5: Spatial Statistics
+- Lecture 5: Basic cross-sectional spatial linear models
 
-- Lecture 6: Spatial Econometrics
+- Lecture 6: Non-linear spatial models
 
-- Lecture 7:
+- Lecture 7: The Linear Regression Model with Spatial Data
 
-- Lecture 8:
+- Lecture 8: Panel Data Models with Spatial Data
 
-Part 3: Maximum Likelihood Estimation
+Part 3: Applied Spatial Statistics and Econometrics
 
-- Lecture 9: 
+- Lecture 9: Applied spatial econometrics
 
-- Lecture 10:
+- Lecture 10: Geographically weighted regression
 
-- Lecture 11:
+- Lecture 11: Spatial point pattern analysis 
 
-- Lecture 12:
+- Lecture 12: Spatial interpolation
 
-Part 4: IV and GMM Estimators
+Part 4: Spatial big data
 
-- Lecture 13:
+- Lecture 13: Examples of big data applications
 
-- Lecture 14:
+- Lecture 14: Processing of large dataset
 
-- Lecture 15: 
+- Lecture 15: Sample analysis of large raster data
 
