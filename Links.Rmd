@@ -144,7 +144,7 @@ Part 3: Applied Spatial Statistics and Econometrics
 
 - Lecture 12: Spatial interpolation
 
-Part 4: Spatial big data
+Part 4: Spatial Big data
 
 - Lecture 13: Examples of big data applications
 
