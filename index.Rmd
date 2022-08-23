@@ -15,10 +15,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 
-I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree from Kyushu University in 2016. My research focuses are environmental science, environmental economics, experimental economics, and spatial economics.
+I am Dr. Moinul Islam, working as an assistant professor at the Kochi University of Technology. I have received my Ph.D. in engineering degree from Kyushu University in 2016. My research focuses are environmental science, environmental economics, experimental economics, and spatial economics.
 
 # Research focus
-The research method focuses on the following three points.
 
 1. Environmental Science 
 2. Environmental Economics
