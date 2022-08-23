@@ -65,15 +65,15 @@ The course contents of geoinformatics are as below:
 
 The course contents of international trade and finance are as below:
 
-**Part 1: International Trade Theory**
+**Part 1: Introduction to International Finance**
 
-- Lecture 1: The Ricardian model
+- Lecture 1: Basics of International Economics
 
-- Lecture 2: The Heckscher-Ohlin model
+- Lecture 2: Introduction to International Trade
 
-- Lecture 3: The standard trade model
+- Lecture 3: Introduction to International Finance
 
-- Lecture 4: External economies of scale
+- Lecture 4: International Trade Models
 
 **Part 2: International Trade Policy**
 
