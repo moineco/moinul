@@ -58,7 +58,7 @@ The course contents of geoinformatics are as below:
 - Lecture 15: GIS to solving real world problems using global example 2
 
 
-# International Trade & Finance
+# International Trade and International Finance
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
