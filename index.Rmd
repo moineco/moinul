@@ -38,7 +38,7 @@ I have extensive experience to conduct experimental research by using the method
 
 **Computer program**
 
-- R, Python
+- R, Python, Markdown, Quarto
 
 - STATA, EViews 
 
