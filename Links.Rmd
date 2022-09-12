@@ -159,3 +159,43 @@ The course contents of spatial econometrics are as below:
 ##### Practice materials are available from the following website:
 (https://moineco.github.io/econometrics/)
 
+- Lecture 1: Nature and scope of Econometrics
+
+- Lecture 2: Statistical Inference
+  - Normal distribution; chi-sq, t- and F-distributions
+  - Estimation of parameters
+  - Testing of hypotheses
+  - Defining statistical hypotheses
+  - Distributions of test statistics
+  - Testing hypotheses related to population parameters
+  - Type-I and Type-II errors; Power of a test
+  - Tests for comparing parameters from two samples
+
+- Lecture 3: The Simple Regression Model
+
+- Lecture 4: Multiple Regression Analysis: Estimation
+
+- Lecture 5: Multiple Regression Analysis: Inference
+
+- Lecture 6: Multiple Regression Analysis: Further Topics
+
+- Lecture 7: Asymptotic properties of OLS
+
+- Lecture 8: Heteroskedasticity
+
+- Lecture 9: Time Series data Modelling Dynamic Processes
+
+- Lecture 10: Autocorrelation
+
+- Lecture 11: Endogeneity – omitted variables, measurement error and simultaneity
+
+- Lecture 12: Instrumental variable estimation and two stage least squares
+
+- Lecture 13: Logit and Probit Models for Binary Response
+
+- Lecture 14: Non Stationary Time Series
+
+- Lecture 15: Simultaneous Equations Models
+
+
+
