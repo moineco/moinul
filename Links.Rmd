@@ -63,6 +63,9 @@ The course contents of geoinformatics are as below:
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
 
+##### Class notes are available from the following website:
+(https://moineco.github.io/international_economics/#/title-slide)
+
 The course contents of international trade and finance are as below:
 
 **Part 1: Introduction to International Finance**
@@ -150,4 +153,9 @@ The course contents of spatial econometrics are as below:
 - Lecture 14: Processing of large dataset
 
 - Lecture 15: Sample analysis of large raster data
+
+# Introductory Econometrics
+
+##### Practice materials are available from the following website:
+(https://moineco.github.io/econometrics/)
 
