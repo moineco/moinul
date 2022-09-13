@@ -197,5 +197,38 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
+# Introduction to Data Science
 
+##### Lecture materials are available from the following website:
+(https://moineco.github.io/intro_data_science/)
+
+- Lecture 1: Introduction to Python
+
+- Lecture 2: Descriptive statistics
+
+- Lecture 3: Introductory hypothesis testing and statistical inference
+
+- Lecture 4: Linear regression
+
+- Lecture 5: Data visualization
+
+- Lecture 6: Clustering methods
+
+- Lecture 7: Network analysis
+
+- Lecture 8: Cleaning and reformatting messy datasets
+
+- Lecture 9: Ethics of big data
+
+- Lecture 10: Machine learning
+
+- Lecture 11: Bootstrapping
+
+- Lecture 12: Data Mining
+
+- Lecture 13: Causality and Experiments 1
+
+- Lecture 14: Causality and Experiments 2
+
+- Lecture 15: Causality and Experiments 3
 
