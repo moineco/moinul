@@ -202,7 +202,9 @@ The course contents of spatial econometrics are as below:
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/intro_data_science/)
 
-- Lecture 1: Introduction to Python
+**Section A: Introduction to Python for data science**
+
+- Lecture 1: Basic Python
 
 - Lecture 2: Descriptive statistics
 
@@ -216,7 +218,9 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 7: Network analysis
 
-- Lecture 8: Cleaning and reformatting messy datasets
+**Section B: Introduction to R for data science**
+
+- Lecture 8: Basic R
 
 - Lecture 9: Ethics of big data
 
