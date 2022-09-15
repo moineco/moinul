@@ -21,7 +21,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The course contents of geoinformatics are as below:
 
-**Part 1: What is Geographic Information System (GIS)?**
+**Section 1: What is Geographic Information System (GIS)?**
 
 - Lecture 1: Introduction to GIS
 
@@ -33,7 +33,7 @@ The course contents of geoinformatics are as below:
 
 - Lecture 5: GIS for Management (Natural resource management)
 
-**Part 2: What is Geographic Data?**
+**Section 2: What is Geographic Data?**
 
 - Lecture 6: Spatial data collection, storage and management
 
@@ -45,7 +45,7 @@ The course contents of geoinformatics are as below:
 
 - Lecture 10: Spatial data analysis
 
-**Part 3: How Geographic Data Applied in the Study of Real-World Issues?**
+**Section 3: How Geographic Data Applied in the Study of Real-World Issues?**
 
 - Lecture 11: Social applications of GIS
 
@@ -68,7 +68,7 @@ The course contents of geoinformatics are as below:
 
 The course contents of international trade and finance are as below:
 
-**Part 1: Introduction to International Finance**
+**Section 1: Introduction to International Finance**
 
 - Lecture 1: Basics of International Economics
 
@@ -78,7 +78,7 @@ The course contents of international trade and finance are as below:
 
 - Lecture 4: International Trade Models
 
-**Part 2: International Trade Policy**
+**Section 2: International Trade Policy**
 
 - Lecture 5: The instruments of trade policy
 
@@ -88,7 +88,7 @@ The course contents of international trade and finance are as below:
 
 - Lecture 8: Controversies in trade policy
 
-**Part 3: Open-Economy Macroeconomics**
+**Section 3: Open-Economy Macroeconomics**
 
 - Lecture 9: National income accounting
 
@@ -98,7 +98,7 @@ The course contents of international trade and finance are as below:
 
 - Lecture 12: Fixed exchange rates and foreign exchange intervention
 
-**Part 4: International Macroeconomic Policy**
+**Section 4: International Macroeconomic Policy**
 
 - Lecture 13: International monetary systems
 
@@ -116,7 +116,7 @@ This course is a lecture-based introduction to the methodology and application o
 
 The course contents of spatial econometrics are as below:
 
-**Part 1: Introduction to Spatial Econometrics**
+**Section 1: Introduction to Spatial Econometrics**
 
 - Lecture 1: Basics for geographic information systems (GIS) and spatial data
 
@@ -126,7 +126,7 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 4: Foundations of spatial microeconometrics modeling
 
-**Part 2: Spatial Models**
+**Section 2: Spatial Models**
 
 - Lecture 5: Basic cross-sectional spatial linear models
 
@@ -136,7 +136,7 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 8: Panel data models with spatial data
 
-**Part 3: Applied Spatial Statistics and Econometrics**
+**Section 3: Applied Spatial Statistics and Econometrics**
 
 - Lecture 9: Applied spatial econometrics
 
@@ -146,7 +146,7 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 12: Spatial interpolation
 
-**Part 4: Spatial Big data**
+**Section 4: Spatial Big data**
 
 - Lecture 13: Examples of big data applications
 
@@ -202,7 +202,7 @@ The course contents of spatial econometrics are as below:
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/intro_data_science/)
 
-**Section A: Introduction to Python for data science**
+**Section 1: Introduction to Python for data science**
 
 - Lecture 1: Basic Python
 
@@ -218,7 +218,7 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 7: Network analysis
 
-**Section B: Introduction to R for data science**
+**Section 2: Introduction to R for data science**
 
 - Lecture 8: Basic R
 
