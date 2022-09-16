@@ -63,9 +63,6 @@ The course contents of geoinformatics are as below:
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
 
-##### Class notes are available from the following website:
-(https://moineco.github.io/international_economics/#/title-slide)
-
 The course contents of international trade and finance are as below:
 
 **Section 1: Introduction to International Finance**
