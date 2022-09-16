@@ -194,12 +194,12 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
-# Introduction to Data Science
+# Data Science with Python and R
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/intro_data_science/)
 
-**Section 1: Introduction to Python for data science**
+**Section 1: Python for data science**
 
 - Lecture 1: Basic Python
 
@@ -215,7 +215,7 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 7: Network analysis
 
-**Section 2: Introduction to R for data science**
+**Section 2: R for data science**
 
 - Lecture 8: Basic R
 
