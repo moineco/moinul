@@ -1,5 +1,5 @@
 ---
-title: "Moinul Islam"
+title: "Profile"
 output: 
  html_document:
     toc: true
@@ -23,9 +23,7 @@ I am Dr. Moinul Islam, working as an assistant professor at Kochi University of 
 
 I have extensive experience to conduct experimental research by using the methods of online experiment, field experiment and laboratory experiment. Based on the experimental data analysis, my goal is to identify and develop suitable policy framework that will contribute to the policies for sustainable environments and societies. 
 
-# Experiences
-
-**Working Experience**
+# Working experience
 
 - 2020, Assistant Professor, Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
@@ -36,25 +34,7 @@ I have extensive experience to conduct experimental research by using the method
 - 2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan   
 
 
-**Computer program**
-
-- R, Python
-
-- STATA, EViews 
-
-- ArcGIS, QGIS 
-
-- oTree, zTree
-
-- GNU Emacs
-
-
-**Language**
-
-English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
-
-
-**External link**
+# Profile in external websites
 
 1. Kochi University of Technology [link](<https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html>)
 
@@ -68,14 +48,31 @@ English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 6. ORCID [link](<https://orcid.org/0000-0002-0309-3156>)
 
-
-**Affiliation**
+# Affiliation
 
 1. Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
 2. School of Economics and Management, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
 
 3. Urban Institute, Kyushu University, Fukuoka, Japan
+
+# Skills
+
+**Computer programs**
+
+- R, Python
+
+- STATA, EViews 
+
+- ArcGIS, QGIS 
+
+- oTree, zTree
+
+- GNU Emacs
+
+**Language**
+
+English (Fluent), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 </div>
 <div class="col-sm-4">
