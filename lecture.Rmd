@@ -105,8 +105,6 @@ The course contents of international trade and finance are as below:
 
 # Spatial Econometrics
 
-This course is a lecture-based introduction to the methodology and application of spatial econometric models. The course will consists of lecture as well as laboratory exercises where we will learn how to use the free software R and QGIS in order to estimate spatial econometric models. 
-
 ##### Lecture materials are available from the following website:
 
 (https://moineco.github.io/book_spatial_econometrics/)

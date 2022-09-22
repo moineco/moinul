@@ -7,5 +7,5 @@ navbar:
     - text: "Publication"
       href: Journal.html
     - text: "Lecture"
-      href: Links.html
+      href: lecture.html
 output_dir: "docs"
