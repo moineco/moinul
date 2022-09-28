@@ -14,30 +14,3 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# Steps to install Stata 17 in Linux
-
-## Install
-
-1. Lets create an installation folder in Downloads of your computer.
-
-- Access to the Downloads through the terminal of your Linux OS.
-
-```default
-cd ~/Downloads
-```
-
-- Create a temporary folder titled "statainstall" inside the Downloads.
-
-```default
-mkdir statainstall
-```
-
-- Paste your Stata 17 installtion file "Stata17Linux64.tar.gz" in your newly created folder titled "statainstall".
-
-- Access the "statainstall" folder by using terminal of Linux
-
-```default
-cd statainstall
-```
-
-- 
