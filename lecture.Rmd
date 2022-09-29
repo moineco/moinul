@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# Geoinformatics
+# 1. Geoinformatics
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/book_geoinformatics/)
@@ -62,7 +62,7 @@ The course contents of geoinformatics are as below:
 - References
 
 
-# International Trade and International Finance
+# 2. International Trade and International Finance
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
@@ -112,7 +112,7 @@ The course contents of international trade and finance are as below:
 - References
 
 
-# Spatial Econometrics
+# 3. Spatial Econometrics
 
 ##### Lecture materials are available from the following website:
 
@@ -163,7 +163,7 @@ The course contents of spatial econometrics are as below:
 - References
 
 
-# Introductory Econometrics
+# 4. Introductory Econometrics
 
 ##### Practice materials are available from the following website:
 (https://moineco.github.io/book_intro_econometrics/)
@@ -202,7 +202,7 @@ The course contents of spatial econometrics are as below:
 
 - References
 
-# Data Science with Python and R
+# 5. Data Science with Python and R
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/book_data_science/)
@@ -246,7 +246,7 @@ The course contents of spatial econometrics are as below:
 - References
 
 
-# Behavorial Experiments with oTree and Python
+# 6. Behavorial Experiments with oTree and Python
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/book_oTree/)
