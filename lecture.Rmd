@@ -157,14 +157,6 @@ The course contents of spatial econometrics are as below:
 - Lecture 1: Nature and scope of Econometrics
 
 - Lecture 2: Statistical Inference
-  - Normal distribution; chi-sq, t- and F-distributions
-  - Estimation of parameters
-  - Testing of hypotheses
-  - Defining statistical hypotheses
-  - Distributions of test statistics
-  - Testing hypotheses related to population parameters
-  - Type-I and Type-II errors; Power of a test
-  - Tests for comparing parameters from two samples
 
 - Lecture 3: The Simple Regression Model
 
