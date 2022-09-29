@@ -74,15 +74,11 @@ Updated on: `r Sys.Date()`
 
 # International policy reports (peer-review)
 
-Updated on: `r Sys.Date()`
-
 1.  Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). [link](https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
 
 2.  Future Design: For the Survival of Humankind (2022). Think7: Research-based policy recommendations for the G7. [link](https://www.think7.org/publication/future-design/)
 
 # Book chapters (peer-review)
-
-Updated on: `r Sys.Date()`
 
 1.  **Islam, M.**, and Managi, S. (2021). Global Human Capital: View From Inclusive Wealth. In Measuring Human Capital (pp. 39-54). Academic Press. ISBN: 9780128190579. [link](https://www.elsevier.com/books/measuring-human-capital/fraumeni/978-0-12-819057-9)
 
@@ -100,8 +96,6 @@ Updated on: `r Sys.Date()`
 
 # International conferences
 
-Updated on: `r Sys.Date()`
-
 1.  **Islam, M.**, and Saijo, T. A Future Design Workshop on Inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
 
 2.  **Islam, M.**, Kanemoto, K and Managi, S. Growth potential for CO2 emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
@@ -111,8 +105,6 @@ Updated on: `r Sys.Date()`
 4.  **Islam, M.**, and Managi, S. Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
 
 # International symposiums
-
-Updated on: `r Sys.Date()`
 
 1.  Future Design 2022, Kochi University of Technology, Japan, 29-30 January 2022.
 
@@ -124,15 +116,11 @@ Updated on: `r Sys.Date()`
 
 # Research grants
 
-Updated on: `r Sys.Date()`
-
 1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04-2025/03.
 
 2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04-2021/03.
 
 # Working papers
-
-Updated on: `r Sys.Date()`
 
 1.  Husniddin, S., **Islam, M.**, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers SDES-2022-3, Kochi University of Technology, School of Economics and Management, 2022.
 
