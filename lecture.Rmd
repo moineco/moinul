@@ -21,6 +21,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The course contents of geoinformatics are as below:
 
+- preface
+
 **Section 1: What is Geographic Information System (GIS)?**
 
 - Lecture 1: Introduction to GIS
@@ -57,6 +59,8 @@ The course contents of geoinformatics are as below:
 
 - Lecture 15: GIS to solving real world problems using global example 2
 
+- References
+
 
 # International Trade and International Finance
 
@@ -64,6 +68,8 @@ The course contents of geoinformatics are as below:
 (https://moineco.github.io/international_trade_finance/)
 
 The course contents of international trade and finance are as below:
+
+- Preface
 
 **Section 1: Introduction to International Finance**
 
@@ -103,6 +109,9 @@ The course contents of international trade and finance are as below:
 
 - Lecture 15: Growth, crisis, and reform in developing countries
 
+- References
+
+
 # Spatial Econometrics
 
 ##### Lecture materials are available from the following website:
@@ -110,6 +119,8 @@ The course contents of international trade and finance are as below:
 (https://moineco.github.io/book_spatial_econometrics/)
 
 The course contents of spatial econometrics are as below:
+
+- Preface
 
 **Section 1: Introduction to Spatial Econometrics**
 
@@ -149,10 +160,15 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Sample analysis of large raster data
 
+- References
+
+
 # Introductory Econometrics
 
 ##### Practice materials are available from the following website:
 (https://moineco.github.io/book_intro_econometrics/)
+
+- Preface
 
 - Lecture 1: Nature and scope of Econometrics
 
@@ -184,10 +200,14 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
+- References
+
 # Data Science with Python and R
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/book_data_science/)
+
+- Preface
 
 **Section 1: Python for data science**
 
@@ -223,29 +243,36 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Causality and Experiments 3
 
+- References
+
 
 # Behavorial Experiments with oTree and Python
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/book_oTree/)
 
+- Preface
+
 - Lecture 1: Installation and environments
 
 - Lecture 2: Structure of an oTree project
 
-- Lecture 3: More on App in oTree
+- Lecture 3: The building blocks of oTree
 
-- Lecture 4: Pycharm to customize oTree Studio project
+- Lecture 4: Pycharm to customize oTree studio project
 
-- Lecture 5: On Heroku from oTree
+- Lecture 5: Deploy on Heroku from oTree
 
-- Lecture 6: Survey with oTree
+- Lecture 6: Models.py
 
-- Lecture 7: Experiment 1 with oTree
+- Lecture 7: Pages.py
 
-- Lecture 8: Experiment 2 with oTree
+- Lecture 8: Template.html
 
-- Lecture 9: Experiment 3 with oTree
+- Lecture 9: Settings.py
 
-- Lecture 10: Conclusion
+- Lecture 10: Questionnaire survey with oTree
 
+- Lecture 11: Conclusion
+
+- References
