@@ -1,0 +1,201 @@
+---
+title: "Lecture"
+output: 
+ html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+# Geoinformatics
+
+##### Lecture materials are available from the following website:
+(https://moineco.github.io/book_geoinformatics/)
+
+The course contents of geoinformatics are as below:
+
+- Lecture 1: Introduction to GIS
+
+- Lecture 2: GIS for Economics (New information provision)
+
+- Lecture 3: GIS for Economics (Geocoding for survey and experiment)
+
+- Lecture 4: GIS for Management (Biodiversity)
+
+- Lecture 5: GIS for Management (Natural resource management)
+
+- Lecture 6: Spatial data collection, storage and management
+
+- Lecture 7: Spatial data visualization
+
+- Lecture 8: Spatial data process
+
+- Lecture 9: Spatial data create
+
+- Lecture 10: Spatial data analysis
+
+- Lecture 11: Social applications of GIS
+
+- Lecture 12: GIS to solving real world problems using local examples 1
+
+- Lecture 13: GIS to solving real world problems using local examples 2
+
+- Lecture 14: GIS to solving real world problems using global example 1
+
+- Lecture 15: GIS to solving real world problems using global example 2
+
+
+# International Trade and International Finance
+
+##### Lecture materials are available from the following website:
+(https://moineco.github.io/international_trade_finance/)
+
+The course contents of international trade and finance are as below:
+
+- Lecture 1: Basics of International Economics
+
+- Lecture 2: Introduction to International Trade
+
+- Lecture 3: Reasons of International Trade
+
+- Lecture 4: International Trade Models
+
+- Lecture 5: The instruments of trade policy
+
+- Lecture 6: The political economy of trade policy
+
+- Lecture 7: Trade policy in developing countries
+
+- Lecture 8: Controversies in trade policy
+
+- Lecture 9: National income accounting
+
+- Lecture 10: Exchange rates and the foreign exchange market
+
+- Lecture 11: Money, interest rates, and exchange rates
+
+- Lecture 12: Fixed exchange rates and foreign exchange intervention
+
+- Lecture 13: International monetary systems
+
+- Lecture 14: Financial globalization
+
+- Lecture 15: Growth, crisis, and reform in developing countries
+
+# Spatial Econometrics
+
+This course is a lecture-based introduction to the methodology and application of spatial econometric models. The course will consists of lecture as well as laboratory exercises where we will learn how to use the free software R and QGIS in order to estimate spatial econometric models. 
+
+##### Lecture materials are available from the following website:
+
+(https://moineco.github.io/book_spatial_econometrics/)
+
+The course contents of spatial econometrics are as below:
+
+- Lecture 1: Basics for geographic information systems (GIS) and spatial data
+
+- Lecture 2: Data, spatial classes and basic graphics
+
+- Lecture 3: Basic operations in the R software
+
+- Lecture 4: Foundations of spatial microeconometrics modeling
+
+- Lecture 5: Basic cross-sectional spatial linear models
+
+- Lecture 6: Non-linear spatial models
+
+- Lecture 7: The linear regression model with spatial data
+
+- Lecture 8: Panel data models with spatial data
+
+- Lecture 9: Applied spatial econometrics
+
+- Lecture 10: Geographically weighted regression
+
+- Lecture 11: Spatial point pattern analysis 
+
+- Lecture 12: Spatial interpolation
+
+- Lecture 13: Examples of big data applications
+
+- Lecture 14: Processing of large dataset
+
+- Lecture 15: Sample analysis of large raster data
+
+# Introductory Econometrics
+
+##### Practice materials are available from the following website:
+(https://moineco.github.io/book_intro_econometrics/)
+
+- Lecture 1: Nature and scope of Econometrics
+
+- Lecture 2: Statistical Inference
+
+- Lecture 3: The Simple Regression Model
+
+- Lecture 4: Multiple Regression Analysis: Estimation
+
+- Lecture 5: Multiple Regression Analysis: Inference
+
+- Lecture 6: Multiple Regression Analysis: Further Topics
+
+- Lecture 7: Asymptotic properties of OLS
+
+- Lecture 8: Heteroskedasticity
+
+- Lecture 9: Time Series data Modelling Dynamic Processes
+
+- Lecture 10: Autocorrelation
+
+- Lecture 11: Endogeneity – omitted variables, measurement error and simultaneity
+
+- Lecture 12: Instrumental variable estimation and two stage least squares
+
+- Lecture 13: Logit and Probit Models for Binary Response
+
+- Lecture 14: Non Stationary Time Series
+
+- Lecture 15: Simultaneous Equations Models
+
+# Data Science with Python and R
+
+##### Lecture materials are available from the following website:
+(https://moineco.github.io/book_data_science/)
+
+- Lecture 1: Basic Python
+
+- Lecture 2: Descriptive statistics
+
+- Lecture 3: Introductory hypothesis testing and statistical inference
+
+- Lecture 4: Linear regression
+
+- Lecture 5: Data visualization
+
+- Lecture 6: Clustering methods
+
+- Lecture 7: Network analysis
+
+- Lecture 8: Basic R
+
+- Lecture 9: Ethics of big data
+
+- Lecture 10: Machine learning
+
+- Lecture 11: Bootstrapping
+
+- Lecture 12: Data Mining
+
+- Lecture 13: Causality and Experiments 1
+
+- Lecture 14: Causality and Experiments 2
+
+- Lecture 15: Causality and Experiments 3
+
