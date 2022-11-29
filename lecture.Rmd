@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# 1. Geoinformatics
+# 1. Geoinformatics [地理情報論]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/geoinformatics/)
@@ -62,7 +62,7 @@ The course contents of geoinformatics are as below:
 - References
 
 
-# 2. International Trade and International Finance (国際貿易・国際金融)
+# 2. International Trade and International Finance [国際貿易・国際金融]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
@@ -111,7 +111,8 @@ The course contents of international trade and finance are as below:
 
 - References
 
-# 3. Future Design
+# 3. Future Design [フューチャー・デザイン]
+
 ##### Lecture materials are available from the following website:
 (Website creation is in process...)
 
