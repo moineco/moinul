@@ -62,7 +62,7 @@ The course contents of geoinformatics are as below:
 - References
 
 
-# 2. International Trade and International Finance
+# 2. International Trade and International Finance (国際貿易・国際金融)
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
