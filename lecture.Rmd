@@ -140,23 +140,23 @@ The course contents of future design are as below:
 
 **Section 3: Intergenerational Sustainability**
 
-- Lecture 9:
+- Lecture 8: Intergenerational Sustainability Dilemma
 
-- Lecture 9:
+- Lecture 9: Intergenerational sustainability and taking the perspective of future generations
 
-- Lecture 10:
+- Lecture 10: Intergenerational sustainability dilemma and a potential solution
 
-- Lecture 11:
+- Lecture 11: Concerns for future generations in societies
 
 **Section 4: Future Design**
 
-- Lecture 12:
+- Lecture 12: What is Future Design?
 
-- Lecture 13:
+- Lecture 13: Future Design: Sustainable Environments and Sustainable Societies
 
-- Lecture 14:
+- Lecture 14: Negotiating with the future: Incorporating imaginary future generations into negotiations
 
-- Lecture 15:
+- Lecture 15: Cooperating with the Future
 
 - References
 
@@ -209,7 +209,6 @@ The course contents of spatial econometrics are as below:
 - Lecture 15: Sample analysis of large raster data
 
 - References
-
 
 # 5. Introductory Econometrics
 
