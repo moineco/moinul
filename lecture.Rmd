@@ -122,21 +122,21 @@ The course contents of future design are as below:
 
 **Section 1: Environmental Economics**
 
-- Lecture 1:
+- Lecture 1: Resources, Growth and Sustainability
 
-- Lecture 2:
+- Lecture 2: Climate: The Ultimate Resource
 
-- Lecture 3:
+- Lecture 3: Renewable Resources
 
-- Lecture 4:
+- Lecture 4: Optimal Depletion of Exhaustible Resources
 
 **Section 2: Sustainable Development Goals (SDGs)**
 
-- Lecture 5:
+- Lecture 5: The 17 Sustainable Development Goals
 
-- Lecture 6:
+- Lecture 6: Goals for Sustainable Development: Ambivalences of a Global Agenda
 
-- Lecture 7:
+- Lecture 7: The UN Sustainable Development Goals and the dynamics of well-being
 
 **Section 3: Intergenerational Sustainability**
 
