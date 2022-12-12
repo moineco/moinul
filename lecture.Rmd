@@ -21,8 +21,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The course contents of geoinformatics are as below:
 
-- Preface
-
 **Section 1: What is Geographic Information System (GIS)?**
 
 - Lecture 1: Introduction to GIS
@@ -59,8 +57,6 @@ The course contents of geoinformatics are as below:
 
 - Lecture 15: GIS to solving real world problems using global example 2
 
-- References
-
 
 # 2. International Trade and International Finance [国際貿易・国際金融]
 
@@ -68,8 +64,6 @@ The course contents of geoinformatics are as below:
 (https://moineco.github.io/international_trade_finance/)
 
 The course contents of international trade and finance are as below:
-
-- Preface
 
 **Section 1: Introduction to International Finance**
 
@@ -109,8 +103,6 @@ The course contents of international trade and finance are as below:
 
 - Lecture 15: Developing Countries Growth, Crisis, and Reform
 
-- References
-
 # 3. Future Design [フューチャー・デザイン]
 
 ##### Lecture materials are available from the following website:
@@ -118,8 +110,6 @@ The course contents of international trade and finance are as below:
 (https://moineco.github.io/future_design/)
 
 The course contents of future design are as below:
-
-- Preface
 
 **Section 1: Environmental Economics**
 
@@ -159,17 +149,59 @@ The course contents of future design are as below:
 
 - Lecture 15: Cooperate with Future People
 
-- References
+# 4. Energy Economics and Energy Policy (エネルギー経済とエネルギー政策)
 
-# 4. Spatial Econometrics
+##### Lecture materials are available from the following website:
+
+(https://moineco.github.io/energy_economics/)
+
+The course contents of energy economics and energy policy are as below:
+
+**Section 1: Energy Economics**
+
+- Lecture 1
+
+- Lecture 2
+
+- Lecture 3
+
+- Lecture 4
+
+- Lecture 5
+
+- Lecture 6
+
+**Section 2: Environmental and Natural Resource Economics**
+
+- Lecture 7
+
+- Lecture 8
+
+- Lecture 9
+
+**Section 3: Industrial Ecology**
+
+- Lecture 10
+
+- Lecture 11
+
+- Lecture 12
+
+**Section 4: Energy Policy**
+
+- Lecture 13
+
+- Lecture 14
+
+- Lecture 15
+
+# 5. Spatial Econometrics (空間計量経済学)
 
 ##### Lecture materials are available from the following website:
 
 (https://moineco.github.io/spatial_econometrics/)
 
 The course contents of spatial econometrics are as below:
-
-- Preface
 
 **Section 1: Introduction to Spatial Econometrics**
 
@@ -209,14 +241,10 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Sample analysis of large raster data
 
-- References
-
-# 5. Introductory Econometrics
+# 6. Introductory Econometrics (入門計量経済学)
 
 ##### Practice materials are available from the following website:
 (https://moineco.github.io/introductory_econometrics/)
-
-- Preface
 
 - Lecture 1: Nature and scope of Econometrics
 
@@ -248,14 +276,10 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
-- References
-
-# 6. Data Science with Python and R
+# 7. Data Science (データサイエンス)
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/data_science/)
-
-- Preface
 
 **Section 1: Python for data science**
 
@@ -291,15 +315,10 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Causality and Experiments 3
 
-- References
-
-
-# 7. Behavorial Experiments with oTree and Python
+# 8. Behavioral Experiment (行動実験)
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/otree_social_experiment/)
-
-- Preface
 
 - Lecture 1: Installation and environments
 
@@ -321,6 +340,3 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 10: Questionnaire survey with oTree
 
-- Lecture 11: Conclusion
-
-- References
