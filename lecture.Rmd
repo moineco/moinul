@@ -14,7 +14,8 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# 1. Geoinformatics [地理情報論]
+# 1. Geoinformatics 
+[地理情報論]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/geoinformatics/)
@@ -58,7 +59,8 @@ The course contents of geoinformatics are as below:
 - Lecture 15: GIS to solving real world problems using global example 2
 
 
-# 2. International Trade and International Finance [国際貿易・国際金融]
+# 2. International Trade and International Finance 
+[国際貿易・国際金融]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/international_trade_finance/)
@@ -103,7 +105,8 @@ The course contents of international trade and finance are as below:
 
 - Lecture 15: Developing Countries Growth, Crisis, and Reform
 
-# 3. Future Design [フューチャー・デザイン]
+# 3. Future Design 
+[フューチャー・デザイン]
 
 ##### Lecture materials are available from the following website:
 
@@ -149,7 +152,8 @@ The course contents of future design are as below:
 
 - Lecture 15: Cooperate with Future People
 
-# 4. Energy Economics and Energy Policy (エネルギー経済とエネルギー政策)
+# 4. Energy Economics and Energy Policy 
+[エネルギー経済とエネルギー政策]
 
 ##### Lecture materials are available from the following website:
 
@@ -195,7 +199,8 @@ The course contents of energy economics and energy policy are as below:
 
 - Lecture 15: Unintended Policy Consequences & Course Wrap Up
 
-# 5. Spatial Econometrics (空間計量経済学)
+# 5. Spatial Econometrics 
+[空間計量経済学]
 
 ##### Lecture materials are available from the following website:
 
@@ -241,7 +246,8 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Sample analysis of large raster data
 
-# 6. Introductory Econometrics (入門計量経済学)
+# 6. Introductory Econometrics 
+[入門計量経済学]
 
 ##### Practice materials are available from the following website:
 (https://moineco.github.io/introductory_econometrics/)
@@ -276,7 +282,8 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
-# 7. Data Science (データサイエンス)
+# 7. Data Science 
+[データサイエンス]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/data_science/)
@@ -315,7 +322,8 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Causality and Experiments 3
 
-# 8. Behavioral Experiment (行動実験)
+# 8. Behavioral Experiment 
+[行動実験]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/otree_social_experiment/)
