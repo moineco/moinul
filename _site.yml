@@ -1,0 +1,11 @@
+name: "Moinul"
+navbar:
+  title: "Moinul Islam"
+  left:
+    - text: "Profile"
+      href: index.html
+    - text: "Research"
+      href: journal.html
+    - text: "Lecture"
+      href: lecture.html
+output_dir: "docs"
