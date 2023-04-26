@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: "Programs"
 output: 
  html_document:
     toc: true
@@ -14,9 +14,11 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Python
+# 1. Python
 
-#### Deploy oTree application to Heroku server
+Download [Python](https://www.python.org/)
+
+### A. Deploy oTree application to Heroku server
 
 To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
 
@@ -69,4 +71,30 @@ Your oTree application should now be deployed to your Heroku server. You can acc
 Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
 
 
-# R
+# 2. R and RStudio
+
+### 2.1 R
+
+Download [R](https://www.r-project.org/)
+
+### 2.2 RStudio
+
+Download [RStudio](https://posit.co/download/rstudio-desktop/)
+
+# 3. GNU Emacs
+
+Download [GNU Emacs](https://www.gnu.org/software/emacs/)
+
+# 4. Zotero
+
+Download [Zotero](https://www.zotero.org/) 
+
+# 5. JabRef
+
+Download [JabRef](https://www.jabref.org/)
+
+# 6. Proxy settings for Ubuntu and Fedora
+
+### 6.1 Proxy settings for Ubuntu
+
+### 6.2 Proxy settings for Fedora
