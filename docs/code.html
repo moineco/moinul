@@ -11,7 +11,7 @@
 
 
 
-<title>index.knit</title>
+<title>Code</title>
 
 <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -342,80 +342,54 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Code</h1>
 
 </div>
 
 
-<div id="my-profile" class="section level1">
-<h1>My profile</h1>
-<p><img src="images/profile_1.jpeg" width="150" /></p>
-<p>I am Dr. Moinul Islam, working as an assistant professor at Kochi
-University of Technology. I have received my Ph.D. in engineering degree
-from Kyushu University in 2016. My research focuses are:</p>
+<div id="python" class="section level1">
+<h1>Python</h1>
+<div id="deploy-otree-application-to-heroku-server"
+class="section level4">
+<h4>Deploy oTree application to Heroku server</h4>
 <ol style="list-style-type: decimal">
-<li>Development Economics</li>
-<li>Geoeconomics</li>
-<li>Environmental Science</li>
-<li>Energy Policy</li>
+<li>Install heroku in your Mac:</li>
 </ol>
-<p>I have extensive experience to conduct experimental research by using
-the methods of online experiment, field experiment and laboratory
-experiment. Based on the experimental data analysis, my goal is to
-identify and develop suitable policy framework that will contribute to
-the policies for sustainable economic development.</p>
-<p><strong>Working experience</strong></p>
-<ul>
-<li><p>2020, Assistant Professor, Research Institute for Future Design,
-Kochi University of Technology, Kochi, Japan</p></li>
-<li><p>2019, Assistant Professor, Graduate School for International
-Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
-Japan</p></li>
-<li><p>2016, Assistant Professor, Graduate School of Urban and
-Environmental Engineering, Kyushu University, Fukuoka, Japan</p></li>
-<li><p>2012, Research Assistant, Graduate School of Environmental
-Studies, Tohoku University, Sendai, Japan</p></li>
-</ul>
-<p><strong>Project experience</strong></p>
-<ol style="list-style-type: decimal">
-<li>United Nations Environmental Program (UNEP)<br />
-</li>
-<li>Research Institute of Economy, Trade and Industry (RIETI)<br />
-</li>
-<li>Strategic Energy and Resource Management and Sustainable Solutions
-(SERMS), Tohoku University</li>
-</ol>
-<p><strong>Profile in external websites</strong></p>
-<p><a
-href="https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html">Kochi
-University of Technology</a>, <a
-href="https://publons.com/researcher/4127115/moinul-islam/">Publons</a>,
-<a
-href="https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&amp;hl=en">Google
-Scholar</a>, <a
-href="https://www.scopus.com/authid/detail.uri?authorId=55348122400">Scopus</a>,
-<a href="https://researchmap.jp/moinul/?lang=english">Research Map</a>,
-<a href="https://orcid.org/0000-0002-0309-3156">ORCID</a></p>
-<p><strong>Affiliation</strong></p>
-<ol style="list-style-type: decimal">
-<li><p>Research Institute for Future Design, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan</p></li>
-<li><p>School of Economics and Management, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan</p></li>
-<li><p>Urban Institute, Kyushu University, Fukuoka, Japan</p></li>
-</ol>
-<p><strong>Skills</strong></p>
-<ol style="list-style-type: decimal">
-<li>Computer programs</li>
-</ol>
-<p>R, Python, STATA, EViews, ArcGIS, QGIS, oTree, GNU Emacs</p>
+<p>brew tap heroku/brew &amp;&amp; brew install heroku</p>
 <ol start="2" style="list-style-type: decimal">
-<li>Language</li>
+<li>Make a geme app in Heroku:</li>
 </ol>
-<p>English (Business), Japanese (Fluent), Hindi (Fluent), Bengali
-(Native)</p>
-<p><strong>Contact</strong> Email address: <a
-href="mailto:islam.moinul@kochi-tech.ac.jp"
-class="email">islam.moinul@kochi-tech.ac.jp</a></p>
+<p>New…&gt; Create New App</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Enter to the folder which contains the Game:</li>
+</ol>
+<p>cd appname</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Proxy settings if necessary</li>
+</ol>
+<p>export http_proxy=“<a href="http://proxy.noc.kochi-tech.ac.jp:3128"
+class="uri">http://proxy.noc.kochi-tech.ac.jp:3128</a>”</p>
+<p>export https_proxy=“<a href="http://proxy.noc.kochi-tech.ac.jp:3128"
+class="uri">http://proxy.noc.kochi-tech.ac.jp:3128</a>”</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Log in to Heroku</li>
+</ol>
+<p>heroku login</p>
+<p>git init</p>
+<p>git add .</p>
+<p>git commit -am “command message”</p>
+<p>heroku <a href="git:remote" class="uri">git:remote</a> -a appname</p>
+<p>git push heroku master</p>
+<p>heroku config:set OTREE_PRODUCTION=1</p>
+<p>Note: Sometime due to the inconsistency in version of Python in your
+computer and reported Python version in runtime.txt might be different.
+In that case, you might not be able to rung the oTree program in
+computer. To get rid from it, you can remove the runtime.txt from your
+Pycharm.</p>
+</div>
+</div>
+<div id="r" class="section level1">
+<h1>R</h1>
 </div>
 
 

@@ -1,0 +1,58 @@
+---
+title: "Code"
+output: 
+ html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Python
+
+#### Deploy oTree application to Heroku server
+
+1. Install heroku in your Mac:
+
+brew tap heroku/brew && brew install heroku
+
+2. Make a geme app in Heroku:
+
+New...> Create New App
+
+3. Enter to the folder which contains the Game:
+
+cd appname
+
+4. Proxy settings if necessary
+
+export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+
+export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+
+5. Log in to Heroku
+
+heroku login
+
+git init
+
+git add .
+
+git commit -am "command message"
+
+heroku git:remote -a appname
+
+git push heroku master
+
+heroku config:set OTREE_PRODUCTION=1
+
+Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
+
+
+# R
