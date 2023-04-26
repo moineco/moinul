@@ -18,39 +18,53 @@ knitr::opts_chunk$set(echo = TRUE)
 
 #### Deploy oTree application to Heroku server
 
-1. Install heroku in your Mac:
+To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
 
+1. Make sure your oTree application is working correctly locally.
+
+2. Create a Heroku account if you don't already have one.
+
+3.  Install Heroku in your Mac:
+If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
+
+```{txt}
 brew tap heroku/brew && brew install heroku
+```
 
-2. Make a geme app in Heroku:
+4. Upload an app in Heroku:
+To upload your oTree application to Heroku, first create an *application name* inside your Heroku account as below:
 
 New...> Create New App
 
-3. Enter to the folder which contains the Game:
+5. Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
 
+```{txt}
 cd appname
+```
 
-4. Proxy settings if necessary
+6. Proxy settings if necessary
+Sometime institutional networks (e.g.; universit, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
 
+```{txt}
 export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
-
 export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+```
 
-5. Log in to Heroku
 
+7. Log in to Heroku
+Now it is time to push your application to your Heroku account. To do so, you need to go throgh the following steps.
+
+```{txt}
 heroku login
-
 git init
-
 git add .
-
 git commit -am "command message"
-
 heroku git:remote -a appname
-
 git push heroku master
-
 heroku config:set OTREE_PRODUCTION=1
+```
+
+Your oTree application should now be deployed to your Heroku server. You can access it by going to the URL provided by Heroku.
 
 Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
 
