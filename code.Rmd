@@ -22,38 +22,34 @@ Download [Python](https://www.python.org/)
 
 To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
 
-1. Make sure your oTree application is working correctly locally.
+1.  Make sure your oTree application is working correctly locally.
 
-2. Create a Heroku account if you don't already have one.
+2.  Create a Heroku account if you don't already have one.
 
-3.  Install Heroku in your Mac:
-If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
+3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
 
 ```{txt}
 brew tap heroku/brew && brew install heroku
 ```
 
-4. Upload an app in Heroku:
-To upload your oTree application to Heroku, first create an *application name* inside your Heroku account as below:
+4.  Upload an app in Heroku: To upload your oTree application to Heroku, first create an *application name* inside your Heroku account as below:
 
-New...> Create New App
+New...\> Create New App
 
-5. Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
+5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
 
 ```{txt}
 cd appname
 ```
 
-6. Proxy settings if necessary
-Sometime institutional networks (e.g.; universit, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
+6.  Proxy settings if necessary Sometime institutional networks (e.g.; universit, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
 
 ```{txt}
 export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
-7. Log in to Heroku
-Now it is time to push your application to your Heroku account. To do so, you need to go throgh the following steps.
+7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
 
 ```{txt}
 heroku login
@@ -91,7 +87,7 @@ Download [GNU Emacs](https://www.gnu.org/software/emacs/)
 
 ### 4.1 Zotero
 
-Download [Zotero](https://www.zotero.org/) 
+Download [Zotero](https://www.zotero.org/)
 
 ### 4.2 JabRef
 
@@ -236,9 +232,3 @@ http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
-
-
-
-
-
-
