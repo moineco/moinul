@@ -430,13 +430,41 @@ Emacs</a></p>
 <h1>5. JabRef</h1>
 <p>Download <a href="https://www.jabref.org/">JabRef</a></p>
 </div>
-<div id="proxy-settings-for-ubuntu-and-fedora" class="section level1">
-<h1>6. Proxy settings for Ubuntu and Fedora</h1>
-<div id="proxy-settings-for-ubuntu" class="section level3">
-<h3>6.1 Proxy settings for Ubuntu</h3>
+<div id="ubuntu-and-fedora-proxy-settings" class="section level1">
+<h1>6. Ubuntu and Fedora proxy settings</h1>
+<div id="proxy-for-ubuntu" class="section level3">
+<h3>6.1 Proxy for Ubuntu</h3>
+<pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
+<p>Create new (set proxy settings to the environment variables)</p>
+<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
+<pre class="txt"><code>HTTP_PROXY=$MY_PROXY_URL
+HTTPS_PROXY=$MY_PROXY_URL
+FTP_PROXY=$MY_PROXY_URL
+http_proxy=$MY_PROXY_URL
+https_proxy=$MY_PROXY_URL
+ftp_proxy=$MY_PROXY_URL</code></pre>
+<pre class="txt"><code>export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
+<pre class="txt"><code>@client:~# sudo source /etc/profile.d/proxy.sh</code></pre>
+<p>It is possible to set proxy settings for each application, not System
+wide for apt</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/apt/apt.conf</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
+<p>For curl</p>
+<pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+<p>For wget</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
+<p>Add to the end</p>
+<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
+https_proxy = proxy.noc.kochi-tech.ac.jp:3128
+ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
-<div id="proxy-settings-for-fedora" class="section level3">
-<h3>6.2 Proxy settings for Fedora</h3>
+<div id="proxy-for-fedora" class="section level3">
+<h3>6.2 Proxy for Fedora</h3>
 </div>
 </div>
 
