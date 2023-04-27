@@ -93,7 +93,7 @@ Download [Zotero](https://www.zotero.org/)
 
 Download [JabRef](https://www.jabref.org/)
 
-# 6. Ubuntu and Fedora proxy settings
+# 6. Ubuntu and Fedora proxy
 
 ### 6.1 Proxy for Ubuntu
 
@@ -166,7 +166,72 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 
 ### 6.2 Proxy for Fedora
 
+```{txt}
+@client:~# sudo nano /etc/profile.d/proxy.sh
+```
 
+Create new (set proxy settings to the environment variables for system wide)
+
+```{txt}
+MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
+```
+
+```{txt}
+HTTP_PROXY=$MY_PROXY_URL
+HTTPS_PROXY=$MY_PROXY_URL
+FTP_PROXY=$MY_PROXY_URL
+http_proxy=$MY_PROXY_URL
+https_proxy=$MY_PROXY_URL
+ftp_proxy=$MY_PROXY_URL
+```
+
+```{txt}
+export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
+```
+
+```{txt}
+@client:~# sudo source /etc/profile.d/proxy.sh
+```
+
+Or it is possible to set proxy settings for each application, not system wide for dnf
+
+```{txt}
+@client:~# sudo nano /etc/dnf/dnf.conf
+```
+
+Create new
+
+```{txt}
+Acquire::http::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
+Acquire::https::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
+Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
+```
+
+For curl
+
+```{txt}
+@client ~]# sudo nano ~/.curlrc
+```
+
+Create new
+
+```{txt}
+proxy=proxy.noc.kochi-tech.ac.jp:3128
+```
+
+For wget
+
+```{txt}
+@client:~# sudo nano /etc/wgetrc
+```
+
+Add to the end
+
+```{txt}
+http_proxy = proxy.noc.kochi-tech.ac.jp:3128
+https_proxy = proxy.noc.kochi-tech.ac.jp:3128
+ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
+```
 
 
 
