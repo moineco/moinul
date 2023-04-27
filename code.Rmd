@@ -52,7 +52,6 @@ export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
-
 7. Log in to Heroku
 Now it is time to push your application to your Heroku account. To do so, you need to go throgh the following steps.
 
@@ -70,7 +69,6 @@ Your oTree application should now be deployed to your Heroku server. You can acc
 
 Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
 
-
 # 2. R and RStudio
 
 ### 2.1 R
@@ -81,21 +79,27 @@ Download [R](https://www.r-project.org/)
 
 Download [RStudio](https://posit.co/download/rstudio-desktop/)
 
-# 3. GNU Emacs
+# 3. LaTex
+
+### 3.1 GNU Emacs
 
 Download [GNU Emacs](https://www.gnu.org/software/emacs/)
 
-# 4. Zotero
+### 3.2 Overleaf
+
+# 4. Bibliography
+
+### 4.1 Zotero
 
 Download [Zotero](https://www.zotero.org/) 
 
-# 5. JabRef
+### 4.2 JabRef
 
 Download [JabRef](https://www.jabref.org/)
 
-# 6. Ubuntu and Fedora proxy
+# 5. Ubuntu and Fedora proxy
 
-### 6.1 Proxy for Ubuntu
+### 5.1 Proxy for Ubuntu
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
@@ -164,7 +168,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-### 6.2 Proxy for Fedora
+### 5.2 Proxy for Fedora
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
