@@ -13,7 +13,7 @@
 
 <title>Programs</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -408,28 +405,16 @@ computer. To get rid from it, you can remove the runtime.txt from your
 Pycharm.</p>
 </div>
 </div>
-<div id="r-and-rstudio" class="section level1">
-<h1>2. R and RStudio</h1>
-<div id="r" class="section level3">
-<h3>2.1 R</h3>
+<div id="r" class="section level1">
+<h1>2. R</h1>
 <p>Download <a href="https://www.r-project.org/">R</a></p>
-</div>
-<div id="rstudio" class="section level3">
-<h3>2.2 RStudio</h3>
 <p>Download <a
 href="https://posit.co/download/rstudio-desktop/">RStudio</a></p>
 </div>
-</div>
-<div id="latex" class="section level1">
-<h1>3. LaTex</h1>
-<div id="gnu-emacs" class="section level3">
-<h3>3.1 GNU Emacs</h3>
+<div id="gnu-emacs" class="section level1">
+<h1>3. GNU Emacs</h1>
 <p>Download <a href="https://www.gnu.org/software/emacs/">GNU
 Emacs</a></p>
-</div>
-<div id="overleaf" class="section level3">
-<h3>3.2 Overleaf</h3>
-</div>
 </div>
 <div id="bibliographic-manager" class="section level1">
 <h1>4. Bibliographic manager</h1>
