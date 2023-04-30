@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Download [Python](https://www.python.org/)
 
-### A. Deploy oTree application to Heroku server
+#### 1.1. Deploy oTree application to Heroku server
 
 To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
 
@@ -77,7 +77,7 @@ We will not be able to use the functions, objects, and help files in a package u
 
 Packages based on the requirements are listed:
 
-#### Data science
+#### 2.1. Data science
 
 1.  tidyverse
 
@@ -89,9 +89,9 @@ Packages based on the requirements are listed:
  library(tidyverse)
 ```
 
-#### Econometrics
+#### 2.2 Econometrics
 
-#### Geoeconomics
+#### 2.3 Geoeconomics
 
 # 3. GNU Emacs
 
@@ -99,61 +99,53 @@ Download [GNU Emacs](https://www.gnu.org/software/emacs/)
 
 # 4. Bibliographic manager
 
-### 4.1 Zotero
+#### 4.1 Zotero
 
 Download [Zotero](https://www.zotero.org/)
 
 **Zotero with Quarto and RMarkdown**
 
-1.  Create an account on Zotero website. It will be used later on to sync the database of bibliographic metadata.
+1.  Create an **account on Zotero** website. It will be used later on to sync the database of bibliographic metadata.
 
-2.  Download and install the two plugins we'll need --
+2.  Download and install the two plugins we'll need:
 
-a.  ZotFile (organizes the database of PDFs) and
+a.  **ZotFile** (organizes the database of PDFs) and
 
-b.  Better BibTeX (exports the library to .bib, we'll use it later with rmarkdown).
-The plugins for Zotero are .xpi archives. To install the plugins open Zotero and click Tools --\> Add-ons. A separate window for Add-ons manager will pop-up.
+b.  **Better BibTeX** (exports the library to .bib, we'll use it later with rmarkdown). The plugins for Zotero are .xpi archives. To install the plugins open Zotero and click Tools --\> Add-ons. A separate window for Add-ons manager will pop-up.
 
 c.  Select Install Add-on From File option. Finally navigate to the .xpi file and install.
 
-4.  Zotero preferences. Let's walk though Zotero Preferences. To edit them click Edit --\> Preferences. A window with several tabs pops up.
+4.  **Zotero preferences**. Let's walk though Zotero Preferences. To edit them click Edit --\> Preferences. A window with several tabs pops up.
 
-5.  Zotero sync. Here we need to specify the account details to sync our database. It is important to uncheck the option of full-text sync otherwise the 300MB storage will quickly get filled. We'll have the solution for full text a bit later.
+5.  **Zotero sync**. Here we need to specify the account details to sync our database. It is important to uncheck the option of full-text sync otherwise the 300MB storage will quickly get filled. We'll have the solution for full text a bit later.
 
-6.  Advanced. Here we are most interested in the sub-tab Files and Folders. This is the most important step to separate the storage of metadata and files.
+6.  **Advanced**. Here we are most interested in the sub-tab Files and Folders. This is the most important step to separate the storage of metadata and files.
 
-7.  Set your Base directory inside your Dropbox
-*/Users/Owner/Dropbox/zotero_library*
+7.  Set your **Base directory** inside your Dropbox */Users/Owner/Dropbox/zotero_library*
 
-8.  Better BibTeX. This tab appears after we install the Better BibTeX extension. The extension is needed to export the whole bibliographic library (or some of its parts) as a plain .bib text file. This step is needed to use Zotero in RStudio while writing academic papers with Quarto and RMarkdown.
+8.  **Better BibTeX**. This tab appears after we install the Better BibTeX extension. The extension is needed to export the whole bibliographic library (or some of its parts) as a plain .bib text file. This step is needed to use Zotero in RStudio while writing academic papers with Quarto and RMarkdown.
 
 9.  The most important option here is to define the rules for creating citation keys. There are almost infinite number of ways one can define these keys (check the manual). My personal choice is [auth:lower][year][journal:lower:abbr], which means that a key consists of the first author's name, publication year, and the first letters abbreviation of the journal's title, everything in lower case.
 
-10.  ZotFile Preferences. To open the setup window click Tools --\> ZotFile Preferences. Again, the window has several tabs.
+10. **ZotFile Preferences**. To open the setup window click Tools --\> ZotFile Preferences. Again, the window has several tabs.
 
-11.  General. Here we define two paths.
-The first is the default location of the files downloaded by your browser. This option tells ZotFile where to look for the PDFs to process when you import a paper from the publisher's website.
-*/Users/Owner/Downloads*
-The second path leads to the local directory created for the full-text PDFs, the one that I named zotero-library and which is synced with an external cloud solution of our choice.
+11. *General*. Here we define two paths. The first is the default location of the files downloaded by your browser. This option tells ZotFile where to look for the PDFs to process when you import a paper from the publisher's website. */Users/Owner/Downloads* The second path leads to the local directory created for the full-text PDFs, the one that I named zotero-library and which is synced with an external cloud solution of our choice.
 
-12.  Set your Custom Location inside your Dropbox
-*/Users/Owner/Dropbox/zotero_library/AUTH*
+12. Set your **Custom Location** inside your Dropbox */Users/Owner/Dropbox/zotero_library/AUTH*
 
-13.  Renaming Rules.
-Here it's important to make sure that ZotFile is responsible for renaming. Then we define how to rename the PDFs based on the bibliographic metadata available. Again, here we have many many options. My choice is {%a\_}{%y\_}{%t} which yields file names like.
+13. Renaming Rules. Here it's important to make sure that ZotFile is responsible for renaming. Then we define how to rename the PDFs based on the bibliographic metadata available. Again, here we have many many options. My choice is {%a\_}{%y\_}{%t} which yields file names like.
 
-14.  If you parse the metadata manually from a PDF, make sure to rename the file using ZotFile. For that right-click the metadata record Manage Attachments --\> Rename Attachments. This action explicitly tells to use ZotFile for renaming and will move the renamed PDF to a proper sub-directory.
+14. If you parse the metadata manually from a PDF, make sure to rename the file using ZotFile. For that right-click the metadata record Manage Attachments --\> Rename Attachments. This action explicitly tells to use ZotFile for renaming and will move the renamed PDF to a proper sub-directory.
 
-15.  Use Zotero library in RStudio with rmarkdown
-Better BibTeX offers an easy way to export bibliographic records from Zotero as plain .bib text and keep the file updated once the records are changed. Just right-click on the collection in Zotero and choose Export Collection.
+15. Use Zotero library in RStudio with rmarkdown **Better BibTeX** offers an easy way to export bibliographic records from Zotero as plain .bib text and keep the file updated once the records are changed. Just right-click on the collection in Zotero and choose Export Collection.
 
-### 4.2 JabRef
+#### 4.2 JabRef
 
 Download [JabRef](https://www.jabref.org/)
 
 # 5. Ubuntu and Fedora proxy
 
-### 5.1 Proxy for Ubuntu
+#### 5.1 Proxy for Ubuntu
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
@@ -222,7 +214,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-### 5.2 Proxy for Fedora
+#### 5.2 Proxy for Fedora
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
