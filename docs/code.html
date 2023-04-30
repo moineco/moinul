@@ -13,7 +13,7 @@
 
 <title>Programs</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -410,6 +410,30 @@ Pycharm.</p>
 <p>Download <a href="https://www.r-project.org/">R</a></p>
 <p>Download <a
 href="https://posit.co/download/rstudio-desktop/">RStudio</a></p>
+<p>We need to install some R packages. An R <strong>package</strong> is
+a collection of functions, data, and documentation that extends the
+capabilities of base R. Using packages is key to the successful use of
+R. We can install the packages by using the console with the
+<strong>install.packages()</strong> function</p>
+<p>We will not be able to use the functions, objects, and help files in
+a package until you load it with library(). Once you have installed a
+package, you can load it with the <strong>library()</strong>
+function</p>
+<p>Packages based on the requirements are listed:</p>
+<div id="data-science" class="section level4">
+<h4>Data science</h4>
+<ol style="list-style-type: decimal">
+<li>tidyverse</li>
+</ol>
+<pre class="txt"><code> install.packages(&quot;tidyverse&quot;)</code></pre>
+<pre class="txt"><code> library(tidyverse)</code></pre>
+</div>
+<div id="econometrics" class="section level4">
+<h4>Econometrics</h4>
+</div>
+<div id="geoeconomics" class="section level4">
+<h4>Geoeconomics</h4>
+</div>
 </div>
 <div id="gnu-emacs" class="section level1">
 <h1>3. GNU Emacs</h1>
@@ -427,99 +451,66 @@ Emacs</a></p>
 sync the database of bibliographic metadata.</p></li>
 <li><p>Download and install the two plugins we’ll need –</p></li>
 </ol>
-<p><img src="images/zotero_1.png" width="400" /></p>
 <ol style="list-style-type: lower-alpha">
 <li><p>ZotFile (organizes the database of PDFs) and</p></li>
 <li><p>Better BibTeX (exports the library to .bib, we’ll use it later
-with rmarkdown).</p></li>
+with rmarkdown). The plugins for Zotero are .xpi archives. To install
+the plugins open Zotero and click Tools –&gt; Add-ons. A separate window
+for Add-ons manager will pop-up.</p></li>
+<li><p>Select Install Add-on From File option. Finally navigate to the
+.xpi file and install.</p></li>
 </ol>
-<p>The plugins for Zotero are .xpi archives. To install the plugins open
-Zotero and click Tools –&gt; Add-ons. A separate window for Add-ons
-manager will pop-up.</p>
-<ol start="3" style="list-style-type: lower-alpha">
-<li>Select Install Add-on From File option. Finally navigate to the .xpi
-file and install.</li>
-</ol>
-<!-- -->
 <ol start="4" style="list-style-type: decimal">
-<li>Zotero preferences. Let’s walk though Zotero Preferences. To edit
+<li><p>Zotero preferences. Let’s walk though Zotero Preferences. To edit
 them click Edit –&gt; Preferences. A window with several tabs pops
-up.</li>
-</ol>
-<p><img src="images/zotero_2.png" width="400" /></p>
-<ol start="5" style="list-style-type: decimal">
-<li>Zotero sync. Here we need to specify the account details to sync our
-database. It is important to uncheck the option of full-text sync
+up.</p></li>
+<li><p>Zotero sync. Here we need to specify the account details to sync
+our database. It is important to uncheck the option of full-text sync
 otherwise the 300MB storage will quickly get filled. We’ll have the
-solution for full text a bit later.</li>
-</ol>
-<p><img src="images/zotero_3.png" width="400" /></p>
-<ol start="6" style="list-style-type: decimal">
-<li>Advanced. Here we are most interested in the sub-tab Files and
+solution for full text a bit later.</p></li>
+<li><p>Advanced. Here we are most interested in the sub-tab Files and
 Folders. This is the most important step to separate the storage of
-metadata and files.</li>
-</ol>
-<p>Set your Base directory inside your Dropbox</p>
-<p><strong>/Users/Owner/Dropbox/zotero_library</strong></p>
-<p><img src="images/zotero_3.1.png" width="400" /></p>
-<ol start="7" style="list-style-type: decimal">
-<li>Better BibTeX. This tab appears after we install the Better BibTeX
-extension. The extension is needed to export the whole bibliographic
-library (or some of its parts) as a plain .bib text file. This step is
-needed to use Zotero in RStudio while writing academic papers with
-Quarto and RMarkdown.</li>
-</ol>
-<p><img src="images/zotero_3.png" width="400" /></p>
-<ol start="8" style="list-style-type: decimal">
-<li>The most important option here is to define the rules for creating
-citation keys. There are almost infinite number of ways one can define
-these keys (check the manual). My personal choice is
+metadata and files.</p></li>
+<li><p>Set your Base directory inside your Dropbox
+<em>/Users/Owner/Dropbox/zotero_library</em></p></li>
+<li><p>Better BibTeX. This tab appears after we install the Better
+BibTeX extension. The extension is needed to export the whole
+bibliographic library (or some of its parts) as a plain .bib text file.
+This step is needed to use Zotero in RStudio while writing academic
+papers with Quarto and RMarkdown.</p></li>
+<li><p>The most important option here is to define the rules for
+creating citation keys. There are almost infinite number of ways one can
+define these keys (check the manual). My personal choice is
 [auth:lower][year][journal:lower:abbr], which means that a key consists
 of the first author’s name, publication year, and the first letters
-abbreviation of the journal’s title, everything in lower case.</li>
-</ol>
-<p><img src="images/zotero_4.png" width="400" /></p>
-<ol start="9" style="list-style-type: decimal">
+abbreviation of the journal’s title, everything in lower case.</p></li>
 <li><p>ZotFile Preferences. To open the setup window click Tools –&gt;
-ZotFile Preferences. Again, the window has several tabs.</p>
-<p>General. Here we define two paths.</p></li>
-<li><p>The first is the default location of the files downloaded by your
-browser. This option tells ZotFile where to look for the PDFs to process
-when you import a paper from the publisher’s website.</p>
-<p><strong>/Users/Owner/Downloads</strong></p></li>
-</ol>
-<ol start="2" style="list-style-type: lower-alpha">
-<li>The second path leads to the local directory created for the
-full-text PDFs, the one that I named zotero-library and which is synced
-with an external cloud solution of our choice.</li>
-</ol>
-<ol start="11" style="list-style-type: decimal">
-<li><p>Set your Custom Location inside your Dropbox</p>
-<p><strong>/Users/Owner/Dropbox/zotero_library/AUTH</strong></p></li>
-</ol>
-<p><img src="images/zotero_5.png" width="400" /></p>
-<ol start="12" style="list-style-type: decimal">
-<li><p>Renaming Rules.</p>
-<p>Here it’s important to make sure that ZotFile is responsible for
-renaming. Then we define how to rename the PDFs based on the
-bibliographic metadata available. Again, here we have many many options.
-My choice is {%a_}{%y_}{%t} which yields file names like.</p></li>
+ZotFile Preferences. Again, the window has several tabs.</p></li>
+<li><p>General. Here we define two paths. The first is the default
+location of the files downloaded by your browser. This option tells
+ZotFile where to look for the PDFs to process when you import a paper
+from the publisher’s website. <em>/Users/Owner/Downloads</em> The second
+path leads to the local directory created for the full-text PDFs, the
+one that I named zotero-library and which is synced with an external
+cloud solution of our choice.</p></li>
+<li><p>Set your Custom Location inside your Dropbox
+<em>/Users/Owner/Dropbox/zotero_library/AUTH</em></p></li>
+<li><p>Renaming Rules. Here it’s important to make sure that ZotFile is
+responsible for renaming. Then we define how to rename the PDFs based on
+the bibliographic metadata available. Again, here we have many many
+options. My choice is {%a_}{%y_}{%t} which yields file names
+like.</p></li>
 <li><p>If you parse the metadata manually from a PDF, make sure to
 rename the file using ZotFile. For that right-click the metadata record
 Manage Attachments –&gt; Rename Attachments. This action explicitly
 tells to use ZotFile for renaming and will move the renamed PDF to a
 proper sub-directory.</p></li>
-</ol>
-<p><img src="images/zotero_6.png" width="400" /></p>
-<ol start="14" style="list-style-type: decimal">
-<li><p>Use Zotero library in RStudio with rmarkdown</p>
-<p>Better BibTeX offers an easy way to export bibliographic records from
-Zotero as plain .bib text and keep the file updated once the records are
-changed. Just right-click on the collection in Zotero and choose Export
+<li><p>Use Zotero library in RStudio with rmarkdown Better BibTeX offers
+an easy way to export bibliographic records from Zotero as plain .bib
+text and keep the file updated once the records are changed. Just
+right-click on the collection in Zotero and choose Export
 Collection.</p></li>
 </ol>
-<p><img src="images/zotero_7.png" width="400" /></p>
-<p><img src="images/zotero_8.png" width="400" /></p>
 </div>
 <div id="jabref" class="section level3">
 <h3>4.2 JabRef</h3>
