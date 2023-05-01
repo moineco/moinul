@@ -209,7 +209,7 @@ You need to remove the # sign in front of the code chunk to run it in Quarto or 
 
 Abstract:
 
-Keywords: natural capital accounting; System of Environmental-Economic Accounting (SEEA)
+Keywords: a; b; c
 
 #```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
