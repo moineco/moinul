@@ -422,10 +422,6 @@ function</p>
 <p>Packages based on the requirements are listed:</p>
 <div id="data-science" class="section level4">
 <h4>2.1. Data science</h4>
-<ol style="list-style-type: decimal">
-<li>tidyverse</li>
-</ol>
-<pre class="txt"><code> install.packages(&quot;tidyverse&quot;)</code></pre>
 <pre class="txt"><code> library(tidyverse)</code></pre>
 </div>
 <div id="econometrics" class="section level4">
@@ -434,16 +430,120 @@ function</p>
 <div id="geoeconomics" class="section level4">
 <h4>2.3 Geoeconomics</h4>
 </div>
+<div id="manuscript" class="section level4">
+<h4>2.4 Manuscript</h4>
+<p>yml is as below:</p>
+<pre class="text"><code>---
+title: Paper title
+author: | 
+  |   X $^{a,b,c}$*
+  |
+  |   Y $^{c,d}$
+  | 
+  |
+  |   $^a$ Graduate School of E
+  |
+  |   $^b$ Research Institute for D
+  |
+  |   $^c$ U Institute
+  |
+  |   $^d$ School of M
+  |
+  |   * corresponding author
+#date: &quot;`r format(Sys.time(), &#39;%d %B, %Y&#39;)`&quot;
+geometry: &quot;left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm&quot;
+indent: true
+bibliography: call_susc.bib
+format:
+  #If we need word file of the paper, just remove the #icon
+  #docx: default
+  
+  #If we need html file of the paper, just remove the #icon
+  #html: default
+  pdf:
+    documentclass: article
+    papersize: letter
+    keep-tex: true
+    fig-cap-location: bottom
+    csl: apa_7th.csl
+    biblio-style: apalike
+    bib-humanities: true
+    link-citations: yes
+    urlcolor: blue
+    linkcolor: black 
+    include-in-header: 
+      text: |
+       \usepackage[mathlines]{lineno}
+       \usepackage{textcomp}
+       \usepackage{geometry} 
+       \usepackage[english]{babel}
+       \usepackage{inputenc} 
+       \usepackage{amsfonts}
+       \usepackage{amsmath}
+       \usepackage{amssymb}
+       \usepackage{amstext}
+       \usepackage{array}
+       \usepackage{arydshln}
+       \usepackage{booktabs}
+       \usepackage{boxedminipage}
+       \usepackage{caption}
+       \usepackage{csquotes}
+       \usepackage{caption}
+       \usepackage{colortbl}
+       \usepackage{dcolumn}
+       \usepackage{enumerate}
+       \usepackage{epsfig}
+       \usepackage{epstopdf}
+       \usepackage{gensymb}
+       \usepackage{graphicx}
+       \usepackage{float}
+       \usepackage{indentfirst}
+       \usepackage{latexsym}
+       \usepackage{longtable}
+       \usepackage{makecell}
+       \usepackage{multirow}
+       \usepackage[comma]{natbib}
+       \usepackage{oldgerm}
+       \usepackage{pdflscape}
+       \usepackage{rotating}
+       \usepackage{setspace}
+       \usepackage{siunitx}
+       \usepackage{tabu}
+       \usepackage{tabularx}
+       \usepackage{threeparttable}
+       \usepackage{times}
+       \usepackage[normalem]{ulem}
+       \usepackage{url}
+       \usepackage{wrapfig}
+       \usepackage{xcolor}
+       \usepackage[intoc]{nomencl}
+       \DeclareSIUnit{\ft}{ft}
+       \DeclareSIUnit{\month}{month}
+       \DeclareSIUnit{\mph}{mph}
+       \newtheorem{D}{Definition}[section]
+       \newtheorem{Ex}{Example}[section]
+       \newtheorem{Prop}{Proposition}%[section]
+       \newtheorem{C}{Claim}
+       \newtheorem{ST}{Stylized Fact}
+       \newtheorem{CO}{Corollary}%[section]
+       \newtheorem{A}{Assumption}%[section]
+       \newtheorem{Hy}{Hypothesis}%[section]
+       \newtheorem{RQ}{Research question}%[section]
+       \newtheorem{lem}{Lemma}%[section]
+       \newtheorem{T}{Theorem}[section]
+       \newtheorem{RE}{Result}%[section]
+       \DeclareMathOperator*{\argmax}{arg\,max}
+       \newcommand{\Cov}{\mathrm{Cov}}
+       \newcommand{\Prob}{\mathrm{Prob}}
+editor: 
+  markdown: 
+    wrap: sentence
+---
+</code></pre>
 </div>
-<div id="gnu-emacs" class="section level1">
-<h1>3. GNU Emacs</h1>
-<p>Download <a href="https://www.gnu.org/software/emacs/">GNU
-Emacs</a></p>
 </div>
-<div id="bibliographic-manager" class="section level1">
-<h1>4. Bibliographic manager</h1>
-<div id="zotero" class="section level4">
-<h4>4.1 Zotero</h4>
+<div id="zotero" class="section level1">
+<h1>3. Zotero</h1>
 <p>Download <a href="https://www.zotero.org/">Zotero</a></p>
 <p><strong>Zotero with Quarto and RMarkdown</strong></p>
 <ol style="list-style-type: decimal">
@@ -514,15 +614,10 @@ changed. Just right-click on the collection in Zotero and choose Export
 Collection.</p></li>
 </ol>
 </div>
-<div id="jabref" class="section level4">
-<h4>4.2 JabRef</h4>
-<p>Download <a href="https://www.jabref.org/">JabRef</a></p>
-</div>
-</div>
 <div id="ubuntu-and-fedora-proxy" class="section level1">
-<h1>5. Ubuntu and Fedora proxy</h1>
+<h1>4. Ubuntu and Fedora proxy</h1>
 <div id="proxy-for-ubuntu" class="section level4">
-<h4>5.1 Proxy for Ubuntu</h4>
+<h4>4.1 Proxy for Ubuntu</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables)</p>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
@@ -553,7 +648,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 <div id="proxy-for-fedora" class="section level4">
-<h4>5.2 Proxy for Fedora</h4>
+<h4>4.2 Proxy for Fedora</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables for
 system wide)</p>

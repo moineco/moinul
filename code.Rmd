@@ -79,12 +79,6 @@ Packages based on the requirements are listed:
 
 #### 2.1. Data science
 
-1.  tidyverse
-
-```{txt}
- install.packages("tidyverse")
-```
-
 ```{txt}
  library(tidyverse)
 ```
@@ -93,13 +87,120 @@ Packages based on the requirements are listed:
 
 #### 2.3 Geoeconomics
 
-# 3. GNU Emacs
+#### 2.4 Manuscript
 
-Download [GNU Emacs](https://www.gnu.org/software/emacs/)
+yml is as below:
+```{text}
+---
+title: Paper title
+author: | 
+  |   X $^{a,b,c}$*
+  |
+  |   Y $^{c,d}$
+  | 
+  |
+  |   $^a$ Graduate School of E
+  |
+  |   $^b$ Research Institute for D
+  |
+  |   $^c$ U Institute
+  |
+  |   $^d$ School of M
+  |
+  |   * corresponding author
+#date: "`r format(Sys.time(), '%d %B, %Y')`"
+geometry: "left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm"
+indent: true
+bibliography: call_susc.bib
+format:
+  #If we need word file of the paper, just remove the #icon
+  #docx: default
+  
+  #If we need html file of the paper, just remove the #icon
+  #html: default
+  pdf:
+    documentclass: article
+    papersize: letter
+    keep-tex: true
+    fig-cap-location: bottom
+    csl: apa_7th.csl
+    biblio-style: apalike
+    bib-humanities: true
+    link-citations: yes
+    urlcolor: blue
+    linkcolor: black 
+    include-in-header: 
+      text: |
+       \usepackage[mathlines]{lineno}
+       \usepackage{textcomp}
+       \usepackage{geometry} 
+       \usepackage[english]{babel}
+       \usepackage{inputenc} 
+       \usepackage{amsfonts}
+       \usepackage{amsmath}
+       \usepackage{amssymb}
+       \usepackage{amstext}
+       \usepackage{array}
+       \usepackage{arydshln}
+       \usepackage{booktabs}
+       \usepackage{boxedminipage}
+       \usepackage{caption}
+       \usepackage{csquotes}
+       \usepackage{caption}
+       \usepackage{colortbl}
+       \usepackage{dcolumn}
+       \usepackage{enumerate}
+       \usepackage{epsfig}
+       \usepackage{epstopdf}
+       \usepackage{gensymb}
+       \usepackage{graphicx}
+       \usepackage{float}
+       \usepackage{indentfirst}
+       \usepackage{latexsym}
+       \usepackage{longtable}
+       \usepackage{makecell}
+       \usepackage{multirow}
+       \usepackage[comma]{natbib}
+       \usepackage{oldgerm}
+       \usepackage{pdflscape}
+       \usepackage{rotating}
+       \usepackage{setspace}
+       \usepackage{siunitx}
+       \usepackage{tabu}
+       \usepackage{tabularx}
+       \usepackage{threeparttable}
+       \usepackage{times}
+       \usepackage[normalem]{ulem}
+       \usepackage{url}
+       \usepackage{wrapfig}
+       \usepackage{xcolor}
+       \usepackage[intoc]{nomencl}
+       \DeclareSIUnit{\ft}{ft}
+       \DeclareSIUnit{\month}{month}
+       \DeclareSIUnit{\mph}{mph}
+       \newtheorem{D}{Definition}[section]
+       \newtheorem{Ex}{Example}[section]
+       \newtheorem{Prop}{Proposition}%[section]
+       \newtheorem{C}{Claim}
+       \newtheorem{ST}{Stylized Fact}
+       \newtheorem{CO}{Corollary}%[section]
+       \newtheorem{A}{Assumption}%[section]
+       \newtheorem{Hy}{Hypothesis}%[section]
+       \newtheorem{RQ}{Research question}%[section]
+       \newtheorem{lem}{Lemma}%[section]
+       \newtheorem{T}{Theorem}[section]
+       \newtheorem{RE}{Result}%[section]
+       \DeclareMathOperator*{\argmax}{arg\,max}
+       \newcommand{\Cov}{\mathrm{Cov}}
+       \newcommand{\Prob}{\mathrm{Prob}}
+editor: 
+  markdown: 
+    wrap: sentence
+---
 
-# 4. Bibliographic manager
+```
 
-#### 4.1 Zotero
+# 3. Zotero
 
 Download [Zotero](https://www.zotero.org/)
 
@@ -139,13 +240,9 @@ c.  Select Install Add-on From File option. Finally navigate to the .xpi file an
 
 15. Use Zotero library in RStudio with rmarkdown **Better BibTeX** offers an easy way to export bibliographic records from Zotero as plain .bib text and keep the file updated once the records are changed. Just right-click on the collection in Zotero and choose Export Collection.
 
-#### 4.2 JabRef
+# 4. Ubuntu and Fedora proxy
 
-Download [JabRef](https://www.jabref.org/)
-
-# 5. Ubuntu and Fedora proxy
-
-#### 5.1 Proxy for Ubuntu
+#### 4.1 Proxy for Ubuntu
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
@@ -214,7 +311,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-#### 5.2 Proxy for Fedora
+#### 4.2 Proxy for Fedora
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
