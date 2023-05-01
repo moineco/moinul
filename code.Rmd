@@ -287,7 +287,7 @@ a.  **ZotFile** (organizes the database of PDFs) and
 
 b.  **Better BibTeX** (exports the library to .bib, we'll use it later with rmarkdown). The plugins for Zotero are .xpi archives. To install the plugins open Zotero and click Tools --\> Add-ons. A separate window for Add-ons manager will pop-up.
 
-c.  Select Install Add-on From File option. Finally navigate to the .xpi file and install.
+c.  Select Install Add-on from **File** option. Finally navigate to the .xpi file and install.
 
 4.  **Zotero preferences**. Let's walk though Zotero Preferences. To edit them click Edit --\> Preferences. A window with several tabs pops up.
 
