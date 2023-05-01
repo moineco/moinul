@@ -201,6 +201,78 @@ editor:
 
 ```
 
+Following is the main body of a manuscript.
+
+You need to remove the # sign in front of the code chunk to run it in Quarto or RMarkdown
+
+```{txt}
+
+Abstract:
+
+Keywords: natural capital accounting; System of Environmental-Economic Accounting (SEEA)
+
+#```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#```
+
+#```{r results='hide', echo=FALSE, include=FALSE}
+# most common R packages for this manuscript
+p_needed <- c("bookdown",
+              "here",
+              "ggthemes",
+              "tidyverse",
+              "readr",
+              "data.table",
+              "kableExtra",
+              "texreg",
+              "knitr",
+              "pander",
+              "mgcv",
+              "stargazer",
+              "summarytools",
+              "reporttools",
+              "DataExplorer",
+              "plm",
+              "rstatix",
+              "ggcorrplot",
+              "mgcViz",
+              "ggpubr",
+              "utils",
+              "memisc",
+              "ggResidpanel",
+              "modelsummary",
+              "lubridate",
+              "bife",
+              "texreg",
+              "descr",
+              "gtsummary",
+              "mfx",
+              "glossaries",
+              "ggplot2"
+)
+#```
+
+#```{=tex}
+\vspace{2mm}
+\pagebreak
+\setcounter{page}{2}
+\tableofcontents
+#```
+#```{=tex}
+\pagebreak
+\doublespacing
+\linenumbers
+#```
+# Introduction
+# Method
+## Study area
+# Results
+# Conclusion
+\newpage
+# References
+```
+
+
 # 3. Zotero
 
 Download [Zotero](https://www.zotero.org/)

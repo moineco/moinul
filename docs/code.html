@@ -540,6 +540,73 @@ editor:
     wrap: sentence
 ---
 </code></pre>
+<p>Following is the main body of a manuscript.</p>
+<p>You need to remove the # sign in front of the code chunk to run it in
+Quarto or RMarkdown</p>
+<pre class="txt"><code>
+Abstract:
+
+Keywords: natural capital accounting; System of Environmental-Economic Accounting (SEEA)
+
+#```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+#```
+
+#```{r results=&#39;hide&#39;, echo=FALSE, include=FALSE}
+# most common R packages for this manuscript
+p_needed &lt;- c(&quot;bookdown&quot;,
+              &quot;here&quot;,
+              &quot;ggthemes&quot;,
+              &quot;tidyverse&quot;,
+              &quot;readr&quot;,
+              &quot;data.table&quot;,
+              &quot;kableExtra&quot;,
+              &quot;texreg&quot;,
+              &quot;knitr&quot;,
+              &quot;pander&quot;,
+              &quot;mgcv&quot;,
+              &quot;stargazer&quot;,
+              &quot;summarytools&quot;,
+              &quot;reporttools&quot;,
+              &quot;DataExplorer&quot;,
+              &quot;plm&quot;,
+              &quot;rstatix&quot;,
+              &quot;ggcorrplot&quot;,
+              &quot;mgcViz&quot;,
+              &quot;ggpubr&quot;,
+              &quot;utils&quot;,
+              &quot;memisc&quot;,
+              &quot;ggResidpanel&quot;,
+              &quot;modelsummary&quot;,
+              &quot;lubridate&quot;,
+              &quot;bife&quot;,
+              &quot;texreg&quot;,
+              &quot;descr&quot;,
+              &quot;gtsummary&quot;,
+              &quot;mfx&quot;,
+              &quot;glossaries&quot;,
+              &quot;ggplot2&quot;
+)
+#```
+
+#```{=tex}
+\vspace{2mm}
+\pagebreak
+\setcounter{page}{2}
+\tableofcontents
+#```
+#```{=tex}
+\pagebreak
+\doublespacing
+\linenumbers
+#```
+# Introduction
+# Method
+## Study area
+# Results
+# Conclusion
+\newpage
+# References</code></pre>
 </div>
 </div>
 <div id="zotero" class="section level1">
