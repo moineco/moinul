@@ -89,7 +89,8 @@ Packages based on the requirements are listed:
 
 #### 2.4 Manuscript
 
-yml is as below:
+Your quarto or rmarkdown yaml:
+
 ```{text}
 ---
 title: Paper title
@@ -111,7 +112,7 @@ author: |
 #date: "`r format(Sys.time(), '%d %B, %Y')`"
 geometry: "left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm"
 indent: true
-bibliography: call_susc.bib
+bibliography: ref.bib
 format:
   #If we need word file of the paper, just remove the #icon
   #docx: default
