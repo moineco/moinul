@@ -247,8 +247,7 @@ p_needed <- c("bookdown",
               "descr",
               "gtsummary",
               "mfx",
-              "glossaries",
-              "ggplot2"
+              "glossaries"
 )
 #```
 
