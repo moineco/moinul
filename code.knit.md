@@ -10,9 +10,7 @@ output:
     #code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 # 1. Python
 
@@ -28,7 +26,8 @@ To upload the oTree application in a cloud server like Heroku is an important st
 
 3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
 
-```{txt}
+
+```txt
 brew tap heroku/brew && brew install heroku
 ```
 
@@ -38,20 +37,23 @@ New...\> Create New App
 
 5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
 
-```{txt}
+
+```txt
 cd appname
 ```
 
 6.  Proxy settings if necessary Sometime institutional networks (e.g.; universit, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
 
-```{txt}
+
+```txt
 export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
 7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
 
-```{txt}
+
+```txt
 heroku login
 git init
 git add .
@@ -79,7 +81,8 @@ Packages based on the requirements are listed:
 
 #### 2.1. Data science
 
-```{txt}
+
+```txt
  library(tidyverse)
 ```
 
@@ -91,7 +94,8 @@ Packages based on the requirements are listed:
 
 Your quarto or rmarkdown yaml:
 
-```{text}
+
+```text
 ---
 title: Paper title
 author: | 
@@ -205,7 +209,8 @@ Following is the main body of a manuscript.
 
 You need to remove the \# sign in front of the code chunk to run it in Quarto or RMarkdown
 
-```{txt}
+
+```txt
 
 Abstract:
 
@@ -303,7 +308,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 7.  Set your **Base directory** inside your Dropbox 
 
-```{txt}
+
+```txt
 /Users/Owner/Dropbox/zotero_library
 ```
 
@@ -311,7 +317,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 9.  The most important option here is to define the rules for creating citation keys. There are almost infinite number of ways one can define these keys (check the manual). My personal choice is a key consists of the **first author's name_publication year**.
 
-```{txt}
+
+```txt
 [auth:capitalize]'_'[year]
 ```
 
@@ -321,7 +328,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 The first is the default location of the files downloaded by your browser. This option tells ZotFile where to look for the PDFs to process when you import a paper from the publisher's website. 
 
-```{txt}
+
+```txt
 /Users/Owner/Downloads
 ```
 
@@ -329,7 +337,8 @@ The second path leads to the local directory created for the full-text PDFs, the
 
 12. For the second path, set your **Custom Location** inside your Dropbox. 
 
-```{txt}
+
+```txt
 /Users/Owner/Dropbox/zotero_library/AUTH
 ```
 
@@ -343,17 +352,20 @@ The second path leads to the local directory created for the full-text PDFs, the
 
 #### 4.1 Proxy for Ubuntu
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/profile.d/proxy.sh
 ```
 
 Create new (set proxy settings to the environment variables)
 
-```{txt}
+
+```txt
 MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
-```{txt}
+
+```txt
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
 FTP_PROXY=$MY_PROXY_URL
@@ -362,23 +374,27 @@ https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 ```
 
-```{txt}
+
+```txt
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
-```{txt}
+
+```txt
 @client:~# sudo source /etc/profile.d/proxy.sh
 ```
 
 It is possible to set proxy settings for each application, not System wide for apt
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/apt/apt.conf
 ```
 
 Create new
 
-```{txt}
+
+```txt
 Acquire::http::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::https::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
@@ -386,25 +402,29 @@ Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
 
 For curl
 
-```{txt}
+
+```txt
 @client ~]# sudo nano ~/.curlrc
 ```
 
 Create new
 
-```{txt}
+
+```txt
 proxy=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
 For wget
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/wgetrc
 ```
 
 Add to the end
 
-```{txt}
+
+```txt
 http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
@@ -412,17 +432,20 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 
 #### 4.2 Proxy for Fedora
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/profile.d/proxy.sh
 ```
 
 Create new (set proxy settings to the environment variables for system wide)
 
-```{txt}
+
+```txt
 MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
-```{txt}
+
+```txt
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
 FTP_PROXY=$MY_PROXY_URL
@@ -431,23 +454,27 @@ https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 ```
 
-```{txt}
+
+```txt
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
-```{txt}
+
+```txt
 @client:~# sudo source /etc/profile.d/proxy.sh
 ```
 
 Or it is possible to set proxy settings for each application, not system wide for dnf
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/dnf/dnf.conf
 ```
 
 Create new
 
-```{txt}
+
+```txt
 Acquire::http::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::https::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
@@ -455,25 +482,29 @@ Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
 
 For curl
 
-```{txt}
+
+```txt
 @client ~]# sudo nano ~/.curlrc
 ```
 
 Create new
 
-```{txt}
+
+```txt
 proxy=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
 For wget
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/wgetrc
 ```
 
 Add to the end
 
-```{txt}
+
+```txt
 http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128

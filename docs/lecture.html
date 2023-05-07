@@ -13,7 +13,7 @@
 
 <title>Lecture</title>
 
-<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -144,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -181,8 +177,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "\e259";
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -190,9 +186,16 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "\e258";
-  font-family: 'Glyphicons Halflings';
+  content: "&#xe258;";
   border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -347,8 +350,8 @@ div.tocify {
 </div>
 
 
-<div id="human-geography-and-economics" class="section level1">
-<h1>1. Human Geography and Economics</h1>
+<div id="human-geography" class="section level1">
+<h1>1. Human Geography</h1>
 <p>[人文地理・経済]</p>
 <div id="lecture-materials-are-available-from-the-following-website"
 class="section level5">
@@ -392,9 +395,8 @@ example 2</p></li>
 </ul>
 </div>
 </div>
-<div id="international-trade-and-international-finance"
-class="section level1">
-<h1>2. International Trade and International Finance</h1>
+<div id="international-trade-and-finance" class="section level1">
+<h1>2. International Trade and Finance</h1>
 <p>[国際貿易・国際金融]</p>
 <div id="lecture-materials-are-available-from-the-following-website-1"
 class="section level5">
@@ -478,10 +480,19 @@ Societies</p></li>
 </ul>
 </div>
 </div>
-<div id="energy-economics-and-energy-policy" class="section level1">
-<h1>4. Energy Economics and Energy Policy</h1>
-<p>[エネルギー経済 . エネルギー政策]</p>
+<div id="development-economics" class="section level1">
+<h1>4. Development Economics</h1>
 <div id="lecture-materials-are-available-from-the-following-website-3"
+class="section level5">
+<h5>Lecture materials are available from the following website:</h5>
+<p>(<a href="https://moineco.github.io/development_economics/"
+class="uri">https://moineco.github.io/development_economics/</a>)</p>
+</div>
+</div>
+<div id="energy-economics-and-policy" class="section level1">
+<h1>5. Energy Economics and Policy</h1>
+<p>[エネルギー経済 . エネルギー政策]</p>
+<div id="lecture-materials-are-available-from-the-following-website-4"
 class="section level5">
 <h5>Lecture materials are available from the following website:</h5>
 <p>(<a href="https://moineco.github.io/energy_economics/"
@@ -521,47 +532,6 @@ Up</p></li>
 </ul>
 </div>
 </div>
-<div id="spatial-econometrics" class="section level1">
-<h1>5. Spatial Econometrics</h1>
-<p>[空間計量経済学]</p>
-<div id="lecture-materials-are-available-from-the-following-website-4"
-class="section level5">
-<h5>Lecture materials are available from the following website:</h5>
-<p>(<a href="https://moineco.github.io/spatial_econometrics/"
-class="uri">https://moineco.github.io/spatial_econometrics/</a>)</p>
-<p>The course contents of spatial econometrics are as below:</p>
-<p><strong>Section 1: Introduction to Spatial Econometrics</strong></p>
-<ul>
-<li><p>Lecture 1: Basics for geographic information systems (GIS) and
-spatial data</p></li>
-<li><p>Lecture 2: Data, spatial classes and basic graphics</p></li>
-<li><p>Lecture 3: Basic operations in the R software</p></li>
-<li><p>Lecture 4: Foundations of spatial microeconometrics
-modeling</p></li>
-</ul>
-<p><strong>Section 2: Spatial Models</strong></p>
-<ul>
-<li><p>Lecture 5: Basic cross-sectional spatial linear models</p></li>
-<li><p>Lecture 6: Non-linear spatial models</p></li>
-<li><p>Lecture 7: The linear regression model with spatial data</p></li>
-<li><p>Lecture 8: Panel data models with spatial data</p></li>
-</ul>
-<p><strong>Section 3: Applied Spatial Statistics and
-Econometrics</strong></p>
-<ul>
-<li><p>Lecture 9: Applied spatial econometrics</p></li>
-<li><p>Lecture 10: Geographically weighted regression</p></li>
-<li><p>Lecture 11: Spatial point pattern analysis</p></li>
-<li><p>Lecture 12: Spatial interpolation</p></li>
-</ul>
-<p><strong>Section 4: Spatial Big data</strong></p>
-<ul>
-<li><p>Lecture 13: Examples of big data applications</p></li>
-<li><p>Lecture 14: Processing of large dataset</p></li>
-<li><p>Lecture 15: Sample analysis of large raster data</p></li>
-</ul>
-</div>
-</div>
 <div id="introductory-econometrics" class="section level1">
 <h1>6. Introductory Econometrics</h1>
 <p>[入門計量経済学]</p>
@@ -591,27 +561,22 @@ squares</p></li>
 </ul>
 </div>
 </div>
-<div id="data-science" class="section level1">
-<h1>7. Data Science</h1>
-<p>[データサイエンス]</p>
+<div id="environmental-science" class="section level1">
+<h1>7. Environmental Science</h1>
 <div id="lecture-materials-are-available-from-the-following-website-5"
 class="section level5">
 <h5>Lecture materials are available from the following website:</h5>
-<p>(<a href="https://moineco.github.io/data_science/"
-class="uri">https://moineco.github.io/data_science/</a>)</p>
-<p><strong>Section 1: Python for data science</strong></p>
+<p>(<a href="https://moineco.github.io/environmental_science/"
+class="uri">https://moineco.github.io/environmental_science/</a>)</p>
 <ul>
-<li><p>Lecture 1: Basic Python</p></li>
-<li><p>Lecture 2: Descriptive statistics</p></li>
+<li><p>Lecture 1: Introduction to environmental science</p></li>
+<li><p>Lecture 2: Statistics</p></li>
 <li><p>Lecture 3: Introductory hypothesis testing and statistical
 inference</p></li>
 <li><p>Lecture 4: Linear regression</p></li>
 <li><p>Lecture 5: Data visualization</p></li>
 <li><p>Lecture 6: Clustering methods</p></li>
 <li><p>Lecture 7: Network analysis</p></li>
-</ul>
-<p><strong>Section 2: R for data science</strong></p>
-<ul>
 <li><p>Lecture 8: Basic R</p></li>
 <li><p>Lecture 9: Ethics of big data</p></li>
 <li><p>Lecture 10: Machine learning</p></li>
@@ -623,14 +588,14 @@ inference</p></li>
 </ul>
 </div>
 </div>
-<div id="behavioral-experiment" class="section level1">
-<h1>8. Behavioral Experiment</h1>
+<div id="social-experiment" class="section level1">
+<h1>8. Social Experiment</h1>
 <p>[行動実験]</p>
 <div id="lecture-materials-are-available-from-the-following-website-6"
 class="section level5">
 <h5>Lecture materials are available from the following website:</h5>
-<p>(<a href="https://moineco.github.io/otree_social_experiment/"
-class="uri">https://moineco.github.io/otree_social_experiment/</a>)</p>
+<p>(<a href="https://moineco.github.io/social_experiment/"
+class="uri">https://moineco.github.io/social_experiment/</a>)</p>
 <ul>
 <li><p>Lecture 1: Installation and environments</p></li>
 <li><p>Lecture 2: Structure of an oTree project</p></li>

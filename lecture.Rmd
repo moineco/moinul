@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# 1. Human Geography and Economics 
+# 1. Human Geography 
 [人文地理・経済]
 
 ##### Lecture materials are available from the following website:
@@ -59,7 +59,7 @@ The course contents of "Human Geography and Economics" are as below:
 - Lecture 15: GIS to solving real world problems using global example 2
 
 
-# 2. International Trade and International Finance 
+# 2. International Trade and Finance 
 [国際貿易・国際金融]
 
 ##### Lecture materials are available from the following website:
@@ -152,7 +152,12 @@ The course contents of future design are as below:
 
 - Lecture 15: Cooperate with Future People
 
-# 4. Energy Economics and Energy Policy 
+# 4. Development Economics
+
+##### Lecture materials are available from the following website:
+(https://moineco.github.io/development_economics/)
+
+# 5. Energy Economics and Policy 
 [エネルギー経済 . エネルギー政策]
 
 ##### Lecture materials are available from the following website:
@@ -199,53 +204,6 @@ The course contents of energy economics and energy policy are as below:
 
 - Lecture 15: Unintended Policy Consequences & Course Wrap Up
 
-# 5. Spatial Econometrics 
-[空間計量経済学]
-
-##### Lecture materials are available from the following website:
-
-(https://moineco.github.io/spatial_econometrics/)
-
-The course contents of spatial econometrics are as below:
-
-**Section 1: Introduction to Spatial Econometrics**
-
-- Lecture 1: Basics for geographic information systems (GIS) and spatial data
-
-- Lecture 2: Data, spatial classes and basic graphics
-
-- Lecture 3: Basic operations in the R software
-
-- Lecture 4: Foundations of spatial microeconometrics modeling
-
-**Section 2: Spatial Models**
-
-- Lecture 5: Basic cross-sectional spatial linear models
-
-- Lecture 6: Non-linear spatial models
-
-- Lecture 7: The linear regression model with spatial data
-
-- Lecture 8: Panel data models with spatial data
-
-**Section 3: Applied Spatial Statistics and Econometrics**
-
-- Lecture 9: Applied spatial econometrics
-
-- Lecture 10: Geographically weighted regression
-
-- Lecture 11: Spatial point pattern analysis 
-
-- Lecture 12: Spatial interpolation
-
-**Section 4: Spatial Big data**
-
-- Lecture 13: Examples of big data applications
-
-- Lecture 14: Processing of large dataset
-
-- Lecture 15: Sample analysis of large raster data
-
 # 6. Introductory Econometrics 
 [入門計量経済学]
 
@@ -282,17 +240,14 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
-# 7. Data Science 
-[データサイエンス]
+# 7. Environmental Science 
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/data_science/)
+(https://moineco.github.io/environmental_science/)
 
-**Section 1: Python for data science**
+- Lecture 1: Introduction to environmental science
 
-- Lecture 1: Basic Python
-
-- Lecture 2: Descriptive statistics
+- Lecture 2: Statistics
 
 - Lecture 3: Introductory hypothesis testing and statistical inference
 
@@ -303,8 +258,6 @@ The course contents of spatial econometrics are as below:
 - Lecture 6: Clustering methods
 
 - Lecture 7: Network analysis
-
-**Section 2: R for data science**
 
 - Lecture 8: Basic R
 
@@ -322,11 +275,11 @@ The course contents of spatial econometrics are as below:
 
 - Lecture 15: Causality and Experiments 3
 
-# 8. Behavioral Experiment 
+# 8. Social Experiment 
 [行動実験]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/otree_social_experiment/)
+(https://moineco.github.io/social_experiment/)
 
 - Lecture 1: Installation and environments
 
