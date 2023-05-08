@@ -419,19 +419,8 @@ R. We can install the packages by using the console with the
 a package until you load it with library(). Once you have installed a
 package, you can load it with the <strong>library()</strong>
 function</p>
-<p>Packages based on the requirements are listed:</p>
-<div id="data-science" class="section level4">
-<h4>2.1. Data science</h4>
-<pre class="txt"><code> library(tidyverse)</code></pre>
-</div>
-<div id="econometrics" class="section level4">
-<h4>2.2 Econometrics</h4>
-</div>
-<div id="geoeconomics" class="section level4">
-<h4>2.3 Geoeconomics</h4>
-</div>
-<div id="manuscript" class="section level4">
-<h4>2.4 Manuscript</h4>
+<div id="manuscript-by-using-quarto-or-rmardown" class="section level4">
+<h4>Manuscript by using quarto or rmardown</h4>
 <p>Your quarto or rmarkdown yaml:</p>
 <pre class="text"><code>---
 title: Paper title
@@ -608,8 +597,125 @@ p_needed &lt;- c(&quot;bookdown&quot;,
 # References</code></pre>
 </div>
 </div>
+<div id="latex" class="section level1">
+<h1>3. LaTex</h1>
+<p>For writing an academic manuscript by using Latex, I prefer to use
+GNU Emacs environment. One of the main reason to use Emacs is the
+freedom to customize the codes. It also compatible with Linux (Ubuntu,
+Fedora), MacOS and Windows. So you will be able to create same
+environment of writing your manuscript across the board.</p>
+<div id="for-ubuntu-operating-system" class="section level4">
+<h4>3.1 For Ubuntu operating system</h4>
+<div id="install-texlive-full" class="section level5">
+<h5>3.1.1 Install texlive-full</h5>
+<p><strong>What is <code>texlive-full</code></strong></p>
+<p>The TeX Live software distribution offers a complete TeX system. It
+encompasses programs for typesetting, previewing and printing of TeX
+documents in many different languages, and a large collection of TeX
+macros and font libraries. The distribution also includes extensive
+general documentation about TeX, as well as the documentation
+accompanying the included software packages.</p>
+<p><strong>Install texlive-full Using apt</strong></p>
+<p>We can install <code>texlive-full</code> using <code>apt</code> by
+running the following command:</p>
+<pre><code>sudo apt -y install texlive-full</code></pre>
+</div>
+<div id="install-jabref" class="section level5">
+<h5>3.1.2 Install Jabref</h5>
+<p><strong>What is <code>jabref</code></strong></p>
+<p>JabRef is a graphical Java application for editing BibTeX (.bib)
+databases. JabRef lets you organize your entries into overlapping
+logical groups, and with a single click limit your view to a single
+group or an intersection or union of several groups. You can customize
+the entry information shown in the main window, and sort by any of the
+standard BibTeX fields. JabRef can autogenerate BibTeX keys for your
+entries. JabRef also lets you easily link to PDF or web sources for your
+reference entries. JabRef can import from and export to several formats,
+and you can customize export filters. JabRef can be run as a command
+line application to convert from any import format to any export
+format.</p>
+<p><strong>Install jabref using apt</strong></p>
+<p>We can install <code>jabref</code> using <code>apt</code> by running
+the following command:</p>
+<pre><code>sudo apt -y install jabref</code></pre>
+<p>3.1.3 Install Latexmk</p>
+<p><strong>What is <code>latexmk</code></strong></p>
+<p>Latexmk runs LaTeX the correct number of times to resolve cross
+references, etc; it also runs auxiliary programs (bibtex, makeindex if
+necessary, and dvips and/or a previewer as requested). It has a number
+of other useful capabilities, for example to start a previewer and then
+run LaTeX whenever the source files are updated, so that the previewer
+gives an up-to-date view of the document.</p>
+<p><strong>Install latexmk using apt</strong></p>
+<p>We can install <code>latexmk</code> using <code>apt</code> by running
+the following command:</p>
+<pre><code>sudo apt -y install latexmk</code></pre>
+</div>
+<div id="install-gnu-emacs" class="section level5">
+<h5>3.1.4 Install Gnu Emacs</h5>
+<p><strong>What is <code>Emacs</code></strong></p>
+<p>Emacs is an amazing text editor available on all major operating
+systems from BSD to Linux to macOS and Windows. One of the biggest
+reasons people love Emacs is that it comes loaded with a wide range of
+commands designed for the simplest and the most complex tasks.</p>
+<p><strong>Install emacs using apt</strong></p>
+<p>We can install the <code>emacs-gtk</code> package using
+<code>apt</code> by running the following command:</p>
+<pre><code>sudo apt -y install emacs-gtk</code></pre>
+<p>To operationalize the use of Emacs, we need to confirm that the
+following three files/folder (1) <code>.emacs</code>, (2)
+<code>.latexmkrc</code> and (3) <code>.emacs.d</code> are existing in
+the <code>Home</code> directory of the Ubuntu operating system.</p>
+<div id="customize-.emacs" class="section level6">
+<h6>3.1.4.1 Customize <code>.emacs</code></h6>
+<p>By using your text editor in Ubuntu, create <code>.emacs</code> text
+file. Then you can write the following codes inside this text file:</p>
+<pre><code></code></pre>
+<p>Note: These codes are keep updating by the creator. Please contact
+directly to get the most recent version.</p>
+</div>
+<div id="customize-.latexmkrc" class="section level6">
+<h6>3.1.4.2 Customize <code>.latexmkrc</code></h6>
+<p>By using your text editor in Ubuntu, create <code>.latexmkrc</code>
+text file. Then you can write the following codes inside this text
+file:</p>
+<pre><code>$dvi_previewer = &#39;start xdvi -watchfile 1.5&#39;;
+$ps_previewer  = &#39;start gv --watch&#39;;
+$pdf_previewer = &#39;start evince&#39;;
+
+# Generate pdf using pdflatex (-pdf)
+$pdf_mode = 1;
+
+# Use bibtex if a .bib file exists
+$bibtex_use = 1;
+
+# Define command to compile with pdfsync support and nonstopmode
+$pdflatex = &#39;pdflatex -synctex=1 --interaction=nonstopmode -file-line-error&#39;;
+
+# Continous compiling
+$preview_continuous_mode=1;</code></pre>
+</div>
+<div
+id="load-necessary-packages-listed-on-the-.emacs-file-from-elpamelpagnu-or-from-other-available-repositories."
+class="section level6">
+<h6>3.1.4.3 Load necessary <code>packages</code> listed on the
+<code>.emacs</code> file from ELPA/melpa/GNU or from other available
+repositories.</h6>
+</div>
+<div
+id="check-your-.emacs.d-folder-to-confirm-the-existings-packages-are-fully-operational-or-not."
+class="section level6">
+<h6>3.1.4.4 Check your <code>.emacs.d</code> folder to confirm the
+existings packages are fully operational or not.</h6>
+</div>
+<div id="regulary-update-your-emacs-packages" class="section level6">
+<h6>3.1.4.5 Regulary update your emacs <code>packages</code></h6>
+</div>
+</div>
+</div>
+</div>
 <div id="zotero" class="section level1">
-<h1>3. Zotero</h1>
+<h1>4. Zotero</h1>
 <p>Download <a href="https://www.zotero.org/">Zotero</a></p>
 <p><strong>Zotero with Quarto and RMarkdown</strong></p>
 <ol style="list-style-type: decimal">
@@ -697,9 +803,9 @@ Collection.</p></li>
 </ol>
 </div>
 <div id="ubuntu-and-fedora-proxy" class="section level1">
-<h1>4. Ubuntu and Fedora proxy</h1>
+<h1>5. Ubuntu and Fedora proxy</h1>
 <div id="proxy-for-ubuntu" class="section level4">
-<h4>4.1 Proxy for Ubuntu</h4>
+<h4>5.1 Proxy for Ubuntu</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables)</p>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
@@ -730,7 +836,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 <div id="proxy-for-fedora" class="section level4">
-<h4>4.2 Proxy for Fedora</h4>
+<h4>5.2 Proxy for Fedora</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables for
 system wide)</p>
