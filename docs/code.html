@@ -601,9 +601,9 @@ p_needed &lt;- c(&quot;bookdown&quot;,
 <h1>3. LaTex</h1>
 <p>For writing an academic manuscript by using Latex, I prefer to use
 GNU Emacs environment. One of the main reason to use Emacs is the
-freedom to customize the codes. It also compatible with Linux (Ubuntu,
-Fedora), MacOS and Windows. So you will be able to create same
-environment of writing your manuscript across the board.</p>
+freedom to customize the codes. It is compatible with Linux (Ubuntu,
+Fedora), MacOS and Windows. So I can create same environment of writing
+my manuscript across the board.</p>
 <div id="for-ubuntu-operating-system" class="section level4">
 <h4>3.1 For Ubuntu operating system</h4>
 <div id="install-texlive-full" class="section level5">
@@ -628,7 +628,7 @@ databases. JabRef lets you organize your entries into overlapping
 logical groups, and with a single click limit your view to a single
 group or an intersection or union of several groups. You can customize
 the entry information shown in the main window, and sort by any of the
-standard BibTeX fields. JabRef can autogenerate BibTeX keys for your
+standard BibTeX fields. JabRef can auto-generate BibTeX keys for your
 entries. JabRef also lets you easily link to PDF or web sources for your
 reference entries. JabRef can import from and export to several formats,
 and you can customize export filters. JabRef can be run as a command
@@ -662,23 +662,18 @@ commands designed for the simplest and the most complex tasks.</p>
 <p>We can install the <code>emacs-gtk</code> package using
 <code>apt</code> by running the following command:</p>
 <pre><code>sudo apt -y install emacs-gtk</code></pre>
-<p>To operationalize the use of Emacs, we need to confirm that the
+<ul>
+<li><p>To operational use of Emacs, we need to confirm that the
 following three files/folder (1) <code>.emacs</code>, (2)
 <code>.latexmkrc</code> and (3) <code>.emacs.d</code> are existing in
-the <code>Home</code> directory of the Ubuntu operating system.</p>
-<div id="customize-.emacs" class="section level6">
-<h6>3.1.4.1 Customize <code>.emacs</code></h6>
-<p>By using your text editor in Ubuntu, create <code>.emacs</code> text
-file. Then you can write the following codes inside this text file:</p>
-<pre><code></code></pre>
-<p>Note: These codes are keep updating by the creator. Please contact
-directly to get the most recent version.</p>
-</div>
-<div id="customize-.latexmkrc" class="section level6">
-<h6>3.1.4.2 Customize <code>.latexmkrc</code></h6>
-<p>By using your text editor in Ubuntu, create <code>.latexmkrc</code>
-text file. Then you can write the following codes inside this text
-file:</p>
+the <code>Home</code> directory of the Ubuntu operating system.</p></li>
+<li><p>Customize <code>.emacs</code>. By using your text editor in
+Ubuntu, create <code>.emacs</code> text file. Then you can write your
+customize codes inside this text file.</p></li>
+<li><p>Customize <code>.latexmkrc</code>. By using your text editor in
+Ubuntu, create <code>.latexmkrc</code> text file. Then you can write the
+following codes inside this text file:</p></li>
+</ul>
 <pre><code>$dvi_previewer = &#39;start xdvi -watchfile 1.5&#39;;
 $ps_previewer  = &#39;start gv --watch&#39;;
 $pdf_previewer = &#39;start evince&#39;;
@@ -694,23 +689,14 @@ $pdflatex = &#39;pdflatex -synctex=1 --interaction=nonstopmode -file-line-error&
 
 # Continous compiling
 $preview_continuous_mode=1;</code></pre>
-</div>
-<div
-id="load-necessary-packages-listed-on-the-.emacs-file-from-elpamelpagnu-or-from-other-available-repositories."
-class="section level6">
-<h6>3.1.4.3 Load necessary <code>packages</code> listed on the
+<ul>
+<li><p>Load necessary <code>packages</code> listed on the
 <code>.emacs</code> file from ELPA/melpa/GNU or from other available
-repositories.</h6>
-</div>
-<div
-id="check-your-.emacs.d-folder-to-confirm-the-existings-packages-are-fully-operational-or-not."
-class="section level6">
-<h6>3.1.4.4 Check your <code>.emacs.d</code> folder to confirm the
-existings packages are fully operational or not.</h6>
-</div>
-<div id="regulary-update-your-emacs-packages" class="section level6">
-<h6>3.1.4.5 Regulary update your emacs <code>packages</code></h6>
-</div>
+repositories.</p></li>
+<li><p>Check your <code>.emacs.d</code> folder to confirm the existing
+packages are fully operational or not.</p></li>
+<li><p>Regularly update your emacs <code>packages</code></p></li>
+</ul>
 </div>
 </div>
 </div>

@@ -261,7 +261,7 @@ p_needed <- c("bookdown",
 
 # 3. LaTex
 
-For writing an academic manuscript by using Latex, I prefer to use GNU Emacs environment. One of the main reason to use Emacs is the freedom to customize the codes. It also compatible with Linux (Ubuntu, Fedora), MacOS and Windows. So you will be able to create same environment of writing your manuscript across the board.
+For writing an academic manuscript by using Latex, I prefer to use GNU Emacs environment. One of the main reason to use Emacs is the freedom to customize the codes. It is compatible with Linux (Ubuntu, Fedora), MacOS and Windows. So I can create same environment of writing my manuscript across the board.
 
 #### 3.1 For Ubuntu operating system
 
@@ -283,7 +283,7 @@ sudo apt -y install texlive-full
 
 **What is `jabref`**
 
-JabRef is a graphical Java application for editing BibTeX (.bib) databases. JabRef lets you organize your entries into overlapping logical groups, and with a single click limit your view to a single group or an intersection or union of several groups. You can customize the entry information shown in the main window, and sort by any of the standard BibTeX fields. JabRef can autogenerate BibTeX keys for your entries. JabRef also lets you easily link to PDF or web sources for your reference entries. JabRef can import from and export to several formats, and you can customize export filters. JabRef can be run as a command line application to convert from any import format to any export format.
+JabRef is a graphical Java application for editing BibTeX (.bib) databases. JabRef lets you organize your entries into overlapping logical groups, and with a single click limit your view to a single group or an intersection or union of several groups. You can customize the entry information shown in the main window, and sort by any of the standard BibTeX fields. JabRef can auto-generate BibTeX keys for your entries. JabRef also lets you easily link to PDF or web sources for your reference entries. JabRef can import from and export to several formats, and you can customize export filters. JabRef can be run as a command line application to convert from any import format to any export format.
 
 **Install jabref using apt**
 
@@ -311,31 +311,23 @@ sudo apt -y install latexmk
 
 **What is `Emacs`**
 
-Emacs is an amazing text editor available on all major operating systems from BSD to Linux to macOS and Windows. One of the biggest reasons people love Emacs is that it comes loaded with a wide range of commands designed for the simplest and the most complex tasks.  
+Emacs is an amazing text editor available on all major operating systems from BSD to Linux to macOS and Windows. One of the biggest reasons people love Emacs is that it comes loaded with a wide range of commands designed for the simplest and the most complex tasks.
 
 **Install emacs using apt**
 
 We can install the `emacs-gtk` package using `apt` by running the following command:
 
-```
+```         
 sudo apt -y install emacs-gtk
 ```
 
-To operationalize the use of Emacs, we need to confirm that the following three files/folder (1) `.emacs`, (2) `.latexmkrc` and (3) `.emacs.d`  are existing in the `Home` directory of the Ubuntu operating system.
+-   To operational use of Emacs, we need to confirm that the following three files/folder (1) `.emacs`, (2) `.latexmkrc` and (3) `.emacs.d` are existing in the `Home` directory of the Ubuntu operating system.
 
-###### 3.1.4.1 Customize `.emacs`
+-   Customize `.emacs`. By using your text editor in Ubuntu, create `.emacs` text file. Then you can write your customize codes inside this text file.
 
-By using your text editor in Ubuntu, create `.emacs` text file. Then you can write the following codes inside this text file:
+-   Customize `.latexmkrc`. By using your text editor in Ubuntu, create `.latexmkrc` text file. Then you can write the following codes inside this text file:
 
-```
-```
-Note: These codes are keep updating by the creator. Please contact directly to get the most recent version.
-
-###### 3.1.4.2 Customize `.latexmkrc`
-
-By using your text editor in Ubuntu, create `.latexmkrc` text file. Then you can write the following codes inside this text file:
-
-```
+```         
 $dvi_previewer = 'start xdvi -watchfile 1.5';
 $ps_previewer  = 'start gv --watch';
 $pdf_previewer = 'start evince';
@@ -353,11 +345,11 @@ $pdflatex = 'pdflatex -synctex=1 --interaction=nonstopmode -file-line-error';
 $preview_continuous_mode=1;
 ```
 
-###### 3.1.4.3 Load necessary `packages` listed on the `.emacs` file from ELPA/melpa/GNU or from other available repositories.
+-   Load necessary `packages` listed on the `.emacs` file from ELPA/melpa/GNU or from other available repositories.
 
-###### 3.1.4.4 Check your `.emacs.d` folder to confirm the existings packages are fully operational or not.
+-   Check your `.emacs.d` folder to confirm the existing packages are fully operational or not.
 
-###### 3.1.4.5 Regulary update your emacs `packages`
+-   Regularly update your emacs `packages`
 
 # 4. Zotero
 
