@@ -13,7 +13,7 @@
 
 <title>Lecture</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -482,11 +479,31 @@ Societies</p></li>
 </div>
 <div id="development-economics" class="section level1">
 <h1>4. Development Economics</h1>
+<p>[開発経済学]</p>
 <div id="lecture-materials-are-available-from-the-following-website-3"
 class="section level5">
 <h5>Lecture materials are available from the following website:</h5>
 <p>(<a href="https://moineco.github.io/development_economics/"
 class="uri">https://moineco.github.io/development_economics/</a>)</p>
+<ul>
+<li><p>Lecture 1: Introduction to Development Economics</p></li>
+<li><p>Lecture 2: Economic Growth and Development_Part A</p></li>
+<li><p>Lecture 3: Economic Growth and Development_Part B</p></li>
+<li><p>Lecture 4: Poverty and Inequality_Regional View</p></li>
+<li><p>Lecture 5: Poverty and Inequality_Global View</p></li>
+<li><p>Lecture 6: Trade and Globalization_Part A</p></li>
+<li><p>Lecture 7: Trade and Globalization_Part B</p></li>
+<li><p>Lecture 8: Foreign Aid and Development</p></li>
+<li><p>Lecture 9: Governance and Institutions</p></li>
+<li><p>Lecture 10: Agriculture and Rural Development</p></li>
+<li><p>Lecture 11: Human Development_Part A</p></li>
+<li><p>Lecture 12: Human Development_Part B</p></li>
+<li><p>Lecture 13: Environment and Sustainable Development_Part
+A</p></li>
+<li><p>Lecture 14: Environment and Sustainable Development_Part
+B</p></li>
+<li><p>Lecture 15: Conclusion</p></li>
+</ul>
 </div>
 </div>
 <div id="energy-economics-and-policy" class="section level1">

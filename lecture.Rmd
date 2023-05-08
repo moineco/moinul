@@ -153,9 +153,40 @@ The course contents of future design are as below:
 - Lecture 15: Cooperate with Future People
 
 # 4. Development Economics
+[開発経済学]
 
 ##### Lecture materials are available from the following website:
 (https://moineco.github.io/development_economics/)
+
+- Lecture 1: Introduction to Development Economics
+
+- Lecture 2: Economic Growth and Development_Part A
+
+- Lecture 3: Economic Growth and Development_Part B
+
+- Lecture 4: Poverty and Inequality_Regional View
+
+- Lecture 5: Poverty and Inequality_Global View
+
+- Lecture 6: Trade and Globalization_Part A
+
+- Lecture 7: Trade and Globalization_Part B
+
+- Lecture 8: Foreign Aid and Development
+
+- Lecture 9: Governance and Institutions
+
+- Lecture 10: Agriculture and Rural Development
+
+- Lecture 11: Human Development_Part A
+
+- Lecture 12: Human Development_Part B
+
+- Lecture 13: Environment and Sustainable Development_Part A
+
+- Lecture 14: Environment and Sustainable Development_Part B
+
+- Lecture 15: Conclusion
 
 # 5. Energy Economics and Policy 
 [エネルギー経済 . エネルギー政策]
