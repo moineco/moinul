@@ -2,6 +2,7 @@
 title: "Programs"
 output: 
  html_document:
+    code_folding: "hide"
     toc: true
     toc_float: true
     collapsed: false
@@ -79,7 +80,7 @@ We will not be able to use the functions, objects, and help files in a package u
 
 Your quarto or rmarkdown yaml:
 
-```{text}
+```{txt}
 ---
 title: Paper title
 author: | 
