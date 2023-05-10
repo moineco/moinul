@@ -26,16 +26,11 @@ University of Technology. I have received my Ph.D. in engineering degree
 from Kyushu University in 2016. My research focuses are:
 
 1.  Development Economics
-2.  Geoeconomics
-3.  Environmental Science
+2.  Environmental Economics
+3.  Sustainability Science
 4.  Energy Policy
 
-I have extensive experience to conduct experimental research by using
-the methods of online experiment, field experiment and laboratory
-experiment. Based on the experimental data analysis, my goal is to
-identify and develop suitable policy framework that will contribute to
-the policies for sustainable economic development. For more details, please check my [**CV**](<https://moineco.github.io/moinul_cv/>). 
-
+For more details, please check my [**CV**](<https://moineco.github.io/moinul_cv/>). 
 **Working experience**
 
 -   2020, Assistant Professor, Research Institute for Future Design,
