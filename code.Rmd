@@ -264,7 +264,7 @@ p_needed <- c("bookdown",
 
 For writing an academic manuscript by using Latex, I prefer to use GNU Emacs environment. One of the main reason to use Emacs is the freedom to customize the codes. It is compatible with Linux (Ubuntu, Fedora), MacOS and Windows. So I can create same environment of writing my manuscript across the board.
 
-#### 3.1 For Ubuntu operating system
+#### 3.1 For Ubuntu/Fedora operating system
 
 ##### 3.1.1 Install texlive-full
 
@@ -274,10 +274,14 @@ The TeX Live software distribution offers a complete TeX system. It encompasses 
 
 **Install texlive-full Using apt**
 
-We can install `texlive-full` using `apt` by running the following command:
+We can install `texlive-full` using `apt` (for Ubuntu) / `dnf` (for Fedora) by running the following command:
 
 ```         
 sudo apt -y install texlive-full
+```
+
+```         
+sudo dnf -y install texlive-full
 ```
 
 ##### 3.1.2 Install Jabref
@@ -288,10 +292,14 @@ JabRef is a graphical Java application for editing BibTeX (.bib) databases. JabR
 
 **Install jabref using apt**
 
-We can install `jabref` using `apt` by running the following command:
+We can install `jabref` using `apt` (for Ubuntu) / `dnf` (for Fedora) by running the following command:
 
 ```         
 sudo apt -y install jabref
+```
+
+```         
+sudo dnf -y install jabref
 ```
 
 ##### 3.1.3 Install Latexmk
@@ -302,10 +310,14 @@ Latexmk runs LaTeX the correct number of times to resolve cross references, etc;
 
 **Install latexmk using apt**
 
-We can install `latexmk` using `apt` by running the following command:
+We can install `latexmk` using `apt` (for Ubuntu) / `dnf` (for Fedora) by running the following command:
 
 ```         
 sudo apt -y install latexmk
+```
+
+```         
+sudo dnf -y install latexmk
 ```
 
 ##### 3.1.4 Install Gnu Emacs
@@ -316,15 +328,21 @@ Emacs is an amazing text editor available on all major operating systems from BS
 
 **Install emacs using apt**
 
-We can install the `emacs-gtk` package using `apt` by running the following command:
+We can install the `emacs-gtk` package using `apt` (for Ubuntu) / `dnf` (for Fedora) by running the following command:
 
 ```         
 sudo apt -y install emacs-gtk
 ```
 
+```         
+sudo dnf -y install emacs-gtk
+```
+
 -   To operational use of Emacs, we need to confirm that the following three files/folder (1) `.emacs`, (2) `.latexmkrc` and (3) `.emacs.d` are existing in the `Home` directory of the Ubuntu operating system.
 
 -   Customize `.emacs`. By using your text editor in Ubuntu, create `.emacs` text file. Then you can write your customize codes inside this text file.
+
+-   Customize `.emacs.d`. All necessary packages should be inside the folder.
 
 -   Customize `.latexmkrc`. By using your text editor in Ubuntu, create `.latexmkrc` text file. Then you can write the following codes inside this text file:
 

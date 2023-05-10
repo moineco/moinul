@@ -616,8 +616,8 @@ GNU Emacs environment. One of the main reason to use Emacs is the
 freedom to customize the codes. It is compatible with Linux (Ubuntu,
 Fedora), MacOS and Windows. So I can create same environment of writing
 my manuscript across the board.</p>
-<div id="for-ubuntu-operating-system" class="section level4">
-<h4>3.1 For Ubuntu operating system</h4>
+<div id="for-ubuntufedora-operating-system" class="section level4">
+<h4>3.1 For Ubuntu/Fedora operating system</h4>
 <div id="install-texlive-full" class="section level5">
 <h5>3.1.1 Install texlive-full</h5>
 <p><strong>What is <code>texlive-full</code></strong></p>
@@ -628,9 +628,11 @@ macros and font libraries. The distribution also includes extensive
 general documentation about TeX, as well as the documentation
 accompanying the included software packages.</p>
 <p><strong>Install texlive-full Using apt</strong></p>
-<p>We can install <code>texlive-full</code> using <code>apt</code> by
-running the following command:</p>
+<p>We can install <code>texlive-full</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
 <pre><code>sudo apt -y install texlive-full</code></pre>
+<pre><code>sudo dnf -y install texlive-full</code></pre>
 </div>
 <div id="install-jabref" class="section level5">
 <h5>3.1.2 Install Jabref</h5>
@@ -647,9 +649,11 @@ and you can customize export filters. JabRef can be run as a command
 line application to convert from any import format to any export
 format.</p>
 <p><strong>Install jabref using apt</strong></p>
-<p>We can install <code>jabref</code> using <code>apt</code> by running
-the following command:</p>
+<p>We can install <code>jabref</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
 <pre><code>sudo apt -y install jabref</code></pre>
+<pre><code>sudo dnf -y install jabref</code></pre>
 </div>
 <div id="install-latexmk" class="section level5">
 <h5>3.1.3 Install Latexmk</h5>
@@ -661,9 +665,11 @@ of other useful capabilities, for example to start a previewer and then
 run LaTeX whenever the source files are updated, so that the previewer
 gives an up-to-date view of the document.</p>
 <p><strong>Install latexmk using apt</strong></p>
-<p>We can install <code>latexmk</code> using <code>apt</code> by running
-the following command:</p>
+<p>We can install <code>latexmk</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
 <pre><code>sudo apt -y install latexmk</code></pre>
+<pre><code>sudo dnf -y install latexmk</code></pre>
 </div>
 <div id="install-gnu-emacs" class="section level5">
 <h5>3.1.4 Install Gnu Emacs</h5>
@@ -674,8 +680,10 @@ reasons people love Emacs is that it comes loaded with a wide range of
 commands designed for the simplest and the most complex tasks.</p>
 <p><strong>Install emacs using apt</strong></p>
 <p>We can install the <code>emacs-gtk</code> package using
-<code>apt</code> by running the following command:</p>
+<code>apt</code> (for Ubuntu) / <code>dnf</code> (for Fedora) by running
+the following command:</p>
 <pre><code>sudo apt -y install emacs-gtk</code></pre>
+<pre><code>sudo dnf -y install emacs-gtk</code></pre>
 <ul>
 <li><p>To operational use of Emacs, we need to confirm that the
 following three files/folder (1) <code>.emacs</code>, (2)
@@ -684,6 +692,8 @@ the <code>Home</code> directory of the Ubuntu operating system.</p></li>
 <li><p>Customize <code>.emacs</code>. By using your text editor in
 Ubuntu, create <code>.emacs</code> text file. Then you can write your
 customize codes inside this text file.</p></li>
+<li><p>Customize <code>.emacs.d</code>. All necessary packages should be
+inside the folder.</p></li>
 <li><p>Customize <code>.latexmkrc</code>. By using your text editor in
 Ubuntu, create <code>.latexmkrc</code> text file. Then you can write the
 following codes inside this text file:</p></li>
