@@ -78,7 +78,7 @@ For writing an academic manuscript by using Latex, I prefer to use GNU Emacs env
 
 The TeX Live software distribution offers a complete TeX system. It encompasses programs for typesetting, previewing and printing of TeX documents in many different languages, and a large collection of TeX macros and font libraries. The distribution also includes extensive general documentation about TeX, as well as the documentation accompanying the included software packages.
 
-**Install texlive-full Using apt**
+**Install texlive-full Using apt:**
 
 We can install `texlive-full` using `apt` (for Ubuntu) / `dnf` (for Fedora) by running the following command:
 

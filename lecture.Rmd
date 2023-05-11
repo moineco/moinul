@@ -271,40 +271,41 @@ The course contents of energy economics and energy policy are as below:
 
 - Lecture 15: Simultaneous Equations Models
 
-# 7. Environmental Science 
+# 7. Sustainability Science 
+[持続可能性科学]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/environmental_science/)
+(https://moineco.github.io/sustainability_science/)
 
-- Lecture 1: Introduction to environmental science
+- Lecture 1: The origins of the concept of sustainability science
 
-- Lecture 2: Statistics
+- Lecture 2: Sustainable development and sustainability science; historical overview and long-term trends
 
-- Lecture 3: Introductory hypothesis testing and statistical inference
+- Lecture 3: Ecosystems services, reconciling supply and demand
 
-- Lecture 4: Linear regression
+- Lecture 4: Technology and infrastructure
 
-- Lecture 5: Data visualization
+- Lecture 5: Social-ecological resilience - Tipping points and uncertainty
 
-- Lecture 6: Clustering methods
+- Lecture 6: Populations and Planetary Boundaries: Is the sky falling? 
 
-- Lecture 7: Network analysis
+- Lecture 7: Human capability: Generating knowledge for sustainability
 
-- Lecture 8: Basic R
+- Lecture 8: Trade-offs in components of sustainability
 
-- Lecture 9: Ethics of big data
+- Lecture 9: Institutions and culture
 
-- Lecture 10: Machine learning
+- Lecture 10: Equity and the economy 
 
-- Lecture 11: Bootstrapping
+- Lecture 11: Energy and the economy
 
-- Lecture 12: Data Mining
+- Lecture 12: Ozone-atmosphere and sustainability
 
-- Lecture 13: Causality and Experiments 1
+- Lecture 13: Future design
 
-- Lecture 14: Causality and Experiments 2
+- Lecture 14: Technology, society and policy toward carbon neutrality
 
-- Lecture 15: Causality and Experiments 3
+- Lecture 15: Causality and Experiments 
 
 # 8. Social Experiment 
 [行動実験]
