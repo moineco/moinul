@@ -150,7 +150,7 @@ sudo dnf -y install emacs-gtk
 
 -   Customize `.emacs.d`
 
--   Customize `.latexmkrc` 
+-   Customize `.latexmkrc`
 
 By using your text editor in Ubuntu/Fedora, create `.latexmkrc` text file. Then you can write the following codes inside this text file:
 
@@ -178,7 +178,7 @@ $preview_continuous_mode=1;
 
 -   Regularly update your emacs `packages`.
 
-##### 2.1.5 LaTex environment inside Emacs 
+##### 2.1.5 LaTex environment inside Emacs
 
 # 3. Zotero
 
@@ -246,9 +246,43 @@ The second path leads to the local directory created for the full-text PDFs, the
 
 15. Use Zotero library in RStudio with rmarkdown **Better BibTeX** offers an easy way to export bibliographic records from Zotero as plain .bib text and keep the file updated once the records are changed. Just right-click on the collection in Zotero and choose Export Collection.
 
-# 4. Ubuntu and Fedora proxy
+# 4. Fresh installation of Ubuntu/Fedora
 
-#### 4.1 Proxy for Ubuntu
+##### 4.1 Use `fdisk` command to delete a hard disk partition:
+
+`fdisk` also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. `fdisk` allows you to create a maximum of four primary partitions and the number of logical partition depends on the size of the hard disk you are using. 
+
+1.  **View All Disk Partitions:**
+
+The first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.
+
+```{txt}
+sudo fdisk -l
+```
+
+2.  **View Partition on a Specific Disk:** 
+
+Below command is used to view all disk partitions on device /dev/sda.
+
+```{txt}
+sudo fdisk -l /dev/sda
+```
+
+3.  **Delete a Hard Disk Partition:**
+
+To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sdb. Go to the command menu using following:
+
+```{txt}
+sudo fdisk /dev/sda
+```
+
+- And then type `d` to go to the delete partition menu. It will prompt the partition number you want to delete (type the number).
+
+- Run `w` command to write the changes and reboot the system.
+
+# 5. Ubuntu and Fedora proxy
+
+#### 5.1 Proxy for Ubuntu
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
@@ -317,7 +351,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-#### 4.2 Proxy for Fedora
+#### 5.2 Proxy for Fedora
 
 ```{txt}
 @client:~# sudo nano /etc/profile.d/proxy.sh
