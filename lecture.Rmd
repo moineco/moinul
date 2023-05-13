@@ -14,322 +14,220 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# 1. Human Geography 
+# 1. Human Geography
+
 [人文地理・経済]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/human_geography_economics/)
+
+(<https://moineco.github.io/human_geography_economics/>)
 
 The course contents of "Human Geography and Economics" are as below:
 
 **Section 1: What is Geographic Information System (GIS)?**
 
-- Lecture 1: Introduction to GIS
+-   Lecture 1: Introduction to GIS
 
-- Lecture 2: GIS for Economics (New information provision)
+-   Lecture 2: GIS for Economics (New information provision)
 
-- Lecture 3: GIS for Economics (Geocoding for survey and experiment)
+-   Lecture 3: GIS for Economics (Geocoding for survey and experiment)
 
-- Lecture 4: GIS for Management (Biodiversity)
+-   Lecture 4: GIS for Management (Biodiversity)
 
-- Lecture 5: GIS for Management (Natural resource management)
+-   Lecture 5: GIS for Management (Natural resource management)
 
 **Section 2: What is Geographic Data?**
 
-- Lecture 6: Spatial data collection, storage and management
+-   Lecture 6: Spatial data collection, storage and management
 
-- Lecture 7: Spatial data visualization
+-   Lecture 7: Spatial data visualization
 
-- Lecture 8: Spatial data process
+-   Lecture 8: Spatial data process
 
-- Lecture 9: Spatial data create
+-   Lecture 9: Spatial data create
 
-- Lecture 10: Spatial data analysis
+-   Lecture 10: Spatial data analysis
 
 **Section 3: How Geographic Data Applied in the Study of Real-World Issues?**
 
-- Lecture 11: Social applications of GIS
+-   Lecture 11: Social applications of GIS
 
-- Lecture 12: GIS to solving real world problems using local examples 1
+-   Lecture 12: GIS to solving real world problems using local examples 1
 
-- Lecture 13: GIS to solving real world problems using local examples 2
+-   Lecture 13: GIS to solving real world problems using local examples 2
 
-- Lecture 14: GIS to solving real world problems using global example 1
+-   Lecture 14: GIS to solving real world problems using global example 1
 
-- Lecture 15: GIS to solving real world problems using global example 2
+-   Lecture 15: GIS to solving real world problems using global example 2
 
+# 2. International Trade and Finance
 
-# 2. International Trade and Finance 
 [国際貿易・国際金融]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/international_trade_finance/)
+
+(<https://moineco.github.io/international_trade_finance/>)
 
 The course contents of international trade and finance are as below:
 
 **Section 1: Introduction to International Finance**
 
-- Lecture 1: Basics of International Economics
+-   Lecture 1: Basics of International Economics
 
-- Lecture 2: Introduction to International Trade
+-   Lecture 2: Introduction to International Trade
 
-- Lecture 3: Introduction to International Finance
+-   Lecture 3: Introduction to International Finance
 
-- Lecture 4: International Trade Models
+-   Lecture 4: International Trade Models
 
 **Section 2: International Trade Policy**
 
-- Lecture 5: The instruments of trade policy
+-   Lecture 5: The instruments of trade policy
 
-- Lecture 6: The political economy of trade policy
+-   Lecture 6: The political economy of trade policy
 
-- Lecture 7: Trade policy in developing countries: Part A
+-   Lecture 7: Trade policy in developing countries: Part A
 
-- Lecture 8: Trade policy in developing countries: Part B
+-   Lecture 8: Trade policy in developing countries: Part B
 
 **Section 3: Open-Economy Macroeconomics**
 
-- Lecture 9: Globalization, Trade and the Environment
+-   Lecture 9: Globalization, Trade and the Environment
 
-- Lecture 10: National Income Accounting and the Balance of Payments: Part A
+-   Lecture 10: National Income Accounting and the Balance of Payments: Part A
 
-- Lecture 11: National Income Accounting and the Balance of Payments: Part B
+-   Lecture 11: National Income Accounting and the Balance of Payments: Part B
 
-- Lecture 12: Money, Interest Rates, and Exchange Rates
+-   Lecture 12: Money, Interest Rates, and Exchange Rates
 
 **Section 4: International Macroeconomic Policy**
 
-- Lecture 13: International Monetary Systems
+-   Lecture 13: International Monetary Systems
 
-- Lecture 14: Financial Globalization
+-   Lecture 14: Financial Globalization
 
-- Lecture 15: Developing Countries Growth, Crisis, and Reform
+-   Lecture 15: Developing Countries Growth, Crisis, and Reform
 
-# 3. Future Design 
+# 3. Future Design
+
 [フューチャー・デザイン]
 
 ##### Lecture materials are available from the following website:
 
-(https://moineco.github.io/future_design/)
+(<https://moineco.github.io/future_design/>)
 
 The course contents of future design are as below:
 
 **Section 1: Environmental Economics**
 
-- Lecture 1: Resources, Growth and Sustainability
+-   Lecture 1: Resources, Growth and Sustainability
 
-- Lecture 2: Climate: The Ultimate Resource
+-   Lecture 2: Climate: The Ultimate Resource
 
-- Lecture 3: Renewable Resources
+-   Lecture 3: Renewable Resources
 
-- Lecture 4: Optimal Depletion of Exhaustible Resources
+-   Lecture 4: Optimal Depletion of Exhaustible Resources
 
 **Section 2: Sustainable Development Goals (SDGs)**
 
-- Lecture 5: The Sustainable Development Goals (SDGs)
+-   Lecture 5: The Sustainable Development Goals (SDGs)
 
-- Lecture 6: SDGs: Ambivalences of Global Agenda
+-   Lecture 6: SDGs: Ambivalences of Global Agenda
 
-- Lecture 7: SDGs and Well-Being
+-   Lecture 7: SDGs and Well-Being
 
 **Section 3: Intergenerational Sustainability**
 
-- Lecture 8: Intergenerational Sustainability Dilemma (ISD)
+-   Lecture 8: Intergenerational Sustainability Dilemma (ISD)
 
-- Lecture 9: Perspective of Future Generations
+-   Lecture 9: Perspective of Future Generations
 
-- Lecture 10: Intergenerational Sustainability Dilemma Game (ISDG)
+-   Lecture 10: Intergenerational Sustainability Dilemma Game (ISDG)
 
-- Lecture 11: Future Failures: Disruption of Carbon Cycle and Nitrogen Cycle
+-   Lecture 11: Future Failures: Disruption of Carbon Cycle and Nitrogen Cycle
 
 **Section 4: Future Design**
 
-- Lecture 12: Future Design: Preferences for Sustainability
+-   Lecture 12: Future Design: Preferences for Sustainability
 
-- Lecture 13: Future Design: Sustainable Environments and Societies
+-   Lecture 13: Future Design: Sustainable Environments and Societies
 
-- Lecture 14: Futurability
+-   Lecture 14: Futurability
 
-- Lecture 15: Cooperate with Future People
+-   Lecture 15: Cooperate with Future People
 
 # 4. Development Economics
+
 [開発経済学]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/development_economics/)
 
-- Lecture 1: Introduction to Development Economics
+(<https://moineco.github.io/development_economics/>)
 
-- Lecture 2: Economic Growth and Development_Part A
+-   Lecture 1: Introduction to Development Economics
 
-- Lecture 3: Economic Growth and Development_Part B
+-   Lecture 2: Economic Growth and Development_Part A
 
-- Lecture 4: Poverty and Inequality_Regional View
+-   Lecture 3: Economic Growth and Development_Part B
 
-- Lecture 5: Poverty and Inequality_Global View
+-   Lecture 4: Poverty and Inequality_Regional View
 
-- Lecture 6: Trade and Globalization_Part A
+-   Lecture 5: Poverty and Inequality_Global View
 
-- Lecture 7: Trade and Globalization_Part B
+-   Lecture 6: Trade and Globalization_Part A
 
-- Lecture 8: Foreign Aid and Development
+-   Lecture 7: Trade and Globalization_Part B
 
-- Lecture 9: Governance and Institutions
+-   Lecture 8: Foreign Aid and Development
 
-- Lecture 10: Agriculture and Rural Development
+-   Lecture 9: Governance and Institutions
 
-- Lecture 11: Human Development_Part A
+-   Lecture 10: Agriculture and Rural Development
 
-- Lecture 12: Human Development_Part B
+-   Lecture 11: Human Development_Part A
 
-- Lecture 13: Environment and Sustainable Development_Part A
+-   Lecture 12: Human Development_Part B
 
-- Lecture 14: Environment and Sustainable Development_Part B
+-   Lecture 13: Environment and Sustainable Development_Part A
 
-- Lecture 15: Conclusion
+-   Lecture 14: Environment and Sustainable Development_Part B
 
-# 5. Energy Economics and Policy 
-[エネルギー経済 . エネルギー政策]
+-   Lecture 15: Conclusion
 
-##### Lecture materials are available from the following website:
+# 5. Sustainability Science
 
-(https://moineco.github.io/energy_economics/)
-
-The course contents of energy economics and energy policy are as below:
-
-**Section 1: Energy Economics**
-
-- Lecture 1: Course Introduction & Energy Overview
-
-- Lecture 2: Energy: An Economist’s View
-
-- Lecture 3: Energy Markets, Prices, and Efficiency
-
-- Lecture 4: The Economics of Renewable Energy
-
-- Lecture 5: Energy and Economic Growth
-
-- Lecture 6: Economic Theory of the Mine
-
-**Section 2: Environmental and Natural Resource Economics**
-
-- Lecture 7: Oil and Natural Gas Extraction and Pricing
-
-- Lecture 8: Externalities and Policy Instruments
-
-- Lecture 9: The Benefits and Costs of Environmental Protection
-
-**Section 3: Industrial Ecology**
-
-- Lecture 10: The Changing Landscape for Global Oil Companies
-
-- Lecture 11: Carbon-Neutral Energy Systems
-
-- Lecture 12: Global Energy Disparities
-
-**Section 4: Energy Policy**
-
-- Lecture 13: International Environmental Agreements
-
-- Lecture 14: Energy Efficiency: Puzzle and Policies
-
-- Lecture 15: Unintended Policy Consequences & Course Wrap Up
-
-# 6. Introductory Econometrics 
-[入門計量経済学]
-
-##### Practice materials are available from the following website:
-(https://moineco.github.io/introductory_econometrics/)
-
-- Lecture 1: Nature and scope of Econometrics
-
-- Lecture 2: Statistical Inference
-
-- Lecture 3: The Simple Regression Model
-
-- Lecture 4: Multiple Regression Analysis: Estimation
-
-- Lecture 5: Multiple Regression Analysis: Inference
-
-- Lecture 6: Multiple Regression Analysis: Further Topics
-
-- Lecture 7: Asymptotic properties of OLS
-
-- Lecture 8: Heteroskedasticity
-
-- Lecture 9: Time Series data Modelling Dynamic Processes
-
-- Lecture 10: Autocorrelation
-
-- Lecture 11: Endogeneity – omitted variables, measurement error and simultaneity
-
-- Lecture 12: Instrumental variable estimation and two stage least squares
-
-- Lecture 13: Logit and Probit Models for Binary Response
-
-- Lecture 14: Non Stationary Time Series
-
-- Lecture 15: Simultaneous Equations Models
-
-# 7. Sustainability Science 
 [持続可能性科学]
 
 ##### Lecture materials are available from the following website:
-(https://moineco.github.io/sustainability_science/)
 
-- Lecture 1: The origins of the concept of sustainability science
+(<https://moineco.github.io/sustainability_science/>)
 
-- Lecture 2: Sustainable development and sustainability science; historical overview and long-term trends
+-   Lecture 1: The origins of the concept of sustainability science
 
-- Lecture 3: Ecosystems services, reconciling supply and demand
+-   Lecture 2: Sustainable development and sustainability science; historical overview and long-term trends
 
-- Lecture 4: Technology and infrastructure
+-   Lecture 3: Ecosystems services, reconciling supply and demand
 
-- Lecture 5: Social-ecological resilience - Tipping points and uncertainty
+-   Lecture 4: Technology and infrastructure
 
-- Lecture 6: Populations and Planetary Boundaries: Is the sky falling? 
+-   Lecture 5: Social-ecological resilience - Tipping points and uncertainty
 
-- Lecture 7: Human capability: Generating knowledge for sustainability
+-   Lecture 6: Populations and Planetary Boundaries: Is the sky falling?
 
-- Lecture 8: Trade-offs in components of sustainability
+-   Lecture 7: Human capability: Generating knowledge for sustainability
 
-- Lecture 9: Institutions and culture
+-   Lecture 8: Trade-offs in components of sustainability
 
-- Lecture 10: Equity and the economy 
+-   Lecture 9: Institutions and culture
 
-- Lecture 11: Energy and the economy
+-   Lecture 10: Equity and the economy
 
-- Lecture 12: Ozone-atmosphere and sustainability
+-   Lecture 11: Energy and the economy
 
-- Lecture 13: Future design
+-   Lecture 12: Ozone-atmosphere and sustainability
 
-- Lecture 14: Technology, society and policy toward carbon neutrality
+-   Lecture 13: Future design
 
-- Lecture 15: Causality and Experiments 
+-   Lecture 14: Technology, society and policy toward carbon neutrality
 
-# 8. Social Experiment 
-[行動実験]
-
-##### Lecture materials are available from the following website:
-(https://moineco.github.io/social_experiment/)
-
-- Lecture 1: Installation and environments
-
-- Lecture 2: Structure of an oTree project
-
-- Lecture 3: The building blocks of oTree
-
-- Lecture 4: Pycharm to customize oTree studio project
-
-- Lecture 5: Deploy on Heroku from oTree
-
-- Lecture 6: Models.py
-
-- Lecture 7: Pages.py
-
-- Lecture 8: Template.html
-
-- Lecture 9: Settings.py
-
-- Lecture 10: Questionnaire survey with oTree
-
+-   Lecture 15: Causality and Experiments
