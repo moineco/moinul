@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Programs</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Moinul Islam</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Profile</a>
+</li>
+<li>
+  <a href="journal.html">Research</a>
+</li>
+<li>
+  <a href="lecture.html">Lecture</a>
+</li>
+<li>
+  <a href="code.html">Code</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Programs</h1>
+
+</div>
+
+
+<div id="python" class="section level1">
+<h1>1. Python</h1>
+<p>Download <a href="https://www.python.org/">Python</a></p>
+<div id="deploy-otree-application-to-heroku-server"
+class="section level4">
+<h4>1.1. Deploy oTree application to Heroku server</h4>
+<p>To upload the oTree application in a cloud server like Heroku is an
+important step to conduct the online experiments. Here, I am showing the
+steps that you need to fulfill to upload your application:</p>
+<ol style="list-style-type: decimal">
+<li><p>Make sure your oTree application is working correctly
+locally.</p></li>
+<li><p>Create a Heroku account if you don’t already have one.</p></li>
+<li><p>Install Heroku in your Mac: If you are a Mac user, you can
+install Heroku application from the <strong>homebrew</strong> as
+follows:</p></li>
+</ol>
+<pre class="txt"><code>brew tap heroku/brew &amp;&amp; brew install heroku</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Upload an app in Heroku: To upload your oTree application to Heroku,
+first create an <em>application name</em> inside your Heroku account as
+below:</li>
+</ol>
+<p>New…&gt; Create New App</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Enter to the folder of your Pycharm which contains the application
+you are interested to upload to Heroku server:</li>
+</ol>
+<pre class="txt"><code>cd appname</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Proxy settings if necessary Sometime institutional networks (e.g.;
+universit, office, business) require some additional proxy settings to
+upload an application to Heroku. I am sharing the example of my
+institution.</li>
+</ol>
+<pre class="txt"><code>export http_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;
+export https_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
+<ol start="7" style="list-style-type: decimal">
+<li>Log in to Heroku Now it is time to push your application to your
+Heroku account. To do so, you need to go through the following
+steps.</li>
+</ol>
+<pre class="txt"><code>heroku login
+git init
+git add .
+git commit -am &quot;command message&quot;
+heroku git:remote -a appname
+git push heroku master
+heroku config:set OTREE_PRODUCTION=1</code></pre>
+<p>Your oTree application should now be deployed to your Heroku server.
+You can access it by going to the URL provided by Heroku.</p>
+<p>Note: Sometime due to the inconsistency in version of Python in your
+computer and reported Python version in runtime.txt might be different.
+In that case, you might not be able to rung the oTree program in
+computer. To get rid from it, you can remove the runtime.txt from your
+Pycharm.</p>
+</div>
+</div>
+<div id="latex" class="section level1">
+<h1>2. LaTex</h1>
+<p>For writing an academic manuscript by using Latex, I prefer to use
+GNU Emacs environment. One of the main reason to use Emacs is the
+freedom to customize the codes. It is compatible with Linux (Ubuntu,
+Fedora), MacOS and Windows. So I can create same environment of writing
+my manuscript across the board.</p>
+<div id="for-ubuntufedora-operating-system" class="section level4">
+<h4>2.1 For Ubuntu/Fedora operating system</h4>
+<div id="install-texlive-full" class="section level5">
+<h5>2.1.1 Install texlive-full</h5>
+<p><strong>What is <code>texlive-full</code></strong></p>
+<p>The TeX Live software distribution offers a complete TeX system. It
+encompasses programs for typesetting, previewing and printing of TeX
+documents in many different languages, and a large collection of TeX
+macros and font libraries. The distribution also includes extensive
+general documentation about TeX, as well as the documentation
+accompanying the included software packages.</p>
+<p><strong>Install texlive-full Using apt:</strong></p>
+<p>We can install <code>texlive-full</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
+<pre><code>sudo apt -y install texlive-full</code></pre>
+<pre><code>sudo dnf -y install texlive-full</code></pre>
+</div>
+<div id="install-jabref" class="section level5">
+<h5>2.1.2 Install Jabref</h5>
+<p><strong>What is <code>jabref</code></strong></p>
+<p>JabRef is a graphical Java application for editing BibTeX (.bib)
+databases. JabRef lets you organize your entries into overlapping
+logical groups, and with a single click limit your view to a single
+group or an intersection or union of several groups. You can customize
+the entry information shown in the main window, and sort by any of the
+standard BibTeX fields. JabRef can auto-generate BibTeX keys for your
+entries. JabRef also lets you easily link to PDF or web sources for your
+reference entries. JabRef can import from and export to several formats,
+and you can customize export filters. JabRef can be run as a command
+line application to convert from any import format to any export
+format.</p>
+<p><strong>Install <code>jabref</code> using apt:</strong></p>
+<p>We can install <code>jabref</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
+<pre><code>sudo apt -y install jabref</code></pre>
+<pre><code>sudo dnf -y install jabref</code></pre>
+</div>
+<div id="install-latexmk" class="section level5">
+<h5>2.1.3 Install Latexmk</h5>
+<p><strong>What is <code>latexmk</code></strong></p>
+<p>Latexmk runs LaTeX the correct number of times to resolve cross
+references, etc; it also runs auxiliary programs (bibtex, makeindex if
+necessary, and dvips and/or a previewer as requested). It has a number
+of other useful capabilities, for example to start a previewer and then
+run LaTeX whenever the source files are updated, so that the previewer
+gives an up-to-date view of the document.</p>
+<p><strong>Install <code>latexmk</code> using apt:</strong></p>
+<p>We can install <code>latexmk</code> using <code>apt</code> (for
+Ubuntu) / <code>dnf</code> (for Fedora) by running the following
+command:</p>
+<pre><code>sudo apt -y install latexmk</code></pre>
+<pre><code>sudo dnf -y install latexmk</code></pre>
+</div>
+<div id="install-gnu-emacs" class="section level5">
+<h5>2.1.4 Install Gnu Emacs</h5>
+<p><strong>What is <code>emacs</code></strong></p>
+<p>Emacs is an amazing text editor available on all major operating
+systems from BSD to Linux to macOS and Windows. One of the biggest
+reasons people love Emacs is that it comes loaded with a wide range of
+commands designed for the simplest and the most complex tasks.</p>
+<p><strong>Install <code>emacs</code> using apt:</strong></p>
+<p>We can install the <code>emacs-gtk</code> package using
+<code>apt</code> (for Ubuntu) / <code>dnf</code> (for Fedora) by running
+the following command:</p>
+<pre><code>sudo apt -y install emacs-gtk</code></pre>
+<pre><code>sudo dnf -y install emacs-gtk</code></pre>
+<ul>
+<li><p>To operational use of Emacs, we need to confirm that the
+following three files/folder (1) <code>.emacs</code>, (2)
+<code>.latexmkrc</code> and (3) <code>.emacs.d</code> are existing in
+the <code>Home</code> directory of the Ubuntu/Fedora operating
+system.</p></li>
+<li><p>Customize <code>.emacs</code></p></li>
+<li><p>Customize <code>.emacs.d</code></p></li>
+<li><p>Customize <code>.latexmkrc</code></p></li>
+</ul>
+<p>By using your text editor in Ubuntu/Fedora, create
+<code>.latexmkrc</code> text file. Then you can write the following
+codes inside this text file:</p>
+<pre><code>$dvi_previewer = &#39;start xdvi -watchfile 1.5&#39;;
+$ps_previewer  = &#39;start gv --watch&#39;;
+$pdf_previewer = &#39;start evince&#39;;
+
+# Generate pdf using pdflatex (-pdf)
+$pdf_mode = 1;
+
+# Use bibtex if a .bib file exists
+$bibtex_use = 1;
+
+# Define command to compile with pdfsync support and nonstopmode
+$pdflatex = &#39;pdflatex -synctex=1 --interaction=nonstopmode -file-line-error&#39;;
+
+# Continous compiling
+$preview_continuous_mode=1;</code></pre>
+<ul>
+<li><p>Load necessary <code>packages</code> listed on the
+<code>.emacs</code> file from ELPA/melpa/GNU or from other available
+repositories.</p></li>
+<li><p>Check your <code>.emacs.d</code> folder to confirm the existing
+packages are fully operational or not.</p></li>
+<li><p>Regularly update your emacs <code>packages</code>.</p></li>
+</ul>
+</div>
+<div id="latex-environment-inside-emacs" class="section level5">
+<h5>2.1.5 LaTex environment inside Emacs</h5>
+</div>
+</div>
+</div>
+<div id="zotero" class="section level1">
+<h1>3. Zotero</h1>
+<p>Download <a href="https://www.zotero.org/">Zotero</a></p>
+<p><strong>Zotero with Quarto and RMarkdown</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Create an <strong>account on Zotero</strong> website. It will be
+used later on to sync the database of bibliographic metadata.</p></li>
+<li><p>Download and install the two plugins we’ll need:</p></li>
+</ol>
+<!-- -->
+<ol style="list-style-type: lower-alpha">
+<li><p><strong>ZotFile</strong> (organizes the database of
+PDFs)</p></li>
+<li><p><strong>Better BibTeX</strong> (exports the library to .bib,
+we’ll use it later with rmarkdown).</p></li>
+</ol>
+<p>The plugins for Zotero are .xpi archives. To install the plugins open
+Zotero and click Tools –&gt; Add-ons. A separate window for Add-ons
+manager will pop-up.</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Select Install Add-on from <strong>File</strong> option. Finally
+navigate to the .xpi file and install.</li>
+</ol>
+<!-- -->
+<ol start="4" style="list-style-type: decimal">
+<li><p><strong>Zotero preferences</strong>. Let’s walk though Zotero
+Preferences. To edit them click Edit –&gt; Preferences. A window with
+several tabs pops up.</p></li>
+<li><p><strong>Zotero sync</strong>. Here we need to specify the account
+details to sync our database. It is important to uncheck the option of
+full-text sync otherwise the 300MB storage will quickly get filled.
+We’ll have the solution for full text a bit later.</p></li>
+<li><p><strong>Advanced</strong>. Here we are most interested in the
+sub-tab Files and Folders. This is the most important step to separate
+the storage of metadata and files.</p></li>
+<li><p>Set your <strong>Base directory</strong> inside your
+Dropbox</p></li>
+</ol>
+<pre class="txt"><code>/Users/Owner/Dropbox/zotero_library</code></pre>
+<ol start="8" style="list-style-type: decimal">
+<li><p><strong>Better BibTeX</strong>. This tab appears after we install
+the Better BibTeX extension. The extension is needed to export the whole
+bibliographic library (or some of its parts) as a plain .bib text file.
+This step is needed to use Zotero in RStudio while writing academic
+papers with Quarto and RMarkdown.</p></li>
+<li><p>The most important option here is to define the rules for
+creating citation keys. There are almost infinite number of ways one can
+define these keys (check the manual). My personal choice is a key
+consists of the <strong>first author’s name_publication
+year</strong>.</p></li>
+</ol>
+<pre class="txt"><code>[auth:capitalize]&#39;_&#39;[year]</code></pre>
+<ol start="10" style="list-style-type: decimal">
+<li><p><strong>ZotFile Preferences</strong>. To open the setup window
+click Tools –&gt; ZotFile Preferences. Again, the window has several
+tabs.</p></li>
+<li><p><em>General</em>. Here we define two paths.</p></li>
+</ol>
+<p>The first is the default location of the files downloaded by your
+browser. This option tells ZotFile where to look for the PDFs to process
+when you import a paper from the publisher’s website.</p>
+<pre class="txt"><code>/Users/Owner/Downloads</code></pre>
+<p>The second path leads to the local directory created for the
+full-text PDFs, the one that I named zotero-library and which is synced
+with an external cloud solution of our choice.</p>
+<ol start="12" style="list-style-type: decimal">
+<li>For the second path, set your <strong>Custom Location</strong>
+inside your Dropbox.</li>
+</ol>
+<pre class="txt"><code>/Users/Owner/Dropbox/zotero_library/AUTH</code></pre>
+<ol start="13" style="list-style-type: decimal">
+<li><p>Renaming Rules. Here it’s important to make sure that ZotFile is
+responsible for renaming. Then we define how to rename the PDFs based on
+the bibliographic metadata available. Again, here we have many many
+options. My choice is {%a_}{%y_}{%t} which yields file names
+like.</p></li>
+<li><p>If you parse the metadata manually from a PDF, make sure to
+rename the file using ZotFile. For that right-click the metadata record
+Manage Attachments –&gt; Rename Attachments. This action explicitly
+tells to use ZotFile for renaming and will move the renamed PDF to a
+proper sub-directory.</p></li>
+<li><p>Use Zotero library in RStudio with rmarkdown <strong>Better
+BibTeX</strong> offers an easy way to export bibliographic records from
+Zotero as plain .bib text and keep the file updated once the records are
+changed. Just right-click on the collection in Zotero and choose Export
+Collection.</p></li>
+</ol>
+</div>
+<div id="fresh-installation-of-ubuntufedora" class="section level1">
+<h1>4. Fresh installation of Ubuntu/Fedora</h1>
+<div id="use-fdisk-command-to-delete-a-hard-disk-partition"
+class="section level5">
+<h5>4.1 Use <code>fdisk</code> command to delete a hard disk
+partition:</h5>
+<p><code>fdisk</code> also known as format disk is a dialog-driven
+command in Linux used for creating and manipulating disk partition
+table. It is used for the view, create, delete, change, resize, copy and
+move partitions on a hard drive using the dialog-driven interface.
+<code>fdisk</code> allows you to create a maximum of four primary
+partitions and the number of logical partition depends on the size of
+the hard disk you are using. </p>
+<ol style="list-style-type: decimal">
+<li><strong>View All Disk Partitions:</strong></li>
+</ol>
+<p>The first thing to do before doing any thing with the disks and
+partition is to view basic details about all available partition in the
+system.</p>
+<pre class="txt"><code>sudo fdisk -l</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>View Partition on a Specific Disk:</strong></li>
+</ol>
+<p>Below command is used to view all disk partitions on device
+/dev/sda.</p>
+<pre class="txt"><code>sudo fdisk -l /dev/sda</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Delete a Hard Disk Partition:</strong></li>
+</ol>
+<p>To delete a partition for the hard disk and free up space occupied by
+that partition for example /dev/sdb. Go to the command menu using
+following:</p>
+<pre class="txt"><code>sudo fdisk /dev/sda</code></pre>
+<ul>
+<li><p>And then type <code>d</code> to go to the delete partition menu.
+It will prompt the partition number you want to delete (type the
+number).</p></li>
+<li><p>Run <code>w</code> command to write the changes and reboot the
+system.</p></li>
+</ul>
+</div>
+</div>
+<div id="ubuntu-and-fedora-proxy" class="section level1">
+<h1>5. Ubuntu and Fedora proxy</h1>
+<div id="proxy-for-ubuntu" class="section level4">
+<h4>5.1 Proxy for Ubuntu</h4>
+<pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
+<p>Create new (set proxy settings to the environment variables)</p>
+<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
+<pre class="txt"><code>HTTP_PROXY=$MY_PROXY_URL
+HTTPS_PROXY=$MY_PROXY_URL
+FTP_PROXY=$MY_PROXY_URL
+http_proxy=$MY_PROXY_URL
+https_proxy=$MY_PROXY_URL
+ftp_proxy=$MY_PROXY_URL</code></pre>
+<pre class="txt"><code>export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
+<pre class="txt"><code>@client:~# sudo source /etc/profile.d/proxy.sh</code></pre>
+<p>It is possible to set proxy settings for each application, not System
+wide for apt</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/apt/apt.conf</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
+<p>For curl</p>
+<pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+<p>For wget</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
+<p>Add to the end</p>
+<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
+https_proxy = proxy.noc.kochi-tech.ac.jp:3128
+ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+</div>
+<div id="proxy-for-fedora" class="section level4">
+<h4>5.2 Proxy for Fedora</h4>
+<pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
+<p>Create new (set proxy settings to the environment variables for
+system wide)</p>
+<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
+<pre class="txt"><code>HTTP_PROXY=$MY_PROXY_URL
+HTTPS_PROXY=$MY_PROXY_URL
+FTP_PROXY=$MY_PROXY_URL
+http_proxy=$MY_PROXY_URL
+https_proxy=$MY_PROXY_URL
+ftp_proxy=$MY_PROXY_URL</code></pre>
+<pre class="txt"><code>export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
+<pre class="txt"><code>@client:~# sudo source /etc/profile.d/proxy.sh</code></pre>
+<p>Or it is possible to set proxy settings for each application, not
+system wide for dnf</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/dnf/dnf.conf</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
+Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
+<p>For curl</p>
+<pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
+<p>Create new</p>
+<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+<p>For wget</p>
+<pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
+<p>Add to the end</p>
+<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
+https_proxy = proxy.noc.kochi-tech.ac.jp:3128
+ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
