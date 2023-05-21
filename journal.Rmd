@@ -18,7 +18,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Updated on: `r Sys.Date()`
 
-1. Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*: 16, 431-465. (<http://dx.doi.org/10.1561/101.00000148>)
+1.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*: 16, 431-465. (<http://dx.doi.org/10.1561/101.00000148>)
 
 2.  **Islam, M.**, Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. *Sustainability Science*: 17, 1799-1811. (<https://doi.org/10.1007/s11625-022-01143-w>)
 
@@ -36,7 +36,7 @@ Updated on: `r Sys.Date()`
 
 9.  Simangan, D., Virji, H., Hendrix, C., **Islam, M.**, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. *Sustainability Science*, 16, 1097-1109. (<https://doi.org/10.1007/s11625-021-00970-7>)
 
-10.  Essandoh, O. K., **Islam, M.**, and Kakinaka, M. (2020). Linking international trade and foreign direct investment to CO2 emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
+10. Essandoh, O. K., **Islam, M.**, and Kakinaka, M. (2020). Linking international trade and foreign direct investment to CO2 emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
 
 11. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., **Islam M.**, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. *Journal of Environmental Management*, 264, 110328. (<https://doi.org/10.1016/j.jenvman.2020.110328>)
 
@@ -120,7 +120,7 @@ Updated on: `r Sys.Date()`
 
 1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04-2025/03.
 
-2. Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research (Fostering Joint International Research (B)). Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 – 2027/03.
+2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research (Fostering Joint International Research (B)). Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04-2021/03.
 

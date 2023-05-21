@@ -1,15 +1,17 @@
 ---
-title: ""
-output: 
- html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
-    number_sections: false
+title: ''
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    collapsed: no
+    number_sections: no
     toc_depth: 1
-    #code_folding: hide
-editor_options: 
-  markdown: 
+  pdf_document:
+    toc: yes
+    toc_depth: '1'
+editor_options:
+  markdown:
     wrap: 72
 ---
 
@@ -30,7 +32,9 @@ from Kyushu University in 2016. My research focuses are:
 3.  Sustainability Science
 4.  Energy Policy
 
-For more details, please check my [**CV**](<https://moineco.github.io/moinul_cv/>). 
+For more details, please check:
+
+## [My CV](https://moineco.github.io/moinul_cv/)
 
 **Working experience**
 
@@ -56,9 +60,11 @@ For more details, please check my [**CV**](<https://moineco.github.io/moinul_cv/
 
 **Profile in external websites**
 
+[Web of
+Science](https://www.webofscience.com/wos/author/record/M-9369-2019),
 [Kochi University of
 Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html),
-[Publons](https://publons.com/researcher/4127115/moinul-islam/), [Google
+[Google
 Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400),
 [Research Map](https://researchmap.jp/moinul/?lang=english),
