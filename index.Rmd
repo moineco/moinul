@@ -1,15 +1,15 @@
 ---
 title: ''
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '1'
   html_document:
     toc: yes
     toc_float: yes
     collapsed: no
     number_sections: no
     toc_depth: 1
-  pdf_document:
-    toc: yes
-    toc_depth: '1'
 editor_options:
   markdown:
     wrap: 72
@@ -29,8 +29,8 @@ from Kyushu University in 2016. My research focuses are:
 
 1.  Development Economics
 2.  Environmental Economics
-3.  Sustainability Science
-4.  Energy Policy
+3.  Energy Economics
+4.  Sustainability Science
 
 For more details, please check:
 
