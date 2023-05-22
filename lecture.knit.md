@@ -10,9 +10,7 @@ output:
     #code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
-```
+
 
 # 1. Human Geography and Economics
 
