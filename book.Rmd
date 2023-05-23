@@ -1,0 +1,27 @@
+---
+title: "Book"
+output:
+  html_document:
+    code_folding: hide
+    toc: yes
+    toc_float: yes
+    collapsed: no
+    number_sections: no
+    toc_depth: 1
+  word_document:
+    toc: yes
+    toc_depth: '1'
+  pdf_document:
+    toc: yes
+    toc_depth: '1'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Economics
+
+# Statistics
+
+# Geographic Information System (GIS)
