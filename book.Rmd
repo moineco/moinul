@@ -12,6 +12,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Recommended readings to everyone who is interested about Economics, Data Science and Human Geography.
 
 # Economics
 
@@ -29,10 +30,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 7. Angrist, J. and J. Pischke (2009) Mostly harmless econometrics: An empiricist's companion. Princeton university press
 
-8.  Imai, K. (2017) [Quantitative social science: An introduction](https://press.princeton.edu/books/paperback/9780691175461/quantitative-social-science). Princeton university press
+# Mathmatics
+
+1. Thomas, G., J. Hass, C. Heil and M. Weir (2018) Thomas' calculus. Pearson
+
+2. Rice, J. (2013) Mathematical statistics and data analyis. Cengage learning
 
 # Data Science
 
 1. Wickham, H., and Grolemund, G. (2016). [R for data science: import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
 2. Llaudet, E., and Imai, K. (2022). [Data Analysis for Social Science: A Friendly and Practical Introduction](https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science). Princeton University Press.
+
+3. Imai, K. (2017) [Quantitative social science: An introduction](https://press.princeton.edu/books/paperback/9780691175461/quantitative-social-science). Princeton university press
+
+4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/).
+
+5. Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
+
+# Human Geography
+
+1. Lovelace, R., Nowosad, J., & Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
+
+2. Comber, L., & Brunsdon, C. (2020). Geographical data science and spatial data analysis: an introduction in R. Sage.
+
+3. Kopczewska, K. (2020). Applied spatial statistics and econometrics: data analysis in R. Routledge.
