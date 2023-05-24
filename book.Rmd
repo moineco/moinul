@@ -15,6 +15,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Economics
 
-# Statistics
+1. Mas-Colell, A., M. Whinston and J. Green (1995) Microeconomic theory. Oxford 
 
-# Geographic Information System (GIS)
+2. Sundram, R. (1996) A first course in optimization theory. Cambridge 
+
+3. Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge university press 
+
+4. Gibbons, R. (1992) Game theory for applied economists. Princeton university press 
+
+5. Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage learning 
+
+6. Wooldridge, J. (2010) Econometric analysis of cross section and panel data. MIT press 
+
+7. Angrist, J. and J. Pischke (2009) Mostly harmless econometrics: An empiricist's companion. Princeton university press
+
+8.  Imai, K. (2017) [Quantitative social science: An introduction](https://press.princeton.edu/books/paperback/9780691175461/quantitative-social-science). Princeton university press
+
+# Data Science
+
+1. Wickham, H., and Grolemund, G. (2016). [R for data science: import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
+
+2. Llaudet, E., and Imai, K. (2022). [Data Analysis for Social Science: A Friendly and Practical Introduction](https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science). Princeton University Press.
