@@ -1,12 +1,6 @@
 ---
 title: "Code"
 output:
-  word_document:
-    toc: yes
-    toc_depth: '1'
-  pdf_document:
-    toc: yes
-    toc_depth: '1'
   html_document:
     toc: yes
     toc_float: yes

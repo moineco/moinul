@@ -1,3 +1,0 @@
-\contentsline {section}{Economics}{1}{section*.2}%
-\contentsline {section}{Statistics}{1}{section*.3}%
-\contentsline {section}{Geographic Information System (GIS)}{1}{section*.4}%
