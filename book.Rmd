@@ -48,7 +48,7 @@ Recommended readings to everyone who is interested about Economics, Data Science
 
 5. Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
-# Human Geography
+# Geoeconomics
 
 1. Lovelace, R., Nowosad, J., & Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
