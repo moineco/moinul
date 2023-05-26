@@ -178,6 +178,8 @@ $preview_continuous_mode=1;
 
 ##### 2.1.5 LaTex environment inside Emacs
 
+-  Please contact me to get detailed instruction.
+
 # 3. Zotero
 
 Download [Zotero](https://www.zotero.org/)

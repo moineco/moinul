@@ -230,3 +230,49 @@ The course contents of future design are as below:
 -   Lecture 14: Technology, society and policy toward carbon neutrality
 
 -   Lecture 15: Causality and Experiments
+
+# 6. Energy Economics
+
+[エネルギー経済学]
+
+##### Lecture materials are available from the following website:
+
+(<https://moineco.github.io/energy_economics/>)
+
+**Section 1: Economics of Energy**
+
+-   Lecture 1: Introduction & Energy Overview
+
+-   Lecture 2: Energy: An Economist's View
+
+-   Lecture 3: Energy Markets, Prices, and Efficiency
+
+-   Lecture 4: The Economics of Renewable Energy
+
+-   Lecture 5: Energy and Economic Growth
+
+-   Lecture 6: Economic Theory of the Mine
+
+**Section 2: Environmental and Natural Resource Economics**
+
+-   Lecture 7: Oil and Natural Gas Extraction and Pricing
+
+-   Lecture 8: Externalities and Policy Instruments
+
+-   Lecture 9: The Benefits and Costs of Environmental Protection
+
+**Section 3: Industrial Ecology**
+
+-   Lecture 10: The Changing Landscape for Global Oil Companies
+
+-   Lecture 11: Carbon-Neutral Energy Systems
+
+-   Lecture 12: Global Energy Disparities
+
+**Section 4: Energy Policy**
+
+-   Lecture 13: International Environmental Agreements
+
+-   Lecture 14: Energy Efficiency: Puzzle and Policies
+
+-   Lecture 15: Unintended Policy Consequences & Course Wrap Up

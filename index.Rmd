@@ -27,7 +27,8 @@ from Kyushu University in 2016. My research focuses are:
 1.  Development Economics
 2.  Environmental Economics
 3.  Energy Economics
-4.  Sustainability Science
+4.  Geoeconomics
+5.  Sustainability Science
 
 For more details, please check:
 
