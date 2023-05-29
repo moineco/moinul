@@ -30,9 +30,6 @@ from Kyushu University in 2016. My research focuses are:
 4.  Geoeconomics
 5.  Sustainability Science
 
-For more details, please check:
-
-## [My CV](https://moineco.github.io/moinul_cv/)
 
 **Working experience**
 
@@ -87,6 +84,10 @@ R, Python, STATA, EViews, ArcGIS, QGIS, oTree, GNU Emacs
 2.  Language
 
 English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+
+For more details, please check my CV from following link:
+
+# [My CV](https://moineco.github.io/moinul_cv/)
 
 **Contact** Email address:
 [islam.moinul\@kochi-tech.ac.jp](mailto:islam.moinul@kochi-tech.ac.jp){.email}
