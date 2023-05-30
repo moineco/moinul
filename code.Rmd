@@ -489,4 +489,6 @@ p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
 
+#### 6.2 Making subfigures in quarto document
 
+```#| label: fig-charts#| fig-cap: "Inclusive wealth of India from 1990 to 2018"#| out.width: "50%"#| fig-subcap: #|   - "1990"#|   - "2000"#|   - "2010"#|   - "2018"#| layout-ncol: 2knitr::include_graphics('figures/iw_1990.jpg')knitr::include_graphics('figures/iw_2000.jpg')knitr::include_graphics('figures/iw_2010.jpg')knitr::include_graphics('figures/iw_2018.jpg')```
