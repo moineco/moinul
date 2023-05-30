@@ -798,6 +798,24 @@ p_unload          #Unloads Packages from the Search Path
 p_update          #Update Out-of-Date Packages</code></pre>
 </div>
 </div>
+<div id="making-subfigures-in-quarto-document" class="section level4">
+<h4>6.2 Making subfigures in quarto document</h4>
+<pre><code>#| label: fig-1
+#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
+#| out.width: &quot;50%&quot;
+#| echo: false
+#| fig-subcap: 
+#|   - &quot;1990&quot;
+#|   - &quot;2000&quot;
+#|   - &quot;2010&quot;
+#|   - &quot;2018&quot;
+#| layout-ncol: 2
+
+knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
+</div>
 </div>
 
 
