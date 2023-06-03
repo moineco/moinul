@@ -77,9 +77,11 @@ Updated on: `r Sys.Date()`
 
 # International policy reports (peer-review)
 
-1.  Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). [link](https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
+1.  Inclusive Wealth Report 2022. United Nation Environmental Program (UNEP).
 
-2.  Future Design: For the Survival of Humankind (2022). Think7: Research-based policy recommendations for the G7. [link](https://www.think7.org/publication/future-design/)
+2.  Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). [link](https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
+
+3.  Future Design: For the Survival of Humankind (2022). Think7: Research-based policy recommendations for the G7. [link](https://www.think7.org/publication/future-design/)
 
 # Book chapters (peer-review)
 
