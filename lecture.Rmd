@@ -23,19 +23,19 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The course contents of "Human Geography and Economics" are as below:
 
-**Section 1: What is Geographic Information System (GIS)?**
+**Section 1: What is geographic information system (GIS)?**
 
 -   Lecture 1: Introduction to GIS
 
--   Lecture 2: GIS for Economics (New information provision)
+-   Lecture 2: GIS for economics (New information provision)
 
--   Lecture 3: GIS for Economics (Geocoding for survey and experiment)
+-   Lecture 3: GIS for economics (Geocoding for survey and experiment)
 
--   Lecture 4: GIS for Management (Biodiversity)
+-   Lecture 4: GIS for management (Biodiversity)
 
--   Lecture 5: GIS for Management (Natural resource management)
+-   Lecture 5: GIS for management (Natural resource management)
 
-**Section 2: What is Geographic Data?**
+**Section 2: What is geographic data?**
 
 -   Lecture 6: Spatial data collection, storage and management
 
@@ -45,9 +45,9 @@ The course contents of "Human Geography and Economics" are as below:
 
 -   Lecture 9: Spatial data create
 
--   Lecture 10: Spatial data analysis
+**Section 3: How geographic data applied in the study of real-world issues?**
 
-**Section 3: How Geographic Data Applied in the Study of Real-World Issues?**
+-   Lecture 10: Spatial data analysis with R
 
 -   Lecture 11: Social applications of GIS
 
@@ -59,6 +59,10 @@ The course contents of "Human Geography and Economics" are as below:
 
 -   Lecture 15: GIS to solving real world problems using global example 2
 
+-   Lecture 16: Creating a publication quality map
+
+-   Lecture 17: Different ways of plotting U.S. map in R
+
 # 2. International Trade and Finance
 
 [国際貿易・国際金融]
@@ -69,17 +73,17 @@ The course contents of "Human Geography and Economics" are as below:
 
 The course contents of international trade and finance are as below:
 
-**Section 1: Introduction to International Finance**
+**Section 1: Introduction to international economics**
 
--   Lecture 1: Basics of International Economics
+-   Lecture 1: Basics of international economics
 
--   Lecture 2: Introduction to International Trade
+-   Lecture 2: Introduction to international trade
 
--   Lecture 3: Introduction to International Finance
+-   Lecture 3: Introduction to international finance
 
--   Lecture 4: International Trade Models
+-   Lecture 4: International trade models
 
-**Section 2: International Trade Policy**
+**Section 2: International trade policy**
 
 -   Lecture 5: The instruments of trade policy
 
@@ -89,31 +93,27 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 8: Trade policy in developing countries: Part B
 
-**Section 3: Open-Economy Macroeconomics**
+**Section 3: Open-economy macroeconomics**
 
--   Lecture 9: Globalization, Trade and the Environment
+-   Lecture 9: Globalization, trade and environment
 
--   Lecture 10: National Income Accounting and the Balance of Payments: Part A
+-   Lecture 10: National income accounting and the balance of payments: Part A
 
--   Lecture 11: National Income Accounting and the Balance of Payments: Part B
+-   Lecture 11: National income accounting and the balance of payments: Part B
 
--   Lecture 12: Money, Interest Rates, and Exchange Rates
+-   Lecture 12: Money, interest rates, and exchange rates
 
-**Section 4: International Macroeconomic Policy**
+**Section 4: International macroeconomic policy**
 
--   Lecture 13: International Monetary Systems
+-   Lecture 13: International monetary systems
 
--   Lecture 14: Financial Globalization
+-   Lecture 14: Financial globalization
 
--   Lecture 15: Developing Countries Growth, Crisis, and Reform
+-   Lecture 15: Developing countries growth, crisis, and reform
 
 # 3. Future Design
 
 [フューチャー・デザイン]
-
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/future_design/>)
 
 The course contents of future design are as below:
 
@@ -159,9 +159,7 @@ The course contents of future design are as below:
 
 [開発経済学]
 
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/development_economics/>)
+The course contents of development economics are as below:
 
 -   Lecture 1: Introduction to Development Economics
 
@@ -197,9 +195,7 @@ The course contents of future design are as below:
 
 [持続可能性科学]
 
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/sustainability_science/>)
+The course contents of sustainability science are as below:
 
 -   Lecture 1: The origins of the concept of sustainability science
 
@@ -235,9 +231,7 @@ The course contents of future design are as below:
 
 [エネルギー経済学]
 
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/energy_economics/>)
+The course contents of energy economics are as below:
 
 **Section 1: Economics of Energy**
 
