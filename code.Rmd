@@ -73,7 +73,7 @@ Heroku Data for Redis ..... Premium 0
 Heroku Postgres ........... Basic
 ```
 
-> Go to Settings tab. Click on **Reveal Config Vars**. Ensure that you have following Key and Value.
+> Go to **Settings** tab. Click on **Reveal Config Vars**. Ensure that you have following Key and Value.
 
 ```{txt}
 Key........................Value
