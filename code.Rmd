@@ -538,3 +538,11 @@ knitr::include_graphics('figures/iw_2000.jpg')
 knitr::include_graphics('figures/iw_2010.jpg')
 knitr::include_graphics('figures/iw_2018.jpg')
 ```
+
+For loading a figure with customizing options, we can use following codes
+
+```
+{r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
+knitr::include_graphics("figure/discipline.jpg")
+```
+Here, we can ajust the height, width, alignment and caption of the figure.
