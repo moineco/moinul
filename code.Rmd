@@ -87,9 +87,6 @@ OTREE_PRODUCTION...........1
 ```{txt}
 heroku restart
 heroku pg:reset DATABASE --confirm appname
-heroku restart; 
-heroku pg:reset DATABASE --confirm appname 
-heroku run rake db:migrate
 ```
 
 Note: "appname" should be replaced with the custom application name
