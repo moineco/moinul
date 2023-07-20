@@ -78,7 +78,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 
 1.  Computer programs
 
-R, Python, STATA, EViews, ArcGIS, QGIS, oTree, GNU Emacs
+R, Python, STATA, oTree, EViews, ArcGIS, GNU Emacs
 
 2.  Language
 
