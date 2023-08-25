@@ -364,7 +364,7 @@ p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
 
-#### 6.2 Making subfigures in quarto document
+#### 5.2 Making subfigures in quarto document
 
 ```
 #| label: fig-1
