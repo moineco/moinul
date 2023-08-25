@@ -25,43 +25,44 @@ University of Technology. I have received my Ph.D. in engineering degree
 from Kyushu University in 2016. My research focuses are:
 
 -   Environmental Economics
--   Energy Economics
--   Geoeconomics
--   Sustainability Science
 
+-   Experimental Economics
+
+-   Geoeconomics
+
+-   Sustainability Science
 
 **Working experience**
 
 -   2020, Assistant Professor, Research Institute for Future Design,
     Kochi University of Technology, Kochi, Japan
-
+    
 -   2019, Assistant Professor, Graduate School for International
     Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
     Japan
-
+    
 -   2016, Assistant Professor, Graduate School of Urban and
     Environmental Engineering, Kyushu University, Fukuoka, Japan
-
+    
 -   2012, Research Assistant, Graduate School of Environmental Studies,
     Tohoku University, Sendai, Japan
 
 **Project experience**
 
--   United Nations Environmental Program (UNEP)\
--   Research Institute of Economy, Trade and Industry (RIETI)\
+-   United Nations Environmental Program (UNEP)
+
+-   Research Institute of Economy, Trade and Industry (RIETI)
+
 -   Strategic Energy and Resource Management and Sustainable Solutions
     (SERMS), Tohoku University
 
 **Profile in external websites**
 
--  [Web of
-Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
+-  [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
 
--  [Kochi University of
-Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
+-  [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
 
--  [Google
-Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
+-  [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
 
 -  [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
 
@@ -87,8 +88,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
 
 **CV**
 
--  For more details, please check my CV from this link
-[My CV](https://moineco.github.io/moinul_cv/)
+-  Please check from this link -> [My CV](https://moineco.github.io/moinul_cv/)
 
 **Contact** 
 
