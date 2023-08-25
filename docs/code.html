@@ -434,137 +434,8 @@ class="section level4">
 name</p>
 </div>
 </div>
-<div id="latex" class="section level1">
-<h1>2. LaTex</h1>
-<p>For writing an academic manuscript by using Latex, I prefer to use
-GNU Emacs environment. One of the main reason to use Emacs is the
-freedom to customize the codes. It is compatible with Linux (Ubuntu,
-Fedora), MacOS and Windows. So I can create same environment of writing
-my manuscript across the board.</p>
-<div id="for-ubuntufedora-operating-system" class="section level4">
-<h4>2.1 For Ubuntu/Fedora operating system</h4>
-<div id="install-texlive-full" class="section level5">
-<h5>2.1.1 Install texlive-full</h5>
-<p><strong>What is <code>texlive-full</code></strong></p>
-<p>The TeX Live software distribution offers a complete TeX system. It
-encompasses programs for typesetting, previewing and printing of TeX
-documents in many different languages, and a large collection of TeX
-macros and font libraries. The distribution also includes extensive
-general documentation about TeX, as well as the documentation
-accompanying the included software packages.</p>
-<p><strong>Install texlive-full Using apt:</strong></p>
-<p>We can install <code>texlive-full</code> using <code>apt</code> (for
-Ubuntu) / <code>dnf</code> (for Fedora) by running the following
-command:</p>
-<pre><code>sudo apt -y install texlive-full</code></pre>
-<pre><code>sudo dnf -y install texlive-full</code></pre>
-</div>
-<div id="install-jabref" class="section level5">
-<h5>2.1.2 Install Jabref</h5>
-<p><strong>What is <code>jabref</code></strong></p>
-<p>JabRef is a graphical Java application for editing BibTeX (.bib)
-databases. JabRef lets you organize your entries into overlapping
-logical groups, and with a single click limit your view to a single
-group or an intersection or union of several groups. You can customize
-the entry information shown in the main window, and sort by any of the
-standard BibTeX fields. JabRef can auto-generate BibTeX keys for your
-entries. JabRef also lets you easily link to PDF or web sources for your
-reference entries. JabRef can import from and export to several formats,
-and you can customize export filters. JabRef can be run as a command
-line application to convert from any import format to any export
-format.</p>
-<p><strong>Install <code>jabref</code> using apt:</strong></p>
-<p>We can install <code>jabref</code> using <code>apt</code> (for
-Ubuntu) / <code>dnf</code> (for Fedora) by running the following
-command:</p>
-<pre><code>sudo apt -y install jabref</code></pre>
-<pre><code>sudo dnf -y install jabref</code></pre>
-<p>If the above does not work, visit the following link and download
-<strong>JabRef RPM</strong></p>
-<p><a href="https://www.fosshub.com/JabRef.html"
-class="uri">https://www.fosshub.com/JabRef.html</a></p>
-<p>Then by using the terminal, install the RMP file as:</p>
-<p>For Ubuntu</p>
-<pre><code>sudo apt -y install [drag and drop the RPM file from the download folder]</code></pre>
-<p>For Fedora</p>
-<pre><code>sudo dnf -y install [drag and drop the RPM file from the download folder]</code></pre>
-</div>
-<div id="install-latexmk" class="section level5">
-<h5>2.1.3 Install Latexmk</h5>
-<p><strong>What is <code>latexmk</code></strong></p>
-<p>Latexmk runs LaTeX the correct number of times to resolve cross
-references, etc; it also runs auxiliary programs (bibtex, makeindex if
-necessary, and dvips and/or a previewer as requested). It has a number
-of other useful capabilities, for example to start a previewer and then
-run LaTeX whenever the source files are updated, so that the previewer
-gives an up-to-date view of the document.</p>
-<p><strong>Install <code>latexmk</code> using apt:</strong></p>
-<p>We can install <code>latexmk</code> using <code>apt</code> (for
-Ubuntu) / <code>dnf</code> (for Fedora) by running the following
-command:</p>
-<pre><code>sudo apt -y install latexmk</code></pre>
-<pre><code>sudo dnf -y install latexmk</code></pre>
-</div>
-<div id="install-gnu-emacs" class="section level5">
-<h5>2.1.4 Install Gnu Emacs</h5>
-<p><strong>What is <code>emacs</code></strong></p>
-<p>Emacs is an amazing text editor available on all major operating
-systems from BSD to Linux to macOS and Windows. One of the biggest
-reasons people love Emacs is that it comes loaded with a wide range of
-commands designed for the simplest and the most complex tasks.</p>
-<p><strong>Install <code>emacs</code> using apt:</strong></p>
-<p>We can install the <code>emacs-gtk</code> package using
-<code>apt</code> (for Ubuntu) / <code>dnf</code> (for Fedora) by running
-the following command:</p>
-<pre><code>sudo apt -y install emacs-gtk</code></pre>
-<pre><code>sudo dnf -y install emacs-gtk</code></pre>
-<ul>
-<li><p>To operational use of Emacs, we need to confirm that the
-following three files/folder (1) <code>.emacs</code>, (2)
-<code>.latexmkrc</code> and (3) <code>.emacs.d</code> are existing in
-the <code>Home</code> directory of the Ubuntu/Fedora operating
-system.</p></li>
-<li><p>Customize <code>.emacs</code></p></li>
-<li><p>Customize <code>.emacs.d</code></p></li>
-<li><p>Customize <code>.latexmkrc</code></p></li>
-</ul>
-<p>By using your text editor in Ubuntu/Fedora, create
-<code>.latexmkrc</code> text file. Then you can write the following
-codes inside this text file:</p>
-<pre><code>$dvi_previewer = &#39;start xdvi -watchfile 1.5&#39;;
-$ps_previewer  = &#39;start gv --watch&#39;;
-$pdf_previewer = &#39;start evince&#39;;
-
-# Generate pdf using pdflatex (-pdf)
-$pdf_mode = 1;
-
-# Use bibtex if a .bib file exists
-$bibtex_use = 1;
-
-# Define command to compile with pdfsync support and nonstopmode
-$pdflatex = &#39;pdflatex -synctex=1 --interaction=nonstopmode -file-line-error&#39;;
-
-# Continous compiling
-$preview_continuous_mode=1;</code></pre>
-<ul>
-<li><p>Load necessary <code>packages</code> listed on the
-<code>.emacs</code> file from ELPA/melpa/GNU or from other available
-repositories.</p></li>
-<li><p>Check your <code>.emacs.d</code> folder to confirm the existing
-packages are fully operational or not.</p></li>
-<li><p>Regularly update your emacs <code>packages</code>.</p></li>
-</ul>
-</div>
-<div id="latex-environment-inside-emacs" class="section level5">
-<h5>2.1.5 LaTex environment inside Emacs</h5>
-<ul>
-<li>Please contact me to get detailed instruction.</li>
-</ul>
-</div>
-</div>
-</div>
 <div id="zotero" class="section level1">
-<h1>3. Zotero</h1>
+<h1>2. Zotero</h1>
 <p>Download <a href="https://www.zotero.org/">Zotero</a></p>
 <p><strong>Zotero with Quarto and RMarkdown</strong></p>
 <ol style="list-style-type: decimal">
@@ -652,11 +523,10 @@ Collection.</p></li>
 </ol>
 </div>
 <div id="fresh-installation-of-ubuntufedora" class="section level1">
-<h1>4. Fresh installation of Ubuntu/Fedora</h1>
+<h1>3. Fresh installation of Ubuntu/Fedora</h1>
 <div id="use-fdisk-command-to-delete-a-hard-disk-partition"
 class="section level5">
-<h5>4.1 Use <code>fdisk</code> command to delete a hard disk
-partition:</h5>
+<h5>Use <code>fdisk</code> command to delete a hard disk partition:</h5>
 <p><code>fdisk</code> also known as format disk is a dialog-driven
 command in Linux used for creating and manipulating disk partition
 table. It is used for the view, create, delete, change, resize, copy and
@@ -694,9 +564,9 @@ system.</p></li>
 </div>
 </div>
 <div id="ubuntu-and-fedora-proxy" class="section level1">
-<h1>5. Ubuntu and Fedora proxy</h1>
+<h1>4. Ubuntu and Fedora proxy</h1>
 <div id="proxy-for-ubuntu" class="section level4">
-<h4>5.1 Proxy for Ubuntu</h4>
+<h4>4.1 Proxy for Ubuntu</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables)</p>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
@@ -727,7 +597,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 <div id="proxy-for-fedora" class="section level4">
-<h4>5.2 Proxy for Fedora</h4>
+<h4>4.2 Proxy for Fedora</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
 <p>Create new (set proxy settings to the environment variables for
 system wide)</p>
@@ -737,19 +607,16 @@ HTTPS_PROXY=$MY_PROXY_URL
 FTP_PROXY=$MY_PROXY_URL
 http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
-ftp_proxy=$MY_PROXY_URL</code></pre>
-<pre class="txt"><code>export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
+ftp_proxy=$MY_PROXY_URL
+export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
 <pre class="txt"><code>@client:~# sudo source /etc/profile.d/proxy.sh</code></pre>
 <p>Or it is possible to set proxy settings for each application, not
 system wide for dnf</p>
 <pre class="txt"><code>@client:~# sudo nano /etc/dnf/dnf.conf</code></pre>
-<p>Create new</p>
-<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
+<p>Add to the end</p>
+<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For curl</p>
 <pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
-<p>Create new</p>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
 <pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
@@ -760,7 +627,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 </div>
 <div id="r" class="section level1">
-<h1>6. R</h1>
+<h1>5. R</h1>
 <div id="basic-information-about-the-pacman-package"
 class="section level4">
 <h4>6.1 Basic Information About the pacman Package</h4>
