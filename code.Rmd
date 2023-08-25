@@ -199,7 +199,7 @@ sudo fdisk /dev/sda
 @client:~# sudo nano /etc/profile.d/proxy.sh
 ```
 
-Create new (set proxy settings to the environment variables)
+Set proxy to the environment variables
 
 ```{txt}
 MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
@@ -212,23 +212,12 @@ FTP_PROXY=$MY_PROXY_URL
 http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
-```
-
-```{txt}
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~# sudo source /etc/profile.d/proxy.sh
-```
-
-It is possible to set proxy settings for each application, not System wide for apt
-
-```{txt}
 @client:~# sudo nano /etc/apt/apt.conf
 ```
-
-Create new
 
 ```{txt}
 Acquire::http::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
@@ -285,12 +274,6 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~# sudo source /etc/profile.d/proxy.sh
-```
-
-Or it is possible to set proxy settings for each application, not system wide for dnf
-
-```{txt}
 @client:~# sudo nano /etc/dnf/dnf.conf
 ```
 
@@ -326,7 +309,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 
 # 5. R
 
-#### 6.1 Basic Information About the pacman Package
+#### 5.1 Basic Information About the pacman Package
 
 - Install pacman Package in R. In order to use the functions that are contained in the pacman package, we have to install and load the package to R:
 

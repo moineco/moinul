@@ -77,7 +77,7 @@ Updated on: `r Sys.Date()`
 
 # International policy reports (peer-review)
 
-1.  Inclusive Wealth Report 2022. United Nation Environmental Program (UNEP).
+1.  Inclusive Wealth Report 2023. United Nation Environmental Program (UNEP). [link](https://wedocs.unep.org/handle/20.500.11822/43131)
 
 2.  Inclusive Wealth of Pakistan: The Case for Investing in Natural Capital and Restoration (2021). United Nation Environmental Program (UNEP). [link](https://www.unep.org/resources/report/inclusive-wealth-pakistan-case-investing-natural-capital-and-restoration)
 
