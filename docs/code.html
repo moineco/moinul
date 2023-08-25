@@ -568,9 +568,8 @@ system.</p></li>
 <div id="proxy-for-ubuntu" class="section level4">
 <h4>4.1 Proxy for Ubuntu</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
-<p>Set proxy to the environment variables</p>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
-<pre class="txt"><code>HTTP_PROXY=$MY_PROXY_URL
+<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
+HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
 FTP_PROXY=$MY_PROXY_URL
 http_proxy=$MY_PROXY_URL
@@ -583,7 +582,6 @@ Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
 Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
 <p>For curl</p>
 <pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
-<p>Create new</p>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
 <pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
@@ -595,10 +593,8 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <div id="proxy-for-fedora" class="section level4">
 <h4>4.2 Proxy for Fedora</h4>
 <pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
-<p>Create new (set proxy settings to the environment variables for
-system wide)</p>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
-<pre class="txt"><code>HTTP_PROXY=$MY_PROXY_URL
+<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
+HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
 FTP_PROXY=$MY_PROXY_URL
 http_proxy=$MY_PROXY_URL
