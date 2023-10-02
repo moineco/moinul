@@ -92,4 +92,4 @@ heroku restart;heroku pg:reset DATABASE --confirm appname
 
 Note: "appname" should be replaced with the custom application name
 
-#### 1.4 Using `Anconda` and `Jupyter Noteboook` for data science.  
+### 2 `Anconda` and `Jupyter Noteboook` for data science  
