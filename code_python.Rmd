@@ -1,5 +1,5 @@
 ---
-title: "Python"
+title: "Python Codes"
 output:
   html_document:
     toc: yes
@@ -13,9 +13,11 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# 1. Python
+# Python
 
 Download [Python](https://www.python.org/)
+
+### 1. Python for oTree
 
 #### 1.1. Deploy oTree application to Heroku server
 

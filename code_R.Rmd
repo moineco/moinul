@@ -1,0 +1,111 @@
+---
+title: "R Codes"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    collapsed: no
+    number_sections: no
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R
+
+### `Pacman` package manager
+
+- Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
+
+```
+install.packages("pacman")    # Install pacman package
+library("pacman")             # Load pacman package
+```
+
+- After running the previous lines of code, we can use the functions provided by the `pacman` package.
+
+##### Example 1: Install & Load Multiple R Packages Using p_load Function
+
+In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
+
+Have a look at the following R syntax:
+
+```
+p_load(ggplot2, dplyr, stringr)   # Install & load packages
+```
+
+After executing the previous code, we have loaded the three packages `ggplot2`, `dplyr`, and `stringr`.
+
+Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
+
+##### Example 2: Unload Multiple R Packages Using p_unload Function
+
+Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
+
+Let’s apply the p_unload command to unload the three packages `ggplot2`, `dplyr`, and `stringr` that we have loaded before:
+
+```
+p_unload(ggplot2, dplyr, stringr)  # Unload packages
+```
+
+The following packages have been unloaded: `ggplot2`, `dplyr`, `stringr`
+The previous output of the RStudio console tells us that our three packages were detached.
+
+##### Example 3: Update Outdated R Packages Using p_update Function
+
+In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
+
+- First, let’s check which of my packages are outdated:
+
+```
+p_update(update = FALSE)  # Check for outdated packages
+```
+
+- Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
+
+- Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
+
+```
+p_update() # Update all packages
+```
+- Quick Reference Table
+
+```
+p_load		      #Loads and Install Packages
+p_install	      #Install Packages from CRAN
+p_load_gh	      #Loads and Install GitHub Packages
+p_install_gh	  #Install Packages from GitHub
+p_temp		      #Install a Package Temporarily
+p_unload		  #Unloads Packages from the Search Path
+p_update	      #Update Out-of-Date Packages
+```
+
+#### 5.2 Making subfigures in quarto document
+
+```
+#| label: fig-1
+#| fig-cap: "Inclusive wealth of India from 1990 to 2018"
+#| out.width: "50%"
+#| echo: false
+#| fig-subcap: 
+#|   - "1990"
+#|   - "2000"
+#|   - "2010"
+#|   - "2018"
+#| layout-ncol: 2
+
+knitr::include_graphics('figures/iw_1990.jpg')
+knitr::include_graphics('figures/iw_2000.jpg')
+knitr::include_graphics('figures/iw_2010.jpg')
+knitr::include_graphics('figures/iw_2018.jpg')
+```
+
+For loading a figure with customizing options, we can use following codes
+
+```
+{r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
+knitr::include_graphics("figure/discipline.jpg")
+```
+Here, we can adjust the height, width, alignment and caption of the figure.

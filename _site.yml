@@ -10,6 +10,8 @@ navbar:
       href: lecture.html
     - text: "Software"
       href: code.html
+    - text: "R"
+      href: code_R.html
     - text: "Python"
       href: code_python.html
     - text: "Book"
