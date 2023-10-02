@@ -30,11 +30,13 @@ Recommended readings to everyone who is interested about Economics, Data Science
 
 7. Angrist, J. and J. Pischke (2009) Mostly harmless econometrics: An empiricist's companion. Princeton university press
 
+8. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile regression: Theory and applications. John Wiley & Sons.
+
 # Mathmatics
 
 1. Thomas, G., J. Hass, C. Heil and M. Weir (2018) Thomas' calculus. Pearson
 
-2. Rice, J. (2013) Mathematical statistics and data analyis. Cengage learning
+2. Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning
 
 # Data Science
 
