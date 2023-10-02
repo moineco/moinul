@@ -11,7 +11,7 @@
 
 
 
-<title>Code</title>
+<title>Software</title>
 
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -331,7 +331,10 @@ div.tocify {
   <a href="book.html">Book</a>
 </li>
 <li>
-  <a href="code.html">Code</a>
+  <a href="code.html">Software</a>
+</li>
+<li>
+  <a href="code_python.html">Python</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -345,95 +348,11 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Code</h1>
+<h1 class="title toc-ignore">Software</h1>
 
 </div>
 
 
-<div id="python" class="section level1">
-<h1>1. Python</h1>
-<p>Download <a href="https://www.python.org/">Python</a></p>
-<div id="deploy-otree-application-to-heroku-server"
-class="section level4">
-<h4>1.1. Deploy oTree application to Heroku server</h4>
-<p>To upload the oTree application in a cloud server like Heroku is an
-important step to conduct the online experiments. Here, I am showing the
-steps that you need to fulfill to upload your application:</p>
-<ol style="list-style-type: decimal">
-<li><p>Make sure your oTree application is working correctly
-locally.</p></li>
-<li><p>Create a Heroku account if you don’t already have one.</p></li>
-<li><p>Install Heroku in your Mac: If you are a Mac user, you can
-install Heroku application from the <strong>homebrew</strong> as
-follows:</p></li>
-</ol>
-<pre class="txt"><code>brew tap heroku/brew &amp;&amp; brew install heroku</code></pre>
-<ol start="4" style="list-style-type: decimal">
-<li>Upload an app in Heroku: To upload your oTree application to Heroku,
-first create an <em>application name</em> inside your Heroku account as
-below:</li>
-</ol>
-<p>New…&gt; Create New App</p>
-<ol start="5" style="list-style-type: decimal">
-<li>Enter to the folder of your Pycharm which contains the application
-you are interested to upload to Heroku server:</li>
-</ol>
-<pre class="txt"><code>cd appname</code></pre>
-<ol start="6" style="list-style-type: decimal">
-<li>Proxy settings if necessary Sometime institutional networks (e.g.;
-university, office, business) require some additional proxy settings to
-upload an application to Heroku. I am sharing the example of my
-institution.</li>
-</ol>
-<pre class="txt"><code>export http_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;
-export https_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
-<ol start="7" style="list-style-type: decimal">
-<li>Log in to Heroku Now it is time to push your application to your
-Heroku account. To do so, you need to go through the following
-steps.</li>
-</ol>
-<pre class="txt"><code>heroku login
-git init
-git add .
-git commit -am &quot;command message&quot;
-heroku git:remote -a appname
-git push heroku master
-heroku config:set OTREE_PRODUCTION=1</code></pre>
-<p>Your oTree application should now be deployed to your Heroku server.
-You can access it by going to the URL provided by Heroku.</p>
-<p>Note: Sometime due to the inconsistency in version of Python in your
-computer and reported Python version in runtime.txt might be different.
-In that case, you might not be able to rung the oTree program in
-computer. To get rid from it, you can remove the runtime.txt from your
-Pycharm.</p>
-</div>
-<div id="necessary-settings-of-heroku-to-run-small-experiment"
-class="section level4">
-<h4>1.2 Necessary settings of Heroku to run small experiment</h4>
-<blockquote>
-<p>Go to <strong>Resources</strong> tab. Following Add-ons need to be
-included for a small size experiment (For instance, 30 participants in
-one session).</p>
-</blockquote>
-<pre class="txt"><code>Heroku Data for Redis ..... Premium 0
-Heroku Postgres ........... Basic</code></pre>
-<blockquote>
-<p>Go to <strong>Settings</strong> tab. Click on <strong>Reveal Config
-Vars</strong>. Ensure that you have following Key and Value.</p>
-</blockquote>
-<pre class="txt"><code>Key........................Value
-OTREE_ADMIN_PASSWORD.......set any password
-OTREE_AUTH_LEVEL...........Demo
-OTREE_PRODUCTION...........1</code></pre>
-</div>
-<div id="setup-of-heroku-server-to-activate-the-paid-plans"
-class="section level4">
-<h4>1.3. Setup of Heroku server to activate the paid plans</h4>
-<pre class="txt"><code>heroku restart;heroku pg:reset DATABASE --confirm appname</code></pre>
-<p>Note: “appname” should be replaced with the custom application
-name</p>
-</div>
-</div>
 <div id="zotero" class="section level1">
 <h1>2. Zotero</h1>
 <p>Download <a href="https://www.zotero.org/">Zotero</a></p>
@@ -621,57 +540,59 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 class="section level4">
 <h4>5.1 Basic Information About the pacman Package</h4>
 <ul>
-<li>Install pacman Package in R. In order to use the functions that are
-contained in the pacman package, we have to install and load the package
-to R:</li>
+<li>Install <code>pacman</code> Package in R. In order to use the
+functions that are contained in the <code>pacman</code> package, we have
+to install and load the package to R:</li>
 </ul>
 <pre><code>install.packages(&quot;pacman&quot;)    # Install pacman package
 library(&quot;pacman&quot;)             # Load pacman package</code></pre>
 <ul>
 <li>After running the previous lines of code, we can use the functions
-provided by the pacman package.</li>
+provided by the <code>pacman</code> package.</li>
 </ul>
 <div
 id="example-1-install-load-multiple-r-packages-using-p_load-function"
 class="section level5">
 <h5>Example 1: Install &amp; Load Multiple R Packages Using p_load
 Function</h5>
-<p>In this example, I’ll illustrate how to apply the p_load function to
-load multiple add-on packages in one line of code.</p>
+<p>In this example, I will illustrate how to apply the p_load function
+to load multiple add-on packages in one line of code.</p>
 <p>Have a look at the following R syntax:</p>
 <pre><code>p_load(ggplot2, dplyr, stringr)   # Install &amp; load packages</code></pre>
 <p>After executing the previous code, we have loaded the three packages
-ggplot2, dplyr, and stringr.</p>
+<code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code>.</p>
 <p>Note that the p_load function also checks whether a package is
 installed already. If the package is not installed yet, it is installed
-automatically by the pacman package.</p>
+automatically by the <code>pacman</code> package.</p>
 </div>
 <div id="example-2-unload-multiple-r-packages-using-p_unload-function"
 class="section level5">
 <h5>Example 2: Unload Multiple R Packages Using p_unload Function</h5>
-<p>Another useful function of the pacman package is the p_unload
-function. The p_unload function can be used to detach one or multiple
-loaded packages from within R.</p>
+<p>Another useful function of the <code>pacman</code> package is the
+p_unload function. The p_unload function can be used to detach one or
+multiple loaded packages from within R.</p>
 <p>Let’s apply the p_unload command to unload the three packages
-ggplot2, dplyr, and stringr that we have loaded before:</p>
+<code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code> that
+we have loaded before:</p>
 <pre><code>p_unload(ggplot2, dplyr, stringr)  # Unload packages</code></pre>
-<p>The following packages have been unloaded:ggplot2, dplyr, stringr The
-previous output of the RStudio console tells us that our three packages
-were detached.</p>
+<p>The following packages have been unloaded: <code>ggplot2</code>,
+<code>dplyr</code>, <code>stringr</code> The previous output of the
+RStudio console tells us that our three packages were detached.</p>
 </div>
 <div id="example-3-update-outdated-r-packages-using-p_update-function"
 class="section level5">
 <h5>Example 3: Update Outdated R Packages Using p_update Function</h5>
-<p>In this example, I’ll show how to use the p_update function of the
-pacman package to check for outdated packages AND to update all of these
-packages.</p>
+<p>In this example, I will show how to use the p_update function of the
+<code>pacman</code> package to check for outdated packages AND to update
+all of these packages.</p>
 <ul>
 <li>First, let’s check which of my packages are outdated:</li>
 </ul>
 <pre><code>p_update(update = FALSE)  # Check for outdated packages</code></pre>
 <ul>
-<li><p>Second, the pacman package provides an easy solution to how we
-can update all outdated packages with only one line of R code.</p></li>
+<li><p>Second, the <code>pacman</code> package provides an easy solution
+to how we can update all outdated packages with only one line of R
+code.</p></li>
 <li><p>Make sure that you have some time before running the following R
 code. This may take some time, depending on the number of packages you
 need to update:</p></li>
@@ -710,7 +631,7 @@ knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
 codes</p>
 <pre><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
 knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
-<p>Here, we can ajust the height, width, alignment and caption of the
+<p>Here, we can adjust the height, width, alignment and caption of the
 figure.</p>
 </div>
 </div>

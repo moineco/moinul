@@ -1,5 +1,5 @@
 ---
-title: "Code"
+title: "Software"
 output:
   html_document:
     toc: yes
@@ -12,84 +12,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
-# 1. Python
-
-Download [Python](https://www.python.org/)
-
-#### 1.1. Deploy oTree application to Heroku server
-
-To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
-
-1.  Make sure your oTree application is working correctly locally.
-
-2.  Create a Heroku account if you don't already have one.
-
-3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
-
-```{txt}
-brew tap heroku/brew && brew install heroku
-```
-
-4.  Upload an app in Heroku: To upload your oTree application to Heroku, first create an *application name* inside your Heroku account as below:
-
-New...\> Create New App
-
-5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
-
-```{txt}
-cd appname
-```
-
-6.  Proxy settings if necessary Sometime institutional networks (e.g.; university, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
-
-```{txt}
-export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
-export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
-```
-
-7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
-
-```{txt}
-heroku login
-git init
-git add .
-git commit -am "command message"
-heroku git:remote -a appname
-git push heroku master
-heroku config:set OTREE_PRODUCTION=1
-```
-
-Your oTree application should now be deployed to your Heroku server. You can access it by going to the URL provided by Heroku.
-
-Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
-
-#### 1.2 Necessary settings of Heroku to run small experiment
-
-> Go to **Resources** tab. Following Add-ons need to be included for a small size experiment (For instance, 30 participants in one session).
-
-```{txt}
-Heroku Data for Redis ..... Premium 0
-Heroku Postgres ........... Basic
-```
-
-> Go to **Settings** tab. Click on **Reveal Config Vars**. Ensure that you have following Key and Value.
-
-```{txt}
-Key........................Value
-OTREE_ADMIN_PASSWORD.......set any password
-OTREE_AUTH_LEVEL...........Demo
-OTREE_PRODUCTION...........1
-```
-
-#### 1.3. Setup of Heroku server to activate the paid plans
-
-```{txt}
-heroku restart;heroku pg:reset DATABASE --confirm appname
-```
-
-Note: "appname" should be replaced with the custom application name
-
 
 # 2. Zotero
 
@@ -299,18 +221,18 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 
 #### 5.1 Basic Information About the pacman Package
 
-- Install pacman Package in R. In order to use the functions that are contained in the pacman package, we have to install and load the package to R:
+- Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
 ```
 install.packages("pacman")    # Install pacman package
 library("pacman")             # Load pacman package
 ```
 
-- After running the previous lines of code, we can use the functions provided by the pacman package.
+- After running the previous lines of code, we can use the functions provided by the `pacman` package.
 
 ##### Example 1: Install & Load Multiple R Packages Using p_load Function
 
-In this example, I’ll illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
+In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
 
 Have a look at the following R syntax:
 
@@ -318,26 +240,26 @@ Have a look at the following R syntax:
 p_load(ggplot2, dplyr, stringr)   # Install & load packages
 ```
 
-After executing the previous code, we have loaded the three packages ggplot2, dplyr, and stringr.
+After executing the previous code, we have loaded the three packages `ggplot2`, `dplyr`, and `stringr`.
 
-Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the pacman package.
+Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
 
 ##### Example 2: Unload Multiple R Packages Using p_unload Function
 
-Another useful function of the pacman package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
+Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
 
-Let’s apply the p_unload command to unload the three packages ggplot2, dplyr, and stringr that we have loaded before:
+Let’s apply the p_unload command to unload the three packages `ggplot2`, `dplyr`, and `stringr` that we have loaded before:
 
 ```
 p_unload(ggplot2, dplyr, stringr)  # Unload packages
 ```
 
-The following packages have been unloaded:ggplot2, dplyr, stringr
+The following packages have been unloaded: `ggplot2`, `dplyr`, `stringr`
 The previous output of the RStudio console tells us that our three packages were detached.
 
 ##### Example 3: Update Outdated R Packages Using p_update Function
 
-In this example, I’ll show how to use the p_update function of the pacman package to check for outdated packages AND to update all of these packages.
+In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
 
 - First, let’s check which of my packages are outdated:
 
@@ -345,7 +267,7 @@ In this example, I’ll show how to use the p_update function of the pacman pack
 p_update(update = FALSE)  # Check for outdated packages
 ```
 
-- Second, the pacman package provides an easy solution to how we can update all outdated packages with only one line of R code.
+- Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
 
 - Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
@@ -390,4 +312,4 @@ For loading a figure with customizing options, we can use following codes
 {r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
 knitr::include_graphics("figure/discipline.jpg")
 ```
-Here, we can ajust the height, width, alignment and caption of the figure.
+Here, we can adjust the height, width, alignment and caption of the figure.

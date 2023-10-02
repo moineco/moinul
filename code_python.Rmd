@@ -1,0 +1,93 @@
+---
+title: "Python"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    collapsed: no
+    number_sections: no
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Python
+
+Download [Python](https://www.python.org/)
+
+#### 1.1. Deploy oTree application to Heroku server
+
+To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
+
+1.  Make sure your oTree application is working correctly locally.
+
+2.  Create a Heroku account if you don't already have one.
+
+3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
+
+```{txt}
+brew tap heroku/brew && brew install heroku
+```
+
+4.  Upload an app in Heroku: To upload your `oTree` application to Heroku, first create an *application name* inside your Heroku account as below:
+
+New...\> Create New App
+
+5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
+
+```{txt}
+cd appname
+```
+
+6.  Proxy settings if necessary Sometime institutional networks (e.g.; university, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
+
+```{txt}
+export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+```
+
+7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
+
+```{txt}
+heroku login
+git init
+git add .
+git commit -am "command message"
+heroku git:remote -a appname
+git push heroku master
+heroku config:set OTREE_PRODUCTION=1
+```
+
+Your oTree application should now be deployed to your Heroku server. You can access it by going to the URL provided by Heroku.
+
+Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
+
+#### 1.2 Necessary settings of Heroku to run small experiment
+
+> Go to **Resources** tab. Following Add-ons need to be included for a small size experiment (For instance, 30 participants in one session).
+
+```{txt}
+Heroku Data for Redis ..... Premium 0
+Heroku Postgres ........... Basic
+```
+
+> Go to **Settings** tab. Click on **Reveal Config Vars**. Ensure that you have following Key and Value.
+
+```{txt}
+Key........................Value
+OTREE_ADMIN_PASSWORD.......set any password
+OTREE_AUTH_LEVEL...........Demo
+OTREE_PRODUCTION...........1
+```
+
+#### 1.3. Setup of Heroku server to activate the paid plans
+
+```{txt}
+heroku restart;heroku pg:reset DATABASE --confirm appname
+```
+
+Note: "appname" should be replaced with the custom application name
+
+#### 1.4 Using `Anconda` and `Jupyter Noteboook` for data science.  
