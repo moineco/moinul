@@ -13,6 +13,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Updated on: `r Sys.Date()`
+
 # 1. Zotero
 
 Download [Zotero](https://www.zotero.org/)

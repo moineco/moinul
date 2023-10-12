@@ -13,11 +13,11 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Python
+Updated on: `r Sys.Date()`
 
 Download [Python](https://www.python.org/)
 
-### 1. Python for oTree
+# 1. Python for oTree
 
 #### 1.1. Deploy oTree application to Heroku server
 
@@ -92,4 +92,4 @@ heroku restart;heroku pg:reset DATABASE --confirm appname
 
 Note: "appname" should be replaced with the custom application name
 
-### 2 `Anconda` and `Jupyter Noteboook` for data science  
+# 2. Anconda and Jupyter  

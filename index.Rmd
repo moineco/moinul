@@ -17,6 +17,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ![](images/profile_1.jpeg){width="150"}
 
+Updated on: `r Sys.Date()`
+
 I am Dr. Moinul Islam, working as an assistant professor at Kochi
 University of Technology. I have received my Ph.D. in engineering degree
 from Kyushu University in 2016. My research focuses are:

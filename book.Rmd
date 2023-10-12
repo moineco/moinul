@@ -12,6 +12,9 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+Updated on: `r Sys.Date()`
+
 Recommended readings to everyone who is interested about Economics, Data Science and Human Geography.
 
 # Economics
