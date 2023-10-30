@@ -356,13 +356,61 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2023-10-12</p>
+<p>Updated on: 2023-10-30</p>
 <p>Download <a href="https://www.python.org/">Python</a></p>
-<div id="python-for-otree" class="section level1">
-<h1>1. Python for oTree</h1>
+<div id="install-otree" class="section level1">
+<h1>1. Install oTree</h1>
+<ul>
+<li>oTree can be installed through pip. Open the terminal (Mac/Linux) or
+command prompt (Windows PowerShell) and type:</li>
+</ul>
+<pre class="txt"><code>pip3 install otree</code></pre>
+<ul>
+<li>You can install oTree in your computer by using the terminal in
+Pycharm as well.</li>
+</ul>
+<pre class="txt"><code>pip3 install otree</code></pre>
+<ul>
+<li>Upgrading/reinstalling oTree</li>
+</ul>
+<pre class="txt"><code>pip3 install -U otree</code></pre>
+<ul>
+<li><p>Recommend upgrading every couple of weeks.</p></li>
+<li><p>You might need to do the proxy server settings</p></li>
+<li><p>In the Pycharm, you can open the terminal and install oTree as
+below:</p></li>
+</ul>
+<pre class="txt"><code>set https_proxy address:password
+pip install otree</code></pre>
+<div id="otree-setup" class="section level4">
+<h4>1.1 oTree setup</h4>
+<ul>
+<li>From your command prompt, create your IGG project</li>
+</ul>
+<pre class="txt"><code>otree startproject IGG</code></pre>
+<ul>
+<li>Move into the folder you just created</li>
+</ul>
+<pre class="txt"><code>cd IGG</code></pre>
+<ul>
+<li><p>Run the server</p></li>
+<li><p>Start your own terminal as a server.</p></li>
+</ul>
+<pre class="txt"><code>otree devserver</code></pre>
+<p>Open your browser to <a href="http://localhost:8000/"
+class="uri">http://localhost:8000/</a>. You should see the oTree demo
+site.</p>
+<p>To stop the server, press Control+C at your command line.</p>
+<p>To create a new app, run</p>
+<pre class="txt"><code>otree startapp app_name</code></pre>
+<p>Session configs are defined in settings.py</p>
+</div>
+</div>
+<div id="heroku-server-and-otree" class="section level1">
+<h1>2. Heroku server and oTree</h1>
 <div id="deploy-otree-application-to-heroku-server"
 class="section level4">
-<h4>1.1. Deploy oTree application to Heroku server</h4>
+<h4>2.1. Deploy oTree application to Heroku server</h4>
 <p>To upload the oTree application in a cloud server like Heroku is an
 important step to conduct the online experiments. Here, I am showing the
 steps that you need to fulfill to upload your application:</p>
@@ -416,7 +464,7 @@ Pycharm.</p>
 </div>
 <div id="necessary-settings-of-heroku-to-run-small-experiment"
 class="section level4">
-<h4>1.2 Necessary settings of Heroku to run small experiment</h4>
+<h4>2.2 Necessary settings of Heroku to run small experiment</h4>
 <blockquote>
 <p>Go to <strong>Resources</strong> tab. Following Add-ons need to be
 included for a small size experiment (For instance, 30 participants in
@@ -435,14 +483,14 @@ OTREE_PRODUCTION...........1</code></pre>
 </div>
 <div id="setup-of-heroku-server-to-activate-the-paid-plans"
 class="section level4">
-<h4>1.3. Setup of Heroku server to activate the paid plans</h4>
+<h4>2.3. Setup of Heroku server to activate the paid plans</h4>
 <pre class="txt"><code>heroku restart;heroku pg:reset DATABASE --confirm appname</code></pre>
 <p>Note: “appname” should be replaced with the custom application
 name</p>
 </div>
 </div>
 <div id="anconda-and-jupyter" class="section level1">
-<h1>2. Anconda and Jupyter</h1>
+<h1>3. Anconda and Jupyter</h1>
 </div>
 
 
