@@ -156,45 +156,55 @@ The course contents of future design are as below:
 
 -   Lecture 15: Cooperate with Future People
 
-# 4. Sustainability Science
+# 4. Environmental Economics
 
-[持続可能性科学]
+[環境経済学]
 
 The course contents of sustainability science are as below:
 
--   Lecture 1: The origins of the concept of sustainability science
+-   Lecture 1: The environment and economics
 
--   Lecture 2: Sustainable development and sustainability science; historical overview and long-term trends
+-   Lecture 2: Normative and positive economic analysis
 
--   Lecture 3: Ecosystems services, reconciling supply and demand
+-   Lecture 3: Social choice: How much environmental protection?
 
--   Lecture 4: Technology and infrastructure
+-   Lecture 4: Efficiency and markets
 
--   Lecture 5: Social-ecological resilience - Tipping points and uncertainty
+-   Lecture 5: Market failure: Public goods, public bads, and externalities
 
--   Lecture 6: Populations and Planetary Boundaries: Is the sky falling?
+-   Lecture 6: Making decisions about environmental programs
 
--   Lecture 7: Human capability: Generating knowledge for sustainability
+-   Lecture 7: Demand for environmental goods
 
--   Lecture 8: Trade-offs in components of sustainability
+-   Lecture 8: Hedonic price methods
 
--   Lecture 9: Institutions and culture
+-   Lecture 9: Household production
 
--   Lecture 10: Equity and the economy
+-   Lecture 10: Constructed markets
 
--   Lecture 11: Energy and the economy
+-   Lecture 11: Regulating pollution
 
--   Lecture 12: Ozone-atmosphere and sustainability
+-   Lecture 12: Emission prices and fees
 
--   Lecture 13: Future design
+-   Lecture 13: Property rights
 
--   Lecture 14: Technology, society and policy toward carbon neutrality
+-   Lecture 14: Regulation over space and time
 
--   Lecture 15: Causality and Experiments
+-   Lecture 15: Regulation with unknown control costs
 
-# 5. Environmental and Energy Economics
+-   Lecture 16: Audits, enforcement, and moral hazard
 
-[環境とエネルギー経済学]
+-   Lecture 17: Voluntary actions and agreements
+
+-   Lecture 18: Managing risk and uncertainty
+
+-   Lecture 19: International and interregional competition
+
+-   Lecture 20: Environment, growth, and development
+
+# 5. Energy Economics
+
+[エネルギ経済学]
 
 The course contents of environmental and energy economics are as below:
 
@@ -212,15 +222,13 @@ The course contents of environmental and energy economics are as below:
 
 -   Lecture 6: Economic Theory of the Mine
 
-**Section 2: Environmental and Natural Resource Economics**
-
 -   Lecture 7: Oil and Natural Gas Extraction and Pricing
 
 -   Lecture 8: Externalities and Policy Instruments
 
 -   Lecture 9: The Benefits and Costs of Environmental Protection
 
-**Section 3: Industrial Ecology**
+**Section 2: Industrial Ecology**
 
 -   Lecture 10: The Changing Landscape for Global Oil Companies
 
@@ -228,7 +236,7 @@ The course contents of environmental and energy economics are as below:
 
 -   Lecture 12: Global Energy Disparities
 
-**Section 4: Energy Policy**
+**Section 3: Energy Policy**
 
 -   Lecture 13: International Environmental Agreements
 
