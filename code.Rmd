@@ -278,7 +278,7 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 Even after successfully installing and running Stata, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. We can easily fix this by creating a **.desktop** file for Stata.
 
 ```{txt}
-sudo gedit /usr/share/applications/Stata17.desktop
+sudo gedit /usr/share/applications/stata17.desktop
 ```
 
 In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of Stata:
@@ -287,10 +287,10 @@ In this newly-created file just copy and paste the following, obviously adjustin
 [Desktop Entry]
 Version=17
 Terminal=false
-Icon=/usr/local/stata17/stata17.png
+Icon=/usr/local/Stata17/stata17.png
 Type=Application
 Categories=Education;Scientific;
-Exec=/usr/local/stata17/xstata
+Exec=/usr/local/Stata17/xstata
 Name=Stata/BE 17
 Comment=Perform statistical analyses using Stata.
 StartupNotify=true
