@@ -9,11 +9,9 @@ output:
     toc_depth: 1
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-Updated on: `r Sys.Date()`
+
+Updated on: 2023-11-27
 
 # 1. Zotero
 
@@ -45,7 +43,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 7.  Set your **Base directory** inside your Dropbox
 
-```{txt}
+
+```txt
 /Users/Owner/Dropbox/zotero_library
 ```
 
@@ -53,7 +52,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 9.  The most important option here is to define the rules for creating citation keys. There are almost infinite number of ways one can define these keys (check the manual). My personal choice is a key consists of the **first author's name_publication year**.
 
-```{txt}
+
+```txt
 [auth:capitalize]'_'[year]
 ```
 
@@ -63,7 +63,8 @@ c.  Select Install Add-on from **File** option. Finally navigate to the .xpi fil
 
 The first is the default location of the files downloaded by your browser. This option tells ZotFile where to look for the PDFs to process when you import a paper from the publisher's website.
 
-```{txt}
+
+```txt
 /Users/Owner/Downloads
 ```
 
@@ -71,7 +72,8 @@ The second path leads to the local directory created for the full-text PDFs, the
 
 12. For the second path, set your **Custom Location** inside your Dropbox.
 
-```{txt}
+
+```txt
 /Users/Owner/Dropbox/zotero_library/AUTH
 ```
 
@@ -91,7 +93,8 @@ The second path leads to the local directory created for the full-text PDFs, the
 
 The first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.
 
-```{txt}
+
+```txt
 sudo fdisk -l
 ```
 
@@ -99,7 +102,8 @@ sudo fdisk -l
 
 Below command is used to view all disk partitions on device /dev/sda.
 
-```{txt}
+
+```txt
 sudo fdisk -l /dev/sda
 ```
 
@@ -107,7 +111,8 @@ sudo fdisk -l /dev/sda
 
 To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sdb. Go to the command menu using following:
 
-```{txt}
+
+```txt
 sudo fdisk /dev/sda
 ```
 
@@ -119,11 +124,13 @@ sudo fdisk /dev/sda
 
 #### 3.1 Proxy for Ubuntu
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/profile.d/proxy.sh
 ```
 
-```{txt}
+
+```txt
 MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -134,11 +141,13 @@ ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/apt/apt.conf
 ```
 
-```{txt}
+
+```txt
 Acquire::http::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::https::proxy "http://proxy.noc.kochi-tech.ac.jp:3128";
 Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
@@ -146,23 +155,27 @@ Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
 
 For curl
 
-```{txt}
+
+```txt
 @client ~]# sudo nano ~/.curlrc
 ```
 
-```{txt}
+
+```txt
 proxy=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
 For wget
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/wgetrc
 ```
 
 Add to the end
 
-```{txt}
+
+```txt
 http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
@@ -170,11 +183,13 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 
 #### 3.2 Proxy for Fedora
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/profile.d/proxy.sh
 ```
 
-```{txt}
+
+```txt
 MY_PROXY_URL="proxy.noc.kochi-tech.ac.jp:3128"
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -185,35 +200,41 @@ ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/dnf/dnf.conf
 ```
 
 Add to the end
 
-```{txt}
+
+```txt
 proxy=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
 For curl
 
-```{txt}
+
+```txt
 @client ~]# sudo nano ~/.curlrc
 ```
 
-```{txt}
+
+```txt
 proxy=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
 For wget
 
-```{txt}
+
+```txt
 @client:~# sudo nano /etc/wgetrc
 ```
 
 Add to the end
 
-```{txt}
+
+```txt
 http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
@@ -229,31 +250,37 @@ I am assuming that you have the licence information ready in your hand during th
 
 #### Step 1: Create the installation directory, and change location into it
 
-```{txt}
+
+```txt
 cd Downloads
 ```
 
-```{txt}
+
+```txt
 mkdir statainstall
 ```
 
-```{txt}
+
+```txt
 tar -xvzf Stata17Linux64.tar.gz -C statainstall
 ```
 
 #### Step 2: Create the installation directory, and change location into it
 
-```{txt}
+
+```txt
 sudo mkdir /usr/local/Stata17
 ```
 
-```{txt}
+
+```txt
 cd /usr/local/Stata17
 ```
 
 #### Step 3: Run the install script
 
-```{txt}
+
+```txt
 sudo ~/Downloads/statainstall/install
 ```
 
@@ -261,7 +288,8 @@ Here, you will start the installation process and STATA17 will provide you the s
 
 #### Step 4: Configure the license file
 
-```{txt}
+
+```txt
 sudo ./stinit
 ```
 
@@ -269,7 +297,8 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 
 #### Step 5: Running STATA17 with a graphical user interface using the command
 
-```{txt}
+
+```txt
 ./xstata
 ```
 
@@ -277,13 +306,15 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 
 Even after successfully installing and running Stata, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. We can easily fix this by creating a **.desktop** file for Stata.
 
-```{txt}
+
+```txt
 sudo gedit /usr/share/applications/Stata17.desktop
 ```
 
 In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of Stata:
 
-```{txt}
+
+```txt
 [Desktop Entry]
 Version=17
 Terminal=false

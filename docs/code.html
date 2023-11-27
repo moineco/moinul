@@ -586,6 +586,29 @@ class="section level4">
 command</h4>
 <pre class="txt"><code>./xstata</code></pre>
 </div>
+<div id="step-6-unity-launcher-and-desktop-file" class="section level4">
+<h4>Step 6: Unity launcher and desktop file</h4>
+<p>Even after successfully installing and running Stata, in
+Ubuntu/Fedora it won’t be available as an application in the dash, and
+it won’t have a proper icon in the application launcher. We can easily
+fix this by creating a <strong>.desktop</strong> file for Stata.</p>
+<pre class="txt"><code>sudo gedit /usr/share/applications/Stata17.desktop</code></pre>
+<p>In this newly-created file just copy and paste the following,
+obviously adjusting it if you have a different version or flavor of
+Stata:</p>
+<pre class="txt"><code>[Desktop Entry]
+Version=17
+Terminal=false
+Icon=/usr/local/stata17/stata17.png
+Type=Application
+Categories=Education;Scientific;
+Exec=/usr/local/stata17/xstata
+Name=Stata/BE 17
+Comment=Perform statistical analyses using Stata.
+StartupNotify=true
+MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
+Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
+</div>
 </div>
 
 
