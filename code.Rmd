@@ -219,3 +219,58 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
+# 4. Installation of STATA17 in Ubuntu/Fedora
+
+First copy your **STATA17** source file in the **Downloads** folder of your PC. 
+
+If the file is in **.zip** format, unzip to use it. Confirm that the **.tar.gz** extension file (Linux supported installation file) is located in the **Downloads** folder. 
+
+I am assuming that you have the licence information ready in your hand during the following installation process:
+
+#### Step 1: Create the installation directory, and change location into it
+
+```{txt}
+cd Downloads
+```
+
+```{txt}
+mkdir statainstall
+```
+
+```{txt}
+tar -xvzf Stata17Linux64.tar.gz -C statainstall
+```
+
+#### Step 2: Create the installation directory, and change location into it
+
+```{txt}
+sudo mkdir /usr/local/Stata17
+```
+
+```{txt}
+cd /usr/local/Stata17
+```
+
+#### Step 3: Run the install script
+
+```{txt}
+sudo ~/Downloads/statainstall/install
+```
+
+Here, you will start the installation process and STATA17 will provide you the steps to complete. Follow these steps one by one and complete until the end.
+
+#### Step 4: Configure the license file
+
+```{txt}
+sudo ./stinit
+```
+
+Again, STATA17 will ask you for several conformations and you need to respond properly.
+
+#### Step 5: Running STATA17 with a graphical user interface using the command
+
+```{txt}
+./xstata
+```
+
+

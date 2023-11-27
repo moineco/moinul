@@ -356,7 +356,7 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2023-10-12</p>
+<p>Updated on: 2023-11-27</p>
 <div id="zotero" class="section level1">
 <h1>1. Zotero</h1>
 <p>Download <a href="https://www.zotero.org/">Zotero</a></p>
@@ -536,6 +536,55 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code><
 <pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+</div>
+</div>
+<div id="installation-of-stata17-in-ubuntufedora"
+class="section level1">
+<h1>4. Installation of STATA17 in Ubuntu/Fedora</h1>
+<p>First copy your <strong>STATA17</strong> source file in the
+<strong>Downloads</strong> folder of your PC.</p>
+<p>If the file is in <strong>.zip</strong> format, unzip to use it.
+Confirm that the <strong>.tar.gz</strong> extension file (Linux
+supported installation file) is located in the
+<strong>Downloads</strong> folder.</p>
+<p>I am assuming that you have the licence information ready in your
+hand during the following installation process:</p>
+<div
+id="step-1-create-the-installation-directory-and-change-location-into-it"
+class="section level4">
+<h4>Step 1: Create the installation directory, and change location into
+it</h4>
+<pre class="txt"><code>cd Downloads</code></pre>
+<pre class="txt"><code>mkdir statainstall</code></pre>
+<pre class="txt"><code>tar -xvzf Stata17Linux64.tar.gz -C statainstall</code></pre>
+</div>
+<div
+id="step-2-create-the-installation-directory-and-change-location-into-it"
+class="section level4">
+<h4>Step 2: Create the installation directory, and change location into
+it</h4>
+<pre class="txt"><code>sudo mkdir /usr/local/Stata17</code></pre>
+<pre class="txt"><code>cd /usr/local/Stata17</code></pre>
+</div>
+<div id="step-3-run-the-install-script" class="section level4">
+<h4>Step 3: Run the install script</h4>
+<pre class="txt"><code>sudo ~/Downloads/statainstall/install</code></pre>
+<p>Here, you will start the installation process and STATA17 will
+provide you the steps to complete. Follow these steps one by one and
+complete until the end.</p>
+</div>
+<div id="step-4-configure-the-license-file" class="section level4">
+<h4>Step 4: Configure the license file</h4>
+<pre class="txt"><code>sudo ./stinit</code></pre>
+<p>Again, STATA17 will ask you for several conformations and you need to
+respond properly.</p>
+</div>
+<div
+id="step-5-running-stata17-with-a-graphical-user-interface-using-the-command"
+class="section level4">
+<h4>Step 5: Running STATA17 with a graphical user interface using the
+command</h4>
+<pre class="txt"><code>./xstata</code></pre>
 </div>
 </div>
 
