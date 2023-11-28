@@ -8,7 +8,7 @@ navbar:
       href: journal.html
     - text: "Lecture"
       href: lecture.html
-    - text: "Software"
+    - text: "Linux"
       href: code.html
     - text: "R"
       href: code_R.html
