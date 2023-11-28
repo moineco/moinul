@@ -407,7 +407,7 @@ partitions.</p></li>
 <h1>B. Ubuntu and Fedora proxy in KUT</h1>
 <div id="proxy-for-ubuntu" class="section level5">
 <h5>1. Proxy for Ubuntu</h5>
-<pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -416,15 +416,15 @@ http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~# sudo nano /etc/apt/apt.conf</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/apt/apt.conf</code></pre>
 <pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
 Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
 Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
 <p>For curl</p>
-<pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
-<pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
@@ -432,7 +432,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 <div id="proxy-for-fedora" class="section level5">
 <h5>2. Proxy for Fedora</h5>
-<pre class="txt"><code>@client:~# sudo nano /etc/profile.d/proxy.sh</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -441,14 +441,14 @@ http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~# sudo nano /etc/dnf/dnf.conf</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/dnf/dnf.conf</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For curl</p>
-<pre class="txt"><code>@client ~]# sudo nano ~/.curlrc</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
-<pre class="txt"><code>@client:~# sudo nano /etc/wgetrc</code></pre>
+<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128

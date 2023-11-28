@@ -59,7 +59,7 @@ sudo fdisk /dev/sda
 ##### 1. Proxy for Ubuntu
 
 ```{txt}
-@client:~# sudo nano /etc/profile.d/proxy.sh
+@client:~$ sudo nano /etc/profile.d/proxy.sh
 ```
 
 ```{txt}
@@ -74,7 +74,7 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~# sudo nano /etc/apt/apt.conf
+@client:~$ sudo nano /etc/apt/apt.conf
 ```
 
 ```{txt}
@@ -86,7 +86,7 @@ Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
 For curl
 
 ```{txt}
-@client ~]# sudo nano ~/.curlrc
+@client:~$ sudo nano ~/.curlrc
 ```
 
 ```{txt}
@@ -96,7 +96,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For wget
 
 ```{txt}
-@client:~# sudo nano /etc/wgetrc
+@client:~$ sudo nano /etc/wgetrc
 ```
 
 Add to the end
@@ -110,7 +110,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ##### 2. Proxy for Fedora
 
 ```{txt}
-@client:~# sudo nano /etc/profile.d/proxy.sh
+@client:~$ sudo nano /etc/profile.d/proxy.sh
 ```
 
 ```{txt}
@@ -125,7 +125,7 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~# sudo nano /etc/dnf/dnf.conf
+@client:~$ sudo nano /etc/dnf/dnf.conf
 ```
 
 Add to the end
@@ -137,7 +137,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For curl
 
 ```{txt}
-@client ~]# sudo nano ~/.curlrc
+@client:~$ sudo nano ~/.curlrc
 ```
 
 ```{txt}
@@ -147,7 +147,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For wget
 
 ```{txt}
-@client:~# sudo nano /etc/wgetrc
+@client:~$ sudo nano /etc/wgetrc
 ```
 
 Add to the end
