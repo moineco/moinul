@@ -19,44 +19,48 @@ Recommended readings to everyone who is interested about Economics, Data Science
 
 # Economics
 
-1. Mas-Colell, A., M. Whinston and J. Green (1995) Microeconomic theory. Oxford 
+1.  Kreps, D. (2013). Microeconomic foundations I: choice and competitive markets (Vol. 1). Princeton university press
 
-2. Sundram, R. (1996) A first course in optimization theory. Cambridge 
+2.  Kreps, D. (2023). Microeconomic Foundations II: Imperfect Competition, Information, and Strategic Interaction. Princeton University Press.
 
-3. Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge university press 
+3.  Mas-Colell, A., Whinston, M., & Green, J. (1995). Microeconomic theory (Vol. 1). New York: Oxford university press.
 
-4. Gibbons, R. (1992) Game theory for applied economists. Princeton university press 
+4.  Sundram, R. (1996) A first course in optimization theory. Cambridge
 
-5. Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage learning 
+5.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge university press
 
-6. Wooldridge, J. (2010) Econometric analysis of cross section and panel data. MIT press 
+6.  Gibbons, R. (1992) Game theory for applied economists. Princeton university press
 
-7. Angrist, J. and J. Pischke (2009) Mostly harmless econometrics: An empiricist's companion. Princeton university press
+7.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage learning
 
-8. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile regression: Theory and applications. John Wiley & Sons.
+8.  Wooldridge, J. (2010) Econometric analysis of cross section and panel data. MIT press
 
-# Mathmatics
+9.  Angrist, J. and J. Pischke (2009) Mostly harmless econometrics: An empiricist's companion. Princeton university press
 
-1. Thomas, G., J. Hass, C. Heil and M. Weir (2018) Thomas' calculus. Pearson
+10. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile regression: Theory and applications. John Wiley & Sons.
 
-2. Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning
+# Mathematics
+
+1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2003). *Thomas' calculus*. Reading: Addison-Wesley.
+
+2.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning
 
 # Data Science
 
-1. Wickham, H., and Grolemund, G. (2016). [R for data science: import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
+1.  Wickham, H., and Grolemund, G. (2016). [R for data science: import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
-2. Llaudet, E., and Imai, K. (2022). [Data Analysis for Social Science: A Friendly and Practical Introduction](https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science). Princeton University Press.
+2.  Llaudet, E., and Imai, K. (2022). [Data Analysis for Social Science: A Friendly and Practical Introduction](https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science). Princeton University Press.
 
-3. Imai, K. (2017) [Quantitative social science: An introduction](https://press.princeton.edu/books/paperback/9780691175461/quantitative-social-science). Princeton university press
+3.  Imai, K. (2017) [Quantitative social science: An introduction](https://press.princeton.edu/books/paperback/9780691175461/quantitative-social-science). Princeton university press
 
 4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/).
 
-5. Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
+5.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
 # Geoeconomics
 
-1. Lovelace, R., Nowosad, J., & Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
+1.  Lovelace, R., Nowosad, J., & Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
-2. Comber, L., & Brunsdon, C. (2020). Geographical data science and spatial data analysis: an introduction in R. Sage.
+2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: an introduction in R. Sage.
 
-3. Kopczewska, K. (2020). Applied spatial statistics and econometrics: data analysis in R. Routledge.
+3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: data analysis in R. Routledge.
