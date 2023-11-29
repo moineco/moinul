@@ -40,7 +40,7 @@ sudo fdisk -l /dev/sda
 
 ##### 4.  Delete a Hard Disk Partition:
 
-To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sdb. Go to the command menu using following:
+To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sda. Go to the command menu using following:
 
 ```{txt}
 sudo fdisk /dev/sda
@@ -236,4 +236,15 @@ StartupNotify=true
 MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
 Actions=doedit;use;view;graphuse;projmanag;semopen;
 ```
+
+# D. Nano, a popular terminal-based text editor
+
+GNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:
+
+```{txt}
+Ctrl + X to exit
+Ctrl + O to write (or save as)
+Alt + U to undo last action
+```
+
 
