@@ -116,27 +116,25 @@ The course contents of international trade and finance are as below:
 
 [フューチャー・デザイン]
 
+##### Lecture materials are available from the following website:
+
+(<https://moineco.github.io/future_design/>)
+
 The course contents of future design are as below:
 
-**Section 1: Environmental Economics**
+-   Lecture 1: Introduction to Future Design
 
--   Lecture 1: Resources, Growth and Sustainability
+-   Lecture 2: Future Design: Combination of Three Academic Disciplines
 
--   Lecture 2: Climate: The Ultimate Resource
+-   Lecture 3: Future Design: From the Perspective of Economics
 
--   Lecture 3: Renewable Resources
-
--   Lecture 4: Optimal Depletion of Exhaustible Resources
-
-**Section 2: Sustainable Development Goals (SDGs)**
+-   Lecture 4: Future Potential and Inequality
 
 -   Lecture 5: The Sustainable Development Goals (SDGs)
 
 -   Lecture 6: SDGs: Ambivalences of Global Agenda
 
 -   Lecture 7: SDGs and Well-Being
-
-**Section 3: Intergenerational Sustainability**
 
 -   Lecture 8: Intergenerational Sustainability Dilemma (ISD)
 
@@ -145,8 +143,6 @@ The course contents of future design are as below:
 -   Lecture 10: Intergenerational Sustainability Dilemma Game (ISDG)
 
 -   Lecture 11: Future Failures: Disruption of Carbon Cycle and Nitrogen Cycle
-
-**Section 4: Future Design**
 
 -   Lecture 12: Future Design: Preferences for Sustainability
 
