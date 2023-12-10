@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Updated on: `r Sys.Date()`
 
-1.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*,  81, 34-44.(<https://doi.org/10.1016/j.eap.2023.11.001>)
+1.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34-44.(<https://doi.org/10.1016/j.eap.2023.11.001>)
 
 2.  Managi, S., **Islam, M.**, Zhang, D., Zaied, Y. B., & Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049-2051. (<https://doi.org/10.1007/s11625-023-01356-7>)
 
@@ -103,13 +103,15 @@ Updated on: `r Sys.Date()`
 
 # International conferences
 
-1.  **Islam, M.**, and Saijo, T. A Future Design Workshop on Inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
+1.  **Islam, M.** Future Design (FD) Social Experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
 
-2.  **Islam, M.**, Kanemoto, K and Managi, S. Growth potential for CO2 emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
+2.  **Islam, M.** A Future Design Workshop on Inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
 
-3.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
+3.  **Islam, M.** Growth potential for CO2 emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
 
-4.  **Islam, M.**, and Managi, S. Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
+4.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
+
+5.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
 
 # International symposiums
 
