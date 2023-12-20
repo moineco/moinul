@@ -115,13 +115,15 @@ Updated on: `r Sys.Date()`
 
 # International symposiums
 
-1.  Future Design 2022, Kochi University of Technology, Japan, 29-30 January 2022.
+1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
-2.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
+2.  Future Design 2022, Kochi University of Technology, Japan, 29-30 January 2022.
 
-3.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9-11 October 2018.
+3.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
 
-4.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, 27-28 March 2018.
+4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9-11 October 2018.
+
+5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27-28 March 2018.
 
 # Research grants
 
