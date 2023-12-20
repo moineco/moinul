@@ -35,21 +35,21 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 8.  Wooldridge, J. (2010) Econometric Analysis of Cross Section and Panel Data. MIT press
 
-9.  Angrist, J. and J. Pischke (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
+9.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
 
 10. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile Regression: Theory and Applications. John Wiley and Sons.
 
 # Linear Algebra
 
-1. Lay, D. (2022). Linear algebra and its applications. Pearson Education India. Pearson Education Limited.
+1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-# Vector calculus
+# Vector Calculus
 
-1. Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
+1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
 # Mathematics
 
-1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2003). Thomas' calculus. Reading: Addison-Wesley.
+1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
 
 2.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
