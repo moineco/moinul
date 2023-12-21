@@ -122,17 +122,21 @@ The course contents of international trade and finance are as below:
 
 The course contents of future design are as below:
 
+**Section 1: What is Future Design**
+
 -   Lecture 1: Introduction to Future Design
 
 -   Lecture 2: Future Design: Combination of Three Academic Disciplines
 
 -   Lecture 3: Future Design: From the Perspective of Economics
 
--   Lecture 4: Future Potential and Inequality
+-   Lecture 4: Future Studies
 
--   Lecture 5: The Sustainable Development Goals (SDGs)
+-   Lecture 5: Scenario Planning
 
--   Lecture 6: SDGs: Ambivalences of Global Agenda
+-   Lecture 6: Originality of Future Design
+
+**Section 2: Future Design and Sustainable Development**
 
 -   Lecture 7: SDGs and Well-Being
 
@@ -147,6 +151,8 @@ The course contents of future design are as below:
 -   Lecture 12: Future Design: Preferences for Sustainability
 
 -   Lecture 13: Future Design: Sustainable Environments and Societies
+
+**Section 3: Future Design and Cooperate with Future Generation**
 
 -   Lecture 14: Futurability
 
