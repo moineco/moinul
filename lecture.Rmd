@@ -80,7 +80,7 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 2: Introduction to international trade
 
--   Lecture 3: Introduction to international finance
+-   Lecture 3: Reasons of international trade
 
 -   Lecture 4: International trade models
 
@@ -98,19 +98,21 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 9: Globalization, trade and environment
 
--   Lecture 10: National income accounting and the balance of payments: Part A
+-   Lecture 10: The Federal Reserve
 
--   Lecture 11: National income accounting and the balance of payments: Part B
+-   Lecture 11: National income accounting and the balance of payments: Part A
 
--   Lecture 12: Money, interest rates, and exchange rates
+-   Lecture 12: National income accounting and the balance of payments: Part B
+
+-   Lecture 13: Money, interest rates, and exchange rates
 
 **Section 4: International macroeconomic policy**
 
--   Lecture 13: International monetary systems
+-   Lecture 14: Economic Geography: Part A
 
--   Lecture 14: Financial globalization
+-   Lecture 15: Economic Geography: Part B
 
--   Lecture 15: Developing countries growth, crisis, and reform
+-   Lecture 16: Developing countries growth, crisis, and reform
 
 # 3. Future Design
 
@@ -140,23 +142,23 @@ The course contents of future design are as below:
 
 -   Lecture 7: Population growth and Well-Being
 
--   Lecture 8: SDGs: Part A
+-   Lecture 8: The Environment and Economics
 
--   Lecture 9: SDGs: Part B
+-   Lecture 9: The Quality of the Environment
 
--   Lecture 10: SDGs: Part C
+-   Lecture 10: Market Failure: Public Goods, Public Bads, and Externalities
 
 -   Lecture 11: Future Failures: Disruption of Carbon Cycle and Nitrogen Cycle
 
--   Lecture 12: Future Design: Sustainable Economies and Societies
-
--   Lecture 13: Future Design: Sustainable Environments and Societies
+-   Lecture 12: Managing Climate Risks and Uncertainties
 
 **Section 3: Future Design and Cooperate with Future Generation**
 
--   Lecture 14: Futurability
+-   Lecture 13: Environment, Growth, and Development
 
--   Lecture 15: Cooperate with Future People
+-   Lecture 12: Future Design: Sustainable Economies and Societies
+
+-   Lecture 15: Future Design: Sustainable Environments and Societies
 
 # 4. Environmental Economics
 
