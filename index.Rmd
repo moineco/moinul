@@ -27,6 +27,8 @@ from Kyushu University in 2016. My research focuses are:
 
 -   Experimental Economics
 
+-   Applied Microeconomics
+
 -   Geoeconomics
 
 -   Sustainability Science
@@ -69,6 +71,10 @@ from Kyushu University in 2016. My research focuses are:
 
 -  [ORCID](https://orcid.org/0000-0002-0309-3156)
 
+-  [Github](https://github.com/moineco)
+
+-  [Linkedin](https://www.linkedin.com/in/moinul-islam-b7a140263/)
+
 **Affiliation**
 
 -   Research Institute for Future Design, Kochi University of
@@ -81,7 +87,7 @@ from Kyushu University in 2016. My research focuses are:
 
 **Skills**
 
--   Computer programs: R, Python, STATA, oTree, EViews, ArcGIS, GNU Emacs
+-   Computer programs: R, Python, STATA, EViews, ArcGIS, QGIS, GNU Emacs, oTree  
 
 -   Language: English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
