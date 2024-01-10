@@ -20,7 +20,7 @@ Updated on: `r Sys.Date()`
 
 ##### Lecture materials are available from the following website:
 
-(<https://moineco.github.io/human_geography_economics/>)
+(<https://moineco.github.io/geoeconomics/>)
 
 The course contents of "Geoeconomics" are as below:
 
