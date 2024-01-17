@@ -24,7 +24,7 @@ Updated on: `r Sys.Date()`
 
 The course contents of "Geoeconomics" are as below:
 
-**Section 1: What is geographic information system (GIS)?**
+**Section 1: What is Geographic Information System (GIS)?**
 
 -   Lecture 1: Introduction to GIS
 
@@ -36,7 +36,7 @@ The course contents of "Geoeconomics" are as below:
 
 -   Lecture 5: GIS for management (Natural resource management)
 
-**Section 2: What is geographic data?**
+**Section 2: What is Geographic Data?**
 
 -   Lecture 6: Spatial data collection, storage and management
 
@@ -46,7 +46,7 @@ The course contents of "Geoeconomics" are as below:
 
 -   Lecture 9: Spatial data create
 
-**Section 3: How geographic data applied in the study of real-world issues?**
+**Section 3: Application of Geographic Data**
 
 -   Lecture 10: Spatial data analysis with R
 
@@ -64,6 +64,10 @@ The course contents of "Geoeconomics" are as below:
 
 -   Lecture 17: Different ways of plotting U.S. map in R
 
+-   Lecture 18: Spatial vector analysis using sf
+
+-   Lecture 19: Making maps of Bangladesh population density
+
 # 2. International Trade and Finance
 
 [国際貿易・国際金融]
@@ -74,7 +78,7 @@ The course contents of "Geoeconomics" are as below:
 
 The course contents of international trade and finance are as below:
 
-**Section 1: Introduction to international economics**
+**Section 1: Introduction to International Economics**
 
 -   Lecture 1: Basics of international economics
 
@@ -84,7 +88,7 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 4: International trade models
 
-**Section 2: International trade policy**
+**Section 2: International Trade Policy**
 
 -   Lecture 5: The instruments of trade policy
 
@@ -94,25 +98,25 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 8: Trade policy in developing countries: Part B
 
-**Section 3: Open-economy macroeconomics**
+**Section 3: Open-economy Macroeconomics**
 
 -   Lecture 9: Globalization, trade and environment
 
--   Lecture 10: The Federal Reserve
+-   Lecture 10: National income accounting and the balance of payments: Part A
 
--   Lecture 11: National income accounting and the balance of payments: Part A
+-   Lecture 11: National income accounting and the balance of payments: Part B
 
--   Lecture 12: National income accounting and the balance of payments: Part B
+-   Lecture 12: Money, interest rates, and exchange rates
 
--   Lecture 13: Money, interest rates, and exchange rates
+**Section 4: International Macroeconomic Policy**
 
-**Section 4: International macroeconomic policy**
+-   Lecture 13: Economic geography: Part A
 
--   Lecture 14: Economic Geography: Part A
+-   Lecture 14: Economic geography: Part B
 
--   Lecture 15: Economic Geography: Part B
+-   Lecture 15: Developing countries growth, crisis and reform
 
--   Lecture 16: Developing countries growth, crisis, and reform
+-   Lecture 16: The Federal Reserve
 
 # 3. Future Design
 
@@ -126,47 +130,47 @@ The course contents of future design are as below:
 
 **Section 1: What is Future Design**
 
--   Lecture 1: Introduction to Future Design
+-   Lecture 1: Introduction to future design
 
--   Lecture 2: Future Design: Combination of Three Academic Disciplines
+-   Lecture 2: Future design: Combination of three academic disciplines
 
--   Lecture 3: Future Design: From the Perspective of Economics
+-   Lecture 3: Future design: From the perspective of economics
 
--   Lecture 4: Future Studies
+-   Lecture 4: Future studies
 
--   Lecture 5: Scenario Planning
+-   Lecture 5: Scenario planning
 
--   Lecture 6: Originality of Future Design
+-   Lecture 6: Originality of future design
 
 **Section 2: Future Design and Sustainable Development**
 
--   Lecture 7: Population growth and Well-Being
+-   Lecture 7: Population growth and well-being
 
--   Lecture 8: The Environment and Economics
+-   Lecture 8: The environment and economics
 
--   Lecture 9: The Quality of the Environment
+-   Lecture 9: The quality of the environment
 
--   Lecture 10:  Globalization and the Environment
+-   Lecture 10: Globalization and the environment
 
--   Lecture 11: Market Failure: Public Goods, Public Bads, and Externalities
+-   Lecture 11: Market failure: Public goods, public bads and externalities
 
--   Lecture 12: Future Failures: Disruption of $C$ Cycle and $N$ Cycle
+-   Lecture 12: Future failures: Disruption of $C$ cycle and $N$ cycle
 
--   Lecture 13: Managing Climate Risks and Uncertainties
+-   Lecture 13: Managing climate risks and uncertainties
 
 **Section 3: Future Design and Cooperate with Future Generation**
 
--   Lecture 14: Environment, Growth, and Development
+-   Lecture 14: Environment, growth and development
 
--   Lecture 15: Future Design: Sustainable Economies and Societies
+-   Lecture 15: Future design: Sustainable economies and societies
 
--   Lecture 16: Future Design: Sustainable Environments and Societies
+-   Lecture 16: Future design: Sustainable environments and societies
 
 # 4. Environmental Economics
 
 [環境経済学]
 
-The course contents of sustainability science are as below:
+The course contents of environmental economics are as below:
 
 -   Lecture 1: The environment and economics
 
@@ -176,7 +180,7 @@ The course contents of sustainability science are as below:
 
 -   Lecture 4: Efficiency and markets
 
--   Lecture 5: Market failure: Public goods, public bads, and externalities
+-   Lecture 5: Market failure: Public goods, public bads and externalities
 
 -   Lecture 6: Making decisions about environmental programs
 
@@ -198,7 +202,7 @@ The course contents of sustainability science are as below:
 
 -   Lecture 15: Regulation with unknown control costs
 
--   Lecture 16: Audits, enforcement, and moral hazard
+-   Lecture 16: Audits, enforcement and moral hazard
 
 -   Lecture 17: Voluntary actions and agreements
 
@@ -206,46 +210,48 @@ The course contents of sustainability science are as below:
 
 -   Lecture 19: International and interregional competition
 
--   Lecture 20: Environment, growth, and development
+-   Lecture 20: Environment, growth and development
 
 # 5. Energy Economics
 
 [エネルギ経済学]
 
-The course contents of environmental and energy economics are as below:
+The course contents of energy economics are as below:
 
 **Section 1: Economics of Energy**
 
--   Lecture 1: Introduction & Energy Overview
+-   Lecture 1: Introduction and energy overview
 
--   Lecture 2: Energy: An Economist's View
+-   Lecture 2: Energy: An economist's view
 
--   Lecture 3: Energy Markets, Prices, and Efficiency
+-   Lecture 3: Energy markets, prices and efficiency
 
--   Lecture 4: The Economics of Renewable Energy
+-   Lecture 4: The economics of renewable energy
 
--   Lecture 5: Energy and Economic Growth
+-   Lecture 5: Energy and economic growth
 
--   Lecture 6: Economic Theory of the Mine
+-   Lecture 6: Economic theory of the mine
 
--   Lecture 7: Oil and Natural Gas Extraction and Pricing
+-   Lecture 7: Oil and natural gas extraction and pricing
 
--   Lecture 8: Externalities and Policy Instruments
+-   Lecture 8: Externalities and policy instruments
 
--   Lecture 9: The Benefits and Costs of Environmental Protection
+-   Lecture 9: The benefits and costs of environmental protection
 
 **Section 2: Industrial Ecology**
 
--   Lecture 10: The Changing Landscape for Global Oil Companies
+-   Lecture 10: The changing landscape for global oil companies
 
--   Lecture 11: Carbon-Neutral Energy Systems
+-   Lecture 11: Carbon-neutral energy systems
 
--   Lecture 12: Global Energy Disparities
+-   Lecture 12: Global energy disparities
 
 **Section 3: Energy Policy**
 
--   Lecture 13: International Environmental Agreements
+-   Lecture 13: International environmental agreements
 
--   Lecture 14: Energy Efficiency: Puzzle and Policies
+-   Lecture 14: Energy efficiency: Puzzle and policies
 
--   Lecture 15: Unintended Policy Consequences & Course Wrap Up
+-   Lecture 15: Unintended policy consequences and course wrap up
+
+-   Lecture 16: Managing risk and uncertainty

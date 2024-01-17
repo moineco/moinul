@@ -27,8 +27,6 @@ from Kyushu University in 2016. My research focuses are:
 
 -   Experimental Economics
 
--   Applied Microeconomics
-
 -   Geoeconomics
 
 -   Sustainability Science
