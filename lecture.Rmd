@@ -146,19 +146,21 @@ The course contents of future design are as below:
 
 -   Lecture 9: The Quality of the Environment
 
--   Lecture 10: Market Failure: Public Goods, Public Bads, and Externalities
+-   Lecture 10:  Globalization and the Environment
 
--   Lecture 11: Future Failures: Disruption of Carbon Cycle and Nitrogen Cycle
+-   Lecture 11: Market Failure: Public Goods, Public Bads, and Externalities
 
--   Lecture 12: Managing Climate Risks and Uncertainties
+-   Lecture 12: Future Failures: Disruption of $C$ Cycle and $N$ Cycle
+
+-   Lecture 13: Managing Climate Risks and Uncertainties
 
 **Section 3: Future Design and Cooperate with Future Generation**
 
--   Lecture 13: Environment, Growth, and Development
+-   Lecture 14: Environment, Growth, and Development
 
--   Lecture 12: Future Design: Sustainable Economies and Societies
+-   Lecture 15: Future Design: Sustainable Economies and Societies
 
--   Lecture 15: Future Design: Sustainable Environments and Societies
+-   Lecture 16: Future Design: Sustainable Environments and Societies
 
 # 4. Environmental Economics
 
