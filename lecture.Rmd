@@ -102,21 +102,21 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 9: Globalization, trade and environment
 
--   Lecture 10: National income accounting and the balance of payments: Part A
+-   Lecture 10: Macroeconomic analysis of trade balance 
 
--   Lecture 11: National income accounting and the balance of payments: Part B
+-   Lecture 11: National income accounting and the balance of payments
 
 -   Lecture 12: Money, interest rates, and exchange rates
 
+-   Lecture 13: The Federal Reserve
+
 **Section 4: International Macroeconomic Policy**
 
--   Lecture 13: Economic geography: Part A
+-   Lecture 14: Economic geography: Part A
 
--   Lecture 14: Economic geography: Part B
+-   Lecture 15: Economic geography: Part B
 
--   Lecture 15: Developing countries growth, crisis and reform
-
--   Lecture 16: The Federal Reserve
+-   Lecture 16: Developing countries growth, crisis and reform
 
 # 3. Future Design
 
