@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Updated on: `r Sys.Date()`
 
-1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, (forthcoming)
+1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. (<https://doi.org/10.1016/j.agwat.2024.108677>)
 
 2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34-44. (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
