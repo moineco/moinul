@@ -21,7 +21,7 @@ Updated on: `r Sys.Date()`
 
 2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34-44. (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
-3.  Managi, S., **Islam, M.**, Zhang, D., Zaied, Y. B., & Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049-2051. (<https://doi.org/10.1007/s11625-023-01356-7>)
+3.  Managi, S., **Islam, M.**, Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049-2051. (<https://doi.org/10.1007/s11625-023-01356-7>)
 
 4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431-465. (<http://dx.doi.org/10.1561/101.00000148>)
 
@@ -37,7 +37,7 @@ Updated on: `r Sys.Date()`
 
 10. Hongsakhone, S., **Islam, M.**, and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. *Journal of Economic Structures*, 10, 1-24. (<https://doi.org/10.1186/s40008-020-00231-3>)
 
-11. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., & **Islam, M.** (2021). Climate-induced stressors to peace: A review of recent literature. *Environmental Research Letters*, 16, 073006. (<https://doi.org/10.1088/1748-9326/abfc08>)
+11. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., and **Islam, M.** (2021). Climate-induced stressors to peace: A review of recent literature. *Environmental Research Letters*, 16, 073006. (<https://doi.org/10.1088/1748-9326/abfc08>)
 
 12. Simangan, D., Virji, H., Hendrix, C., **Islam, M.**, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. *Sustainability Science*, 16, 1097-1109. (<https://doi.org/10.1007/s11625-021-00970-7>)
 
