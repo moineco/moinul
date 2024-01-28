@@ -28,37 +28,37 @@ The course contents of "Geoeconomics" are as below:
 
 -   Lecture 1: Introduction to GIS
 
--   Lecture 2: GIS for economics (New information provision)
+-   Lecture 2: GIS and R
 
--   Lecture 3: GIS for economics (Geocoding for survey and experiment)
+-   Lecture 3: Geocoding for survey and natural experiment
 
--   Lecture 4: GIS for management (Biodiversity)
+-   Lecture 4: GIS for biodiversity management
 
--   Lecture 5: GIS for management (Natural resource management)
+-   Lecture 5: GIS for resource management
 
-**Section 2: What is Geographic Data?**
+**Section 2: What is geographic data?**
 
 -   Lecture 6: Spatial data collection, storage and management
 
--   Lecture 7: Spatial data visualization
+-   Lecture 7: Climate change and GIS
 
 -   Lecture 8: Spatial data process
 
--   Lecture 9: Spatial data create
+-   Lecture 9: Disaster risk reduction
 
-**Section 3: Application of Geographic Data**
+-   Lecture 10: Spatial data analysis
 
--   Lecture 10: Spatial data analysis with R
+**Section 3: How geographic data can be utilized by R for the policy analysis?**
 
--   Lecture 11: Social applications of GIS
+-   Lecture 11: Processing shapefiles in R
 
--   Lecture 12: GIS to solving real world problems using local examples 1
+-   Lecture 12: GIS to solving real world problems_example 1
 
--   Lecture 13: GIS to solving real world problems using local examples 2
+-   Lecture 13: GIS to solving real world problems_example 2
 
--   Lecture 14: GIS to solving real world problems using global example 1
+-   Lecture 14: GIS to solving real world problems_example 3
 
--   Lecture 15: GIS to solving real world problems using global example 2
+-   Lecture 15: GIS to solving real world problems_example 4
 
 -   Lecture 16: Creating a publication quality map
 
@@ -66,7 +66,7 @@ The course contents of "Geoeconomics" are as below:
 
 -   Lecture 18: Spatial vector analysis using sf
 
--   Lecture 19: Making maps of Bangladesh population density
+-   Lecture 19: Making maps of population density
 
 # 2. International Trade and Finance
 
@@ -106,17 +106,15 @@ The course contents of international trade and finance are as below:
 
 -   Lecture 11: National income accounting and the balance of payments
 
--   Lecture 12: Money, interest rates, and exchange rates
-
--   Lecture 13: The Federal Reserve
+-   Lecture 12: Money, interest rates, exchange rates and the Federal Reserve
 
 **Section 4: International Macroeconomic Policy**
 
--   Lecture 14: Economic geography: Part A
+-   Lecture 13: Economic geography
 
--   Lecture 15: Economic geography: Part B
+-   Lecture 14: Developing countries growth, crisis and reform
 
--   Lecture 16: Developing countries growth, crisis and reform
+-   Lecture 15: International trade and biodiversity
 
 # 3. Future Design
 
@@ -156,15 +154,13 @@ The course contents of future design are as below:
 
 -   Lecture 12: Future failures: Disruption of $C$ cycle and $N$ cycle
 
--   Lecture 13: Managing climate risks and uncertainties
+-   Lecture 13: The economics of biodiversity
 
 **Section 3: Future Design and Cooperate with Future Generation**
 
 -   Lecture 14: Environment, growth and development
 
 -   Lecture 15: Future design: Sustainable economies and societies
-
--   Lecture 16: Future design: Sustainable environments and societies
 
 # 4. Environmental Economics
 
