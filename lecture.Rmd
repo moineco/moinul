@@ -19,8 +19,7 @@ Updated on: `r Sys.Date()`
 [人文地理・経済]
 
 ##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/geoeconomics/>)
+TBA
 
 The course contents of "Geoeconomics" are as below:
 
