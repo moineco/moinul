@@ -17,7 +17,7 @@ Updated on: `r Sys.Date()`
 
 Download [Python](https://www.python.org/)
 
-# 1. Install oTree
+# 1. **oTree**
 
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
 
@@ -82,7 +82,7 @@ otree startapp app_name
 
 Session configs are defined in settings.py
 
-# 2. Heroku server and oTree
+# 2. **Heroku** and **oTree**
 
 #### 2.1. Deploy oTree application to Heroku server
 
@@ -157,4 +157,3 @@ heroku restart;heroku pg:reset DATABASE --confirm appname
 
 Note: "appname" should be replaced with the custom application name
 
-# 3. Anconda and Jupyter  
