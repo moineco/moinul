@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# 1. `Pacman`  package manager
+# 1. **Pacman** 
 
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
@@ -81,7 +81,7 @@ p_temp		      #Install a Package Temporarily
 p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
-# 2. Quarto codes
+# 2. **Quarto**
 
 ### 2.1 Making subfigures in quarto document
 
@@ -110,3 +110,72 @@ For loading a figure with customizing options, we can use following codes
 knitr::include_graphics("figure/discipline.jpg")
 ```
 Here, we can adjust the height, width, alignment and caption of the figure.
+
+# 3. **R** & **GIS**
+
+## 3.1 R packages for data management:
+
+1.  `pacman` for package managing
+2.  `stargazer` for creating table
+3.  `readxl`
+4.  `here`
+5.  `rvest`
+6.  `cowplot`
+7.  `ggthemes`
+8.  `ggpubr`
+9.  `plotly`
+10. `stringr`
+11. `patchwork`
+12. `magrittr`
+
+## 3.2 R Packages for GIS:
+
+### 3.2.1 Basic data manipulation
+1.  `sf` for vector data
+2.  `raster` for raster data
+3.  `rgdal`
+4.  `maptools`
+5.  `shapefiles`
+6.  `ncdf4`
+7.  `sp`
+
+### 3.2.2 Cartography and data visualization
+1.  `tidyverse` includes the packages `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr`, `forcats`
+2.  `RColorBrewer`
+3.  `viridis`
+4.  `tmap`
+5.  `leaflet`
+6.  `mapview`
+7.  `cartography`
+8.  `ggmap`
+9.  `rayshader`
+10. `geojsonio`
+11. `shinyjs`
+
+### 3.2.3 Spatial Statistics
+1.  `spatial`
+2.  `spatstat`
+3.  `gstat`
+4.  `spdep`
+5.  `geoshape`
+6.  `ggspatial`
+
+### 3.2.4 Data Sources
+1.  `OpenStreetMap`
+2.  `rnaturalearth`
+3.  `rnaturalearthdata`
+4.  `rgooglemaps`
+5.  `rastervis`
+6.  `maps`
+7.  `spData`
+8.  `rgeos`
+9.  `jpndistrict`
+10. `countrycode`
+11. `remotes`
+12. `tmaptools`
+13. `DT`
+14. `usmap`
+15. `tigris`
+16. `scales`
+17. `ggrepel`
+18. `tidycensus`
