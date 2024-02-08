@@ -1,5 +1,5 @@
 ---
-title: "Linux (Ubuntu/Fedora)"
+title: "Linux"
 output:
   html_document:
     toc: yes
