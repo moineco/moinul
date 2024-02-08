@@ -18,10 +18,7 @@ Updated on: `r Sys.Date()`
 
 [人文地理・経済]
 
-##### Lecture materials are available from the following website:
-TBA
-
-The course contents of "Geoeconomics" are as below:
+### The course contents of "Geoeconomics"
 
 **Section 1: What is Geographic Information System (GIS)?**
 
@@ -71,11 +68,7 @@ The course contents of "Geoeconomics" are as below:
 
 [国際貿易・国際金融]
 
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/international_trade_finance/>)
-
-The course contents of international trade and finance are as below:
+### The course contents of "International Trade and Finance"
 
 **Section 1: Introduction to International Economics**
 
@@ -119,11 +112,7 @@ The course contents of international trade and finance are as below:
 
 [フューチャー・デザイン]
 
-##### Lecture materials are available from the following website:
-
-(<https://moineco.github.io/future_design/>)
-
-The course contents of future design are as below:
+### The course contents of "Future Design"
 
 **Section 1: What is Future Design**
 
@@ -159,11 +148,11 @@ The course contents of future design are as below:
 
 -   Lecture 15: Environmental goods valuation
 
-# 4. Environmental Economics
+# 4. Environmental and Resource Economics
 
 [環境経済学]
 
-The course contents of environmental economics are as below:
+### The course contents of "Environmental and Resource Economics"
 
 -   Lecture 1: The environment and economics
 
@@ -209,7 +198,7 @@ The course contents of environmental economics are as below:
 
 [エネルギ経済学]
 
-The course contents of energy economics are as below:
+### The course contents of "Energy Economics"
 
 **Section 1: Economics of Energy**
 
