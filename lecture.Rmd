@@ -18,8 +18,6 @@ Updated on: `r Sys.Date()`
 
 [人文地理・経済]
 
-### The course contents of "Geoeconomics"
-
 **Section 1: What is Geographic Information System (GIS)?**
 
 -   Lecture 1: Introduction to GIS
@@ -68,8 +66,6 @@ Updated on: `r Sys.Date()`
 
 [国際貿易・国際金融]
 
-### The course contents of "International Trade and Finance"
-
 **Section 1: Introduction to International Economics**
 
 -   Lecture 1: Basics of international economics
@@ -112,8 +108,6 @@ Updated on: `r Sys.Date()`
 
 [フューチャー・デザイン]
 
-### The course contents of "Future Design"
-
 **Section 1: What is Future Design**
 
 -   Lecture 1: Introduction to future design
@@ -151,8 +145,6 @@ Updated on: `r Sys.Date()`
 # 4. Environmental and Resource Economics
 
 [環境経済学]
-
-### The course contents of "Environmental and Resource Economics"
 
 -   Lecture 1: The environment and economics
 
@@ -197,8 +189,6 @@ Updated on: `r Sys.Date()`
 # 5. Energy Economics
 
 [エネルギ経済学]
-
-### The course contents of "Energy Economics"
 
 **Section 1: Economics of Energy**
 
