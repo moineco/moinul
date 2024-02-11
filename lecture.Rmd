@@ -146,9 +146,13 @@ Updated on: `r Sys.Date()`
 
 [環境経済学]
 
+**Section 1: Introduction to Environmental Economics**
+
 -   Lecture 1: The environment and economics
 
 -   Lecture 2: Normative and positive economic analysis
+
+**Section 2: Environmental Quality**
 
 -   Lecture 3: Social choice: How much environmental protection?
 
@@ -166,6 +170,8 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 10: Constructed markets
 
+**Section 3: Regulating Pollution**
+
 -   Lecture 11: Regulating pollution
 
 -   Lecture 12: Emission prices and fees
@@ -179,6 +185,8 @@ Updated on: `r Sys.Date()`
 -   Lecture 16: Audits, enforcement and moral hazard
 
 -   Lecture 17: Voluntary actions and agreements
+
+**Section 4: Advanced Topics**
 
 -   Lecture 18: Managing risk and uncertainty
 
