@@ -359,7 +359,7 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-02-08</p>
+<p>Updated on: 2024-02-16</p>
 <div id="gnu-emacs" class="section level1">
 <h1>GNU Emacs</h1>
 <p>Homepage (<a href="https://www.gnu.org/software/emacs/"
@@ -371,6 +371,89 @@ class="uri">https://www.gnu.org/software/emacs/</a>)</p>
 <p>Homepage (<a href="https://orgmode.org/"
 class="uri">https://orgmode.org/</a>)</p>
 <p>TBA</p>
+</div>
+<div id="org-roam" class="section level1">
+<h1>ORG roam</h1>
+<p>Homepage (<a href="https://www.orgroam.com/"
+class="uri">https://www.orgroam.com/</a>)</p>
+<ul>
+<li><p>Org Roam is an extension to Org Mode. Install the org-roam
+package from MELPA using package.el, straight.el or any other package
+manager you normally use to install packages.</p></li>
+<li><p>Inside your Emacs working environment, need to customize
+<strong>.emacs</strong> file to become able to utilize the necessary
+packages.</p></li>
+<li><p>If you use use-package with package.el, add this to your
+configuration temporarily and execute it to install org-roam:</p></li>
+</ul>
+<pre class="txt"><code>(use-package org-roam
+  :ensure t)</code></pre>
+<ul>
+<li><p>After *<strong>Org Roam</strong> has been installed, the most
+important thing to configure is the folder where your Org Roam files
+will be located.</p></li>
+<li><p>By default, this will be a folder called org-roam in your
+<strong>HOME</strong> directory but you will probably want to set this
+to something else. No matter what path you use, things will be slightly
+easier if you create the folder in advance!</p></li>
+<li><p>We’ll also add some necessary key bindings and a call to
+org-roam-setup to make sure everything is ready to go.</p></li>
+</ul>
+<pre class="txt"><code>(use-package org-roam
+  :ensure t
+  :custom
+  (org-roam-directory &quot;~/RoamNotes&quot;)
+  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
+         (&quot;C-c n f&quot; . org-roam-node-find)
+         (&quot;C-c n i&quot; . org-roam-node-insert))
+  :config
+  (org-roam-setup))</code></pre>
+<ul>
+<li>If you’ve never used Org Roam before, you can set the variable
+org-roam-v2-ack to t in your configuration. Here’s how to set the
+variable in your configuration:</li>
+</ul>
+<pre class="txt"><code>(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory &quot;~/RoamNotes&quot;)
+  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
+         (&quot;C-c n f&quot; . org-roam-node-find)
+         (&quot;C-c n i&quot; . org-roam-node-insert))
+  :config
+  (org-roam-setup))</code></pre>
+<ul>
+<li><p>Creating your first node. Let’s create our first node! We can use
+the <em>C-c n f</em> binding to invoke org-roam-node-find which brings
+up a completion session to select or create a node.</p></li>
+<li><p>Since we want to create a new node, we can type in the desired
+node name “Programming Languages” and press
+<strong>Enter</strong>.</p></li>
+<li><p>For now, we can add some text to the file and then press <em>C-c
+C-c</em> to confirm the capture to save the file.</p></li>
+<li><p>Let’s follow the same process to create another node called
+“Emacs Lisp”.</p></li>
+<li><p>The real power of Org Roam begins when you start linking your
+node files together!</p></li>
+<li><p>Here’s an updated configuration that makes node completions
+easier:</p></li>
+</ul>
+<pre class="txt"><code>(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory &quot;~/RoamNotes&quot;)
+  (org-roam-completion-everywhere t)
+  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
+         (&quot;C-c n f&quot; . org-roam-node-find)
+         (&quot;C-c n i&quot; . org-roam-node-insert)
+         :map org-mode-map
+         (&quot;C-M-i&quot;    . completion-at-point))
+  :config
+  (org-roam-setup))</code></pre>
 </div>
 
 
