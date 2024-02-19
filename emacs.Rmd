@@ -15,7 +15,75 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# A. Org roam
+# A. GNU Emacs
+
+GNU Emacs isn't a text editor only, it's the ultimate productivity environment. Emacs can be installed on GNU/Linux, macOS and Windows. The latest stable version is 29.2, so it's best to try and find that version for your operating system. Installing Emacs by GUI is straightforward. However, to get a full grip on your installation, using the *terminal* is recommended. I will explain the ways to installing Emacs by using *terminal*.
+
+### 1. GNU/Linux
+
+#### 1.1 Fedora
+
+- After updating the package list in the Fedora Linux system, enter the following command to install the Emacs editor through the **DNF** package manager:
+
+```{txt}
+sudo dnf install emacs
+```
+
+#### 1.2 Ubuntu
+
+- After updating the package list in the Ubuntu Linux system, enter the following command to install the Emacs editor through the **APT** package manager:
+
+```{txt}
+sudo apt install emacs
+```
+
+- If you are using Ubuntu desktop version and want to get the graphical Emacs editor, you can use this command:
+
+```{txt}
+sudo apt install emacs-gtk
+```
+
+- By executing the previous commands, the graphical version of Emacs, along with its dependencies, will be downloaded and installed.
+
+- After you have installed Emacs, run the following command to ensure a successful installation of the Emacs text editor:
+
+```{txt}
+emacs --version
+```
+
+### 2. MacOS
+
+#### 2.1 Homebrew
+
+- Installation on `MacOS` with `Homebrew` is easy! 
+- Install `Homebrew` by following the instructions in <https://brew.sh/>
+- There's a default recipe called `emacs` which can be installed with the following command:
+
+```{txt}
+brew install --cask emacs
+```
+
+#### 2.2 MacPorts
+
+- Installation on `MacOS` with `MacPorts` is useful!
+- Install `MacPorts` by following the instructions in <https://www.macports.org/install.php>
+- The installation command of Emacs by using `MacPorts` is as below:
+
+```{txt}
+sudo port install emacs-app
+```
+
+### 3. Windows
+
+- Installation on `Windows` with `MSYS2` is convenient!
+- Install `MSYS2` by following the instructions in <https://www.msys2.org/>
+- If you use `MSYS2`, you can install it using `Pacman`:
+
+```{txt}
+pacman -S mingw-w64-x86_64-emacs
+```
+
+# B. Org roam
 Homepage (<https://www.orgroam.com/>)
 
 - Org Roam is an extension to Org Mode. Install the org-roam package from MELPA using package.el, straight.el or any other package manager you normally use to install packages.

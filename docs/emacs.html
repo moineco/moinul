@@ -360,8 +360,93 @@ div.tocify {
 
 
 <p>Updated on: 2024-02-19</p>
-<div id="a.-org-roam" class="section level1">
-<h1>A. Org roam</h1>
+<div id="a.-gnu-emacs" class="section level1">
+<h1>A. GNU Emacs</h1>
+<p>GNU Emacs isn’t a text editor only, it’s the ultimate productivity
+environment. Emacs can be installed on GNU/Linux, macOS and Windows. The
+latest stable version is 29.2, so it’s best to try and find that version
+for your operating system. Installing Emacs by GUI is straightforward.
+However, to get a full grip on your installation, using the
+<em>terminal</em> is recommended. I will explain the ways to installing
+Emacs by using <em>terminal</em>.</p>
+<div id="gnulinux" class="section level3">
+<h3>1. GNU/Linux</h3>
+<div id="fedora" class="section level4">
+<h4>1.1 Fedora</h4>
+<ul>
+<li>After updating the package list in the Fedora Linux system, enter
+the following command to install the Emacs editor through the
+<strong>DNF</strong> package manager:</li>
+</ul>
+<pre class="txt"><code>sudo dnf install emacs</code></pre>
+</div>
+<div id="ubuntu" class="section level4">
+<h4>1.2 Ubuntu</h4>
+<ul>
+<li>After updating the package list in the Ubuntu Linux system, enter
+the following command to install the Emacs editor through the
+<strong>APT</strong> package manager:</li>
+</ul>
+<pre class="txt"><code>sudo apt install emacs</code></pre>
+<ul>
+<li>If you are using Ubuntu desktop version and want to get the
+graphical Emacs editor, you can use this command:</li>
+</ul>
+<pre class="txt"><code>sudo apt install emacs-gtk</code></pre>
+<ul>
+<li><p>By executing the previous commands, the graphical version of
+Emacs, along with its dependencies, will be downloaded and
+installed.</p></li>
+<li><p>After you have installed Emacs, run the following command to
+ensure a successful installation of the Emacs text editor:</p></li>
+</ul>
+<pre class="txt"><code>emacs --version</code></pre>
+</div>
+</div>
+<div id="macos" class="section level3">
+<h3>2. MacOS</h3>
+<div id="homebrew" class="section level4">
+<h4>2.1 Homebrew</h4>
+<ul>
+<li>Installation on <code>MacOS</code> with <code>Homebrew</code> is
+easy!</li>
+<li>Install <code>Homebrew</code> by following the instructions in <a
+href="https://brew.sh/" class="uri">https://brew.sh/</a></li>
+<li>There’s a default recipe called <code>emacs</code> which can be
+installed with the following command:</li>
+</ul>
+<pre class="txt"><code>brew install --cask emacs</code></pre>
+</div>
+<div id="macports" class="section level4">
+<h4>2.2 MacPorts</h4>
+<ul>
+<li>Installation on <code>MacOS</code> with <code>MacPorts</code> is
+useful!</li>
+<li>Install <code>MacPorts</code> by following the instructions in <a
+href="https://www.macports.org/install.php"
+class="uri">https://www.macports.org/install.php</a></li>
+<li>The installation command of Emacs by using <code>MacPorts</code> is
+as below:</li>
+</ul>
+<pre class="txt"><code>sudo port install emacs-app</code></pre>
+</div>
+</div>
+<div id="windows" class="section level3">
+<h3>3. Windows</h3>
+<ul>
+<li>Installation on <code>Windows</code> with <code>MSYS2</code> is
+convenient!</li>
+<li>Install <code>MSYS2</code> by following the instructions in <a
+href="https://www.msys2.org/"
+class="uri">https://www.msys2.org/</a></li>
+<li>If you use <code>MSYS2</code>, you can install it using
+<code>Pacman</code>:</li>
+</ul>
+<pre class="txt"><code>pacman -S mingw-w64-x86_64-emacs</code></pre>
+</div>
+</div>
+<div id="b.-org-roam" class="section level1">
+<h1>B. Org roam</h1>
 <p>Homepage (<a href="https://www.orgroam.com/"
 class="uri">https://www.orgroam.com/</a>)</p>
 <ul>
