@@ -47,7 +47,7 @@ Homepage (<https://www.orgroam.com/>)
   (org-roam-setup))
 ```
 
-- If you’ve never used Org Roam before, you can set the variable org-roam-v2-ack to t in your configuration. Here’s how to set the variable in your configuration:
+- If you've never used Org Roam before, you can set the variable org-roam-v2-ack to t in your configuration. Here's how to set the variable in your configuration:
 
 ```{txt}
 (use-package org-roam
@@ -55,7 +55,7 @@ Homepage (<https://www.orgroam.com/>)
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory "~/RoamNotes")
+  (org-roam-directory "/Users/username/Documents/Dropbox/roam_notes")
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n i" . org-roam-node-insert))
@@ -63,13 +63,13 @@ Homepage (<https://www.orgroam.com/>)
   (org-roam-setup))
 ```
 
-- Creating your first node. Let’s create our first node! We can use the *C-c n f* binding to invoke org-roam-node-find which brings up a completion session to select or create a node.
+- Creating your first node. Let's create our first node! We can use the *C-c n f* binding to invoke org-roam-node-find which brings up a completion session to select or create a node.
 
-- Since we want to create a new node, we can type in the desired node name “Programming Languages” and press **Enter**.
+- Since we want to create a new node, we can type in the desired node name “Econometrics” and press **Enter**.
 
 - For now, we can add some text to the file and then press *C-c C-c* to confirm the capture to save the file. 
 
-- Let's follow the same process to create another node called “Emacs Lisp”. 
+- Let's follow the same process to create another node called “Logit_model”. 
 
 - The real power of Org Roam begins when you start linking your node files together! 
 
@@ -81,7 +81,7 @@ Homepage (<https://www.orgroam.com/>)
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory "~/RoamNotes")
+  (org-roam-directory "/Users/username/Documents/Dropbox/roam_notes")
   (org-roam-completion-everywhere t)
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)

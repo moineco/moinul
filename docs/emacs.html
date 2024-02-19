@@ -406,7 +406,7 @@ variable in your configuration:</li>
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory &quot;~/RoamNotes&quot;)
+  (org-roam-directory &quot;/Users/username/Documents/Dropbox/roam_notes&quot;)
   :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
          (&quot;C-c n f&quot; . org-roam-node-find)
          (&quot;C-c n i&quot; . org-roam-node-insert))
@@ -417,12 +417,11 @@ variable in your configuration:</li>
 the <em>C-c n f</em> binding to invoke org-roam-node-find which brings
 up a completion session to select or create a node.</p></li>
 <li><p>Since we want to create a new node, we can type in the desired
-node name “Programming Languages” and press
-<strong>Enter</strong>.</p></li>
+node name “Econometrics” and press <strong>Enter</strong>.</p></li>
 <li><p>For now, we can add some text to the file and then press <em>C-c
 C-c</em> to confirm the capture to save the file.</p></li>
 <li><p>Let’s follow the same process to create another node called
-“Emacs Lisp”.</p></li>
+“Logit_model”.</p></li>
 <li><p>The real power of Org Roam begins when you start linking your
 node files together!</p></li>
 <li><p>Here’s an updated configuration that makes node completions
@@ -433,7 +432,7 @@ easier:</p></li>
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory &quot;~/RoamNotes&quot;)
+  (org-roam-directory &quot;/Users/username/Documents/Dropbox/roam_notes&quot;)
   (org-roam-completion-everywhere t)
   :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
          (&quot;C-c n f&quot; . org-roam-node-find)
