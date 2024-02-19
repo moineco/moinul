@@ -1,5 +1,5 @@
 ---
-title: "R Codes"
+title: "R"
 output:
   html_document:
     toc: yes
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# 1. **Pacman** 
+# A. **Pacman** 
 
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
@@ -81,7 +81,7 @@ p_temp		      #Install a Package Temporarily
 p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
-# 2. **Quarto**
+# B. **Quarto**
 
 ### 2.1 Making subfigures in quarto document
 
@@ -111,9 +111,9 @@ knitr::include_graphics("figure/discipline.jpg")
 ```
 Here, we can adjust the height, width, alignment and caption of the figure.
 
-# 3. **R** & **GIS**
+# C. **R** & **GIS**
 
-## 3.1 R packages for data management:
+### R packages for data management:
 
 1.  `pacman` for package managing
 2.  `stargazer` for creating table
@@ -128,9 +128,9 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 11. `patchwork`
 12. `magrittr`
 
-## 3.2 R Packages for GIS:
+### R Packages for GIS:
 
-### 3.2.1 Basic data manipulation
+##### Basic data manipulation
 1.  `sf` for vector data
 2.  `raster` for raster data
 3.  `rgdal`
@@ -139,7 +139,7 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 6.  `ncdf4`
 7.  `sp`
 
-### 3.2.2 Cartography and data visualization
+##### Cartography and data visualization
 1.  `tidyverse` includes the packages `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr`, `forcats`
 2.  `RColorBrewer`
 3.  `viridis`
@@ -152,7 +152,7 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 10. `geojsonio`
 11. `shinyjs`
 
-### 3.2.3 Spatial Statistics
+##### Spatial Statistics
 1.  `spatial`
 2.  `spatstat`
 3.  `gstat`
@@ -160,7 +160,7 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 5.  `geoshape`
 6.  `ggspatial`
 
-### 3.2.4 Data Sources
+##### Data Sources
 1.  `OpenStreetMap`
 2.  `rnaturalearth`
 3.  `rnaturalearthdata`
