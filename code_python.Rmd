@@ -48,7 +48,7 @@ set https_proxy address:password
 pip install otree
 ```
 
-#### 1.1 oTree setup
+#### oTree setup
 
 - From your command prompt, create your IGG project
 
@@ -84,7 +84,7 @@ Session configs are defined in settings.py
 
 # B. **Heroku** and **oTree**
 
-#### 2.1. Deploy oTree application to Heroku server
+#### Deploy oTree application to Heroku server
 
 To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
 
@@ -131,7 +131,7 @@ Your oTree application should now be deployed to your Heroku server. You can acc
 
 Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your Pycharm.
 
-#### 2.2 Necessary settings of Heroku to run small experiment
+#### Necessary settings of Heroku to run small experiment
 
 > Go to **Resources** tab. Following Add-ons need to be included for a small size experiment (For instance, 30 participants in one session).
 
@@ -149,7 +149,7 @@ OTREE_AUTH_LEVEL...........Demo
 OTREE_PRODUCTION...........1
 ```
 
-#### 2.3. Setup of Heroku server to activate the paid plans
+#### Setup of Heroku server to activate the paid plans
 
 ```{txt}
 heroku restart;heroku pg:reset DATABASE --confirm appname
