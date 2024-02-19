@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# Org roam
+# A. Org roam
 Homepage (<https://www.orgroam.com/>)
 
 - Org Roam is an extension to Org Mode. Install the org-roam package from MELPA using package.el, straight.el or any other package manager you normally use to install packages.

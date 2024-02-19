@@ -14,7 +14,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 Updated on: `r Sys.Date()`
 
-# 1. Geoeconomics
+# A. Geoeconomics
 
 [人文地理・経済]
 
@@ -54,7 +54,7 @@ Updated on: `r Sys.Date()`
 
 - Lecture 15: Dynamic maps with `mapview`
 
-# 2. International Trade and Finance
+# B. International Trade and Finance
 
 [国際貿易・国際金融]
 
@@ -96,7 +96,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 15: International trade and biodiversity
 
-# 3. Future Design
+# C. Future Design
 
 [フューチャー・デザイン]
 
@@ -134,7 +134,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 15: Environmental goods valuation
 
-# 4. Environmental and Resource Economics
+# D. Environmental and Resource Economics
 
 [環境と資源の経済学]
 
@@ -186,7 +186,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 20: Environment, growth and development
 
-# 5. Energy Economics
+# E. Energy Economics
 
 [エネルギ経済学]
 
