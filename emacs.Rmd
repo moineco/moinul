@@ -15,17 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# GNU Emacs
-Homepage (<https://www.gnu.org/software/emacs/>)
-
-TBA
-
-# Org mode
-Homepage (<https://orgmode.org/>)
-
-TBA
-
-# ORG roam
+# Org roam
 Homepage (<https://www.orgroam.com/>)
 
 - Org Roam is an extension to Org Mode. Install the org-roam package from MELPA using package.el, straight.el or any other package manager you normally use to install packages.
@@ -49,7 +39,7 @@ Homepage (<https://www.orgroam.com/>)
 (use-package org-roam
   :ensure t
   :custom
-  (org-roam-directory "~/RoamNotes")
+  (org-roam-directory "/Users/username/Documents/Dropbox/roam_notes")
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n i" . org-roam-node-insert))
