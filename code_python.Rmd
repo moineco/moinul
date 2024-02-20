@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-Download [Python](https://www.python.org/)
+![](images/python.png){width="150"}
 
 # **oTree**
 
