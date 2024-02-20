@@ -15,8 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-![](images/ubuntu.png){width="150"}
-![](images/fedora.png){width="150"}
+![](images/ubuntu.png){width="250"}
+![](images/fedora.png){width="250"}
 
 # Partitioning hard drive in Linux OS
 
