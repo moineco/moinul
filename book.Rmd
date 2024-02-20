@@ -17,7 +17,7 @@ Updated on: `r Sys.Date()`
 
 Recommended readings to everyone who is interested about Economics, Mathematics, Data Science and Geoeconomics.
 
-# A. Economics
+# Economics
 
 1.  Kreps, D. (2013). Microeconomic Foundations I: Choice and Competitive Markets. Princeton University Press.
 
@@ -39,21 +39,21 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 10. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile Regression: Theory and Applications. John Wiley and Sons.
 
-# B. Linear Algebra
+# Linear Algebra
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-# C. Vector Calculus
+# Vector Calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
-# D. Mathematics
+# Mathematics
 
 1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
 
 2.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
-# E. Data Science
+# Data Science with R and Python
 
 1.  Wickham, H., and Grolemund, G. (2016). [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
@@ -65,7 +65,9 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 5.  Heiss, F. (2016). [Using R for Introductory Econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
-# F. Geoeconomics
+6. McKinney, W. (2022). [Python for data analysis: Data wrangling with Pandas. NumPy, and Jupyter](https://wesmckinney.com/book/).
+
+# Geoeconomics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 

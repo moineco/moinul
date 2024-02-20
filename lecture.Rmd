@@ -14,7 +14,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 Updated on: `r Sys.Date()`
 
-# A. Geoeconomics
+# Geoeconomics
 
 [人文地理・経済]
 
@@ -54,7 +54,7 @@ Updated on: `r Sys.Date()`
 
 - Lecture 15: Dynamic maps with `mapview`
 
-# B. International Trade and Finance
+# International Trade and Finance
 
 [国際貿易・国際金融]
 
@@ -96,7 +96,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 15: International trade and biodiversity
 
-# C. Future Design
+# Future Design
 
 [フューチャー・デザイン]
 
@@ -134,7 +134,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 15: Environmental goods valuation
 
-# D. Environmental and Resource Economics
+# Environmental and Resource Economics
 
 [環境と資源の経済学]
 
@@ -186,7 +186,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 20: Environment, growth and development
 
-# E. Data Science with R and Python
+# Data Science with R and Python
 
 In this course, I will introduce you to two of the most widely-used programming languages for data science: R and Python. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
 
@@ -195,7 +195,7 @@ By the end of this course, you will be able to:
 
 - Use GitHub, R, and Python for basic data analysis and version control.
 - Perform exploratory data analysis in R.
-- Use strings and lists in python.
+- Use strings and lists in Python.
 - Test statistical hypotheses using R functions.
 - Create readable functions for efficient task management.
 - Manipulate real-world data to enable further analysis.
