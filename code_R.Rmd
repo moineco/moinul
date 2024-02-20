@@ -133,11 +133,9 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 ##### Basic data manipulation
 1.  `sf` for vector data
 2.  `raster` for raster data
-3.  `rgdal`
-4.  `maptools`
-5.  `shapefiles`
-6.  `ncdf4`
-7.  `sp`
+3.  `shapefiles`
+4.  `ncdf4`
+5.  `sp`
 
 ##### Cartography and data visualization
 1.  `tidyverse` includes the packages `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr`, `forcats`
