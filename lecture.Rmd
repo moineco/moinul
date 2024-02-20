@@ -186,3 +186,66 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 20: Environment, growth and development
 
+# E. Data Science with R and Python
+
+In this course, I will introduce you to two of the most widely-used programming languages for data science: R and Python. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
+
+#### Course Objectives 
+By the end of this course, you will be able to:
+
+- Use GitHub, R, and Python for basic data analysis and version control.
+- Perform exploratory data analysis in R.
+- Use strings and lists in python.
+- Test statistical hypotheses using R functions.
+- Create readable functions for efficient task management.
+- Manipulate real-world data to enable further analysis.
+- Choose and implement efficient methods for analyzing data sets.
+- Gather real-world data that can be analyzed to address a modeling question.
+- Synthesize analysis of gathered data for stakeholders.
+
+#### Syllabus
+
+**Section 1: Foundation of Data Science**
+
+- Lecture 1: Introduction to Data Science
+
+- Lecture 2: The Basics of Python and R
+
+**Section 2: Data Science with R**
+
+- Lecture 3: Downloading RStudio and Basics of Coding in R
+
+- Lecture 4: Importing Packages and Getting Data into R
+
+- Lecture 5: Saving Output and Setting Up Graphics in R
+
+**Section 3: Data Science with Python**
+
+- Lecture 6: Downloading and Basics of Coding in Python
+
+- Lecture 7: Importing Packages and Getting Data into Python
+
+- Lecture 8: Saving Output and Setting Up Graphics in Python
+   
+**Section 4: Data Preparation**
+
+- Lecture 9: Data preparation with R and Python
+
+**Section 5: Exploratory Data Analysis**
+
+- Lecture 10: Exploratory Data Analysis with R and Python
+
+**Section 6: Regression Modeling**
+
+- Lecture 11: Descriptive Regression Modeling
+
+- Lecture 12: Perform Multiple Regression Modeling Using Python
+
+- Lecture 13: Perform Multiple Regression Modeling Using R
+
+**Section 7: Generalized Linear Models**
+
+- Lecture 14: How to Perform Logistic Regression Using Python
+
+- Lecture 15: How to Perform Logistic Regression Using R
+
