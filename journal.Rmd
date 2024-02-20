@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# A. Journal articles (peer-review)
+# Journal articles (peer-review)
 
 Updated on: `r Sys.Date()`
 
@@ -79,7 +79,7 @@ Updated on: `r Sys.Date()`
 
 31. **Islam, M.**, and Kotani, K. (2016). Changing seasonality in Bangladesh. *Regional Environmental Change*, 16, 585-590. (<https://doi.org/10.1007/s10113-015-0758-5>)
 
-# B. International policy reports (peer-review)
+# International policy reports (peer-review)
 
 1.  Inclusive Wealth Report 2023. United Nation Environmental Program (UNEP). [link](https://wedocs.unep.org/handle/20.500.11822/43131)
 
@@ -87,7 +87,7 @@ Updated on: `r Sys.Date()`
 
 3.  Future Design: For the Survival of Humankind (2022). Think7: Research-based policy recommendations for the G7. [link](https://www.think7.org/publication/future-design/)
 
-# C. Book chapters (peer-review)
+# Book chapters (peer-review)
 
 1.  **Islam, M.**, and Managi, S. (2021). Global Human Capital: View From Inclusive Wealth. In Measuring Human Capital (pp. 39-54). Academic Press. ISBN: 9780128190579. [link](https://www.elsevier.com/books/measuring-human-capital/fraumeni/978-0-12-819057-9)
 
@@ -103,7 +103,7 @@ Updated on: `r Sys.Date()`
 
 7.  Mahful, R., **Islam, M.**, Nakayam, H., and Managi, S. (2019). The effect of landfill gas emission on global warming and workers' health in Indonesia. In Wealth, Inclusive Growth and Sustainability. Routledge, New York, USA. [link](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429400636-15/effect-landfill-gas-emission-global-warming-workers-health-indonesia-rafid-mahful-moinul-islam-hirofumi-nakayama-shunsuke-managi?context=ubx)
 
-# D. International conferences
+# International conferences
 
 1.  **Islam, M.** Future Design (FD) Social Experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
 
@@ -115,7 +115,7 @@ Updated on: `r Sys.Date()`
 
 5.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
 
-# E. International symposiums
+# International symposiums
 
 1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
@@ -127,7 +127,7 @@ Updated on: `r Sys.Date()`
 
 5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27-28 March 2018.
 
-# F. Research grants
+# Research grants
 
 1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04-2025/03.
 
@@ -135,7 +135,7 @@ Updated on: `r Sys.Date()`
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04-2021/03.
 
-# G. Working papers
+# Working papers
 
 1.  Husniddin, S., **Islam, M.**, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers SDES-2022-3, Kochi University of Technology, School of Economics and Management, 2022.
 
