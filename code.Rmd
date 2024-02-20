@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Updated on: `r Sys.Date()`
 
 
-# A. Partitioning hard drive in Linux OS
+# Partitioning hard drive in Linux OS
 
 ##### 1. Use `fdisk` command to delete a hard disk partition:
 
@@ -54,7 +54,7 @@ sudo fdisk /dev/sda
 
 - Continue this process until you delete all target partitions.
 
-# B. Ubuntu and Fedora proxy in KUT
+# Ubuntu and Fedora proxy in KUT
 
 ##### 1. Proxy for Ubuntu
 
@@ -158,7 +158,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-# C. STATA17 installation in Ubuntu/Fedora
+# STATA17 installation in Ubuntu/Fedora
 
 First copy your **STATA17** source file in the **Downloads** folder of your PC. 
 
@@ -237,7 +237,7 @@ MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl
 Actions=doedit;use;view;graphuse;projmanag;semopen;
 ```
 
-# D. Nano, a popular terminal-based text editor
+# Nano, a popular terminal-based text editor
 
 GNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:
 
