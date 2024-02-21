@@ -19,7 +19,7 @@ Updated on: `r Sys.Date()`
 
 GNU Emacs isn't a text editor only, it's the ultimate productivity environment. Emacs can be installed on GNU/Linux, macOS and Windows. The latest stable version is 29.2, so it's best to try and find that version for your operating system. Installing Emacs by GUI is straightforward. However, to get a full grip on your installation, using the *terminal* is recommended. I will explain the ways to installing Emacs by using *terminal*.
 
-### 1. GNU/Linux
+### 1. LinuxOS
 
 #### 1.1 Fedora
 
@@ -57,7 +57,7 @@ emacs --version
 
 - Installation on `MacOS` with `Homebrew` is easy! 
 - Install `Homebrew` by following the instructions in <https://brew.sh/>
-- There's a default recipe called `emacs` which can be installed with the following command:
+- There's a default recipe called `Emacs` which can be installed with the following command:
 
 ```{txt}
 brew install --cask emacs
@@ -83,7 +83,7 @@ sudo port install emacs-app
 pacman -S mingw-w64-x86_64-emacs
 ```
 
-# Org roam
+# Org-roam
 Homepage (<https://www.orgroam.com/>)
 
 - Org Roam is an extension to Org Mode. Install the org-roam package from MELPA using package.el, straight.el or any other package manager you normally use to install packages.

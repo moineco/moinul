@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# **Pacman** 
+# Pacman
 
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
@@ -81,7 +81,7 @@ p_temp		      #Install a Package Temporarily
 p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
-# **Quarto**
+# Quarto
 
 ### 2.1 Making subfigures in quarto document
 
