@@ -15,8 +15,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # My profile
 
-![](images/profile_1.jpeg){width="150"}
-
 Updated on: `r Sys.Date()`
 
 I am Dr. Moinul Islam, working as an assistant professor at Kochi
