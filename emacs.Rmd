@@ -15,8 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-![](images/emacs.png){width="150"}
-
 # GNU Emacs
 
 GNU Emacs isn't a text editor only, it's the ultimate productivity environment. Emacs can be installed on GNU/Linux, macOS and Windows. The latest stable version is 29.2, so it's best to try and find that version for your operating system. Installing Emacs by GUI is straightforward. However, to get a full grip on your installation, using the *terminal* is recommended. I will explain the ways to installing Emacs by using *terminal*.

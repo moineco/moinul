@@ -15,9 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-![](images/ubuntu.png){width="250"}
-![](images/fedora.png){width="250"}
-
 # Partitioning hard drive in Linux OS
 
 ##### 1. Use `fdisk` command to delete a hard disk partition:

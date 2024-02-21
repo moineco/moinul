@@ -15,8 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-![](images/python.png){width="150"}
-
 # **oTree**
 
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
