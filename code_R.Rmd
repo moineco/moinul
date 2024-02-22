@@ -114,9 +114,8 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 # **R** & **GIS**
 
 ### R packages for data management:
-
-1.  `pacman` for package managing
-2.  `stargazer` for creating table
+1.  `pacman`
+2.  `stargazer` 
 3.  `readxl`
 4.  `here`
 5.  `rvest`
@@ -127,18 +126,23 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 10. `stringr`
 11. `patchwork`
 12. `magrittr`
+13. `datasets`
+14. `DBI` 
+15. `RSQLite` 
+16. `data.table` 
+17. `lubridate` 
 
 ### R Packages for GIS:
 
 ##### Basic data manipulation
-1.  `sf` for vector data
-2.  `raster` for raster data
+1.  `sf` 
+2.  `raster` 
 3.  `shapefiles`
 4.  `ncdf4`
 5.  `sp`
 
 ##### Cartography and data visualization
-1.  `tidyverse` includes the packages `ggplot2`, `dplyr`, `tidyr`, `readr`, `purrr`, `tibble`, `stringr`, `forcats`
+1.  `tidyverse`
 2.  `RColorBrewer`
 3.  `viridis`
 4.  `tmap`
@@ -149,6 +153,11 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 9.  `rayshader`
 10. `geojsonio`
 11. `shinyjs`
+12. `GGally`
+13. `grid`
+14. `gridExtra`
+15. `cartogram`
+16. `visNetwork`
 
 ##### Spatial Statistics
 1.  `spatial`
@@ -157,6 +166,9 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 4.  `spdep`
 5.  `geoshape`
 6.  `ggspatial`
+7.  `spdep` 
+8.  `geogrid` 
+9.  `GISTools` 
 
 ##### Data Sources
 1.  `OpenStreetMap`
@@ -177,3 +189,7 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 16. `scales`
 17. `ggrepel`
 18. `tidycensus`
+
+##### Regression models
+1. `biglm` 
+2. `rpart` 
