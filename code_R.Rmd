@@ -115,22 +115,23 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 
 ### R packages for data management:
 1.  `pacman`
-2.  `stargazer` 
-3.  `readxl`
-4.  `here`
-5.  `rvest`
-6.  `cowplot`
-7.  `ggthemes`
-8.  `ggpubr`
-9.  `plotly`
-10. `stringr`
-11. `patchwork`
-12. `magrittr`
-13. `datasets`
-14. `DBI` 
-15. `RSQLite` 
-16. `data.table` 
-17. `lubridate` 
+2.  `devtools`
+3.  `remotes`
+4.  `stargazer` 
+5.  `readxl`
+6.  `here`
+7.  `rvest`
+8.  `cowplot`
+9.  `ggthemes`
+10. `ggpubr`
+11. `plotly`
+12. `stringr`
+13. `patchwork`
+14. `magrittr`
+15. `DBI` 
+16. `RSQLite` 
+17. `data.table` 
+18. `lubridate` 
 
 ### R Packages for GIS:
 
@@ -181,14 +182,13 @@ Here, we can adjust the height, width, alignment and caption of the figure.
 8.  `rgeos`
 9.  `jpndistrict`
 10. `countrycode`
-11. `remotes`
-12. `tmaptools`
-13. `DT`
-14. `usmap`
-15. `tigris`
-16. `scales`
-17. `ggrepel`
-18. `tidycensus`
+11. `tmaptools`
+12. `DT`
+13. `usmap`
+14. `tigris`
+15. `scales`
+16. `ggrepel`
+17. `tidycensus`
 
 ##### Regression models
 1. `biglm` 
