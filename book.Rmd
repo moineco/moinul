@@ -17,7 +17,7 @@ Updated on: `r Sys.Date()`
 
 Recommended readings to everyone who is interested about Economics, Mathematics, Data Science and Geoeconomics.
 
-# Economics
+# Microeconomics
 
 1.  Kreps, D. (2013). Microeconomic Foundations I: Choice and Competitive Markets. Princeton University Press.
 
@@ -31,19 +31,19 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 6.  Gibbons, R. (1992) Game Theory for Applied Economists. Princeton University Press
 
-7.  Wooldridge, J. (2019) Introductory Econometrics: A Modern Approach. Cengage Learning
+# Econometrics
 
-8.  Wooldridge, J. (2010) Econometric Analysis of Cross Section and Panel Data. MIT press
+1.  Wooldridge, J. (2019) Introductory Econometrics: A Modern Approach. Cengage Learning
 
-9.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
+2.  Wooldridge, J. (2010) Econometric Analysis of Cross Section and Panel Data. MIT press
 
-10. Davino, C., Furno, M. and Vistocco, D. (2013) Quantile Regression: Theory and Applications. John Wiley and Sons.
+3.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
 
-# Linear Algebra
+# Linear algebra
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-# Vector Calculus
+# Vector calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
@@ -53,7 +53,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 2.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
-# Data Science with R and Python
+# Data science
 
 1.  Wickham, H., and Grolemund, G. (2016). [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
