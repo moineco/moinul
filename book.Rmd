@@ -23,13 +23,9 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 2.  Kreps, D. (2023). Microeconomic Foundations II: Imperfect Competition, Information, and Strategic Interaction. Princeton University Press.
 
-3.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic Theory. New York: Oxford University Press.
+3. Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and Applications. Cambridge University Press, New York.
 
-4.  Sundram, R. (1996) A First Course in Optimization Theory. Cambridge University Press.
-
-5.  Friedman, D. (1994) Experimental Methods: A Primer for Economists. Cambridge University Press
-
-6.  Gibbons, R. (1992) Game Theory for Applied Economists. Princeton University Press
+4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic Theory. New York: Oxford University Press.
 
 # Econometrics
 
@@ -39,19 +35,19 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 3.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
 
-# Linear algebra
+# Geoeconomics
 
-1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
-# Vector calculus
+2.  Comber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.
 
-1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
+3.  Kopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.
 
-# Mathematics
+# Experimental economics
 
-1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
+1.  Friedman, D. (1994) Experimental Methods: A Primer for Economists. Cambridge University Press
 
-2.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
+2.  Gibbons, R. (1992) Game Theory for Applied Economists. Princeton University Press
 
 # Data science
 
@@ -67,10 +63,23 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 6. McKinney, W. (2022). [Python for data analysis: Data wrangling with Pandas. NumPy, and Jupyter](https://wesmckinney.com/book/).
 
-# Geoeconomics
+# Statistics
 
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
+1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics (5th Edition). Wiley
 
-2.  Comber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.
+# Linear algebra
 
-3.  Kopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.
+1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
+
+# Vector calculus
+
+1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
+
+# Mathematics
+
+1.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
+
+2.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
+
+
+
