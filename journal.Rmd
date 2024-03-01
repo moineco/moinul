@@ -17,67 +17,67 @@ Updated on: `r Sys.Date()`
 
 # Journal articles (peer-review)
 
-1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. (<https://doi.org/10.1016/j.agwat.2024.108677>)
+1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. [Q1] (<https://doi.org/10.1016/j.agwat.2024.108677>)
 
-2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34-44. (<https://doi.org/10.1016/j.eap.2023.11.001>)
+2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34-44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
-3.  Managi, S., **Islam, M.**, Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049-2051. (<https://doi.org/10.1007/s11625-023-01356-7>)
+3.  Managi, S., **Islam, M.* **, Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049-2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
 
-4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431-465. (<http://dx.doi.org/10.1561/101.00000148>)
+4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431-465. [Q2] (<http://dx.doi.org/10.1561/101.00000148>)
 
-5.  **Islam, M.**, Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. *Sustainability Science*, 17, 1799-1811. (<https://doi.org/10.1007/s11625-022-01143-w>)
+5.  **Islam, M.**, Zhang, B., and Managi, S. (2022). The tradeoff between natural capital and other capitals in Pakistan. *Sustainability Science*, 17, 1799-1811. [Q1] (<https://doi.org/10.1007/s11625-022-01143-w>)
 
-6.  Managi, S., **Islam, M.**, Saito, O. et al. (2022). Valuation of nature and nature's contributions to people. *Sustainability Science*, 17, 701-705. (<https://doi.org/10.1007/s11625-022-01140-z>)
+6.  Managi, S., **Islam, M.* **, Saito, O. et al. (2022). Valuation of nature and nature's contributions to people. *Sustainability Science*, 17, 701-705. [Q1] (<https://doi.org/10.1007/s11625-022-01140-z>)
 
-7.  **Islam, M.**, and Managi, S. (2022). Valuation of Nature's Contribution in Ladakh, India: An Inclusive Wealth Method. *Sustainability Science*, 17, 905-918. (<https://doi.org/10.1007/s11625-021-01030-w>)
+7.  **Islam, M.**, and Managi, S. (2022). Valuation of Nature's Contribution in Ladakh, India: An Inclusive Wealth Method. *Sustainability Science*, 17, 905-918. [Q1] (<https://doi.org/10.1007/s11625-021-01030-w>)
 
-8.  N'dri, L., **Islam, M.**, and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? *Journal of Cleaner Production*, 297, 126642. (<https://doi.org/10.1016/j.jclepro.2021.126642>)
+8.  N'dri, L., **Islam, M.* **, and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? *Journal of Cleaner Production*, 297, 126642. [Q1] (<https://doi.org/10.1016/j.jclepro.2021.126642>)
 
-9.  Badamvaanchig, M., **Islam, M.**, and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric? *Resources Policy*, 70, 101955. (<https://doi.org/10.1016/j.resourpol.2020.101955>)
+9.  Badamvaanchig, M., **Islam, M.* **, and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric? *Resources Policy*, 70, 101955. [Q1] (<https://doi.org/10.1016/j.resourpol.2020.101955>)
 
-10. Hongsakhone, S., **Islam, M.**, and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. *Journal of Economic Structures*, 10, 1-24. (<https://doi.org/10.1186/s40008-020-00231-3>)
+10. Hongsakhone, S., **Islam, M.* **, and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. *Journal of Economic Structures*, 10, 1-24. (<https://doi.org/10.1186/s40008-020-00231-3>)
 
-11. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., and **Islam, M.** (2021). Climate-induced stressors to peace: A review of recent literature. *Environmental Research Letters*, 16, 073006. (<https://doi.org/10.1088/1748-9326/abfc08>)
+11. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., and **Islam, M.** (2021). Climate-induced stressors to peace: A review of recent literature. *Environmental Research Letters*, 16, 073006. [Q1] (<https://doi.org/10.1088/1748-9326/abfc08>)
 
-12. Simangan, D., Virji, H., Hendrix, C., **Islam, M.**, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. *Sustainability Science*, 16, 1097-1109. (<https://doi.org/10.1007/s11625-021-00970-7>)
+12. Simangan, D., Virji, H., Hendrix, C., **Islam, M.**, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. *Sustainability Science*, 16, 1097-1109. [Q1] (<https://doi.org/10.1007/s11625-021-00970-7>)
 
-13. Essandoh, O. K., **Islam, M.**, and Kakinaka, M. (2020). Linking international trade and foreign direct investment to CO2 emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
+13. Essandoh, O. K., **Islam, M.* **, and Kakinaka, M. (2020). Linking international trade and foreign direct investment to CO2 emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. [Q1] (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
 
-14. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., **Islam M.**, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. *Journal of Environmental Management*, 264, 110328. (<https://doi.org/10.1016/j.jenvman.2020.110328>)
+14. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., **Islam M.**, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. *Journal of Environmental Management*, 264, 110328. [Q1] (<https://doi.org/10.1016/j.jenvman.2020.110328>)
 
-15. Hotak, S., **Islam, M.**, Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. *Environmental Science and Pollution Research*, 27, 24115-24128. (<https://doi.org/10.1007/s11356-020-08478-w>)
+15. Hotak, S., **Islam, M.* **, Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. *Environmental Science and Pollution Research*, 27, 24115-24128. [Q1] (<https://doi.org/10.1007/s11356-020-08478-w>)
 
 16. Coulibaly, T., **Islam, M.**, and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries. *Economics of Disasters and Climate Change*, 4, 347-363. (<https://doi.org/10.1007/s41885-019-00057-9>)
 
-17. Coulibaly, T., Wakamatsu, M., **Islam, M.**, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas (2020). *Ecological Economics*, 175, 106707. (<https://doi.org/10.1016/j.ecolecon.2020.106707>)
+17. Coulibaly, T., Wakamatsu, M., **Islam, M.**, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas (2020). *Ecological Economics*, 175, 106707. [Q1] (<https://doi.org/10.1016/j.ecolecon.2020.106707>)
 
-18. **Islam, M.**, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. *Resources, Conservation and Recycling*, 145, 126-138. (<https://doi.org/10.1016/j.resconrec.2019.02.027>)
+18. **Islam, M.**, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. *Resources, Conservation and Recycling*, 145, 126-138. [Q1] (<https://doi.org/10.1016/j.resconrec.2019.02.027>)
 
-19. Managi, S., **Islam, M.**, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people. *Sustainability Science*, 1463-1465. (<https://doi.org/10.1007/s11625-019-00732-6>)
+19. Managi, S., **Islam, M.**, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people. *Sustainability Science*, 1463-1465. [Q1] (<https://doi.org/10.1007/s11625-019-00732-6>)
 
-20. **Islam, M.**, Kanemoto, K., and Managi, S. (2019). Growth potential for CO2 emissions transfer by tariff reduction. *Environmental Research Letters*, 14, 024011. (<https://iopscience.iop.org/article/10.1088/1748-9326/aaf688/meta>)
+20. **Islam, M.**, Kanemoto, K., and Managi, S. (2019). Growth potential for CO2 emissions transfer by tariff reduction. *Environmental Research Letters*, 14, 024011. [Q1] (<https://iopscience.iop.org/article/10.1088/1748-9326/aaf688/meta>)
 
-21. Yamaguchi, R., **Islam, M.**, and Managi, S. (2019). Inclusive wealth in the 21st century. *Letters in Spatial and Resource Sciences*, 12, 101-111. (<https://doi.org/10.1007/s12076-019-00229-x>)
+21. Yamaguchi, R., **Islam, M.**, and Managi, S. (2019). Inclusive wealth in the 21st century. *Letters in Spatial and Resource Sciences*, 12, 101-111. [Q2] (<https://doi.org/10.1007/s12076-019-00229-x>)
 
-22. Ying Lee, C., Lotsu, S., **Islam, M.**, Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana. *Energies*, 12, 3684. (<https://doi.org/10.3390/en12193684>)
+22. Ying Lee, C., Lotsu, S., **Islam, M.* **, Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana. *Energies*, 12, 3684. [Q3] (<https://doi.org/10.3390/en12193684>)
 
-23. **Islam, M.**, Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review. *Sustainability Science*, 14, 159-174. (<https://doi.org/10.1007/s11625-018-0597-7>)
+23. **Islam, M.**, Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review. *Sustainability Science*, 14, 159-174. [Q1] (<https://doi.org/10.1007/s11625-018-0597-7>)
 
-24. **Islam, M.**, and Managi, S. (2018). Sustainable adaptation to multiple water risks in agriculture: Evidence from Bangladesh. *Sustainability* (Switzerland), 10(6). (<https://doi.org/10.3390/su10061734>)
+24. **Islam, M.**, and Managi, S. (2018). Sustainable adaptation to multiple water risks in agriculture: Evidence from Bangladesh. *Sustainability* (Switzerland), 10(6). [Q2] (<https://doi.org/10.3390/su10061734>)
 
-25. Rajapaksa, D., **Islam, M.**, and Managi, S. (2018). Pro-environmental behavior: The role of public perception in infrastructure and the social factors for sustainable development. *Sustainability* (Switzerland), 10, 937. (<https://doi.org/10.3390/su10040937>)
+25. Rajapaksa, D., **Islam, M.**, and Managi, S. (2018). Pro-environmental behavior: The role of public perception in infrastructure and the social factors for sustainable development. *Sustainability* (Switzerland), 10, 937. [Q2] (<https://doi.org/10.3390/su10040937>)
 
-26. Tolliver, C., **Islam, M.**, Shin, K., and Managi, S. (2018). The impact of energy security risks on energy consumption. *International Journal of Innovation and Sustainable Development*, 12, 258--270. (<https://doi.org/10.1504/IJISD.2018.091522>)
+26. Tolliver, C., **Islam, M.**, Shin, K., and Managi, S. (2018). The impact of energy security risks on energy consumption. *International Journal of Innovation and Sustainable Development*, 12, 258--270. [Q4] (<https://doi.org/10.1504/IJISD.2018.091522>)
 
-27. Sugiawan, Y., **Islam, M.**, and Managi, S. (2017). Global marine fisheries with environmental sustainability. *Economic Analysis and Policy*, 55, 158-168. (<https://doi.org/10.1016/j.eap.2017.08.004>)
+27. Sugiawan, Y., **Islam, M.**, and Managi, S. (2017). Global marine fisheries with environmental sustainability. *Economic Analysis and Policy*, 55, 158-168. [Q1] (<https://doi.org/10.1016/j.eap.2017.08.004>)
 
 28. Rajapaksa, D., **Islam, M.**, and Managi, S. (2017). Natural capital depletion: The impact of natural disasters on inclusive growth. *Economics of Disasters and Climate Change*, 1, 233--244. (<https://doi.org/10.1007/s41885-017-0009-y>)
 
-29. **Islam, M.**, Kanemoto, K., and Managi, S. (2016). Impact of trade openness and sector trade on embodied greenhouse gases emissions and air pollutants. *Journal of Industrial Ecology*, 20, 494-505. (<https://doi.org/10.1111/jiec.12455>)
+29. **Islam, M.**, Kanemoto, K., and Managi, S. (2016). Impact of trade openness and sector trade on embodied greenhouse gases emissions and air pollutants. *Journal of Industrial Ecology*, 20, 494-505. [Q1] (<https://doi.org/10.1111/jiec.12455>)
 
-30. **Islam, M.**, Kotani, K., and Managi, S. (2016). Climate perception and flood mitigation cooperation: A Bangladesh case study. *Economic Analysis and Policy*, 49, 117-133. (<https://doi.org/10.1016/j.eap.2016.01.001>)
+30. **Islam, M.**, Kotani, K., and Managi, S. (2016). Climate perception and flood mitigation cooperation: A Bangladesh case study. *Economic Analysis and Policy*, 49, 117-133. [Q1] (<https://doi.org/10.1016/j.eap.2016.01.001>)
 
-31. **Islam, M.**, and Kotani, K. (2016). Changing seasonality in Bangladesh. *Regional Environmental Change*, 16, 585-590. (<https://doi.org/10.1007/s10113-015-0758-5>)
+31. **Islam, M.**, and Kotani, K. (2016). Changing seasonality in Bangladesh. *Regional Environmental Change*, 16, 585-590. [Q2] (<https://doi.org/10.1007/s10113-015-0758-5>)
 
 # International policy reports (peer-review)
 
@@ -134,6 +134,28 @@ Updated on: `r Sys.Date()`
 2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research (Fostering Joint International Research (B)). Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04-2021/03.
+
+# Peer reviewer
+
+1. Sustainability Science (Springer)
+
+2. Economic Analysis and Policy (Elsevier)
+
+3. Journal of Cleaner Production (Elsevier)
+
+4. Environmental Research Letters (IOPScience)
+
+5. Environmental Science and Pollution Research (Springer)
+
+6. Global Sustainability (Cambridge University Press)
+
+7. IEEE Transactions on Engineering Management (Engineering Management Review)
+
+8. Sustainability (MDPI)
+
+9. Economics of Disasters and Climate Change (Springer)
+
+10. Environmental Economics and Policy Studies (Springer)
 
 # Working papers
 
