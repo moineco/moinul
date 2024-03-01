@@ -109,7 +109,7 @@ Updated on: `r Sys.Date()`
 
 2.  **Islam, M.** A future design workshop on inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
 
-3.  **Islam, M.** Growth potential for CO2 emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
+3.  **Islam, M.** Growth potential for $CO_2$ emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
 
 4.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
 
@@ -119,21 +119,21 @@ Updated on: `r Sys.Date()`
 
 1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
-2.  Future Design 2022, Kochi University of Technology, Japan, 29-30 January 2022.
+2.  Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
 
 3.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
 
-4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9-11 October 2018.
+4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
 
-5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27-28 March 2018.
+5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
 
 # Research grants
 
-1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04-2025/03.
+1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04 -- 2025/03.
 
 2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research (Fostering Joint International Research (B)). Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
 
-3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04-2021/03.
+3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04 -- 2021/03.
 
 # Peer reviewer
 
@@ -166,3 +166,7 @@ Updated on: `r Sys.Date()`
 3.  **Islam, M.**, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers SDES-2014-11, Kochi University of Technology, School of Economics and Management, 2014.
 
 4.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper EMS-2013-06, International University of Japan, Economics & Management Series, 2013.
+
+# Scholarly memberships 
+
+1. Society for Environmental Economics and Policy Studies (SEEPS)
