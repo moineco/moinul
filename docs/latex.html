@@ -11,7 +11,7 @@
 
 
 
-<title>Linux</title>
+<title>LaTeX</title>
 
 <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -357,199 +357,14 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Linux</h1>
+<h1 class="title toc-ignore">LaTeX</h1>
 
 </div>
 
 
 <p>Updated on: 2024-04-19</p>
-<div id="partitioning-hard-drive-in-linux-os" class="section level1">
-<h1>Partitioning hard drive in Linux OS</h1>
-<div id="use-fdisk-command-to-delete-a-hard-disk-partition"
-class="section level5">
-<h5>1. Use <code>fdisk</code> command to delete a hard disk
-partition:</h5>
-<p><code>fdisk</code> also known as format disk is a dialog-driven
-command in Linux used for creating and manipulating disk partition
-table. It is used for the view, create, delete, change, resize, copy and
-move partitions on a hard drive using the dialog-driven interface.
-<code>fdisk</code> allows you to create a maximum of four primary
-partitions and the number of logical partition depends on the size of
-the hard disk you are using. </p>
-</div>
-<div id="view-all-disk-partitions" class="section level5">
-<h5>2. View All Disk Partitions:</h5>
-<p>The first thing to do before doing any thing with the disks and
-partition is to view basic details about all available partition in the
-system.</p>
-<pre class="txt"><code>sudo fdisk -l</code></pre>
-</div>
-<div id="view-partition-on-a-specific-disk" class="section level5">
-<h5>3. View Partition on a Specific Disk:</h5>
-<p>Below command is used to view all disk partitions on device
-/dev/sda.</p>
-<pre class="txt"><code>sudo fdisk -l /dev/sda</code></pre>
-</div>
-<div id="delete-a-hard-disk-partition" class="section level5">
-<h5>4. Delete a Hard Disk Partition:</h5>
-<p>To delete a partition for the hard disk and free up space occupied by
-that partition for example /dev/sda. Go to the command menu using
-following:</p>
-<pre class="txt"><code>sudo fdisk /dev/sda</code></pre>
-<ul>
-<li><p>And then type <code>d</code> to go to the delete partition menu.
-It will prompt the partition number you want to delete (type the
-number).</p></li>
-<li><p>Again type <code>d</code> to delete the specific
-partition.</p></li>
-<li><p>Run <code>w</code> command to write the changes and reboot the
-system.</p></li>
-<li><p>Continue this process until you delete all target
-partitions.</p></li>
-</ul>
-</div>
-</div>
-<div id="ubuntu-and-fedora-proxy-in-kut" class="section level1">
-<h1>Ubuntu and Fedora proxy in KUT</h1>
-<div id="proxy-for-ubuntu" class="section level5">
-<h5>1. Proxy for Ubuntu</h5>
-<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
-HTTP_PROXY=$MY_PROXY_URL
-HTTPS_PROXY=$MY_PROXY_URL
-FTP_PROXY=$MY_PROXY_URL
-http_proxy=$MY_PROXY_URL
-https_proxy=$MY_PROXY_URL
-ftp_proxy=$MY_PROXY_URL
-export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~$ sudo nano /etc/apt/apt.conf</code></pre>
-<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
-<p>For curl</p>
-<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For wget</p>
-<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
-https_proxy = proxy.noc.kochi-tech.ac.jp:3128
-ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-</div>
-<div id="proxy-for-fedora" class="section level5">
-<h5>2. Proxy for Fedora</h5>
-<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
-HTTP_PROXY=$MY_PROXY_URL
-HTTPS_PROXY=$MY_PROXY_URL
-FTP_PROXY=$MY_PROXY_URL
-http_proxy=$MY_PROXY_URL
-https_proxy=$MY_PROXY_URL
-ftp_proxy=$MY_PROXY_URL
-export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~$ sudo nano /etc/dnf/dnf.conf</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For curl</p>
-<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For wget</p>
-<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
-https_proxy = proxy.noc.kochi-tech.ac.jp:3128
-ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-</div>
-</div>
-<div id="stata17-installation-in-ubuntufedora" class="section level1">
-<h1>STATA17 installation in Ubuntu/Fedora</h1>
-<p>First copy your <strong>STATA17</strong> source file in the
-<strong>Downloads</strong> folder of your PC.</p>
-<p>If the file is in <strong>.zip</strong> format, unzip to use it.
-Confirm that the <strong>.tar.gz</strong> extension file (Linux
-supported installation file) is located in the
-<strong>Downloads</strong> folder.</p>
-<p>I am assuming that you have the licence information ready in your
-hand during the following installation process:</p>
-<div
-id="step-1-create-the-installation-directory-and-change-location-into-it"
-class="section level5">
-<h5>Step 1: Create the installation directory, and change location into
-it</h5>
-<pre class="txt"><code>cd Downloads</code></pre>
-<pre class="txt"><code>mkdir statainstall</code></pre>
-<pre class="txt"><code>tar -xvzf Stata17Linux64.tar.gz -C statainstall</code></pre>
-</div>
-<div
-id="step-2-create-the-installation-directory-and-change-location-into-it"
-class="section level5">
-<h5>Step 2: Create the installation directory, and change location into
-it</h5>
-<pre class="txt"><code>sudo mkdir /usr/local/Stata17</code></pre>
-<pre class="txt"><code>cd /usr/local/Stata17</code></pre>
-</div>
-<div id="step-3-run-the-install-script" class="section level5">
-<h5>Step 3: Run the install script</h5>
-<pre class="txt"><code>sudo ~/Downloads/statainstall/install</code></pre>
-<p>Here, you will start the installation process and STATA17 will
-provide you the steps to complete. Follow these steps one by one and
-complete until the end.</p>
-</div>
-<div id="step-4-configure-the-license-file" class="section level5">
-<h5>Step 4: Configure the license file</h5>
-<pre class="txt"><code>sudo ./stinit</code></pre>
-<p>Again, STATA17 will ask you for several conformations and you need to
-respond properly.</p>
-</div>
-<div
-id="step-5-running-stata17-with-a-graphical-user-interface-using-the-command"
-class="section level5">
-<h5>Step 5: Running STATA17 with a graphical user interface using the
-command</h5>
-<pre class="txt"><code>./xstata</code></pre>
-<ul>
-<li>If you have a problem to execute the above code, you need to install
-<code>gtk2</code></li>
-<li>In <strong>Ubuntu</strong>, you can install by:</li>
-</ul>
-<pre class="txt"><code>sudo apt install gtk2</code></pre>
-<ul>
-<li>In <strong>Fedora</strong>, you can install by:</li>
-</ul>
-<pre class="txt"><code>sudo dnf install gtk2</code></pre>
-</div>
-<div id="step-6-unity-launcher-and-desktop-file" class="section level5">
-<h5>Step 6: Unity launcher and desktop file</h5>
-<p>Even after successfully installing and running Stata, in
-Ubuntu/Fedora it won’t be available as an application in the dash, and
-it won’t have a proper icon in the application launcher. We can easily
-fix this by creating a <strong>.desktop</strong> file for Stata.</p>
-<pre class="txt"><code>sudo gedit /usr/share/applications/stata17.desktop</code></pre>
-<p>In this newly-created file just copy and paste the following,
-obviously adjusting it if you have a different version or flavor of
-Stata:</p>
-<pre class="txt"><code>[Desktop Entry]
-Version=17
-Terminal=false
-Icon=/usr/local/Stata17/stata17.png
-Type=Application
-Categories=Education;Scientific;
-Exec=/usr/local/Stata17/xstata
-Name=Stata/BE 17
-Comment=Perform statistical analyses using Stata.
-StartupNotify=true
-MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
-Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
-</div>
-</div>
-<div id="nano-a-popular-terminal-based-text-editor"
-class="section level1">
-<h1>Nano, a popular terminal-based text editor</h1>
-<p>GNU nano (or we call it “nano”) is a simple terminal-based text
-editor. Some shortcuts include:</p>
-<pre class="txt"><code>Ctrl + X to exit
-Ctrl + O to write (or save as)
-Alt + U to undo last action</code></pre>
+<div id="latex-codes" class="section level1">
+<h1>LaTeX codes</h1>
 </div>
 
 

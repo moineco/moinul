@@ -18,4 +18,6 @@ navbar:
       href: code.html
     - text: "Emacs"
       href: emacs.html    
+    - text: "LaTeX"
+      href: latex.html  
 output_dir: "docs"

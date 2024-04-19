@@ -1,0 +1,18 @@
+---
+title: "LaTeX"
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    collapsed: no
+    number_sections: no
+    toc_depth: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Updated on: `r Sys.Date()`
+
+# LaTeX codes
