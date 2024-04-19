@@ -211,6 +211,19 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 ./xstata
 ```
 
+- If you have a problem to execute the above code, you need to install `gtk2`
+- In **Ubuntu**, you can install by:
+
+```{txt}
+sudo apt install gtk2
+```
+
+- In **Fedora**, you can install by:
+
+```{txt}
+sudo dnf install gtk2
+```
+
 ##### Step 6: Unity launcher and desktop file
 
 Even after successfully installing and running Stata, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. We can easily fix this by creating a **.desktop** file for Stata.
