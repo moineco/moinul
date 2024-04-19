@@ -510,24 +510,34 @@ command</h5>
 <ul>
 <li>If you have a problem to execute the above code, you need to install
 <code>gtk2</code></li>
-<li>In <strong>Ubuntu</strong>, you can install by:</li>
+<li>You can install by:</li>
 </ul>
-<pre class="txt"><code>sudo apt install gtk2</code></pre>
-<ul>
-<li>In <strong>Fedora</strong>, you can install by:</li>
-</ul>
-<pre class="txt"><code>sudo dnf install gtk2</code></pre>
+<pre class="txt"><code>sudo apt install gtk2 # For Ubuntu
+sudo dnf install gtk2 # For Fedora</code></pre>
 </div>
 <div id="step-6-unity-launcher-and-desktop-file" class="section level5">
 <h5>Step 6: Unity launcher and desktop file</h5>
-<p>Even after successfully installing and running Stata, in
+<ul>
+<li><p>Even after successfully installing and running Stata, in
 Ubuntu/Fedora it won’t be available as an application in the dash, and
-it won’t have a proper icon in the application launcher. We can easily
-fix this by creating a <strong>.desktop</strong> file for Stata.</p>
+it won’t have a proper icon in the application launcher.</p></li>
+<li><p>To complete this step, you need a text editor. In this tutorial,
+I am using <code>gedit</code> which is the official text editor of the
+GNOME desktop environment. If your PC doesnot contain it, you can
+install easily by using terminal.</p></li>
+</ul>
+<pre class="txt"><code>sudo apt install -y gedit # For Ubuntu
+sudo dnf install -y gedit # For Fedora</code></pre>
+<ul>
+<li>Then we can easily fix this by creating a <strong>.desktop</strong>
+file for Stata.</li>
+</ul>
 <pre class="txt"><code>sudo gedit /usr/share/applications/stata17.desktop</code></pre>
-<p>In this newly-created file just copy and paste the following,
+<ul>
+<li>In this newly-created file just copy and paste the following,
 obviously adjusting it if you have a different version or flavor of
-Stata:</p>
+Stata:</li>
+</ul>
 <pre class="txt"><code>[Desktop Entry]
 Version=17
 Terminal=false
