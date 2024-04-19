@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# Partitioning hard drive in Linux OS
+# Partitioning hard drive
 
 ##### 1. Use `fdisk` command to delete a hard disk partition:
 
@@ -53,7 +53,7 @@ sudo fdisk /dev/sda
 
 - Continue this process until you delete all target partitions.
 
-# Ubuntu and Fedora proxy in KUT
+# Proxy in KUT
 
 ##### 1. Proxy for Ubuntu
 
@@ -157,7 +157,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-# STATA17 installation in Ubuntu/Fedora
+# STATA17 installation
 
 First copy your **STATA17** source file in the **Downloads** folder of your PC. 
 
@@ -221,22 +221,22 @@ sudo dnf install gtk2 # For Fedora
 
 ##### Step 6: Unity launcher and desktop file
 
-- Even after successfully installing and running Stata, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. 
+- Even after successfully installing and running *Stata*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. 
 
-- To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC doesnot contain it, you can install easily by using terminal.
+- To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
 
 ```{txt}
 sudo apt install -y gedit # For Ubuntu
 sudo dnf install -y gedit # For Fedora
 ```
 
-- Then we can easily fix this by creating a **.desktop** file for Stata17.
+- Then we can easily fix this by creating a **.desktop** file for *Stata*.
 
 ```{txt}
 sudo gedit /usr/share/applications/stata17.desktop
 ```
 
-- In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of Stata:
+- In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
 
 ```{txt}
 [Desktop Entry]
@@ -253,7 +253,29 @@ MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl
 Actions=doedit;use;view;graphuse;projmanag;semopen;
 ```
 
-# Nano, a popular terminal-based text editor
+# Gedit text editor
+
+- `gedit` is the official text editor of the GNOME desktop environment. While aiming at simplicity and ease of use, `gedit` is a powerful general purpose text editor.
+
+- Whether you are writing the next bestseller, programming an innovative application, or simply taking some quick notes, `gedit` will be a reliable tool to accomplish your task.
+
+- Its flexible plugin system allows you to tailor the application to your needs and adapt it to your workflow.
+
+- Install easily by using terminal.
+
+```{txt}
+sudo apt install -y gedit # For Ubuntu
+sudo dnf install -y gedit # For Fedora
+```
+
+- Alternatively, snapd can be installed from the command line:
+
+```{txt}
+sudo apt install snapd # For Ubuntu
+sudo snap install gedit
+```
+
+# Nano text editor
 
 GNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:
 

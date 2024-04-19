@@ -363,8 +363,8 @@ div.tocify {
 
 
 <p>Updated on: 2024-04-19</p>
-<div id="partitioning-hard-drive-in-linux-os" class="section level1">
-<h1>Partitioning hard drive in Linux OS</h1>
+<div id="partitioning-hard-drive" class="section level1">
+<h1>Partitioning hard drive</h1>
 <div id="use-fdisk-command-to-delete-a-hard-disk-partition"
 class="section level5">
 <h5>1. Use <code>fdisk</code> command to delete a hard disk
@@ -409,8 +409,8 @@ partitions.</p></li>
 </ul>
 </div>
 </div>
-<div id="ubuntu-and-fedora-proxy-in-kut" class="section level1">
-<h1>Ubuntu and Fedora proxy in KUT</h1>
+<div id="proxy-in-kut" class="section level1">
+<h1>Proxy in KUT</h1>
 <div id="proxy-for-ubuntu" class="section level5">
 <h5>1. Proxy for Ubuntu</h5>
 <pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
@@ -461,8 +461,8 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 </div>
-<div id="stata17-installation-in-ubuntufedora" class="section level1">
-<h1>STATA17 installation in Ubuntu/Fedora</h1>
+<div id="stata17-installation" class="section level1">
+<h1>STATA17 installation</h1>
 <p>First copy your <strong>STATA17</strong> source file in the
 <strong>Downloads</strong> folder of your PC.</p>
 <p>If the file is in <strong>.zip</strong> format, unzip to use it.
@@ -518,25 +518,25 @@ sudo dnf install gtk2 # For Fedora</code></pre>
 <div id="step-6-unity-launcher-and-desktop-file" class="section level5">
 <h5>Step 6: Unity launcher and desktop file</h5>
 <ul>
-<li><p>Even after successfully installing and running Stata, in
+<li><p>Even after successfully installing and running <em>Stata</em>, in
 Ubuntu/Fedora it won’t be available as an application in the dash, and
 it won’t have a proper icon in the application launcher.</p></li>
 <li><p>To complete this step, you need a text editor. In this tutorial,
 I am using <code>gedit</code> which is the official text editor of the
-GNOME desktop environment. If your PC doesnot contain it, you can
-install easily by using terminal.</p></li>
+GNOME desktop environment. If your PC don’t contain it, you can install
+easily by using terminal.</p></li>
 </ul>
 <pre class="txt"><code>sudo apt install -y gedit # For Ubuntu
 sudo dnf install -y gedit # For Fedora</code></pre>
 <ul>
 <li>Then we can easily fix this by creating a <strong>.desktop</strong>
-file for Stata.</li>
+file for <em>Stata</em>.</li>
 </ul>
 <pre class="txt"><code>sudo gedit /usr/share/applications/stata17.desktop</code></pre>
 <ul>
 <li>In this newly-created file just copy and paste the following,
 obviously adjusting it if you have a different version or flavor of
-Stata:</li>
+<em>Stata</em>:</li>
 </ul>
 <pre class="txt"><code>[Desktop Entry]
 Version=17
@@ -552,9 +552,30 @@ MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl
 Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
 </div>
 </div>
-<div id="nano-a-popular-terminal-based-text-editor"
-class="section level1">
-<h1>Nano, a popular terminal-based text editor</h1>
+<div id="gedit-text-editor" class="section level1">
+<h1>Gedit text editor</h1>
+<ul>
+<li><p><code>gedit</code> is the official text editor of the GNOME
+desktop environment. While aiming at simplicity and ease of use,
+<code>gedit</code> is a powerful general purpose text editor.</p></li>
+<li><p>Whether you are writing the next bestseller, programming an
+innovative application, or simply taking some quick notes,
+<code>gedit</code> will be a reliable tool to accomplish your
+task.</p></li>
+<li><p>Its flexible plugin system allows you to tailor the application
+to your needs and adapt it to your workflow.</p></li>
+<li><p>Install easily by using terminal.</p></li>
+</ul>
+<pre class="txt"><code>sudo apt install -y gedit # For Ubuntu
+sudo dnf install -y gedit # For Fedora</code></pre>
+<ul>
+<li>Alternatively, snapd can be installed from the command line:</li>
+</ul>
+<pre class="txt"><code>sudo apt install snapd # For Ubuntu
+sudo snap install gedit</code></pre>
+</div>
+<div id="nano-text-editor" class="section level1">
+<h1>Nano text editor</h1>
 <p>GNU nano (or we call it “nano”) is a simple terminal-based text
 editor. Some shortcuts include:</p>
 <pre class="txt"><code>Ctrl + X to exit
