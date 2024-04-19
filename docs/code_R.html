@@ -370,7 +370,7 @@ div.tocify {
 functions that are contained in the <code>pacman</code> package, we have
 to install and load the package to R:</li>
 </ul>
-<pre><code>install.packages(&quot;pacman&quot;)    # Install pacman package
+<pre class="txt"><code>install.packages(&quot;pacman&quot;)    # Install pacman package
 library(&quot;pacman&quot;)             # Load pacman package</code></pre>
 <ul>
 <li>After running the previous lines of code, we can use the functions
@@ -384,7 +384,7 @@ Function</h5>
 <p>In this example, I will illustrate how to apply the p_load function
 to load multiple add-on packages in one line of code.</p>
 <p>Have a look at the following R syntax:</p>
-<pre><code>p_load(ggplot2, dplyr, stringr)   # Install &amp; load packages</code></pre>
+<pre class="txt"><code>p_load(ggplot2, dplyr, stringr)   # Install &amp; load packages</code></pre>
 <p>After executing the previous code, we have loaded the three packages
 <code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code>.</p>
 <p>Note that the p_load function also checks whether a package is
@@ -400,7 +400,7 @@ multiple loaded packages from within R.</p>
 <p>Let’s apply the p_unload command to unload the three packages
 <code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code> that
 we have loaded before:</p>
-<pre><code>p_unload(ggplot2, dplyr, stringr)  # Unload packages</code></pre>
+<pre class="txt"><code>p_unload(ggplot2, dplyr, stringr)  # Unload packages</code></pre>
 <p>The following packages have been unloaded: <code>ggplot2</code>,
 <code>dplyr</code>, <code>stringr</code> The previous output of the
 RStudio console tells us that our three packages were detached.</p>
@@ -414,7 +414,7 @@ all of these packages.</p>
 <ul>
 <li>First, let’s check which of my packages are outdated:</li>
 </ul>
-<pre><code>p_update(update = FALSE)  # Check for outdated packages</code></pre>
+<pre class="txt"><code>p_update(update = FALSE)  # Check for outdated packages</code></pre>
 <ul>
 <li><p>Second, the <code>pacman</code> package provides an easy solution
 to how we can update all outdated packages with only one line of R
@@ -423,11 +423,11 @@ code.</p></li>
 code. This may take some time, depending on the number of packages you
 need to update:</p></li>
 </ul>
-<pre><code>p_update() # Update all packages</code></pre>
+<pre class="txt"><code>p_update() # Update all packages</code></pre>
 <ul>
 <li>Quick Reference Table</li>
 </ul>
-<pre><code>p_load            #Loads and Install Packages
+<pre class="txt"><code>p_load            #Loads and Install Packages
 p_install         #Install Packages from CRAN
 p_load_gh         #Loads and Install GitHub Packages
 p_install_gh      #Install Packages from GitHub
@@ -440,24 +440,9 @@ p_update          #Update Out-of-Date Packages</code></pre>
 <h1>Quarto</h1>
 <div id="making-subfigures-in-quarto-document" class="section level3">
 <h3>2.1 Making subfigures in quarto document</h3>
-<pre><code>#| label: fig-1
-#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
-#| out.width: &quot;50%&quot;
-#| echo: false
-#| fig-subcap: 
-#|   - &quot;1990&quot;
-#|   - &quot;2000&quot;
-#|   - &quot;2010&quot;
-#|   - &quot;2018&quot;
-#| layout-ncol: 2
-
-knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
 <p>For loading a figure with customizing options, we can use following
 codes</p>
-<pre><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
+<pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
 knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
 <p>Here, we can adjust the height, width, alignment and caption of the
 figure.</p>

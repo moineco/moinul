@@ -19,7 +19,7 @@ Updated on: `r Sys.Date()`
 
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
-```
+```{txt}
 install.packages("pacman")    # Install pacman package
 library("pacman")             # Load pacman package
 ```
@@ -32,7 +32,7 @@ In this example, I will illustrate how to apply the p_load function to load mult
 
 Have a look at the following R syntax:
 
-```
+```{txt}
 p_load(ggplot2, dplyr, stringr)   # Install & load packages
 ```
 
@@ -46,7 +46,7 @@ Another useful function of the `pacman` package is the p_unload function. The p_
 
 Let’s apply the p_unload command to unload the three packages `ggplot2`, `dplyr`, and `stringr` that we have loaded before:
 
-```
+```{txt}
 p_unload(ggplot2, dplyr, stringr)  # Unload packages
 ```
 
@@ -59,7 +59,7 @@ In this example, I will show how to use the p_update function of the `pacman` pa
 
 - First, let’s check which of my packages are outdated:
 
-```
+```{txt}
 p_update(update = FALSE)  # Check for outdated packages
 ```
 
@@ -67,12 +67,12 @@ p_update(update = FALSE)  # Check for outdated packages
 
 - Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
-```
+```{txt}
 p_update() # Update all packages
 ```
 - Quick Reference Table
 
-```
+```{txt}
 p_load		      #Loads and Install Packages
 p_install	      #Install Packages from CRAN
 p_load_gh	      #Loads and Install GitHub Packages
@@ -85,7 +85,7 @@ p_update	      #Update Out-of-Date Packages
 
 ### 2.1 Making subfigures in quarto document
 
-```
+```{txt}
 #| label: fig-1
 #| fig-cap: "Inclusive wealth of India from 1990 to 2018"
 #| out.width: "50%"
@@ -105,7 +105,7 @@ knitr::include_graphics('figures/iw_2018.jpg')
 
 For loading a figure with customizing options, we can use following codes
 
-```
+```{txt}
 {r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
 knitr::include_graphics("figure/discipline.jpg")
 ```
