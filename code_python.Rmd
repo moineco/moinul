@@ -20,19 +20,19 @@ Updated on: `r Sys.Date()`
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
 
 ```{txt}
-pip3 install otree
+$ pip3 install otree
 ```
 
 - You can install oTree in your computer by using the terminal in Pycharm as well.
 
 ```{txt}
-pip3 install otree
+$ pip3 install otree
 ```
 
 - Upgrading/reinstalling oTree
 
 ```{txt}
-pip3 install -U otree
+$ pip3 install -U otree
 ```
 
 - Recommend upgrading every couple of weeks.
@@ -42,8 +42,8 @@ pip3 install -U otree
 - In the Pycharm, you can open the terminal and install oTree as below:
 
 ```{txt}
-set https_proxy address:password
-pip install otree
+$ set https_proxy address:password
+$ pip install otree
 ```
 
 #### oTree setup
@@ -51,13 +51,13 @@ pip install otree
 - From your command prompt, create your IGG project
 
 ```{txt}
-otree startproject IGG
+$ otree startproject IGG
 ```
 
 - Move into the folder you just created
 
 ```{txt}
-cd IGG
+$ cd IGG
 ```
 
 - Run the server
@@ -65,7 +65,7 @@ cd IGG
 - Start your own terminal as a server.
 
 ```{txt}
-otree devserver
+$ otree devserver
 ```
 
 Open your browser to http://localhost:8000/. You should see the oTree demo site.
@@ -75,7 +75,7 @@ To stop the server, press Control+C at your command line.
 To create a new app, run
 
 ```{txt}
-otree startapp app_name
+$ otree startapp app_name
 ```
 
 Session configs are defined in settings.py
@@ -93,7 +93,7 @@ To upload the oTree application in a cloud server like Heroku is an important st
 3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
 
 ```{txt}
-brew tap heroku/brew && brew install heroku
+$ brew tap heroku/brew && brew install heroku
 ```
 
 4.  Upload an app in Heroku: To upload your `oTree` application to Heroku, first create an *application name* inside your Heroku account as below:
@@ -103,26 +103,26 @@ New...\> Create New App
 5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
 
 ```{txt}
-cd appname
+$ cd appname
 ```
 
 6.  Proxy settings if necessary Sometime institutional networks (e.g.; university, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
 
 ```{txt}
-export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
-export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+$ export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+$ export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
 ```
 
 7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
 
 ```{txt}
-heroku login
-git init
-git add .
-git commit -am "command message"
-heroku git:remote -a appname
-git push heroku master
-heroku config:set OTREE_PRODUCTION=1
+$ heroku login
+$ git init
+$ git add .
+$ git commit -am "command message"
+$ heroku git:remote -a appname
+$ git push heroku master
+$ heroku config:set OTREE_PRODUCTION=1
 ```
 
 Your oTree application should now be deployed to your Heroku server. You can access it by going to the URL provided by Heroku.

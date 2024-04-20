@@ -20,8 +20,8 @@ Updated on: `r Sys.Date()`
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
 ```{txt}
-install.packages("pacman")    # Install pacman package
-library("pacman")             # Load pacman package
+> install.packages("pacman")    # Install pacman package
+> library("pacman")             # Load pacman package
 ```
 
 - After running the previous lines of code, we can use the functions provided by the `pacman` package.
@@ -33,7 +33,7 @@ In this example, I will illustrate how to apply the p_load function to load mult
 Have a look at the following R syntax:
 
 ```{txt}
-p_load(ggplot2, dplyr, stringr)   # Install & load packages
+> p_load(ggplot2, dplyr, stringr)   # Install & load packages
 ```
 
 After executing the previous code, we have loaded the three packages `ggplot2`, `dplyr`, and `stringr`.
@@ -47,7 +47,7 @@ Another useful function of the `pacman` package is the p_unload function. The p_
 Let’s apply the p_unload command to unload the three packages `ggplot2`, `dplyr`, and `stringr` that we have loaded before:
 
 ```{txt}
-p_unload(ggplot2, dplyr, stringr)  # Unload packages
+> p_unload(ggplot2, dplyr, stringr)  # Unload packages
 ```
 
 The following packages have been unloaded: `ggplot2`, `dplyr`, `stringr`
@@ -60,7 +60,7 @@ In this example, I will show how to use the p_update function of the `pacman` pa
 - First, let’s check which of my packages are outdated:
 
 ```{txt}
-p_update(update = FALSE)  # Check for outdated packages
+> p_update(update = FALSE)  # Check for outdated packages
 ```
 
 - Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
@@ -68,7 +68,7 @@ p_update(update = FALSE)  # Check for outdated packages
 - Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
 ```{txt}
-p_update() # Update all packages
+> p_update() # Update all packages
 ```
 - Quick Reference Table
 

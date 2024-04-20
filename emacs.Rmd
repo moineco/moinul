@@ -26,7 +26,7 @@ GNU Emacs isn't a text editor only, it's the ultimate productivity environment. 
 - After updating the package list in the Fedora Linux system, enter the following command to install the Emacs editor through the **DNF** package manager:
 
 ```{txt}
-sudo dnf install emacs
+$ sudo dnf install emacs
 ```
 
 #### 1.2 Ubuntu
@@ -34,13 +34,13 @@ sudo dnf install emacs
 - After updating the package list in the Ubuntu Linux system, enter the following command to install the Emacs editor through the **APT** package manager:
 
 ```{txt}
-sudo apt install emacs
+$ sudo apt install emacs
 ```
 
 - If you are using Ubuntu desktop version and want to get the graphical Emacs editor, you can use this command:
 
 ```{txt}
-sudo apt install emacs-gtk
+$ sudo apt install emacs-gtk
 ```
 
 - By executing the previous commands, the graphical version of Emacs, along with its dependencies, will be downloaded and installed.
@@ -48,7 +48,7 @@ sudo apt install emacs-gtk
 - After you have installed Emacs, run the following command to ensure a successful installation of the Emacs text editor:
 
 ```{txt}
-emacs --version
+$ emacs --version
 ```
 
 ### 2. MacOS
@@ -60,7 +60,7 @@ emacs --version
 - There's a default recipe called `Emacs` which can be installed with the following command:
 
 ```{txt}
-brew install --cask emacs
+% brew install --cask emacs
 ```
 
 #### 2.2 MacPorts
@@ -70,7 +70,7 @@ brew install --cask emacs
 - The installation command of Emacs by using `MacPorts` is as below:
 
 ```{txt}
-sudo port install emacs-app
+% sudo port install emacs-app
 ```
 
 ### 3. Windows
