@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# **oTree**
+# oTree
 
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
 
@@ -80,7 +80,7 @@ otree startapp app_name
 
 Session configs are defined in settings.py
 
-# **Heroku**
+# Heroku
 
 #### Deploy oTree application to Heroku server
 
