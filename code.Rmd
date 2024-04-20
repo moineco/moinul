@@ -26,7 +26,7 @@ Updated on: `r Sys.Date()`
 The first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.
 
 ```{txt}
-sudo fdisk -l
+$ sudo fdisk -l
 ```
 
 ##### 3.  View Partition on a Specific Disk: 
@@ -34,7 +34,7 @@ sudo fdisk -l
 Below command is used to view all disk partitions on device /dev/sda.
 
 ```{txt}
-sudo fdisk -l /dev/sda
+$ sudo fdisk -l /dev/sda
 ```
 
 ##### 4.  Delete a Hard Disk Partition:
@@ -42,7 +42,7 @@ sudo fdisk -l /dev/sda
 To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sda. Go to the command menu using following:
 
 ```{txt}
-sudo fdisk /dev/sda
+$ sudo fdisk /dev/sda
 ```
 
 - And then type `d` to go to the delete partition menu. It will prompt the partition number you want to delete (type the number).
@@ -58,7 +58,7 @@ sudo fdisk /dev/sda
 ##### 1. Proxy for Ubuntu
 
 ```{txt}
-@client:~$ sudo nano /etc/profile.d/proxy.sh
+$ sudo nano /etc/profile.d/proxy.sh
 ```
 
 ```{txt}
@@ -73,7 +73,7 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~$ sudo nano /etc/apt/apt.conf
+$ sudo nano /etc/apt/apt.conf
 ```
 
 ```{txt}
@@ -85,7 +85,7 @@ Acquire::ftp::proxy "ftp://proxy.noc.kochi-tech.ac.jp:3128";
 For curl
 
 ```{txt}
-@client:~$ sudo nano ~/.curlrc
+$ sudo nano ~/.curlrc
 ```
 
 ```{txt}
@@ -95,7 +95,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For wget
 
 ```{txt}
-@client:~$ sudo nano /etc/wgetrc
+$ sudo nano /etc/wgetrc
 ```
 
 Add to the end
@@ -109,7 +109,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ##### 2. Proxy for Fedora
 
 ```{txt}
-@client:~$ sudo nano /etc/profile.d/proxy.sh
+$ sudo nano /etc/profile.d/proxy.sh
 ```
 
 ```{txt}
@@ -124,7 +124,7 @@ export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy
 ```
 
 ```{txt}
-@client:~$ sudo nano /etc/dnf/dnf.conf
+$ sudo nano /etc/dnf/dnf.conf
 ```
 
 Add to the end
@@ -136,7 +136,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For curl
 
 ```{txt}
-@client:~$ sudo nano ~/.curlrc
+$ sudo nano ~/.curlrc
 ```
 
 ```{txt}
@@ -146,7 +146,7 @@ proxy=proxy.noc.kochi-tech.ac.jp:3128
 For wget
 
 ```{txt}
-@client:~$ sudo nano /etc/wgetrc
+$ sudo nano /etc/wgetrc
 ```
 
 Add to the end

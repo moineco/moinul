@@ -385,20 +385,20 @@ the hard disk you are using. </p>
 <p>The first thing to do before doing any thing with the disks and
 partition is to view basic details about all available partition in the
 system.</p>
-<pre class="txt"><code>sudo fdisk -l</code></pre>
+<pre class="txt"><code>$ sudo fdisk -l</code></pre>
 </div>
 <div id="view-partition-on-a-specific-disk" class="section level5">
 <h5>3. View Partition on a Specific Disk:</h5>
 <p>Below command is used to view all disk partitions on device
 /dev/sda.</p>
-<pre class="txt"><code>sudo fdisk -l /dev/sda</code></pre>
+<pre class="txt"><code>$ sudo fdisk -l /dev/sda</code></pre>
 </div>
 <div id="delete-a-hard-disk-partition" class="section level5">
 <h5>4. Delete a Hard Disk Partition:</h5>
 <p>To delete a partition for the hard disk and free up space occupied by
 that partition for example /dev/sda. Go to the command menu using
 following:</p>
-<pre class="txt"><code>sudo fdisk /dev/sda</code></pre>
+<pre class="txt"><code>$ sudo fdisk /dev/sda</code></pre>
 <ul>
 <li><p>And then type <code>d</code> to go to the delete partition menu.
 It will prompt the partition number you want to delete (type the
@@ -416,7 +416,7 @@ partitions.</p></li>
 <h1>Proxy in KUT</h1>
 <div id="proxy-for-ubuntu" class="section level5">
 <h5>1. Proxy for Ubuntu</h5>
-<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/profile.d/proxy.sh</code></pre>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -425,15 +425,15 @@ http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~$ sudo nano /etc/apt/apt.conf</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/apt/apt.conf</code></pre>
 <pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
 Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
 Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
 <p>For curl</p>
-<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
+<pre class="txt"><code>$ sudo nano ~/.curlrc</code></pre>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
-<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/wgetrc</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
@@ -441,7 +441,7 @@ ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 <div id="proxy-for-fedora" class="section level5">
 <h5>2. Proxy for Fedora</h5>
-<pre class="txt"><code>@client:~$ sudo nano /etc/profile.d/proxy.sh</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/profile.d/proxy.sh</code></pre>
 <pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
 HTTP_PROXY=$MY_PROXY_URL
 HTTPS_PROXY=$MY_PROXY_URL
@@ -450,14 +450,14 @@ http_proxy=$MY_PROXY_URL
 https_proxy=$MY_PROXY_URL
 ftp_proxy=$MY_PROXY_URL
 export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>@client:~$ sudo nano /etc/dnf/dnf.conf</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/dnf/dnf.conf</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For curl</p>
-<pre class="txt"><code>@client:~$ sudo nano ~/.curlrc</code></pre>
+<pre class="txt"><code>$ sudo nano ~/.curlrc</code></pre>
 <pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 <p>For wget</p>
-<pre class="txt"><code>@client:~$ sudo nano /etc/wgetrc</code></pre>
+<pre class="txt"><code>$ sudo nano /etc/wgetrc</code></pre>
 <p>Add to the end</p>
 <pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
 https_proxy = proxy.noc.kochi-tech.ac.jp:3128
