@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# LaTeX codes
+# LaTeX packages
 
 ### 1. `subcaption` 
 
@@ -26,7 +26,6 @@ This package offers an user interface to typeset sub-captions.
 ```
 
 ```{txt}
-%Multiple figures 
 \begin{figure} 
 \begin{center} 
 \begin{tabular}{cc} 
@@ -37,4 +36,33 @@ This package offers an user interface to typeset sub-captions.
 \end{center} 
 \end{figure}
 ```
+
+### 2. `threeparttable`
+
+This package facilitates tables with titles (captions) and notes.
+
+```{txt}
+\usepackage[para]{threeparttable}
+```
+
+- `para`: Notes come one-after-another without line breaks
+
+```{txt}
+\begin{table} 
+\begin{center} 
+\caption{\label{t1}The state of nature} 
+\begin{threeparttable} 
+\begin{tabular}{lc}
+\toprule 1&2\\
+\midrule 4&3\\
+\bottomrule 
+\end{tabular} 
+\begin{tablenotes} 
+\item ***, ** and * are significant at the \(\SI{1}{\%}\), \(\SI{5}{\%}\) and \(\SI{10}{\%}\) levels, respectively 
+\end{tablenotes} 
+\end{threeparttable} 
+\end{center} 
+\end{table}
+```
+
 
