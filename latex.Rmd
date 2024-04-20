@@ -16,3 +16,25 @@ knitr::opts_chunk$set(echo = TRUE)
 Updated on: `r Sys.Date()`
 
 # LaTeX codes
+
+### 1. `subcaption` 
+
+This package offers an user interface to typeset sub-captions.
+
+```{txt}
+\usepackage{subcaption}
+```
+
+```{txt}
+%Multiple figures 
+\begin{figure} 
+\begin{center} 
+\begin{tabular}{cc} 
+\subcaptionbox{\label{o131a}1975} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131a}}}} & 
+\subcaptionbox{\label{o131b}1985} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131b}}}} 
+\end{tabular} 
+\caption{\label{fig1}Walmart store openings for every 10 years} 
+\end{center} 
+\end{figure}
+```
+
