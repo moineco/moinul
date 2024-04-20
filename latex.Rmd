@@ -17,7 +17,31 @@ Updated on: `r Sys.Date()`
 
 # LaTeX packages
 
-### 1. `subcaption` 
+### 1. `amsmath`
+
+The `amsmath` package is an extension package for LaTeX that provides additional features to facilitate mathematical typesetting.
+
+```{txt}
+\usepackage{amsmath}
+```
+
+### 2. `amsfonts`
+
+The `amsfonts` package is an extended set of fonts for use in mathematics.
+
+```{txt}
+\usepackage{amsfonts}
+```
+
+### 3. `amssymb`
+
+The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`
+
+```{txt}
+\usepackage{amssymb}
+```
+
+### 4. `subcaption` 
 
 This package offers an user interface to typeset sub-captions.
 
@@ -37,7 +61,7 @@ This package offers an user interface to typeset sub-captions.
 \end{figure}
 ```
 
-### 2. `threeparttable`
+### 5. `threeparttable`
 
 This package facilitates tables with titles (captions) and notes.
 
