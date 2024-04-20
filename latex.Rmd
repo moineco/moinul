@@ -17,7 +17,15 @@ Updated on: `r Sys.Date()`
 
 # LaTeX packages
 
-### 1. `amsmath`
+### `alphabeta`
+
+The `alphabeta` package makes the standard macros for Greek letters in mathematical mode also available in text mode.
+
+```{txt}
+\usepackage{alphabeta}
+```
+
+### `amsmath`
 
 The `amsmath` package is an extension package for LaTeX that provides additional features to facilitate mathematical typesetting.
 
@@ -25,7 +33,7 @@ The `amsmath` package is an extension package for LaTeX that provides additional
 \usepackage{amsmath}
 ```
 
-### 2. `amsfonts`
+### `amsfonts`
 
 The `amsfonts` package is an extended set of fonts for use in mathematics.
 
@@ -33,7 +41,7 @@ The `amsfonts` package is an extended set of fonts for use in mathematics.
 \usepackage{amsfonts}
 ```
 
-### 3. `amssymb`
+### `amssymb`
 
 The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`
 
@@ -41,7 +49,97 @@ The `amssymb` package provides additional symbols that aren't "named" in `amsfon
 \usepackage{amssymb}
 ```
 
-### 4. `subcaption` 
+### `array`
+
+The `array` package provides an extended implementation of the array and tabular environments which extends the options for column formats.
+
+```{txt}
+\usepackage{array} 
+```
+
+### `arydshln`
+
+The `arydshln` package is to draw dash-lines in array/tabular environments.
+
+```{txt}
+\usepackage{arydshln}
+```
+
+### `babel`
+
+```{txt}
+\usepackage[english]{babel}
+```
+
+### `booktabs`
+
+### `boxedminipage`
+
+### `cleveref`
+
+```{txt}
+\usepackage[noabbrev]{cleveref}
+```
+
+### `csquotes`
+
+### `enumerate`
+
+### `epsfig`
+
+### `epstopdf`
+
+### `gensymb`
+
+### `geometry`
+
+```{txt}
+\usepackage[margin=1in]{geometry}
+```
+
+### `graphicx`
+
+### `indentfirst`
+
+### `latexsym`
+
+### `lineno`
+
+```{txt}
+\usepackage[mathlines]{lineno}
+```
+
+### `multirow`
+
+### `natbib`
+
+```{txt}
+\usepackage[comma]{natbib}
+```
+
+### `newfloat`
+
+### `nomencl`
+
+```{txt}
+\usepackage{nomencl}
+```
+
+### `nth`
+
+```{txt}
+\usepackage[super]{nth}
+```
+
+### `oldgerm`
+
+### `rotating`
+
+### `setspace`
+
+### `siunitx`
+
+### `subcaption` 
 
 This package offers an user interface to typeset sub-captions.
 
@@ -61,7 +159,15 @@ This package offers an user interface to typeset sub-captions.
 \end{figure}
 ```
 
-### 5. `threeparttable`
+### `tabularx`
+
+### `textcomp`
+
+```{txt}
+\usepackage{textcomp}
+```
+
+### `threeparttable`
 
 This package facilitates tables with titles (captions) and notes.
 
@@ -88,5 +194,22 @@ This package facilitates tables with titles (captions) and notes.
 \end{center} 
 \end{table}
 ```
+
+### `times`
+
+### `ulem`
+
+```{txt}
+\usepackage[normalem]{ulem}
+```
+
+### `url`
+
+### `xcolor`
+
+
+
+
+
 
 
