@@ -11,7 +11,7 @@
 
 
 
-<title>index.knit</title>
+<title>Quarto</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -360,89 +360,40 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Quarto</h1>
 
 </div>
 
 
-<div id="profile" class="section level1">
-<h1>Profile</h1>
 <p>Updated on: 2024-04-20</p>
-<p>I am Dr. Moinul Islam, working as an assistant professor at Kochi
-University of Technology. I have received my Ph.D. in engineering degree
-from Kyushu University in 2016. My research focuses are:</p>
+<div id="quarto-codes" class="section level1">
+<h1>Quarto codes</h1>
 <ul>
-<li>Applied Microeconomics</li>
-<li>Environmental Economics</li>
-<li>Experimental Economics</li>
-<li>Geoeconomics</li>
-<li>Sustainability Science</li>
+<li>Making sub figures in quarto document</li>
 </ul>
-<p><strong>Working experience</strong></p>
+<pre><code>#| label: fig-1
+#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
+#| out.width: &quot;50%&quot;
+#| echo: false
+#| fig-subcap: 
+#|   - &quot;1990&quot;
+#|   - &quot;2000&quot;
+#|   - &quot;2010&quot;
+#|   - &quot;2018&quot;
+#| layout-ncol: 2
+
+knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
 <ul>
-<li><p>2020, Assistant Professor, Research Institute for Future Design,
-Kochi University of Technology, Kochi, Japan</p></li>
-<li><p>2019, Assistant Professor, Graduate School for International
-Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
-Japan</p></li>
-<li><p>2016, Assistant Professor, Graduate School of Urban and
-Environmental Engineering, Kyushu University, Fukuoka, Japan</p></li>
-<li><p>2012, Research Assistant, Graduate School of Environmental
-Studies, Tohoku University, Sendai, Japan</p></li>
+<li>For loading a figure with customizing options, we can use following
+codes</li>
 </ul>
-<p><strong>Project experience</strong></p>
-<ul>
-<li><p>United Nations Environmental Program (UNEP)</p></li>
-<li><p>Research Institute of Economy, Trade and Industry
-(RIETI)</p></li>
-<li><p>Strategic Energy and Resource Management and Sustainable
-Solutions (SERMS), Tohoku University</p></li>
-</ul>
-<p><strong>Profile in external websites</strong></p>
-<ul>
-<li><p><a
-href="https://www.webofscience.com/wos/author/record/M-9369-2019">Web of
-Science</a></p></li>
-<li><p><a
-href="https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html">Kochi
-University of Technology</a></p></li>
-<li><p><a
-href="https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&amp;hl=en">Google
-Scholar</a></p></li>
-<li><p><a
-href="https://www.scopus.com/authid/detail.uri?authorId=55348122400">Scopus</a></p></li>
-<li><p><a href="https://researchmap.jp/moinul/?lang=english">Research
-Map</a></p></li>
-<li><p><a
-href="https://orcid.org/0000-0002-0309-3156">ORCID</a></p></li>
-<li><p><a href="https://github.com/moineco">Github</a></p></li>
-<li><p><a
-href="https://www.linkedin.com/in/moinul-islam-b7a140263/">Linkedin</a></p></li>
-</ul>
-<p><strong>Affiliation</strong></p>
-<ul>
-<li><p>Research Institute for Future Design, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan</p></li>
-<li><p>School of Economics and Management, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan</p></li>
-<li><p>Urban Institute, Kyushu University, Fukuoka, Japan</p></li>
-</ul>
-<p><strong>Skills</strong></p>
-<ul>
-<li><p>Computer programs: R, Python, STATA, EViews, ArcGIS, QGIS, GNU
-Emacs, oTree</p></li>
-<li><p>Language: English (Business), Japanese (Fluent), Hindi (Fluent),
-Bengali (Native)</p></li>
-</ul>
-<p><strong>CV</strong></p>
-<ul>
-<li>Please check from this link -&gt; <a
-href="https://moineco.github.io/moinul_cv/">My CV</a></li>
-</ul>
-<p><strong>Contact</strong></p>
-<ul>
-<li>Email address: <a href="mailto:moinul.eco@gmail.com"
-class="email">moinul.eco@gmail.com</a></li>
-</ul>
+<pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
+knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
+<p>Here, we can adjust the height, width, alignment and caption of the
+figure.</p>
 </div>
 
 

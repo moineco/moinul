@@ -19,5 +19,7 @@ navbar:
     - text: "Emacs"
       href: emacs.html    
     - text: "LaTeX"
-      href: latex.html  
+      href: latex.html
+    - text: "Quarto"
+      href: quarto.html
 output_dir: "docs"
