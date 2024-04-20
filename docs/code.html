@@ -554,6 +554,94 @@ StartupNotify=true
 MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
 Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
 </div>
+<div id="step-7-stata-update-process" class="section level5">
+<h5>Step 7: Stata update process</h5>
+<ul>
+<li>If SELinux is enabled in your PC, use following command to provide
+permission to your Stata to get updated. If SELinux is disabled, the
+following step is not necessary.</li>
+</ul>
+<pre class="txt"><code>sudo chmod -R 777 &#39;/usr/local/Stata17&#39;</code></pre>
+<ul>
+<li>If your internet connection is through a proxy server, add the proxy
+information inside your Stata to ensure update process as below.</li>
+</ul>
+<pre class="txt"><code>a. Open Stata
+b. Go to Preferences
+c. General Preferences
+d. Internet
+e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]
+f. Go to Help
+g. Update</code></pre>
+</div>
+</div>
+<div id="selinux" class="section level1">
+<h1>SELinux</h1>
+<p>SELinux (Security Enhanced Linux ) is a Linux kernel security module
+that allows administrators and users more control over access controls.
+It allows access based on SELinux policy rules. SELinux policy rules
+specify how processes and users interact with each other as well as how
+processes and users interact with files. When no SELinux policy rule
+explicitly allows access, such as for a process opening a file, access
+is denied.</p>
+<p>SELinux has three modes:</p>
+<ul>
+<li>Enforcing: SELinux allows access based on SELinux policy rules.</li>
+<li>Permissive: SELinux only logs actions that would have been denied if
+running in enforcing mode.</li>
+<li>Disabled: No SELinux policy is loaded.</li>
+</ul>
+<p>It is recommended to keep SELinux in enforcing mode, but in some
+cases, you may need to set it to a permissive mode or disable it
+completely. In this tutorial, I will show you how to disable SELinux on
+CentOS 7 systems.</p>
+<div id="check-the-selinux-status" class="section level5">
+<h5>1. Check the SELinux Status</h5>
+<pre class="txt"><code>sestatus</code></pre>
+<p>Output</p>
+<pre class="txt"><code>SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+SELinux root directory:         /etc/selinux
+Loaded policy name:             targeted
+Current mode:                   enforcing
+Mode from config file:          enforcing
+Policy MLS status:              enabled
+Policy deny_unknown status:     allowed
+Max kernel policy version:      31</code></pre>
+<p>You can see from the output above that SELinux is enabled and set to
+enforcing mode.</p>
+</div>
+<div id="disable-selinux" class="section level5">
+<h5>2. Disable SELinux</h5>
+<p>You can temporarily change the SELinux mode from targeted to
+permissive with the following command:</p>
+<pre class="txt"><code>sudo setenforce 0</code></pre>
+<p>However, this change is valid for the current runtime session only.
+To permanently disable SELinux on your CentOS 7 system, follow the steps
+below:</p>
+</div>
+<div id="pemanently-disable-selinux" class="section level5">
+<h5>3. Pemanently Disable SELinux</h5>
+<p>3.1 Open the /etc/selinux/config file and set the SELINUX mod to
+disabled:</p>
+<pre class="txt"><code># This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#       enforcing - SELinux security policy is enforced.
+#       permissive - SELinux prints warnings instead of enforcing.
+#       disabled - No SELinux policy is loaded.
+SELINUX=disabled
+# SELINUXTYPE= can take one of these two values:
+#       targeted - Targeted processes are protected,
+#       mls - Multi Level Security protection.
+SELINUXTYPE=targeted</code></pre>
+<p>3.2 Save the file and reboot your CentOS system with:</p>
+<pre class="txt"><code>sudo shutdown -r now</code></pre>
+<p>3.3 Once the system boots up, verify the change with the sestatus
+command:</p>
+<pre class="txt"><code>sestatus</code></pre>
+<p>The output should look like this:</p>
+<pre class="txt"><code>SELinux status:                 disabled</code></pre>
+</div>
 </div>
 <div id="gedit-text-editor" class="section level1">
 <h1>Gedit text editor</h1>

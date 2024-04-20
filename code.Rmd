@@ -253,6 +253,105 @@ MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl
 Actions=doedit;use;view;graphuse;projmanag;semopen;
 ```
 
+##### Step 7: Stata update process
+
+- If SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.
+
+```{txt}
+sudo chmod -R 777 '/usr/local/Stata17'
+```
+
+- If your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.
+
+```{txt}
+a. Open Stata
+b. Go to Preferences
+c. General Preferences
+d. Internet
+e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]
+f. Go to Help
+g. Update
+```
+
+# SELinux
+
+SELinux (Security Enhanced Linux ) is a Linux kernel security module that allows administrators and users more control over access controls. It allows access based on SELinux policy rules. SELinux policy rules specify how processes and users interact with each other as well as how processes and users interact with files. When no SELinux policy rule explicitly allows access, such as for a process opening a file, access is denied.
+
+SELinux has three modes:
+
+- Enforcing: SELinux allows access based on SELinux policy rules.
+- Permissive: SELinux only logs actions that would have been denied if running in enforcing mode.
+- Disabled: No SELinux policy is loaded.
+
+It is recommended to keep SELinux in enforcing mode, but in some cases, you may need to set it to a permissive mode or disable it completely. In this tutorial, I will show you how to disable SELinux on CentOS 7 systems.
+
+##### 1. Check the SELinux Status
+
+```{txt}
+sestatus
+```
+
+Output
+
+```{txt}
+SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+SELinux root directory:         /etc/selinux
+Loaded policy name:             targeted
+Current mode:                   enforcing
+Mode from config file:          enforcing
+Policy MLS status:              enabled
+Policy deny_unknown status:     allowed
+Max kernel policy version:      31
+```
+
+You can see from the output above that SELinux is enabled and set to enforcing mode.
+
+##### 2. Disable SELinux
+
+You can temporarily change the SELinux mode from targeted to permissive with the following command:
+
+```{txt}
+sudo setenforce 0
+```
+
+However, this change is valid for the current runtime session only. To permanently disable SELinux on your CentOS 7 system, follow the steps below:
+
+##### 3. Pemanently Disable SELinux
+
+3.1 Open the /etc/selinux/config file and set the SELINUX mod to disabled:
+
+```{txt}
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#       enforcing - SELinux security policy is enforced.
+#       permissive - SELinux prints warnings instead of enforcing.
+#       disabled - No SELinux policy is loaded.
+SELINUX=disabled
+# SELINUXTYPE= can take one of these two values:
+#       targeted - Targeted processes are protected,
+#       mls - Multi Level Security protection.
+SELINUXTYPE=targeted
+```
+
+3.2 Save the file and reboot your CentOS system with:
+
+```{txt}
+sudo shutdown -r now
+```
+
+3.3 Once the system boots up, verify the change with the sestatus command:
+
+```{txt}
+sestatus
+```
+
+The output should look like this:
+
+```{txt}
+SELinux status:                 disabled
+```
+
 # Gedit text editor
 
 - `gedit` is the official text editor of the GNOME desktop environment. While aiming at simplicity and ease of use, `gedit` is a powerful general purpose text editor.
