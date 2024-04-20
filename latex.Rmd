@@ -29,8 +29,8 @@ This package offers an user interface to typeset sub-captions.
 \begin{figure} 
 \begin{center} 
 \begin{tabular}{cc} 
-\subcaptionbox{\label{o131a}1975} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131a}}}} & 
-\subcaptionbox{\label{o131b}1985} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131b}}}} 
+\subcaptionbox{\label{1a}1975} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131a}}}} & 
+\subcaptionbox{\label{1b}1985} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131b}}}} 
 \end{tabular} 
 \caption{\label{fig1}Walmart store openings for every 10 years} 
 \end{center} 
