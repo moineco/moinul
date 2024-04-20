@@ -80,7 +80,7 @@ otree startapp app_name
 
 Session configs are defined in settings.py
 
-# **Heroku** and **oTree**
+# **Heroku**
 
 #### Deploy oTree application to Heroku server
 
