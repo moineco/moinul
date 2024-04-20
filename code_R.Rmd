@@ -81,35 +81,6 @@ p_temp		      #Install a Package Temporarily
 p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
-# Quarto
-
-### 2.1 Making subfigures in quarto document
-
-```{txt}
-#| label: fig-1
-#| fig-cap: "Inclusive wealth of India from 1990 to 2018"
-#| out.width: "50%"
-#| echo: false
-#| fig-subcap: 
-#|   - "1990"
-#|   - "2000"
-#|   - "2010"
-#|   - "2018"
-#| layout-ncol: 2
-
-knitr::include_graphics('figures/iw_1990.jpg')
-knitr::include_graphics('figures/iw_2000.jpg')
-knitr::include_graphics('figures/iw_2010.jpg')
-knitr::include_graphics('figures/iw_2018.jpg')
-```
-
-For loading a figure with customizing options, we can use following codes
-
-```{txt}
-{r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
-knitr::include_graphics("figure/discipline.jpg")
-```
-Here, we can adjust the height, width, alignment and caption of the figure.
 
 # **R** & **GIS**
 
