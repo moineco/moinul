@@ -82,7 +82,7 @@ p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
 
-# **R** & **GIS**
+# **GIS**
 
 ### R packages for data management:
 1.  `pacman`
