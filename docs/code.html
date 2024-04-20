@@ -479,28 +479,28 @@ id="step-1-create-the-installation-directory-and-change-location-into-it"
 class="section level5">
 <h5>Step 1: Create the installation directory, and change location into
 it</h5>
-<pre class="txt"><code>cd Downloads</code></pre>
-<pre class="txt"><code>mkdir statainstall</code></pre>
-<pre class="txt"><code>tar -xvzf Stata17Linux64.tar.gz -C statainstall</code></pre>
+<pre class="txt"><code>$ cd Downloads</code></pre>
+<pre class="txt"><code>$ mkdir statainstall</code></pre>
+<pre class="txt"><code>$ tar -xvzf Stata17Linux64.tar.gz -C statainstall</code></pre>
 </div>
 <div
 id="step-2-create-the-installation-directory-and-change-location-into-it"
 class="section level5">
 <h5>Step 2: Create the installation directory, and change location into
 it</h5>
-<pre class="txt"><code>sudo mkdir /usr/local/Stata17</code></pre>
-<pre class="txt"><code>cd /usr/local/Stata17</code></pre>
+<pre class="txt"><code>$ sudo mkdir /usr/local/Stata17</code></pre>
+<pre class="txt"><code>$ cd /usr/local/Stata17</code></pre>
 </div>
 <div id="step-3-run-the-install-script" class="section level5">
 <h5>Step 3: Run the install script</h5>
-<pre class="txt"><code>sudo ~/Downloads/statainstall/install</code></pre>
+<pre class="txt"><code>$ sudo ~/Downloads/statainstall/install</code></pre>
 <p>Here, you will start the installation process and STATA17 will
 provide you the steps to complete. Follow these steps one by one and
 complete until the end.</p>
 </div>
 <div id="step-4-configure-the-license-file" class="section level5">
 <h5>Step 4: Configure the license file</h5>
-<pre class="txt"><code>sudo ./stinit</code></pre>
+<pre class="txt"><code>$ sudo ./stinit</code></pre>
 <p>Again, STATA17 will ask you for several conformations and you need to
 respond properly.</p>
 </div>
@@ -509,14 +509,14 @@ id="step-5-running-stata17-with-a-graphical-user-interface-using-the-command"
 class="section level5">
 <h5>Step 5: Running STATA17 with a graphical user interface using the
 command</h5>
-<pre class="txt"><code>./xstata</code></pre>
+<pre class="txt"><code>$ ./xstata</code></pre>
 <ul>
 <li>If you have a problem to execute the above code, you need to install
 <code>gtk2</code></li>
 <li>You can install by:</li>
 </ul>
-<pre class="txt"><code>sudo apt install gtk2 # For Ubuntu
-sudo dnf install gtk2 # For Fedora</code></pre>
+<pre class="txt"><code>$ sudo apt install gtk2 # For Ubuntu
+$ sudo dnf install gtk2 # For Fedora</code></pre>
 </div>
 <div id="step-6-unity-launcher-and-desktop-file" class="section level5">
 <h5>Step 6: Unity launcher and desktop file</h5>
@@ -529,13 +529,13 @@ I am using <code>gedit</code> which is the official text editor of the
 GNOME desktop environment. If your PC don’t contain it, you can install
 easily by using terminal.</p></li>
 </ul>
-<pre class="txt"><code>sudo apt install -y gedit # For Ubuntu
-sudo dnf install -y gedit # For Fedora</code></pre>
+<pre class="txt"><code>$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora</code></pre>
 <ul>
 <li>Then we can easily fix this by creating a <strong>.desktop</strong>
 file for <em>Stata</em>.</li>
 </ul>
-<pre class="txt"><code>sudo gedit /usr/share/applications/stata17.desktop</code></pre>
+<pre class="txt"><code>$ sudo gedit /usr/share/applications/stata17.desktop</code></pre>
 <ul>
 <li>In this newly-created file just copy and paste the following,
 obviously adjusting it if you have a different version or flavor of
@@ -561,7 +561,7 @@ Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
 permission to your Stata to get updated. If SELinux is disabled, the
 following step is not necessary.</li>
 </ul>
-<pre class="txt"><code>sudo chmod -R 777 &#39;/usr/local/Stata17&#39;</code></pre>
+<pre class="txt"><code>$ sudo chmod -R 777 &#39;/usr/local/Stata17&#39;</code></pre>
 <ul>
 <li>If your internet connection is through a proxy server, add the proxy
 information inside your Stata to ensure update process as below.</li>
@@ -597,7 +597,7 @@ completely. In this tutorial, I will show you how to disable SELinux on
 CentOS 7 systems.</p>
 <div id="check-the-selinux-status" class="section level5">
 <h5>1. Check the SELinux Status</h5>
-<pre class="txt"><code>sestatus</code></pre>
+<pre class="txt"><code>$ sestatus</code></pre>
 <p>Output</p>
 <pre class="txt"><code>SELinux status:                 enabled
 SELinuxfs mount:                /sys/fs/selinux
@@ -615,7 +615,7 @@ enforcing mode.</p>
 <h5>2. Disable SELinux</h5>
 <p>You can temporarily change the SELinux mode from targeted to
 permissive with the following command:</p>
-<pre class="txt"><code>sudo setenforce 0</code></pre>
+<pre class="txt"><code>$ sudo setenforce 0</code></pre>
 <p>However, this change is valid for the current runtime session only.
 To permanently disable SELinux on your CentOS 7 system, follow the steps
 below:</p>
@@ -635,10 +635,10 @@ SELINUX=disabled
 #       mls - Multi Level Security protection.
 SELINUXTYPE=targeted</code></pre>
 <p>3.2 Save the file and reboot your CentOS system with:</p>
-<pre class="txt"><code>sudo shutdown -r now</code></pre>
+<pre class="txt"><code>$ sudo shutdown -r now</code></pre>
 <p>3.3 Once the system boots up, verify the change with the sestatus
 command:</p>
-<pre class="txt"><code>sestatus</code></pre>
+<pre class="txt"><code>$ sestatus</code></pre>
 <p>The output should look like this:</p>
 <pre class="txt"><code>SELinux status:                 disabled</code></pre>
 </div>
@@ -657,13 +657,13 @@ task.</p></li>
 to your needs and adapt it to your workflow.</p></li>
 <li><p>Install easily by using terminal.</p></li>
 </ul>
-<pre class="txt"><code>sudo apt install -y gedit # For Ubuntu
-sudo dnf install -y gedit # For Fedora</code></pre>
+<pre class="txt"><code>$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora</code></pre>
 <ul>
 <li>Alternatively, snapd can be installed from the command line:</li>
 </ul>
-<pre class="txt"><code>sudo apt install snapd # For Ubuntu
-sudo snap install gedit</code></pre>
+<pre class="txt"><code>$ sudo apt install snapd # For Ubuntu
+$ sudo snap install gedit</code></pre>
 </div>
 <div id="nano-text-editor" class="section level1">
 <h1>Nano text editor</h1>

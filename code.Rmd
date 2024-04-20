@@ -168,31 +168,31 @@ I am assuming that you have the licence information ready in your hand during th
 ##### Step 1: Create the installation directory, and change location into it
 
 ```{txt}
-cd Downloads
+$ cd Downloads
 ```
 
 ```{txt}
-mkdir statainstall
+$ mkdir statainstall
 ```
 
 ```{txt}
-tar -xvzf Stata17Linux64.tar.gz -C statainstall
+$ tar -xvzf Stata17Linux64.tar.gz -C statainstall
 ```
 
 ##### Step 2: Create the installation directory, and change location into it
 
 ```{txt}
-sudo mkdir /usr/local/Stata17
+$ sudo mkdir /usr/local/Stata17
 ```
 
 ```{txt}
-cd /usr/local/Stata17
+$ cd /usr/local/Stata17
 ```
 
 ##### Step 3: Run the install script
 
 ```{txt}
-sudo ~/Downloads/statainstall/install
+$ sudo ~/Downloads/statainstall/install
 ```
 
 Here, you will start the installation process and STATA17 will provide you the steps to complete. Follow these steps one by one and complete until the end.
@@ -200,7 +200,7 @@ Here, you will start the installation process and STATA17 will provide you the s
 ##### Step 4: Configure the license file
 
 ```{txt}
-sudo ./stinit
+$ sudo ./stinit
 ```
 
 Again, STATA17 will ask you for several conformations and you need to respond properly.
@@ -208,15 +208,15 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 ##### Step 5: Running STATA17 with a graphical user interface using the command
 
 ```{txt}
-./xstata
+$ ./xstata
 ```
 
 - If you have a problem to execute the above code, you need to install `gtk2`
 - You can install by:
 
 ```{txt}
-sudo apt install gtk2 # For Ubuntu
-sudo dnf install gtk2 # For Fedora
+$ sudo apt install gtk2 # For Ubuntu
+$ sudo dnf install gtk2 # For Fedora
 ```
 
 ##### Step 6: Unity launcher and desktop file
@@ -226,14 +226,14 @@ sudo dnf install gtk2 # For Fedora
 - To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
 
 ```{txt}
-sudo apt install -y gedit # For Ubuntu
-sudo dnf install -y gedit # For Fedora
+$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora
 ```
 
 - Then we can easily fix this by creating a **.desktop** file for *Stata*.
 
 ```{txt}
-sudo gedit /usr/share/applications/stata17.desktop
+$ sudo gedit /usr/share/applications/stata17.desktop
 ```
 
 - In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
@@ -258,7 +258,7 @@ Actions=doedit;use;view;graphuse;projmanag;semopen;
 - If SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.
 
 ```{txt}
-sudo chmod -R 777 '/usr/local/Stata17'
+$ sudo chmod -R 777 '/usr/local/Stata17'
 ```
 
 - If your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.
@@ -288,7 +288,7 @@ It is recommended to keep SELinux in enforcing mode, but in some cases, you may 
 ##### 1. Check the SELinux Status
 
 ```{txt}
-sestatus
+$ sestatus
 ```
 
 Output
@@ -312,7 +312,7 @@ You can see from the output above that SELinux is enabled and set to enforcing m
 You can temporarily change the SELinux mode from targeted to permissive with the following command:
 
 ```{txt}
-sudo setenforce 0
+$ sudo setenforce 0
 ```
 
 However, this change is valid for the current runtime session only. To permanently disable SELinux on your CentOS 7 system, follow the steps below:
@@ -337,13 +337,13 @@ SELINUXTYPE=targeted
 3.2 Save the file and reboot your CentOS system with:
 
 ```{txt}
-sudo shutdown -r now
+$ sudo shutdown -r now
 ```
 
 3.3 Once the system boots up, verify the change with the sestatus command:
 
 ```{txt}
-sestatus
+$ sestatus
 ```
 
 The output should look like this:
@@ -363,15 +363,15 @@ SELinux status:                 disabled
 - Install easily by using terminal.
 
 ```{txt}
-sudo apt install -y gedit # For Ubuntu
-sudo dnf install -y gedit # For Fedora
+$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora
 ```
 
 - Alternatively, snapd can be installed from the command line:
 
 ```{txt}
-sudo apt install snapd # For Ubuntu
-sudo snap install gedit
+$ sudo apt install snapd # For Ubuntu
+$ sudo snap install gedit
 ```
 
 # Nano text editor
