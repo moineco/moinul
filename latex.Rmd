@@ -117,9 +117,25 @@ The `enumerate` package adds an optional argument to the enumerate environment w
 
 This `epstopdf` packages adds support of handling eps images to package graphics or graphicx with option pdftex. If an eps image is detected, `epstopdf` is automatically called to convert it to pdf format.
 
+```{txt}
+\usepackage{epstopdf}
+```
+
 ### `gensymb`
 
+This `gensymb` provides generic commands $\degree$, $\celsius$, $\perthousand$, $\micro$ and $\ohm$ which work both in text and maths mode.
+
+```{txt}
+\usepackage{gensymb}
+```
+
 ### `geometry`
+
+This `geometry` package provides a flexible and easy interface to page dimensions. You can change the page layout with intuitive parameters. For instance, if you want to set a margin to 2cm from each edge of the paper, you can type just 
+
+```{txt}
+\usepackage[margin=2cm]{geometry}
+```
 
 ```{txt}
 \usepackage[margin=1in]{geometry}
