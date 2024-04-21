@@ -5,17 +5,17 @@ navbar:
     - text: "Profile"
       href: index.html
     - text: "Research"
-      href: journal.html
+      href: research.html
     - text: "Lecture"
       href: lecture.html
     - text: "Book"
       href: book.html
     - text: "R"
-      href: code_R.html
+      href: r.html
     - text: "Python"
-      href: code_python.html
+      href: python.html
     - text: "Linux"
-      href: code.html
+      href: linux.html
     - text: "Emacs"
       href: emacs.html    
     - text: "LaTeX"

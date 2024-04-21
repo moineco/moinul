@@ -11,7 +11,7 @@
 
 
 
-<title>index.knit</title>
+<title>Python</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -360,89 +360,142 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Python</h1>
 
 </div>
 
 
-<div id="profile" class="section level1">
-<h1>Profile</h1>
 <p>Updated on: 2024-04-21</p>
-<p>I am Dr. Moinul Islam, working as an assistant professor at Kochi
-University of Technology. I have received my Ph.D. in engineering degree
-from Kyushu University in 2016. My research focuses are:</p>
+<div id="otree" class="section level1">
+<h1>oTree</h1>
 <ul>
-<li>Applied Microeconomics</li>
-<li>Environmental Economics</li>
-<li>Experimental Economics</li>
-<li>Geoeconomics</li>
-<li>Sustainability Science</li>
+<li>oTree can be installed through pip. Open the terminal (Mac/Linux) or
+command prompt (Windows PowerShell) and type:</li>
 </ul>
-<p><strong>Working experience</strong></p>
+<pre class="txt"><code>$ pip3 install otree</code></pre>
 <ul>
-<li><p>2020, Assistant Professor, Research Institute for Future Design,
-Kochi University of Technology, Kochi, Japan</p></li>
-<li><p>2019, Assistant Professor, Graduate School for International
-Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
-Japan</p></li>
-<li><p>2016, Assistant Professor, Graduate School of Urban and
-Environmental Engineering, Kyushu University, Fukuoka, Japan</p></li>
-<li><p>2012, Research Assistant, Graduate School of Environmental
-Studies, Tohoku University, Sendai, Japan</p></li>
+<li>You can install oTree in your computer by using the terminal in
+Pycharm as well.</li>
 </ul>
-<p><strong>Project experience</strong></p>
+<pre class="txt"><code>$ pip3 install otree</code></pre>
 <ul>
-<li><p>United Nations Environmental Program (UNEP)</p></li>
-<li><p>Research Institute of Economy, Trade and Industry
-(RIETI)</p></li>
-<li><p>Strategic Energy and Resource Management and Sustainable
-Solutions (SERMS), Tohoku University</p></li>
+<li>Upgrading/reinstalling oTree</li>
 </ul>
-<p><strong>Profile in external websites</strong></p>
+<pre class="txt"><code>$ pip3 install -U otree</code></pre>
 <ul>
-<li><p><a
-href="https://www.webofscience.com/wos/author/record/M-9369-2019">Web of
-Science</a></p></li>
-<li><p><a
-href="https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html">Kochi
-University of Technology</a></p></li>
-<li><p><a
-href="https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&amp;hl=en">Google
-Scholar</a></p></li>
-<li><p><a
-href="https://www.scopus.com/authid/detail.uri?authorId=55348122400">Scopus</a></p></li>
-<li><p><a href="https://researchmap.jp/moinul/?lang=english">Research
-Map</a></p></li>
-<li><p><a
-href="https://orcid.org/0000-0002-0309-3156">ORCID</a></p></li>
-<li><p><a href="https://github.com/moineco">Github</a></p></li>
-<li><p><a
-href="https://www.linkedin.com/in/moinul-islam-b7a140263/">Linkedin</a></p></li>
+<li><p>Recommend upgrading every couple of weeks.</p></li>
+<li><p>You might need to do the proxy server settings</p></li>
+<li><p>In the Pycharm, you can open the terminal and install oTree as
+below:</p></li>
 </ul>
-<p><strong>Affiliation</strong></p>
+<pre class="txt"><code>$ set https_proxy address:password
+$ pip install otree</code></pre>
+<div id="otree-setup" class="section level4">
+<h4>oTree setup</h4>
 <ul>
-<li><p>Research Institute for Future Design, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan</p></li>
-<li><p>School of Economics and Management, Kochi University of
-Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan</p></li>
-<li><p>Urban Institute, Kyushu University, Fukuoka, Japan</p></li>
+<li>From your command prompt, create your IGG project</li>
 </ul>
-<p><strong>Skills</strong></p>
+<pre class="txt"><code>$ otree startproject IGG</code></pre>
 <ul>
-<li><p>Computer programs: R, Python, STATA, EViews, ArcGIS, QGIS, GNU
-Emacs, oTree</p></li>
-<li><p>Language: English (Business), Japanese (Fluent), Hindi (Fluent),
-Bengali (Native)</p></li>
+<li>Move into the folder you just created</li>
 </ul>
-<p><strong>CV</strong></p>
+<pre class="txt"><code>$ cd IGG</code></pre>
 <ul>
-<li>Please check from this link -&gt; <a
-href="https://moineco.github.io/moinul_cv/">My CV</a></li>
+<li><p>Run the server</p></li>
+<li><p>Start your own terminal as a server.</p></li>
 </ul>
-<p><strong>Contact</strong></p>
-<ul>
-<li>Email address: <a href="mailto:moinul.eco@gmail.com"
-class="email">moinul.eco@gmail.com</a></li>
-</ul>
+<pre class="txt"><code>$ otree devserver</code></pre>
+<p>Open your browser to <a href="http://localhost:8000/"
+class="uri">http://localhost:8000/</a>. You should see the oTree demo
+site.</p>
+<p>To stop the server, press Control+C at your command line.</p>
+<p>To create a new app, run</p>
+<pre class="txt"><code>$ otree startapp app_name</code></pre>
+<p>Session configs are defined in settings.py</p>
+</div>
+</div>
+<div id="heroku" class="section level1">
+<h1>Heroku</h1>
+<div id="deploy-otree-application-to-heroku-server"
+class="section level4">
+<h4>Deploy oTree application to Heroku server</h4>
+<p>To upload the oTree application in a cloud server like Heroku is an
+important step to conduct the online experiments. Here, I am showing the
+steps that you need to fulfill to upload your application:</p>
+<ol style="list-style-type: decimal">
+<li><p>Make sure your oTree application is working correctly
+locally.</p></li>
+<li><p>Create a Heroku account if you don’t already have one.</p></li>
+<li><p>Install Heroku in your Mac: If you are a Mac user, you can
+install Heroku application from the <strong>homebrew</strong> as
+follows:</p></li>
+</ol>
+<pre class="txt"><code>$ brew tap heroku/brew &amp;&amp; brew install heroku</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Upload an app in Heroku: To upload your <code>oTree</code>
+application to Heroku, first create an <em>application name</em> inside
+your Heroku account as below:</li>
+</ol>
+<p>New…&gt; Create New App</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Enter to the folder of your Pycharm which contains the application
+you are interested to upload to Heroku server:</li>
+</ol>
+<pre class="txt"><code>$ cd appname</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Proxy settings if necessary Sometime institutional networks (e.g.;
+university, office, business) require some additional proxy settings to
+upload an application to Heroku. I am sharing the example of my
+institution.</li>
+</ol>
+<pre class="txt"><code>$ export http_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;
+$ export https_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
+<ol start="7" style="list-style-type: decimal">
+<li>Log in to Heroku Now it is time to push your application to your
+Heroku account. To do so, you need to go through the following
+steps.</li>
+</ol>
+<pre class="txt"><code>$ heroku login
+$ git init
+$ git add .
+$ git commit -am &quot;command message&quot;
+$ heroku git:remote -a appname
+$ git push heroku master
+$ heroku config:set OTREE_PRODUCTION=1</code></pre>
+<p>Your oTree application should now be deployed to your Heroku server.
+You can access it by going to the URL provided by Heroku.</p>
+<p>Note: Sometime due to the inconsistency in version of Python in your
+computer and reported Python version in runtime.txt might be different.
+In that case, you might not be able to rung the oTree program in
+computer. To get rid from it, you can remove the runtime.txt from your
+Pycharm.</p>
+</div>
+<div id="necessary-settings-of-heroku-to-run-small-experiment"
+class="section level4">
+<h4>Necessary settings of Heroku to run small experiment</h4>
+<blockquote>
+<p>Go to <strong>Resources</strong> tab. Following Add-ons need to be
+included for a small size experiment (For instance, 30 participants in
+one session).</p>
+</blockquote>
+<pre class="txt"><code>Heroku Data for Redis ..... Premium 0
+Heroku Postgres ........... Basic</code></pre>
+<blockquote>
+<p>Go to <strong>Settings</strong> tab. Click on <strong>Reveal Config
+Vars</strong>. Ensure that you have following Key and Value.</p>
+</blockquote>
+<pre class="txt"><code>Key........................Value
+OTREE_ADMIN_PASSWORD.......set any password
+OTREE_AUTH_LEVEL...........Demo
+OTREE_PRODUCTION...........1</code></pre>
+</div>
+<div id="setup-of-heroku-server-to-activate-the-paid-plans"
+class="section level4">
+<h4>Setup of Heroku server to activate the paid plans</h4>
+<pre class="txt"><code>heroku restart;heroku pg:reset DATABASE --confirm appname</code></pre>
+<p>Note: “appname” should be replaced with the custom application
+name</p>
+</div>
 </div>
 
 
