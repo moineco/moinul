@@ -67,6 +67,8 @@ The `arydshln` package is to draw dash-lines in array/tabular environments.
 
 ### `babel`
 
+The `babel` package manages culturally-determined typographical (and other) rules for a wide range of languages. A document may select a single language to be supported, or it may select several, in which case the document may switch from one language to another in a variety of ways. 
+
 ```{txt}
 \usepackage[english]{babel}
 ```
@@ -97,7 +99,19 @@ The `cleveref` package enhances LaTeX's cross-referencing features, allowing the
 
 ### `csquotes`
 
+The `csquotes` package provides advanced facilities for inline and display quotations. It is designed for a wide range of tasks ranging from the most simple applications to the more complex demands of formal quotations. 
+
+```{txt}
+\usepackage{csquotes}
+```
+
 ### `enumerate`
+
+The `enumerate` package adds an optional argument to the enumerate environment which determines the style in which the counter is printed. 
+
+```{txt}
+\usepackage{enumerate}
+```
 
 ### `epsfig`
 
