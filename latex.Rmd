@@ -43,7 +43,7 @@ The `amsfonts` package is an extended set of fonts for use in mathematics.
 
 ### `amssymb`
 
-The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`
+The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`.
 
 ```{txt}
 \usepackage{amssymb}
@@ -83,7 +83,7 @@ The `booktabs` package enhances the quality of tables in LaTeX, providing extra 
 
 ### `boxedminipage`
 
-The `boxedminipage` package is a very simple package that essentially just wraps a minipage within an \fbox.
+The `boxedminipage` package is a very simple package that essentially just wraps a minipage within an fbox.
 
 ```{txt}
 \usepackage{boxedminipage}
