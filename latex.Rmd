@@ -113,9 +113,9 @@ The `enumerate` package adds an optional argument to the enumerate environment w
 \usepackage{enumerate}
 ```
 
-### `epsfig`
-
 ### `epstopdf`
+
+This `epstopdf` packages adds support of handling eps images to package graphics or graphicx with option pdftex. If an eps image is detected, `epstopdf` is automatically called to convert it to pdf format.
 
 ### `gensymb`
 
