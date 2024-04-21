@@ -73,9 +73,23 @@ The `arydshln` package is to draw dash-lines in array/tabular environments.
 
 ### `booktabs`
 
+The `booktabs` package enhances the quality of tables in LaTeX, providing extra commands as well as behind-the-scenes optimization.
+
+```{txt}
+\usepackage{booktabs}
+```
+
 ### `boxedminipage`
 
+The `boxedminipage` package is a very simple package that essentially just wraps a minipage within an \fbox.
+
+```{txt}
+\usepackage{boxedminipage}
+```
+
 ### `cleveref`
+
+The `cleveref` package enhances LaTeX's cross-referencing features, allowing the format of cross-references to be determined automatically according to the "type" of cross-reference (equation, section, etc.) and the context in which the cross-reference is used.
 
 ```{txt}
 \usepackage[noabbrev]{cleveref}
