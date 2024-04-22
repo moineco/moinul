@@ -242,6 +242,7 @@ This package facilitates tables with titles (captions) and notes.
 #### `times`
 
 #### `ulem`
+The `ulem` package provides various types of underlining that can stretch between words and be broken across lines in LaTeX or plain TeX. Such underlining is given by the `\uline` command, leaving the original `\underline` command available for math mode. 
 
 ```{txt}
 \usepackage[normalem]{ulem}
