@@ -13,7 +13,7 @@
 
 <title>Emacs</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -365,7 +365,7 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-04-21</p>
+<p>Updated on: 2024-04-23</p>
 <div id="gnu-emacs" class="section level1">
 <h1>GNU Emacs</h1>
 <p>GNU Emacs isn’t a text editor only, it’s the ultimate productivity
@@ -435,6 +435,90 @@ class="uri">https://www.macports.org/install.php</a></li>
 as below:</li>
 </ul>
 <pre class="txt"><code>% sudo port install emacs-app</code></pre>
+</div>
+<div id="macports-under-proxy" class="section level4">
+<h4>2.3 MacPorts under Proxy</h4>
+<p>This tutorial is to let <code>Macports</code> to work over proxy.
+Download the latest installation package for your particular OS from:
+<code>http://www.macports.org/install.php</code>. Follow through the
+prompts after opening it and install <code>Macports</code> but then
+trying to <code>selfupdate</code> might give error. This is because the
+shell environment doesn’t have the variables specifying your systems
+proxy settings.</p>
+<ol style="list-style-type: decimal">
+<li>Use the following code to edit sources.conf using the vi editor in
+bash:</li>
+</ol>
+<pre class="txt"><code>sudo vim /opt/local/etc/macports/sources.conf</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Once the file is opened in the vi editor press the <code>a</code>
+key on your keyboard to enter into –insert– mode. Scroll down to the
+bottom of file and comment out the following line by typing
+<code>#</code> in front of it.</li>
+</ol>
+<pre class="txt"><code>rsync://rsync.macports.org/release/tarballs/ports.tar [default]</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Bellow that line insert this line which will tell Macports to go
+fetch the daily tarball over http</li>
+</ol>
+<pre class="txt"><code>http://www.macports.org/files/ports.tar.gz [default]</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li><p>Next, press the <code>esc</code> key on your keyboard to exit
+–insert– mode. Then type <code>:x</code> and press <code>return</code>
+to save your changes and return to terminal.</p></li>
+<li><p>Similar to editing the sources.conf by using the vi editor in
+bash, edit the sudoer file:</p></li>
+</ol>
+<pre class="txt"><code>sudo visudo</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Scroll to the bottom, enter into –insert– mode and append the
+following to the list of default specifications</li>
+</ol>
+<pre class="txt"><code>Defaults        env_keep += &quot;http_proxy HTTP_PROXY ftp_Proxy FTP_PROXY rsync_proxy RSYNC_PROXY&quot;</code></pre>
+<p>Next, escape out of the –insert– mode and save your changes.</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Now, type the following at the terminal to export environment
+variables [Following proxy information is for Kochi University of
+Technology. For your institution, please find the appropriate proxy
+settings from administrator]. Replace “username”, “password”, “proxyURL”
+and “portNumber” with their values specifying your proxy settings:</li>
+</ol>
+<pre class="txt"><code>export http_proxy=http://proxy.noc.kochi-tech.ac.jp:3128
+export HTTP_PROXY=http://proxy.noc.kochi-tech.ac.jp:3128
+export ftp_proxy=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export FTP_PROXY=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
+export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
+<ol start="8" style="list-style-type: decimal">
+<li>Use the bellow command to check the environment variables being used
+in the current session of the bash shell</li>
+</ol>
+<pre class="txt"><code>env</code></pre>
+<p>Remember to check for these environment variables every time you run
+your Terminal and are about to use things like port, curl, homebrew,
+etc. that make use of your internet connection.</p>
+<ol start="9" style="list-style-type: decimal">
+<li>In case you want to erase those environment variables you can
+use:</li>
+</ol>
+<pre class="txt"><code>unset http_proxy HTTP_PROXY</code></pre>
+<ol start="10" style="list-style-type: decimal">
+<li>Sync the port tree over http. Use the bellow command, not “sudo port
+selfupdate”</li>
+</ol>
+<pre class="txt"><code>sudo port -d sync</code></pre>
+<ol start="11" style="list-style-type: decimal">
+<li>Move onto <code>sudo port -v self update</code></li>
+</ol>
+<p>Without closing the terminal, you can do self update under a proxy.
+If you close the terminal, you just need to run the following code first
+and <code>sudo port -v self update</code> next:</p>
+<pre class="txt"><code>export http_proxy=http://proxy.noc.kochi-tech.ac.jp:3128
+export HTTP_PROXY=http://proxy.noc.kochi-tech.ac.jp:3128
+export ftp_proxy=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export FTP_PROXY=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
+export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 </div>
 <div id="windows" class="section level3">

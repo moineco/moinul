@@ -73,6 +73,88 @@ $ emacs --version
 % sudo port install emacs-app
 ```
 
+#### 2.3 MacPorts under Proxy
+
+This tutorial is to let `Macports` to work over proxy. Download the latest installation package  for your particular OS from: `http://www.macports.org/install.php`.  Follow through the prompts after opening it and install `Macports` but then trying to `selfupdate` might give error. This is because the shell environment doesn’t have the variables specifying your systems proxy settings.
+
+1. Use the following code to edit sources.conf using the vi editor in bash:
+
+```{txt}
+sudo vim /opt/local/etc/macports/sources.conf
+```
+
+2. Once the file is opened in the vi editor press the `a` key on your keyboard to enter into –insert– mode. Scroll down to the bottom of file and comment out the following line by typing `#` in front of it.
+
+```{txt}
+rsync://rsync.macports.org/release/tarballs/ports.tar [default]
+```
+
+3. Bellow that line insert this line which will tell Macports to go fetch the daily tarball over http
+
+```{txt}
+http://www.macports.org/files/ports.tar.gz [default]
+```
+
+4. Next, press the `esc` key on your keyboard to exit –insert– mode. Then type `:x` and press `return` to save your changes and return to terminal.
+
+5. Similar to editing the sources.conf by using the vi editor in bash, edit the sudoer file:
+
+```{txt}
+sudo visudo
+```
+
+6. Scroll to the bottom, enter into –insert– mode and append the following to the list of default specifications
+
+```{txt}
+Defaults        env_keep += "http_proxy HTTP_PROXY ftp_Proxy FTP_PROXY rsync_proxy RSYNC_PROXY"
+```
+
+Next, escape out of the –insert– mode and save your changes.
+
+7. Now, type the following at the terminal to export environment variables [Following proxy information is for Kochi University of Technology. For your institution, please find the appropriate proxy settings from administrator]. Replace “username”, “password”, “proxyURL” and “portNumber” with their values specifying your proxy settings:
+
+```{txt}
+export http_proxy=http://proxy.noc.kochi-tech.ac.jp:3128
+export HTTP_PROXY=http://proxy.noc.kochi-tech.ac.jp:3128
+export ftp_proxy=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export FTP_PROXY=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
+export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128
+```
+
+8. Use the bellow command to check the environment variables being used in the current session of the bash shell
+
+```{txt}
+env
+```
+
+Remember to check for these environment variables every time you run your Terminal and are about to use things like port, curl, homebrew, etc. that make use of your internet connection.
+
+9. In case you want to erase those environment variables you can use:
+
+```{txt}
+unset http_proxy HTTP_PROXY
+```
+
+10. Sync the port tree over http. Use the bellow command, not “sudo port selfupdate”
+
+```{txt}
+sudo port -d sync
+```
+
+11. Move onto `sudo port -v self update`
+
+Without closing the terminal, you can do self update under a proxy. If you close the terminal, you just need to run the following code first and `sudo port -v self update` next:
+
+```{txt}
+export http_proxy=http://proxy.noc.kochi-tech.ac.jp:3128
+export HTTP_PROXY=http://proxy.noc.kochi-tech.ac.jp:3128
+export ftp_proxy=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export FTP_PROXY=ftp://proxy.noc.kochi-tech.ac.jp:3128
+export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
+export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128
+```
+
 ### 3. Windows
 
 - Installation on `Windows` with `MSYS2` is convenient!
