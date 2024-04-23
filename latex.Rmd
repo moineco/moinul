@@ -123,7 +123,7 @@ This `epstopdf` packages adds support of handling eps images to package graphics
 
 #### `gensymb`
 
-This `gensymb` provides generic commands $\degree$, $\celsius$, $\perthousand$, $\micro$ and $\ohm$ which work both in text and maths mode.
+This `gensymb` provides generic commands `\degree`, `\celsius`, `\perthousand`, `\micro` and `\ohm` which work both in text and maths mode.
 
 ```{txt}
 \usepackage{gensymb}
