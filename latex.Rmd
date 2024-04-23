@@ -17,7 +17,7 @@ Updated on: `r Sys.Date()`
 
 # LaTeX packages
 
-#### `alphabeta`
+#### **`alphabeta`**
 
 The `alphabeta` package makes the standard macros for Greek letters in mathematical mode also available in text mode.
 
@@ -25,7 +25,7 @@ The `alphabeta` package makes the standard macros for Greek letters in mathemati
 \usepackage{alphabeta}
 ```
 
-#### `amsmath`
+#### **`amsmath`**
 
 The `amsmath` package is an extension package for LaTeX that provides additional features to facilitate mathematical typesetting.
 
@@ -33,7 +33,7 @@ The `amsmath` package is an extension package for LaTeX that provides additional
 \usepackage{amsmath}
 ```
 
-#### `amsfonts`
+#### **`amsfonts`**
 
 The `amsfonts` package is an extended set of fonts for use in mathematics.
 
@@ -41,7 +41,7 @@ The `amsfonts` package is an extended set of fonts for use in mathematics.
 \usepackage{amsfonts}
 ```
 
-#### `amssymb`
+#### **`amssymb`**
 
 The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`.
 
@@ -49,7 +49,7 @@ The `amssymb` package provides additional symbols that aren't "named" in `amsfon
 \usepackage{amssymb}
 ```
 
-#### `array`
+#### **`array`**
 
 The `array` package provides an extended implementation of the array and tabular environments which extends the options for column formats.
 
@@ -57,7 +57,7 @@ The `array` package provides an extended implementation of the array and tabular
 \usepackage{array} 
 ```
 
-#### `arydshln`
+#### **`arydshln`**
 
 The `arydshln` package is to draw dash-lines in array/tabular environments.
 
@@ -65,7 +65,7 @@ The `arydshln` package is to draw dash-lines in array/tabular environments.
 \usepackage{arydshln}
 ```
 
-#### `babel`
+#### **`babel`**
 
 The `babel` package manages culturally-determined typographical (and other) rules for a wide range of languages. A document may select a single language to be supported, or it may select several, in which case the document may switch from one language to another in a variety of ways. 
 
@@ -73,7 +73,7 @@ The `babel` package manages culturally-determined typographical (and other) rule
 \usepackage[english]{babel}
 ```
 
-#### `booktabs`
+#### **`booktabs`**
 
 The `booktabs` package enhances the quality of tables in LaTeX, providing extra commands as well as behind-the-scenes optimization.
 
@@ -81,7 +81,7 @@ The `booktabs` package enhances the quality of tables in LaTeX, providing extra 
 \usepackage{booktabs}
 ```
 
-#### `boxedminipage`
+#### **`boxedminipage`**
 
 The `boxedminipage` package is a very simple package that essentially just wraps a minipage within an fbox.
 
@@ -89,7 +89,7 @@ The `boxedminipage` package is a very simple package that essentially just wraps
 \usepackage{boxedminipage}
 ```
 
-#### `cleveref`
+#### **`cleveref`**
 
 The `cleveref` package enhances LaTeX's cross-referencing features, allowing the format of cross-references to be determined automatically according to the "type" of cross-reference (equation, section, etc.) and the context in which the cross-reference is used.
 
@@ -97,7 +97,7 @@ The `cleveref` package enhances LaTeX's cross-referencing features, allowing the
 \usepackage[noabbrev]{cleveref}
 ```
 
-#### `csquotes`
+#### **`csquotes`**
 
 The `csquotes` package provides advanced facilities for inline and display quotations. It is designed for a wide range of tasks ranging from the most simple applications to the more complex demands of formal quotations. 
 
@@ -105,7 +105,7 @@ The `csquotes` package provides advanced facilities for inline and display quota
 \usepackage{csquotes}
 ```
 
-#### `enumerate`
+#### **`enumerate`**
 
 The `enumerate` package adds an optional argument to the enumerate environment which determines the style in which the counter is printed. 
 
@@ -113,7 +113,7 @@ The `enumerate` package adds an optional argument to the enumerate environment w
 \usepackage{enumerate}
 ```
 
-#### `epstopdf`
+#### **`epstopdf`**
 
 This `epstopdf` packages adds support of handling eps images to package graphics or graphicx with option pdftex. If an eps image is detected, `epstopdf` is automatically called to convert it to pdf format.
 
@@ -121,7 +121,7 @@ This `epstopdf` packages adds support of handling eps images to package graphics
 \usepackage{epstopdf}
 ```
 
-#### `gensymb`
+#### **`gensymb`**
 
 This `gensymb` provides generic commands `\degree`, `\celsius`, `\perthousand`, `\micro` and `\ohm` which work both in text and maths mode.
 
@@ -129,7 +129,7 @@ This `gensymb` provides generic commands `\degree`, `\celsius`, `\perthousand`, 
 \usepackage{gensymb}
 ```
 
-#### `geometry`
+#### **`geometry`**
 
 This `geometry` package provides a flexible and easy interface to page dimensions. You can change the page layout with intuitive parameters. For instance, if you want to set a margin to 2cm from each edge of the paper, you can type just 
 
@@ -141,14 +141,14 @@ This `geometry` package provides a flexible and easy interface to page dimension
 \usepackage[margin=1in]{geometry}
 ```
 
-#### `graphicx`
+#### **`graphicx`**
 The `graphicx` package builds upon the graphics package, providing a key-value interface for optional arguments to the `\includegraphics` command. This interface provides facilities that go far beyond what the graphics package offers on its own. 
 
 ```{txt}
 \usepackage{graphicx}
 ```
 
-#### `indentfirst`
+#### **`indentfirst`**
 
 LaTeX will automatically indent the first line of each paragraph that doesn't immediately follow a section heading. If you'd like to indent the first paragraph after a section heading, you can include the `indentfirst` package in your preamble:
 
@@ -156,7 +156,7 @@ LaTeX will automatically indent the first line of each paragraph that doesn't im
 \usepackage{indentfirst}
 ```
 
-#### `latexsym`
+#### **`latexsym`**
 
 The package `latexsym` which makes the few additional characters available that come from the lasy fonts (LATEX’s symbol fonts).
 
@@ -164,45 +164,29 @@ The package `latexsym` which makes the few additional characters available that 
 \usepackage{latexsym}
 ```
 
-#### `lineno`
+#### **`lineno`**
 
 ```{txt}
 \usepackage[mathlines]{lineno}
 ```
 
-#### `multirow`
+#### **`multirow`**
 
-#### `natbib`
+#### **`natbib`**
 
 When it comes to bibliography management in LaTeX, the package natbib is a package for customising citations (especially author-year citation schemes) when using BibTeX.
 
 The bibliography files must have the standard bibtex syntax and the extension .bib. They contain a list of bibliography sources and several fields with information about each entry. 
 
 ```{txt}
-@article{a_Einstein_1905,
-    author =       "Albert Einstein",
-    title =        "{Zur Elektrodynamik bewegter K{\"o}rper}. ({German})
-        [{On} the electrodynamics of moving bodies]",
-    journal =      "Annalen der Physik",
-    volume =       "322",
-    number =       "10",
-    pages =        "891--921",
-    year =         "1905",
-    DOI =          "http://dx.doi.org/10.1002/andp.19053221004"
-}
-
-@book{b_Latexcompanion_1993,
-    author    = "Michel Goossens and Frank Mittelbach and Alexander Samarin",
-    title     = "The \LaTeX\ Companion",
-    year      = "1993",
-    publisher = "Addison-Wesley",
-    address   = "Reading, Massachusetts"
-}
-
-@misc{m_Knuthwebsite_2010,
-    author    = "Donald Knuth",
-    title     = "Knuth: Computers and Typesetting",
-    url       = "http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html"
+@article{a_Islam_202,
+  title={Nature dependence and seasonality change perceptions for climate adaptation and mitigation},
+  author={Islam, Moinul and Kotani, Koji and Managi, Shunsuke},
+  journal={Economic Analysis and Policy},
+  volume={81},
+  pages={34--44},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
@@ -258,7 +242,7 @@ Standard entry types:
 \usepackage[comma]{natbib}
 ```
 
-#### `newfloat`
+#### **`newfloat`**
 
 The package offers the command `\DeclareFloatingEnvironment`, which the user may use to define new floating environments which behave like the LaTeX standard foating environments figure and table. 
 
@@ -267,27 +251,27 @@ The package offers the command `\DeclareFloatingEnvironment`, which the user may
 ```
 
 
-#### `nomencl`
+#### **`nomencl`**
 
 ```{txt}
 \usepackage{nomencl}
 ```
 
-#### `nth`
+#### **`nth`**
 
 ```{txt}
 \usepackage[super]{nth}
 ```
 
-#### `oldgerm`
+#### **`oldgerm`**
 
-#### `rotating`
+#### **`rotating`**
 
-#### `setspace`
+#### **`setspace`**
 
-#### `siunitx`
+#### **`siunitx`**
 
-#### `subcaption` 
+#### **`subcaption`** 
 
 This package offers an user interface to typeset sub-captions.
 
@@ -307,15 +291,15 @@ This package offers an user interface to typeset sub-captions.
 \end{figure}
 ```
 
-#### `tabularx`
+#### **`tabularx`**
 
-#### `textcomp`
+#### **`textcomp`**
 
 ```{txt}
 \usepackage{textcomp}
 ```
 
-#### `threeparttable`
+#### **`threeparttable`**
 
 This package facilitates tables with titles (captions) and notes.
 
@@ -343,7 +327,7 @@ This package facilitates tables with titles (captions) and notes.
 \end{table}
 ```
 
-#### `times`
+#### **`times`**
 
 The `times` package select Adobe Times Roman (or equivalent) as default font. The package is now obsolete, replaced by the mathptmx package, which supports Times Roman text and (mostly) matching mathematics. 
 
@@ -351,14 +335,15 @@ The `times` package select Adobe Times Roman (or equivalent) as default font. Th
 \usepackage{times}
 ```
 
-#### `ulem`
+#### **`ulem`**
+
 The `ulem` package provides various types of underlining that can stretch between words and be broken across lines in LaTeX or plain TeX. Such underlining is given by the `\uline` command, leaving the original `\underline` command available for math mode. 
 
 ```{txt}
 \usepackage[normalem]{ulem}
 ```
 
-#### `url`
+#### **`url`**
 The command `\url` is a form of verbatim command that allows linebreaks at certain characters or combinations of characters, accepts reconfiguration, and can usually be used in the argument to another command. The command is intended for email addresses, hypertext links, directories/paths, etc., which normally have no spaces, so by default the package ignores spaces in its argument. 
 
 For instance, `\url{http://www.overleaf.com}`, will show the url passed as parameter and make it into a link, useful if you will print the document.
@@ -367,7 +352,7 @@ For instance, `\url{http://www.overleaf.com}`, will show the url passed as param
 \usepackage{url}
 ```
 
-#### `xcolor`
+#### **`xcolor`**
 The package starts from the basic facilities of the color package, and provides easy driver-independent access to several kinds of color tints, shades, tones, and mixes of arbitrary colors.
 
 ```{txt}
