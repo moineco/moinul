@@ -306,6 +306,13 @@ oldgerm in a `\usepackage` command.
 
 #### **`rotating`**
 
+A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which
+produces a single page-size float with contents rotated ±90 degrees.
+
+```{txt}
+\usepackage{rotating}
+```
+
 #### **`setspace`**
 
 #### **`siunitx`**
