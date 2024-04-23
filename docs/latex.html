@@ -509,10 +509,72 @@ fonts).</p>
 </div>
 <div id="natbib" class="section level4">
 <h4><code>natbib</code></h4>
+<p>When it comes to bibliography management in LaTeX, the package natbib
+is a package for customising citations (especially author-year citation
+schemes) when using BibTeX.</p>
+<p>The bibliography files must have the standard bibtex syntax and the
+extension .bib. They contain a list of bibliography sources and several
+fields with information about each entry.</p>
+<pre class="txt"><code>@article{a_Einstein_1905,
+    author =       &quot;Albert Einstein&quot;,
+    title =        &quot;{Zur Elektrodynamik bewegter K{\&quot;o}rper}. ({German})
+        [{On} the electrodynamics of moving bodies]&quot;,
+    journal =      &quot;Annalen der Physik&quot;,
+    volume =       &quot;322&quot;,
+    number =       &quot;10&quot;,
+    pages =        &quot;891--921&quot;,
+    year =         &quot;1905&quot;,
+    DOI =          &quot;http://dx.doi.org/10.1002/andp.19053221004&quot;
+}
+
+@book{b_Latexcompanion_1993,
+    author    = &quot;Michel Goossens and Frank Mittelbach and Alexander Samarin&quot;,
+    title     = &quot;The \LaTeX\ Companion&quot;,
+    year      = &quot;1993&quot;,
+    publisher = &quot;Addison-Wesley&quot;,
+    address   = &quot;Reading, Massachusetts&quot;
+}
+
+@misc{m_Knuthwebsite_2010,
+    author    = &quot;Donald Knuth&quot;,
+    title     = &quot;Knuth: Computers and Typesetting&quot;,
+    url       = &quot;http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html&quot;
+}</code></pre>
+<p>Standard entry types:</p>
+<ol style="list-style-type: decimal">
+<li><p><code>article</code>: Article from a magazine or journal</p></li>
+<li><p><code>book</code>: A published book</p></li>
+<li><p><code>booklet</code>: A work that is printed but has no publisher
+or sponsoring institution</p></li>
+<li><p><code>conference</code>: An article in a conference
+proceedings</p></li>
+<li><p><code>inbook</code>: A part of a book (section, chapter and so
+on)</p></li>
+<li><p><code>incollection</code>: A part of a book having its own
+title</p></li>
+<li><p><code>inproceedings</code>: An article in a conference
+proceedings</p></li>
+<li><p><code>manual</code>: Technical documentation</p></li>
+<li><p><code>mastersthesis</code>: A Master’s thesis</p></li>
+<li><p><code>misc</code>: Something that doesn’t fit in any other
+type</p></li>
+<li><p><code>phdthesis</code>: A PhD thesis</p></li>
+<li><p><code>proceedings</code>: The same as conference</p></li>
+<li><p><code>techreport</code>: Report published by an
+institution</p></li>
+<li><p><code>unpublished</code> Document not formally published, with
+author and title</p></li>
+</ol>
+<pre class="txt"><code>\usepackage{natbib}</code></pre>
 <pre class="txt"><code>\usepackage[comma]{natbib}</code></pre>
 </div>
 <div id="newfloat" class="section level4">
 <h4><code>newfloat</code></h4>
+<p>The package offers the command
+<code>\DeclareFloatingEnvironment</code>, which the user may use to
+define new floating environments which behave like the LaTeX standard
+foating environments figure and table.</p>
+<pre class="txt"><code>\usepackage{newfloat}</code></pre>
 </div>
 <div id="nomencl" class="section level4">
 <h4><code>nomencl</code></h4>

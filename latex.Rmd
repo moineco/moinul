@@ -174,11 +174,98 @@ The package `latexsym` which makes the few additional characters available that 
 
 #### `natbib`
 
+When it comes to bibliography management in LaTeX, the package natbib is a package for customising citations (especially author-year citation schemes) when using BibTeX.
+
+The bibliography files must have the standard bibtex syntax and the extension .bib. They contain a list of bibliography sources and several fields with information about each entry. 
+
+```{txt}
+@article{a_Einstein_1905,
+    author =       "Albert Einstein",
+    title =        "{Zur Elektrodynamik bewegter K{\"o}rper}. ({German})
+        [{On} the electrodynamics of moving bodies]",
+    journal =      "Annalen der Physik",
+    volume =       "322",
+    number =       "10",
+    pages =        "891--921",
+    year =         "1905",
+    DOI =          "http://dx.doi.org/10.1002/andp.19053221004"
+}
+
+@book{b_Latexcompanion_1993,
+    author    = "Michel Goossens and Frank Mittelbach and Alexander Samarin",
+    title     = "The \LaTeX\ Companion",
+    year      = "1993",
+    publisher = "Addison-Wesley",
+    address   = "Reading, Massachusetts"
+}
+
+@misc{m_Knuthwebsite_2010,
+    author    = "Donald Knuth",
+    title     = "Knuth: Computers and Typesetting",
+    url       = "http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html"
+}
+```
+
+Standard entry types:
+
+1. `article`:
+    Article from a magazine or journal
+
+2. `book`:
+    A published book
+
+3. `booklet`:
+    A work that is printed but has no publisher or sponsoring institution
+
+4. `conference`:
+    An article in a conference proceedings
+
+5. `inbook`:
+    A part of a book (section, chapter and so on)
+
+6. `incollection`:
+    A part of a book having its own title
+
+7. `inproceedings`:
+    An article in a conference proceedings
+
+8. `manual`:
+    Technical documentation
+
+9. `mastersthesis`:
+    A Master's thesis
+
+10. `misc`:
+    Something that doesn't fit in any other type
+
+11. `phdthesis`:
+    A PhD thesis
+
+12. `proceedings`:
+    The same as conference
+
+13. `techreport`:
+    Report published by an institution
+
+14. `unpublished`
+    Document not formally published, with author and title
+
+```{txt}
+\usepackage{natbib}
+```
+
 ```{txt}
 \usepackage[comma]{natbib}
 ```
 
 #### `newfloat`
+
+The package offers the command `\DeclareFloatingEnvironment`, which the user may use to define new floating environments which behave like the LaTeX standard foating environments figure and table. 
+
+```{txt}
+\usepackage{newfloat}
+```
+
 
 #### `nomencl`
 
