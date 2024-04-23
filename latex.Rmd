@@ -142,10 +142,27 @@ This `geometry` package provides a flexible and easy interface to page dimension
 ```
 
 #### `graphicx`
+The `graphicx` package builds upon the graphics package, providing a key-value interface for optional arguments to the `\includegraphics` command. This interface provides facilities that go far beyond what the graphics package offers on its own. 
+
+```{txt}
+\usepackage{graphicx}
+```
 
 #### `indentfirst`
 
+LaTeX will automatically indent the first line of each paragraph that doesn't immediately follow a section heading. If you'd like to indent the first paragraph after a section heading, you can include the `indentfirst` package in your preamble:
+
+```{txt}
+\usepackage{indentfirst}
+```
+
 #### `latexsym`
+
+The package `latexsym` which makes the few additional characters available that come from the lasy fonts (LATEX’s symbol fonts).
+
+```{txt}
+\usepackage{latexsym}
+```
 
 #### `lineno`
 
