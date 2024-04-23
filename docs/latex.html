@@ -502,10 +502,19 @@ fonts).</p>
 </div>
 <div id="lineno" class="section level4">
 <h4><strong><code>lineno</code></strong></h4>
+<p>There is a really nice package, lineno, which provides line-numbering
+and various options for customization. The most common use is continuous
+line numbering throughout the document. The following two lines in the
+preamble will do the trick:</p>
+<pre class="txt"><code>\usepackage{lineno}
+\linenumbers</code></pre>
 <pre class="txt"><code>\usepackage[mathlines]{lineno}</code></pre>
 </div>
 <div id="multirow" class="section level4">
 <h4><strong><code>multirow</code></strong></h4>
+<p>The package <code>multirow</code> which provides a construction for
+table cells that span more than one row of the table.</p>
+<pre class="txt"><code>\usepackage{multirow}</code></pre>
 </div>
 <div id="natbib" class="section level4">
 <h4><strong><code>natbib</code></strong></h4>
@@ -562,6 +571,20 @@ foating environments figure and table.</p>
 </div>
 <div id="nomencl" class="section level4">
 <h4><strong><code>nomencl</code></strong></h4>
+<p>A list of abbreviations and symbols is common in many scientific
+documents. These types of lists can be created with LaTeX by means on
+the nomencl package.</p>
+<pre class="txt"><code>\documentclass{article}
+\usepackage{nomencl}
+\makenomenclature
+
+\begin{document}
+Here is an example:
+\nomenclature{\(c\)}{Speed of light in a vacuum}
+\nomenclature{\(h\)}{Planck constant}
+
+\printnomenclature
+\end{document}</code></pre>
 <pre class="txt"><code>\usepackage{nomencl}</code></pre>
 </div>
 <div id="nth" class="section level4">

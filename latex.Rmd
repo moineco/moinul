@@ -166,11 +166,24 @@ The package `latexsym` which makes the few additional characters available that 
 
 #### **`lineno`**
 
+There is a really nice package, lineno, which provides line-numbering and various options for customization. The most common use is continuous line numbering throughout the document. The following two lines in the preamble will do the trick:
+
+```{txt}
+\usepackage{lineno}
+\linenumbers
+```
+
 ```{txt}
 \usepackage[mathlines]{lineno}
 ```
 
 #### **`multirow`**
+
+The package `multirow` which provides a construction for table cells that span more than one row of the table.
+
+```{txt}
+\usepackage{multirow}
+```
 
 #### **`natbib`**
 
@@ -252,6 +265,22 @@ The package offers the command `\DeclareFloatingEnvironment`, which the user may
 
 
 #### **`nomencl`**
+
+A list of abbreviations and symbols is common in many scientific documents. These types of lists can be created with LaTeX by means on the nomencl package. 
+
+```{txt}
+\documentclass{article}
+\usepackage{nomencl}
+\makenomenclature
+
+\begin{document}
+Here is an example:
+\nomenclature{\(c\)}{Speed of light in a vacuum}
+\nomenclature{\(h\)}{Planck constant}
+
+\printnomenclature
+\end{document}
+```
 
 ```{txt}
 \usepackage{nomencl}
