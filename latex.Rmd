@@ -315,6 +315,20 @@ produces a single page-size float with contents rotated ±90 degrees.
 
 #### **`setspace`**
 
+Provides support for setting the spacing between lines in a document. Package options include singlespacing, onehalfspacing, and doublespacing. Alternatively the spacing can be changed as required with the `\singlespacing`, `\onehalfspacing`, and `\doublespacing` commands. Other size spacings also available. 
+
+```{txt}
+\begin{spacing}{2.5}
+...
+...
+\end{spacing}
+```
+
+
+```{txt}
+\usepackage{setspace}
+```
+
 #### **`siunitx`**
 
 #### **`subcaption`** 
