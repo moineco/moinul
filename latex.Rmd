@@ -174,12 +174,12 @@ The package `latexsym` which makes the few additional characters available that 
 
 #### **`natbib`**
 
-When it comes to bibliography management in LaTeX, the package natbib is a package for customising citations (especially author-year citation schemes) when using BibTeX.
+When it comes to bibliography management in LaTeX, the package natbib is a package for customizing citations (especially author-year citation schemes) when using BibTeX.
 
 The bibliography files must have the standard bibtex syntax and the extension .bib. They contain a list of bibliography sources and several fields with information about each entry. 
 
 ```{txt}
-@article{a_Islam_202,
+@article{a_Islam_2024,
   title={Nature dependence and seasonality change perceptions for climate adaptation and mitigation},
   author={Islam, Moinul and Kotani, Koji and Managi, Shunsuke},
   journal={Economic Analysis and Policy},
