@@ -288,11 +288,21 @@ Here is an example:
 
 #### **`nth`**
 
+The command \nth{<number>} generates English ordinal numbers of the form $1^{st}$, $2^{nd}$, $3^{rd}$, $4^{th}$, etc.
+
 ```{txt}
 \usepackage[super]{nth}
 ```
 
 #### **`oldgerm`**
+
+This package defines commands to use the old German fonts for Fraktur, Schwabacher,
+and Gothic designed by Yannis Haralambous. To access them, use the package
+oldgerm in a `\usepackage` command.
+
+```{txt}
+\usepackage{oldgerm}
+```
 
 #### **`rotating`**
 
