@@ -630,6 +630,27 @@ available.</p>
 </div>
 <div id="siunitx" class="section level4">
 <h4><strong><code>siunitx</code></strong></h4>
+<p>This is a comprehensive (SI) units package. Typesetting values with
+units requires care to ensure that the combined mathematical meaning of
+the value plus unit combination is clear. In particular, the SI units
+system lays down a consistent set of units with rules on how they are to
+be used</p>
+<p>The package provides the user macros:</p>
+<pre class="txt"><code>\ang[⟨options⟩]{⟨angle⟩}
+\num[⟨options⟩]{⟨number⟩}
+\unit[⟨options⟩]{⟨unit⟩}
+\qty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\numlist[⟨options⟩]{⟨numbers⟩}
+\numproduct[⟨options⟩]{⟨numbers⟩}
+\numrange[⟨options⟩]{⟨numbers⟩}{⟨number2⟩}
+\qtylist[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyproduct[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyrange[⟨options⟩]{⟨number1⟩}{⟨number2⟩}{⟨unit⟩}
+\complexnum[⟨options⟩]{⟨number⟩}
+\complexqty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\sisetup{⟨options⟩}
+\tablenum[⟨options⟩]{⟨number⟩}</code></pre>
+<pre class="txt"><code>\usepackage{siunitx}</code></pre>
 </div>
 <div id="subcaption" class="section level4">
 <h4><strong><code>subcaption</code></strong></h4>
@@ -647,9 +668,19 @@ available.</p>
 </div>
 <div id="tabularx" class="section level4">
 <h4><strong><code>tabularx</code></strong></h4>
+<p>A new environment, <code>tabularx</code>, is defined, which takes the
+same arguments as tabular*, but modifies the widths of certain columns,
+rather than the inter column space, to set a table with the requested
+total width. The columns that may stretch are marked with the new token
+<code>X</code> in the preamble argument. This package requires the
+<code>array</code> package.</p>
+<pre class="txt"><code>\usepackage{tabularx}</code></pre>
 </div>
 <div id="textcomp" class="section level4">
 <h4><strong><code>textcomp</code></strong></h4>
+<p>The package supports the Text Companion fonts, which provide many
+text symbols (such as baht, bullet, copyright, musicalnote, onequarter,
+section, and yen).</p>
 <pre class="txt"><code>\usepackage{textcomp}</code></pre>
 </div>
 <div id="threeparttable" class="section level4">

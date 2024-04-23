@@ -330,6 +330,30 @@ Provides support for setting the spacing between lines in a document. Package op
 ```
 
 #### **`siunitx`**
+This is a comprehensive (SI) units package. Typesetting values with units requires care to ensure that the combined mathematical meaning of the value plus unit combination is clear. In particular, the SI units system lays down a consistent set of units with rules on how they are to be used
+
+The package provides the user macros:
+
+```{txt}
+\ang[⟨options⟩]{⟨angle⟩}
+\num[⟨options⟩]{⟨number⟩}
+\unit[⟨options⟩]{⟨unit⟩}
+\qty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\numlist[⟨options⟩]{⟨numbers⟩}
+\numproduct[⟨options⟩]{⟨numbers⟩}
+\numrange[⟨options⟩]{⟨numbers⟩}{⟨number2⟩}
+\qtylist[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyproduct[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyrange[⟨options⟩]{⟨number1⟩}{⟨number2⟩}{⟨unit⟩}
+\complexnum[⟨options⟩]{⟨number⟩}
+\complexqty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\sisetup{⟨options⟩}
+\tablenum[⟨options⟩]{⟨number⟩}
+```
+
+```{txt}
+\usepackage{siunitx}
+```
 
 #### **`subcaption`** 
 
@@ -353,7 +377,15 @@ This package offers an user interface to typeset sub-captions.
 
 #### **`tabularx`**
 
+A new environment, `tabularx`, is defined, which takes the same arguments as tabular*, but modifies the widths of certain columns, rather than the inter column space, to set a table with the requested total width. The columns that may stretch are marked with the new token `X` in the preamble argument. This package requires the `array` package.
+
+```{txt}
+\usepackage{tabularx}
+```
+
 #### **`textcomp`**
+
+The package supports the Text Companion fonts, which provide many text symbols (such as baht, bullet, copyright, musicalnote, onequarter, section, and yen).
 
 ```{txt}
 \usepackage{textcomp}
