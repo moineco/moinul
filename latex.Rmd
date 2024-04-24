@@ -131,7 +131,7 @@ This `gensymb` provides generic commands `\degree`, `\celsius`, `\perthousand`, 
 
 #### **`geometry`**
 
-This `geometry` package provides a flexible and easy interface to page dimensions. You can change the page layout with intuitive parameters. For instance, if you want to set a margin to 2cm from each edge of the paper, you can type just 
+This `geometry` package provides a flexible and easy interface to page dimensions. You can change the page layout with intuitive parameters. For instance, if you want to set a margin to 2cm from each edge of the paper, you can type just: 
 
 ```{txt}
 \usepackage[margin=2cm]{geometry}
@@ -263,10 +263,9 @@ The package offers the command `\DeclareFloatingEnvironment`, which the user may
 \usepackage{newfloat}
 ```
 
-
 #### **`nomencl`**
 
-A list of abbreviations and symbols is common in many scientific documents. These types of lists can be created with LaTeX by means on the nomencl package. 
+A list of abbreviations and symbols is common in many scientific documents. These types of lists can be created with LaTeX by means on the `nomencl` package. 
 
 ```{txt}
 \documentclass{article}
@@ -306,8 +305,7 @@ oldgerm in a `\usepackage` command.
 
 #### **`rotating`**
 
-A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which
-produces a single page-size float with contents rotated ±90 degrees.
+A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which produces a single page-size float with contents rotated ±90 degrees.
 
 ```{txt}
 \usepackage{rotating}
@@ -315,7 +313,7 @@ produces a single page-size float with contents rotated ±90 degrees.
 
 #### **`setspace`**
 
-Provides support for setting the spacing between lines in a document. Package options include singlespacing, onehalfspacing, and doublespacing. Alternatively the spacing can be changed as required with the `\singlespacing`, `\onehalfspacing`, and `\doublespacing` commands. Other size spacings also available. 
+Provides support for setting the spacing between lines in a document. Package options include `singlespacing`, `onehalfspacing`, and `doublespacing`. Alternatively the spacing can be changed as required with the `\singlespacing`, `\onehalfspacing`, and `\doublespacing` commands. Other size `spacings` also available. 
 
 ```{txt}
 \begin{spacing}{2.5}
@@ -385,7 +383,7 @@ A new environment, `tabularx`, is defined, which takes the same arguments as tab
 
 #### **`textcomp`**
 
-The package supports the Text Companion fonts, which provide many text symbols (such as baht, bullet, copyright, musicalnote, onequarter, section, and yen).
+The package supports the Text Companion fonts, which provide many text symbols (such as `baht`, `bullet`, `copyright`, `musicalnote`, `onequarter`, `section`, and `yen`).
 
 ```{txt}
 \usepackage{textcomp}
