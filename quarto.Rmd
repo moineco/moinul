@@ -15,9 +15,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# Quarto render Jupyter notebooks
+# Quarto render Jupyter
 
-Quarto can render Jupyter notebooks represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use JupyterLab as your editor.
+Quarto can render Jupyter notebooks represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use `JupyterLab` as your editor.
 
 ##### YAML Front Matter
 
@@ -35,7 +35,7 @@ jupyter: python3
 ---
 ```
 
-Note that we’ve added the jupyter: python3 option to the YAML front matter to indicate which Jupyter kernel to render with. You would render this document with:
+Note that we’ve added the jupyter: python3 option to the `YAML` front matter to indicate which Jupyter kernel to render with. You would render this document with:
 
 ```{txt}
 quarto render basics-jupyter.qmd
@@ -46,8 +46,8 @@ quarto render basics-jupyter.qmd
 You can convert between `.ipynb` and `.qmd` representations of a notebook using the quarto convert command. For example:
 
 ```{txt}
-quarto convert basics-jupyter.ipynb # converts to qmd
-quarto convert basics-jupyter.qmd   # converts to ipynb
+quarto convert basics-jupyter.ipynb # converts to .qmd
+quarto convert basics-jupyter.qmd   # converts to .ipynb
 ```
 
 ##### Render without Preview
@@ -55,17 +55,17 @@ quarto convert basics-jupyter.qmd   # converts to ipynb
 ```{txt}
 quarto render notebook.ipynb
 quarto render notebook.ipynb --to docx
+quarto render notebook.ipynb --to pdf
 ```
 
 ##### JupyterLab Extension
 
-The Quarto JuptyerLab extension enables JupyterLab Notebooks which use Quarto markdown to properly display the contents of the markdown cells. 
+The Quarto `JuptyerLab` extension enables `JupyterLab` Notebooks which use Quarto markdown to properly display the contents of the markdown cells. 
 
 ```{txt}
 python3 -m pip install jupyterlab-quarto  # Mac
-py -m pip install jupyterlab-quarto # Windows
+py -m pip install jupyterlab-quarto  # Windows
 ```
-
 
 # Quarto codes
 
@@ -95,5 +95,6 @@ knitr::include_graphics('figures/iw_2018.jpg')
 {r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
 knitr::include_graphics("figure/discipline.jpg")
 ```
+
 Here, we can adjust the height, width, alignment and caption of the figure.
 

@@ -366,12 +366,12 @@ div.tocify {
 
 
 <p>Updated on: 2024-04-30</p>
-<div id="quarto-render-jupyter-notebooks" class="section level1">
-<h1>Quarto render Jupyter notebooks</h1>
+<div id="quarto-render-jupyter" class="section level1">
+<h1>Quarto render Jupyter</h1>
 <p>Quarto can render Jupyter notebooks represented as plain text
 (<code>.qmd</code>) or as a normal notebook file (<code>.ipynb</code>).
-One benefit of using <code>.ipynb</code> is that you can use JupyterLab
-as your editor.</p>
+One benefit of using <code>.ipynb</code> is that you can use
+<code>JupyterLab</code> as your editor.</p>
 <div id="yaml-front-matter" class="section level5">
 <h5>YAML Front Matter</h5>
 <p>The first cell of your notebook should be a Raw cell that contains
@@ -387,9 +387,9 @@ format:
     code-fold: FALSE
 jupyter: python3
 ---</code></pre>
-<p>Note that we’ve added the jupyter: python3 option to the YAML front
-matter to indicate which Jupyter kernel to render with. You would render
-this document with:</p>
+<p>Note that we’ve added the jupyter: python3 option to the
+<code>YAML</code> front matter to indicate which Jupyter kernel to
+render with. You would render this document with:</p>
 <pre class="txt"><code>quarto render basics-jupyter.qmd</code></pre>
 </div>
 <div id="converting-notebooks" class="section level5">
@@ -397,21 +397,22 @@ this document with:</p>
 <p>You can convert between <code>.ipynb</code> and <code>.qmd</code>
 representations of a notebook using the quarto convert command. For
 example:</p>
-<pre class="txt"><code>quarto convert basics-jupyter.ipynb # converts to qmd
-quarto convert basics-jupyter.qmd   # converts to ipynb</code></pre>
+<pre class="txt"><code>quarto convert basics-jupyter.ipynb # converts to .qmd
+quarto convert basics-jupyter.qmd   # converts to .ipynb</code></pre>
 </div>
 <div id="render-without-preview" class="section level5">
 <h5>Render without Preview</h5>
 <pre class="txt"><code>quarto render notebook.ipynb
-quarto render notebook.ipynb --to docx</code></pre>
+quarto render notebook.ipynb --to docx
+quarto render notebook.ipynb --to pdf</code></pre>
 </div>
 <div id="jupyterlab-extension" class="section level5">
 <h5>JupyterLab Extension</h5>
-<p>The Quarto JuptyerLab extension enables JupyterLab Notebooks which
-use Quarto markdown to properly display the contents of the markdown
-cells.</p>
+<p>The Quarto <code>JuptyerLab</code> extension enables
+<code>JupyterLab</code> Notebooks which use Quarto markdown to properly
+display the contents of the markdown cells.</p>
 <pre class="txt"><code>python3 -m pip install jupyterlab-quarto  # Mac
-py -m pip install jupyterlab-quarto # Windows</code></pre>
+py -m pip install jupyterlab-quarto  # Windows</code></pre>
 </div>
 </div>
 <div id="quarto-codes" class="section level1">
