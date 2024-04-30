@@ -427,6 +427,195 @@ following codes</p></li>
 knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
 <p>Here, we can adjust the height, width, alignment and caption of the
 figure.</p>
+<div id="manuscript" class="section level3">
+<h3>Manuscript</h3>
+<div id="yaml-for-tittle-author-affiliation-and-latex-packages"
+class="section level5">
+<h5><code>YAML</code> for tittle, author, affiliation and latex
+packages</h5>
+<pre class="txt"><code>---
+title: Scientific literature by using Quarto
+author: | 
+  |   Firstname Lastname $^{a,c}$*
+  |
+  |   Firstname Lastname $^{b,c}$
+  | 
+  |
+  |   $^a$ Graduate School of X,  
+  |   D University of Technology
+  |   City, Country
+  |
+  |   $^b$ X School of Engineering,
+  |   E University
+  |   City, Country
+  |
+  |   $^c$ XX Institute
+  |   F University
+  |   City, Town
+  |
+  |
+  |   * corresponding author&#39;s email: 
+date: &quot;`r Sys.Date()`&quot;
+geometry: &quot;left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm&quot;
+indent: true
+bibliography: references.bib
+format:
+  #docx: default
+  #html: default
+  pdf:
+    documentclass: article
+    papersize: letter
+    keep-tex: true
+    fig-cap-location: bottom
+    csl: apa_7th.csl
+    biblio-style: apalike
+    bib-humanities: true
+    link-citations: yes
+    urlcolor: blue
+    linkcolor: black 
+    include-in-header: 
+      text: |
+       \usepackage[mathlines]{lineno}
+       \usepackage{textcomp}
+       \usepackage{geometry} 
+       \usepackage[english]{babel}
+       \usepackage{inputenc} 
+       \usepackage{amsfonts}
+       \usepackage{amsmath}
+       \usepackage{amssymb}
+       \usepackage{amstext}
+       \usepackage{array}
+       \usepackage{arydshln}
+       \usepackage{booktabs}
+       \usepackage{boxedminipage}
+       \usepackage{caption}
+       \usepackage{csquotes}
+       \usepackage{caption}
+       \usepackage{colortbl}
+       \usepackage{dcolumn}
+       \usepackage{enumerate}
+       \usepackage{epsfig}
+       \usepackage{epstopdf}
+       \usepackage{gensymb}
+       \usepackage{graphicx}
+       \usepackage{float}
+       \usepackage{indentfirst}
+       \usepackage{latexsym}
+       \usepackage{longtable}
+       \usepackage{makecell}
+       \usepackage{multirow}
+       \usepackage[comma]{natbib}
+       \usepackage{oldgerm}
+       \usepackage{pdflscape}
+       \usepackage{rotating}
+       \usepackage{setspace}
+       \usepackage{siunitx}
+       \usepackage{tabu}
+       \usepackage{tabularx}
+       \usepackage{threeparttable}
+       \usepackage{times}
+       \usepackage[normalem]{ulem}
+       \usepackage{url}
+       \usepackage{wrapfig}
+       \usepackage{xcolor}
+       \usepackage[intoc]{nomencl}
+       \DeclareSIUnit{\ft}{ft}
+       \DeclareSIUnit{\month}{month}
+       \DeclareSIUnit{\mph}{mph}
+       \newtheorem{D}{Definition}[section]
+       \newtheorem{Ex}{Example}[section]
+       \newtheorem{Prop}{Proposition}%[section]
+       \newtheorem{C}{Claim}
+       \newtheorem{ST}{Stylized Fact}
+       \newtheorem{CO}{Corollary}%[section]
+       \newtheorem{A}{Assumption}%[section]
+       \newtheorem{Hy}{Hypothesis}%[section]
+       \newtheorem{RQ}{Research question}%[section]
+       \newtheorem{lem}{Lemma}%[section]
+       \newtheorem{T}{Theorem}[section]
+       \newtheorem{RE}{Result}%[section]
+       \DeclareMathOperator*{\argmax}{arg\,max}
+       \newcommand{\Cov}{\mathrm{Cov}}
+       \newcommand{\Prob}{\mathrm{Prob}}
+---</code></pre>
+</div>
+<div id="abstract-and-keywords" class="section level5">
+<h5>Abstract and keywords</h5>
+<pre class="txt"><code>Abstract:
+Write your abstract here.
+Keywords: A; b; c; d; e</code></pre>
+</div>
+<div id="load-necessary-r-packages." class="section level5">
+<h5>Load necessary R packages.</h5>
+<ul>
+<li>The most common R packages for this manuscript</li>
+</ul>
+<pre class="txt"><code>{r results=&#39;hide&#39;, echo=FALSE, include=FALSE}
+p_needed &lt;- c(&quot;bookdown&quot;,
+              &quot;here&quot;,
+              &quot;ggthemes&quot;,
+              &quot;tidyverse&quot;,
+              &quot;readr&quot;,
+              &quot;data.table&quot;,
+              &quot;kableExtra&quot;,
+              &quot;texreg&quot;,
+              &quot;knitr&quot;,
+              &quot;pander&quot;,
+              &quot;mgcv&quot;,
+              &quot;stargazer&quot;,
+              &quot;summarytools&quot;,
+              &quot;reporttools&quot;,
+              &quot;DataExplorer&quot;,
+              &quot;plm&quot;,
+              &quot;rstatix&quot;,
+              &quot;ggcorrplot&quot;,
+              &quot;mgcViz&quot;,
+              &quot;ggpubr&quot;,
+              &quot;utils&quot;,
+              &quot;memisc&quot;,
+              &quot;ggpubr&quot;,
+              &quot;ggResidpanel&quot;,
+              &quot;modelsummary&quot;,
+              &quot;lubridate&quot;,
+              &quot;bife&quot;,
+              &quot;texreg&quot;,
+              &quot;descr&quot;,
+              &quot;gtsummary&quot;,
+              &quot;mfx&quot;
+)</code></pre>
+</div>
+<div id="additional-r-packages-for-this-manuscript"
+class="section level5">
+<h5>Additional R packages for this manuscript</h5>
+<pre class="txt"><code>{r, echo=FALSE, include=FALSE}
+library(&quot;ggplot2&quot;)</code></pre>
+</div>
+<div id="latex-formatting" class="section level5">
+<h5>Latex formatting</h5>
+<pre class="txt"><code>\vspace{2mm}
+\pagebreak
+\setcounter{page}{2}
+\tableofcontents
+\pagebreak
+\doublespacing
+\linenumbers</code></pre>
+</div>
+<div id="main-body-of-the-manuscript" class="section level5">
+<h5>Main body of the manuscript</h5>
+<pre class="txt"><code># Introduction
+# Methodology
+## Data
+## MOdel
+# Results
+## Result 1
+### Implication of result 1
+## Result 2
+### Implication of result 2
+# Discussions
+# Conclusion
+# Reference</code></pre>
+</div>
+</div>
 </div>
 
 

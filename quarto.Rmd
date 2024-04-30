@@ -98,3 +98,200 @@ knitr::include_graphics("figure/discipline.jpg")
 
 Here, we can adjust the height, width, alignment and caption of the figure.
 
+### Manuscript
+
+##### `YAML` for tittle, author, affiliation and latex packages
+
+```{txt}
+---
+title: Scientific literature by using Quarto
+author: | 
+  |   Firstname Lastname $^{a,c}$*
+  |
+  |   Firstname Lastname $^{b,c}$
+  | 
+  |
+  |   $^a$ Graduate School of X,  
+  |   D University of Technology
+  |   City, Country
+  |
+  |   $^b$ X School of Engineering,
+  |   E University
+  |   City, Country
+  |
+  |   $^c$ XX Institute
+  |   F University
+  |   City, Town
+  |
+  |
+  |   * corresponding author's email: 
+date: "`r Sys.Date()`"
+geometry: "left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm"
+indent: true
+bibliography: references.bib
+format:
+  #docx: default
+  #html: default
+  pdf:
+    documentclass: article
+    papersize: letter
+    keep-tex: true
+    fig-cap-location: bottom
+    csl: apa_7th.csl
+    biblio-style: apalike
+    bib-humanities: true
+    link-citations: yes
+    urlcolor: blue
+    linkcolor: black 
+    include-in-header: 
+      text: |
+       \usepackage[mathlines]{lineno}
+       \usepackage{textcomp}
+       \usepackage{geometry} 
+       \usepackage[english]{babel}
+       \usepackage{inputenc} 
+       \usepackage{amsfonts}
+       \usepackage{amsmath}
+       \usepackage{amssymb}
+       \usepackage{amstext}
+       \usepackage{array}
+       \usepackage{arydshln}
+       \usepackage{booktabs}
+       \usepackage{boxedminipage}
+       \usepackage{caption}
+       \usepackage{csquotes}
+       \usepackage{caption}
+       \usepackage{colortbl}
+       \usepackage{dcolumn}
+       \usepackage{enumerate}
+       \usepackage{epsfig}
+       \usepackage{epstopdf}
+       \usepackage{gensymb}
+       \usepackage{graphicx}
+       \usepackage{float}
+       \usepackage{indentfirst}
+       \usepackage{latexsym}
+       \usepackage{longtable}
+       \usepackage{makecell}
+       \usepackage{multirow}
+       \usepackage[comma]{natbib}
+       \usepackage{oldgerm}
+       \usepackage{pdflscape}
+       \usepackage{rotating}
+       \usepackage{setspace}
+       \usepackage{siunitx}
+       \usepackage{tabu}
+       \usepackage{tabularx}
+       \usepackage{threeparttable}
+       \usepackage{times}
+       \usepackage[normalem]{ulem}
+       \usepackage{url}
+       \usepackage{wrapfig}
+       \usepackage{xcolor}
+       \usepackage[intoc]{nomencl}
+       \DeclareSIUnit{\ft}{ft}
+       \DeclareSIUnit{\month}{month}
+       \DeclareSIUnit{\mph}{mph}
+       \newtheorem{D}{Definition}[section]
+       \newtheorem{Ex}{Example}[section]
+       \newtheorem{Prop}{Proposition}%[section]
+       \newtheorem{C}{Claim}
+       \newtheorem{ST}{Stylized Fact}
+       \newtheorem{CO}{Corollary}%[section]
+       \newtheorem{A}{Assumption}%[section]
+       \newtheorem{Hy}{Hypothesis}%[section]
+       \newtheorem{RQ}{Research question}%[section]
+       \newtheorem{lem}{Lemma}%[section]
+       \newtheorem{T}{Theorem}[section]
+       \newtheorem{RE}{Result}%[section]
+       \DeclareMathOperator*{\argmax}{arg\,max}
+       \newcommand{\Cov}{\mathrm{Cov}}
+       \newcommand{\Prob}{\mathrm{Prob}}
+---
+```
+
+##### Abstract and keywords
+
+```{txt}
+Abstract:
+Write your abstract here.
+Keywords: A; b; c; d; e
+```
+
+##### Load necessary R packages.
+
+-   The most common R packages for this manuscript
+
+```{txt}
+{r results='hide', echo=FALSE, include=FALSE}
+p_needed <- c("bookdown",
+              "here",
+              "ggthemes",
+              "tidyverse",
+              "readr",
+              "data.table",
+              "kableExtra",
+              "texreg",
+              "knitr",
+              "pander",
+              "mgcv",
+              "stargazer",
+              "summarytools",
+              "reporttools",
+              "DataExplorer",
+              "plm",
+              "rstatix",
+              "ggcorrplot",
+              "mgcViz",
+              "ggpubr",
+              "utils",
+              "memisc",
+              "ggpubr",
+              "ggResidpanel",
+              "modelsummary",
+              "lubridate",
+              "bife",
+              "texreg",
+              "descr",
+              "gtsummary",
+              "mfx"
+)
+```
+
+##### Additional R packages for this manuscript
+
+```{txt}
+{r, echo=FALSE, include=FALSE}
+library("ggplot2")
+```
+
+##### Latex formatting
+
+```{txt}
+\vspace{2mm}
+\pagebreak
+\setcounter{page}{2}
+\tableofcontents
+\pagebreak
+\doublespacing
+\linenumbers
+```
+
+##### Main body of the manuscript
+
+```{txt}
+# Introduction
+# Methodology
+## Data
+## MOdel
+# Results
+## Result 1
+### Implication of result 1
+## Result 2
+### Implication of result 2
+# Discussions
+# Conclusion
+# Reference
+```
+
+
