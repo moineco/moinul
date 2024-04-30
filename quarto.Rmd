@@ -69,9 +69,11 @@ py -m pip install jupyterlab-quarto  # Windows
 
 # Quarto for academic writing
 
-- Making sub figures in quarto document
+#### Subfigure
 
-```{txt}
+##### Making sub figures in quarto document
+
+```{}
 #| label: fig-1
 #| fig-cap: "Inclusive wealth of India from 1990 to 2018"
 #| out.width: "50%"
@@ -98,7 +100,7 @@ knitr::include_graphics("figure/discipline.jpg")
 
 Here, we can adjust the height, width, alignment and caption of the figure.
 
-### Manuscript
+#### Article
 
 ##### `YAML` for tittle, author, affiliation and latex packages
 

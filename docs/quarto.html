@@ -418,17 +418,37 @@ py -m pip install jupyterlab-quarto  # Windows</code></pre>
 </div>
 <div id="quarto-for-academic-writing" class="section level1">
 <h1>Quarto for academic writing</h1>
+<div id="subfigure" class="section level4">
+<h4>Subfigure</h4>
+<div id="making-sub-figures-in-quarto-document" class="section level5">
+<h5>Making sub figures in quarto document</h5>
+<pre><code>#| label: fig-1
+#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
+#| out.width: &quot;50%&quot;
+#| echo: false
+#| fig-subcap: 
+#|   - &quot;1990&quot;
+#|   - &quot;2000&quot;
+#|   - &quot;2010&quot;
+#|   - &quot;2018&quot;
+#| layout-ncol: 2
+
+knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
 <ul>
-<li><p>Making sub figures in quarto document</p></li>
-<li><p>For loading a figure with customizing options, we can use
-following codes</p></li>
+<li>For loading a figure with customizing options, we can use following
+codes</li>
 </ul>
 <pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
 knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
 <p>Here, we can adjust the height, width, alignment and caption of the
 figure.</p>
-<div id="manuscript" class="section level3">
-<h3>Manuscript</h3>
+</div>
+</div>
+<div id="article" class="section level4">
+<h4>Article</h4>
 <div id="yaml-for-tittle-author-affiliation-and-latex-packages"
 class="section level5">
 <h5><code>YAML</code> for tittle, author, affiliation and latex
