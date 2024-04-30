@@ -13,7 +13,7 @@
 
 <title>Quarto</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -365,30 +365,61 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-04-21</p>
+<p>Updated on: 2024-04-30</p>
+<div id="quarto-render-jupyter-notebooks" class="section level1">
+<h1>Quarto render Jupyter notebooks</h1>
+<p>Quarto can render Jupyter notebooks represented as plain text
+(<code>.qmd</code>) or as a normal notebook file (<code>.ipynb</code>).
+One benefit of using <code>.ipynb</code> is that you can use JupyterLab
+as your editor.</p>
+<div id="yaml-front-matter" class="section level5">
+<h5>YAML Front Matter</h5>
+<p>The first cell of your notebook should be a Raw cell that contains
+the document title, author, and any other options you need to specify.
+Note that you can switch the type of a cell to Raw using the notebook
+toolbar:</p>
+<pre class="txt"><code>---
+title: &quot;Python for Data Science&quot;
+author: &quot;Moinul Islam&quot;
+date: &quot;4/30/2024&quot;
+format: 
+  html:
+    code-fold: FALSE
+jupyter: python3
+---</code></pre>
+<p>Note that we’ve added the jupyter: python3 option to the YAML front
+matter to indicate which Jupyter kernel to render with. You would render
+this document with:</p>
+<pre class="txt"><code>quarto render basics-jupyter.qmd</code></pre>
+</div>
+<div id="converting-notebooks" class="section level5">
+<h5>Converting Notebooks</h5>
+<p>You can convert between <code>.ipynb</code> and <code>.qmd</code>
+representations of a notebook using the quarto convert command. For
+example:</p>
+<pre class="txt"><code>quarto convert basics-jupyter.ipynb # converts to qmd
+quarto convert basics-jupyter.qmd   # converts to ipynb</code></pre>
+</div>
+<div id="render-without-preview" class="section level5">
+<h5>Render without Preview</h5>
+<pre class="txt"><code>quarto render notebook.ipynb
+quarto render notebook.ipynb --to docx</code></pre>
+</div>
+<div id="jupyterlab-extension" class="section level5">
+<h5>JupyterLab Extension</h5>
+<p>The Quarto JuptyerLab extension enables JupyterLab Notebooks which
+use Quarto markdown to properly display the contents of the markdown
+cells.</p>
+<pre class="txt"><code>python3 -m pip install jupyterlab-quarto  # Mac
+py -m pip install jupyterlab-quarto # Windows</code></pre>
+</div>
+</div>
 <div id="quarto-codes" class="section level1">
 <h1>Quarto codes</h1>
 <ul>
-<li>Making sub figures in quarto document</li>
-</ul>
-<pre><code>#| label: fig-1
-#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
-#| out.width: &quot;50%&quot;
-#| echo: false
-#| fig-subcap: 
-#|   - &quot;1990&quot;
-#|   - &quot;2000&quot;
-#|   - &quot;2010&quot;
-#|   - &quot;2018&quot;
-#| layout-ncol: 2
-
-knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
-<ul>
-<li>For loading a figure with customizing options, we can use following
-codes</li>
+<li><p>Making sub figures in quarto document</p></li>
+<li><p>For loading a figure with customizing options, we can use
+following codes</p></li>
 </ul>
 <pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
 knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>

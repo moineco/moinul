@@ -15,11 +15,63 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
+# Quarto render Jupyter notebooks
+
+Quarto can render Jupyter notebooks represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use JupyterLab as your editor.
+
+##### YAML Front Matter
+
+The first cell of your notebook should be a Raw cell that contains the document title, author, and any other options you need to specify. Note that you can switch the type of a cell to Raw using the notebook toolbar:
+
+```{txt}
+---
+title: "Python for Data Science"
+author: "Moinul Islam"
+date: "4/30/2024"
+format: 
+  html:
+    code-fold: FALSE
+jupyter: python3
+---
+```
+
+Note that we’ve added the jupyter: python3 option to the YAML front matter to indicate which Jupyter kernel to render with. You would render this document with:
+
+```{txt}
+quarto render basics-jupyter.qmd
+```
+
+##### Converting Notebooks
+
+You can convert between `.ipynb` and `.qmd` representations of a notebook using the quarto convert command. For example:
+
+```{txt}
+quarto convert basics-jupyter.ipynb # converts to qmd
+quarto convert basics-jupyter.qmd   # converts to ipynb
+```
+
+##### Render without Preview
+
+```{txt}
+quarto render notebook.ipynb
+quarto render notebook.ipynb --to docx
+```
+
+##### JupyterLab Extension
+
+The Quarto JuptyerLab extension enables JupyterLab Notebooks which use Quarto markdown to properly display the contents of the markdown cells. 
+
+```{txt}
+python3 -m pip install jupyterlab-quarto  # Mac
+py -m pip install jupyterlab-quarto # Windows
+```
+
+
 # Quarto codes
 
 - Making sub figures in quarto document
 
-```
+```{txt}
 #| label: fig-1
 #| fig-cap: "Inclusive wealth of India from 1990 to 2018"
 #| out.width: "50%"
