@@ -365,9 +365,53 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-04-30</p>
-<div id="quarto-render-jupyterlab" class="section level1">
-<h1>Quarto render JupyterLab</h1>
+<p>Updated on: 2024-05-01</p>
+<div id="quarto-within-rstudio" class="section level1">
+<h1>Quarto within RStudio</h1>
+<p>RStudio includes support for editing and preview of Quarto
+documents.</p>
+<div id="creating-documents" class="section level5">
+<h5>Creating Documents</h5>
+</div>
+<div id="render-and-preview" class="section level5">
+<h5>Render and Preview</h5>
+</div>
+<div id="projects" class="section level5">
+<h5>Projects</h5>
+</div>
+<div id="knitr-engine" class="section level5">
+<h5>Knitr Engine</h5>
+</div>
+<div id="yaml-intelligence" class="section level5">
+<h5>YAML Intelligence</h5>
+</div>
+<div id="r-package" class="section level5">
+<h5>R Package</h5>
+</div>
+<div id="equations" class="section level5">
+<h5>Equations</h5>
+</div>
+<div id="cross-references" class="section level5">
+<h5>Cross References</h5>
+</div>
+<div id="footnotes" class="section level5">
+<h5>Footnotes</h5>
+</div>
+<div id="embedded-code" class="section level5">
+<h5>Embedded Code</h5>
+</div>
+<div id="latex-and-html" class="section level5">
+<h5>LaTeX and HTML</h5>
+</div>
+<div id="citations" class="section level5">
+<h5>Citations</h5>
+</div>
+<div id="global-options" class="section level5">
+<h5>Global Options</h5>
+</div>
+</div>
+<div id="quarto-within-jupyterlab" class="section level1">
+<h1>Quarto within JupyterLab</h1>
 <p>Quarto can render <code>JupyterLab</code> represented as plain text
 (<code>.qmd</code>) or as a normal notebook file (<code>.ipynb</code>).
 One benefit of using <code>.ipynb</code> is that you can use
@@ -406,6 +450,13 @@ quarto convert basics-jupyter.qmd   # converts to .ipynb</code></pre>
 <pre class="txt"><code>quarto render notebook.ipynb
 quarto render notebook.ipynb --to docx
 quarto render notebook.ipynb --to pdf</code></pre>
+</div>
+<div id="cell-execution" class="section level5">
+<h5>Cell Execution</h5>
+<p>When rendering an <code>.ipynb</code> Quarto will not execute the
+cells within the notebook by default. If we want to execute the cells we
+can pass the <code>--execute</code> flag to render:</p>
+<pre class="txt"><code>quarto render notebook.ipynb --execute</code></pre>
 </div>
 <div id="jupyterlab-extension" class="section level5">
 <h5>JupyterLab Extension</h5>

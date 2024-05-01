@@ -15,7 +15,38 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
-# Quarto render JupyterLab
+# Quarto within RStudio
+
+RStudio includes support for editing and preview of Quarto documents. 
+
+##### Creating Documents
+
+##### Render and Preview
+
+##### Projects
+
+##### Knitr Engine
+
+##### YAML Intelligence
+
+##### R Package
+
+##### Equations
+
+##### Cross References
+
+##### Footnotes
+
+##### Embedded Code
+
+##### LaTeX and HTML
+
+##### Citations
+
+##### Global Options
+
+
+# Quarto within JupyterLab
 
 Quarto can render `JupyterLab` represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use `JupyterLab` as your editor.
 
@@ -56,6 +87,14 @@ quarto convert basics-jupyter.qmd   # converts to .ipynb
 quarto render notebook.ipynb
 quarto render notebook.ipynb --to docx
 quarto render notebook.ipynb --to pdf
+```
+
+##### Cell Execution
+
+When rendering an `.ipynb` Quarto will not execute the cells within the notebook by default. If we want to execute the cells we can pass the `--execute` flag to render:
+
+```{txt}
+quarto render notebook.ipynb --execute
 ```
 
 ##### JupyterLab Extension
