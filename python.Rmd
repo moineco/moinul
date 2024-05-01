@@ -15,6 +15,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Updated on: `r Sys.Date()`
 
+# JupyterLab
+
+`JupyterLab` is the latest web-based interactive development environment for notebooks, code, and data.
+
+- Install `JupyterLab` with pip:
+
+```{txt}
+$ pip install jupyterlab
+```
+
+- Once installed, launch `JupyterLab` with:
+
+```{txt}
+$ jupyter lab
+```
+
+- `Homebrew` is a package manager for macOS and Linux. You can use it to install Jupyter by running:
+
+```{txt}
+$ brew install jupyterlab
+```
+
 # oTree
 
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
