@@ -2,11 +2,11 @@
 title: "R"
 output:
   html_document:
-    toc: yes
-    toc_float: yes
-    collapsed: no
-    number_sections: no
-    toc_depth: 1
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
