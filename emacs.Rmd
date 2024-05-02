@@ -2,11 +2,11 @@
 title: "Emacs"
 output:
   html_document:
-    toc: yes
-    toc_float: yes
-    collapsed: no
-    number_sections: no
-    toc_depth: 1
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -19,9 +19,9 @@ Updated on: `r Sys.Date()`
 
 GNU Emacs isn't a text editor only, it's the ultimate productivity environment. Emacs can be installed on GNU/Linux, macOS and Windows. The latest stable version is 29.2, so it's best to try and find that version for your operating system. Installing Emacs by GUI is straightforward. However, to get a full grip on your installation, using the *terminal* is recommended. I will explain the ways to installing Emacs by using *terminal*.
 
-### 1. LinuxOS
+## LinuxOS
 
-#### 1.1 Fedora
+#### Fedora
 
 - After updating the package list in the Fedora Linux system, enter the following command to install the Emacs editor through the **DNF** package manager:
 
@@ -29,7 +29,7 @@ GNU Emacs isn't a text editor only, it's the ultimate productivity environment. 
 $ sudo dnf install emacs
 ```
 
-#### 1.2 Ubuntu
+#### Ubuntu
 
 - After updating the package list in the Ubuntu Linux system, enter the following command to install the Emacs editor through the **APT** package manager:
 
@@ -51,9 +51,9 @@ $ sudo apt install emacs-gtk
 $ emacs --version
 ```
 
-### 2. MacOS
+## MacOS
 
-#### 2.1 Homebrew
+#### Homebrew
 
 - Installation on `MacOS` with `Homebrew` is easy! 
 - Install `Homebrew` by following the instructions in <https://brew.sh/>
@@ -63,7 +63,7 @@ $ emacs --version
 % brew install --cask emacs
 ```
 
-#### 2.2 MacPorts
+#### MacPorts
 
 - Installation on `MacOS` with `MacPorts` is useful!
 - Install `MacPorts` by following the instructions in <https://www.macports.org/install.php>
@@ -73,7 +73,7 @@ $ emacs --version
 % sudo port install emacs-app
 ```
 
-#### 2.3 MacPorts under Proxy
+#### MacPorts under Proxy
 
 This tutorial is to let `Macports` to work over proxy. Download the latest installation package  for your particular OS from: `http://www.macports.org/install.php`.  Follow through the prompts after opening it and install `Macports` but then trying to `selfupdate` might give error. This is because the shell environment doesn’t have the variables specifying your systems proxy settings.
 
@@ -155,7 +155,7 @@ export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
 export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-### 3. Windows
+## Windows
 
 - Installation on `Windows` with `MSYS2` is convenient!
 - Install `MSYS2` by following the instructions in <https://www.msys2.org/>

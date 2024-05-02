@@ -13,7 +13,7 @@
 
 <title>Emacs</title>
 
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -365,7 +365,7 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-04-23</p>
+<p>Updated on: 2024-05-02</p>
 <div id="gnu-emacs" class="section level1">
 <h1>GNU Emacs</h1>
 <p>GNU Emacs isn’t a text editor only, it’s the ultimate productivity
@@ -375,10 +375,10 @@ for your operating system. Installing Emacs by GUI is straightforward.
 However, to get a full grip on your installation, using the
 <em>terminal</em> is recommended. I will explain the ways to installing
 Emacs by using <em>terminal</em>.</p>
-<div id="linuxos" class="section level3">
-<h3>1. LinuxOS</h3>
+<div id="linuxos" class="section level2">
+<h2>LinuxOS</h2>
 <div id="fedora" class="section level4">
-<h4>1.1 Fedora</h4>
+<h4>Fedora</h4>
 <ul>
 <li>After updating the package list in the Fedora Linux system, enter
 the following command to install the Emacs editor through the
@@ -387,7 +387,7 @@ the following command to install the Emacs editor through the
 <pre class="txt"><code>$ sudo dnf install emacs</code></pre>
 </div>
 <div id="ubuntu" class="section level4">
-<h4>1.2 Ubuntu</h4>
+<h4>Ubuntu</h4>
 <ul>
 <li>After updating the package list in the Ubuntu Linux system, enter
 the following command to install the Emacs editor through the
@@ -409,10 +409,10 @@ ensure a successful installation of the Emacs text editor:</p></li>
 <pre class="txt"><code>$ emacs --version</code></pre>
 </div>
 </div>
-<div id="macos" class="section level3">
-<h3>2. MacOS</h3>
+<div id="macos" class="section level2">
+<h2>MacOS</h2>
 <div id="homebrew" class="section level4">
-<h4>2.1 Homebrew</h4>
+<h4>Homebrew</h4>
 <ul>
 <li>Installation on <code>MacOS</code> with <code>Homebrew</code> is
 easy!</li>
@@ -424,7 +424,7 @@ installed with the following command:</li>
 <pre class="txt"><code>% brew install --cask emacs</code></pre>
 </div>
 <div id="macports" class="section level4">
-<h4>2.2 MacPorts</h4>
+<h4>MacPorts</h4>
 <ul>
 <li>Installation on <code>MacOS</code> with <code>MacPorts</code> is
 useful!</li>
@@ -437,7 +437,7 @@ as below:</li>
 <pre class="txt"><code>% sudo port install emacs-app</code></pre>
 </div>
 <div id="macports-under-proxy" class="section level4">
-<h4>2.3 MacPorts under Proxy</h4>
+<h4>MacPorts under Proxy</h4>
 <p>This tutorial is to let <code>Macports</code> to work over proxy.
 Download the latest installation package for your particular OS from:
 <code>http://www.macports.org/install.php</code>. Follow through the
@@ -521,8 +521,8 @@ export rsync_proxy=proxy.noc.kochi-tech.ac.jp:3128
 export RSYNC_PROXY=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
 </div>
 </div>
-<div id="windows" class="section level3">
-<h3>3. Windows</h3>
+<div id="windows" class="section level2">
+<h2>Windows</h2>
 <ul>
 <li>Installation on <code>Windows</code> with <code>MSYS2</code> is
 convenient!</li>
@@ -667,7 +667,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
