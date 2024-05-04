@@ -62,6 +62,8 @@ Updated on: `r Sys.Date()`
 
 #### Course objectives
 
+This course provides students with the foundations of microeconomic analysis. The primary objective is to develop the abilities of students to apply fundamental microeconomic concepts to a wide range of public policy issues. Foundation topics include: costs and supply behavior of the firm; consumer behavior and market demand; market forces, price formation and resource allocation; international trade and trade restrictions; and, market power and price-setting behavior. Students will understand the theory of consumer choice, including decision-making under uncertainty; welfare theory and Pareto optimality; the theory of the firm and general equilibrium analysis; the theory of imperfect competition in goods markets. Students will also be introduced to more advanced aspects of microeconomic analysis.
+
 #### Course syllabus
 
 # Future Design
