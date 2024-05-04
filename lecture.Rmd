@@ -14,52 +14,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 Updated on: `r Sys.Date()`
 
-# Geoeconomics
-
-#### Lecture notes
-
-<https://moineco.github.io/geoeconomics/>
-
-#### Course objectives
-
-#### Course syllabus
-
-**Section 1: Foundations of geographic data in R**
-
-- Lecture 1: R packages for GIS
-
-- Lecture 2: Processing Shapefiles in R
-
-- Lecture 3: Making maps with R
-
-- Lecture 4: Part 1_Spatial data operations
-
-- Lecture 5: Part 2_Spatial data operations
-
-**Section 2: Extensions and intermediate techniques in R**
-
-- Lecture 6: Part 1_Making map of Tokyo
-
-- Lecture 7: Part 2_Making map of Tokyo
-
-- Lecture 8: Part 1_Making map of World
-
-- Lecture 9: Part 2_Making map of World
-
-- Lecture 10: Part 1_Plotting U.S.A. Map
-
-- Lecture 11: Part 2_Plotting U.S.A. Map
-
-**Section 3: Applications, to real-world problems**
-
-- Lecture 12: Part 1_Spatial analysis using sf
-
-- Lecture 13: Part 2_Spatial analysis using sf
-
-- Lecture 14: Part 3_Spatial analysis using sf
-
-- Lecture 15: Population density maps
-
 # International Trade and Finance
 
 #### Course objectives
@@ -103,6 +57,12 @@ Updated on: `r Sys.Date()`
 -   Lecture 14: Developing countries growth, crisis and reform
 
 -   Lecture 15: International trade and biodiversity
+
+# Applied Microeconomics
+
+#### Course objectives
+
+#### Course syllabus
 
 # Future Design
 
@@ -198,7 +158,53 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 20: Environment, growth and development
 
-# Data Science for Economics
+# Geoeconomics with R and Python
+
+#### Lecture notes
+
+<https://moineco.github.io/geoeconomics/>
+
+#### Course objectives
+
+#### Course syllabus
+
+**Section 1: Foundations of geographic data in R**
+
+- Lecture 1: R packages for GIS
+
+- Lecture 2: Processing Shapefiles in R
+
+- Lecture 3: Making maps with R
+
+- Lecture 4: Part 1_Spatial data operations
+
+- Lecture 5: Part 2_Spatial data operations
+
+**Section 2: Extensions and intermediate techniques in R**
+
+- Lecture 6: Part 1_Making map of Tokyo
+
+- Lecture 7: Part 2_Making map of Tokyo
+
+- Lecture 8: Part 1_Making map of World
+
+- Lecture 9: Part 2_Making map of World
+
+- Lecture 10: Part 1_Plotting U.S.A. Map
+
+- Lecture 11: Part 2_Plotting U.S.A. Map
+
+**Section 3: Applications, to real-world problems**
+
+- Lecture 12: Part 1_Spatial analysis using sf
+
+- Lecture 13: Part 2_Spatial analysis using sf
+
+- Lecture 14: Part 3_Spatial analysis using sf
+
+- Lecture 15: Population density maps
+
+# Econometrics with R and Python
 
 In this course, I will introduce you to two of the most widely-used programming languages for data science: **R** and **Python**. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
 
