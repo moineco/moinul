@@ -18,6 +18,10 @@ Updated on: `r Sys.Date()`
 
 Lecture notes: <https://moineco.github.io/geoeconomics/>
 
+#### Course Objectives 
+
+#### Course Syllabus
+
 **Section 1: Foundations of geographic data in R**
 
 - Lecture 1: R packages for GIS
@@ -56,7 +60,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # International Trade and Finance
 
-[国際貿易・国際金融]
+#### Course Objectives 
+
+#### Course Syllabus
 
 **Section 1: Introduction to International Economics**
 
@@ -98,7 +104,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # Future Design
 
-[フューチャー・デザイン]
+#### Course Objectives 
+
+#### Course Syllabus
 
 **Section 1: What is Future Design**
 
@@ -136,7 +144,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # Environmental and Resource Economics
 
-[環境と資源の経済学]
+#### Course Objectives 
+
+#### Course Syllabus
 
 **Section 1: Introduction to Environmental Economics**
 
@@ -203,7 +213,7 @@ By the end of this course, you will be able to:
 - Gather real-world data that can be analyzed to address a modeling question.
 - Synthesize analysis of gathered data for stakeholders.
 
-#### Syllabus
+#### Course Syllabus
 
 **Section 1: Foundation of Data Science**
 
