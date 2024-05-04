@@ -436,37 +436,6 @@ py -m pip install jupyterlab-quarto  # Windows</code></pre>
 </div>
 <div id="quarto-for-academic-writing" class="section level1">
 <h1>Quarto for academic writing</h1>
-<div id="subfigure" class="section level3">
-<h3>Subfigure</h3>
-<div id="making-sub-figures" class="section level4">
-<h4>Making sub figures</h4>
-<pre><code>#| label: fig-1
-#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
-#| out.width: &quot;50%&quot;
-#| echo: false
-#| fig-subcap: 
-#|   - &quot;1990&quot;
-#|   - &quot;2000&quot;
-#|   - &quot;2010&quot;
-#|   - &quot;2018&quot;
-#| layout-ncol: 2
-
-knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
-knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
-<ul>
-<li>For loading a figure with customizing options, we can use following
-codes</li>
-</ul>
-<pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
-knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
-<p>Here, we can adjust the height, width, alignment and caption of the
-figure.</p>
-</div>
-</div>
-<div id="article" class="section level2">
-<h2>Article</h2>
 <div id="yaml-for-tittle-author-affiliation" class="section level4">
 <h4><code>YAML</code> for tittle, author, affiliation</h4>
 <pre class="txt"><code>---
@@ -650,6 +619,32 @@ library(&quot;ggplot2&quot;)</code></pre>
 # Conclusion
 # Reference</code></pre>
 </div>
+<div id="making-sub-figures" class="section level4">
+<h4>Making sub figures</h4>
+<pre><code>#| label: fig-1
+#| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
+#| out.width: &quot;50%&quot;
+#| echo: false
+#| fig-subcap: 
+#|   - &quot;1990&quot;
+#|   - &quot;2000&quot;
+#|   - &quot;2010&quot;
+#|   - &quot;2018&quot;
+#| layout-ncol: 2
+
+knitr::include_graphics(&#39;figures/iw_1990.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2000.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2010.jpg&#39;)
+knitr::include_graphics(&#39;figures/iw_2018.jpg&#39;)</code></pre>
+</div>
+<div id="customize-figures" class="section level4">
+<h4>Customize figures</h4>
+<p>For loading a figure with customizing options, we can use following
+codes</p>
+<pre class="txt"><code>{r, echo=FALSE, out.height=&quot;60%&quot;, out.width=&quot;60%&quot;, fig.align = &quot;center&quot;, fig.cap=&quot;Discipline&quot;}
+knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
+<p>Here, we can adjust the height, width, alignment and caption of the
+figure.</p>
 </div>
 </div>
 

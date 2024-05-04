@@ -85,39 +85,6 @@ py -m pip install jupyterlab-quarto  # Windows
 
 # Quarto for academic writing
 
-### Subfigure
-
-#### Making sub figures
-
-```{}
-#| label: fig-1
-#| fig-cap: "Inclusive wealth of India from 1990 to 2018"
-#| out.width: "50%"
-#| echo: false
-#| fig-subcap: 
-#|   - "1990"
-#|   - "2000"
-#|   - "2010"
-#|   - "2018"
-#| layout-ncol: 2
-
-knitr::include_graphics('figures/iw_1990.jpg')
-knitr::include_graphics('figures/iw_2000.jpg')
-knitr::include_graphics('figures/iw_2010.jpg')
-knitr::include_graphics('figures/iw_2018.jpg')
-```
-
-- For loading a figure with customizing options, we can use following codes
-
-```{txt}
-{r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
-knitr::include_graphics("figure/discipline.jpg")
-```
-
-Here, we can adjust the height, width, alignment and caption of the figure.
-
-## Article
-
 #### `YAML` for tittle, author, affiliation
 
 ```{txt}
@@ -312,4 +279,33 @@ library("ggplot2")
 # Reference
 ```
 
+#### Making sub figures
 
+```{}
+#| label: fig-1
+#| fig-cap: "Inclusive wealth of India from 1990 to 2018"
+#| out.width: "50%"
+#| echo: false
+#| fig-subcap: 
+#|   - "1990"
+#|   - "2000"
+#|   - "2010"
+#|   - "2018"
+#| layout-ncol: 2
+
+knitr::include_graphics('figures/iw_1990.jpg')
+knitr::include_graphics('figures/iw_2000.jpg')
+knitr::include_graphics('figures/iw_2010.jpg')
+knitr::include_graphics('figures/iw_2018.jpg')
+```
+
+#### Customize figures
+
+For loading a figure with customizing options, we can use following codes
+
+```{txt}
+{r, echo=FALSE, out.height="60%", out.width="60%", fig.align = "center", fig.cap="Discipline"}
+knitr::include_graphics("figure/discipline.jpg")
+```
+
+Here, we can adjust the height, width, alignment and caption of the figure.
