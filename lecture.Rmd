@@ -154,15 +154,11 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 18: Managing risk and uncertainty
 
--   Lecture 19: International and interregional competition
+-   Lecture 19: International and inter-regional competition
 
 -   Lecture 20: Environment, growth and development
 
 # Geoeconomics with R and Python
-
-#### Lecture notes
-
-<https://moineco.github.io/geoeconomics/>
 
 #### Course objectives
 
@@ -206,19 +202,14 @@ Updated on: `r Sys.Date()`
 
 # Econometrics with R and Python
 
-In this course, I will introduce you to two of the most widely-used programming languages for data science: **R** and **Python**. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
-
 #### Course objectives
 
-- Use GitHub, R, and Python for basic data analysis and version control.
-- Perform exploratory data analysis in R.
-- Use strings and lists in Python.
-- Test statistical hypotheses using R functions.
-- Create readable functions for efficient task management.
-- Manipulate real-world data to enable further analysis.
-- Choose and implement efficient methods for analyzing data sets.
-- Gather real-world data that can be analyzed to address a modeling question.
-- Synthesize analysis of gathered data for stakeholders.
+- Use R, and Python for econometrics
+- Perform exploratory data analysis in R and Python
+- Test statistical hypotheses using R and Python
+- Manipulate real-world data to enable further analysis
+- Choose and implement efficient economic methods for analyzing data sets
+- Gather real-world data that can be analyzed to forecasting
 
 #### Course syllabus
 
