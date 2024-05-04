@@ -6,7 +6,7 @@ output:
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 2
+    toc_depth: 5
 ---
 
 ```{r setup, include=FALSE}
@@ -19,29 +19,7 @@ Updated on: `r Sys.Date()`
 
 RStudio includes support for editing and preview of Quarto documents. 
 
-##### Creating Documents
-
-##### Render and Preview
-
-##### Projects
-
-##### Knitr Engine
-
 ##### YAML Intelligence
-
-##### R Package
-
-##### Equations
-
-##### Cross References
-
-##### Footnotes
-
-##### Embedded Code
-
-##### LaTeX and HTML
-
-##### Citations
 
 ##### Global Options
 
