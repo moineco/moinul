@@ -19,16 +19,15 @@ Updated on: `r Sys.Date()`
 
 RStudio includes support for editing and preview of Quarto documents. 
 
-##### YAML Intelligence
+#### YAML Intelligence
 
-##### Global Options
-
+#### Global Options
 
 # Quarto within JupyterLab
 
 Quarto can render `JupyterLab` represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use `JupyterLab` as your editor.
 
-##### YAML Front Matter
+#### YAML Front Matter
 
 The first cell of your notebook should be a `Raw` cell that contains the document title, author, and any other options you need to specify. Note that you can switch the type of a cell to Raw using the notebook toolbar:
 
@@ -50,7 +49,7 @@ Note that we’ve added the jupyter: python3 option to the `YAML` front matter t
 quarto render basics-jupyter.qmd
 ```
 
-##### Converting Notebooks
+#### Converting notebooks
 
 You can convert between `.ipynb` and `.qmd` representations of a notebook using the quarto convert command. For example:
 
@@ -59,7 +58,7 @@ quarto convert basics-jupyter.ipynb # converts to .qmd
 quarto convert basics-jupyter.qmd   # converts to .ipynb
 ```
 
-##### Render without Preview
+#### Render without preview
 
 ```{txt}
 quarto render notebook.ipynb
@@ -67,7 +66,7 @@ quarto render notebook.ipynb --to docx
 quarto render notebook.ipynb --to pdf
 ```
 
-##### Cell Execution
+#### Cell Execution
 
 When rendering an `.ipynb` Quarto will not execute the cells within the notebook by default. If we want to execute the cells we can pass the `--execute` flag to render:
 
@@ -75,7 +74,7 @@ When rendering an `.ipynb` Quarto will not execute the cells within the notebook
 quarto render notebook.ipynb --execute
 ```
 
-##### JupyterLab Extension
+#### JupyterLab extension
 
 The Quarto `JuptyerLab` extension enables `JupyterLab` which use Quarto markdown to properly display the contents of the markdown cells. 
 
@@ -86,9 +85,9 @@ py -m pip install jupyterlab-quarto  # Windows
 
 # Quarto for academic writing
 
-#### Subfigure
+### Subfigure
 
-##### Making sub figures in quarto document
+#### Making sub figures
 
 ```{}
 #| label: fig-1
@@ -117,9 +116,9 @@ knitr::include_graphics("figure/discipline.jpg")
 
 Here, we can adjust the height, width, alignment and caption of the figure.
 
-#### Article
+## Article
 
-##### `YAML` for tittle, author, affiliation and latex packages
+#### `YAML` for tittle, author, affiliation
 
 ```{txt}
 ---
@@ -229,7 +228,7 @@ format:
 ---
 ```
 
-##### Abstract and keywords
+#### Abstract and keywords
 
 ```{txt}
 Abstract:
@@ -237,7 +236,7 @@ Write your abstract here.
 Keywords: A; b; c; d; e
 ```
 
-##### Load necessary R packages.
+#### Load necessary R packages
 
 -   The most common R packages for this manuscript
 
@@ -277,14 +276,14 @@ p_needed <- c("bookdown",
 )
 ```
 
-##### Additional R packages for this manuscript
+#### Additional R packages
 
 ```{txt}
 {r, echo=FALSE, include=FALSE}
 library("ggplot2")
 ```
 
-##### Latex formatting
+#### Latex formatting
 
 ```{txt}
 \vspace{2mm}
@@ -296,7 +295,7 @@ library("ggplot2")
 \linenumbers
 ```
 
-##### Main body of the manuscript
+#### Main body of the manuscript
 
 ```{txt}
 # Introduction

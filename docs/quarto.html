@@ -370,11 +370,11 @@ div.tocify {
 <h1>Quarto within RStudio</h1>
 <p>RStudio includes support for editing and preview of Quarto
 documents.</p>
-<div id="yaml-intelligence" class="section level5">
-<h5>YAML Intelligence</h5>
+<div id="yaml-intelligence" class="section level4">
+<h4>YAML Intelligence</h4>
 </div>
-<div id="global-options" class="section level5">
-<h5>Global Options</h5>
+<div id="global-options" class="section level4">
+<h4>Global Options</h4>
 </div>
 </div>
 <div id="quarto-within-jupyterlab" class="section level1">
@@ -383,8 +383,8 @@ documents.</p>
 (<code>.qmd</code>) or as a normal notebook file (<code>.ipynb</code>).
 One benefit of using <code>.ipynb</code> is that you can use
 <code>JupyterLab</code> as your editor.</p>
-<div id="yaml-front-matter" class="section level5">
-<h5>YAML Front Matter</h5>
+<div id="yaml-front-matter" class="section level4">
+<h4>YAML Front Matter</h4>
 <p>The first cell of your notebook should be a <code>Raw</code> cell
 that contains the document title, author, and any other options you need
 to specify. Note that you can switch the type of a cell to Raw using the
@@ -404,29 +404,29 @@ jupyter: python3
 document with:</p>
 <pre class="txt"><code>quarto render basics-jupyter.qmd</code></pre>
 </div>
-<div id="converting-notebooks" class="section level5">
-<h5>Converting Notebooks</h5>
+<div id="converting-notebooks" class="section level4">
+<h4>Converting notebooks</h4>
 <p>You can convert between <code>.ipynb</code> and <code>.qmd</code>
 representations of a notebook using the quarto convert command. For
 example:</p>
 <pre class="txt"><code>quarto convert basics-jupyter.ipynb # converts to .qmd
 quarto convert basics-jupyter.qmd   # converts to .ipynb</code></pre>
 </div>
-<div id="render-without-preview" class="section level5">
-<h5>Render without Preview</h5>
+<div id="render-without-preview" class="section level4">
+<h4>Render without preview</h4>
 <pre class="txt"><code>quarto render notebook.ipynb
 quarto render notebook.ipynb --to docx
 quarto render notebook.ipynb --to pdf</code></pre>
 </div>
-<div id="cell-execution" class="section level5">
-<h5>Cell Execution</h5>
+<div id="cell-execution" class="section level4">
+<h4>Cell Execution</h4>
 <p>When rendering an <code>.ipynb</code> Quarto will not execute the
 cells within the notebook by default. If we want to execute the cells we
 can pass the <code>--execute</code> flag to render:</p>
 <pre class="txt"><code>quarto render notebook.ipynb --execute</code></pre>
 </div>
-<div id="jupyterlab-extension" class="section level5">
-<h5>JupyterLab Extension</h5>
+<div id="jupyterlab-extension" class="section level4">
+<h4>JupyterLab extension</h4>
 <p>The Quarto <code>JuptyerLab</code> extension enables
 <code>JupyterLab</code> which use Quarto markdown to properly display
 the contents of the markdown cells.</p>
@@ -436,10 +436,10 @@ py -m pip install jupyterlab-quarto  # Windows</code></pre>
 </div>
 <div id="quarto-for-academic-writing" class="section level1">
 <h1>Quarto for academic writing</h1>
-<div id="subfigure" class="section level4">
-<h4>Subfigure</h4>
-<div id="making-sub-figures-in-quarto-document" class="section level5">
-<h5>Making sub figures in quarto document</h5>
+<div id="subfigure" class="section level3">
+<h3>Subfigure</h3>
+<div id="making-sub-figures" class="section level4">
+<h4>Making sub figures</h4>
 <pre><code>#| label: fig-1
 #| fig-cap: &quot;Inclusive wealth of India from 1990 to 2018&quot;
 #| out.width: &quot;50%&quot;
@@ -465,12 +465,10 @@ knitr::include_graphics(&quot;figure/discipline.jpg&quot;)</code></pre>
 figure.</p>
 </div>
 </div>
-<div id="article" class="section level4">
-<h4>Article</h4>
-<div id="yaml-for-tittle-author-affiliation-and-latex-packages"
-class="section level5">
-<h5><code>YAML</code> for tittle, author, affiliation and latex
-packages</h5>
+<div id="article" class="section level2">
+<h2>Article</h2>
+<div id="yaml-for-tittle-author-affiliation" class="section level4">
+<h4><code>YAML</code> for tittle, author, affiliation</h4>
 <pre class="txt"><code>---
 title: Scientific literature by using Quarto
 author: | 
@@ -577,14 +575,14 @@ format:
        \newcommand{\Prob}{\mathrm{Prob}}
 ---</code></pre>
 </div>
-<div id="abstract-and-keywords" class="section level5">
-<h5>Abstract and keywords</h5>
+<div id="abstract-and-keywords" class="section level4">
+<h4>Abstract and keywords</h4>
 <pre class="txt"><code>Abstract:
 Write your abstract here.
 Keywords: A; b; c; d; e</code></pre>
 </div>
-<div id="load-necessary-r-packages." class="section level5">
-<h5>Load necessary R packages.</h5>
+<div id="load-necessary-r-packages" class="section level4">
+<h4>Load necessary R packages</h4>
 <ul>
 <li>The most common R packages for this manuscript</li>
 </ul>
@@ -622,14 +620,13 @@ p_needed &lt;- c(&quot;bookdown&quot;,
               &quot;mfx&quot;
 )</code></pre>
 </div>
-<div id="additional-r-packages-for-this-manuscript"
-class="section level5">
-<h5>Additional R packages for this manuscript</h5>
+<div id="additional-r-packages" class="section level4">
+<h4>Additional R packages</h4>
 <pre class="txt"><code>{r, echo=FALSE, include=FALSE}
 library(&quot;ggplot2&quot;)</code></pre>
 </div>
-<div id="latex-formatting" class="section level5">
-<h5>Latex formatting</h5>
+<div id="latex-formatting" class="section level4">
+<h4>Latex formatting</h4>
 <pre class="txt"><code>\vspace{2mm}
 \pagebreak
 \setcounter{page}{2}
@@ -638,8 +635,8 @@ library(&quot;ggplot2&quot;)</code></pre>
 \doublespacing
 \linenumbers</code></pre>
 </div>
-<div id="main-body-of-the-manuscript" class="section level5">
-<h5>Main body of the manuscript</h5>
+<div id="main-body-of-the-manuscript" class="section level4">
+<h4>Main body of the manuscript</h4>
 <pre class="txt"><code># Introduction
 # Methodology
 ## Data
