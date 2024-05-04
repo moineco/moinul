@@ -16,11 +16,13 @@ Updated on: `r Sys.Date()`
 
 # Geoeconomics
 
-Lecture notes: <https://moineco.github.io/geoeconomics/>
+#### Lecture notes
 
-#### Course Objectives 
+<https://moineco.github.io/geoeconomics/>
 
-#### Course Syllabus
+#### Course objectives
+
+#### Course syllabus
 
 **Section 1: Foundations of geographic data in R**
 
@@ -60,9 +62,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # International Trade and Finance
 
-#### Course Objectives 
+#### Course objectives
 
-#### Course Syllabus
+#### Course syllabus
 
 **Section 1: Introduction to International Economics**
 
@@ -104,9 +106,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # Future Design
 
-#### Course Objectives 
+#### Course objectives
 
-#### Course Syllabus
+#### Course syllabus
 
 **Section 1: What is Future Design**
 
@@ -144,9 +146,9 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 # Environmental and Resource Economics
 
-#### Course Objectives 
+#### Course objectives
 
-#### Course Syllabus
+#### Course syllabus
 
 **Section 1: Introduction to Environmental Economics**
 
@@ -196,12 +198,11 @@ Lecture notes: <https://moineco.github.io/geoeconomics/>
 
 -   Lecture 20: Environment, growth and development
 
-# Data Science
+# Data Science for Economics
 
-In this course, I will introduce you to two of the most widely-used programming languages for data science: R and Python. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
+In this course, I will introduce you to two of the most widely-used programming languages for data science: **R** and **Python**. You will gain experience working with real-world data, and leave the course with skills you can apply in other courses.
 
-#### Course Objectives 
-By the end of this course, you will be able to:
+#### Course objectives
 
 - Use GitHub, R, and Python for basic data analysis and version control.
 - Perform exploratory data analysis in R.
@@ -213,7 +214,7 @@ By the end of this course, you will be able to:
 - Gather real-world data that can be analyzed to address a modeling question.
 - Synthesize analysis of gathered data for stakeholders.
 
-#### Course Syllabus
+#### Course syllabus
 
 **Section 1: Foundation of Data Science**
 
