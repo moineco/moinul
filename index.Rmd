@@ -26,6 +26,8 @@ from Kyushu University in 2016. My research focuses are:
 -   Experimental Economics
 -   Environmental Social Science
 
+ -> [My CV](https://moineco.github.io/moinul_cv/)
+
 **Working experience**
 
 -   2020, Assistant Professor, Research Institute for Future Design,
@@ -83,10 +85,6 @@ from Kyushu University in 2016. My research focuses are:
 -   Computer programs: R, Python, STATA, EViews, ArcGIS, QGIS, GNU Emacs, oTree  
 
 -   Language: English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
-
-**CV**
-
--  Please check from this link -> [My CV](https://moineco.github.io/moinul_cv/)
 
 **Contact** 
 
