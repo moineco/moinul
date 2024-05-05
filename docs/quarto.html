@@ -365,13 +365,36 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-05-04</p>
+<p>Updated on: 2024-05-05</p>
 <div id="quarto-within-rstudio" class="section level1">
 <h1>Quarto within RStudio</h1>
 <p>RStudio includes support for editing and preview of Quarto
 documents.</p>
 <div id="yaml-intelligence" class="section level4">
 <h4>YAML Intelligence</h4>
+<p>Document options are defined using YAML. For .qmd files, this YAML
+should appear at the start of the text file. For Jupyter notebooks, the
+YAML should appear as the first cell, which should be a raw cell. The
+first and last lines of this cell consist of three hyphens (—). Elements
+are specified as key:value pairs, and sub-elements are indented. Below
+you will find a host of document options you can edit in quarto.</p>
+<div id="project-options" class="section level5">
+<h5>Project options</h5>
+<pre class="txt"><code>---
+project:  type: &quot;default&quot; # [default, website, book] type of output
+execute-dir: &quot;file&quot; # [file, project] working directory for computations
+output-dir: &quot;output&quot; # generate outputs (for instance, images, html, pdf) in this directory
+---</code></pre>
+</div>
+<div id="format-options" class="section level5">
+<h5>Format options</h5>
+<pre class="txt"><code>---
+format: pdf # [html, pdf, docx, odt, pptx, revealjs, beamer, gfm, commonmark, mediawiki, epub, ipynb] file format for the rendered document
+---</code></pre>
+<p>There are many other output formats available than the ones listed in
+the comments above. The options available vary depending upon the format
+that is chosen.</p>
+</div>
 </div>
 <div id="global-options" class="section level4">
 <h4>Global Options</h4>

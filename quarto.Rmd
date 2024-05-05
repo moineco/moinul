@@ -21,6 +21,28 @@ RStudio includes support for editing and preview of Quarto documents.
 
 #### YAML Intelligence
 
+Document options are defined using YAML. For .qmd files, this YAML should appear at the start of the text file. For Jupyter notebooks, the YAML should appear as the first cell, which should be a raw cell. The first and last lines of this cell consist of three hyphens (---). Elements are specified as key:value pairs, and sub-elements are indented. Below you will find a host of document options you can edit in quarto.
+
+##### Project options
+
+```{txt}
+---
+project:  type: "default" # [default, website, book] type of output
+execute-dir: "file" # [file, project] working directory for computations
+output-dir: "output" # generate outputs (for instance, images, html, pdf) in this directory
+---
+```
+
+##### Format options
+
+```{txt}
+---
+format: pdf # [html, pdf, docx, odt, pptx, revealjs, beamer, gfm, commonmark, mediawiki, epub, ipynb] file format for the rendered document
+---
+```
+
+There are many other output formats available than the ones listed in the comments above. The options available vary depending upon the format that is chosen.
+
 #### Global Options
 
 # Quarto within JupyterLab
