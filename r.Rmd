@@ -107,8 +107,8 @@ p_update	      #Update Out-of-Date Packages
 ### R Packages for GIS:
 
 ##### Basic data manipulation
-1.  `sf` 
-2.  `raster` 
+1.  [`sf`](<https://r-spatial.github.io/sf/>) is the most popular package for encoding of spatial data. 
+2.  [`raster`](<https://cran.r-project.org/web/packages/raster/index.html>) for working with raster (gridded) data
 3.  `shapefiles`
 4.  `ncdf4`
 5.  `sp`
