@@ -43,6 +43,111 @@ format: pdf # [html, pdf, docx, odt, pptx, revealjs, beamer, gfm, commonmark, me
 
 There are many other output formats available than the ones listed in the comments above. The options available vary depending upon the format that is chosen.
 
+##### Title and author
+
+```{txt}
+---
+title: "Quarterly Marketing Funnel Performance" # Title of the document
+date:  "2023-12-25" # The date shown on the document
+author: "Mark Eting-Analyst" # Author(s) of the document
+subtitle: "Analysis of leads" # Subtitle of the document
+abstract: |
+  We A/B tested the registration flow. The sign-up rate went up in the treatment group. Hurrah!
+  # [html, pdf, odt, revealjs, beamer, epub] A short summary of the document's contents
+---
+```
+
+##### Styling
+
+```{txt}
+---
+theme: "quartz" # {html, revealjs} ["default", "cerulean", "cosmo", ...] Name of a built-in HTML
+                # Bootswatch theme, or link to a Sassy Cascading Style Sheets (SCSS) file
+pdf-engine: "tinytex" # {pdf, beamer} Toolchain for generating the PDF
+reference-doc: "template.docx" # {docx, odt, pptx} Path to a file to use as a style reference
+quarto-required: ">= 1.2.0" # Oldest version of Quarto that will work correctly
+---
+```
+
+##### Table of contents
+
+```{txt}
+---
+toc: true # [false, true] Include a table of contents in the document
+toc-depth: 2 # Least significant section header to include in table of contents
+---
+```
+
+##### Section numbering
+
+```{txt}
+---
+number-sections: true # [false, true] Should section headings be numbered?
+number-depth: 2 # {html, pdf, docx, revealjs, beamer, epub} Least significant header to be numbered
+---
+```
+
+##### Slides
+
+```{txt}
+---
+incremental: true # {pptx, revealjs, beamer} [false, true] 
+slide-level: 2 # {pptx, revealjs, beamer} What header level denotes a new slide
+---
+```
+
+##### Fonts
+
+```{txt}
+---
+mainfont: "Baskerville" # {html, pdf, beamer} Font family for regular
+monofont: "JetBrains Mono" # {html, pdf, beamer} Font family for code
+                           # Specify font families with CSS or LaTeX,
+fontsize: 14 # {html, pdf, beamer} Set the base size of the font.
+---
+```
+
+##### Colors
+
+```{txt}
+---
+fontcolor: "#B06500" # {html} Color of text.
+linkcolor: "#007FFF" # {html, pdf, beamer} Color of link text.
+---
+```
+
+##### Layout
+
+```{txt}
+---
+cap-location: "top" # {html, pdf, revealjs, beamer} ["top", "bottom", "margin"] Location of captions
+                    # for figures and tables
+papersize: "a4paper" # {pdf, beamer} LaTeX paper size for the rendered document
+                     # Common values: letterpaper (USA), a4paper (rest of world)
+page-width: 8 # {docx, odt} [6.5] Width of page in rendered document, in inches
+margin-top: 20px # {html, pdf, revealjs, beamer} Top margin for the page
+                 # Specify either a CSS margin property, or a LaTeX margin
+---
+```
+
+##### Code
+
+```{txt}
+---
+code-line-numbers: true # {html, pdf, docx, revealjs, beamer, epub} [false, true] Should line numbers
+                          # be included for code?
+  highlight-style: "breeze" # {html, pdf, docx, revealjs, beamer, epub} ["default", "a11y", "arrow",
+                            # ...] Theme for code highlighting
+  code-fold: "show" # {html, revealjs, epub} [false, true, show] Should code be contained in a
+                    # collapsible HTML <details> block?
+                    # false: Don't put code in a collapsible block
+                    # true: Put code in a collapsible block; start block collapsed
+                    # "show": Put code in a collapsible block; start block expandv
+  code-overflow: "wrap" # {html, revealjs, epub} ["scroll", "wrap"] How should long code lines behave?
+  ---
+```
+
+
 #### Global Options
 
 # Quarto within JupyterLab
