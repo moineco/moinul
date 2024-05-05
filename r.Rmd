@@ -109,9 +109,9 @@ p_update	      #Update Out-of-Date Packages
 ##### Basic data manipulation
 1.  [`sf`](<https://r-spatial.github.io/sf/>) is the most popular package for encoding of spatial data. 
 2.  [`raster`](<https://cran.r-project.org/web/packages/raster/index.html>) for working with raster (gridded) data
-3.  `shapefiles`
-4.  `ncdf4`
-5.  `sp`
+3.  [`shapefiles`](<https://cran.r-project.org/web/packages/shapefiles/index.html>) This package includes functions to read and write ESRI shapefiles.
+4.  [`ncdf4`](<https://cran.r-project.org/web/packages/ncdf4/index.html>) Read from or write to existing netCDF format files, or create new ones.
+5.  [`sp`](<https://cran.r-project.org/web/packages/sp/index.html>) Classes and methods for spatial data; the classes document where the spatial location information resides, for 2D or 3D data.
 
 ##### Cartography and data visualization
 1.  `tidyverse`
