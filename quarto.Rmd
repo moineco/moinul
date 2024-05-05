@@ -230,8 +230,6 @@ To override the file format, use the following command variant:
 $ quarto render document_name --to {format} # [pdf, html, docx]
 ```
 
-#### Global Options
-
 # Quarto within JupyterLab
 
 Quarto can render `JupyterLab` represented as plain text (`.qmd`) or as a normal notebook file (`.ipynb`). One benefit of using `.ipynb` is that you can use `JupyterLab` as your editor.
