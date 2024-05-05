@@ -311,6 +311,14 @@ The `pgfplots` package, which is based on `TikZ`, is a powerful visualization to
 \usepackage{pgfplots}
 ```
 
+#### **`pythontex`**
+
+PythonTeX executes code in LaTeX documents and allows the output to be included in the original document. It supports Python as well as Bash, JavaScript, Julia, Octave, Perl, R, Raku (Perl 6), Ruby, Rust, and SageMath. 
+
+```{tex}
+\usepackage{pythontex}
+```
+
 #### **`rotating`**
 
 A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which produces a single page-size float with contents rotated ±90 degrees.
