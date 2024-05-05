@@ -303,6 +303,14 @@ oldgerm in a `\usepackage` command.
 \usepackage{oldgerm}
 ```
 
+#### **`pgfplots`**
+
+The `pgfplots` package, which is based on `TikZ`, is a powerful visualization tool and ideal for creating scientific/technical graphics. The basic idea is that you provide the input data/formula and `pgfplots` does the rest.
+
+```{txt}
+\usepackage{pgfplots}
+```
+
 #### **`rotating`**
 
 A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which produces a single page-size float with contents rotated ±90 degrees.
