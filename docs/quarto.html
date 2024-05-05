@@ -490,6 +490,65 @@ include: false # [true, false]
 cache: false # [true, false, &quot;refresh&quot;] 
 ---</code></pre>
 </div>
+<div id="figures" class="section level5">
+<h5>Figures</h5>
+<pre class="txt"><code>---
+fig-width: 8 # Width for figures in inches
+fig-height: 6 # Height for figures in inches
+fig-format: &quot;png&quot; # File format for figures (Matplotlib or R graphics only)
+fig-dpi: 300 # Figure resolution (Matplotlib or R graphics only)
+fig-align: &quot;center&quot; # [&quot;default&quot;, &quot;left&quot;, &quot;right&quot;, &quot;center&quot;] 
+fig-cap-location: &quot;bottom&quot; # {html, pdf, revealjs, beamer} [&quot;top&quot;, &quot;bottom&quot;, &quot;margin&quot;] 
+---</code></pre>
+</div>
+<div id="tables" class="section level5">
+<h5>Tables</h5>
+<pre class="txt"><code>---
+tbl-colwidths: [70, 30] # [&quot;auto&quot;, true, false, &lt;array&gt;] Should tables wider than
+                        # 72 characters have explicit column widths?
+                        # &quot;auto&quot;: Use Markdown column widths unless the column
+                        # contains a hyperlink
+                        # true: Always use markdown column widths
+                        # false: Never use markdown table widths
+                        # &lt;array&gt;: Column widths as the %age of table width
+tbl-cap-location: &quot;margin&quot; # {html, pdf, revealjs, beamer} [&quot;top&quot;, &quot;bottom&quot;, &quot;margin&quot;] Location of figure captions
+---</code></pre>
+</div>
+<div id="links" class="section level5">
+<h5>Links</h5>
+<pre class="txt"><code>---
+link-external-newwindow: true # [false, true] Open external pages in new browser tab?
+---</code></pre>
+</div>
+<div id="references" class="section level5">
+<h5>References</h5>
+<pre class="txt"><code>---
+bibliography: &quot;refs.bib&quot; # Path to BibTeX/Citation Style Language bibliography file
+---</code></pre>
+</div>
+</div>
+<div id="generate-document" class="section level4">
+<h4>Generate document</h4>
+<div id="preview" class="section level5">
+<h5>Preview</h5>
+<p>While authoring your document, use the preview to quickly see its
+current state. The generated preview will open in a browser. Consider
+having your Jupyter notebook, IDE, or text editor and the preview
+visible on-screen at the same time.</p>
+<p>Open a terminal</p>
+<pre class="txt"><code>$ quarto preview document_name</code></pre>
+</div>
+<div id="rendering" class="section level5">
+<h5>Rendering</h5>
+<p>Once you have finished authoring your document, you can render the
+final version.</p>
+<p>Open a terminal</p>
+<pre class="txt"><code>$ quarto render document_name</code></pre>
+<p>This will create rendered documents in the file formats specified in
+the YAML header. To override the file format, use the following command
+variant:</p>
+<pre class="txt"><code>$ quarto render document_name --to {format} # [pdf, html, docx]</code></pre>
+</div>
 </div>
 <div id="global-options" class="section level4">
 <h4>Global Options</h4>

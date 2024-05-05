@@ -157,6 +157,78 @@ cache: false # [true, false, "refresh"]
 ---
 ```
 
+##### Figures
+
+```{txt}
+---
+fig-width: 8 # Width for figures in inches
+fig-height: 6 # Height for figures in inches
+fig-format: "png" # File format for figures (Matplotlib or R graphics only)
+fig-dpi: 300 # Figure resolution (Matplotlib or R graphics only)
+fig-align: "center" # ["default", "left", "right", "center"] 
+fig-cap-location: "bottom" # {html, pdf, revealjs, beamer} ["top", "bottom", "margin"] 
+---
+```
+
+##### Tables
+
+```{txt}
+---
+tbl-colwidths: [70, 30] # ["auto", true, false, <array>] Should tables wider than
+                        # 72 characters have explicit column widths?
+                        # "auto": Use Markdown column widths unless the column
+                        # contains a hyperlink
+                        # true: Always use markdown column widths
+                        # false: Never use markdown table widths
+                        # <array>: Column widths as the %age of table width
+tbl-cap-location: "margin" # {html, pdf, revealjs, beamer} ["top", "bottom", "margin"] Location of figure captions
+---
+```
+
+##### Links
+
+```{txt}
+---
+link-external-newwindow: true # [false, true] Open external pages in new browser tab?
+---
+```
+
+##### References
+
+```{txt}
+---
+bibliography: "refs.bib" # Path to BibTeX/Citation Style Language bibliography file
+---
+```
+
+#### Generate document
+
+##### Preview
+
+While authoring your document, use the preview to quickly see its current state. The generated preview will open in a browser. Consider having your Jupyter notebook, IDE, or text editor and the preview visible on-screen at the same time.
+
+Open a terminal
+
+```{txt}
+$ quarto preview document_name
+```
+
+##### Rendering
+
+Once you have finished authoring your document, you can render the final version.
+
+Open a terminal
+
+```{txt}
+$ quarto render document_name
+```
+
+This will create rendered documents in the file formats specified in the YAML header. 
+To override the file format, use the following command variant:
+
+```{txt}
+$ quarto render document_name --to {format} # [pdf, html, docx]
+```
 
 #### Global Options
 
