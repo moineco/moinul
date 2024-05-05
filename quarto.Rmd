@@ -19,7 +19,9 @@ Updated on: `r Sys.Date()`
 
 RStudio includes support for editing and preview of Quarto documents. 
 
-#### YAML Intelligence
+### YAML Intelligence
+
+#### Documentation options
 
 Document options are defined using YAML. For .qmd files, this YAML should appear at the start of the text file. For Jupyter notebooks, the YAML should appear as the first cell, which should be a raw cell. The first and last lines of this cell consist of three hyphens (---). Elements are specified as key:value pairs, and sub-elements are indented. Below you will find a host of document options you can edit in quarto.
 
@@ -52,8 +54,7 @@ date:  "2023-12-25" # The date shown on the document
 author: "Mark Eting-Analyst" # Author(s) of the document
 subtitle: "Analysis of leads" # Subtitle of the document
 abstract: |
-  We A/B tested the registration flow. The sign-up rate went up in the treatment group. Hurrah!
-  # [html, pdf, odt, revealjs, beamer, epub] A short summary of the document's contents
+  We A/B tested the registration flow.
 ---
 ```
 
@@ -120,13 +121,12 @@ linkcolor: "#007FFF" # {html, pdf, beamer} Color of link text.
 
 ```{txt}
 ---
-cap-location: "top" # {html, pdf, revealjs, beamer} ["top", "bottom", "margin"] Location of captions
+cap-location: "top" # ["top", "bottom", "margin"] Location of captions
                     # for figures and tables
-papersize: "a4paper" # {pdf, beamer} LaTeX paper size for the rendered document
+papersize: "a4paper" # LaTeX paper size for the rendered document
                      # Common values: letterpaper (USA), a4paper (rest of world)
-page-width: 8 # {docx, odt} [6.5] Width of page in rendered document, in inches
-margin-top: 20px # {html, pdf, revealjs, beamer} Top margin for the page
-                 # Specify either a CSS margin property, or a LaTeX margin
+page-width: 8 # Width of page in rendered document
+margin-top: 20px # Top margin for the page
 ---
 ```
 
@@ -134,17 +134,27 @@ margin-top: 20px # {html, pdf, revealjs, beamer} Top margin for the page
 
 ```{txt}
 ---
-code-line-numbers: true # {html, pdf, docx, revealjs, beamer, epub} [false, true] Should line numbers
-                          # be included for code?
-  highlight-style: "breeze" # {html, pdf, docx, revealjs, beamer, epub} ["default", "a11y", "arrow",
-                            # ...] Theme for code highlighting
-  code-fold: "show" # {html, revealjs, epub} [false, true, show] Should code be contained in a
-                    # collapsible HTML <details> block?
-                    # false: Don't put code in a collapsible block
-                    # true: Put code in a collapsible block; start block collapsed
-                    # "show": Put code in a collapsible block; start block expandv
-  code-overflow: "wrap" # {html, revealjs, epub} ["scroll", "wrap"] How should long code lines behave?
-  ---
+code-line-numbers: true # [false, true] 
+highlight-style: "breeze" # ["default", "a11y", "arrow",..]
+code-fold: "show" # [false, true, show]
+code-overflow: "wrap" # ["scroll", "wrap"]
+---
+```
+
+#### Execution options
+
+##### Sub-elements
+
+```{txt}
+---
+eval: false # [true, false] 
+echo: false # [true, false] 
+output: "asis" # [true, false, "asis"] 
+warning: false # [true, false]
+error: false # [true, false] 
+include: false # [true, false] 
+cache: false # [true, false, "refresh"] 
+---
 ```
 
 

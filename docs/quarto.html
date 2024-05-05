@@ -370,8 +370,10 @@ div.tocify {
 <h1>Quarto within RStudio</h1>
 <p>RStudio includes support for editing and preview of Quarto
 documents.</p>
-<div id="yaml-intelligence" class="section level4">
-<h4>YAML Intelligence</h4>
+<div id="yaml-intelligence" class="section level3">
+<h3>YAML Intelligence</h3>
+<div id="documentation-options" class="section level4">
+<h4>Documentation options</h4>
 <p>Document options are defined using YAML. For .qmd files, this YAML
 should appear at the start of the text file. For Jupyter notebooks, the
 YAML should appear as the first cell, which should be a raw cell. The
@@ -403,8 +405,7 @@ date:  &quot;2023-12-25&quot; # The date shown on the document
 author: &quot;Mark Eting-Analyst&quot; # Author(s) of the document
 subtitle: &quot;Analysis of leads&quot; # Subtitle of the document
 abstract: |
-  We A/B tested the registration flow. The sign-up rate went up in the treatment group. Hurrah!
-  # [html, pdf, odt, revealjs, beamer, epub] A short summary of the document&#39;s contents
+  We A/B tested the registration flow.
 ---</code></pre>
 </div>
 <div id="styling" class="section level5">
@@ -457,33 +458,42 @@ linkcolor: &quot;#007FFF&quot; # {html, pdf, beamer} Color of link text.
 <div id="layout" class="section level5">
 <h5>Layout</h5>
 <pre class="txt"><code>---
-cap-location: &quot;top&quot; # {html, pdf, revealjs, beamer} [&quot;top&quot;, &quot;bottom&quot;, &quot;margin&quot;] Location of captions
+cap-location: &quot;top&quot; # [&quot;top&quot;, &quot;bottom&quot;, &quot;margin&quot;] Location of captions
                     # for figures and tables
-papersize: &quot;a4paper&quot; # {pdf, beamer} LaTeX paper size for the rendered document
+papersize: &quot;a4paper&quot; # LaTeX paper size for the rendered document
                      # Common values: letterpaper (USA), a4paper (rest of world)
-page-width: 8 # {docx, odt} [6.5] Width of page in rendered document, in inches
-margin-top: 20px # {html, pdf, revealjs, beamer} Top margin for the page
-                 # Specify either a CSS margin property, or a LaTeX margin
+page-width: 8 # Width of page in rendered document
+margin-top: 20px # Top margin for the page
 ---</code></pre>
 </div>
 <div id="code" class="section level5">
 <h5>Code</h5>
 <pre class="txt"><code>---
-code-line-numbers: true # {html, pdf, docx, revealjs, beamer, epub} [false, true] Should line numbers
-                          # be included for code?
-  highlight-style: &quot;breeze&quot; # {html, pdf, docx, revealjs, beamer, epub} [&quot;default&quot;, &quot;a11y&quot;, &quot;arrow&quot;,
-                            # ...] Theme for code highlighting
-  code-fold: &quot;show&quot; # {html, revealjs, epub} [false, true, show] Should code be contained in a
-                    # collapsible HTML &lt;details&gt; block?
-                    # false: Don&#39;t put code in a collapsible block
-                    # true: Put code in a collapsible block; start block collapsed
-                    # &quot;show&quot;: Put code in a collapsible block; start block expandv
-  code-overflow: &quot;wrap&quot; # {html, revealjs, epub} [&quot;scroll&quot;, &quot;wrap&quot;] How should long code lines behave?
-  ---</code></pre>
+code-line-numbers: true # [false, true] 
+highlight-style: &quot;breeze&quot; # [&quot;default&quot;, &quot;a11y&quot;, &quot;arrow&quot;,..]
+code-fold: &quot;show&quot; # [false, true, show]
+code-overflow: &quot;wrap&quot; # [&quot;scroll&quot;, &quot;wrap&quot;]
+---</code></pre>
+</div>
+</div>
+<div id="execution-options" class="section level4">
+<h4>Execution options</h4>
+<div id="sub-elements" class="section level5">
+<h5>Sub-elements</h5>
+<pre class="txt"><code>---
+eval: false # [true, false] 
+echo: false # [true, false] 
+output: &quot;asis&quot; # [true, false, &quot;asis&quot;] 
+warning: false # [true, false]
+error: false # [true, false] 
+include: false # [true, false] 
+cache: false # [true, false, &quot;refresh&quot;] 
+---</code></pre>
 </div>
 </div>
 <div id="global-options" class="section level4">
 <h4>Global Options</h4>
+</div>
 </div>
 </div>
 <div id="quarto-within-jupyterlab" class="section level1">
