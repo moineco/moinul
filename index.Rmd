@@ -82,7 +82,7 @@ My curriculum vitae (CV) is available from this link: [**CV**](https://moineco.g
 
 **Skills**
 
--   Computer programs: R, Python, STATA, EViews, ArcGIS, QGIS, GNU Emacs, oTree  
+-   Computer programs: R, Python, STATA, LaTex, GNU Emacs, oTree  
 
 -   Language: English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
