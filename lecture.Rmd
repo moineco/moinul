@@ -18,7 +18,7 @@ Updated on: `r Sys.Date()`
 
 #### Course objectives
 
-#### Course syllabus
+#### Course syllabus:
 
 **Section 1: Introduction to International Economics**
 
@@ -62,7 +62,7 @@ Updated on: `r Sys.Date()`
 
 #### Course objectives
 
-#### Course syllabus
+#### Course syllabus:
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -104,7 +104,7 @@ Updated on: `r Sys.Date()`
 
 #### Course objectives
 
-#### Course syllabus
+#### Course syllabus:
 
 **Section 1: What is Future Design**
 
@@ -144,7 +144,7 @@ Updated on: `r Sys.Date()`
 
 #### Course objectives
 
-#### Course syllabus
+#### Course syllabus:
 
 **Section 1: Foundations of geographic data in R**
 
@@ -193,7 +193,7 @@ Updated on: `r Sys.Date()`
 - Choose and implement efficient economic methods for analyzing data sets
 - Gather real-world data that can be analyzed to forecasting
 
-#### Course syllabus
+#### Course syllabus:
 
 **Section 1: Foundation of Data Science**
 
