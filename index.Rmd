@@ -80,11 +80,16 @@ My curriculum vitae (CV) and resume are available from these links: [**CV**](htt
 
 -   Urban Institute, Kyushu University, Fukuoka, Japan
 
-**Skills**
 
--   Computer programs: R, Python, STATA, LaTex, GNU Emacs, oTree  
+**Programs**
 
--   Language: English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+-   Use regularly: R, Python, STATA, LaTex, GNU Emacs 
+
+-   Use occasionally: ArcGIS, QGIS, EViews, oTree 
+
+**Language**
+
+-   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 **Contact** 
 
