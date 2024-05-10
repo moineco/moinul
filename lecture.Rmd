@@ -12,13 +12,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
+
 Updated on: `r Sys.Date()`
 
 # International Trade and Finance
-
-#### Course objectives
-
-#### Course syllabus:
 
 **Section 1: Introduction to International Economics**
 
@@ -58,11 +55,7 @@ Updated on: `r Sys.Date()`
 
 -   Lecture 15: International trade and biodiversity
 
-# Environmental and Resource Economics
-
-#### Course objectives
-
-#### Course syllabus:
+# Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -102,10 +95,6 @@ Updated on: `r Sys.Date()`
 
 # Future Design
 
-#### Course objectives
-
-#### Course syllabus:
-
 **Section 1: What is Future Design**
 
 -   Lecture 1: Introduction to future design
@@ -141,10 +130,6 @@ Updated on: `r Sys.Date()`
 -   Lecture 15: Environmental goods valuation
 
 # Geoeconomics with R and Python
-
-#### Course objectives
-
-#### Course syllabus:
 
 **Section 1: Foundations of geographic data in R**
 
@@ -184,24 +169,11 @@ Updated on: `r Sys.Date()`
 
 # Econometrics with R and Python
 
-#### Course objectives
-
-- Use R, and Python for econometrics
-- Perform exploratory data analysis in R and Python
-- Test statistical hypotheses using R and Python
-- Manipulate real-world data to enable further analysis
-- Choose and implement efficient economic methods for analyzing data sets
-- Gather real-world data that can be analyzed to forecasting
-
-#### Course syllabus:
-
-**Section 1: Foundation of Data Science**
+**Section 1: Data Science with R**
 
 - Lecture 1: Introduction to Data Science
 
 - Lecture 2: The Basics of Python and R
-
-**Section 2: Data Science with R**
 
 - Lecture 3: Downloading RStudio and Basics of Coding in R
 
@@ -209,7 +181,7 @@ Updated on: `r Sys.Date()`
 
 - Lecture 5: Saving Output and Setting Up Graphics in R
 
-**Section 3: Data Science with Python**
+**Section 2: Data Science with Python**
 
 - Lecture 6: Downloading and Basics of Coding in Python
 
@@ -217,23 +189,17 @@ Updated on: `r Sys.Date()`
 
 - Lecture 8: Saving Output and Setting Up Graphics in Python
    
-**Section 4: Data Preparation**
+**Section 3: Data Preparation**
 
 - Lecture 9: Data preparation with R and Python
 
-**Section 5: Exploratory Data Analysis**
-
 - Lecture 10: Exploratory Data Analysis with R and Python
-
-**Section 6: Regression Modeling**
 
 - Lecture 11: Descriptive Regression Modeling
 
 - Lecture 12: Perform Multiple Regression Modeling Using Python
 
 - Lecture 13: Perform Multiple Regression Modeling Using R
-
-**Section 7: Generalized Linear Models**
 
 - Lecture 14: How to Perform Logistic Regression Using Python
 
