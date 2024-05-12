@@ -17,14 +17,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Updated on: `r Sys.Date()`
 
-I am Dr. Moinul Islam, working as an assistant professor at Kochi
-University of Technology. I have received my Ph.D. in engineering degree
-from Kyushu University in 2016. My research focuses are:
+I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree with environmental economics concentration from Kyushu University in 2016. My research focuses are:
 
--   Applied Microeconomics
--   Environmental Economics
--   Experimental Economics
--   Environmental Social Science
+-  Applied Microeconomics
+-  Environmental Economics
+-  Environmental Policy
+-  Environmental Social Science
+-  Experimental Economics
 
 My curriculum vitae (CV) and resume are available from these links: [**CV**](https://moineco.github.io/moinul_cv/) and [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
 
