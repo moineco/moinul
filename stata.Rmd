@@ -131,7 +131,7 @@ f. Go to Help
 g. Update
 ```
 
-# Summary statistics
+# Descriptive Statistics
 
 - `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
 
