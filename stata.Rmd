@@ -17,6 +17,22 @@ Updated on: `r Sys.Date()`
 
 # Summary statistics
 
+- `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
+
+```{txt}
+describe [varlist] 
+```
+
+- COUNT: counts the number of observations
+```{txt}
+count 
+```
+
+- SUMMARIZE: # shows number of observations, mean, min & max of all/some vars  
+```{txt}
+sum 
+```
+
 # OLS
 
 # Logit regression
