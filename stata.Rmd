@@ -139,12 +139,14 @@ g. Update
 describe [varlist] 
 ```
 
-- COUNT: counts the number of observations
+- `count`: counts the number of observations
+
 ```{txt}
 count 
 ```
 
-- SUMMARIZE: # shows number of observations, mean, min & max of all/some vars  
+- `sum`: shows number of observations, mean, min & max of all/some vars  
+
 ```{txt}
 sum 
 ```
