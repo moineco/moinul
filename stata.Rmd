@@ -1,0 +1,34 @@
+---
+title: "Stata"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Updated on: `r Sys.Date()`
+
+# Summary statistics
+
+# OLS
+
+# Logit regression
+
+# Probit regression
+
+# Tobit regression
+
+# Poisson regression
+
+# Quantile regression
+
+# Panel regression
+
+## Hausman test

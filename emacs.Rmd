@@ -242,3 +242,30 @@ Homepage (<https://www.orgroam.com/>)
   (org-roam-setup))
 ```
 
+# Upgrade ELPA packages 
+
+- Let's upgrade the packages installed by ELPA in Emacs
+
+- Open Emacs and follow the steps through terminal
+
+```{txt}
+M-x # For windows keyboard you need to press (Alt+x)
+    #For mac keyboard you need to press (Option+x)
+```
+
+```{txt}
+List package # Choose the list packages by using keyboard arrow
+```
+
+```{txt}
+Shift+u
+```
+
+```{txt}
+y # emacs will ask you (y/n)
+```
+
+```{txt}
+Enter # wait for updates
+```
+
