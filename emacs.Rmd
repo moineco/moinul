@@ -254,11 +254,15 @@ M-x # For windows keyboard you need to press (Alt+x)
 ```
 
 ```{txt}
-List package # Choose the list packages by using keyboard arrow
+List package # Choose the list packages by using keyboard arrow and press `Enter`
 ```
 
 ```{txt}
 Shift+u
+```
+
+```{txt}
+x # press `Enter`
 ```
 
 ```{txt}
