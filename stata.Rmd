@@ -153,12 +153,18 @@ sum
 
 # Social experiment data analysis
 
+Nomenclature:
+
+C: Control group
+
+T: Treatment group
+
 #### Step 1: Summary statistics for C and T1 
-(when we have the data for three rounds)
+(when we have the data for three rounds: pre-treatment, post-treatment-1 and post-treatment-2 captured by time 1, time 2 and time 3, respectively)
 
 ##### Independent variables
 
-We assume that there should not be any differences between C and T1 at time period one.
+We assume that there should not be any differences between C and T1 at pre-treatment round.
 
 ```{txt}
 tabstat [var-n], statistics(mean median sd count), if group==0 & time==1
@@ -170,7 +176,7 @@ tabstat [var-n], statistics(mean median sd count), if time==1
 
 ##### Dependent variables
 
-We assume that there should be differences between C and T1 at time period two and three compared to time period one
+We assume that there should be differences between C and T1 in post-treatment rounds compared to pre-treatment round.
 
 ```{txt}
 tabstat [var-n] , statistics(mean median sd min max count), if group==0 & time==1
@@ -190,7 +196,7 @@ tabstat [var-n] , statistics(mean median sd min max count)
 
 #### Step 2: C and T1 have no differences
 
-(Statistical test to confirm that before treatment, C and T1 have no significant differences)
+Statistical test to check that in pre-treatment round, C and T1 have no significant differences
 
 ##### `Chi2` test
 
