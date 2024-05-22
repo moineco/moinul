@@ -368,7 +368,7 @@ div.tocify {
 </div>
 
 
-<p>Updated on: 2024-05-15</p>
+<p>Updated on: 2024-05-22</p>
 <div id="stata17-installation-in-linux" class="section level1">
 <h1>STATA17 installation in Linux</h1>
 <p>First copy your <strong>STATA17</strong> source file in the
@@ -480,8 +480,8 @@ f. Go to Help
 g. Update</code></pre>
 </div>
 </div>
-<div id="summary-statistics" class="section level1">
-<h1>Summary statistics</h1>
+<div id="descriptive-statistics" class="section level1">
+<h1>Descriptive Statistics</h1>
 <ul>
 <li><code>describe</code>: describe produces a summary of the dataset in
 memory or of the data stored in a Stata-format dataset.</li>
@@ -496,6 +496,63 @@ memory or of the data stored in a Stata-format dataset.</li>
 of all/some vars</li>
 </ul>
 <pre class="txt"><code>sum </code></pre>
+</div>
+<div id="social-experiment-data-analysis" class="section level1">
+<h1>Social experiment data analysis</h1>
+<div id="step-1-summary-statistics-for-c-and-t1" class="section level4">
+<h4>Step 1: Summary statistics for C and T1</h4>
+<p>(when we have the data for three rounds)</p>
+<div id="independent-variables" class="section level5">
+<h5>Independent variables</h5>
+<p>We assume that there should not be any differences between C and T1
+at time period one.</p>
+<pre class="txt"><code>tabstat [var-n], statistics(mean median sd count), if group==0 &amp; time==1
+
+tabstat [var-n], statistics(mean median sd count), if group==1 &amp; time==1
+
+tabstat [var-n], statistics(mean median sd count), if time==1</code></pre>
+</div>
+<div id="dependent-variables" class="section level5">
+<h5>Dependent variables</h5>
+<p>We assume that there should be differences between C and T1 at time
+period two and three compared to time period one</p>
+<pre class="txt"><code>tabstat [var-n] , statistics(mean median sd min max count), if group==0 &amp; time==1
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 &amp; time==1
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==0 &amp; time==2
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 &amp; time==2
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==0 &amp; time==3
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 &amp; time==3
+
+tabstat [var-n] , statistics(mean median sd min max count)</code></pre>
+</div>
+</div>
+<div id="step-2-c-and-t1-have-no-differences" class="section level4">
+<h4>Step 2: C and T1 have no differences</h4>
+<p>(Statistical test to confirm that before treatment, C and T1 have no
+significant differences)</p>
+<div id="chi2-test" class="section level5">
+<h5><code>Chi2</code> test</h5>
+<p>The chi-square analysis is a useful and relatively flexible tool for
+determining if categorical variables are related. To run a chi-square
+for independence, we can use the <code>tabulate</code> command. The
+output is simple: we are given a table of observed frequencies, followed
+by the chi-square value and p-value</p>
+<pre class="txt"><code>tabulate [var-1] group, chi2, if time==1</code></pre>
+</div>
+<div id="mann-whitney-test" class="section level5">
+<h5><code>Mann-Whitney</code> test</h5>
+<p>A non-parametric test that is used to compare two sample means that
+come from the same population, and used to test whether two sample means
+are equal or not.  Usually, the Mann-Whitney U test is used when the
+data is ordinal or when the assumptions of the t-test are not met.</p>
+<pre class="txt"><code>ranksum [var-1], by(group), if time==1</code></pre>
+</div>
+</div>
 </div>
 
 

@@ -17,9 +17,9 @@ Updated on: `r Sys.Date()`
 
 # STATA17 installation in Linux
 
-First copy your **STATA17** source file in the **Downloads** folder of your PC. 
+First copy your **STATA17** source file in the **Downloads** folder of your PC.
 
-If the file is in **.zip** format, unzip to use it. Confirm that the **.tar.gz** extension file (Linux supported installation file) is located in the **Downloads** folder. 
+If the file is in **.zip** format, unzip to use it. Confirm that the **.tar.gz** extension file (Linux supported installation file) is located in the **Downloads** folder.
 
 I am assuming that you have the licence information ready in your hand during the following installation process:
 
@@ -69,8 +69,8 @@ Again, STATA17 will ask you for several conformations and you need to respond pr
 $ ./xstata
 ```
 
-- If you have a problem to execute the above code, you need to install `gtk2`
-- You can install by:
+-   If you have a problem to execute the above code, you need to install `gtk2`
+-   You can install by:
 
 ```{txt}
 $ sudo apt install gtk2 # For Ubuntu
@@ -79,22 +79,22 @@ $ sudo dnf install gtk2 # For Fedora
 
 ##### Step 6: Unity launcher and desktop file
 
-- Even after successfully installing and running *Stata*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher. 
+-   Even after successfully installing and running *Stata*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher.
 
-- To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
+-   To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
 
 ```{txt}
 $ sudo apt install -y gedit # For Ubuntu
 $ sudo dnf install -y gedit # For Fedora
 ```
 
-- Then we can easily fix this by creating a **.desktop** file for *Stata*.
+-   Then we can easily fix this by creating a **.desktop** file for *Stata*.
 
 ```{txt}
 $ sudo gedit /usr/share/applications/stata17.desktop
 ```
 
-- In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
+-   In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
 
 ```{txt}
 [Desktop Entry]
@@ -113,13 +113,13 @@ Actions=doedit;use;view;graphuse;projmanag;semopen;
 
 ##### Step 7: Stata update process
 
-- If SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.
+-   If SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.
 
 ```{txt}
 $ sudo chmod -R 777 '/usr/local/Stata17'
 ```
 
-- If your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.
+-   If your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.
 
 ```{txt}
 a. Open Stata
@@ -133,20 +133,77 @@ g. Update
 
 # Descriptive Statistics
 
-- `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
+-   `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
 
 ```{txt}
 describe [varlist] 
 ```
 
-- `count`: counts the number of observations
+-   `count`: counts the number of observations
 
 ```{txt}
 count 
 ```
 
-- `sum`: shows number of observations, mean, min & max of all/some vars  
+-   `sum`: shows number of observations, mean, min & max of all/some vars
 
 ```{txt}
 sum 
+```
+
+# Social experiment data analysis
+
+#### Step 1: Summary statistics for C and T1 
+(when we have the data for three rounds)
+
+##### Independent variables
+
+We assume that there should not be any differences between C and T1 at time period one.
+
+```{txt}
+tabstat [var-n], statistics(mean median sd count), if group==0 & time==1
+
+tabstat [var-n], statistics(mean median sd count), if group==1 & time==1
+
+tabstat [var-n], statistics(mean median sd count), if time==1
+```
+
+##### Dependent variables
+
+We assume that there should be differences between C and T1 at time period two and three compared to time period one
+
+```{txt}
+tabstat [var-n] , statistics(mean median sd min max count), if group==0 & time==1
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 & time==1
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==0 & time==2
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 & time==2
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==0 & time==3
+
+tabstat [var-n] , statistics(mean median sd min max count), if group==1 & time==3
+
+tabstat [var-n] , statistics(mean median sd min max count)
+```
+
+#### Step 2: C and T1 have no differences
+
+(Statistical test to confirm that before treatment, C and T1 have no significant differences)
+
+##### `Chi2` test
+
+The chi-square analysis is a useful and relatively flexible tool for determining if categorical variables are related. To run a chi-square for independence, we can use the `tabulate` command. The output is simple: we are given a table of observed frequencies, followed by the chi-square value and p-value
+
+```{txt}
+tabulate [var-1] group, chi2, if time==1
+```
+
+##### `Mann-Whitney` test
+
+A non-parametric test that is used to compare two sample means that come from the same population, and used to test whether two sample means are equal or not.  Usually, the Mann-Whitney U test is used when the data is ordinal or when the assumptions of the t-test are not met.
+
+```{txt}
+ranksum [var-1], by(group), if time==1
 ```
