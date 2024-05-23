@@ -249,11 +249,11 @@ Homepage (<https://www.orgroam.com/>)
 - Open Emacs and follow the steps through terminal
 
 ```{txt}
-M-x [windows press (Alt+x), for mac press (Option+x)]
-List package [choose the list packages and press `Enter`]
+M-x                 [windows press (Alt+x), for mac press (Option+x)]
+List package        [choose the list packages and press `Enter`]
 Shift+u
 x
-y [emacs will ask you (y/n). Type `y`]
-Enter [wait for updates]
+y                   [emacs will ask you (y/n). Type `y`]
+Enter               [wait for updates]
 ```
 
