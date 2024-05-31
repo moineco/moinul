@@ -167,7 +167,7 @@ Updated on: `r Sys.Date()`
 
 - Lecture 15: Population density maps
 
-# Econometrics with R and Python
+# Data Science with R and Python
 
 **Section 1: Data Science with R**
 
