@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # STATA17 installation in Linux
 
 First copy your **STATA17** source file in the **Downloads** folder of your PC.
@@ -213,3 +211,5 @@ A non-parametric test that is used to compare two sample means that come from th
 ```{txt}
 ranksum [var-1], by(group), if time==1
 ```
+
+Updated on: `r Sys.Date()`

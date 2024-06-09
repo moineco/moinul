@@ -15,8 +15,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Profile
 
-Updated on: `r Sys.Date()`
-
 I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree with environmental economics concentration from Kyushu University in 2016. My resume is available from this link: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
 
 #### Affiliation
@@ -84,3 +82,5 @@ I am Dr. Moinul Islam, working as an assistant professor at Kochi University of 
 #### Contact  
 
 -   moinul.eco@gmail.com
+
+Updated on: `r Sys.Date()`

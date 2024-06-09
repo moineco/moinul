@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # International Trade and Finance
 
 **Section 1: Introduction to International Economics**
@@ -205,3 +203,4 @@ Updated on: `r Sys.Date()`
 
 - Lecture 15: How to Perform Logistic Regression Using R
 
+Updated on: `r Sys.Date()`

@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # Pacman
 
 - Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
@@ -164,3 +162,5 @@ p_update	      #Update Out-of-Date Packages
 ##### Regression models
 1. `biglm` 
 2. `rpart` 
+
+Updated on: `r Sys.Date()`

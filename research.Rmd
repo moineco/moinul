@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # Journal articles (peer-review)
 
 1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. [Q1] (<https://doi.org/10.1016/j.agwat.2024.108677>)
@@ -178,3 +176,5 @@ Updated on: `r Sys.Date()`
 # Scholarly memberships 
 
 1. Society for Environmental Economics and Policy Studies (SEEPS)
+
+Updated on: `r Sys.Date()`

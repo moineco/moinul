@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
+
 
 # Partitioning hard drive
 
@@ -268,4 +268,4 @@ Ctrl + O to write (or save as)
 Alt + U to undo last action
 ```
 
-
+Updated on: `r Sys.Date()`

@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 Recommended readings to everyone who is interested about Economics, Mathematics, Data Science and Geoeconomics.
 
 # Economics
@@ -90,4 +88,4 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 1.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
 
-
+Updated on: `r Sys.Date()`

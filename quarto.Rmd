@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # Quarto within RStudio
 
 RStudio includes support for editing and preview of Quarto documents. 
@@ -289,3 +287,5 @@ The Quarto `JuptyerLab` extension enables `JupyterLab` which use Quarto markdown
 python3 -m pip install jupyterlab-quarto  # Mac
 py -m pip install jupyterlab-quarto  # Windows
 ```
+
+Updated on: `r Sys.Date()`

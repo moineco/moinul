@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # JupyterLab
 
 `JupyterLab` is the latest web-based interactive development environment for notebooks, code, and data.
@@ -177,3 +175,4 @@ heroku restart;heroku pg:reset DATABASE --confirm appname
 
 Note: "appname" should be replaced with the custom application name
 
+Updated on: `r Sys.Date()`

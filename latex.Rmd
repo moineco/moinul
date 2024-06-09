@@ -13,8 +13,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Updated on: `r Sys.Date()`
-
 # LaTeX packages
 
 #### **`alphabeta`**
@@ -475,5 +473,5 @@ The package starts from the basic facilities of the color package, and provides 
 \num{20}
 ```
 
-
+Updated on: `r Sys.Date()`
 
