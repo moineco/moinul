@@ -17,41 +17,19 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Updated on: `r Sys.Date()`
 
-I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree with environmental economics concentration from Kyushu University in 2016. My research focuses are:
+I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in engineering degree with environmental economics concentration from Kyushu University in 2016. My resume is available from these links: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
 
--  Applied Microeconomics
--  Environmental Economics
--  Environmental Policy
--  Experimental Economics
--  Geoeconomics
+#### Affiliation
 
-My resume is available from these links: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
+-   Research Institute for Future Design, Kochi University of
+    Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
-**Working experience**
+-   School of Economics and Management, Kochi University of Technology,
+    2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
 
--   2020, Assistant Professor, Research Institute for Future Design,
-    Kochi University of Technology, Kochi, Japan
-    
--   2019, Assistant Professor, Graduate School for International
-    Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
-    Japan
-    
--   2016, Assistant Professor, Graduate School of Urban and
-    Environmental Engineering, Kyushu University, Fukuoka, Japan
-    
--   2012, Research Assistant, Graduate School of Environmental Studies,
-    Tohoku University, Sendai, Japan
+-   Urban Institute, Kyushu University, Fukuoka, Japan
 
-**Project experience**
-
--   United Nations Environmental Program (UNEP)
-
--   Research Institute of Economy, Trade and Industry (RIETI)
-
--   Strategic Energy and Resource Management and Sustainable Solutions
-    (SERMS), Tohoku University
-
-**Profile in external websites**
+#### Profile in external websites
 
 -  [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
 
@@ -69,27 +47,38 @@ My resume is available from these links: [**Resume**](<https://moineco.github.io
 
 -  [Linkedin](https://www.linkedin.com/in/moinul-islam-b7a140263/)
 
-**Affiliation**
+#### Working experience
 
--   Research Institute for Future Design, Kochi University of
-    Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
+-   2020, Assistant Professor, Research Institute for Future Design,
+    Kochi University of Technology, Kochi, Japan
+    
+-   2019, Assistant Professor, Graduate School for International
+    Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
+    Japan
+    
+-   2016, Assistant Professor, Graduate School of Urban and
+    Environmental Engineering, Kyushu University, Fukuoka, Japan
+    
+-   2012, Research Assistant, Graduate School of Environmental Studies,
+    Tohoku University, Sendai, Japan
 
--   School of Economics and Management, Kochi University of Technology,
-    2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
+#### Project experience
 
--   Urban Institute, Kyushu University, Fukuoka, Japan
+-   United Nations Environmental Program (UNEP)
 
+-   Research Institute of Economy, Trade and Industry (RIETI)
 
-**Programs**
+-   Strategic Energy and Resource Management and Sustainable Solutions
+    (SERMS), Tohoku University
+
+#### Programs
 
 -   Use regularly: R, Python, STATA, LaTex, GNU Emacs 
 
 -   Use occasionally: ArcGIS, QGIS, EViews, oTree 
 
-**Language**
+#### Language
 
 -   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
-**Contact** 
-
--  Email address: moinul.eco@gmail.com
+**Contact**:  moinul.eco@gmail.com
