@@ -19,7 +19,7 @@ I am Dr. Moinul Islam, working as an assistant professor at Kochi University of 
 
 My resume is available from this link: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
 
-#### Affiliation
+### Affiliation
 
 -   Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
@@ -27,7 +27,7 @@ My resume is available from this link: [**Resume**](<https://moineco.github.io/m
 
 -   Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
 
-#### Profile in external websites
+### Profile in external websites
 
 -  [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
 
@@ -45,7 +45,7 @@ My resume is available from this link: [**Resume**](<https://moineco.github.io/m
 
 -  [Linkedin](https://www.linkedin.com/in/moinul-islam-b7a140263/)
 
-#### Working experience
+### Working experience
 
 -   2020, Assistant Professor, Research Institute for Future Design,
     Kochi University of Technology, Kochi, Japan
@@ -60,7 +60,7 @@ My resume is available from this link: [**Resume**](<https://moineco.github.io/m
 -   2012, Research Assistant, Graduate School of Environmental Studies,
     Tohoku University, Sendai, Japan
 
-#### Project experience
+### Project experience
 
 -   United Nations Environmental Program (UNEP)
 
@@ -69,17 +69,17 @@ My resume is available from this link: [**Resume**](<https://moineco.github.io/m
 -   Strategic Energy and Resource Management and Sustainable Solutions
     (SERMS), Tohoku University
 
-#### Programs
+### Programs
 
 -   Use regularly: R, Python, STATA, LaTex, GNU Emacs 
 
 -   Use occasionally: ArcGIS, QGIS, EViews, oTree 
 
-#### Language
+### Language
 
 -   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
-#### Contact  
+### Contact  
 
 -   moinul.eco@gmail.com
 
