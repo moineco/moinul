@@ -23,4 +23,6 @@ I establish socio-geoinformatics mechanism through which I aim to suggest improv
 - Economics of Geography
 - Information and Communication Technology (ICT)
 
+I am developing an experimental design to implement socio-geoinformatics mechanisms in social and field experiments to assess the impacts on natural disaster adaptation.
+
 Updated on: `r Sys.Date()`
