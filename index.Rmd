@@ -17,7 +17,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree with environmental economics concentration from Kyushu University in 2016. 
 
-My resume is available from this link: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
+## Research vision
+
+Climate change and natural disasters pose significant threats to humankind, while human behaviors being the primary driver of the altered climate patterns. I envision a future where human actions foster a harmonious coexistence with nature while supporting sustainable economic progress. My research mission is developing economic policies that address climate change and mitigate the impact of natural disasters. I have closely observed the profound impact of climate change and natural disasters on human life. My academic journey in Japan, including experiencing the Great East Japan Earthquake, has intensified my commitment to researching these issues. I started my career as a data-driven economist and further developed my skills as an issue-oriented researcher. I am conducting research in the fields of agricultural economics, climate science, energy economics, environmental economics, environmental social science, experimental economics, and socio-geoinformatics.
+
+- My resume is available from this link: [**Resume**](<https://moineco.github.io/moinul_resume/moinul_resume.pdf>)
 
 ### Affiliation
 
