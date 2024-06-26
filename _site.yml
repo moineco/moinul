@@ -10,6 +10,8 @@ navbar:
       href: lecture.html
     - text: "Book"
       href: book.html
+    - text: "Socio-geoinformatics" 
+      href: socio_geoinformatics.html
     - text: "R"
       href: r.html
     - text: "Python"
@@ -22,6 +24,4 @@ navbar:
       href: emacs.html    
     - text: "LaTeX"
       href: latex.html
-    - text: "Quarto"
-      href: quarto.html
 output_dir: "docs"
