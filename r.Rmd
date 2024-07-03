@@ -112,22 +112,21 @@ p_update	      #Update Out-of-Date Packages
 5.  [`sp`](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
 ##### Cartography and data visualization
-1.  `tidyverse`
-2.  `RColorBrewer`
-3.  `viridis`
-4.  `tmap`
-5.  `leaflet`
-6.  `mapview`
-7.  `cartography`
-8.  `ggmap`
-9.  `rayshader`
-10. `geojsonio`
-11. `shinyjs`
-12. `GGally`
-13. `grid`
-14. `gridExtra`
-15. `cartogram`
-16. `visNetwork`
+1.  [`tidyverse`](https://www.tidyverse.org/)
+2.  [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+3.  [`viridis`](https://cran.r-project.org/web/packages/viridis/index.html)
+4.  [`tmap`](https://cran.r-project.org/web/packages/tmap/index.html)
+5.  [`leaflet`](https://cran.r-project.org/web/packages/leaflet/index.html)
+6.  [`mapview`](https://r-spatial.github.io/mapview/)
+7.  [`cartography`](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+8.  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html)
+9.  [`rayshader`](https://www.rayshader.com/)
+10. [`geojsonio`](https://cran.r-project.org/web/packages/geojsonio/index.html)
+11. [`shinyjs`](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+12. [`GGally`](https://cran.r-project.org/web/packages/GGally/index.html)
+13. [`gridExtra`](https://cran.r-project.org/web/packages/gridExtra/index.html)
+14. [`cartogram`](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+15. [`visNetwork`](https://cran.r-project.org/web/packages/visNetwork/index.html)
 
 ##### Spatial Statistics
 1.  `spatial`
