@@ -1,0 +1,28 @@
+---
+title: ''
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Geoinformatics
+
+I establish Geoinformatics mechanism through which I aim to suggest improvements in climate change adaptation and natural disasters mitigation. In this mechanism, I will incorporate geoinformatics to enhance existing climate change and natural disasters adaptation strategies by leveraging advancements in information and communication technology. Through this socio-geoinformatics mechanism, I aim to reduce vulnerability and the costs associated with climate change and natural disasters. The components of this mechanism consist of:
+
+
+- Artificial Intelligence (AI)
+- Big Data
+- Economics of Geography
+- Information and Communication Technology (ICT)
+
+I am developing an experimental design to implement geoinformatics mechanisms in social and field experiments to assess the impacts on natural disaster adaptation.
+
+Updated on: `r Sys.Date()`

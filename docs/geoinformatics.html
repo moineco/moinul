@@ -11,7 +11,7 @@
 
 
 
-<title>Linux</title>
+<title>geoinformatics.knit</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -363,206 +363,29 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Linux</h1>
 
 </div>
 
 
-<div id="partitioning-hard-drive" class="section level1">
-<h1>Partitioning hard drive</h1>
-<div id="use-fdisk-command-to-delete-a-hard-disk-partition"
-class="section level5">
-<h5>1. Use <code>fdisk</code> command to delete a hard disk
-partition:</h5>
-<p><code>fdisk</code> also known as format disk is a dialog-driven
-command in Linux used for creating and manipulating disk partition
-table. It is used for the view, create, delete, change, resize, copy and
-move partitions on a hard drive using the dialog-driven interface.
-<code>fdisk</code> allows you to create a maximum of four primary
-partitions and the number of logical partition depends on the size of
-the hard disk you are using. </p>
-</div>
-<div id="view-all-disk-partitions" class="section level5">
-<h5>2. View All Disk Partitions:</h5>
-<p>The first thing to do before doing any thing with the disks and
-partition is to view basic details about all available partition in the
-system.</p>
-<pre class="txt"><code>$ sudo fdisk -l</code></pre>
-</div>
-<div id="view-partition-on-a-specific-disk" class="section level5">
-<h5>3. View Partition on a Specific Disk:</h5>
-<p>Below command is used to view all disk partitions on device
-/dev/sda.</p>
-<pre class="txt"><code>$ sudo fdisk -l /dev/sda</code></pre>
-</div>
-<div id="delete-a-hard-disk-partition" class="section level5">
-<h5>4. Delete a Hard Disk Partition:</h5>
-<p>To delete a partition for the hard disk and free up space occupied by
-that partition for example /dev/sda. Go to the command menu using
-following:</p>
-<pre class="txt"><code>$ sudo fdisk /dev/sda</code></pre>
+<div id="geoinformatics" class="section level1">
+<h1>Geoinformatics</h1>
+<p>I establish Geoinformatics mechanism through which I aim to suggest
+improvements in climate change adaptation and natural disasters
+mitigation. In this mechanism, I will incorporate geoinformatics to
+enhance existing climate change and natural disasters adaptation
+strategies by leveraging advancements in information and communication
+technology. Through this socio-geoinformatics mechanism, I aim to reduce
+vulnerability and the costs associated with climate change and natural
+disasters. The components of this mechanism consist of:</p>
 <ul>
-<li><p>And then type <code>d</code> to go to the delete partition menu.
-It will prompt the partition number you want to delete (type the
-number).</p></li>
-<li><p>Again type <code>d</code> to delete the specific
-partition.</p></li>
-<li><p>Run <code>w</code> command to write the changes and reboot the
-system.</p></li>
-<li><p>Continue this process until you delete all target
-partitions.</p></li>
+<li>Artificial Intelligence (AI)</li>
+<li>Big Data</li>
+<li>Economics of Geography</li>
+<li>Information and Communication Technology (ICT)</li>
 </ul>
-</div>
-</div>
-<div id="proxy-in-kut" class="section level1">
-<h1>Proxy in KUT</h1>
-<div id="proxy-for-ubuntu" class="section level5">
-<h5>1. Proxy for Ubuntu</h5>
-<pre class="txt"><code>$ sudo nano /etc/profile.d/proxy.sh</code></pre>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
-HTTP_PROXY=$MY_PROXY_URL
-HTTPS_PROXY=$MY_PROXY_URL
-FTP_PROXY=$MY_PROXY_URL
-http_proxy=$MY_PROXY_URL
-https_proxy=$MY_PROXY_URL
-ftp_proxy=$MY_PROXY_URL
-export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>$ sudo nano /etc/apt/apt.conf</code></pre>
-<pre class="txt"><code>Acquire::http::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::https::proxy &quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;;
-Acquire::ftp::proxy &quot;ftp://proxy.noc.kochi-tech.ac.jp:3128&quot;;</code></pre>
-<p>For curl</p>
-<pre class="txt"><code>$ sudo nano ~/.curlrc</code></pre>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For wget</p>
-<pre class="txt"><code>$ sudo nano /etc/wgetrc</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
-https_proxy = proxy.noc.kochi-tech.ac.jp:3128
-ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-</div>
-<div id="proxy-for-fedora" class="section level5">
-<h5>2. Proxy for Fedora</h5>
-<pre class="txt"><code>$ sudo nano /etc/profile.d/proxy.sh</code></pre>
-<pre class="txt"><code>MY_PROXY_URL=&quot;proxy.noc.kochi-tech.ac.jp:3128&quot;
-HTTP_PROXY=$MY_PROXY_URL
-HTTPS_PROXY=$MY_PROXY_URL
-FTP_PROXY=$MY_PROXY_URL
-http_proxy=$MY_PROXY_URL
-https_proxy=$MY_PROXY_URL
-ftp_proxy=$MY_PROXY_URL
-export HTTP_PROXY HTTPS_PROXY FTP_PROXY http_proxy https_proxy ftp_proxy</code></pre>
-<pre class="txt"><code>$ sudo nano /etc/dnf/dnf.conf</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For curl</p>
-<pre class="txt"><code>$ sudo nano ~/.curlrc</code></pre>
-<pre class="txt"><code>proxy=proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-<p>For wget</p>
-<pre class="txt"><code>$ sudo nano /etc/wgetrc</code></pre>
-<p>Add to the end</p>
-<pre class="txt"><code>http_proxy = proxy.noc.kochi-tech.ac.jp:3128
-https_proxy = proxy.noc.kochi-tech.ac.jp:3128
-ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128</code></pre>
-</div>
-</div>
-<div id="selinux" class="section level1">
-<h1>SELinux</h1>
-<p>SELinux (Security Enhanced Linux ) is a Linux kernel security module
-that allows administrators and users more control over access controls.
-It allows access based on SELinux policy rules. SELinux policy rules
-specify how processes and users interact with each other as well as how
-processes and users interact with files. When no SELinux policy rule
-explicitly allows access, such as for a process opening a file, access
-is denied.</p>
-<p>SELinux has three modes:</p>
-<ul>
-<li>Enforcing: SELinux allows access based on SELinux policy rules.</li>
-<li>Permissive: SELinux only logs actions that would have been denied if
-running in enforcing mode.</li>
-<li>Disabled: No SELinux policy is loaded.</li>
-</ul>
-<p>It is recommended to keep SELinux in enforcing mode, but in some
-cases, you may need to set it to a permissive mode or disable it
-completely. In this tutorial, I will show you how to disable SELinux on
-CentOS 7 systems.</p>
-<div id="check-the-selinux-status" class="section level5">
-<h5>1. Check the SELinux Status</h5>
-<pre class="txt"><code>$ sestatus</code></pre>
-<p>Output</p>
-<pre class="txt"><code>SELinux status:                 enabled
-SELinuxfs mount:                /sys/fs/selinux
-SELinux root directory:         /etc/selinux
-Loaded policy name:             targeted
-Current mode:                   enforcing
-Mode from config file:          enforcing
-Policy MLS status:              enabled
-Policy deny_unknown status:     allowed
-Max kernel policy version:      31</code></pre>
-<p>You can see from the output above that SELinux is enabled and set to
-enforcing mode.</p>
-</div>
-<div id="disable-selinux" class="section level5">
-<h5>2. Disable SELinux</h5>
-<p>You can temporarily change the SELinux mode from targeted to
-permissive with the following command:</p>
-<pre class="txt"><code>$ sudo setenforce 0</code></pre>
-<p>However, this change is valid for the current runtime session only.
-To permanently disable SELinux on your CentOS 7 system, follow the steps
-below:</p>
-</div>
-<div id="pemanently-disable-selinux" class="section level5">
-<h5>3. Pemanently Disable SELinux</h5>
-<p>3.1 Open the /etc/selinux/config file and set the SELINUX mod to
-disabled:</p>
-<pre class="txt"><code># This file controls the state of SELinux on the system.
-# SELINUX= can take one of these three values:
-#       enforcing - SELinux security policy is enforced.
-#       permissive - SELinux prints warnings instead of enforcing.
-#       disabled - No SELinux policy is loaded.
-SELINUX=disabled
-# SELINUXTYPE= can take one of these two values:
-#       targeted - Targeted processes are protected,
-#       mls - Multi Level Security protection.
-SELINUXTYPE=targeted</code></pre>
-<p>3.2 Save the file and reboot your CentOS system with:</p>
-<pre class="txt"><code>$ sudo shutdown -r now</code></pre>
-<p>3.3 Once the system boots up, verify the change with the sestatus
-command:</p>
-<pre class="txt"><code>$ sestatus</code></pre>
-<p>The output should look like this:</p>
-<pre class="txt"><code>SELinux status:                 disabled</code></pre>
-</div>
-</div>
-<div id="gedit-text-editor" class="section level1">
-<h1>Gedit text editor</h1>
-<ul>
-<li><p><code>gedit</code> is the official text editor of the GNOME
-desktop environment. While aiming at simplicity and ease of use,
-<code>gedit</code> is a powerful general purpose text editor.</p></li>
-<li><p>Whether you are writing the next bestseller, programming an
-innovative application, or simply taking some quick notes,
-<code>gedit</code> will be a reliable tool to accomplish your
-task.</p></li>
-<li><p>Its flexible plugin system allows you to tailor the application
-to your needs and adapt it to your workflow.</p></li>
-<li><p>Install easily by using terminal.</p></li>
-</ul>
-<pre class="txt"><code>$ sudo apt install -y gedit # For Ubuntu
-$ sudo dnf install -y gedit # For Fedora</code></pre>
-<ul>
-<li>Alternatively, snapd can be installed from the command line:</li>
-</ul>
-<pre class="txt"><code>$ sudo apt install snapd # For Ubuntu
-$ sudo snap install gedit</code></pre>
-</div>
-<div id="nano-text-editor" class="section level1">
-<h1>Nano text editor</h1>
-<p>GNU nano (or we call it “nano”) is a simple terminal-based text
-editor. Some shortcuts include:</p>
-<pre class="txt"><code>Ctrl + X to exit
-Ctrl + O to write (or save as)
-Alt + U to undo last action</code></pre>
+<p>I am developing an experimental design to implement geoinformatics
+mechanisms in social and field experiments to assess the impacts on
+natural disaster adaptation.</p>
 <p>Updated on: 2024-07-03</p>
 </div>
 
@@ -615,7 +438,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2,h3,h4,h5",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
