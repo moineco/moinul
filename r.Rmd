@@ -83,33 +83,33 @@ p_update	      #Update Out-of-Date Packages
 # GIS
 
 ### R packages for data management:
-1.  `pacman`
-2.  `devtools`
-3.  `remotes`
-4.  `stargazer` 
-5.  `readxl`
-6.  `here`
-7.  `rvest`
-8.  `cowplot`
-9.  `ggthemes`
-10. `ggpubr`
-11. `plotly`
-12. `stringr`
-13. `patchwork`
-14. `magrittr`
-15. `DBI` 
-16. `RSQLite` 
-17. `data.table` 
-18. `lubridate` 
+1.  [`pacman`](https://cran.r-project.org/web/packages/pacman/index.html)
+2.  [`devtools`](https://cran.r-project.org/web/packages/devtools/readme/README.html)
+3.  [`remotes`](https://cran.r-project.org/web/packages/remotes/index.html)
+4.  [`stargazer`](https://cran.r-project.org/web/packages/stargazer/index.html) 
+5.  [`readxl`](https://cran.r-project.org/web/packages/readxl/index.html)
+6.  [`here`](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+7.  [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html)
+8.  [`cowplot`](https://cran.r-project.org/web/packages/cowplot/index.html)
+9.  [`ggthemes`](https://cran.r-project.org/web/packages/ggthemes/index.html)
+10. [`ggpubr`](https://cran.r-project.org/web/packages/ggpubr/index.html)
+11. [`plotly`](https://plotly.com/r/)
+12. [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html)
+13. [`patchwork`](https://cran.r-project.org/web/packages/patchwork/index.html)
+14. [`magrittr`](https://cran.r-project.org/web/packages/magrittr/index.html)
+15. [`DBI`](https://cran.r-project.org/web/packages/DBI/index.html) 
+16. [`RSQLite`](https://cran.r-project.org/web/packages/RSQLite/index.html) 
+17. [`data.table`](https://cran.r-project.org/web/packages/data.table/index.html) 
+18. [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html) 
 
 ### R Packages for GIS:
 
 ##### Basic data manipulation
-1.  [`sf`](<https://r-spatial.github.io/sf/>) is the most popular package for encoding of spatial data. 
-2.  [`raster`](<https://cran.r-project.org/web/packages/raster/index.html>) for working with raster (gridded) data
-3.  [`shapefiles`](<https://cran.r-project.org/web/packages/shapefiles/index.html>) This package includes functions to read and write ESRI shapefiles.
-4.  [`ncdf4`](<https://cran.r-project.org/web/packages/ncdf4/index.html>) Read from or write to existing netCDF format files, or create new ones.
-5.  [`sp`](<https://cran.r-project.org/web/packages/sp/index.html>) Classes and methods for spatial data; the classes document where the spatial location information resides, for 2D or 3D data.
+1.  [`sf`](<https://r-spatial.github.io/sf/>)  
+2.  [`raster`](<https://cran.r-project.org/web/packages/raster/index.html>) 
+3.  [`shapefiles`](<https://cran.r-project.org/web/packages/shapefiles/index.html>)
+4.  [`ncdf4`](<https://cran.r-project.org/web/packages/ncdf4/index.html>) 
+5.  [`sp`](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
 ##### Cartography and data visualization
 1.  `tidyverse`
