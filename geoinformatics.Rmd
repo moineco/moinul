@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Geoinformatics'
 output:
   html_document:
     toc: true
