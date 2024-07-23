@@ -17,6 +17,6 @@ Policymakers and researchers are increasingly interested in using experimental m
 
 # Geoinformation mechanism
 
-I establish **geoinformation mechanism** through which I aim to suggest improvements in climate change adaptation and natural disasters mitigation. In this mechanism, I will incorporate geoinformatics to enhance existing climate change and natural disasters adaptation strategies by leveraging advancements in information and communication technology. Through this **geoinformation mechanism**, I aim to reduce vulnerability and the costs associated with climate change and natural disasters. I am now developing an experimental design to implement **geoinformation mechanism** in experimental economics and environmental economics.
+I establish **geoinformation mechanism** through which I aim to suggest improvements in climate change adaptation and natural disasters mitigation. In this mechanism, I will incorporate geoinformation to enhance existing climate change and natural disasters adaptation strategies by leveraging advancements in information and communication technology. Through this **geoinformation mechanism**, I aim to reduce vulnerability and the costs associated with climate change and natural disasters. I am now developing an experimental design to implement **geoinformation mechanism** in experimental economics and environmental economics.
 
 Updated on: `r Sys.Date()`
