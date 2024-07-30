@@ -103,6 +103,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # International conferences
 
+1.  **Islam, M.** Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 2024. 
+
 1.  **Islam, M.** Future design (FD) social experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
 
 2.  **Islam, M.** A future design workshop on inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
@@ -115,15 +117,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # International symposiums
 
-1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
+1. SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
-2.  Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
+2. Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
 
-3.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
+3. Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
 
-4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
+4. Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
 
-5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
+5. Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
 
 # Research grants
 
@@ -162,6 +164,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 10. Economics of Disasters and Climate Change (Springer)
 
 11. Environmental Economics and Policy Studies (Springer)
+
+12. Plos One (Public Library of Science)
 
 # Working papers
 
