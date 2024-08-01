@@ -15,7 +15,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Profile
 
-I am Dr. Moinul Islam, working as an assistant professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree with environmental economics concentration from Kyushu University in 2016. 
+I am Dr. Moinul Islam, working as an associate professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree with environmental economics concentration from Kyushu University in 2016. 
 
 ### My research vision
 
@@ -51,7 +51,10 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 ### Working experience
 
--   2020, Assistant Professor, Research Institute for Future Design,
+-   2024, Associate Professor, Research Institute for Future Design & School of Economics and Management,
+    Kochi University of Technology, Kochi, Japan
+    
+-   2020, Assistant Professor, Research Institute for Future Design & School of Economics and Management,
     Kochi University of Technology, Kochi, Japan
     
 -   2019, Assistant Professor, Graduate School for International
