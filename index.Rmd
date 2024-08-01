@@ -88,6 +88,6 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 ### Contact  
 
--   moinul.eco@gmail.com
+-   moinul[dot]eco[at]gmail[dot]com
 
 Updated on: `r Sys.Date()`
