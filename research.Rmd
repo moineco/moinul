@@ -19,31 +19,33 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34--44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
-3.  Managi, S., **Islam, M.* **, Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049--2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
+3.  Managi, S., **Islam, M.\*** , Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049--2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
 
 4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431--465. [Q2] (<http://dx.doi.org/10.1561/101.00000148>)
 
 5.  **Islam, M.**, Zhang, B., and Managi, S. (2022). The trade-off between natural capital and other capitals in Pakistan. *Sustainability Science*, 17, 1799--1811. [Q1] (<https://doi.org/10.1007/s11625-022-01143-w>)
 
-6.  Managi, S., **Islam, M.* **, Saito, O. et al. (2022). Valuation of nature and nature's contributions to people. *Sustainability Science*, 17, 701--705. [Q1] (<https://doi.org/10.1007/s11625-022-01140-z>)
+6.  Managi, S., **Islam, M.\*** , Saito, O. et al. (2022). Valuation of nature and nature's contributions to people. *Sustainability Science*, 17, 701--705. [Q1] (<https://doi.org/10.1007/s11625-022-01140-z>)
 
 7.  **Islam, M.**, and Managi, S. (2022). Valuation of Nature's Contribution in Ladakh, India: An Inclusive Wealth Method. *Sustainability Science*, 17, 905--918. [Q1] (<https://doi.org/10.1007/s11625-021-01030-w>)
 
-8.  N'dri, L., **Islam, M.* **, and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? *Journal of Cleaner Production*, 297, 126642. [Q1] (<https://doi.org/10.1016/j.jclepro.2021.126642>)
+8.  N'dri, L., **Islam, M.\*** , and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? *Journal of Cleaner Production*, 297, 126642. [Q1] (<https://doi.org/10.1016/j.jclepro.2021.126642>)
 
-9.  Badamvaanchig, M., **Islam, M.* **, and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric? *Resources Policy*, 70, 101955. [Q1] (<https://doi.org/10.1016/j.resourpol.2020.101955>)
+9.  Badamvaanchig, M., **Islam, M.\*** , and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric? *Resources Policy*, 70, 101955. [Q1] (<https://doi.org/10.1016/j.resourpol.2020.101955>)
 
-10. Hongsakhone, S., **Islam, M.* **, and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. *Journal of Economic Structures*, 10, 1--24. (<https://doi.org/10.1186/s40008-020-00231-3>)
+10. Hongsakhone, S., **Islam, M.\*** , and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR. *Journal of Economic Structures*, 10, 1--24. (<https://doi.org/10.1186/s40008-020-00231-3>)
 
 11. Sharifi, A., Simangan, D., Lee, C. Y., Reyes, S. R. C., Katramiz, T., Josol, J. C. C., and **Islam, M.** (2021). Climate-induced stressors to peace: A review of recent literature. *Environmental Research Letters*, 16, 073006. [Q1] (<https://doi.org/10.1088/1748-9326/abfc08>)
 
 12. Simangan, D., Virji, H., Hendrix, C., **Islam, M.**, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change. *Sustainability Science*, 16, 1097--1109. [Q1] (<https://doi.org/10.1007/s11625-021-00970-7>)
 
-13. Essandoh, O. K., **Islam, M.* **, and Kakinaka, M. (2020). Linking international trade and foreign direct investment to $CO_2$ emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. [Q1] (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
+13. Essandoh, O. K., **Islam, M.\*** , and Kakinaka, M. (2020). Linking international trade and foreign direct investment to $CO_2$ emissions: Any differences between developed and developing countries? *Science of The Total Environment*, 712, 136437. [Q1] (<https://doi.org/10.1016/j.scitotenv.2019.136437>)
 
 14. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., **Islam M.**, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. *Journal of Environmental Management*, 264, 110328. [Q1] (<https://doi.org/10.1016/j.jenvman.2020.110328>)
 
-15. Hotak, S., **Islam, M.* **, Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. *Environmental Science and Pollution Research*, 27, 24115--24128. [Q1] (<https://doi.org/10.1007/s11356-020-08478-w>)
+    ![](figures/a_Jingyu_2020.png)
+
+15. Hotak, S., **Islam, M.\*** , Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. *Environmental Science and Pollution Research*, 27, 24115--24128. [Q1] (<https://doi.org/10.1007/s11356-020-08478-w>)
 
 16. Coulibaly, T., **Islam, M.**, and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries. *Economics of Disasters and Climate Change*, 4, 347--363. (<https://doi.org/10.1007/s41885-019-00057-9>)
 
@@ -51,13 +53,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 18. **Islam, M.**, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. *Resources, Conservation and Recycling*, 145, 126--138. [Q1] (<https://doi.org/10.1016/j.resconrec.2019.02.027>)
 
+    ![](figures/a_Islam_2019.png)
+
 19. Managi, S., **Islam, M.**, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people. *Sustainability Science*, 1463--1465. [Q1] (<https://doi.org/10.1007/s11625-019-00732-6>)
 
 20. **Islam, M.**, Kanemoto, K., and Managi, S. (2019). Growth potential for $CO_2$ emissions transfer by tariff reduction. *Environmental Research Letters*, 14, 024011. [Q1] (<https://iopscience.iop.org/article/10.1088/1748-9326/aaf688/meta>)
 
 21. Yamaguchi, R., **Islam, M.**, and Managi, S. (2019). Inclusive wealth in the 21st century. *Letters in Spatial and Resource Sciences*, 12, 101--111. [Q2] (<https://doi.org/10.1007/s12076-019-00229-x>)
 
-22. Ying Lee, C., Lotsu, S., **Islam, M.* **, Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana. *Energies*, 12, 3684. [Q3] (<https://doi.org/10.3390/en12193684>)
+22. Ying Lee, C., Lotsu, S., **Islam, M.\*** , Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana. *Energies*, 12, 3684. [Q3] (<https://doi.org/10.3390/en12193684>)
 
 23. **Islam, M.**, Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review. *Sustainability Science*, 14, 159-174. [Q1] (<https://doi.org/10.1007/s11625-018-0597-7>)
 
@@ -103,29 +107,29 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # International conferences
 
-1.  **Islam, M.** Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 2024. 
+1.  **Islam, M.** Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 2024.
 
-1.  **Islam, M.** Future design (FD) social experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
+2.  **Islam, M.** Future design (FD) social experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
 
-2.  **Islam, M.** A future design workshop on inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
+3.  **Islam, M.** A future design workshop on inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
 
-3.  **Islam, M.** Growth potential for $CO_2$ emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
+4.  **Islam, M.** Growth potential for $CO_2$ emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
 
-4.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
+5.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
 
-5.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
+6.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
 
 # International symposiums
 
-1. SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
+1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
-2. Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
+2.  Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
 
-3. Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
+3.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
 
-4. Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
+4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
 
-5. Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
+5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
 
 # Research grants
 
@@ -139,11 +143,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ##### Guest editor
 
-- [1] Sustainability Science (Springer).
+-   [1] Sustainability Science (Springer).
 
 ##### Peer reviewer
 
-- [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science).
+-   [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science).
 
 # Working papers
 
@@ -155,8 +159,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 4.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper EMS-2013-06, International University of Japan, Economics & Management Series, 2013.
 
-# Scholarly memberships 
+# Scholarly memberships
 
-1. Society for Environmental Economics and Policy Studies (SEEPS)
+1.  Society for Environmental Economics and Policy Studies (SEEPS)
 
 Updated on: `r Sys.Date()`
