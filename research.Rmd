@@ -17,15 +17,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. [Q1] (<https://doi.org/10.1016/j.agwat.2024.108677>)
 
-    ![](figures/a_Sharofiddinov_2024.png)
+    ![](figures/a_Sharofiddinov_2024.png){width="650"}
 
 2.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34--44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
-    ![](figures/a_Islam_2024.png)
+    ![](figures/a_Islam_2024.png){width="650"}
 
 3.  Managi, S., **Islam, M.\*** , Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049--2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
 
-    ![](figures/a_Managi_2023.png)
+    ![](figures/a_Managi_2023.png){width="650"}
 
 4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431--465. [Q2] (<http://dx.doi.org/10.1561/101.00000148>)
 
@@ -49,7 +49,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 14. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., **Islam M.**, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources. *Journal of Environmental Management*, 264, 110328. [Q1] (<https://doi.org/10.1016/j.jenvman.2020.110328>)
 
-    ![](figures/a_Jingyu_2020.png)
+    ![](figures/a_Jingyu_2020.png){width="650"}
 
 15. Hotak, S., **Islam, M.\*** , Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis. *Environmental Science and Pollution Research*, 27, 24115--24128. [Q1] (<https://doi.org/10.1007/s11356-020-08478-w>)
 
@@ -59,7 +59,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 18. **Islam, M.**, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. *Resources, Conservation and Recycling*, 145, 126--138. [Q1] (<https://doi.org/10.1016/j.resconrec.2019.02.027>)
 
-    ![](figures/a_Islam_2019.png)
+    ![](figures/a_Islam_2019.png){width="650"}
 
 19. Managi, S., **Islam, M.**, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people. *Sustainability Science*, 1463--1465. [Q1] (<https://doi.org/10.1007/s11625-019-00732-6>)
 
