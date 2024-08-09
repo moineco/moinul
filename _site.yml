@@ -10,8 +10,6 @@ navbar:
       href: lecture.html
     - text: "Book"
       href: book.html
-    - text: "Geoinformation" 
-      href: geoinformatics.html
     - text: "R"
       href: r.html
     - text: "Python"
