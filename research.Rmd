@@ -159,7 +159,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 6.  **Islam, M.**, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers [SDES-2014-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2014-11.pdf), Kochi University of Technology, School of Economics and Management, 2014.
 
-7.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper EMS-2013-06, International University of Japan, Economics & Management Series, 2013.
+7.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper [EMS-2013-06](https://www.iuj.ac.jp/research/workingpapers/EMS_2013_06.pdf), International University of Japan, Economics & Management Series, 2013.
 
 # Scholarly memberships
 
