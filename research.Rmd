@@ -147,13 +147,19 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Working papers
 
-1.  Husniddin, S., **Islam, M.**, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers SDES-2022-3, Kochi University of Technology, School of Economics and Management, 2022.
+1.  Rahman, M., Asma, K., **Islam, M.**, Saijo, T., and Kotani, K. Does future design induce people to make a persistent change to sustainable food consumption?, Working Papers [SDES-2024-4](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-4.pdf), Kochi University of Technology, School of Economics and Management, 2024.
 
-2.  **Islam, M.**, and Kotani, K. Who perceive seasonality change? A case of the Meghna basin, Bangladesh, Working Papers SDES-2020-15, Kochi University of Technology, School of Economics and Management, 2020.
+2.  Husniddin, S., **Islam, M.**, and Kotani, K. Farm sizes and adaptation responses to climate change in agriculture: A reflection of Tajikistan’s farming culture and history. Working Papers [SDES-2024-2](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-2.pdf), Kochi University of Technology, School of Economics and Management, 2024.
 
-3.  **Islam, M.**, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers SDES-2014-11, Kochi University of Technology, School of Economics and Management, 2014.
+3.  Husniddin, S., **Islam, M.**, and Kotani, K. How does the number of water users in a land reform matter for irrigation water availability? Working Papers [SDES-2023-5](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2023-5.pdf), Kochi University of Technology, School of Economics and Management, 2023.
 
-4.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper EMS-2013-06, International University of Japan, Economics & Management Series, 2013.
+4.  Husniddin, S., **Islam, M.**, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers [SDES-2022-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2022-3.pdf), Kochi University of Technology, School of Economics and Management, 2022.
+
+5.  **Islam, M.**, and Kotani, K. Who perceive seasonality change? A case of the Meghna basin, Bangladesh, Working Papers [SDES-2020-15](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2020-15.pdf), Kochi University of Technology, School of Economics and Management, 2020.
+
+6.  **Islam, M.**, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers [SDES-2014-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2014-11.pdf), Kochi University of Technology, School of Economics and Management, 2014.
+
+7.  **Islam, M.**, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper EMS-2013-06, International University of Japan, Economics & Management Series, 2013.
 
 # Scholarly memberships
 
