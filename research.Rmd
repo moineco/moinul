@@ -165,4 +165,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Society for Environmental Economics and Policy Studies (SEEPS)
 
+2.  Association of Environmental and Resource Economists (AERE)
+
 Updated on: `r Sys.Date()`
