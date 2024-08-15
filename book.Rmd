@@ -67,7 +67,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 # Data science
 
-#### R for Economics
+#### R for data science
 
 1.  Wickham, H., and Grolemund, G. (2016). [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
@@ -77,7 +77,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/).
 
-#### Python for Economics
+#### Python for data science
 
 1.  Heiss, F. (2016). [Using R for Introductory Econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
