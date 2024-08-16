@@ -35,6 +35,10 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 3.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
 
+4.  Cameron, C. and Trivedi, P. (2022) Volume I: Cross-Sectional and Panel Regression Methods. Stata Press
+
+5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear Models and Causal Inference Methods. Stata Press
+
 #### Geoeconomics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
