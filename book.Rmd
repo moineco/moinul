@@ -53,6 +53,10 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 2.  Gibbons, R. (1992) Game Theory for Applied Economists. Princeton University Press
 
+#### Environmental Economics
+
+1.  Kolstad, C. (2011), Environmental Economics. New York : Oxford University Press
+
 # Mathematics
 
 #### Linear algebra
@@ -90,6 +94,12 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 # Statistics
 
 1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics (5th Edition). Wiley
+
+# Future design
+
+#### Psychology
+
+1. Frankl, V. (1946) Man's Search for Meaning. 
 
 
 
