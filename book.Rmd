@@ -47,7 +47,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 3.  Kopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.
 
-#### Experimental economics
+#### Experimental Economics
 
 1.  Friedman, D. (1994) Experimental Methods: A Primer for Economists. Cambridge University Press
 
@@ -59,23 +59,23 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 # Mathematics
 
-#### Linear algebra
+#### Linear Algebra
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-#### Vector calculus
+#### Vector Calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
 2.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
 
-#### Mathematical statistics
+#### Mathematical Statistics
 
 1.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
 # Data Science
 
-#### R for data science
+#### R for Data Science
 
 1.  Wickham, H., and Grolemund, G. (2016). [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
@@ -85,7 +85,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/).
 
-#### Python for data science
+#### Python for Data Science
 
 1.  Heiss, F. (2016). [Using R for Introductory Econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
