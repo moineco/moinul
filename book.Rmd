@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about Economics, Mathematics, Data Science and Geoeconomics.
+Recommended readings to everyone who is interested about Economics, Mathematics, Data Science, Statistics and Future Design.
 
 # Economics
 
@@ -73,7 +73,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 1.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
 
-# Data science
+# Data Science
 
 #### R for data science
 
@@ -95,7 +95,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics (5th Edition). Wiley
 
-# Future design
+# Future Design
 
 #### Psychology
 
