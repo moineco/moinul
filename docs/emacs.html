@@ -13,7 +13,7 @@
 
 <title>Emacs</title>
 
-<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -365,15 +365,13 @@ div.tocify {
 </div>
 
 
-<div id="gnu-emacs" class="section level1">
-<h1>GNU Emacs</h1>
+<div id="install-emacs" class="section level1">
+<h1>Install Emacs</h1>
 <p>GNU Emacs isn’t a text editor only, it’s the ultimate productivity
-environment. Emacs can be installed on GNU/Linux, macOS and Windows. The
-latest stable version is 29.2, so it’s best to try and find that version
-for your operating system. Installing Emacs by GUI is straightforward.
-However, to get a full grip on your installation, using the
-<em>terminal</em> is recommended. I will explain the ways to installing
-Emacs by using <em>terminal</em>.</p>
+environment. Emacs can be installed on GNU/Linux, macOS and Windows.
+Installing Emacs by GUI is straightforward. However, to get a full grip
+on your installation, using the <em>terminal</em> is recommended. I will
+explain the ways to installing Emacs by using <em>terminal</em>.</p>
 <div id="linuxos" class="section level2">
 <h2>LinuxOS</h2>
 <div id="fedora" class="section level4">
@@ -534,90 +532,10 @@ class="uri">https://www.msys2.org/</a></li>
 <pre class="txt"><code>pacman -S mingw-w64-x86_64-emacs</code></pre>
 </div>
 </div>
-<div id="org-roam" class="section level1">
-<h1>Org-roam</h1>
-<p>Homepage (<a href="https://www.orgroam.com/"
-class="uri">https://www.orgroam.com/</a>)</p>
-<ul>
-<li><p>Org Roam is an extension to Org Mode. Install the org-roam
-package from MELPA using package.el, straight.el or any other package
-manager you normally use to install packages.</p></li>
-<li><p>Inside your Emacs working environment, need to customize
-<strong>.emacs</strong> file to become able to utilize the necessary
-packages.</p></li>
-<li><p>If you use use-package with package.el, add this to your
-configuration temporarily and execute it to install org-roam:</p></li>
-</ul>
-<pre class="txt"><code>(use-package org-roam
-  :ensure t)</code></pre>
-<ul>
-<li><p>After *<strong>Org Roam</strong> has been installed, the most
-important thing to configure is the folder where your Org Roam files
-will be located.</p></li>
-<li><p>By default, this will be a folder called org-roam in your
-<strong>HOME</strong> directory but you will probably want to set this
-to something else. No matter what path you use, things will be slightly
-easier if you create the folder in advance!</p></li>
-<li><p>We’ll also add some necessary key bindings and a call to
-org-roam-setup to make sure everything is ready to go.</p></li>
-</ul>
-<pre class="txt"><code>(use-package org-roam
-  :ensure t
-  :custom
-  (org-roam-directory &quot;/Users/username/Documents/Dropbox/roam_notes&quot;)
-  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
-         (&quot;C-c n f&quot; . org-roam-node-find)
-         (&quot;C-c n i&quot; . org-roam-node-insert))
-  :config
-  (org-roam-setup))</code></pre>
-<ul>
-<li>If you’ve never used Org Roam before, you can set the variable
-org-roam-v2-ack to t in your configuration. Here’s how to set the
-variable in your configuration:</li>
-</ul>
-<pre class="txt"><code>(use-package org-roam
-  :ensure t
-  :init
-  (setq org-roam-v2-ack t)
-  :custom
-  (org-roam-directory &quot;/Users/username/Documents/Dropbox/roam_notes&quot;)
-  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
-         (&quot;C-c n f&quot; . org-roam-node-find)
-         (&quot;C-c n i&quot; . org-roam-node-insert))
-  :config
-  (org-roam-setup))</code></pre>
-<ul>
-<li><p>Creating your first node. Let’s create our first node! We can use
-the <em>C-c n f</em> binding to invoke org-roam-node-find which brings
-up a completion session to select or create a node.</p></li>
-<li><p>Since we want to create a new node, we can type in the desired
-node name “Econometrics” and press <strong>Enter</strong>.</p></li>
-<li><p>For now, we can add some text to the file and then press <em>C-c
-C-c</em> to confirm the capture to save the file.</p></li>
-<li><p>Let’s follow the same process to create another node called
-“Logit_model”.</p></li>
-<li><p>The real power of Org Roam begins when you start linking your
-node files together!</p></li>
-<li><p>Here’s an updated configuration that makes node completions
-easier:</p></li>
-</ul>
-<pre class="txt"><code>(use-package org-roam
-  :ensure t
-  :init
-  (setq org-roam-v2-ack t)
-  :custom
-  (org-roam-directory &quot;/Users/username/Documents/Dropbox/roam_notes&quot;)
-  (org-roam-completion-everywhere t)
-  :bind ((&quot;C-c n l&quot; . org-roam-buffer-toggle)
-         (&quot;C-c n f&quot; . org-roam-node-find)
-         (&quot;C-c n i&quot; . org-roam-node-insert)
-         :map org-mode-map
-         (&quot;C-M-i&quot;    . completion-at-point))
-  :config
-  (org-roam-setup))</code></pre>
-</div>
-<div id="upgrade-elpa-packages" class="section level1">
-<h1>Upgrade ELPA packages</h1>
+<div id="use-emacs" class="section level1">
+<h1>Use Emacs</h1>
+<div id="upgrade-elpa" class="section level2">
+<h2>Upgrade ELPA</h2>
 <ul>
 <li><p>Let’s upgrade the packages installed by ELPA in Emacs</p></li>
 <li><p>Open Emacs and follow the steps through terminal</p></li>
@@ -628,7 +546,8 @@ Shift+u
 x
 y                   [emacs will ask you (y/n). Type `y`]
 Enter               [wait for updates]</code></pre>
-<p>Updated on: 2024-08-09</p>
+<p>Updated on: 2024-08-26</p>
+</div>
 </div>
 
 

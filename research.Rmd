@@ -15,9 +15,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Journal articles (peer-review)
 
-1. **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34--44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
+1.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34--44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
-2. Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. [Q1] (<https://doi.org/10.1016/j.agwat.2024.108677>)
+2.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture? *Agricultural Water Management*, 293, 108677. [Q1] (<https://doi.org/10.1016/j.agwat.2024.108677>)
 
 3.  Managi, S., **Islam, M.\*** , Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049--2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
 
