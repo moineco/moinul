@@ -21,13 +21,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Managi, S., **Islam, M.\*** , Zhang, D., Zaied, Y. B., and Saito, O. (2023). Natural capital accounting for sustainable cities. *Sustainability Science*, 18, 2049--2051. [Q1] (<https://doi.org/10.1007/s11625-023-01356-7>)
 
-4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural Capital and Wealth Accounting for Sustainability Assessment: A Global Perspective. *International Review of Environmental and Resource Economics*, 16, 431--465. [Q2] (<http://dx.doi.org/10.1561/101.00000148>)
+4.  Yamaguchi, R., **Islam, M.**, and Managi, S. (2023). Natural capital and wealth accounting for sustainability assessment: A global perspective. *International Review of Environmental and Resource Economics*, 16, 431--465. [Q2] (<http://dx.doi.org/10.1561/101.00000148>)
 
 5.  **Islam, M.**, Zhang, B., and Managi, S. (2022). The trade-off between natural capital and other capitals in Pakistan. *Sustainability Science*, 17, 1799--1811. [Q1] (<https://doi.org/10.1007/s11625-022-01143-w>)
 
 6.  Managi, S., **Islam, M.\*** , Saito, O. et al. (2022). Valuation of nature and nature's contributions to people. *Sustainability Science*, 17, 701--705. [Q1] (<https://doi.org/10.1007/s11625-022-01140-z>)
 
-7.  **Islam, M.**, and Managi, S. (2022). Valuation of Nature's Contribution in Ladakh, India: An Inclusive Wealth Method. *Sustainability Science*, 17, 905--918. [Q1] (<https://doi.org/10.1007/s11625-021-01030-w>)
+7.  **Islam, M.**, and Managi, S. (2022). Valuation of nature's contribution in Ladakh, India: An inclusive wealth method. *Sustainability Science*, 17, 905--918. [Q1] (<https://doi.org/10.1007/s11625-021-01030-w>)
 
 8.  N'dri, L., **Islam, M.\*** , and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries? *Journal of Cleaner Production*, 297, 126642. [Q1] (<https://doi.org/10.1016/j.jclepro.2021.126642>)
 
@@ -131,7 +131,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: **Moinul Islam**. Grant number: 21K13290. Project period: 2021/04 -- 2025/03.
 
-2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research (Fostering Joint International Research (B)). Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
+2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research [Fostering Joint International Research (B)]. Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, **Moinul Islam**, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: **Moinul Islam**. Grant number: 19K24384. Project period: 2019/04 -- 2021/03.
 
