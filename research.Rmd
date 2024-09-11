@@ -47,7 +47,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 16. Coulibaly, T., **Islam, M.**, and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries. *Economics of Disasters and Climate Change*, 4, 347--363. (<https://doi.org/10.1007/s41885-019-00057-9>)
 
-17. Coulibaly, T., Wakamatsu, M., **Islam, M.**, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas (2020). *Ecological Economics*, 175, 106707. [Q1] (<https://doi.org/10.1016/j.ecolecon.2020.106707>)
+17. Coulibaly, T., Wakamatsu, M., **Islam, M.**, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas. *Ecological Economics*, 175, 106707. [Q1] (<https://doi.org/10.1016/j.ecolecon.2020.106707>)
 
 18. **Islam, M.**, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India. *Resources, Conservation and Recycling*, 145, 126--138. [Q1] (<https://doi.org/10.1016/j.resconrec.2019.02.027>)
 
