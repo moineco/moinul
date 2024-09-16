@@ -13,52 +13,52 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Pacman
+### Package manager
 
-- Install `pacman` Package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
+- Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
 ```{txt}
-> install.packages("pacman")    # Install pacman package
-> library("pacman")             # Load pacman package
+install.packages("pacman")    # Install pacman package
+library("pacman")             # Load pacman package
 ```
 
 - After running the previous lines of code, we can use the functions provided by the `pacman` package.
 
-##### Example 1: Install & Load Multiple R Packages Using p_load Function
+#### Example 1: Install & load multiple R packages using p_load function
 
 In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
 
 Have a look at the following R syntax:
 
 ```{txt}
-> p_load(ggplot2, dplyr, stringr)   # Install & load packages
+p_load(ggplot2, dplyr, stringr)   # Install & load packages
 ```
 
 After executing the previous code, we have loaded the three packages `ggplot2`, `dplyr`, and `stringr`.
 
 Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
 
-##### Example 2: Unload Multiple R Packages Using p_unload Function
+#### Example 2: Unload multiple R packages using p_unload function
 
 Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
 
 Let’s apply the p_unload command to unload the three packages `ggplot2`, `dplyr`, and `stringr` that we have loaded before:
 
 ```{txt}
-> p_unload(ggplot2, dplyr, stringr)  # Unload packages
+p_unload(ggplot2, dplyr, stringr)  # Unload packages
 ```
 
 The following packages have been unloaded: `ggplot2`, `dplyr`, `stringr`
 The previous output of the RStudio console tells us that our three packages were detached.
 
-##### Example 3: Update Outdated R Packages Using p_update Function
+#### Example 3: Update Outdated R Packages Using p_update Function
 
 In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
 
 - First, let’s check which of my packages are outdated:
 
 ```{txt}
-> p_update(update = FALSE)  # Check for outdated packages
+p_update(update = FALSE)  # Check for outdated packages
 ```
 
 - Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
@@ -66,9 +66,9 @@ In this example, I will show how to use the p_update function of the `pacman` pa
 - Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
 ```{txt}
-> p_update() # Update all packages
+p_update() # Update all packages
 ```
-- Quick Reference Table
+- Quick reference table
 
 ```{txt}
 p_load		      #Loads and Install Packages
@@ -80,26 +80,29 @@ p_unload		  #Unloads Packages from the Search Path
 p_update	      #Update Out-of-Date Packages
 ```
 
-# GIS
+#### R packages for data management
 
-### R packages for data management:
 1.  [`pacman`](https://cran.r-project.org/web/packages/pacman/index.html), 2.  [`devtools`](https://cran.r-project.org/web/packages/devtools/readme/README.html), 3.  [`remotes`](https://cran.r-project.org/web/packages/remotes/index.html), 4.  [`stargazer`](https://cran.r-project.org/web/packages/stargazer/index.html), 5.  [`readxl`](https://cran.r-project.org/web/packages/readxl/index.html), 6.  [`here`](https://cran.r-project.org/web/packages/here/vignettes/here.html), 7.  [`rvest`](https://cran.r-project.org/web/packages/rvest/index.html), 8.  [`cowplot`](https://cran.r-project.org/web/packages/cowplot/index.html), 9.  [`ggthemes`](https://cran.r-project.org/web/packages/ggthemes/index.html), 10. [`ggpubr`](https://cran.r-project.org/web/packages/ggpubr/index.html), 11. [`plotly`](https://plotly.com/r/), 12. [`stringr`](https://cran.r-project.org/web/packages/stringr/index.html), 13. [`patchwork`](https://cran.r-project.org/web/packages/patchwork/index.html), 14. [`magrittr`](https://cran.r-project.org/web/packages/magrittr/index.html), 15. [`DBI`](https://cran.r-project.org/web/packages/DBI/index.html) , 16. [`RSQLite`](https://cran.r-project.org/web/packages/RSQLite/index.html), 17. [`data.table`](https://cran.r-project.org/web/packages/data.table/index.html), 18. [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html) 
 
-### R Packages for GIS:
 
-##### Basic data manipulation
+#### Basic GIS data manipulation
+
 1.  [`sf`](<https://r-spatial.github.io/sf/>), 2.  [`raster`](<https://cran.r-project.org/web/packages/raster/index.html>), 3.  [`shapefiles`](<https://cran.r-project.org/web/packages/shapefiles/index.html>), 4.  [`ncdf4`](<https://cran.r-project.org/web/packages/ncdf4/index.html>), 5.  [`sp`](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
-##### Cartography and data visualization
+#### Cartography and data visualization
+
 1.  [`tidyverse`](https://www.tidyverse.org/), 2.  [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/index.html), 3.  [`viridis`](https://cran.r-project.org/web/packages/viridis/index.html), 4.  [`tmap`](https://cran.r-project.org/web/packages/tmap/index.html), 5.  [`leaflet`](https://cran.r-project.org/web/packages/leaflet/index.html), 6.  [`mapview`](https://r-spatial.github.io/mapview/), 7.  [`cartography`](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html), 8.  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html), 9.  [`rayshader`](https://www.rayshader.com/), 10. [`geojsonio`](https://cran.r-project.org/web/packages/geojsonio/index.html), 11. [`shinyjs`](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html), 12. [`GGally`](https://cran.r-project.org/web/packages/GGally/index.html), 13. [`gridExtra`](https://cran.r-project.org/web/packages/gridExtra/index.html), 14. [`cartogram`](https://cran.r-project.org/web/packages/cartogram/readme/README.html), 15. [`visNetwork`](https://cran.r-project.org/web/packages/visNetwork/index.html)
 
-##### Spatial Statistics
+#### Spatial statistics
+
 1.  `spatial`, 2.  `spatstat`, 3.  `gstat`, 4.  `spdep`, 5.  `geoshape`, 6.  `ggspatial`, 7.  `spdep`, 8.  `geogrid`, 9.  `GISTools` 
 
-##### Data Sources
+#### Data sources
+
 1.  `OpenStreetMap`, 2.  `rnaturalearth`, 3.  `rnaturalearthdata`, 4.  `rgooglemaps`, 5.  `rastervis`, 6.  `maps`, 7.  `spData`, 8.  `rgeos`, 9.  `jpndistrict`, 10. `countrycode`, 11. `tmaptools`, 12. `DT`, 13. `usmap`, 14. `tigris`, 15. `scales`, 16. `ggrepel`, 17. `tidycensus`
 
-##### Regression models
+#### Regression models
+
 1. `biglm`, 2. `rpart` 
 
 Updated on: `r Sys.Date()`
