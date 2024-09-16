@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `fdisk` also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. `fdisk` allows you to create a maximum of four primary partitions and the number of logical partition depends on the size of the hard disk you are using. 
 
-##### 2.  View All Disk Partitions:
+##### 2.  View all disk partitions:
 
 The first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.
 
@@ -29,7 +29,7 @@ The first thing to do before doing any thing with the disks and partition is to 
 $ sudo fdisk -l
 ```
 
-##### 3.  View Partition on a Specific Disk: 
+##### 3.  View partition on a specific disk: 
 
 Below command is used to view all disk partitions on device /dev/sda.
 
@@ -37,7 +37,7 @@ Below command is used to view all disk partitions on device /dev/sda.
 $ sudo fdisk -l /dev/sda
 ```
 
-##### 4.  Delete a Hard Disk Partition:
+##### 4.  Delete a hard disk partition:
 
 To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sda. Go to the command menu using following:
 
@@ -55,7 +55,7 @@ $ sudo fdisk /dev/sda
 
 # Proxy in KUT
 
-##### 1. Proxy for Ubuntu
+##### 1. Proxy for ubuntu
 
 ```{txt}
 $ sudo nano /etc/profile.d/proxy.sh
@@ -106,7 +106,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-##### 2. Proxy for Fedora
+##### 2. Proxy for fedora
 
 ```{txt}
 $ sudo nano /etc/profile.d/proxy.sh
@@ -169,7 +169,7 @@ SELinux has three modes:
 
 It is recommended to keep SELinux in enforcing mode, but in some cases, you may need to set it to a permissive mode or disable it completely. In this tutorial, I will show you how to disable SELinux on CentOS 7 systems.
 
-##### 1. Check the SELinux Status
+##### 1. Check the SELinux status
 
 ```{txt}
 $ sestatus
