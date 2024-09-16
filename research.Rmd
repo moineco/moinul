@@ -103,17 +103,19 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # International conferences
 
-1.  **Islam, M.** Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 2024.
+1.  **Islam, M.** Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 2024.
 
-2.  **Islam, M.** Future design (FD) social experiments, 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
+2.  **Islam, M.** Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 2024.
 
-3.  **Islam, M.** A future design workshop on inequality, 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
+3.  **Islam, M.** Future design (FD) social experiments, The 17th Association of Behavioral Economics and Finance Conference, Kochi city, Kochi, Japan, 2023.
 
-4.  **Islam, M.** Growth potential for $CO_2$ emissions transfer by United States-China trade battle, SEEPS, Fukushima, Japan, 2019.
+4.  **Islam, M.** A future design workshop on inequality, The 4th International Conference on Anticipation, Tempe, Arizona, USA, 2022.
 
-5.  **Islam, M.** Natural capital of nations for sustainable development, 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
+5.  **Islam, M.** Growth potential for $CO_2$ emissions transfer by United States-China trade battle, The 24th SEEPS Annual Conference, Fukushima University, Fukushima, Japan, 2019.
 
-6.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, SEEPS, Kobe, Japan, 2013.
+6.  **Islam, M.** Natural capital of nations for sustainable development, The 25th IPSA World Congress of Political Science, Brisbane, Australia, 2018.
+
+7.  **Islam, M.** Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 2013.
 
 # International symposiums
 
