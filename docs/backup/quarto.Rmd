@@ -1,0 +1,19 @@
+---
+title: "Quarto"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Quarto within RStudio
+
+RStudio includes support for editing and preview of Quarto documents. 
+
