@@ -21,7 +21,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 I am Dr. Moinul Islam, working as an associate professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree
 with applied microeconomics concentration from Kyushu University in 2016.
 
-### My research vision
+### My vision
 
 Climate change and natural disasters pose significant threats to humankind, while human behaviors being the primary driver of the altered
 climate patterns. I envision a future where human actions foster a harmonious coexistence with nature while supporting sustainable economic
@@ -40,14 +40,14 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 -   Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka
     819-0395, Japan
 
-### Profile in external websites
+### Profile links
 
 -   [Web of
     Science](https://www.webofscience.com/wos/author/record/M-9369-2019), [Kochi University of
     Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html), [Google
     Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en), [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400), [Research Map](https://researchmap.jp/moinul/?lang=english), [ORCID](https://orcid.org/0000-0002-0309-3156), [Github](https://github.com/moineco), [Linkedin](https://www.linkedin.com/in/moinul-islam-b7a140263/)
 
-### Working experience
+### Work experiences
 
 -   2024, Associate Professor, Research Institute for Future Design &
     School of Economics and Management, Kochi University of Technology,
@@ -67,7 +67,7 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 -   2012, Research Assistant, Graduate School of Environmental Studies,
     Tohoku University, Sendai, Japan
 
-### Project experience
+### Projects
 
 -   United Nations Environmental Program (UNEP)
 
