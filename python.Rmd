@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# JupyterLab
+### JupyterLab
 
 `JupyterLab` is the latest web-based interactive development environment for notebooks, code, and data.
 
@@ -35,7 +35,7 @@ $ jupyter lab
 $ brew install jupyterlab
 ```
 
-# oTree
+### oTree
 
 - oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
 
@@ -100,7 +100,7 @@ $ otree startapp app_name
 
 Session configs are defined in settings.py
 
-# Heroku
+### Heroku
 
 #### Deploy oTree application to Heroku server
 

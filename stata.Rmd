@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# STATA17 installation in Linux
+### Stata 17 installation in linux
 
 First copy your **STATA17** source file in the **Downloads** folder of your PC.
 
@@ -59,9 +59,9 @@ Here, you will start the installation process and STATA17 will provide you the s
 $ sudo ./stinit
 ```
 
-Again, STATA17 will ask you for several conformations and you need to respond properly.
+Again, Stata 17 will ask you for several conformations and you need to respond properly.
 
-##### Step 5: Running STATA17 with a graphical user interface using the command
+##### Step 5: Running Stata 17 with a graphical user interface using the command
 
 ```{txt}
 $ ./xstata
@@ -129,7 +129,7 @@ f. Go to Help
 g. Update
 ```
 
-# Descriptive Statistics
+### Descriptive statistics
 
 -   `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
 
@@ -149,7 +149,7 @@ count
 sum 
 ```
 
-# Social experiment data analysis
+### Social experiment data analysis
 
 Nomenclature:
 
@@ -196,7 +196,7 @@ tabstat [var-n] , statistics(mean median sd min max count)
 
 Statistical test to check that in pre-treatment round, C and T1 have no significant differences
 
-##### `Chi2` test
+##### Chi2 test
 
 The chi-square analysis is a useful and relatively flexible tool for determining if categorical variables are related. To run a chi-square for independence, we can use the `tabulate` command. The output is simple: we are given a table of observed frequencies, followed by the chi-square value and p-value
 
@@ -204,7 +204,7 @@ The chi-square analysis is a useful and relatively flexible tool for determining
 tabulate [var-1] group, chi2, if time==1
 ```
 
-##### `Mann-Whitney` test
+##### Mann-Whitney test
 
 A non-parametric test that is used to compare two sample means that come from the same population, and used to test whether two sample means are equal or not.  Usually, the Mann-Whitney U test is used when the data is ordinal or when the assumptions of the t-test are not met.
 
