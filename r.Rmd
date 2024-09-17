@@ -55,20 +55,20 @@ The previous output of the RStudio console tells us that our three packages were
 
 In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
 
-- First, let’s check which of my packages are outdated:
+First, let’s check which of my packages are outdated:
 
 ```{txt}
 p_update(update = FALSE)  # Check for outdated packages
 ```
 
-- Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
+Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
 
-- Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
+Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
 ```{txt}
 p_update() # Update all packages
 ```
-- Quick reference table
+Quick reference table
 
 ```{txt}
 p_load		      #Loads and Install Packages
