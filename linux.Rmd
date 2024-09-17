@@ -13,9 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-
-# Partitioning hard drive
+### Partitioning hard drive
 
 ##### 1. Use `fdisk` command to delete a hard disk partition:
 
@@ -53,7 +51,7 @@ $ sudo fdisk /dev/sda
 
 - Continue this process until you delete all target partitions.
 
-# Proxy in KUT
+### Proxy in KUT
 
 ##### 1. Proxy for ubuntu
 
@@ -157,7 +155,7 @@ https_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ftp_proxy = proxy.noc.kochi-tech.ac.jp:3128
 ```
 
-# SELinux
+### SELinux
 
 SELinux (Security Enhanced Linux ) is a Linux kernel security module that allows administrators and users more control over access controls. It allows access based on SELinux policy rules. SELinux policy rules specify how processes and users interact with each other as well as how processes and users interact with files. When no SELinux policy rule explicitly allows access, such as for a process opening a file, access is denied.
 
@@ -236,7 +234,7 @@ The output should look like this:
 SELinux status:                 disabled
 ```
 
-# Gedit text editor
+### Gedit text editor
 
 - `gedit` is the official text editor of the GNOME desktop environment. While aiming at simplicity and ease of use, `gedit` is a powerful general purpose text editor.
 
@@ -258,7 +256,7 @@ $ sudo apt install snapd # For Ubuntu
 $ sudo snap install gedit
 ```
 
-# Nano text editor
+### Nano text editor
 
 GNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:
 

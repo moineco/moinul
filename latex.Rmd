@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# LaTeX packages
+### Packages
 
 #### **`alphabeta`**
 
@@ -463,7 +463,7 @@ The package starts from the basic facilities of the color package, and provides 
 \usepackage{xcolor}
 ```
 
-# Memo
+### Memo
 
 ```{}
 \(\text{PM}_{2.5}\)
