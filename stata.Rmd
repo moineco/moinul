@@ -13,9 +13,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Stata 17 installation in linux
+### Stata17 installation in linux
 
-First copy your **STATA17** source file in the **Downloads** folder of your PC.
+First copy your **Stata17** source file in the **Downloads** folder of your PC.
 
 If the file is in **.zip** format, unzip to use it. Confirm that the **.tar.gz** extension file (Linux supported installation file) is located in the **Downloads** folder.
 
@@ -51,7 +51,7 @@ $ cd /usr/local/Stata17
 $ sudo ~/Downloads/statainstall/install
 ```
 
-Here, you will start the installation process and STATA17 will provide you the steps to complete. Follow these steps one by one and complete until the end.
+Here, you will start the installation process and Stata17 will provide you the steps to complete. Follow these steps one by one and complete until the end.
 
 ##### Step 4: Configure the license file
 
@@ -59,9 +59,9 @@ Here, you will start the installation process and STATA17 will provide you the s
 $ sudo ./stinit
 ```
 
-Again, Stata 17 will ask you for several conformations and you need to respond properly.
+Again, Stata17 will ask you for several conformations and you need to respond properly.
 
-##### Step 5: Running Stata 17 with a graphical user interface using the command
+##### Step 5: Running Stata17 with a graphical user interface using the command
 
 ```{txt}
 $ ./xstata
@@ -77,7 +77,7 @@ $ sudo dnf install gtk2 # For Fedora
 
 ##### Step 6: Unity launcher and desktop file
 
--   Even after successfully installing and running *Stata*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher.
+-   Even after successfully installing and running *Stata17*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher.
 
 -   To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
 
@@ -86,10 +86,10 @@ $ sudo apt install -y gedit # For Ubuntu
 $ sudo dnf install -y gedit # For Fedora
 ```
 
--   Then we can easily fix this by creating a **.desktop** file for *Stata*.
+-   Then we can easily fix this by creating a **.desktop** file for *Stata17*.
 
 ```{txt}
-$ sudo gedit /usr/share/applications/stata17.desktop
+$ sudo gedit /usr/share/applications/Stata17.desktop
 ```
 
 -   In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
