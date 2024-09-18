@@ -13,49 +13,49 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about Economics, Mathematics, Data Science, Statistics and Future Design.
+Recommended readings to everyone who is interested about economics, mathematics, data Science, statistics and future design.
 
 ## Economics
 
 #### Microeconomics
 
-1.  Kreps, D. (2013). Microeconomic Foundations I: Choice and Competitive Markets. Princeton University Press.
+1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
 
-2.  Kreps, D. (2023). Microeconomic Foundations II: Imperfect Competition, Information, and Strategic Interaction. Princeton University Press.
+2.  Kreps, D. (2023). Microeconomic foundations II: Imperfect competition, information, and strategic interaction. Princeton University Press.
 
-3. Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and Applications. Cambridge University Press, New York.
+3. Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
 
-4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic Theory. New York: Oxford University Press.
+4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
 
 #### Econometrics
 
-1.  Wooldridge, J. (2019) Introductory Econometrics: A Modern Approach. Cengage Learning
+1.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage Learning
 
-2.  Wooldridge, J. (2010) Econometric Analysis of Cross Section and Panel Data. MIT press
+2.  Wooldridge, J. (2010) Econometric analysis of cross section and panel data. MIT press
 
-3.  Angrist, J. and Pischke, J. (2009) Mostly Harmless Econometrics: An Empiricist's Companion. Princeton University Press
+3.  Angrist, J. and Pischke, J. (2009) Mostly harmless econometrics: An empiricist's companion. Princeton University Press
 
-4.  Cameron, C. and Trivedi, P. (2022) Volume I: Cross-Sectional and Panel Regression Methods. Stata Press
+4.  Cameron, C. and Trivedi, P. (2022) Volume I: Cross-sectional and panel regression methods. Stata Press
 
-5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear Models and Causal Inference Methods. Stata Press
+5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press
 
 #### Geoeconomics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
-2.  Comber, L., and Brunsdon, C. (2020). Geographical Data Science and Spatial Data Analysis: An Introduction in R. Sage.
+2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-3.  Kopczewska, K. (2020). Applied Spatial Statistics and Econometrics: Data Analysis in R. Routledge.
+3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
 #### Experimental economics
 
-1.  Friedman, D. (1994) Experimental Methods: A Primer for Economists. Cambridge University Press
+1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press
 
-2.  Gibbons, R. (1992) Game Theory for Applied Economists. Princeton University Press
+2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press
 
 #### Environmental economics
 
-1.  Kolstad, C. (2011), Environmental Economics. New York : Oxford University Press
+1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press
 
 ## Mathematics
 
@@ -71,25 +71,25 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 #### Mathematical statistics
 
-1.  Rice, J. (2013) Mathematical Statistics and Data Analysis. Cengage learning
+1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning
 
 ## Data science
 
 #### R for data science
 
-1.  Wickham, H., and Grolemund, G. (2016). [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
+1.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
 
-2.  Llaudet, E., and Imai, K. (2022). Data Analysis for Social Science: A Friendly and Practical Introduction. Princeton University Press.
+2.  Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
 
-3.  Imai, K. (2017) Quantitative Social Science: An Introduction. Princeton University Press
+3.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press
 
-4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/).
+4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
 
 #### Python for data science
 
-1.  Heiss, F. (2016). [Using R for Introductory Econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
+1.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
-2. McKinney, W. (2022). [Python for data analysis: Data wrangling with Pandas. NumPy, and Jupyter](https://wesmckinney.com/book/).
+2. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
 ## Statistics
 
@@ -99,7 +99,7 @@ Recommended readings to everyone who is interested about Economics, Mathematics,
 
 #### Psychology
 
-1. Frankl, V. (1946) Man's Search for Meaning. 
+1. Frankl, V. (1946) Man's search for meaning. 
 
 #### Behavioral economics
 
