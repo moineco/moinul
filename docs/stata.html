@@ -473,8 +473,10 @@ f. Go to Help
 g. Update</code></pre>
 </div>
 </div>
-<div id="descriptive-statistics" class="section level3">
-<h3>Descriptive statistics</h3>
+<div id="stata-analysis" class="section level3">
+<h3>Stata analysis</h3>
+<div id="descriptive-statistics" class="section level4">
+<h4>Descriptive statistics</h4>
 <ul>
 <li><code>describe</code>: describe produces a summary of the dataset in
 memory or of the data stored in a Stata-format dataset.</li>
@@ -490,11 +492,12 @@ of all/some vars</li>
 </ul>
 <pre class="txt"><code>sum </code></pre>
 </div>
-<div id="social-experiment-data-analysis" class="section level3">
-<h3>Social experiment data analysis</h3>
+<div id="social-experiment-data-analysis" class="section level4">
+<h4>Social experiment data analysis</h4>
 <p>Nomenclature:</p>
 <p>C: Control group</p>
 <p>T: Treatment group</p>
+</div>
 <div id="step-1-summary-statistics-for-c-and-t1" class="section level4">
 <h4>Step 1: Summary statistics for C and T1</h4>
 <p>(when we have the data for three rounds: pre-treatment,
@@ -549,7 +552,7 @@ come from the same population, and used to test whether two sample means
 are equal or not.  Usually, the Mann-Whitney U test is used when the
 data is ordinal or when the assumptions of the t-test are not met.</p>
 <pre class="txt"><code>ranksum [var-1], by(group), if time==1</code></pre>
-<p>Updated on: 2024-09-17</p>
+<p>Updated on: 2024-09-18</p>
 </div>
 </div>
 </div>

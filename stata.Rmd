@@ -129,7 +129,9 @@ f. Go to Help
 g. Update
 ```
 
-### Descriptive statistics
+### Stata analysis
+
+#### Descriptive statistics
 
 -   `describe`: describe produces a summary of the dataset in memory or of the data stored in a Stata-format dataset.
 
@@ -149,7 +151,7 @@ count
 sum 
 ```
 
-### Social experiment data analysis
+#### Social experiment data analysis
 
 Nomenclature:
 
