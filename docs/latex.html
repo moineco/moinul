@@ -778,15 +778,16 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 <pre><code>\documentclass[12pt]{article}
 
 % Package
-\usepackage{alphabeta,amsfonts,amsmath,amssymb,array,arydshln,booktabs,boxedminipage,csquotes}
-\usepackage{enumerate,epsfig,epstopdf,gensymb,graphicx,indentfirst,latexsym,multirow,newfloat,nomencl}
-\usepackage{oldgerm,rotating,setspace,siunitx,subcaption,tabularx,textcomp,threeparttable,times,url,xcolor}
+\usepackage{alphabeta,amsfonts,amsmath,amssymb,array,arydshln,booktabs,boxedminipage}
+\usepackage{csquotes,enumerate,epsfig,epstopdf,gensymb,graphicx,indentfirst,latexsym}
+\usepackage{multirow,newfloat,nomencl,oldgerm,rotating, setspace,siunitx,subcaption}
+\usepackage{tabularx,textcomp,threeparttable,times,url,xcolor}
 \usepackage[affil-it]{authblk} 
+\usepackage[comma]{natbib}
+\usepackage[english]{babel}
 \usepackage[mathlines]{lineno}
 \usepackage[margin=1in]{geometry}
-\usepackage[english]{babel}
 \usepackage[noabbrev]{cleveref}
-\usepackage[comma]{natbib}
 \usepackage[normalem]{ulem}
 \usepackage[super]{nth}
 \sisetup{mode=text}
@@ -808,6 +809,8 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 \DeclareSIUnit{\bdt}{\text{BDT}}
 \DeclareSIUnit{\usd}{\text{USD}}
 \DeclareSIUnit{\kg}{\text{kg}}
+
+% New command
 \newcommand{\Cov}{\mathrm{Cov}}
 \newcommand{\Prob}{\mathrm{Prob}}
 \newcommand{\specialcell}[2][c]{%
