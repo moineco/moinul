@@ -402,6 +402,13 @@ formats.</p>
 array/tabular environments.</p>
 <pre class="txt"><code>\usepackage{arydshln}</code></pre>
 </div>
+<div id="authblk" class="section level4">
+<h4><strong><code>authblk</code></strong></h4>
+<p>The <code>authblk</code> package redefines the \author command to
+work as normal or to allow a footnote style of author/affiliation
+input.</p>
+<pre class="txt"><code>\usepackage{authblk}</code></pre>
+</div>
 <div id="babel" class="section level4">
 <h4><strong><code>babel</code></strong></h4>
 <p>The <code>babel</code> package manages culturally-determined
@@ -765,7 +772,120 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 <h3>Memo</h3>
 <pre><code>\(\text{PM}_{2.5}\)</code></pre>
 <pre><code>\num{20}</code></pre>
-<p>Updated on: 2024-09-17</p>
+</div>
+<div id="execute" class="section level3">
+<h3>Execute</h3>
+<pre><code>\documentclass[12pt]{article}
+% Package
+\usepackage{amsmath}
+\usepackage[affil-it]{authblk} 
+\usepackage[mathlines]{lineno}
+\usepackage{textcomp}
+\usepackage[margin=1in]{geometry}
+\usepackage[english]{babel}
+\usepackage{amsfonts,amssymb,array,arydshln,booktabs,boxedminipage,csquotes,newfloat,enumerate,epsfig,epstopdf}
+\usepackage{gensymb,graphicx,indentfirst,latexsym,multirow,oldgerm,rotating,setspace,tabularx,threeparttable,siunitx,times,url,xcolor}
+\usepackage{subcaption}
+\usepackage[noabbrev]{cleveref}
+\usepackage[comma]{natbib}
+\usepackage[normalem]{ulem}
+\usepackage{nomencl}
+\usepackage{alphabeta}
+\sisetup{mode=text}
+\usepackage[super]{nth}
+
+% New theorem
+\newtheorem{D}{Definition}[section]
+\newtheorem{Ex}{Example}[section]
+\newtheorem{Prop}{Proposition}%[section]
+\newtheorem{C}{Claim}
+\newtheorem{ST}{Stylized Fact}
+\newtheorem{CO}{Corollary}%[section]
+\newtheorem{A}{Assumption}%[section]
+\newtheorem{lem}{Lemma}%[section]
+\newtheorem{T}{Theorem}[section]
+\newtheorem{RE}{Result}%[section]
+
+% Declare
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareSIUnit{\bdt}{\text{BDT}}
+\DeclareSIUnit{\usd}{\text{USD}}
+\DeclareSIUnit{\kg}{\text{kg}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Prob}{\mathrm{Prob}}
+\newcommand{\specialcell}[2][c]{%
+\begin{tabular}[t]{@{}l@{}}#2\end{tabular}}
+\newcommand{\ith}{\textsuperscript{th}}
+
+% Document start
+\begin{document}
+\begin{titlepage}
+\title{Write title here}
+
+\author[1]{X}
+\author[2]{Y}
+\author[3]{Z}
+\affil[1]{\small A University}
+\affil[2]{\small B University of Technology}
+\affil[3]{\small C University}
+
+\maketitle
+\begin{abstract} Write abstract here.
+\end{abstract}
+ 
+\textbf{Key Words}: ecological footprint; sustainable development
+\end{titlepage}
+
+\newpage
+\setcounter{page}{2}
+\tableofcontents
+
+\makenomenclature
+\printnomenclature
+\nomenclature{G}{Gross}
+\nomenclature{W}{World}
+\nomenclature{S}{Sustainable}
+
+\pagebreak
+\doublespacing
+%\onehalfspacing
+\begin{linenumbers}
+
+\section{Introduction}
+\section{Method}
+\subsection{Data}
+\subsection{Model specification}
+\section{Results}
+\section{Conclusion}
+
+\section{Annex}
+
+% Numbering annex tables 
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+
+% Closing
+\end{linenumbers}
+\singlespacing
+\pagebreak
+\bibliographystyle{apalike}
+\bibliography{biblio}
+
+% Additional information after references
+\pagebreak
+
+\subsection*{Author Contributions}
+All authors contributed to the study conception and design. Material preparation, data collection and analysis were performed by X and Y. The first draft of the manuscript was written by X and Y. All authors commented on the manuscript and approved the final manuscript.
+
+\subsection*{Competing Interests}
+The authors have no relevant financial or non-financial interests to disclose.
+
+\end{document} 
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:</code></pre>
+<p>Updated on: 2024-09-19</p>
 </div>
 
 
