@@ -776,24 +776,20 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 <div id="execute" class="section level3">
 <h3>Execute</h3>
 <pre><code>\documentclass[12pt]{article}
+
 % Package
-\usepackage{amsmath}
+\usepackage{alphabeta,amsfonts,amsmath,amssymb,array,arydshln,booktabs,boxedminipage,csquotes}
+\usepackage{enumerate,epsfig,epstopdf,gensymb,graphicx,indentfirst,latexsym,multirow,newfloat,nomencl}
+\usepackage{oldgerm,rotating,setspace,siunitx,subcaption,tabularx,textcomp,threeparttable,times,url,xcolor}
 \usepackage[affil-it]{authblk} 
 \usepackage[mathlines]{lineno}
-\usepackage{textcomp}
 \usepackage[margin=1in]{geometry}
 \usepackage[english]{babel}
-\usepackage{amsfonts,amssymb,array,arydshln,booktabs,boxedminipage,csquotes}
-\usepackage{enumerate,epsfig,epstopdf,gensymb,graphicx,indentfirst,latexsym,multirow}
-\usepackage{newfloat,oldgerm,rotating,setspace,siunitx,tabularx,threeparttable,times,url,xcolor}
-\usepackage{subcaption}
 \usepackage[noabbrev]{cleveref}
 \usepackage[comma]{natbib}
 \usepackage[normalem]{ulem}
-\usepackage{nomencl}
-\usepackage{alphabeta}
-\sisetup{mode=text}
 \usepackage[super]{nth}
+\sisetup{mode=text}
 
 % New theorem
 \newtheorem{D}{Definition}[section]
@@ -823,6 +819,7 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 \begin{titlepage}
 \title{Write title here}
 
+% Author affiliation
 \author[1]{X}
 \author[2]{Y}
 \author[3]{Z}
@@ -831,6 +828,8 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 \affil[3]{\small C University}
 
 \maketitle
+
+% Abstract
 \begin{abstract} Write abstract here
 \end{abstract}
  
