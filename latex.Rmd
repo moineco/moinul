@@ -544,7 +544,8 @@ The package starts from the basic facilities of the color package, and provides 
 % Abstract
 \begin{abstract} Write abstract here
 \end{abstract}
- 
+
+% Key words 
 \textbf{Key Words}: ecological footprint; sustainable development
 \end{titlepage}
 
@@ -552,6 +553,7 @@ The package starts from the basic facilities of the color package, and provides 
 \setcounter{page}{2}
 \tableofcontents
 
+% Nomenclature
 \makenomenclature
 \printnomenclature
 \nomenclature{G}{Gross}
@@ -563,6 +565,7 @@ The package starts from the basic facilities of the color package, and provides 
 %\onehalfspacing
 \begin{linenumbers}
 
+% Main body
 \section{Introduction}
 \section{Method}
 \subsection{Data}
@@ -570,6 +573,7 @@ The package starts from the basic facilities of the color package, and provides 
 \section{Results}
 \section{Conclusion}
 
+% Annex
 \section{Annex}
 
 % Numbering annex tables 
@@ -598,6 +602,5 @@ The authors have no relevant financial or non-financial interests to disclose.
 %%% TeX-master: t
 %%% End:
 ```
-
 
 Updated on: `r Sys.Date()`
