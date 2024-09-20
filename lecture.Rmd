@@ -13,45 +13,45 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# International Trade and Finance
+# Data Science with R and Python
 
-**Section 1: Introduction to International Economics**
+**Section 1: Data Science with R**
 
--   Lecture 1: Basics of international economics
+- Lecture 1: Introduction to Data Science
 
--   Lecture 2: Introduction to international trade
+- Lecture 2: The Basics of Python and R
 
--   Lecture 3: Reasons of international trade
+- Lecture 3: Downloading RStudio and Basics of Coding in R
 
--   Lecture 4: International trade models
+- Lecture 4: Importing Packages and Getting Data into R
 
-**Section 2: International Trade Policy**
+- Lecture 5: Saving Output and Setting Up Graphics in R
 
--   Lecture 5: The instruments of trade policy
+**Section 2: Data Science with Python**
 
--   Lecture 6: The political economy of trade policy
+- Lecture 6: Downloading and Basics of Coding in Python
 
--   Lecture 7: Trade policy in developing countries: Part A
+- Lecture 7: Importing Packages and Getting Data into Python
 
--   Lecture 8: Trade policy in developing countries: Part B
+- Lecture 8: Saving Output and Setting Up Graphics in Python
+   
+**Section 3: Data Preparation**
 
-**Section 3: Open-economy Macroeconomics**
+- Lecture 9: Data preparation with R and Python
 
--   Lecture 9: Globalization, trade and environment
+- Lecture 10: Exploratory Data Analysis with R and Python
 
--   Lecture 10: Macroeconomic analysis of trade balance 
+- Lecture 11: Descriptive Regression Modeling
 
--   Lecture 11: National income accounting and the balance of payments
+- Lecture 12: Perform Multiple Regression Modeling Using Python
 
--   Lecture 12: Money, interest rates, exchange rates and the Federal Reserve
+- Lecture 13: Perform Multiple Regression Modeling Using R
 
-**Section 4: International Macroeconomic Policy**
+- Lecture 14: How to Perform Logistic Regression Using Python
 
--   Lecture 13: Economic geography
+- Lecture 15: How to Perform Logistic Regression Using R
 
--   Lecture 14: Developing countries growth, crisis and reform
 
--   Lecture 15: International trade and biodiversity
 
 # Environmental Economics
 
@@ -90,6 +90,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: Managing risk and uncertainty
 
 -   Lecture 15: Environment, growth and development
+
 
 # Future Design
 
@@ -165,42 +166,44 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 15: Population density maps
 
-# Data Science with R and Python
+# International Trade and Finance
 
-**Section 1: Data Science with R**
+**Section 1: Introduction to International Economics**
 
-- Lecture 1: Introduction to Data Science
+-   Lecture 1: Basics of international economics
 
-- Lecture 2: The Basics of Python and R
+-   Lecture 2: Introduction to international trade
 
-- Lecture 3: Downloading RStudio and Basics of Coding in R
+-   Lecture 3: Reasons of international trade
 
-- Lecture 4: Importing Packages and Getting Data into R
+-   Lecture 4: International trade models
 
-- Lecture 5: Saving Output and Setting Up Graphics in R
+**Section 2: International Trade Policy**
 
-**Section 2: Data Science with Python**
+-   Lecture 5: The instruments of trade policy
 
-- Lecture 6: Downloading and Basics of Coding in Python
+-   Lecture 6: The political economy of trade policy
 
-- Lecture 7: Importing Packages and Getting Data into Python
+-   Lecture 7: Trade policy in developing countries: Part A
 
-- Lecture 8: Saving Output and Setting Up Graphics in Python
-   
-**Section 3: Data Preparation**
+-   Lecture 8: Trade policy in developing countries: Part B
 
-- Lecture 9: Data preparation with R and Python
+**Section 3: Open-economy Macroeconomics**
 
-- Lecture 10: Exploratory Data Analysis with R and Python
+-   Lecture 9: Globalization, trade and environment
 
-- Lecture 11: Descriptive Regression Modeling
+-   Lecture 10: Macroeconomic analysis of trade balance 
 
-- Lecture 12: Perform Multiple Regression Modeling Using Python
+-   Lecture 11: National income accounting and the balance of payments
 
-- Lecture 13: Perform Multiple Regression Modeling Using R
+-   Lecture 12: Money, interest rates, exchange rates and the Federal Reserve
 
-- Lecture 14: How to Perform Logistic Regression Using Python
+**Section 4: International Macroeconomic Policy**
 
-- Lecture 15: How to Perform Logistic Regression Using R
+-   Lecture 13: Economic geography
+
+-   Lecture 14: Developing countries growth, crisis and reform
+
+-   Lecture 15: International trade and biodiversity
 
 Updated on: `r Sys.Date()`
