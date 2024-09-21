@@ -18,15 +18,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # Profile
 
-I am Dr. Moinul Islam, working as an Associate Professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree from Kyushu University in 2016.
+I am Dr. Moinul Islam, working as an Associate Professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree from Kyushu University in 2016. I am an applied economist specialising in natural disasters, agriculture, water, environmental, ecological, energy (especially renewables), and behavioral economics with a special interest in using experimental economics methods. For more than a decade, I have been conducting research by examining the impact of climate change on adaptation behavior. This work looks into what policies are there to protect vulnerable people from natural disasters. Currently, I am conducting research in the fields of applied microeconomics, climate science, economic policy, environmental economics, environmental policy, experimental economics, health economics.
+
+My resume is available from this link: [**Moinul's resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
 
 ### My vision
 
 Climate change and natural disasters pose significant threats to humankind, while human behaviors being the primary driver of the altered
 climate patterns. I envision a future where human actions foster a harmonious coexistence with nature while supporting sustainable economic
-progress. I am closely observing the profound impact of climate change and natural disasters on human life. I am conducting research in the fields of applied microeconomics, climate science, economic policy, environmental economics, environmental policy, experimental economics, health economics.
-
-My resume is available from this link: [**Moinul's resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
+progress. I am closely observing the profound impact of climate change and natural disasters on human life. 
 
 ### Affiliation
 
