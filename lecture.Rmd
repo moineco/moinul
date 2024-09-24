@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# Data Science with R and Python
+## Data Science with R and Python
 
 **Section 1: Data Science with R**
 
@@ -51,9 +51,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 15: How to Perform Logistic Regression Using R
 
-
-
-# Environmental Economics
+## Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -92,7 +90,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 15: Environment, growth and development
 
 
-# Future Design
+## Future Design
 
 **Section 1: What is Future Design**
 
@@ -128,7 +126,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 15: Environmental goods valuation
 
-# Geoeconomics with R and Python
+## Geoeconomics with R and Python
 
 **Section 1: Foundations of geographic data in R**
 
@@ -166,7 +164,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 15: Population density maps
 
-# International Trade and Finance
+## International Trade and Finance
 
 **Section 1: Introduction to International Economics**
 
