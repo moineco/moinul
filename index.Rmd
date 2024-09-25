@@ -16,11 +16,32 @@ editor_options:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-# Profile
+# Biography
 
-I am Dr. Moinul Islam, working as an Associate Professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree from Kyushu University in 2016. I am an applied economist specializing in agriculture, climate, ecological, energy, environmental, and behavioral economics with a special interest in experimental economics. For more than a decade, I have been conducting research by examining the climate change adaptation behavior in developing countries. This work looks into what policies are there to protect vulnerable people. I am conducting research in the fields of applied microeconomics, climate science, economic policy, environmental policy and health policy.
+### Background
+
+I am Dr. Moinul Islam, working as an Associate Professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree from Kyushu University in 2016. I am an applied economist specializing in agriculture, climate, ecological, energy, environmental, and behavioral economics with a special interest in experimental economics. For more than a decade, I have been conducting research by examining the climate change adaptation behavior in developing countries. This work looks into what policies are there to protect vulnerable people. 
 
 My resume is available from this link: [**Moinul's resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
+
+### Qualifications
+
+Doctor of Engineering (Economics), Kyushu University, Kyushu, Japan, 2016.
+
+Master of Arts in International Development (Economics), International University of Japan, Niigata, Japan, 2012
+
+Master of Social Science in Economics, Shahjala University of Science & Technology, Sylhet, Bangladesh, 2007
+
+Bachelor of Social Science in Economics, Shahjala University of Science & Technology, Sylhet, Bangladesh, 2006
+
+### Current Research Interests
+
+- Applied microeconomics 
+- Climate science 
+- Data Science
+- Environmental Economics
+- Health Economics
+- Spatial Economics
 
 ### My vision
 
