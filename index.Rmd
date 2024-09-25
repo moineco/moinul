@@ -121,6 +121,8 @@ and natural disasters on human life.
 
 ### Selected research projects
 
+##### Project 1
+
 |  |  |
 |----------------|--------------------------------------------------------|
 | Title | Do intergenerational transfer of environmental knowledge and self-monitoring behavior reduce indoor air pollution? |
@@ -129,6 +131,17 @@ and natural disasters on human life.
 | Project ID | [21K13290](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
 | Start year | 2021 |
 | Keywords | Indor air pollution; Field experiment; Developing country; Health policy; Economic Policy; Environmental Policy |
+
+##### Project 2
+
+|  |  |
+|----------------|--------------------------------------------------------|
+| Title | Quantify the burden of mortality from pollution on the environmental sustainability of nations |
+| Primary fund type | Grant-in-Aid for Research Activity Start-up in Environmental Evaluation |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Project ID | [19K24384](<https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/>) |
+| Start year | 2019 |
+| Keywords | Environmental Economics; Environmental Policy; Resource Economics; Development Economics; Air Pollution; Human Capital; Disaster Adaptation |
 
 ### Programs
 
