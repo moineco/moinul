@@ -20,59 +20,76 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, working as an Associate Professor at Kochi University of Technology. I have received my Ph.D. in Engineering degree from Kyushu University in 2016. I am an applied economist specializing in agriculture, climate, ecological, energy, environmental, and behavioral economics with a special interest in experimental economics. For more than a decade, I have been conducting research by examining the climate change adaptation behavior in developing countries. This work looks into what policies are there to protect vulnerable people. 
+I am Dr. Moinul Islam, working as an Associate Professor at Kochi
+University of Technology. I have received my Ph.D. in Engineering degree
+from Kyushu University in 2016. I am an applied economist specializing
+in agriculture, climate, ecological, energy, environmental, and
+behavioral economics with a special interest in experimental economics.
+For more than a decade, I have been conducting research by examining the
+climate change adaptation behavior in developing countries. This work
+looks into what policies are there to protect vulnerable people.
 
-My resume is available from this link: [**Moinul's resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
+My resume is available from this link: [**Moinul's
+resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
 
 ### Qualifications
 
-Doctor of Engineering (Economics), Kyushu University, Kyushu, Japan, 2016.
+Doctor of Engineering (Economics), Kyushu University, Kyushu, Japan,
+2016.
 
-Master of Arts in International Development (Economics), International University of Japan, Niigata, Japan, 2012
+Master of Arts in International Development (Economics), International
+University of Japan, Niigata, Japan, 2012
 
-Master of Social Science in Economics, Shahjala University of Science & Technology, Sylhet, Bangladesh, 2007
+Master of Social Science in Economics, Shahjala University of Science &
+Technology, Sylhet, Bangladesh, 2007
 
-Bachelor of Social Science in Economics, Shahjala University of Science & Technology, Sylhet, Bangladesh, 2006
+Bachelor of Social Science in Economics, Shahjala University of Science
+& Technology, Sylhet, Bangladesh, 2006
 
 ### Current Research Interests
 
-- Applied Microeconomics 
-- Climate Science 
-- Data Science
-- Environmental Economics
-- Experimental Economics
-- Resource Economics
-- Spatial Economics
+-   Applied Microeconomics
+-   Climate Science
+-   Data Science
+-   Environmental Economics
+-   Experimental Economics
+-   Resource Economics
+-   Spatial Economics
 
 ### My vision
 
-Climate change and natural disasters pose significant threats to humankind, while human behaviors being the primary driver of the altered
-climate patterns. I envision a future where human actions foster a harmonious coexistence with nature while supporting sustainable economic
-progress. I am closely observing the profound impact of climate change and natural disasters on human life. 
+Climate change and natural disasters pose significant threats to
+humankind, while human behaviors being the primary driver of the altered
+climate patterns. I envision a future where human actions foster a
+harmonious coexistence with nature while supporting sustainable economic
+progress. I am closely observing the profound impact of climate change
+and natural disasters on human life.
 
 ### Affiliation
 
--   Associate Professor, Research Institute for Future Design, Kochi University of
-    Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
+-   Associate Professor, Research Institute for Future Design, Kochi
+    University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515,
+    Japan
 
--   Associate Professor, School of Economics and Management, Kochi University of Technology,
-    2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
+-   Associate Professor, School of Economics and Management, Kochi
+    University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518,
+    Japan
 
--   Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka
-    819-0395, Japan
+-   Research Fellow, Urban Institute, Kyushu University, 744 Motooka,
+    Nishi-ku, Fukuoka 819-0395, Japan
 
 ### Profile links
 
 -   [Web of
     Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
-    
+
 -   [Kochi University of
-    Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) 
-    
+    Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
+
 -   [Google
-    Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) 
-    
--   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) 
+    Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
+
+-   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
 
 -   [Research Map](https://researchmap.jp/moinul/?lang=english)
 
@@ -102,14 +119,16 @@ progress. I am closely observing the profound impact of climate change and natur
 -   2012, Research Assistant, Graduate School of Environmental Studies,
     Tohoku University, Sendai, Japan
 
-### Projects
+### Selected research projects
 
--   United Nations Environmental Program (UNEP)
-
--   Research Institute of Economy, Trade and Industry (RIETI)
-
--   Strategic Energy and Resource Management and Sustainable Solutions
-    (SERMS), Tohoku University
+|  |  |
+|----------------|--------------------------------------------------------|
+| Title | Do intergenerational transfer of environmental knowledge and self-monitoring behavior reduce indoor air pollution? |
+| Primary fund type | Grant-in-Aid for Early-Career Scientists in Economic Policy |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Project ID | [21K13290](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
+| Start year | 2021 |
+| Keywords | Indor air pollution; Field experiment; Developing country; Health policy; Economic Policy; Environmental Policy |
 
 ### Programs
 
