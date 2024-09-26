@@ -119,7 +119,7 @@ and natural disasters on human life.
 
 ### Selected research projects
 
-##### Project 1
+::: {#tbl-panel layout-ncol=2}
 
 |  |  |
 |----------------|--------------------------------------------------------|
@@ -130,7 +130,7 @@ and natural disasters on human life.
 | Start year | 2021 |
 | Keywords | Indor air pollution; Field experiment; Developing country; Health policy; Economic Policy; Environmental Policy |
 
-##### Project 2
+: Project 1
 
 |  |  |
 |----------------|--------------------------------------------------------|
@@ -140,6 +140,10 @@ and natural disasters on human life.
 | Project ID | [19K24384](<https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/>) |
 | Start year | 2019 |
 | Keywords | Environmental Economics; Environmental Policy; Resource Economics; Development Economics; Air Pollution; Human Capital; Disaster Adaptation |
+
+: Project 2
+
+:::
 
 ### Programs
 
