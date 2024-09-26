@@ -2,7 +2,7 @@ name: "Moinul"
 navbar:
   title: "Moinul Islam"
   left:
-    - text: "Profile"
+    - text: "Biography"
       href: index.html
     - text: "Research"
       href: research.html

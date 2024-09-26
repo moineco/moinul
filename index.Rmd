@@ -1,5 +1,5 @@
 ---
-title: ''
+title: "Biography"
 output:
   html_document:
     toc: true
@@ -15,8 +15,6 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
-
-# Biography
 
 ### Background
 
