@@ -22,7 +22,8 @@ I am Dr. Moinul Islam, working as an Associate Professor at Kochi
 University of Technology. I have received my Ph.D. in Engineering degree
 from Kyushu University in 2016. I am an applied economist specializing
 in agriculture, climate, ecological, energy, environmental, and
-behavioral economics with a special interest in experimental economics. My passion is using field experiments to explore economic questions.
+behavioral economics with a special interest in experimental economics. 
+My passion is using field experiments to explore economic questions.
 For more than a decade, I have been conducting research by examining the
 climate change adaptation behavior in developing countries. This work
 looks into what policies are there to protect vulnerable people.
@@ -46,13 +47,7 @@ Bachelor of Social Science in Economics, Shahjala University of Science
 
 ### Current research interests
 
--   Applied Microeconomics
--   Climate Science
--   Data Science
--   Environmental Economics
--   Experimental Economics
--   Resource Economics
--   Spatial Economics
+Applied Microeconomics, Climate Science, Data Science, Environmental Economics, Experimental Economics, Field Experiment, Resource Economics, Spatial Economics, Health Economics
 
 ### My vision
 
@@ -76,26 +71,15 @@ and natural disasters on human life.
 -   Research Fellow, Urban Institute, Kyushu University, 744 Motooka,
     Nishi-ku, Fukuoka 819-0395, Japan
 
-### Profile links
+### Links of my profile
 
--   [Web of
-    Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
-
--   [Kochi University of
-    Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
-
--   [Google
-    Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
-
--   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
-
--   [Research Map](https://researchmap.jp/moinul/?lang=english)
-
--   [ORCID](https://orcid.org/0000-0002-0309-3156)
-
--   [Github](https://github.com/moineco)
-
--   [Linkedin](https://www.linkedin.com/in/moinul-islam-b7a140263/)
+[Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019), 
+[Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html), 
+[Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400),
+[Research Map](https://researchmap.jp/moinul/?lang=english),
+[ORCID](https://orcid.org/0000-0002-0309-3156),
+[Github](https://github.com/moineco)
 
 ### Work experiences
 
@@ -126,7 +110,7 @@ and natural disasters on human life.
 | Title | Do intergenerational transfer of environmental knowledge and self-monitoring behavior reduce indoor air pollution? |
 | Primary fund type | Grant-in-Aid for Early-Career Scientists in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
-| Project ID | [21K13290](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
+| Project ID | [**21K13290**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
 | Start year | 2021 |
 | Keywords | Indor air pollution; Field experiment; Developing country; Health policy; Economic Policy; Environmental Policy |
 
@@ -137,7 +121,7 @@ and natural disasters on human life.
 | Title | Quantify the burden of mortality from pollution on the environmental sustainability of nations |
 | Primary fund type | Grant-in-Aid for Research Activity Start-up in Environmental Evaluation |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
-| Project ID | [19K24384](<https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/>) |
+| Project ID | [**19K24384**](<https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/>) |
 | Start year | 2019 |
 | Keywords | Environmental Economics; Environmental Policy; Resource Economics; Development Economics; Air Pollution; Human Capital; Disaster Adaptation |
 
