@@ -77,7 +77,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 31. **Islam, M.**, and Kotani, K. (2016). Changing seasonality in Bangladesh. *Regional Environmental Change*, 16, 585--590. [Q2] (<https://doi.org/10.1007/s10113-015-0758-5>)
 
-## International policy reports (peer-review)
+## Policy reports (peer-review)
 
 1.  Inclusive wealth report 2023. United Nation Environmental Program (UNEP). [link](https://wedocs.unep.org/handle/20.500.11822/43131)
 
