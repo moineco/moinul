@@ -45,7 +45,7 @@ Technology, Sylhet, Bangladesh, 2007
 Bachelor of Social Science in Economics, Shahjala University of Science
 & Technology, Sylhet, Bangladesh, 2006
 
-### Current research interests
+### Research interests
 
 Applied Microeconomics, Climate Science, Data Science, Environmental Economics, Experimental Economics, Field Experiment, Resource Economics, Spatial Economics, Health Economics
 
@@ -101,7 +101,7 @@ and natural disasters on human life.
 -   2012, Research Assistant, Graduate School of Environmental Studies,
     Tohoku University, Sendai, Japan
 
-### Selected research projects
+### Selected projects
 
 ::: {#tbl-panel layout-ncol=2}
 
