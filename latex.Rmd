@@ -489,6 +489,33 @@ To get the table number with A that starts in Apendix section:
 \renewcommand{\thetable}{A\arabic{table}}
 ```
 
+To get the table or figure number according to your interest:
+- For table  `\renewcommand\thetable{A8}` will be the trick.
+
+```{}
+\begin{table}
+ \renewcommand\thetable{A8}
+  \begin{center}\caption{Definitions of the variables}\label{database}
+    \begin{threeparttable}
+      \scriptsize{
+        \begin{tabular}{lllll}\toprule
+```
+
+- For figure, `\renewcommand\thefigure{A9}` will be the trick.
+
+```{}
+\begin{figure}
+ \renewcommand\thefigure{A8}
+  \begin{center}
+    \begin{tabular}{cc}
+      \subcaptionbox{\label{Figure_4_a}Adaptation number}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_a}}}}
+      &
+      \subcaptionbox{\label{Figure_4_b}Adaptation indicator}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_b}}}}
+    \end{tabular}
+    \caption{\label{Figure:4}Boxplots for the number of adaptations (AdaptNum) and the adaptation indicator (AdaptInd)}
+  \end{center}
+\end{figure}
+```
 
 ### Execute
 

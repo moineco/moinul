@@ -776,6 +776,29 @@ tints, shades, tones, and mixes of arbitrary colors.</p>
 <pre><code>\section{Appendix}
 \setcounter{table}{0}
 \renewcommand{\thetable}{A\arabic{table}}</code></pre>
+<p>To get the table or figure number according to your interest: - For
+table <code>\renewcommand\thetable{A8}</code> will be the trick.</p>
+<pre><code>\begin{table}
+ \renewcommand\thetable{A8}
+  \begin{center}\caption{Definitions of the variables}\label{database}
+    \begin{threeparttable}
+      \scriptsize{
+        \begin{tabular}{lllll}\toprule</code></pre>
+<ul>
+<li>For figure, <code>\renewcommand\thefigure{A9}</code> will be the
+trick.</li>
+</ul>
+<pre><code>\begin{figure}
+ \renewcommand\thefigure{A8}
+  \begin{center}
+    \begin{tabular}{cc}
+      \subcaptionbox{\label{Figure_4_a}Adaptation number}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_a}}}}
+      &amp;
+      \subcaptionbox{\label{Figure_4_b}Adaptation indicator}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_b}}}}
+    \end{tabular}
+    \caption{\label{Figure:4}Boxplots for the number of adaptations (AdaptNum) and the adaptation indicator (AdaptInd)}
+  \end{center}
+\end{figure}</code></pre>
 </div>
 <div id="execute" class="section level3">
 <h3>Execute</h3>
