@@ -481,6 +481,15 @@ The package starts from the basic facilities of the color package, and provides 
 \num{20}
 ```
 
+To get the table number with A that starts in Apendix section:
+
+```{}
+\section{Appendix}
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+```
+
+
 ### Execute
 
 ```{}
