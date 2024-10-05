@@ -473,17 +473,13 @@ The package starts from the basic facilities of the color package, and provides 
 
 ### Memo
 
-```{}
+```{txt}
 \(\text{PM}_{2.5}\)
-```
-
-```{}
-\num{20}
 ```
 
 #### To get the table number with A that starts in Apendix section:
 
-```{}
+```{txt}
 \section{Appendix}
 \setcounter{table}{0}
 \renewcommand{\thetable}{A\arabic{table}}
@@ -491,9 +487,9 @@ The package starts from the basic facilities of the color package, and provides 
 
 #### To get the table or figure numbers according to your interest:
 
-- For table  `\renewcommand\thetable{A1}` will be the trick.
+- For table,  `\renewcommand\thetable{A1}` is the trick.
 
-```{}
+```{txt}
 \begin{table}
  \renewcommand\thetable{A1}
   \begin{center}\caption{Definitions of the variables}\label{database}
@@ -502,9 +498,9 @@ The package starts from the basic facilities of the color package, and provides 
         \begin{tabular}{lllll}\toprule
 ```
 
-- For figure, `\renewcommand\thefigure{A2}` will be the trick.
+- For figure, `\renewcommand\thefigure{A2}` is the trick.
 
-```{}
+```{txt}
 \begin{figure}
  \renewcommand\thefigure{A2}
   \begin{center}
@@ -520,7 +516,7 @@ The package starts from the basic facilities of the color package, and provides 
 
 ### Execute
 
-```{}
+```{txt}
 \documentclass[12pt]{article}
 
 % Package
