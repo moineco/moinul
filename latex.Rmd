@@ -490,29 +490,29 @@ To get the table number with A that starts in Apendix section:
 ```
 
 To get the table or figure number according to your interest:
-- For table  `\renewcommand\thetable{A8}` will be the trick.
+- For table  `\renewcommand\thetable{A1}` will be the trick.
 
 ```{}
 \begin{table}
- \renewcommand\thetable{A8}
+ \renewcommand\thetable{A1}
   \begin{center}\caption{Definitions of the variables}\label{database}
     \begin{threeparttable}
       \scriptsize{
         \begin{tabular}{lllll}\toprule
 ```
 
-- For figure, `\renewcommand\thefigure{A9}` will be the trick.
+- For figure, `\renewcommand\thefigure{A2}` will be the trick.
 
 ```{}
 \begin{figure}
- \renewcommand\thefigure{A8}
+ \renewcommand\thefigure{A2}
   \begin{center}
     \begin{tabular}{cc}
-      \subcaptionbox{\label{Figure_4_a}Adaptation number}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_a}}}}
+      \subcaptionbox{\label{Figure_2_a}Adaptation}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_2_a}}}}
       &
-      \subcaptionbox{\label{Figure_4_b}Adaptation indicator}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_4_b}}}}
+      \subcaptionbox{\label{Figure_2_b}Mitigation}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_2_b}}}}
     \end{tabular}
-    \caption{\label{Figure:4}Boxplots for the number of adaptations (AdaptNum) and the adaptation indicator (AdaptInd)}
+    \caption{\label{Figure:2}Boxplots}
   \end{center}
 \end{figure}
 ```
