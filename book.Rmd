@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about economics, mathematics, data Science, statistics and future design.
+Recommended readings to everyone who is interested about data science, economics, future design, mathematics, and statistics.
 
 ## Data science
 
@@ -35,16 +35,6 @@ Recommended readings to everyone who is interested about economics, mathematics,
 
 ## Economics
 
-#### Microeconomics
-
-1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
-
-2.  Kreps, D. (2023). Microeconomic foundations II: Imperfect competition, information, and strategic interaction. Princeton University Press.
-
-3. Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
-
-4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
-
 #### Econometrics
 
 1.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage Learning.
@@ -57,6 +47,16 @@ Recommended readings to everyone who is interested about economics, mathematics,
 
 5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
 
+#### Environmental economics
+
+1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
+
+#### Experimental economics
+
+1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
+
+2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
+
 #### Geoeconomics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
@@ -65,25 +65,25 @@ Recommended readings to everyone who is interested about economics, mathematics,
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-#### Experimental economics
+#### Microeconomics
 
-1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
+1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
 
-2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
+2.  Kreps, D. (2023). Microeconomic foundations II: Imperfect competition, information, and strategic interaction. Princeton University Press.
 
-#### Environmental economics
+3. Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
 
-1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
+4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
 
 ## Future design
-
-#### Psychology
-
-1. Frankl, V. (1946) Man's search for meaning. 
 
 #### Behavioral economics
 
 1. Daniel, K. (2017). Thinking, fast and slow.
+
+#### Psychology
+
+1. Frankl, V. (1946) Man's search for meaning. 
 
 ## Mathematics
 
@@ -91,15 +91,15 @@ Recommended readings to everyone who is interested about economics, mathematics,
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
+#### Mathematical statistics
+
+1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning.
+
 #### Vector calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
 2.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
-
-#### Mathematical statistics
-
-1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning.
 
 ## Statistics
 
