@@ -18,15 +18,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, working as an Associate Professor at Kochi
-University of Technology. I have received my Ph.D. in Engineering degree
-from Kyushu University in 2016. I am an applied economist specializing
-in agriculture, climate, ecological, energy, environmental, and
-behavioral economics with a special interest in experimental economics. 
-My passion is using field experiments to explore economic questions.
-For more than a decade, I have been conducting research by examining the
-climate change adaptation behavior in developing countries. This work
-looks into what policies are there to protect vulnerable people.
+I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Ph.D. from Kyushu University in 2016. As an applied economist, my expertise spans agriculture, climate, ecological, energy, environmental, and behavioral economics, with a particular focus on experimental economics. My research passion lies in utilizing field experiments to address critical economic questions, especially those related to climate change. For over a decade, I have been actively researching climate change adaptation, particularly in developing countries, examining how policies can better protect vulnerable populations. I am deeply engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and am committed to finding solutions through evidence-based economic policies.
 
 My resume is available from this link: [**Moinul's
 resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
@@ -55,8 +47,7 @@ Climate change and natural disasters pose significant threats to
 humankind, while human behaviors being the primary driver of the altered
 climate patterns. I envision a future where human actions foster a
 harmonious coexistence with nature while supporting sustainable economic
-progress. I am closely observing the profound impact of climate change
-and natural disasters on human life.
+progress. 
 
 ### Affiliation
 
