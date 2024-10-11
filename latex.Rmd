@@ -477,7 +477,7 @@ The package starts from the basic facilities of the color package, and provides 
 \(\text{PM}_{2.5}\)
 ```
 
-#### To get the table number with A that starts in Apendix section:
+#### Manipulate table number in Apendix section:
 
 ```{txt}
 \section{Appendix}
@@ -485,7 +485,7 @@ The package starts from the basic facilities of the color package, and provides 
 \renewcommand{\thetable}{A\arabic{table}}
 ```
 
-#### To get the table or figure numbers according to your interest:
+#### Manipulate table or figure numbers according to your interest:
 
 - For table,  `\renewcommand\thetable{A1}` is the trick.
 
