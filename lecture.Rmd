@@ -15,7 +15,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Data Science for Economics
 
-**Section 1: Data Science with R**
+**Section 1: Data preparation with R**
 
 - Lecture 1: Introduction to Data Science
 
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 5: Saving Output and Setting Up Graphics in R
 
-**Section 2: Data Science with Python**
+**Section 2: Data preparation with Python**
 
 - Lecture 6: Downloading and Basics of Coding in Python
 
@@ -35,7 +35,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 8: Saving Output and Setting Up Graphics in Python
    
-**Section 3: Data Preparation**
+**Section 3: Regression with R and Python**
 
 - Lecture 9: Data preparation with R and Python
 
@@ -90,7 +90,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 15: Environment, growth and development
 
 
-## Future Design
+## Future Design 
 
 **Section 1: What is Future Design**
 
