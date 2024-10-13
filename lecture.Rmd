@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-## Data Science with R and Python
+## Data Science for Economics
 
 **Section 1: Data Science with R**
 
@@ -126,7 +126,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 15: Environmental goods valuation
 
-## Geoeconomics with R and Python
+## Geoeconomics
 
 **Section 1: Foundations of geographic data in R**
 
