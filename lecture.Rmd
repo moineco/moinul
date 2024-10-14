@@ -18,87 +18,55 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 **Section 1: Data preparation with R**
 
 - Lecture 1: Introduction to data science
-
 - Lecture 2: The basics of Python and R
-
 - Lecture 3: Downloading RStudio and basics of coding in R
-
 - Lecture 4: Importing packages and getting data into R
-
 - Lecture 5: Saving output and setting up graphics in R
 
 **Section 2: Data preparation with Python**
 
 - Lecture 6: Downloading and basics of coding in Python
-
 - Lecture 7: Importing packages and getting data into Python
-
 - Lecture 8: Saving output and setting up graphics in Python
    
 **Section 3: Regressions with R and Python**
 
 - Lecture 9: Summary statistics
-
 - Lecture 10: Scatter plot, box plot and histogram
-
 - Lecture 11: Probit and logit models 
-
 - Lecture 12: Topics in causal inference
-
 - Lecture 13: Topics in spatial data science 
-
 - Lecture 14: Topics in Bayesian econometrics 
-
 - Lecture 15: Topics in machine learning 
 
 [**References:**]{.underline}
 
-   1. Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. CENGAGE. 
-   2. Cameron, A. and Trivedi, P. (2022). Microeconometrics using STATA. College Station, Stata Press. 
-   3. Heiss, F. (2016). Using R for introductory econometrics. Available at http://www.urfie.net/ 
-   4. Heiss, F. and Brunner, D. (2020). Using Python for introductory econometrics. Available at http://www.upfie.net/
-   5. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
-   6. Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
-   7. Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
-   8. Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
-   9. Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
+   1. Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. CENGAGE.
 
 ## Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
 -   Lecture 1: The environment and economics
-
 -   Lecture 2: Normative and positive economic analysis
-
 -   Lecture 3: Social choice: How much environmental protection?
-
 -   Lecture 4: Efficiency and markets
-
 -   Lecture 5: Market failure: Public goods, public bads and externalities
-
 -   Lecture 6: Making decisions about environmental programs
-
 -   Lecture 7: Demand for environmental goods
-
 -   Lecture 8: Hedonic price methods
 
 **Section 2: Regulating Pollution**
 
 -   Lecture 9: Regulating pollution
-
 -   Lecture 10: Emission prices and fees
-
 -   Lecture 11: Property rights
-
 -   Lecture 12: Audits, enforcement and moral hazard
-
 -   Lecture 13: Voluntary actions and agreements
 
 **Section 3: Advanced Topics**
 
 -   Lecture 14: Managing risk and uncertainty
-
 -   Lecture 15: Environment, growth and development
 
 [**References:**]{.underline}
@@ -110,130 +78,89 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 **Section 1: What is Future Design**
 
 -   Lecture 1: Introduction to future design
-
 -   Lecture 2: Future design: Combination of three academic disciplines
-
 -   Lecture 3: Future design: From the perspective of economics
-
 -   Lecture 4: Future studies
-
 -   Lecture 5: Scenario planning
-
 -   Lecture 6: Originality of future design
 
 **Section 2: Future Design and Sustainable Development**
 
 -   Lecture 7: Population growth and well-being
-
 -   Lecture 8: The environment and economics
-
 -   Lecture 9: The quality of the environment
-
 -   Lecture 10: Globalization and the environment
-
 -   Lecture 11: Market failure: Public goods, public bads and externalities
-
 -   Lecture 12: Future failures: Disruption of $C$ cycle and $N$ cycle
-
 -   Lecture 13: The economics of biodiversity
-
 -   Lecture 14: The economics of climate change
-
 -   Lecture 15: Environmental goods valuation
 
 [**References:**]{.underline}
 
 1. Daniel, K. (2017). Thinking, fast and slow.
-2. Frankl, V. (1946) Man's search for meaning. 
 
 ## Geoeconomics
 
 **Section 1: Foundations of geographic data in R**
 
 - Lecture 1: R packages for GIS
-
 - Lecture 2: Processing shapefiles in R
-
 - Lecture 3: Basic maps with R
-
 - Lecture 4: Part 1_spatial data operations
-
 - Lecture 5: Part 2_spatial data operations
 
 **Section 2: Extensions and intermediate techniques in R**
 
 - Lecture 6: Part 1_World map
-
 - Lecture 7: Part 2_World map
-
 - Lecture 8: Part 1_Japan regional map
-
 - Lecture 9: Part 2_Japan regional map
-
 - Lecture 10: Part 1_United States regional map
-
 - Lecture 11: Part 2_United States regional map
 
 **Section 3: Applications, to real-world problems**
 
 - Lecture 12: Part 1_Geospatial data analysis
-
 - Lecture 13: Part 2_Geospatial data analysis
-
 - Lecture 14: Part 3_Geospatial data analysis
-
 - Lecture 15: Part 4_Geospatial data analysis
 
 [**References:**]{.underline}
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
-2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
-3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
 ## International Economics
 
 **Section 1: Introduction to International Economics**
 
 -   Lecture 1: Basics of international economics
-
 -   Lecture 2: Introduction to international trade
-
 -   Lecture 3: Reasons of international trade
-
 -   Lecture 4: International trade models
 
 **Section 2: International Trade Policy**
 
 -   Lecture 5: The instruments of trade policy
-
 -   Lecture 6: The political economy of trade policy
-
 -   Lecture 7: Trade policy in developing countries: Part A
-
 -   Lecture 8: Trade policy in developing countries: Part B
 
 **Section 3: Open-economy Macroeconomics**
 
 -   Lecture 9: Globalization, trade and environment
-
 -   Lecture 10: Macroeconomic analysis of trade balance 
-
 -   Lecture 11: National income accounting and the balance of payments
-
 -   Lecture 12: Money, interest rates, exchange rates and the Federal Reserve
 
 **Section 4: International Macroeconomic Policy**
 
 -   Lecture 13: Economic geography
-
 -   Lecture 14: Developing countries growth, crisis and reform
-
 -   Lecture 15: International trade and biodiversity
 
 [**References:**]{.underline}
 
 1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
-2. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International trade : Theory and policy. Boston: Pearson Education
-3. Krugman, P., Obstfeld, M., Melitz, M. (2017). International finance : Theory and policy.
 
 Updated on: `r Sys.Date()`
