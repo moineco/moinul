@@ -17,39 +17,39 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 1: Data preparation with R**
 
-- Lecture 1: Introduction to Data Science
+- Lecture 1: Introduction to data science
 
-- Lecture 2: The Basics of Python and R
+- Lecture 2: The basics of Python and R
 
-- Lecture 3: Downloading RStudio and Basics of Coding in R
+- Lecture 3: Downloading RStudio and basics of coding in R
 
-- Lecture 4: Importing Packages and Getting Data into R
+- Lecture 4: Importing packages and getting data into R
 
-- Lecture 5: Saving Output and Setting Up Graphics in R
+- Lecture 5: Saving output and setting up graphics in R
 
 **Section 2: Data preparation with Python**
 
-- Lecture 6: Downloading and Basics of Coding in Python
+- Lecture 6: Downloading and basics of coding in python
 
-- Lecture 7: Importing Packages and Getting Data into Python
+- Lecture 7: Importing packages and getting data into Python
 
-- Lecture 8: Saving Output and Setting Up Graphics in Python
+- Lecture 8: Saving output and setting up graphics in Python
    
-**Section 3: Regression with R and Python**
+**Section 3: Regressions with R and Python**
 
-- Lecture 9: Data preparation with R and Python
+- Lecture 9: Summary statistics
 
-- Lecture 10: Exploratory Data Analysis with R and Python
+- Lecture 10: Scatter plot, box plot and histogram
 
-- Lecture 11: Descriptive Regression Modeling
+- Lecture 11: Probit and logit models 
 
-- Lecture 12: Perform Multiple Regression Modeling Using Python
+- Lecture 12: Topics in causal inference
 
-- Lecture 13: Perform Multiple Regression Modeling Using R
+- Lecture 13: Topics in spatial data science 
 
-- Lecture 14: How to Perform Logistic Regression Using Python
+- Lecture 14: Topics in Bayesian econometrics 
 
-- Lecture 15: How to Perform Logistic Regression Using R
+- Lecture 15: Topics in machine learning 
 
 ## Environmental Economics
 
