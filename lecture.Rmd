@@ -29,7 +29,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 2: Data preparation with Python**
 
-- Lecture 6: Downloading and basics of coding in python
+- Lecture 6: Downloading and basics of coding in Python
 
 - Lecture 7: Importing packages and getting data into Python
 
@@ -50,6 +50,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture 14: Topics in Bayesian econometrics 
 
 - Lecture 15: Topics in machine learning 
+
+[**References:**]{.underline}
+
+   1. Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. CENGAGE. 
+   2. Cameron, A. and Trivedi, P. (2022). Microeconometrics using STATA. College Station, Stata Press. 
+   3. Heiss, F. (2016). Using R for introductory econometrics. Available at http://www.urfie.net/ 
+   4. Heiss, F. and Brunner, D. (2020). Using Python for introductory econometrics. Available at http://www.upfie.net/
 
 ## Environmental Economics
 
@@ -132,35 +139,35 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 1: R packages for GIS
 
-- Lecture 2: Processing Shapefiles in R
+- Lecture 2: Processing shapefiles in R
 
-- Lecture 3: Making maps with R
+- Lecture 3: Basic maps with R
 
-- Lecture 4: Part 1_Spatial data operations
+- Lecture 4: Part 1_spatial data operations
 
-- Lecture 5: Part 2_Spatial data operations
+- Lecture 5: Part 2_spatial data operations
 
 **Section 2: Extensions and intermediate techniques in R**
 
-- Lecture 6: Part 1_Making map of Tokyo
+- Lecture 6: Part 1_Tokyo map
 
-- Lecture 7: Part 2_Making map of Tokyo
+- Lecture 7: Part 2_Tokyo map
 
-- Lecture 8: Part 1_Making map of World
+- Lecture 8: Part 1_World map
 
-- Lecture 9: Part 2_Making map of World
+- Lecture 9: Part 2_World map
 
-- Lecture 10: Part 1_Plotting U.S.A. Map
+- Lecture 10: Part 1_United States map
 
-- Lecture 11: Part 2_Plotting U.S.A. Map
+- Lecture 11: Part 2_United States map
 
 **Section 3: Applications, to real-world problems**
 
-- Lecture 12: Part 1_Spatial analysis using sf
+- Lecture 12: Part 1_spatial analysis using `sf`
 
-- Lecture 13: Part 2_Spatial analysis using sf
+- Lecture 13: Part 2_spatial analysis using `sf`
 
-- Lecture 14: Part 3_Spatial analysis using sf
+- Lecture 14: Part 3_spatial analysis using `sf`
 
 - Lecture 15: Population density maps
 
