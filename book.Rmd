@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Recommended readings to everyone who is interested about data science, economics, future design, mathematics, and statistics.
 
-## Data science
+## Data Science for Economics
 
 #### Python for data science
 
@@ -23,7 +23,7 @@ Recommended readings to everyone who is interested about data science, economics
 
 #### R for data science
 
-1.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
+1.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly.
 2.  Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
 3.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
 4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
