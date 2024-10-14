@@ -39,7 +39,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture 14: Topics in Bayesian econometrics 
 - Lecture 15: Topics in machine learning 
 
-[**References:**]{.underline}
+[**Textbooks:**]{.underline}
 
    1. Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. CENGAGE.
 
@@ -69,7 +69,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: Managing risk and uncertainty
 -   Lecture 15: Environment, growth and development
 
-[**References:**]{.underline}
+[**Textbooks:**]{.underline}
 
 1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
 
@@ -96,7 +96,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: The economics of climate change
 -   Lecture 15: Environmental goods valuation
 
-[**References:**]{.underline}
+[**Textbooks:**]{.underline}
 
 1. Daniel, K. (2017). Thinking, fast and slow.
 
@@ -119,14 +119,14 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture 10: Part 1_United States regional map
 - Lecture 11: Part 2_United States regional map
 
-**Section 3: Applications, to real-world problems**
+**Section 3: Applications to real-world problems**
 
 - Lecture 12: Part 1_Geospatial data analysis
 - Lecture 13: Part 2_Geospatial data analysis
 - Lecture 14: Part 3_Geospatial data analysis
 - Lecture 15: Part 4_Geospatial data analysis
 
-[**References:**]{.underline}
+[**Textbooks:**]{.underline}
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
@@ -159,7 +159,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: Developing countries growth, crisis and reform
 -   Lecture 15: International trade and biodiversity
 
-[**References:**]{.underline}
+[**Textbooks:**]{.underline}
 
 1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
 
