@@ -190,7 +190,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-## International Trade and Finance
+## International Economics
 
 **Section 1: Introduction to International Economics**
 
