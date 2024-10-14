@@ -57,6 +57,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
    2. Cameron, A. and Trivedi, P. (2022). Microeconometrics using STATA. College Station, Stata Press. 
    3. Heiss, F. (2016). Using R for introductory econometrics. Available at http://www.urfie.net/ 
    4. Heiss, F. and Brunner, D. (2020). Using Python for introductory econometrics. Available at http://www.upfie.net/
+   5. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
+   6. Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly Media, Inc.
+   7. Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
+   8. Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
+   9. Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
 
 ## Environmental Economics
 
@@ -96,6 +101,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 15: Environment, growth and development
 
+[**References:**]{.underline}
+
+1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
 
 ## Future Design 
 
@@ -132,6 +140,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: The economics of climate change
 
 -   Lecture 15: Environmental goods valuation
+
+[**References:**]{.underline}
+
+1. Daniel, K. (2017). Thinking, fast and slow.
+2. Frankl, V. (1946) Man's search for meaning. 
 
 ## Geoeconomics
 
@@ -170,6 +183,12 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 - Lecture 14: Part 3_spatial analysis using `sf`
 
 - Lecture 15: Population density maps
+
+[**References:**]{.underline}
+
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
+2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
+3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
 ## International Trade and Finance
 
@@ -210,5 +229,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 14: Developing countries growth, crisis and reform
 
 -   Lecture 15: International trade and biodiversity
+
+[**References:**]{.underline}
+
+1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
+2. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International trade : Theory and policy. Boston: Pearson Education
+3. Krugman, P., Obstfeld, M., Melitz, M. (2017). International finance : Theory and policy.
 
 Updated on: `r Sys.Date()`

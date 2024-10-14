@@ -65,6 +65,14 @@ Recommended readings to everyone who is interested about data science, economics
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
+#### International Economics
+
+1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
+
+2. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International trade : Theory and policy.
+
+3. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International finance : Theory and policy. Boston: Pearson Education
+
 #### Microeconomics
 
 1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
