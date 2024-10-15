@@ -464,22 +464,18 @@ You can access it by going to the URL provided by Heroku.</p>
 computer and reported Python version in runtime.txt might be different.
 In that case, you might not be able to rung the oTree program in
 computer. To get rid from it, you can remove the runtime.txt from your
-Pycharm.</p>
+PyCharm.</p>
 </div>
 <div id="necessary-settings-of-heroku-to-run-small-experiment"
 class="section level4">
 <h4>Necessary settings of Heroku to run small experiment</h4>
-<blockquote>
 <p>Go to <strong>Resources</strong> tab. Following Add-ons need to be
 included for a small size experiment (For instance, 30 participants in
 one session).</p>
-</blockquote>
 <pre class="txt"><code>Heroku Data for Redis ..... Premium 0
 Heroku Postgres ........... Basic</code></pre>
-<blockquote>
 <p>Go to <strong>Settings</strong> tab. Click on <strong>Reveal Config
 Vars</strong>. Ensure that you have following Key and Value.</p>
-</blockquote>
 <pre class="txt"><code>Key........................Value
 OTREE_ADMIN_PASSWORD.......set any password
 OTREE_AUTH_LEVEL...........Demo
@@ -491,7 +487,7 @@ class="section level4">
 <pre class="txt"><code>heroku restart;heroku pg:reset DATABASE --confirm appname</code></pre>
 <p>Note: “appname” should be replaced with the custom application
 name</p>
-<p>Updated on: 2024-10-11</p>
+<p>Updated on: 2024-10-15</p>
 </div>
 </div>
 
