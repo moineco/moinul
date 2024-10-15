@@ -22,7 +22,7 @@ I am Dr. Moinul Islam, currently an Associate Professor at Kochi
 University of Technology. I earned my Ph.D. from Kyushu University in
 2016. As an applied economist, my expertise spans agriculture, climate,
 ecological, energy, environmental, and behavioral economics, with a
-particular focus on experimental economics. My research focuses on applying economic models to address critical policy challenges, particularly in the area of intergenerational sustainability. **I have extensive experience in designing, collecting, and analyzing data from laboratory, field, social, and survey experiments to address my research questions. In addition, I am highly skilled in analyzing secondary data, including cross-sectional, time series, spatial, and panel data, employing advanced econometric techniques to derive robust insights for my research.** For over a decade, I have
+particular focus on experimental economics. My research focuses on applying economic models to address critical policy challenges, particularly in the area of intergenerational sustainability. **I have experience in designing, collecting, and analyzing data from laboratory, field, social, and survey experiments to address my research questions. In addition, I am skilled in analyzing secondary data, including cross-sectional, time series, spatial, and panel data, employing advanced econometric techniques to derive robust insights for my research.** For over a decade, I have
 been actively researching climate change adaptation, particularly in
 developing countries, examining how policies can better protect
 vulnerable populations. I am deeply engaged in understanding the
@@ -35,9 +35,9 @@ resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
 
 ### Qualifications
 
--   Doctor of Engineering (Economics), Kyushu University, Kyushu, Japan, 2016
+-   Doctor of Engineering (Applied Economics), Kyushu University, Kyushu, Japan, 2016
 
--   Master of Arts in International Development (Economics),
+-   Master of Arts in International Development (Applied Economics),
     International University of Japan, Niigata, Japan, 2012
 
 -   Master of Social Science in Economics, Shahjala University of
@@ -111,6 +111,11 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 
 -   Use occasionally: ArcGIS, QGIS, EViews, oTree
 
+### Language
+
+-   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali
+    (Native)
+
 ### Selected projects
 
 ::: {#tbl-panel layout-ncol="2"}
@@ -121,7 +126,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**21K13290**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
 | Start year | 2021 |
-| Keywords | Indoor air pollution; Field experiment; Developing country; Health policy; Economic Policy; Environmental Policy |
+| Keywords | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
 
 : Project 1
 
@@ -132,15 +137,10 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**19K24384**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/) |
 | Start year | 2019 |
-| Keywords | Environmental Economics; Environmental Policy; Resource Economics; Development Economics; Air Pollution; Human Capital; Disaster Adaptation |
+| Keywords | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
 
 : Project 2
 :::
-
-### Language
-
--   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali
-    (Native)
 
 ### Contact
 
