@@ -1,0 +1,165 @@
+---
+title: "Linux"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Partitioning hard drive
+
+##### 1. Use `fdisk` command to delete a hard disk partition:
+
+`fdisk` also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. `fdisk` allows you to create a maximum of four primary partitions and the number of logical partition depends on the size of the hard disk you are using. 
+
+##### 2.  View all disk partitions:
+
+The first thing to do before doing any thing with the disks and partition is to view basic details about all available partition in the system.
+
+```{txt}
+$ sudo fdisk -l
+```
+
+##### 3.  View partition on a specific disk: 
+
+Below command is used to view all disk partitions on device /dev/sda.
+
+```{txt}
+$ sudo fdisk -l /dev/sda
+```
+
+##### 4.  Delete a hard disk partition:
+
+To delete a partition for the hard disk and free up space occupied by that partition for example /dev/sda. Go to the command menu using following:
+
+```{txt}
+$ sudo fdisk /dev/sda
+```
+
+- And then type `d` to go to the delete partition menu. It will prompt the partition number you want to delete (type the number).
+
+- Again type `d` to delete the specific partition.
+
+- Run `w` command to write the changes and reboot the system.
+
+- Continue this process until you delete all target partitions.
+
+### SELinux
+
+SELinux (Security Enhanced Linux ) is a Linux kernel security module that allows administrators and users more control over access controls. It allows access based on SELinux policy rules. SELinux policy rules specify how processes and users interact with each other as well as how processes and users interact with files. When no SELinux policy rule explicitly allows access, such as for a process opening a file, access is denied.
+
+SELinux has three modes:
+
+- Enforcing: SELinux allows access based on SELinux policy rules.
+- Permissive: SELinux only logs actions that would have been denied if running in enforcing mode.
+- Disabled: No SELinux policy is loaded.
+
+It is recommended to keep SELinux in enforcing mode, but in some cases, you may need to set it to a permissive mode or disable it completely. In this tutorial, I will show you how to disable SELinux on CentOS 7 systems.
+
+##### 1. Check the SELinux status
+
+```{txt}
+$ sestatus
+```
+
+Output
+
+```{txt}
+SELinux status:                 enabled
+SELinuxfs mount:                /sys/fs/selinux
+SELinux root directory:         /etc/selinux
+Loaded policy name:             targeted
+Current mode:                   enforcing
+Mode from config file:          enforcing
+Policy MLS status:              enabled
+Policy deny_unknown status:     allowed
+Max kernel policy version:      31
+```
+
+You can see from the output above that SELinux is enabled and set to enforcing mode.
+
+##### 2. Disable SELinux
+
+You can temporarily change the SELinux mode from targeted to permissive with the following command:
+
+```{txt}
+$ sudo setenforce 0
+```
+
+However, this change is valid for the current runtime session only. To permanently disable SELinux on your CentOS 7 system, follow the steps below:
+
+##### 3. Pemanently Disable SELinux
+
+3.1 Open the /etc/selinux/config file and set the SELINUX mod to disabled:
+
+```{txt}
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#       enforcing - SELinux security policy is enforced.
+#       permissive - SELinux prints warnings instead of enforcing.
+#       disabled - No SELinux policy is loaded.
+SELINUX=disabled
+# SELINUXTYPE= can take one of these two values:
+#       targeted - Targeted processes are protected,
+#       mls - Multi Level Security protection.
+SELINUXTYPE=targeted
+```
+
+3.2 Save the file and reboot your CentOS system with:
+
+```{txt}
+$ sudo shutdown -r now
+```
+
+3.3 Once the system boots up, verify the change with the sestatus command:
+
+```{txt}
+$ sestatus
+```
+
+The output should look like this:
+
+```{txt}
+SELinux status:                 disabled
+```
+
+### Gedit text editor
+
+- `gedit` is the official text editor of the GNOME desktop environment. While aiming at simplicity and ease of use, `gedit` is a powerful general purpose text editor.
+
+- Whether you are writing the next bestseller, programming an innovative application, or simply taking some quick notes, `gedit` will be a reliable tool to accomplish your task.
+
+- Its flexible plugin system allows you to tailor the application to your needs and adapt it to your workflow.
+
+- Install easily by using terminal.
+
+```{txt}
+$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora
+```
+
+- Alternatively, snapd can be installed from the command line:
+
+```{txt}
+$ sudo apt install snapd # For Ubuntu
+$ sudo snap install gedit
+```
+
+### Nano text editor
+
+GNU nano (or we call it “nano”) is a simple terminal-based text editor. Some shortcuts include:
+
+```{txt}
+Ctrl + X to exit
+Ctrl + O to write (or save as)
+Alt + U to undo last action
+```
+
+Updated on: `r Sys.Date()`

@@ -16,8 +16,6 @@ navbar:
       href: python.html
     - text: "Stata"
       href: stata.html
-    - text: "Linux"
-      href: linux.html
     - text: "LaTeX"
       href: latex.html
 output_dir: "docs"
