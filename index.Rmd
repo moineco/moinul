@@ -18,7 +18,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Ph.D. from Kyushu University in 2016. As an applied economist, my expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based economic policies.
+I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Doctor of Engineering (equivalent to Ph.D.
+in Environmental Engineering) degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based economic policies.
 
 I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. For over a decade, I have been actively researching climate change adaptation, particularly in developing countries, examining how economic policies can better protect vulnerable populations. 
 
@@ -26,7 +27,7 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 
 ### Qualifications
 
--   Doctor of Engineering (Applied Economics), Kyushu University, Kyushu, Japan, 2016
+-   Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering), Kyushu University, Kyushu, Japan, 2016
 
 -   Master of Arts in International Development (Applied Economics),
     International University of Japan, Niigata, Japan, 2012
