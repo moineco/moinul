@@ -40,7 +40,7 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 
 ### Research interests
 
-Agricultural Economics, Climate Change, Environmental Economics, Experimental Economics, Field
+Agricultural Economics, Climate Change, Data Science, Environmental Economics, Experimental Economics, Field
 Experiment, International Economics, Natural Disaster Adaptation
 
 ### My vision
