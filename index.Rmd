@@ -38,10 +38,9 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 -   Bachelor of Social Science in Economics, Shahjala University of
     Science and Technology, Sylhet, Bangladesh, 2006
 
-### Research interests
+### Recent research interests
 
-Agricultural Economics, Climate Change, Data Science, Environmental Economics, Experimental Economics, Field
-Experiment, International Economics, Natural Disaster Adaptation, Public Policy
+AI Governance, Climate Change, Data Science, Environmental Economics, Field Experiment, Machine Learning, Public Policy
 
 ### My vision
 
