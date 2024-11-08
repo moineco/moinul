@@ -14,7 +14,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
 ## Data Science for Economics
-#### [Applied Econometrics]
 
 **Section 1: Data preparation with R**
 
@@ -103,7 +102,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
 
 ## Future Design 
-#### [Intergenerational Sustainability]
 
 **Section 1: What is Future Design**
 
@@ -143,8 +141,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1. Daniel, K. (2017). Thinking, fast and slow.
 
-## Geoeconomics
-#### [Data Science for Spatial Economics]
+## Data Science for Spatial Economics
 
 **Section 1: Foundations of geographic data in R**
 
@@ -184,12 +181,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
 
 2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 ## International Economics
-#### [International Trade and Finance]
 
 **Section 1: Introduction to International Economics**
 
