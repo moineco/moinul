@@ -12,6 +12,49 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
+## AI Governance and Public Policy
+
+**Section 1: General overview**
+
+- Lecture 1: Introduction to AI governance 
+
+- Lecture 2: Ethics of AI
+
+- Lecture 3: AI and public policy
+
+**Section 2: Socioeconomic perspective**
+
+- Lecture 4: Data privacy and surveillance
+
+- Lecture 5: Bias, fairness, and accountability 
+
+- Lecture 6: Global perspectives on AI governance
+
+- Lecture 7: AI in public services and administration
+
+- Lecture 8: Law enforcement and AI
+
+- Lecture 9: AI and social justice
+
+**Section 3: Environmental perspective**
+
+- Lecture 10: Regulatory frameworks for AI in environmental policy
+
+- Lecture 11: AI and public-private partnerships in environmental policy
+
+- Lecture 12: AI in energy policy and sustainable development
+
+- Lecture 13: Future directions in AI and environmental policy
+
+- Lecture 14: AI and intergenerational sustainability
+
+- Lecture 15: Course review and future directions
+
+[**Textbooks:**]{.underline}
+
+1. Muller, V. (2022). AI Ethics and Governance: Navigating the Regulatory Landscape. Palgrave Macmillan.
+
+2. Russell, S., and Norvig, P. (2020). Artificial Intelligence: A Modern Approach (Chapters on societal implications and policy).
 
 ## Data Science for Economics
 
@@ -141,7 +184,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1. Daniel, K. (2017). Thinking, fast and slow.
 
-## Data Science for Spatial Economics
+## Geoeconomics
 
 **Section 1: Foundations of geographic data in R**
 
@@ -181,7 +224,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
 2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
