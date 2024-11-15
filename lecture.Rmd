@@ -54,7 +54,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1. Muller, V. (2022). AI Ethics and Governance: Navigating the Regulatory Landscape. Palgrave Macmillan.
 
-2. Russell, S., and Norvig, P. (2020). Artificial Intelligence: A Modern Approach (Chapters on societal implications and policy).
+2. Russell, S., and Norvig, P. (2020). Artificial Intelligence: A Modern Approach.  Pearson Education.
 
 ## Data Science for Economics
 
