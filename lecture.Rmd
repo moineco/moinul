@@ -184,50 +184,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1. Daniel, K. (2017). Thinking, fast and slow.
 
-## Geoeconomics
-
-**Section 1: Foundations of geographic data in R**
-
-- Lecture 1: R packages for GIS
-
-- Lecture 2: Processing shapefiles in R
-
-- Lecture 3: Basic maps with R
-
-- Lecture 4: Part 1_spatial data operations
-
-- Lecture 5: Part 2_spatial data operations
-
-**Section 2: Extensions and intermediate techniques in R**
-
-- Lecture 6: Part 1_World map
-
-- Lecture 7: Part 2_World map
-
-- Lecture 8: Part 1_Japan regional map
-
-- Lecture 9: Part 2_Japan regional map
-
-- Lecture 10: Part 1_United States regional map
-
-- Lecture 11: Part 2_United States regional map
-
-**Section 3: Applications to real-world problems**
-
-- Lecture 12: Part 1_Geospatial data analysis
-
-- Lecture 13: Part 2_Geospatial data analysis
-
-- Lecture 14: Part 3_Geospatial data analysis
-
-- Lecture 15: Part 4_Geospatial data analysis
-
-[**Textbooks:**]{.underline}
-
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
-
-2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
-
 ## International Economics
 
 **Section 1: Introduction to International Economics**
@@ -273,5 +229,49 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
 
 2. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International trade: Theory and policy. Boston: Pearson Education
+
+## Spatial Economics
+
+**Section 1: Foundations of geographic data in R**
+
+- Lecture 1: R packages for GIS
+
+- Lecture 2: Processing shapefiles in R
+
+- Lecture 3: Basic maps with R
+
+- Lecture 4: Part 1_spatial data operations
+
+- Lecture 5: Part 2_spatial data operations
+
+**Section 2: Extensions and intermediate techniques in R**
+
+- Lecture 6: Part 1_World map
+
+- Lecture 7: Part 2_World map
+
+- Lecture 8: Part 1_Japan regional map
+
+- Lecture 9: Part 2_Japan regional map
+
+- Lecture 10: Part 1_United States regional map
+
+- Lecture 11: Part 2_United States regional map
+
+**Section 3: Applications to real-world problems**
+
+- Lecture 12: Part 1_Geospatial data analysis
+
+- Lecture 13: Part 2_Geospatial data analysis
+
+- Lecture 14: Part 3_Geospatial data analysis
+
+- Lecture 15: Part 4_Geospatial data analysis
+
+[**Textbooks:**]{.underline}
+
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+
+2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 Updated on: `r Sys.Date()`
