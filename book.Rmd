@@ -15,27 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Recommended readings to everyone who is interested about data science, economics, future design, mathematics, and statistics.
 
-## Data Science for Economics
-
-#### Python for data science
-
-1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
-
-#### R for data science
-
-1.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly.
-
-2.  Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
-
-3.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
-
-4.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
-
-5.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
-
-## Economics
-
-#### Econometrics
+## Econometrics
 
 1.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage Learning.
 
@@ -47,17 +27,17 @@ Recommended readings to everyone who is interested about data science, economics
 
 5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
 
-#### Environmental economics
+## Environmental Economics
 
 1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
 
-#### Experimental economics
+## Experimental Economics
 
 1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
 
 2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-#### Geoeconomics
+## Geoeconomics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
@@ -65,15 +45,15 @@ Recommended readings to everyone who is interested about data science, economics
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-#### International Economics
+## International Economics
 
-1. Krugman, P. (2018). International economics: Theory and policy. New York: Prentice Hall.
+1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
 
-2. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International trade: Theory and policy. Boston: Pearson Education
+2. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International trade: Theory and policy. Boston: Pearson Education
 
-3. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International finance: Theory and policy. Boston: Pearson Education
+3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
 
-#### Microeconomics
+## Microeconomics
 
 1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
 
@@ -83,34 +63,40 @@ Recommended readings to everyone who is interested about data science, economics
 
 4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
 
-## Future design
+## Public Economics
 
-#### Behavioral economics
+1. Gruber, J. (2018). Public Finance and Public Policy ($6^{th}$ Edition), Worth Publishers.
 
-1. Daniel, K. (2017). Thinking, fast and slow.
+## Data Science
 
-#### Psychology
+1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
-1. Frankl, V. (1946) Man's search for meaning. 
+2.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly.
 
-## Mathematics
+3.  Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
 
-#### Linear algebra
+4.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
+
+5.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
+
+6.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
+
+## Linear Algebra
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-#### Mathematical statistics
+## Mathematical Statistics
 
 1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning.
 
-#### Vector calculus
+## Vector Calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
 2.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
 
-## Statistics
+## Business Statistics
 
-1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics (5th Edition). Wiley.
+1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics ($5^{th}$ Edition). Wiley.
 
 Updated on: `r Sys.Date()`
