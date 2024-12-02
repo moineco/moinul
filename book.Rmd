@@ -15,7 +15,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Recommended readings to everyone who is interested about data science, economics, future design, mathematics, and statistics.
 
-## Econometrics
+## 1. Microeconomics
+
+1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
+
+2.  Kreps, D. (2023). Microeconomic foundations II: Imperfect competition, information, and strategic interaction. Princeton University Press.
+
+3.  Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
+
+4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
+
+## 2. Public Economics
+
+1. Gruber, J. (2018). Public Finance and Public Policy ($6^{th}$ Edition), Worth Publishers.
+
+## 3. Environmental Economics
+
+1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
+
+## 4. Econometrics
 
 1.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage Learning.
 
@@ -27,25 +45,7 @@ Recommended readings to everyone who is interested about data science, economics
 
 5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
 
-## Environmental Economics
-
-1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
-
-## Experimental Economics
-
-1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
-
-2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
-
-## Geoeconomics
-
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
-
-2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
-
-3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
-
-## International Economics
+## 5. International Economics
 
 1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
 
@@ -53,21 +53,21 @@ Recommended readings to everyone who is interested about data science, economics
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
 
-## Microeconomics
+## 6. Experimental Economics
 
-1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
+1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
 
-2.  Kreps, D. (2023). Microeconomic foundations II: Imperfect competition, information, and strategic interaction. Princeton University Press.
+2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-3.  Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
+## 7. Spatial Economics
 
-4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
+1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
-## Public Economics
+2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-1. Gruber, J. (2018). Public Finance and Public Policy ($6^{th}$ Edition), Worth Publishers.
+3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-## Data Science
+## 8. Data Science
 
 1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
@@ -81,21 +81,21 @@ Recommended readings to everyone who is interested about data science, economics
 
 6.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
-## Linear Algebra
+## 9. Linear Algebra
 
 1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
 
-## Mathematical Statistics
+## 10. Mathematical Statistics
 
 1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning.
 
-## Vector Calculus
+## 11. Vector Calculus
 
 1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
 
 2.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
 
-## Business Statistics
+## 13. Business Statistics
 
 1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics ($5^{th}$ Edition). Wiley.
 
