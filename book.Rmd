@@ -23,11 +23,13 @@ Recommended readings to everyone who is interested about data science, economics
 
 3.  Cameron, A. and Trivedi, P. (2005) Microeconometrics: Methods and applications. Cambridge University Press, New York.
 
-4.  Mas-Colell, A., Whinston, M., and Green, J. (1995). Microeconomic theory. New York: Oxford University Press.
+4.  Nicholson, W., and Snyder, C. (2016). Microeconomic theory: Basic principles and extension (12th Edition). Cengage Learning.
+
+5.  Varian, H. (2016). Intermediate microeconomics: A modern approach (9th Edition). WW Norton & Company.
 
 ## 2. Public Economics
 
-1. Gruber, J. (2018). Public Finance and Public Policy ($6^{th}$ Edition), Worth Publishers.
+1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
 ## 3. Environmental Economics
 
@@ -80,23 +82,5 @@ Recommended readings to everyone who is interested about data science, economics
 5.  Wickham, H., Navarro, D., and Pedersen, T. (2023) [ggplot2: Elegant graphics for data analysis (3e)](https://ggplot2-book.org/).
 
 6.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
-
-## 9. Linear Algebra
-
-1.  Lay, D. (2022). Linear algebra and its applications. Pearson Education Limited.
-
-## 10. Mathematical Statistics
-
-1.  Rice, J. (2013) Mathematical statistics and data analysis. Cengage learning.
-
-## 11. Vector Calculus
-
-1.  Marsden, J. and Tromba, A. (2012). Vector calculus. Macmillan.
-
-2.  Thomas, G., Finney, R., Weir, M., and Giordano, F. (2018). Thomas' calculus. Reading: Addison-Wesley.
-
-## 13. Business Statistics
-
-1. Wonnacott, T., Wonnacott, R. (2010) Introductory statistics ($5^{th}$ Edition). Wiley.
 
 Updated on: `r Sys.Date()`
