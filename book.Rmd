@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about data science, economics, future design, mathematics, and statistics.
+Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, experimental economics, spatial economics, and data science.
 
 ## 1. Microeconomics
 
