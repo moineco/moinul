@@ -53,7 +53,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
+1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
 ## Public Policy
 
@@ -143,11 +143,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
+1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education.
 
-2. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International trade: Theory and policy. Boston: Pearson Education
+2. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International trade: Theory and policy. Boston: Pearson Education.
 
-3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
+3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
 ## Spatial Economics
 
@@ -233,7 +233,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1.  Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. CENGAGE.
+1.  Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. Cengage.
 
 2.  Angrist, J. and Pischke, J. (2009) Mostly harmless econometrics: An empiricist's companion. Princeton University Press.
    
