@@ -21,7 +21,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 2: Normative and positive economic analysis
 
--   Lecture 3: Social choice: How much environmental protection?
+-   Lecture 3: Social choice: Environmental protection
 
 -   Lecture 4: Efficiency and markets
 
@@ -267,7 +267,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 11: Market failure: Public goods, public bads and externalities
 
--   Lecture 12: Future failures: Disruption of $C$ cycle and $N$ cycle
+-   Lecture 12: Future failures: Disruption of C-cycle and N-cycle
 
 -   Lecture 13: The economics of biodiversity
 
