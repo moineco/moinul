@@ -13,7 +13,47 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-## Environmental Economics
+## 1. Principles of Economics
+
+-   Lecture 1: Economics foundations and models
+
+-   Lecture 2: Trade-offs, comparative advantage, and the market system
+
+-   Lecture 3: Comparative advantage and the gains from international trade
+
+-   Lecture 4: The interaction of demand and supply
+
+-   Lecture 5:  Economic efficiency, government price setting, and tax externalities
+
+-   Lecture 6:  Environmental policy and public goods
+
+-   Lecture 7:  Elasticity- the responsiveness of demand and supply
+
+-   Lecture 8:  Monopoly
+
+-   Lecture 9:  GDP- measuring total production and income
+
+-   Lecture 10:  Unemployment and inflation
+
+-   Lecture 11:  Economic growth, the financial system, and business cycles
+
+-   Lecture 12:  Aggregate expenditure and output in the short run
+
+-   Lecture 13:  Aggregate demand and aggregate supply analysis
+
+-   Lecture 14:  Money, banks, and the federal reserve system monetary policy
+
+-   Lecture 15:  Overview the government spending and tax multipliers
+
+[**Textbooks:**]{.underline}
+
+1. Acemoglu, D., Laibson, D., and List, J. (2022). Economics (3rd Edition). Pearson Education.
+
+2. Samuelson, P., and Nordhaus, W. (2020). Economics (20th Edition). McGraw-Hill Education.
+
+3. Mankiw, N. (2024). Principles of Economics (10th Edition). Cengage Learning. 
+
+## 2. Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -55,7 +95,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
-## Public Policy
+## 3. Public Policy
 
 **Section 1: Introduction and Background**
 
@@ -101,7 +141,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-## International Economics
+## 4. International Economics
 
 **Section 1: Introduction to International Economics**
 
@@ -149,7 +189,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-## Spatial Economics
+## 5. Spatial Economics
 
 **Section 1: Foundations of geographic data in R**
 
@@ -193,7 +233,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-## Data Science for Economics
+## 6. Data Science for Economics
 
 **Section 1: Data preparation with R**
 
@@ -239,7 +279,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
    
 3.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
 
-## Future Design 
+## 7. Future Design 
 
 **Section 1: What is Future Design**
 
