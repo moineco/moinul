@@ -57,49 +57,49 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Public Policy
 
-**Section 1: General overview**
+**Section 1: Introduction and Background**
 
 - Lecture 1: Introduction to public policy
 
-- Lecture 2: Ethics of AI
+- Lecture 2: Budget analysis and deficit financing
 
-- Lecture 3: AI and public policy
+**Section 2: Externalities and Public Goods**
 
-**Section 2: Socioeconomic perspective**
+- Lecture 3: Externalities: Problems and solutions
 
-- Lecture 4: Data privacy and surveillance
+- Lecture 4: Externalities in action: Environmental and health externalities
 
-- Lecture 5: Bias, fairness, and accountability 
+- Lecture 5: Public goods and cost-benefit analysis
 
-- Lecture 6: Global perspectives on AI governance
+- Lecture 6: State and local government expenditures
 
-- Lecture 7: AI in public services and administration
+- Lecture 7: Education
 
-- Lecture 8: Law enforcement and AI
+**Section 3: Social Insurance and Redistribution**
 
-- Lecture 9: AI and social justice
+- Lecture 8: Social insurance: The new function of government
 
-**Section 3: Environmental perspective**
+- Lecture 9: Social security, unemployment insurance, disability insurance, and workers’ compensation
 
-- Lecture 10: Regulatory frameworks for AI in environmental policy
+- Lecture 10: Health insurance I: Health economics and private health insurance
 
-- Lecture 11: AI and public-private partnerships in environmental policy
+- Lecture 11: Health insurance II: Medicare, medicaid, and health care reform
 
-- Lecture 12: AI in energy policy and sustainable development
+- Lecture 12: Income distribution and welfare programs
 
-- Lecture 13: Future directions in AI and environmental policy
+**Section 4: Taxation in Theory and Practice**
 
-- Lecture 14: AI and intergenerational sustainability
+- Lecture 13: Taxation: How it works and what it means
 
-- Lecture 15: Course review and future directions
+- Lecture 14: Taxation of business income
+
+- Lecture 15: Fundamental tax reform and consumption taxation
 
 [**Textbooks:**]{.underline}
 
 1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
-
-3. Russell, S., and Norvig, P. (2020). Artificial Intelligence: A Modern Approach. Pearson Education.
 
 ## International Economics
 
