@@ -189,21 +189,21 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-## 5. Spatial Economics
+## 5. Geoeconomics
 
-**Section 1: Foundations of geographic data in R**
+**Section 1: Foundations of geographic data in R and Python**
 
-- Lecture 1: R packages for GIS
+- Lecture 1: R and Python packages for GIS
 
-- Lecture 2: Processing shapefiles in R
+- Lecture 2: Processing shapefiles in R and Python
 
-- Lecture 3: Basic maps with R
+- Lecture 3: Basic maps with R and Python
 
 - Lecture 4: Part 1_spatial data operations
 
 - Lecture 5: Part 2_spatial data operations
 
-**Section 2: Extensions and intermediate techniques in R**
+**Section 2: Extensions and intermediate techniques in R and Python**
 
 - Lecture 6: Part 1_World map
 
