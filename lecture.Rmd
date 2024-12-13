@@ -289,25 +289,27 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 3: Future design: From the perspective of economics
 
--   Lecture 4: Future studies
-
--   Lecture 5: Scenario planning
-
--   Lecture 6: Originality of future design
-
 **Section 2: Future Design and Sustainable Development**
 
--   Lecture 7: Population growth and well-being
+-   Lecture 4: Population growth and well-being
 
--   Lecture 8: The environment and economics
+-   Lecture 5: The environment and economics
 
--   Lecture 9: The quality of the environment
+-   Lecture 6: The quality of the environment
 
--   Lecture 10: Globalization and the environment
+-   Lecture 7: Globalization and the environment
 
--   Lecture 11: Market failure: Public goods, public bads and externalities
+-   Lecture 8: Market failure: Public goods, public bads and externalities
 
--   Lecture 12: Future failures: Disruption of C-cycle and N-cycle
+-   Lecture 9: Future failures: Disruption of C-cycle and N-cycle
+
+**Section 3: Future Design and Public Policy**
+
+-   Lecture 10: Public goods and cost-benefit analysis
+
+-   Lecture 11: State and local government expenditures
+
+-   Lecture 12: Income distribution and welfare programs
 
 -   Lecture 13: The economics of biodiversity
 
@@ -317,6 +319,10 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1. Daniel, K. (2017). Thinking, fast and slow.
+1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
+
+2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
+
+3. Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
 Updated on: `r Sys.Date()`
