@@ -27,11 +27,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 6:  Environmental policy and public goods
 
--   Lecture 7:  Elasticity- the responsiveness of demand and supply
+-   Lecture 7:  Elasticity-the responsiveness of demand and supply
 
 -   Lecture 8:  Monopoly
 
--   Lecture 9:  GDP- measuring total production and income
+-   Lecture 9:  GDP-measuring total production and income
 
 -   Lecture 10:  Unemployment and inflation
 
