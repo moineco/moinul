@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Sharofiddinov, H., **Islam, M.**, Kotani, K. (2025). Adaptation indicator to climate change and farm sizes in agriculture: A reflection of farming culture and history. *Ecological Indicators*, 170, 112976. [Q1] (<https://doi.org/10.1016/j.ecolind.2024.112976>)
 
-2.  Managi, S., **Islam, M.\*** , Zhang, D., and Flammer, C. (2025). Nature positive strategy with social and economic policy. *Sustainability Science*, (forthcoming). [Q1]
+2.  Managi, S., **Islam, M.\*** , Zhang, D., and Flammer, C. (2024). Nature positive strategy with social and economic policy. *Sustainability Science*, (forthcoming). [Q1] (<https://doi.org/10.1007/s11625-024-01606-2>)
 
 3.  **Islam, M.**, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation. *Economic Analysis and Policy*, 81, 34--44. [Q1] (<https://doi.org/10.1016/j.eap.2023.11.001>)
 
