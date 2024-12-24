@@ -116,7 +116,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 | Primary fund type | Grant-in-Aid for Early-Career Scientists in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**21K13290**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
-| Start year | 2021 |
+| Project Period | 2021 - 2025 |
 | Keywords | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
 
 : Project 1
@@ -127,7 +127,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
 | Primary fund type | Grant-in-Aid for Research Activity Start-up in Environmental Evaluation |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**19K24384**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/) |
-| Start year | 2019 |
+| Project Period | 2019 - 2022 |
 | Keywords | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
 
 : Project 2
