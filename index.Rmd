@@ -98,7 +98,7 @@ Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en),
     
 ### Programs
 
--   Use regularly: R, Python, STATA, LaTex, GNU Emacs
+-   Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
 
 -   Use occasionally: ArcGIS, QGIS, EViews, oTree
 
