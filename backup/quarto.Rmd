@@ -9,11 +9,3 @@ output:
     toc_depth: 3
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-# Quarto within RStudio
-
-RStudio includes support for editing and preview of Quarto documents. 
-
