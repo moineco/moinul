@@ -186,7 +186,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Working papers
 
-1.  Nasu, Y., Tawhidul, I., **Islam, M.**, and Kotani, K. Intragenerational inequality and intergenerational sustain- ability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
+1.  Nasu, Y., Tawhidul, I., **Islam, M.**, and Kotani, K. Intragenerational inequality and intergenerational sustainability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
 
 2.  Rahman, M., Asma, K., **Islam, M.**, and Kotani, K. Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns, Working Papers [SDES-2024-5](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-5.pdf), Kochi University of Technology, School of Economics and Management, 2024.
 
