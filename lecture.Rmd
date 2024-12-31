@@ -3,7 +3,7 @@ title: "Lecture"
 output: 
  html_document:
     highlight: monochrome
-    theme: flatly
+    theme: darkly
     toc: true
     toc_float: true
     collapsed: false
