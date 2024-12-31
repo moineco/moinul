@@ -13,10 +13,10 @@
 
 <title>Stata</title>
 
-<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -33,8 +33,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -45,18 +43,92 @@
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
   }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { font-weight: bold; } /* Alert */
+code span.an { font-style: italic; } /* Annotation */
+code span.cf { font-weight: bold; } /* ControlFlow */
+code span.co { font-style: italic; } /* Comment */
+code span.cv { font-style: italic; } /* CommentVar */
+code span.do { font-style: italic; } /* Documentation */
+code span.dt { text-decoration: underline; } /* DataType */
+code span.er { font-weight: bold; } /* Error */
+code span.in { font-style: italic; } /* Information */
+code span.kw { font-weight: bold; } /* Keyword */
+code span.pp { font-weight: bold; } /* Preprocessor */
+code span.wa { font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
 </script>
-
-
 
 
 
@@ -374,28 +446,35 @@ id="step-1-create-the-installation-directory-and-change-location-into-it"
 class="section level5">
 <h5>Step 1: Create the installation directory, and change location into
 it</h5>
-<pre class="txt"><code>$ cd Downloads</code></pre>
-<pre class="txt"><code>$ mkdir statainstall</code></pre>
-<pre class="txt"><code>$ tar -xvzf Stata17Linux64.tar.gz -C statainstall</code></pre>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>$ cd Downloads</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>$ mkdir statainstall</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>$ tar -xvzf Stata17Linux64.tar.gz -C statainstall</span></code></pre></div>
 </div>
 <div
 id="step-2-create-the-installation-directory-and-change-location-into-it"
 class="section level5">
 <h5>Step 2: Create the installation directory, and change location into
 it</h5>
-<pre class="txt"><code>$ sudo mkdir /usr/local/Stata17</code></pre>
-<pre class="txt"><code>$ cd /usr/local/Stata17</code></pre>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>$ sudo mkdir /usr/local/Stata17</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>$ cd /usr/local/Stata17</span></code></pre></div>
 </div>
 <div id="step-3-run-the-install-script" class="section level5">
 <h5>Step 3: Run the install script</h5>
-<pre class="txt"><code>$ sudo ~/Downloads/statainstall/install</code></pre>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>$ sudo ~/Downloads/statainstall/install</span></code></pre></div>
 <p>Here, you will start the installation process and Stata17 will
 provide you the steps to complete. Follow these steps one by one and
 complete until the end.</p>
 </div>
 <div id="step-4-configure-the-license-file" class="section level5">
 <h5>Step 4: Configure the license file</h5>
-<pre class="txt"><code>$ sudo ./stinit</code></pre>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>$ sudo ./stinit</span></code></pre></div>
 <p>Again, Stata17 will ask you for several conformations and you need to
 respond properly.</p>
 </div>
@@ -404,14 +483,16 @@ id="step-5-running-stata17-with-a-graphical-user-interface-using-the-command"
 class="section level5">
 <h5>Step 5: Running Stata17 with a graphical user interface using the
 command</h5>
-<pre class="txt"><code>$ ./xstata</code></pre>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>$ ./xstata</span></code></pre></div>
 <ul>
 <li>If you have a problem to execute the above code, you need to install
 <code>gtk2</code></li>
 <li>You can install by:</li>
 </ul>
-<pre class="txt"><code>$ sudo apt install gtk2 # For Ubuntu
-$ sudo dnf install gtk2 # For Fedora</code></pre>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a>$ sudo apt install gtk2 # For Ubuntu</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>$ sudo dnf install gtk2 # For Fedora</span></code></pre></div>
 </div>
 <div id="step-6-unity-launcher-and-desktop-file" class="section level5">
 <h5>Step 6: Unity launcher and desktop file</h5>
@@ -424,30 +505,33 @@ I am using <code>gedit</code> which is the official text editor of the
 GNOME desktop environment. If your PC don’t contain it, you can install
 easily by using terminal.</p></li>
 </ul>
-<pre class="txt"><code>$ sudo apt install -y gedit # For Ubuntu
-$ sudo dnf install -y gedit # For Fedora</code></pre>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a>$ sudo apt install -y gedit # For Ubuntu</span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a>$ sudo dnf install -y gedit # For Fedora</span></code></pre></div>
 <ul>
 <li>Then we can easily fix this by creating a <strong>.desktop</strong>
 file for <em>Stata17</em>.</li>
 </ul>
-<pre class="txt"><code>$ sudo gedit /usr/share/applications/Stata17.desktop</code></pre>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a>$ sudo gedit /usr/share/applications/Stata17.desktop</span></code></pre></div>
 <ul>
 <li>In this newly-created file just copy and paste the following,
 obviously adjusting it if you have a different version or flavor of
 <em>Stata</em>:</li>
 </ul>
-<pre class="txt"><code>[Desktop Entry]
-Version=17
-Terminal=false
-Icon=/usr/local/Stata17/stata17.png
-Type=Application
-Categories=Education;Scientific;
-Exec=/usr/local/Stata17/xstata
-Name=Stata/BE 17
-Comment=Perform statistical analyses using Stata.
-StartupNotify=true
-MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
-Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a>[Desktop Entry]</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>Version=17</span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>Terminal=false</span>
+<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a>Icon=/usr/local/Stata17/stata17.png</span>
+<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a>Type=Application</span>
+<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a>Categories=Education;Scientific;</span>
+<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a>Exec=/usr/local/Stata17/xstata</span>
+<span id="cb12-8"><a href="#cb12-8" tabindex="-1"></a>Name=Stata/BE 17</span>
+<span id="cb12-9"><a href="#cb12-9" tabindex="-1"></a>Comment=Perform statistical analyses using Stata.</span>
+<span id="cb12-10"><a href="#cb12-10" tabindex="-1"></a>StartupNotify=true</span>
+<span id="cb12-11"><a href="#cb12-11" tabindex="-1"></a>MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;</span>
+<span id="cb12-12"><a href="#cb12-12" tabindex="-1"></a>Actions=doedit;use;view;graphuse;projmanag;semopen;</span></code></pre></div>
 </div>
 <div id="step-7-stata-update-process" class="section level5">
 <h5>Step 7: Stata update process</h5>
@@ -456,19 +540,21 @@ Actions=doedit;use;view;graphuse;projmanag;semopen;</code></pre>
 permission to your Stata to get updated. If SELinux is disabled, the
 following step is not necessary.</li>
 </ul>
-<pre class="txt"><code>$ sudo chmod -R 777 &#39;/usr/local/Stata17&#39;</code></pre>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a>$ sudo chmod -R 777 &#39;/usr/local/Stata17&#39;</span></code></pre></div>
 <ul>
 <li>If your internet connection is through a proxy server, add the proxy
 information inside your Stata to ensure update process as below.</li>
 </ul>
-<pre class="txt"><code>a. Open Stata
-b. Go to Preferences
-c. General Preferences
-d. Internet
-e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]
-f. Go to Help
-g. Update</code></pre>
-<p>Updated on: 2024-10-17</p>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>a. Open Stata</span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a>b. Go to Preferences</span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a>c. General Preferences</span>
+<span id="cb14-4"><a href="#cb14-4" tabindex="-1"></a>d. Internet</span>
+<span id="cb14-5"><a href="#cb14-5" tabindex="-1"></a>e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]</span>
+<span id="cb14-6"><a href="#cb14-6" tabindex="-1"></a>f. Go to Help</span>
+<span id="cb14-7"><a href="#cb14-7" tabindex="-1"></a>g. Update</span></code></pre></div>
+<p>Updated on: 2024-12-31</p>
 </div>
 </div>
 

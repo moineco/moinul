@@ -2,6 +2,8 @@
 title: "Python"
 output:
   html_document:
+    highlight: monochrome
+    theme: flatly
     toc: true
     toc_float: true
     collapsed: false

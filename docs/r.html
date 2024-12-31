@@ -13,10 +13,10 @@
 
 <title>R</title>
 
-<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -33,8 +33,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -45,18 +43,92 @@
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
   }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { font-weight: bold; } /* Alert */
+code span.an { font-style: italic; } /* Annotation */
+code span.cf { font-weight: bold; } /* ControlFlow */
+code span.co { font-style: italic; } /* Comment */
+code span.cv { font-style: italic; } /* CommentVar */
+code span.do { font-style: italic; } /* Documentation */
+code span.dt { text-decoration: underline; } /* DataType */
+code span.er { font-weight: bold; } /* Error */
+code span.in { font-style: italic; } /* Information */
+code span.kw { font-weight: bold; } /* Keyword */
+code span.pp { font-weight: bold; } /* Preprocessor */
+code span.wa { font-style: italic; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
 </script>
-
-
 
 
 
@@ -364,8 +436,9 @@ div.tocify {
 <p>Install <code>pacman</code> package in R. In order to use the
 functions that are contained in the <code>pacman</code> package, we have
 to install and load the package to R:</p>
-<pre class="txt"><code>install.packages(&quot;pacman&quot;)    # Install pacman package
-library(&quot;pacman&quot;)             # Load pacman package</code></pre>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>install.packages(&quot;pacman&quot;)    # Install pacman package</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>library(&quot;pacman&quot;)             # Load pacman package</span></code></pre></div>
 <p>After running the previous lines of code, we can use the functions
 provided by the <code>pacman</code> package.</p>
 <div
@@ -376,7 +449,8 @@ function</h4>
 <p>In this example, I will illustrate how to apply the p_load function
 to load multiple add-on packages in one line of code.</p>
 <p>Have a look at the following R syntax:</p>
-<pre class="txt"><code>p_load(ggplot2, dplyr, stringr)   # Install &amp; load packages</code></pre>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>p_load(ggplot2, dplyr, stringr)   # Install &amp; load packages</span></code></pre></div>
 <p>After executing the previous code, we have loaded the three packages
 <code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code>.</p>
 <p>Note that the p_load function also checks whether a package is
@@ -392,7 +466,8 @@ multiple loaded packages from within R.</p>
 <p>Let’s apply the p_unload command to unload the three packages
 <code>ggplot2</code>, <code>dplyr</code>, and <code>stringr</code> that
 we have loaded before:</p>
-<pre class="txt"><code>p_unload(ggplot2, dplyr, stringr)  # Unload packages</code></pre>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>p_unload(ggplot2, dplyr, stringr)  # Unload packages</span></code></pre></div>
 <p>The following packages have been unloaded: <code>ggplot2</code>,
 <code>dplyr</code>, <code>stringr</code> The previous output of the
 RStudio console tells us that our three packages were detached.</p>
@@ -404,14 +479,16 @@ class="section level4">
 <code>pacman</code> package to check for outdated packages AND to update
 all of these packages.</p>
 <p>First, let’s check which of my packages are outdated:</p>
-<pre class="txt"><code>p_update(update = FALSE)  # Check for outdated packages</code></pre>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>p_update(update = FALSE)  # Check for outdated packages</span></code></pre></div>
 <p>Second, the <code>pacman</code> package provides an easy solution to
 how we can update all outdated packages with only one line of R
 code.</p>
 <p>Make sure that you have some time before running the following R
 code. This may take some time, depending on the number of packages you
 need to update:</p>
-<pre class="txt"><code>p_update() # Update all packages</code></pre>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>p_update() # Update all packages</span></code></pre></div>
 </div>
 <div id="r-packages-for-data-management" class="section level4">
 <h4>R packages for data management</h4>
@@ -509,7 +586,7 @@ rgooglemaps, 5. rastervis, 6. maps, 7. spData, 8. rgeos, 9. jpndistrict,
 10. countrycode, 11. tmaptools, 12. DT, 13. usmap, 14. tigris, 15.
 scales, 16. ggrepel, 17. tidycensus</li>
 </ol>
-<p>Updated on: 2024-10-17</p>
+<p>Updated on: 2024-12-31</p>
 </div>
 </div>
 
