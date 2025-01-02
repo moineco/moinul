@@ -238,11 +238,12 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-## 6. Data Science for Economics
+
+## 6. Econometrics with R and Python
 
 **Section 1: Data preparation with R**
 
-- Lecture 1: Introduction to data science
+- Lecture 1: Introduction
 
 - Lecture 2: The basics of Python and R
 
