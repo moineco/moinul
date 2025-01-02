@@ -475,11 +475,15 @@ The package starts from the basic facilities of the color package, and provides 
 
 ### Memo
 
+- Math mode of $PM_{2.5}$
+
 ```{txt}
 \(\text{PM}_{2.5}\)
 ```
 
-#### Manipulate table number in Apendix section:
+#### Manipulate table number 
+
+- Appendix section:
 
 ```{txt}
 \section{Appendix}

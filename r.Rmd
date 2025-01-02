@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Package manager
 
+1.  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
+
 Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
 ```{txt}
