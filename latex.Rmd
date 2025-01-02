@@ -49,7 +49,7 @@ The `amssymb` package provides additional symbols that aren't "named" in `amsfon
 \usepackage{amssymb}
 ```
 
-#### **`array`**
+#### [array](https://ctan.org/pkg/array?lang=en)
 
 The `array` package provides an extended implementation of the array and tabular environments which extends the options for column formats.
 

@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Package manager
 
-1.  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
+####  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
 
 Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
 
@@ -28,7 +28,7 @@ library("pacman")             # Load pacman package
 
 After running the previous lines of code, we can use the functions provided by the `pacman` package.
 
-#### Example 1: Install & load multiple R packages using p_load function
+- Example 1: Install & load multiple R packages using p_load function
 
 In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
 
@@ -42,7 +42,7 @@ After executing the previous code, we have loaded the packages `dplyr`, and `str
 
 Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
 
-#### Example 2: Unload multiple R packages using p_unload function
+- Example 2: Unload multiple R packages using p_unload function
 
 Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
 
@@ -55,7 +55,7 @@ p_unload(dplyr, stringr)  # Unload packages
 The following packages have been unloaded: `dplyr`, `stringr`
 The previous output of the RStudio console tells us that our three packages were detached.
 
-#### Example 3: Update Outdated R Packages Using p_update Function
+- Example 3: Update Outdated R Packages Using p_update Function
 
 In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
 
@@ -75,86 +75,87 @@ p_update() # Update all packages
 
 ### Data management
 
-1.  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
-2.  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
-3.  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
-4.  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
-5.  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
-6.  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
-7.  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
-8.  [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html) 
-9.  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
-10. [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
-11. [plotly](https://plotly.com/r/)
-12. [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
-13. [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
-14. [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
-15. [DBI](https://cran.r-project.org/web/packages/DBI/index.html) 
-16. [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html) 
-17. [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
-18. [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) 
+####  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
+####  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+####  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
+####  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
+####  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+####  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+####  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
+#### [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
+#### [plotly](https://plotly.com/r/)
+#### [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
+#### [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
+#### [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
+#### [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
+#### [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) 
 
 ### Econometrics
 
-1. plm 
-2. AER 
-3. mlogit
-4. stats
-5. car 
+#### [plm](https://cran.r-project.org/web/packages/plm/index.html) 
+#### AER 
+#### mlogit
+#### stats
+#### car 
+#### [MatchIt](https://cran.r-project.org/web/packages/MatchIt/vignettes/MatchIt.html)
 
 ### GIS data manipulation
 
-1.  [sf](<https://r-spatial.github.io/sf/>) 
-2.  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
-3.  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
-4.  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
-5.  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+####  [sf](<https://r-spatial.github.io/sf/>) 
+####  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
+####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
+####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
+####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
 ### Data visualization
 
-1.  [tidyverse](https://www.tidyverse.org/) 
-2.  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
-3.  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
-4.  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
-5.  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
-6.  [mapview](https://r-spatial.github.io/mapview/) 
-7.  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
-8.  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
-9.  [rayshader](https://www.rayshader.com/)
-10. [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
-11. [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
-12. [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
-13. [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
-14. [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
-15. [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+####  [tidyverse](https://www.tidyverse.org/) 
+####  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+####  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
+####  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
+####  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
+####  [mapview](https://r-spatial.github.io/mapview/) 
+####  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+####  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
+####  [rayshader](https://www.rayshader.com/)
+#### [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
+#### [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+#### [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
+#### [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+#### [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+#### [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
 
 ### Spatial analysis
 
-1.  spatial 
-2.  spatstat 
-3.  gstat 
-4.  spdep 
-5.  geoshape 
-6.  ggspatial 
-7.  geogrid 
-8.  GISTools 
+####  spatial 
+####  spatstat 
+####  gstat 
+####  spdep 
+####  geoshape 
+####  ggspatial 
+####  geogrid 
+####  GISTools 
 
 ### Spatial data sources
 
-1.  OpenStreetMap
-2.  rnaturalearth 
-3.  rnaturalearthdata 
-4.  maps 
-5.  spData 
-6.  rgeos 
-7.  jpndistrict 
-8. usmap 
-9. tigris 
-10. tidycensus
+####  OpenStreetMap
+####  rnaturalearth 
+####  rnaturalearthdata 
+####  maps 
+####  spData 
+####  rgeos 
+####  jpndistrict 
+#### usmap 
+#### tigris 
+#### tidycensus
 
 ### Text mining
 
-1. tidytext
-2. tm
+#### tidytext
+#### tm
+
+### Bibliometric analysis
+
+#### [bibliometrix](https://www.bibliometrix.org/home/)
 
 Updated on: `r Sys.Date()`
