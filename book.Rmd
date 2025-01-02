@@ -60,13 +60,21 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
 
-## 6. Experimental Economics
+## 6. Human Geography
+
+1. Fouberg, E. H., Murphy, A. B., and De Blij, H. J. (2020). Human geography: People, place, and culture. (12th Edition). Wiley.
+
+2. Knox, P. L., and Marston, S. A. (2022). Human Geography: Places and Regions in Global Context (8th Edition). Pearson Education.
+
+3. Rubenstein, J. M. (2020). The Cultural Landscape: An Introduction to Human Geography (13th Edition). Pearson Education
+
+## 7. Experimental Economics
 
 1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
 
 2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-## 7. Spatial Economics
+## 8. Spatial Economics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
@@ -74,7 +82,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-## 8. Data Science
+## 9. Data Science
 
 1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 

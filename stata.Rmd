@@ -131,6 +131,12 @@ f. Go to Help
 g. Update
 ```
 
+#### References:
+
+1. Cameron, C. and Trivedi, P. (2022) Volume I: Cross-sectional and panel regression methods. Stata Press.
+
+2. Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
+
 
 
 Updated on: `r Sys.Date()`
