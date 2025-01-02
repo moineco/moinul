@@ -73,6 +73,15 @@ Make sure that you have some time before running the following R code. This may 
 p_update() # Update all packages
 ```
 
+### Econometrics
+
+#### [plm](https://cran.r-project.org/web/packages/plm/index.html) 
+#### AER 
+#### mlogit
+#### stats
+#### car 
+#### [MatchIt](https://cran.r-project.org/web/packages/MatchIt/vignettes/MatchIt.html)
+
 ### Data management
 
 ####  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
@@ -88,24 +97,7 @@ p_update() # Update all packages
 #### [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
 #### [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
 #### [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
-#### [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) 
-
-### Econometrics
-
-#### [plm](https://cran.r-project.org/web/packages/plm/index.html) 
-#### AER 
-#### mlogit
-#### stats
-#### car 
-#### [MatchIt](https://cran.r-project.org/web/packages/MatchIt/vignettes/MatchIt.html)
-
-### GIS data manipulation
-
-####  [sf](<https://r-spatial.github.io/sf/>) 
-####  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
-####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
-####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
-####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+#### [cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) 
 
 ### Data visualization
 
@@ -124,6 +116,14 @@ p_update() # Update all packages
 #### [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
 #### [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
 #### [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+
+### GIS data manipulation
+
+####  [sf](<https://r-spatial.github.io/sf/>) 
+####  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
+####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
+####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
+####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
 ### Spatial analysis
 
