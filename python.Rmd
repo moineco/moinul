@@ -80,8 +80,6 @@ $ otree startapp app_name
 
 Session configs are defined in settings.py
 
-### Heroku
-
 #### Deploy oTree application to Heroku server
 
 To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
@@ -154,5 +152,34 @@ heroku restart;heroku pg:reset DATABASE --confirm appname
 ```
 
 Note: "appname" should be replaced with the custom application name
+
+### NumPy
+A fundamental package for scientific and mathematical computing. 
+
+### Pandas
+A package for data manipulation and analysis. 
+
+### GeoPandas
+GeoPandas add support for geographic data to pandas objects.
+
+### SciPy
+A package for advanced scientific computing.
+
+### Statsmodels
+A package for statistical modeling and hypothesis testing. 
+
+### Matplotlib 
+A package for data visualization
+
+### Scikit-learn 
+A packge for machine learning
+
+### Seaborn 
+A package for enhanced data visualization
+
+### Plotly 
+A package for interactive graphs
+
+
 
 Updated on: `r Sys.Date()`

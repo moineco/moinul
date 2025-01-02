@@ -71,25 +71,96 @@ Make sure that you have some time before running the following R code. This may 
 p_update() # Update all packages
 ```
 
-#### R packages for data management
+### Data management
 
-1.  [pacman](https://cran.r-project.org/web/packages/pacman/index.html), 2.  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html), 3.  [remotes](https://cran.r-project.org/web/packages/remotes/index.html), 4.  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html), 5.  [readxl](https://cran.r-project.org/web/packages/readxl/index.html), 6.  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html), 7.  [rvest](https://cran.r-project.org/web/packages/rvest/index.html), 8.  [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html), 9.  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html), 10. [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html), 11. [plotly](https://plotly.com/r/), 12. [stringr](https://cran.r-project.org/web/packages/stringr/index.html), 13. [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html), 14. [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html), 15. [DBI](https://cran.r-project.org/web/packages/DBI/index.html) , 16. [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html), 17. [data.table](https://cran.r-project.org/web/packages/data.table/index.html), 18. [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) 
+1.  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
+2.  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
+3.  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+4.  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
+5.  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
+6.  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+7.  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+8.  [cowplot](https://cran.r-project.org/web/packages/cowplot/index.html) 
+9.  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
+10. [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
+11. [plotly](https://plotly.com/r/)
+12. [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
+13. [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
+14. [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
+15. [DBI](https://cran.r-project.org/web/packages/DBI/index.html) 
+16. [RSQLite](https://cran.r-project.org/web/packages/RSQLite/index.html) 
+17. [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
+18. [lubridate](https://cran.r-project.org/web/packages/lubridate/index.html) 
 
+### Econometrics
 
-#### Basic GIS data manipulation
+1. plm 
+2. AER 
+3. mlogit
+4. stats
+5. car 
 
-1.  [sf](<https://r-spatial.github.io/sf/>), 2.  [raster](<https://cran.r-project.org/web/packages/raster/index.html>), 3.  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>), 4.  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>), 5.  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+### GIS data manipulation
 
-#### Cartography and data visualization
+1.  [sf](<https://r-spatial.github.io/sf/>) 
+2.  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
+3.  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
+4.  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
+5.  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
 
-1.  [tidyverse](https://www.tidyverse.org/), 2.  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html), 3.  [viridis](https://cran.r-project.org/web/packages/viridis/index.html), 4.  [tmap](https://cran.r-project.org/web/packages/tmap/index.html), 5.  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html), 6.  [mapview](https://r-spatial.github.io/mapview/), 7.  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html), 8.  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html), 9.  [rayshader](https://www.rayshader.com/), 10. [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html), 11. [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html), 12. [GGally](https://cran.r-project.org/web/packages/GGally/index.html), 13. [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html), 14. [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html), 15. [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+### Data visualization
 
-#### Spatial statistics
+1.  [tidyverse](https://www.tidyverse.org/) 
+2.  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+3.  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
+4.  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
+5.  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
+6.  [mapview](https://r-spatial.github.io/mapview/) 
+7.  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+8.  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
+9.  [rayshader](https://www.rayshader.com/)
+10. [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
+11. [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+12. [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
+13. [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+14. [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+15. [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
 
-1.  spatial, 2.  spatstat, 3.  gstat, 4.  spdep, 5.  geoshape, 6.  ggspatial, 7.  spdep, 8.  geogrid, 9.  GISTools 
+### Spatial analysis
 
-#### Data sources
+1.  spatial 
+2.  spatstat 
+3.  gstat 
+4.  spdep 
+5.  geoshape 
+6.  ggspatial 
+7.  spdep 
+8.  geogrid 
+9.  GISTools 
 
-1.  OpenStreetMap, 2.  rnaturalearth, 3.  rnaturalearthdata, 4.  rgooglemaps, 5.  rastervis, 6.  maps, 7.  spData, 8.  rgeos, 9.  jpndistrict, 10. countrycode, 11. tmaptools, 12. DT, 13. usmap, 14. tigris, 15. scales, 16. ggrepel, 17. tidycensus
+### Spatial data sources
+
+1.  OpenStreetMap
+2.  rnaturalearth 
+3.  rnaturalearthdata 
+4.  rgooglemaps 
+5.  rastervis 
+6.  maps 
+7.  spData 
+8.  rgeos 
+9.  jpndistrict 
+10. countrycode
+11. tmaptools
+12. DT 
+13. usmap 
+14. tigris 
+15. scales 
+16. ggrepel
+17. tidycensus
+
+### Text mining
+
+1. tidytext
+2. tm
 
 Updated on: `r Sys.Date()`

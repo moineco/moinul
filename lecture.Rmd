@@ -191,49 +191,52 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-## 5. Geoeconomics
+## 5. Human Geography with R and Python
 
-**Section 1: Foundations of geographic data in R and Python**
+**Section 1: Foundations of human geography**
 
-- Lecture 1: R and Python packages for GIS
+- Lecture 1: Introduction to human geography
 
-- Lecture 2: Processing shapefiles in R and Python
+- Lecture 2: Population
 
-- Lecture 3: Basic maps with R and Python
+- Lecture 3: Migration
 
-- Lecture 4: Part 1_spatial data operations
+- Lecture 4: Local culture, popular culture, and cultural landscapes
 
-- Lecture 5: Part 2_spatial data operations
+- Lecture 5: Identity: Race, ethnicity, gender and sexuality
 
-**Section 2: Extensions and intermediate techniques in R and Python**
+- Lecture 6: Political geography
 
-- Lecture 6: Part 1_World map
+- Lecture 7: Urban geography
 
-- Lecture 7: Part 2_World map
+- Lecture 8: The humanized environment
 
-- Lecture 8: Part 1_Japan regional map
+**Section 2: Foundations of geographic data in R and Python**
 
-- Lecture 9: Part 2_Japan regional map
+- Lecture 9: Processing shapefiles in R and Python
 
-- Lecture 10: Part 1_United States regional map
+- Lecture 10: Basic maps with R and Python
 
-- Lecture 11: Part 2_United States regional map
+**Section 3: Human geography with maps**
 
-**Section 3: Applications to real-world problems**
+- Lecture 11: Human geography of Asia with maps
 
-- Lecture 12: Part 1_Geospatial data analysis
+- Lecture 12: Human geography of Africa with maps
 
-- Lecture 13: Part 2_Geospatial data analysis
+- Lecture 13: Human geography of North America with maps
 
-- Lecture 14: Part 3_Geospatial data analysis
+- Lecture 14: Human geography of Australia with maps
 
-- Lecture 15: Part 4_Geospatial data analysis
+- Lecture 15: Human geography of Europe with maps
+
 
 [**Textbooks:**]{.underline}
 
-1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+1.  Fouberg, E. H., Murphy, A. B., and De Blij, H. J. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
 
-2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
+2.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
+
+3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 ## 6. Data Science for Economics
 
