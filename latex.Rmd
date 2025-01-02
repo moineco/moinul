@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Packages
 
-#### **`alphabeta`**
+#### [alphabeta](http://mirrors.ibiblio.org/CTAN/language/greek/greek-fontenc/alphabeta-doc.pdf)
 
 The `alphabeta` package makes the standard macros for Greek letters in mathematical mode also available in text mode.
 
@@ -25,7 +25,7 @@ The `alphabeta` package makes the standard macros for Greek letters in mathemati
 \usepackage{alphabeta}
 ```
 
-#### **`amsmath`**
+#### [amsmath](https://ctan.org/pkg/amsmath?lang=en)
 
 The `amsmath` package is an extension package for LaTeX that provides additional features to facilitate mathematical typesetting.
 
@@ -33,7 +33,7 @@ The `amsmath` package is an extension package for LaTeX that provides additional
 \usepackage{amsmath}
 ```
 
-#### **`amsfonts`**
+#### [amsfonts](https://ctan.org/tex-archive/fonts/amsfonts?lang=en)
 
 The `amsfonts` package is an extended set of fonts for use in mathematics.
 
