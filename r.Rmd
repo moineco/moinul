@@ -136,29 +136,21 @@ p_update() # Update all packages
 4.  spdep 
 5.  geoshape 
 6.  ggspatial 
-7.  spdep 
-8.  geogrid 
-9.  GISTools 
+7.  geogrid 
+8.  GISTools 
 
 ### Spatial data sources
 
 1.  OpenStreetMap
 2.  rnaturalearth 
 3.  rnaturalearthdata 
-4.  rgooglemaps 
-5.  rastervis 
-6.  maps 
-7.  spData 
-8.  rgeos 
-9.  jpndistrict 
-10. countrycode
-11. tmaptools
-12. DT 
-13. usmap 
-14. tigris 
-15. scales 
-16. ggrepel
-17. tidycensus
+4.  maps 
+5.  spData 
+6.  rgeos 
+7.  jpndistrict 
+8. usmap 
+9. tigris 
+10. tidycensus
 
 ### Text mining
 
