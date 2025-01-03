@@ -238,8 +238,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
+## 6. Economics of Climate Change
 
-## 6. Future Design 
+TBA
+
+## 7. Future Design 
 
 **Section 1: What is Future Design**
 
