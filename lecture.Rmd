@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-## 1. Principles of Economics
+## Principles of Economics
 
 -   Lecture 1: Economics foundations and models
 
@@ -55,7 +55,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Mankiw, N. (2024). Principles of Economics (10th Edition). Cengage Learning. 
 
-## 2. Environmental Economics
+## Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -97,7 +97,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
-## 3. Public Policy
+## Public Policy
 
 **Section 1: Introduction and Background**
 
@@ -143,7 +143,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-## 4. International Economics
+## International Economics
 
 **Section 1: Introduction to International Economics**
 
@@ -191,7 +191,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-## 5. Human Geography
+## Human Geography
 
 **Section 1: Foundations of human geography**
 
@@ -238,11 +238,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-## 6. Economics of Climate Change
+## Economics of Climate Change
 
 TBA
 
-## 7. Future Design 
+## Future Design 
 
 **Section 1: What is Future Design**
 
