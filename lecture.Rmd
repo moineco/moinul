@@ -239,53 +239,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 
-## 6. Econometrics with R and Python
-
-**Section 1: Data preparation with R**
-
-- Lecture 1: Introduction
-
-- Lecture 2: The basics of Python and R
-
-- Lecture 3: Downloading RStudio and basics of coding in R
-
-- Lecture 4: Importing packages and getting data into R
-
-- Lecture 5: Saving output and setting up graphics in R
-
-**Section 2: Data preparation with Python**
-
-- Lecture 6: Downloading and basics of coding in Python
-
-- Lecture 7: Importing packages and getting data into Python
-
-- Lecture 8: Saving output and setting up graphics in Python
-   
-**Section 3: Regressions with R and Python**
-
-- Lecture 9: Summary statistics
-
-- Lecture 10: Scatter plot, box plot and histogram
-
-- Lecture 11: Probit and logit models 
-
-- Lecture 12: Topics in causal inference
-
-- Lecture 13: Topics in spatial data science 
-
-- Lecture 14: Topics in Bayesian econometrics 
-
-- Lecture 15: Topics in machine learning 
-
-[**Textbooks:**]{.underline}
-
-1.  Wooldridge, J. (2020). Introductory Econometrics: A Modern Approach, 7th Edition. Cengage.
-
-2.  Angrist, J. and Pischke, J. (2009) Mostly harmless econometrics: An empiricist's companion. Princeton University Press.
-   
-3.  Imai, K. (2017) Quantitative social science: An introduction. Princeton University Press.
-
-## 7. Future Design 
+## 6. Future Design 
 
 **Section 1: What is Future Design**
 
