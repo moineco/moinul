@@ -211,23 +211,23 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 8: The humanized environment
 
-**Section 2: Foundations of geographic data in R and Python**
+**Section 2: Foundations of geographic plots in R and Python**
 
 - Lecture 9: Processing shapefiles in R and Python
 
 - Lecture 10: Basic maps with R and Python
 
-**Section 3: Human geography with maps**
+**Section 3: Elegant geographic plots in R and Python**
 
-- Lecture 11: Human geography of Asia with maps
+- Lecture 11: Human geography of Africa
 
-- Lecture 12: Human geography of Africa with maps
+- Lecture 12: Human geography of Asia
 
-- Lecture 13: Human geography of North America with maps
+- Lecture 13: Human geography of Australia
 
-- Lecture 14: Human geography of Australia with maps
+- Lecture 14: Human geography of Europe
 
-- Lecture 15: Human geography of Europe with maps
+- Lecture 15: Human geography of North America
 
 
 [**Textbooks:**]{.underline}
