@@ -17,6 +17,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Principles of Economics
 
+**Section 1: Microeconomics (Individual, Market, and Policy Focus)**
+
 -   Lecture 1: Economics foundations and models
 
 -   Lecture 2: Trade-offs, comparative advantage, and the market system
@@ -32,6 +34,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 7:  Elasticity-the responsiveness of demand and supply
 
 -   Lecture 8:  Monopoly
+
+**Section 2: Macroeconomics (Economy-Wide Analysis and Policies)**
 
 -   Lecture 9:  GDP-measuring total production and income
 
@@ -97,7 +101,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
-## Public Policy
+## Public Finance and Public Policy
 
 **Section 1: Introduction and Background**
 
@@ -237,10 +241,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 2.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
-
-## Economics of Climate Change
-
-TBA
 
 ## Future Design 
 
