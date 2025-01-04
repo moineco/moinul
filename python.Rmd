@@ -156,11 +156,46 @@ Note: "appname" should be replaced with the custom application name
 ### [NumPy](https://numpy.org/)
 A fundamental package for scientific and mathematical computing. 
 
+#### Installation:
+
+- Installing with conda
+
+```{txt}
+$ conda install numpy
+```
+
+- Installing with pip
+
+```{txt}
+$ pip install numpy
+```
+
 ### [Pandas](https://pandas.pydata.org/)
 A package for data manipulation and analysis. 
 
 ### [GeoPandas](https://geopandas.org/en/stable/)
 GeoPandas add support for geographic data to pandas objects.
+
+#### Installation: 
+
+- The best way to install GeoPandas is using conda and conda-forge channel:
+
+```{txt}
+$ conda install -c conda-forge geopandas
+```
+
+- Installing with pip
+
+```{txt}
+$ pip install geopandas
+```
+
+- Installing with Anaconda / conda
+
+```{txt}
+$ conda install geopandas
+```
+
 
 ### [SciPy](https://scipy.org/)
 A package for advanced scientific computing.
