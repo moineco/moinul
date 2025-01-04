@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, experimental economics, spatial economics, and data science.
+Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, human geography, experimental economics, spatial economics, and data science.
 
 ## Microeconomics
 
@@ -34,7 +34,6 @@ Recommended readings to everyone who is interested about microeconomics, public 
 1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
-
 
 ## Environmental Economics
 
