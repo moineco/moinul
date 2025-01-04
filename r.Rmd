@@ -158,4 +158,20 @@ p_update() # Update all packages
 
 #### [bibliometrix](https://www.bibliometrix.org/home/)
 
+- Install stable version
+
+```{txt}
+install.packages("bibliometrix")
+```
+
+- Install beta version
+
+```{txt}
+install.packages("remotes")         
+remotes::install_github("massimoaria/bibliometrix")
+```
+
+- [A brief introduction to bibliometrix](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html)
+- [Cran bibliometrix package](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
+
 Updated on: `r Sys.Date()`
