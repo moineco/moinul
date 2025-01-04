@@ -77,7 +77,7 @@ progress.
 
 - [Research Map](https://researchmap.jp/moinul/?lang=english)
 
-- [ORCID](https://orcid.org/0000-0002-0309-3156)
+- [Orcid](https://orcid.org/0000-0002-0309-3156)
 
 - [Github](https://github.com/moineco)
 
