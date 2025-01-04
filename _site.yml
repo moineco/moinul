@@ -10,12 +10,12 @@ navbar:
       href: lecture.html
     - text: "Book"
       href: book.html
-    - text: "R"
-      href: r.html
-    - text: "Python"
-      href: python.html
-    - text: "Stata"
-      href: stata.html
-    - text: "LaTeX"
-      href: latex.html
+    # - text: "R"
+    #   href: r.html
+    # - text: "Python"
+    #   href: python.html
+    # - text: "Stata"
+    #   href: stata.html
+    # - text: "LaTeX"
+    #   href: latex.html
 output_dir: "docs"
