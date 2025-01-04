@@ -105,7 +105,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 1: Introduction and Background**
 
-- Lecture 1: Introduction to public policy
+- Lecture 1: Introduction to public finance and public policy
 
 - Lecture 2: Budget analysis and deficit financing
 
