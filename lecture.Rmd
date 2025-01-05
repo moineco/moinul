@@ -100,6 +100,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 [**Textbooks:**]{.underline}
 
 1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
+2.  Tietenberg, T., and Lewis, L. (2019). Environmental and natural resource economics (11th ed.). Routledge.
 
 ## Economics of Public Policy 
 
