@@ -101,11 +101,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 1.  Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
-## Public Finance and Public Policy
+## Economics of Public Policy 
 
 **Section 1: Introduction and Background**
 
-- Lecture 1: Introduction to public finance and public policy
+- Lecture 1: Introduction to public policy
 
 - Lecture 2: Budget analysis and deficit financing
 
