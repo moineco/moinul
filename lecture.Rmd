@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ## Principles of Economics
 
-**Section 1: Microeconomics (Individual, Market, and Policy Focus)**
+**Section 1: Microeconomics**
 
 -   Lecture 1: Economics foundations and models
 
@@ -35,7 +35,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 8:  Monopoly
 
-**Section 2: Macroeconomics (Economy-Wide Analysis and Policies)**
+**Section 2: Macroeconomics**
 
 -   Lecture 9:  GDP-measuring total production and income
 
