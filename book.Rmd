@@ -2,7 +2,6 @@
 title: "Book"
 output:
   html_document:
-    highlight: monochrome
     theme: darkly
     toc: true
     toc_float: true
