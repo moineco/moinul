@@ -86,7 +86,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
-2.  Wickham, H., and Grolemund, G. (2016). [R for data science: Import, tidy, transform, visualize, and model data](https://r4ds.had.co.nz/index.html). O'Reilly.
+2.  Wickham, H., Çetinkaya-Rundel, M., and Grolemund, G. (2023). [R for data science (2e)](https://r4ds.hadley.nz/). O'Reilly.
 
 3.  Llaudet, E., and Imai, K. (2022). Data analysis for social science: A friendly and practical introduction. Princeton University Press.
 
