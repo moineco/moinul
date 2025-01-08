@@ -2,7 +2,7 @@
 title: "Lecture"
 output: 
  html_document:
-    theme: darkly
+    theme: united
     toc: true
     toc_float: true
     collapsed: false

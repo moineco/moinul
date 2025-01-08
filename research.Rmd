@@ -2,7 +2,7 @@
 title: "Research"
 output:
   html_document:
-    theme: darkly
+    theme: journal
     toc: true
     toc_float: true
     collapsed: false
