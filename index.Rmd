@@ -2,7 +2,7 @@
 title: "Biography"
 output:
   html_document:
-    theme: cerulean
+    theme: darkly
     toc: true
     toc_float: true
     collapsed: false
