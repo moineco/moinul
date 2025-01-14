@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, human geography, experimental economics, spatial economics, data science and energy economics.
 
-## Microeconomics
+### Microeconomics
 
 1.  Kreps, D. (2013). Microeconomic foundations I: Choice and competitive markets. Princeton University Press.
 
@@ -28,19 +28,19 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 5.  Varian, H. (2016). Intermediate microeconomics: A modern approach (9th Edition). WW Norton & Company.
 
-## Public Economics
+### Public Economics
 
 1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-## Environmental Economics
+### Environmental Economics
 
 1.  Kolstad, C. (2011), Environmental economics. New York : Oxford University Press.
 
 2.  Tietenberg, T., and Lewis, L. (2019). Environmental and natural resource economics (11th Edition). Routledge.
 
-## Econometrics
+### Econometrics
 
 1.  Wooldridge, J. (2019) Introductory econometrics: A modern approach. Cengage Learning.
 
@@ -52,7 +52,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 5.  Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
 
-## International Economics
+### International Economics
 
 1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
 
@@ -60,7 +60,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
 
-## Human Geography
+### Human Geography
 
 1. Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. (12th Edition). Wiley.
 
@@ -68,13 +68,13 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3. Rubenstein, J. (2020). The cultural Landscape: An introduction to human geography (13th Edition). Pearson Education
 
-## Experimental Economics
+### Experimental Economics
 
 1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
 
 2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-## Spatial Economics
+### Spatial Economics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
@@ -82,7 +82,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-## Data Science
+### Data Science
 
 1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
@@ -96,7 +96,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 6.  Heiss, F. (2016). [Using R for introductory econometrics](http://www.urfie.net/?fbclid=IwAR0Iax1Am67ZTTUmaCf_zE7ObMVrcAZ-2hEsuJMErMCyi3qvlQ4WC9wttbI). Düsseldorf, Germany: Florian Heiss.
 
-## Energy Economics
+### Energy Economics
 
 1. Schwarz, P. (2021). Energy Economics. Routledge.
 

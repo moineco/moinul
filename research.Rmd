@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-## Journal articles (peer-review)
+### Journal articles (peer-review)
 
 1.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2025). Adaptation indicator to climate change and farm sizes in agriculture: A reflection of farming culture and history.\
     *Ecological Indicators*, 170, 112976. Q1 <https://doi.org/10.1016/j.ecolind.2024.112976>
@@ -115,7 +115,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 33. [**Islam, M.**]{.underline}, and Kotani, K. (2016). Changing seasonality in Bangladesh.\
     *Regional Environmental Change*, 16, 585--590. Q2 <https://doi.org/10.1007/s10113-015-0758-5>
 
-## Policy reports (peer-review)
+### Policy reports (peer-review)
 
 1.  Inclusive wealth report 2023. United Nation Environmental Program (UNEP). [link](https://wedocs.unep.org/handle/20.500.11822/43131)
 
@@ -123,7 +123,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Future design: For the survival of humankind (2022). Think7: Research-based policy recommendations for the G7. [link](https://www.think7.org/publication/future-design/)
 
-## Book chapters (peer-review)
+### Book chapters (peer-review)
 
 1.  [**Islam, M.**]{.underline}, and Managi, S. (2021). Global human capital: View from inclusive wealth. In measuring human capital (pp. 39-54). Academic Press. ISBN: 9780128190579. [link](https://www.elsevier.com/books/measuring-human-capital/fraumeni/978-0-12-819057-9)
 
@@ -139,7 +139,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 7.  Mahful, R., [**Islam, M.**]{.underline}, Nakayam, H., and Managi, S. (2019). The effect of landfill gas emission on global warming and workers' health in Indonesia. In wealth, inclusive growth and sustainability. Routledge, New York, USA. [link](https://www.taylorfrancis.com/chapters/edit/10.4324/9780429400636-15/effect-landfill-gas-emission-global-warming-workers-health-indonesia-rafid-mahful-moinul-islam-hirofumi-nakayama-shunsuke-managi?context=ubx)
 
-## International conferences
+### International conferences
 
 1.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 14--15 September, 2024.
 
@@ -155,7 +155,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 7.  [**Islam, M.**]{.underline} Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 21--22 September, 2013.
 
-## International symposiums
+### International symposiums
 
 1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
@@ -167,7 +167,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
 
-## Research grants
+### Research grants
 
 1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 21K13290. Project period: 2021/04 -- 2025/03.
 
@@ -175,7 +175,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 19K24384. Project period: 2019/04 -- 2021/03.
 
-## Professional service
+### Professional service
 
 ##### Guest editor
 
@@ -185,7 +185,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science), [13] Journal of Industrial Ecology (Wiley).
 
-## Working papers
+### Working papers
 
 1.  Nasu, Y., Tawhidul, I., [**Islam, M.**]{.underline}, and Kotani, K. Intragenerational inequality and intergenerational sustainability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
 
@@ -205,7 +205,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 9.  [**Islam, M.**]{.underline}, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper [EMS-2013-06](https://www.iuj.ac.jp/research/workingpapers/EMS_2013_06.pdf), International University of Japan, Economics & Management Series, 2013.
 
-## Scholarly memberships
+### Scholarly memberships
 
 1.  Society for Environmental Economics and Policy Studies (SEEPS)
 

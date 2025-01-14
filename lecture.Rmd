@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-## Principles of Economics
+### Principles of Economics
 
 **Section 1: Microeconomics**
 
@@ -58,7 +58,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Mankiw, N. (2024). Principles of Economics (10th Edition). Cengage Learning. 
 
-## Environmental Economics
+### Environmental Economics
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -102,7 +102,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2.  Tietenberg, T., and Lewis, L. (2019). Environmental and natural resource economics (11th Edition). Routledge.
 
-## Economics of Public Policy 
+### Economics of Public Policy 
 
 **Section 1: Introduction and Background**
 
@@ -148,7 +148,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-## International Economics
+### International Economics
 
 **Section 1: Introduction to International Economics**
 
@@ -196,7 +196,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-## Energy Economics
+### Energy Economics
 
 **Section 1: Economics of Energy**
 
@@ -244,7 +244,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Bhattacharyya, S. (2011). Energy Economics: Concepts, Issues, Markets, and Governance. Springer.
 
-## Human Geography
+### Human Geography
 
 **Section 1: Foundations of human geography**
 
@@ -291,7 +291,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-## Future Design 
+### Future Design 
 
 **Section 1: What is Future Design**
 
