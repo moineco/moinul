@@ -520,5 +520,4 @@ The package starts from the basic facilities of the color package, and provides 
 \end{figure}
 ```
 
-
 Updated on: `r Sys.Date()`
