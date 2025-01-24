@@ -317,17 +317,17 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 3: Future Design and Public Policy**
 
--   Lecture 10: Public goods and cost-benefit analysis
+-   Lecture 10: The economics of biodiversity
 
--   Lecture 11: State and local government expenditures
+-   Lecture 11: The economics of climate change
 
--   Lecture 12: Income distribution and welfare programs
+-   Lecture 12: Environmental goods valuation
 
--   Lecture 13: The economics of biodiversity
+-   Lecture 13: Climate change: The ultimate challenge for economics
 
--   Lecture 14: The economics of climate change
+-   Lecture 14: Natural experiments help answer important questions
 
--   Lecture 15: Environmental goods valuation
+-   Lecture 15: How institutions affect economic development?
 
 [**Textbooks:**]{.underline}
 
