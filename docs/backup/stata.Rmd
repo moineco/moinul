@@ -1,0 +1,142 @@
+---
+title: "Stata"
+output:
+  html_document:
+    highlight: monochrome
+    theme: darkly
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Stata17 installation in linux
+
+First copy your **Stata17** source file in the **Downloads** folder of your PC.
+
+If the file is in **.zip** format, unzip to use it. Confirm that the **.tar.gz** extension file (Linux supported installation file) is located in the **Downloads** folder.
+
+I am assuming that you have the licence information ready in your hand during the following installation process:
+
+##### Step 1: Create the installation directory, and change location into it
+
+```{txt}
+$ cd Downloads
+```
+
+```{txt}
+$ mkdir statainstall
+```
+
+```{txt}
+$ tar -xvzf Stata17Linux64.tar.gz -C statainstall
+```
+
+##### Step 2: Create the installation directory, and change location into it
+
+```{txt}
+$ sudo mkdir /usr/local/Stata17
+```
+
+```{txt}
+$ cd /usr/local/Stata17
+```
+
+##### Step 3: Run the install script
+
+```{txt}
+$ sudo ~/Downloads/statainstall/install
+```
+
+Here, you will start the installation process and Stata17 will provide you the steps to complete. Follow these steps one by one and complete until the end.
+
+##### Step 4: Configure the license file
+
+```{txt}
+$ sudo ./stinit
+```
+
+Again, Stata17 will ask you for several conformations and you need to respond properly.
+
+##### Step 5: Running Stata17 with a graphical user interface using the command
+
+```{txt}
+$ ./xstata
+```
+
+-   If you have a problem to execute the above code, you need to install `gtk2`
+-   You can install by:
+
+```{txt}
+$ sudo apt install gtk2 # For Ubuntu
+$ sudo dnf install gtk2 # For Fedora
+```
+
+##### Step 6: Unity launcher and desktop file
+
+-   Even after successfully installing and running *Stata17*, in Ubuntu/Fedora it won’t be available as an application in the dash, and it won’t have a proper icon in the application launcher.
+
+-   To complete this step, you need a text editor. In this tutorial, I am using `gedit` which is the official text editor of the GNOME desktop environment. If your PC don't contain it, you can install easily by using terminal.
+
+```{txt}
+$ sudo apt install -y gedit # For Ubuntu
+$ sudo dnf install -y gedit # For Fedora
+```
+
+-   Then we can easily fix this by creating a **.desktop** file for *Stata17*.
+
+```{txt}
+$ sudo gedit /usr/share/applications/Stata17.desktop
+```
+
+-   In this newly-created file just copy and paste the following, obviously adjusting it if you have a different version or flavor of *Stata*:
+
+```{txt}
+[Desktop Entry]
+Version=17
+Terminal=false
+Icon=/usr/local/Stata17/stata17.png
+Type=Application
+Categories=Education;Scientific;
+Exec=/usr/local/Stata17/xstata
+Name=Stata/BE 17
+Comment=Perform statistical analyses using Stata.
+StartupNotify=true
+MimeType=application/x-stata-dta;application/x-stata-do;application/x-stata-smcl;application/x-stata-stpr;application/x-stata-gph;application/x-stata-stsem;
+Actions=doedit;use;view;graphuse;projmanag;semopen;
+```
+
+##### Step 7: Stata update process
+
+-   If SELinux is enabled in your PC, use following command to provide permission to your Stata to get updated. If SELinux is disabled, the following step is not necessary.
+
+```{txt}
+$ sudo chmod -R 777 '/usr/local/Stata17'
+```
+
+-   If your internet connection is through a proxy server, add the proxy information inside your Stata to ensure update process as below.
+
+```{txt}
+a. Open Stata
+b. Go to Preferences
+c. General Preferences
+d. Internet
+e. add the proxy information. For KUT [proxy.noc.kochi-tech.ac.jp] and port [3128]
+f. Go to Help
+g. Update
+```
+
+#### References:
+
+1. Cameron, C. and Trivedi, P. (2022) Volume I: Cross-sectional and panel regression methods. Stata Press.
+
+2. Cameron, C. and Trivedi, P. (2022) Volume II: Nonlinear models and causal inference methods. Stata Press.
+
+
+
+Updated on: `r Sys.Date()`

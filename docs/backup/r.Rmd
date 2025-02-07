@@ -1,0 +1,177 @@
+---
+title: "R"
+output:
+  html_document:
+    highlight: monochrome
+    theme: darkly
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Package manager
+
+####  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
+
+Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
+
+```{txt}
+install.packages("pacman")    # Install pacman package
+library("pacman")             # Load pacman package
+```
+
+After running the previous lines of code, we can use the functions provided by the `pacman` package.
+
+- Example 1: Install & load multiple R packages using p_load function
+
+In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
+
+Have a look at the following R syntax:
+
+```{txt}
+p_load(dplyr, stringr)   # Install & load packages
+```
+
+After executing the previous code, we have loaded the packages `dplyr`, and `stringr`.
+
+Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
+
+- Example 2: Unload multiple R packages using p_unload function
+
+Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
+
+Let’s apply the p_unload command to unload the packages `dplyr`, and `stringr` that we have loaded before:
+
+```{txt}
+p_unload(dplyr, stringr)  # Unload packages
+```
+
+The following packages have been unloaded: `dplyr`, `stringr`
+The previous output of the RStudio console tells us that our three packages were detached.
+
+- Example 3: Update Outdated R Packages Using p_update Function
+
+In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
+
+First, let’s check which of my packages are outdated:
+
+```{txt}
+p_update(update = FALSE)  # Check for outdated packages
+```
+
+Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
+
+Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
+
+```{txt}
+p_update() # Update all packages
+```
+
+### Econometrics
+
+#### [plm](https://cran.r-project.org/web/packages/plm/index.html) 
+#### AER 
+#### mlogit
+#### stats
+#### car 
+#### [MatchIt](https://cran.r-project.org/web/packages/MatchIt/vignettes/MatchIt.html)
+
+### Data management
+
+####  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
+####  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+####  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
+####  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
+####  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+####  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+####  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
+#### [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
+#### [plotly](https://plotly.com/r/)
+#### [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
+#### [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
+#### [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
+#### [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
+#### [cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) 
+
+### Data visualization
+
+####  [tidyverse](https://www.tidyverse.org/) 
+####  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+####  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
+####  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
+####  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
+####  [mapview](https://r-spatial.github.io/mapview/) 
+####  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+####  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
+####  [rayshader](https://www.rayshader.com/)
+#### [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
+#### [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+#### [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
+#### [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+#### [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+#### [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+
+### GIS data manipulation
+
+####  [sf](<https://r-spatial.github.io/sf/>) 
+####  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
+####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
+####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
+####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+
+### Spatial analysis
+
+####  spatial 
+####  spatstat 
+####  gstat 
+####  spdep 
+####  geoshape 
+####  ggspatial 
+####  geogrid 
+####  GISTools 
+
+### Spatial data sources
+
+####  OpenStreetMap
+####  rnaturalearth 
+####  rnaturalearthdata 
+####  maps 
+####  spData 
+####  rgeos 
+####  jpndistrict 
+#### usmap 
+#### tigris 
+#### tidycensus
+
+### Text mining
+
+#### tidytext
+#### tm
+
+### Bibliometric analysis
+
+#### [bibliometrix](https://www.bibliometrix.org/home/)
+
+- Install stable version
+
+```{txt}
+install.packages("bibliometrix")
+```
+
+- Install beta version
+
+```{txt}
+install.packages("remotes")         
+remotes::install_github("massimoaria/bibliometrix")
+```
+
+- [A brief introduction to bibliometrix](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html)
+- [Cran bibliometrix package](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
+
+Updated on: `r Sys.Date()`

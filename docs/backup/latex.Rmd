@@ -1,0 +1,523 @@
+---
+title: "LaTeX"
+output:
+  html_document:
+    highlight: monochrome
+    theme: darkly
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Packages
+
+#### [alphabeta](http://mirrors.ibiblio.org/CTAN/language/greek/greek-fontenc/alphabeta-doc.pdf)
+
+The `alphabeta` package makes the standard macros for Greek letters in mathematical mode also available in text mode.
+
+```{txt}
+\usepackage{alphabeta}
+```
+
+#### [amsmath](https://ctan.org/pkg/amsmath?lang=en)
+
+The `amsmath` package is an extension package for LaTeX that provides additional features to facilitate mathematical typesetting.
+
+```{txt}
+\usepackage{amsmath}
+```
+
+#### [amsfonts](https://ctan.org/tex-archive/fonts/amsfonts?lang=en)
+
+The `amsfonts` package is an extended set of fonts for use in mathematics.
+
+```{txt}
+\usepackage{amsfonts}
+```
+
+#### **`amssymb`**
+
+The `amssymb` package provides additional symbols that aren't "named" in `amsfonts`.
+
+```{txt}
+\usepackage{amssymb}
+```
+
+#### [array](https://ctan.org/pkg/array?lang=en)
+
+The `array` package provides an extended implementation of the array and tabular environments which extends the options for column formats.
+
+```{txt}
+\usepackage{array} 
+```
+
+#### **`arydshln`**
+
+The `arydshln` package is to draw dash-lines in array/tabular environments.
+
+```{txt}
+\usepackage{arydshln}
+```
+
+#### **`authblk`**
+
+The `authblk` package redefines the \author command to work as normal or to allow a footnote style of author/affiliation input.
+
+```{txt}
+\usepackage{authblk}
+```
+
+#### **`babel`**
+
+The `babel` package manages culturally-determined typographical (and other) rules for a wide range of languages. A document may select a single language to be supported, or it may select several, in which case the document may switch from one language to another in a variety of ways. 
+
+```{txt}
+\usepackage[english]{babel}
+```
+
+#### **`booktabs`**
+
+The `booktabs` package enhances the quality of tables in LaTeX, providing extra commands as well as behind-the-scenes optimization.
+
+```{txt}
+\usepackage{booktabs}
+```
+
+#### **`boxedminipage`**
+
+The `boxedminipage` package is a very simple package that essentially just wraps a minipage within an fbox.
+
+```{txt}
+\usepackage{boxedminipage}
+```
+
+#### **`cleveref`**
+
+The `cleveref` package enhances LaTeX's cross-referencing features, allowing the format of cross-references to be determined automatically according to the "type" of cross-reference (equation, section, etc.) and the context in which the cross-reference is used.
+
+```{txt}
+\usepackage[noabbrev]{cleveref}
+```
+
+#### **`csquotes`**
+
+The `csquotes` package provides advanced facilities for inline and display quotations. It is designed for a wide range of tasks ranging from the most simple applications to the more complex demands of formal quotations. 
+
+```{txt}
+\usepackage{csquotes}
+```
+
+#### **`enumerate`**
+
+The `enumerate` package adds an optional argument to the enumerate environment which determines the style in which the counter is printed. 
+
+```{txt}
+\usepackage{enumerate}
+```
+
+#### **`epstopdf`**
+
+This `epstopdf` packages adds support of handling eps images to package graphics or graphicx with option pdftex. If an eps image is detected, `epstopdf` is automatically called to convert it to pdf format.
+
+```{txt}
+\usepackage{epstopdf}
+```
+
+#### **`gensymb`**
+
+This `gensymb` provides generic commands `\degree`, `\celsius`, `\perthousand`, `\micro` and `\ohm` which work both in text and maths mode.
+
+```{txt}
+\usepackage{gensymb}
+```
+
+#### **`geometry`**
+
+This `geometry` package provides a flexible and easy interface to page dimensions. You can change the page layout with intuitive parameters. For instance, if you want to set a margin to 2cm from each edge of the paper, you can type just: 
+
+```{txt}
+\usepackage[margin=2cm]{geometry}
+```
+
+```{txt}
+\usepackage[margin=1in]{geometry}
+```
+
+#### **`graphicx`**
+The `graphicx` package builds upon the graphics package, providing a key-value interface for optional arguments to the `\includegraphics` command. This interface provides facilities that go far beyond what the graphics package offers on its own. 
+
+```{txt}
+\usepackage{graphicx}
+```
+
+#### **`indentfirst`**
+
+LaTeX will automatically indent the first line of each paragraph that doesn't immediately follow a section heading. If you'd like to indent the first paragraph after a section heading, you can include the `indentfirst` package in your preamble:
+
+```{txt}
+\usepackage{indentfirst}
+```
+
+#### **`latexsym`**
+
+The package `latexsym` which makes the few additional characters available that come from the lasy fonts (LATEX’s symbol fonts).
+
+```{txt}
+\usepackage{latexsym}
+```
+
+#### **`lineno`**
+
+There is a really nice package, lineno, which provides line-numbering and various options for customization. The most common use is continuous line numbering throughout the document. The following two lines in the preamble will do the trick:
+
+```{txt}
+\usepackage{lineno}
+\linenumbers
+```
+
+```{txt}
+\usepackage[mathlines]{lineno}
+```
+
+#### **`multirow`**
+
+The package `multirow` which provides a construction for table cells that span more than one row of the table.
+
+```{txt}
+\usepackage{multirow}
+```
+
+#### **`natbib`**
+
+When it comes to bibliography management in LaTeX, the package natbib is a package for customizing citations (especially author-year citation schemes) when using BibTeX.
+
+The bibliography files must have the standard bibtex syntax and the extension .bib. They contain a list of bibliography sources and several fields with information about each entry. 
+
+```{txt}
+@article{a_Islam_2024,
+  title={Nature dependence and seasonality change perceptions for climate adaptation and mitigation},
+  author={Islam, Moinul and Kotani, Koji and Managi, Shunsuke},
+  journal={Economic Analysis and Policy},
+  volume={81},
+  pages={34--44},
+  year={2024},
+  publisher={Elsevier}
+}
+```
+
+Standard entry types:
+
+1. `article`:
+    Article from a magazine or journal
+
+2. `book`:
+    A published book
+
+3. `booklet`:
+    A work that is printed but has no publisher or sponsoring institution
+
+4. `conference`:
+    An article in a conference proceedings
+
+5. `inbook`:
+    A part of a book (section, chapter and so on)
+
+6. `incollection`:
+    A part of a book having its own title
+
+7. `inproceedings`:
+    An article in a conference proceedings
+
+8. `manual`:
+    Technical documentation
+
+9. `mastersthesis`:
+    A Master's thesis
+
+10. `misc`:
+    Something that doesn't fit in any other type
+
+11. `phdthesis`:
+    A PhD thesis
+
+12. `proceedings`:
+    The same as conference
+
+13. `techreport`:
+    Report published by an institution
+
+14. `unpublished`
+    Document not formally published, with author and title
+
+```{txt}
+\usepackage{natbib}
+```
+
+```{txt}
+\usepackage[comma]{natbib}
+```
+
+#### **`newfloat`**
+
+The package offers the command `\DeclareFloatingEnvironment`, which the user may use to define new floating environments which behave like the LaTeX standard foating environments figure and table. 
+
+```{txt}
+\usepackage{newfloat}
+```
+
+#### **`nomencl`**
+
+A list of abbreviations and symbols is common in many scientific documents. These types of lists can be created with LaTeX by means on the `nomencl` package. 
+
+```{txt}
+\documentclass{article}
+\usepackage{nomencl}
+\makenomenclature
+
+\begin{document}
+Here is an example:
+\nomenclature{\(c\)}{Speed of light in a vacuum}
+\nomenclature{\(h\)}{Planck constant}
+
+\printnomenclature
+\end{document}
+```
+
+```{txt}
+\usepackage{nomencl}
+```
+
+#### **`nth`**
+
+The command \nth{<number>} generates English ordinal numbers of the form $1^{st}$, $2^{nd}$, $3^{rd}$, $4^{th}$, etc.
+
+```{txt}
+\usepackage[super]{nth}
+```
+
+#### **`oldgerm`**
+
+This package defines commands to use the old German fonts for Fraktur, Schwabacher,
+and Gothic designed by Yannis Haralambous. To access them, use the package
+oldgerm in a `\usepackage` command.
+
+```{txt}
+\usepackage{oldgerm}
+```
+
+#### **`pgfplots`**
+
+The `pgfplots` package, which is based on `TikZ`, is a powerful visualization tool and ideal for creating scientific/technical graphics. The basic idea is that you provide the input data/formula and `pgfplots` does the rest.
+
+```{txt}
+\usepackage{pgfplots}
+```
+
+#### **`pythontex`**
+
+PythonTeX executes code in LaTeX documents and allows the output to be included in the original document. It supports Python as well as Bash, JavaScript, Julia, Octave, Perl, R, Raku (Perl 6), Ruby, Rust, and SageMath. 
+
+```{tex}
+\usepackage{pythontex}
+```
+
+#### **`rotating`**
+
+A package built on the standard LaTeX graphics package to perform all the different sorts of rotation one might like, including complete figures and tables with their captions. The package provides two new environments, `sidewaystable` and `sidewaysfigure`, each of which produces a single page-size float with contents rotated ±90 degrees.
+
+```{txt}
+\usepackage{rotating}
+```
+
+#### **`setspace`**
+
+Provides support for setting the spacing between lines in a document. Package options include `singlespacing`, `onehalfspacing`, and `doublespacing`. Alternatively the spacing can be changed as required with the `\singlespacing`, `\onehalfspacing`, and `\doublespacing` commands. Other size `spacings` also available. 
+
+```{txt}
+\begin{spacing}{2.5}
+...
+...
+\end{spacing}
+```
+
+
+```{txt}
+\usepackage{setspace}
+```
+
+#### **`siunitx`**
+This is a comprehensive (SI) units package. Typesetting values with units requires care to ensure that the combined mathematical meaning of the value plus unit combination is clear. In particular, the SI units system lays down a consistent set of units with rules on how they are to be used
+
+The package provides the user macros:
+
+```{txt}
+\ang[⟨options⟩]{⟨angle⟩}
+\num[⟨options⟩]{⟨number⟩}
+\unit[⟨options⟩]{⟨unit⟩}
+\qty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\numlist[⟨options⟩]{⟨numbers⟩}
+\numproduct[⟨options⟩]{⟨numbers⟩}
+\numrange[⟨options⟩]{⟨numbers⟩}{⟨number2⟩}
+\qtylist[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyproduct[⟨options⟩]{⟨numbers⟩}{⟨unit⟩}
+\qtyrange[⟨options⟩]{⟨number1⟩}{⟨number2⟩}{⟨unit⟩}
+\complexnum[⟨options⟩]{⟨number⟩}
+\complexqty[⟨options⟩]{⟨number⟩}{⟨unit⟩}
+\sisetup{⟨options⟩}
+\tablenum[⟨options⟩]{⟨number⟩}
+```
+
+```{txt}
+\usepackage{siunitx}
+```
+
+#### **`subcaption`** 
+
+This package offers an user interface to typeset sub-captions.
+
+```{txt}
+\usepackage{subcaption}
+```
+
+```{txt}
+\begin{figure} 
+\begin{center} 
+\begin{tabular}{cc} 
+\subcaptionbox{\label{1a}1975} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131a}}}} & 
+\subcaptionbox{\label{1b}1985} {\rotatebox{0}{\scalebox{.4}{\includegraphics{o131b}}}} 
+\end{tabular} 
+\caption{\label{fig1}Walmart store openings for every 10 years} 
+\end{center} 
+\end{figure}
+```
+
+#### **`tabularx`**
+
+A new environment, `tabularx`, is defined, which takes the same arguments as tabular*, but modifies the widths of certain columns, rather than the inter column space, to set a table with the requested total width. The columns that may stretch are marked with the new token `X` in the preamble argument. This package requires the `array` package.
+
+```{txt}
+\usepackage{tabularx}
+```
+
+#### **`textcomp`**
+
+The package supports the Text Companion fonts, which provide many text symbols (such as `baht`, `bullet`, `copyright`, `musicalnote`, `onequarter`, `section`, and `yen`).
+
+```{txt}
+\usepackage{textcomp}
+```
+
+#### **`threeparttable`**
+
+This package facilitates tables with titles (captions) and notes.
+
+```{txt}
+\usepackage[para]{threeparttable}
+```
+
+- `para`: Notes come one-after-another without line breaks
+
+```{txt}
+\begin{table} 
+\begin{center} 
+\caption{\label{t1}The state of nature} 
+\begin{threeparttable} 
+\begin{tabular}{lc}
+\toprule 1&2\\
+\midrule 4&3\\
+\bottomrule 
+\end{tabular} 
+\begin{tablenotes} 
+\item ***, ** and * are significant at the \(\SI{1}{\%}\), \(\SI{5}{\%}\) and \(\SI{10}{\%}\) levels, respectively 
+\end{tablenotes} 
+\end{threeparttable} 
+\end{center} 
+\end{table}
+```
+
+#### **`times`**
+
+The `times` package select Adobe Times Roman (or equivalent) as default font. The package is now obsolete, replaced by the mathptmx package, which supports Times Roman text and (mostly) matching mathematics. 
+
+```{txt}
+\usepackage{times}
+```
+
+#### **`ulem`**
+
+The `ulem` package provides various types of underlining that can stretch between words and be broken across lines in LaTeX or plain TeX. Such underlining is given by the `\uline` command, leaving the original `\underline` command available for math mode. 
+
+```{txt}
+\usepackage[normalem]{ulem}
+```
+
+#### **`url`**
+The command `\url` is a form of verbatim command that allows linebreaks at certain characters or combinations of characters, accepts reconfiguration, and can usually be used in the argument to another command. The command is intended for email addresses, hypertext links, directories/paths, etc., which normally have no spaces, so by default the package ignores spaces in its argument. 
+
+For instance, `\url{http://www.overleaf.com}`, will show the url passed as parameter and make it into a link, useful if you will print the document.
+
+```{txt}
+\usepackage{url}
+```
+
+#### **`xcolor`**
+The package starts from the basic facilities of the color package, and provides easy driver-independent access to several kinds of color tints, shades, tones, and mixes of arbitrary colors.
+
+```{txt}
+\usepackage{xcolor}
+```
+
+### Memo
+
+- Math mode of $PM_{2.5}$
+
+```{txt}
+\(\text{PM}_{2.5}\)
+```
+
+#### Manipulate table number 
+
+- Appendix section:
+
+```{txt}
+\section{Appendix}
+\setcounter{table}{0}
+\renewcommand{\thetable}{A\arabic{table}}
+```
+
+#### Manipulate table or figure numbers according to your interest:
+
+- For table,  `\renewcommand\thetable{A1}` is the trick.
+
+```{txt}
+\begin{table}
+ \renewcommand\thetable{A1}
+  \begin{center}\caption{Definitions of the variables}\label{database}
+    \begin{threeparttable}
+      \scriptsize{
+        \begin{tabular}{lllll}\toprule
+```
+
+- For figure, `\renewcommand\thefigure{A2}` is the trick.
+
+```{txt}
+\begin{figure}
+ \renewcommand\thefigure{A2}
+  \begin{center}
+    \begin{tabular}{cc}
+      \subcaptionbox{\label{Figure_2_a}Adaptation}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_2_a}}}}
+      &
+      \subcaptionbox{\label{Figure_2_b}Mitigation}{\rotatebox{0}{\scalebox{.50}{\includegraphics{Figure_2_b}}}}
+    \end{tabular}
+    \caption{\label{Figure:2}Boxplots}
+  \end{center}
+\end{figure}
+```
+
+Updated on: `r Sys.Date()`

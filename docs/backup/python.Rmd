@@ -1,0 +1,219 @@
+---
+title: "Python"
+output:
+  html_document:
+    highlight: monochrome
+    theme: darkly
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### [oTree](https://www.otree.org/)
+
+- oTree can be installed through pip. Open the terminal (Mac/Linux) or command prompt (Windows PowerShell) and type:
+
+```{txt}
+$ pip3 install otree
+```
+
+- You can install oTree in your computer by using the terminal in Pycharm as well.
+
+```{txt}
+$ pip3 install otree
+```
+
+- Upgrading/reinstalling oTree
+
+```{txt}
+$ pip3 install -U otree
+```
+
+- Recommend upgrading every couple of weeks.
+
+- You might need to do the proxy server settings
+
+- In the Pycharm, you can open the terminal and install oTree as below:
+
+```{txt}
+$ set https_proxy address:password
+$ pip install otree
+```
+
+#### oTree setup
+
+- From your command prompt, create your IGG project
+
+```{txt}
+$ otree startproject IGG
+```
+
+- Move into the folder you just created
+
+```{txt}
+$ cd IGG
+```
+
+- Run the server
+
+- Start your own terminal as a server.
+
+```{txt}
+$ otree devserver
+```
+
+Open your browser to http://localhost:8000/. You should see the oTree demo site.
+
+To stop the server, press Control+C at your command line.
+
+To create a new app, run
+
+```{txt}
+$ otree startapp app_name
+```
+
+Session configs are defined in settings.py
+
+#### Deploy oTree application to Heroku server
+
+To upload the oTree application in a cloud server like Heroku is an important step to conduct the online experiments. Here, I am showing the steps that you need to fulfill to upload your application:
+
+1.  Make sure your oTree application is working correctly locally.
+
+2.  Create a Heroku account if you don't already have one.
+
+3.  Install Heroku in your Mac: If you are a Mac user, you can install Heroku application from the **homebrew** as follows:
+
+```{txt}
+$ brew tap heroku/brew && brew install heroku
+```
+
+4.  Upload an app in Heroku: To upload your `oTree` application to Heroku, first create an *application name* inside your Heroku account as below:
+
+New...\> Create New App
+
+5.  Enter to the folder of your Pycharm which contains the application you are interested to upload to Heroku server:
+
+```{txt}
+$ cd appname
+```
+
+6.  Proxy settings if necessary Sometime institutional networks (e.g.; university, office, business) require some additional proxy settings to upload an application to Heroku. I am sharing the example of my institution.
+
+```{txt}
+$ export http_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+$ export https_proxy="http://proxy.noc.kochi-tech.ac.jp:3128"
+```
+
+7.  Log in to Heroku Now it is time to push your application to your Heroku account. To do so, you need to go through the following steps.
+
+```{txt}
+$ heroku login
+$ git init
+$ git add .
+$ git commit -am "command message"
+$ heroku git:remote -a appname
+$ git push heroku master
+$ heroku config:set OTREE_PRODUCTION=1
+```
+
+Your oTree application should now be deployed to your Heroku server. You can access it by going to the URL provided by Heroku.
+
+Note: Sometime due to the inconsistency in version of Python in your computer and reported Python version in runtime.txt might be different. In that case, you might not be able to rung the oTree program in computer. To get rid from it, you can remove the runtime.txt from your PyCharm.
+
+#### Necessary settings of Heroku to run small experiment
+
+Go to **Resources** tab. Following Add-ons need to be included for a small size experiment (For instance, 30 participants in one session).
+
+```{txt}
+Heroku Data for Redis ..... Premium 0
+Heroku Postgres ........... Basic
+```
+
+Go to **Settings** tab. Click on **Reveal Config Vars**. Ensure that you have following Key and Value.
+
+```{txt}
+Key........................Value
+OTREE_ADMIN_PASSWORD.......set any password
+OTREE_AUTH_LEVEL...........Demo
+OTREE_PRODUCTION...........1
+```
+
+#### Setup of Heroku server to activate the paid plans
+
+```{txt}
+heroku restart;heroku pg:reset DATABASE --confirm appname
+```
+
+Note: "appname" should be replaced with the custom application name
+
+### [NumPy](https://numpy.org/)
+A fundamental package for scientific and mathematical computing. 
+
+#### Installation:
+
+- Installing with conda
+
+```{txt}
+$ conda install numpy
+```
+
+- Installing with pip
+
+```{txt}
+$ pip install numpy
+```
+
+### [Pandas](https://pandas.pydata.org/)
+A package for data manipulation and analysis. 
+
+### [GeoPandas](https://geopandas.org/en/stable/)
+GeoPandas add support for geographic data to pandas objects.
+
+#### Installation: 
+
+- The best way to install GeoPandas is using conda and conda-forge channel:
+
+```{txt}
+$ conda install -c conda-forge geopandas
+```
+
+- Installing with pip
+
+```{txt}
+$ pip install geopandas
+```
+
+- Installing with Anaconda / conda
+
+```{txt}
+$ conda install geopandas
+```
+
+
+### [SciPy](https://scipy.org/)
+A package for advanced scientific computing.
+
+### [Statsmodels](https://www.statsmodels.org/stable/index.html)
+A package for statistical modeling and hypothesis testing. 
+
+### [Matplotlib](https://matplotlib.org/) 
+A package for data visualization
+
+### [Scikit-learn](https://scikit-learn.org/stable/) 
+A packge for machine learning
+
+### [Seaborn](https://seaborn.pydata.org/) 
+A package for enhanced data visualization
+
+### [Plotly](https://plotly.com/) 
+A package for interactive graphs
+
+
+Updated on: `r Sys.Date()`
