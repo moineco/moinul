@@ -2,7 +2,7 @@
 title: "Book"
 output:
   html_document:
-    theme: journal
+    theme: darkly
     toc: true
     toc_float: true
     collapsed: false

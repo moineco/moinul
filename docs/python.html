@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -33,6 +33,8 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -43,92 +45,18 @@
   ul.task-list{list-style: none;}
     </style>
 
-
-
-<style type="text/css">
-  code {
-    white-space: pre;
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
   }
-  .sourceCode {
-    overflow: visible;
-  }
-</style>
-<style type="text/css" data-origin="pandoc">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
 }
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { font-weight: bold; } /* Alert */
-code span.an { font-style: italic; } /* Annotation */
-code span.cf { font-weight: bold; } /* ControlFlow */
-code span.co { font-style: italic; } /* Comment */
-code span.cv { font-style: italic; } /* CommentVar */
-code span.do { font-style: italic; } /* Documentation */
-code span.dt { text-decoration: underline; } /* DataType */
-code span.er { font-weight: bold; } /* Error */
-code span.in { font-style: italic; } /* Information */
-code span.kw { font-weight: bold; } /* Keyword */
-code span.pp { font-weight: bold; } /* Preprocessor */
-code span.wa { font-style: italic; } /* Warning */
-
-</style>
-<script>
-// apply pandoc div.sourceCode style to pre.sourceCode instead
-(function() {
-  var sheets = document.styleSheets;
-  for (var i = 0; i < sheets.length; i++) {
-    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
-    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    var j = 0;
-    while (j < rules.length) {
-      var rule = rules[j];
-      // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
-        j++;
-        continue;
-      }
-      var style = rule.style.cssText;
-      // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') {
-        j++;
-        continue;
-      }
-      // replace div.sourceCode by a pre.sourceCode rule
-      sheets[i].deleteRule(j);
-      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
-    }
-  }
-})();
 </script>
+
+
 
 
 
@@ -408,12 +336,6 @@ div.tocify {
 <li>
   <a href="python.html">Python</a>
 </li>
-<li>
-  <a href="stata.html">Stata</a>
-</li>
-<li>
-  <a href="latex.html">LaTeX</a>
-</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -432,58 +354,51 @@ div.tocify {
 
 
 <div id="otree" class="section level3">
-<h3><a href="https://www.otree.org/">oTree</a></h3>
+<h3>oTree</h3>
+<p><a href="https://www.otree.org/">oTree</a></p>
 <ul>
 <li>oTree can be installed through pip. Open the terminal (Mac/Linux) or
 command prompt (Windows PowerShell) and type:</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>$ pip3 install otree</span></code></pre></div>
+<pre class="txt"><code>$ pip3 install otree</code></pre>
 <ul>
 <li>You can install oTree in your computer by using the terminal in
 Pycharm as well.</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>$ pip3 install otree</span></code></pre></div>
+<pre class="txt"><code>$ pip3 install otree</code></pre>
 <ul>
 <li>Upgrading/reinstalling oTree</li>
 </ul>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>$ pip3 install -U otree</span></code></pre></div>
+<pre class="txt"><code>$ pip3 install -U otree</code></pre>
 <ul>
 <li><p>Recommend upgrading every couple of weeks.</p></li>
 <li><p>You might need to do the proxy server settings</p></li>
 <li><p>In the Pycharm, you can open the terminal and install oTree as
 below:</p></li>
 </ul>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>$ set https_proxy address:password</span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>$ pip install otree</span></code></pre></div>
+<pre class="txt"><code>$ set https_proxy address:password
+$ pip install otree</code></pre>
 <div id="otree-setup" class="section level4">
 <h4>oTree setup</h4>
 <ul>
 <li>From your command prompt, create your IGG project</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>$ otree startproject IGG</span></code></pre></div>
+<pre class="txt"><code>$ otree startproject IGG</code></pre>
 <ul>
 <li>Move into the folder you just created</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>$ cd IGG</span></code></pre></div>
+<pre class="txt"><code>$ cd IGG</code></pre>
 <ul>
 <li><p>Run the server</p></li>
 <li><p>Start your own terminal as a server.</p></li>
 </ul>
-<div class="sourceCode" id="cb7"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>$ otree devserver</span></code></pre></div>
+<pre class="txt"><code>$ otree devserver</code></pre>
 <p>Open your browser to <a href="http://localhost:8000/"
 class="uri">http://localhost:8000/</a>. You should see the oTree demo
 site.</p>
 <p>To stop the server, press Control+C at your command line.</p>
 <p>To create a new app, run</p>
-<div class="sourceCode" id="cb8"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>$ otree startapp app_name</span></code></pre></div>
+<pre class="txt"><code>$ otree startapp app_name</code></pre>
 <p>Session configs are defined in settings.py</p>
 </div>
 <div id="deploy-otree-application-to-heroku-server"
@@ -500,8 +415,7 @@ locally.</p></li>
 install Heroku application from the <strong>homebrew</strong> as
 follows:</p></li>
 </ol>
-<div class="sourceCode" id="cb9"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a>$ brew tap heroku/brew &amp;&amp; brew install heroku</span></code></pre></div>
+<pre class="txt"><code>$ brew tap heroku/brew &amp;&amp; brew install heroku</code></pre>
 <ol start="4" style="list-style-type: decimal">
 <li>Upload an app in Heroku: To upload your <code>oTree</code>
 application to Heroku, first create an <em>application name</em> inside
@@ -512,30 +426,27 @@ your Heroku account as below:</li>
 <li>Enter to the folder of your Pycharm which contains the application
 you are interested to upload to Heroku server:</li>
 </ol>
-<div class="sourceCode" id="cb10"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a>$ cd appname</span></code></pre></div>
+<pre class="txt"><code>$ cd appname</code></pre>
 <ol start="6" style="list-style-type: decimal">
 <li>Proxy settings if necessary Sometime institutional networks (e.g.;
 university, office, business) require some additional proxy settings to
 upload an application to Heroku. I am sharing the example of my
 institution.</li>
 </ol>
-<div class="sourceCode" id="cb11"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a>$ export http_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</span>
-<span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a>$ export https_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</span></code></pre></div>
+<pre class="txt"><code>$ export http_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;
+$ export https_proxy=&quot;http://proxy.noc.kochi-tech.ac.jp:3128&quot;</code></pre>
 <ol start="7" style="list-style-type: decimal">
 <li>Log in to Heroku Now it is time to push your application to your
 Heroku account. To do so, you need to go through the following
 steps.</li>
 </ol>
-<div class="sourceCode" id="cb12"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a>$ heroku login</span>
-<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>$ git init</span>
-<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>$ git add .</span>
-<span id="cb12-4"><a href="#cb12-4" tabindex="-1"></a>$ git commit -am &quot;command message&quot;</span>
-<span id="cb12-5"><a href="#cb12-5" tabindex="-1"></a>$ heroku git:remote -a appname</span>
-<span id="cb12-6"><a href="#cb12-6" tabindex="-1"></a>$ git push heroku master</span>
-<span id="cb12-7"><a href="#cb12-7" tabindex="-1"></a>$ heroku config:set OTREE_PRODUCTION=1</span></code></pre></div>
+<pre class="txt"><code>$ heroku login
+$ git init
+$ git add .
+$ git commit -am &quot;command message&quot;
+$ heroku git:remote -a appname
+$ git push heroku master
+$ heroku config:set OTREE_PRODUCTION=1</code></pre>
 <p>Your oTree application should now be deployed to your Heroku server.
 You can access it by going to the URL provided by Heroku.</p>
 <p>Note: Sometime due to the inconsistency in version of Python in your
@@ -550,95 +461,96 @@ class="section level4">
 <p>Go to <strong>Resources</strong> tab. Following Add-ons need to be
 included for a small size experiment (For instance, 30 participants in
 one session).</p>
-<div class="sourceCode" id="cb13"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a>Heroku Data for Redis ..... Premium 0</span>
-<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a>Heroku Postgres ........... Basic</span></code></pre></div>
+<pre class="txt"><code>Heroku Data for Redis ..... Premium 0
+Heroku Postgres ........... Basic</code></pre>
 <p>Go to <strong>Settings</strong> tab. Click on <strong>Reveal Config
 Vars</strong>. Ensure that you have following Key and Value.</p>
-<div class="sourceCode" id="cb14"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>Key........................Value</span>
-<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a>OTREE_ADMIN_PASSWORD.......set any password</span>
-<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a>OTREE_AUTH_LEVEL...........Demo</span>
-<span id="cb14-4"><a href="#cb14-4" tabindex="-1"></a>OTREE_PRODUCTION...........1</span></code></pre></div>
+<pre class="txt"><code>Key........................Value
+OTREE_ADMIN_PASSWORD.......set any password
+OTREE_AUTH_LEVEL...........Demo
+OTREE_PRODUCTION...........1</code></pre>
 </div>
 <div id="setup-of-heroku-server-to-activate-the-paid-plans"
 class="section level4">
 <h4>Setup of Heroku server to activate the paid plans</h4>
-<div class="sourceCode" id="cb15"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>heroku restart;heroku pg:reset DATABASE --confirm appname</span></code></pre></div>
+<pre class="txt"><code>heroku restart;heroku pg:reset DATABASE --confirm appname</code></pre>
 <p>Note: “appname” should be replaced with the custom application
 name</p>
 </div>
 </div>
 <div id="numpy" class="section level3">
-<h3><a href="https://numpy.org/">NumPy</a></h3>
-<p>A fundamental package for scientific and mathematical computing.</p>
+<h3>NumPy</h3>
+<p><a href="https://numpy.org/">NumPy</a> A fundamental package for
+scientific and mathematical computing.</p>
 <div id="installation" class="section level4">
 <h4>Installation:</h4>
 <ul>
 <li>Installing with conda</li>
 </ul>
-<div class="sourceCode" id="cb16"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>$ conda install numpy</span></code></pre></div>
+<pre class="txt"><code>$ conda install numpy</code></pre>
 <ul>
 <li>Installing with pip</li>
 </ul>
-<div class="sourceCode" id="cb17"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a>$ pip install numpy</span></code></pre></div>
+<pre class="txt"><code>$ pip install numpy</code></pre>
 </div>
 </div>
 <div id="pandas" class="section level3">
-<h3><a href="https://pandas.pydata.org/">Pandas</a></h3>
-<p>A package for data manipulation and analysis.</p>
+<h3>Pandas</h3>
+<p><a href="https://pandas.pydata.org/">Pandas</a> A package for data
+manipulation and analysis.</p>
 </div>
 <div id="geopandas" class="section level3">
-<h3><a href="https://geopandas.org/en/stable/">GeoPandas</a></h3>
-<p>GeoPandas add support for geographic data to pandas objects.</p>
+<h3>GeoPandas</h3>
+<p><a href="https://geopandas.org/en/stable/">GeoPandas</a> GeoPandas
+add support for geographic data to pandas objects.</p>
 <div id="installation-1" class="section level4">
 <h4>Installation:</h4>
 <ul>
 <li>The best way to install GeoPandas is using conda and conda-forge
 channel:</li>
 </ul>
-<div class="sourceCode" id="cb18"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a>$ conda install -c conda-forge geopandas</span></code></pre></div>
+<pre class="txt"><code>$ conda install -c conda-forge geopandas</code></pre>
 <ul>
 <li>Installing with pip</li>
 </ul>
-<div class="sourceCode" id="cb19"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a>$ pip install geopandas</span></code></pre></div>
+<pre class="txt"><code>$ pip install geopandas</code></pre>
 <ul>
 <li>Installing with Anaconda / conda</li>
 </ul>
-<div class="sourceCode" id="cb20"><pre
-class="sourceCode txt"><code class="sourceCode default"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a>$ conda install geopandas</span></code></pre></div>
+<pre class="txt"><code>$ conda install geopandas</code></pre>
 </div>
 </div>
 <div id="scipy" class="section level3">
-<h3><a href="https://scipy.org/">SciPy</a></h3>
-<p>A package for advanced scientific computing.</p>
+<h3>SciPy</h3>
+<p><a href="https://scipy.org/">SciPy</a> A package for advanced
+scientific computing.</p>
 </div>
 <div id="statsmodels" class="section level3">
-<h3><a
-href="https://www.statsmodels.org/stable/index.html">Statsmodels</a></h3>
-<p>A package for statistical modeling and hypothesis testing.</p>
+<h3>Statsmodels</h3>
+<p><a
+href="https://www.statsmodels.org/stable/index.html">Statsmodels</a> A
+package for statistical modeling and hypothesis testing.</p>
 </div>
 <div id="matplotlib" class="section level3">
-<h3><a href="https://matplotlib.org/">Matplotlib</a></h3>
-<p>A package for data visualization</p>
+<h3>Matplotlib</h3>
+<p><a href="https://matplotlib.org/">Matplotlib</a> A package for data
+visualization</p>
 </div>
 <div id="scikit-learn" class="section level3">
-<h3><a href="https://scikit-learn.org/stable/">Scikit-learn</a></h3>
-<p>A packge for machine learning</p>
+<h3>Scikit-learn</h3>
+<p><a href="https://scikit-learn.org/stable/">Scikit-learn</a> A packge
+for machine learning</p>
 </div>
 <div id="seaborn" class="section level3">
-<h3><a href="https://seaborn.pydata.org/">Seaborn</a></h3>
-<p>A package for enhanced data visualization</p>
+<h3>Seaborn</h3>
+<p><a href="https://seaborn.pydata.org/">Seaborn</a> A package for
+enhanced data visualization</p>
 </div>
 <div id="plotly" class="section level3">
-<h3><a href="https://plotly.com/">Plotly</a></h3>
-<p>A package for interactive graphs</p>
-<p>Updated on: 2025-01-04</p>
+<h3>Plotly</h3>
+<p><a href="https://plotly.com/">Plotly</a> A package for interactive
+graphs</p>
+<p>Updated on: 2025-02-08</p>
 </div>
 
 

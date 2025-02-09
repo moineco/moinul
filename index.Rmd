@@ -2,15 +2,12 @@
 title: "Biography"
 output:
   html_document:
-    theme: journal
+    theme: darkly
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
     toc_depth: 3
-editor_options: 
-  markdown: 
-    wrap: 72
 ---
 
 ```{r setup, include=FALSE}

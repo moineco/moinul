@@ -1,0 +1,296 @@
+---
+title: "R"
+output:
+  html_document:
+    theme: simplex
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Package manager
+
+####  pacman
+
+[pacman](https://cran.r-project.org/web/packages/pacman/index.html)
+Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
+
+```{txt}
+install.packages("pacman")    # Install pacman package
+library("pacman")             # Load pacman package
+```
+
+After running the previous lines of code, we can use the functions provided by the `pacman` package.
+
+- Example 1: Install & load multiple R packages using p_load function
+
+In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
+
+Have a look at the following R syntax:
+
+```{txt}
+p_load(dplyr, stringr)   # Install & load packages
+```
+
+After executing the previous code, we have loaded the packages `dplyr`, and `stringr`.
+
+Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
+
+- Example 2: Unload multiple R packages using p_unload function
+
+Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
+
+Let’s apply the p_unload command to unload the packages `dplyr`, and `stringr` that we have loaded before:
+
+```{txt}
+p_unload(dplyr, stringr)  # Unload packages
+```
+
+The following packages have been unloaded: `dplyr`, `stringr`
+The previous output of the RStudio console tells us that our three packages were detached.
+
+- Example 3: Update Outdated R Packages Using p_update Function
+
+In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
+
+First, let’s check which of my packages are outdated:
+
+```{txt}
+p_update(update = FALSE)  # Check for outdated packages
+```
+
+Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
+
+Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
+
+```{txt}
+p_update() # Update all packages
+```
+
+### Econometrics
+
+#### Basic linear regression
+
+- *Estimation and standard inference:* Ordinary least squares (OLS)
+  estimation for linear models is provided by `lm()` (from stats) and standard
+  tests for model comparisons are available in various methods such as
+  `summary()` and `anova()`.
+  
+#### Microeconometrics
+
+- *Generalized linear models (GLMs):* Many standard microeconometric models
+  belong to the family of generalized linear models and can be fitted by
+  `glm()` from package stats. This includes in particular logit and probit
+  models for modeling choice data and Poisson models for count data.
+  
+- *Effects and marginal effects:*  Effects for typical values of regressors
+  in GLMs and various other probabilistic regression models can be obtained
+  and visualized using r pkg ("effects"). Marginal effect tables and
+  corresponding visualizations for a wide range of models can be be produced
+  with r pkg ("marginaleffects", priority = "core"). Other implementations
+  of marginal effects for certain models are in r pkg ("margins") and
+  r pkg ("mfx"). Interactive visualizations of both effects and marginal
+  effects are possible in r pkg ("LinRegInteractive").
+  
+- *Binary responses:* The standard logit and probit models (among many
+  others) for binary responses are GLMs that can be estimated by `glm()` with
+  `family = binomial`. Bias-reduced GLMs that are robust to complete and
+  quasi-complete separation are provided by r pkg ("brglm"). Discrete choice
+  models estimated by simulated maximum likelihood are implemented in
+  r pkg ("Rchoice"). r pkg ("bife") provides binary choice models with fixed
+  effects. Heteroscedastic probit models (and other heteroscedastic GLMs) are
+  implemented in r pkg("glmx") along with parametric link functions and
+  goodness-of-link tests for GLMs.
+  
+- *Count responses:* The basic Poisson regression is a GLM that can be
+  estimated by `glm()` with `family = poisson` as explained above. Negative
+  binomial GLMs are available via `glm.nb()` in package r pkg ("MASS").
+  Another implementation of negative binomial models is provided by
+  r pkg ("aod"), which also contains other models for overdispersed data.
+  Zero-inflated and hurdle count models are provided in package r pkg ("pscl").
+  A reimplementation by the same authors is currently under
+  development in r rforge ("countreg") on R-Forge which also encompasses
+  separate functions for zero-truncated regression, finite mixture models etc.
+
+#### Causal inference
+
+##### Difference-in-differences (DiD) and synthetic control
+
+##### Instrumental variables (IV)
+
+##### Regression discontinuity design (RDD)
+
+#### Panel data models
+
+#### Further regression models
+
+#### Time series data and models
+
+#### Data sets
+
+#### Miscellaneous
+
+### Data management
+
+####  devtools
+
+[devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
+
+####  remotes
+
+[remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+
+####  stargazer
+
+[stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
+
+####  readxl
+
+[readxl](https://cran.r-project.org/web/packages/readxl/index.html)
+
+####  here
+
+[here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
+
+####  rvest
+
+[rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+
+####  ggthemes
+
+[ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
+
+#### ggpubr
+
+[ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
+
+#### plotly
+
+[plotly](https://plotly.com/r/)
+
+#### stringr
+
+[stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
+
+#### patchwork
+
+[patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
+
+#### magrittr
+
+[magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
+
+#### data.table
+
+[data.table](https://cran.r-project.org/web/packages/data.table/index.html)
+
+#### cowplot
+
+[cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) 
+
+### Data visualization
+
+####  [tidyverse](https://www.tidyverse.org/) 
+
+####  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+
+####  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
+
+####  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
+
+####  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
+
+####  [mapview](https://r-spatial.github.io/mapview/) 
+
+####  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+
+####  [`ggmap`](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
+
+####  [rayshader](https://www.rayshader.com/)
+
+#### [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
+
+#### [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+
+#### [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
+
+#### [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+
+#### [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+
+#### [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+
+### Sapatial Economics
+
+#### GIS data manipulation
+
+#####  [sf](<https://r-spatial.github.io/sf/>) 
+
+##### [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
+
+#####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
+
+#####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
+
+#####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+
+#### Spatial analysis
+
+#####  spatial 
+#####  spatstat 
+#####  gstat 
+#####  spdep 
+#####  geoshape 
+#####  ggspatial 
+#####  geogrid 
+#####  GISTools 
+
+#### Spatial data sources
+
+#####  OpenStreetMap
+#####  rnaturalearth 
+#####  rnaturalearthdata 
+#####  maps 
+#####  spData 
+#####  rgeos 
+#####  jpndistrict 
+##### usmap 
+##### tigris 
+##### tidycensus
+
+### Text mining
+
+#### tidytext
+#### tm
+
+### Bibliometric analysis
+
+#### 
+
+[bibliometrix](https://www.bibliometrix.org/home/)
+
+- Install stable version
+
+```{txt}
+install.packages("bibliometrix")
+```
+
+- Install beta version
+
+```{txt}
+install.packages("remotes")         
+remotes::install_github("massimoaria/bibliometrix")
+```
+
+- Introduction
+[A brief introduction to bibliometrix](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html)
+- Packages
+[Cran bibliometrix package](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
+
+Updated on: `r Sys.Date()`
