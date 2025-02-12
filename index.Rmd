@@ -6,7 +6,7 @@ output:
     toc: true
     toc_float: true
     collapsed: false
-    number_sections: false
+    number_sections: true
     toc_depth: 3
 ---
 
@@ -134,7 +134,7 @@ progress.
 : Project 2
 :::
 
-### Contact
+**Contact**
 
 -   moinul[dot]eco[at]gmail[dot]com
 
