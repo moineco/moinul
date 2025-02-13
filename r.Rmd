@@ -76,6 +76,8 @@ p_update() # Update all packages
 
 ####  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
 
+- Install the released version of remotes from CRAN:
+
 ```{txt}
 install.packages("devtools")
 ```
@@ -89,6 +91,18 @@ devtools::install_cran("MASS")
 - This command installs the "MASS" package from CRAN.
 
 ####  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
+
+- Install the released version of remotes from CRAN:
+
+```{txt}
+install.packages("remotes")
+```
+
+- To install the latest version of a package in the default branch from GitHub, you can use the user/repo form. Note that user can also be an organization:
+
+```{txt}
+remotes::install_github("r-lib/conflicted")
+```
 
 ####  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
 
@@ -148,95 +162,107 @@ devtools::install_cran("MASS")
 
 ### Econometrics
 
-#### AER 
-Applied Econometrics with R
+#### [AER](https://www.rdocumentation.org/packages/AER/versions/1.2-14) 
+- Applied Econometrics with R package installation:
 
-#### car 
-Companion to Applied Regression
+```{txt}
+install.packages('AER')
+```
 
-#### censReg
-Censored regression/tobit models
+#### [car](https://www.rdocumentation.org/packages/car/versions/3.1-3) 
+- Companion to Applied Regression package installation:
+
+```{txt}
+install.packages('car')
+```
+
+#### [censReg](https://www.rdocumentation.org/packages/censReg/versions/0.5-38)
+- Censored regression/tobit models package installation:
+
+```{txt}
+install.packages('censReg')
+```
 
 #### dummies
-Automatically generating dummy/indicator variables
+- Automatically generating dummy/indicator variables
 
 #### dynlm 
-Dynamic linear regression for time series
+- Dynamic linear regression for time series
 
 #### effects
-Graphical and tabular illustration of partial effects
+- Graphical and tabular illustration of partial effects
 
 #### ggplot2
-Advanced and powerful graphics
+- Advanced and powerful graphics
 
 #### knitr 
-Combine R and IATEX code in one document
+- Combine R and IATEX code in one document
 
 #### Imtest 
-Testing Linear Regression Models- Includes many useful tests for the linear regression model
+- Testing Linear Regression Models- Includes many useful tests for the linear regression model
 
 #### maps
-Draw geographical maps
+- Draw geographical maps
+
+#### [MatchIt](<https://dlab.berkeley.edu/news/introduction-propensity-score-matching-matchit>)
+- Propensity Score Matching
 
 #### mfx
-Marginal effects, odds ratios and incidence rate ratios for GLMs
+- Marginal effects, odds ratios and incidence rate ratios for GLMs
 
 #### orcutt
-Cochrane-Orcutt estimator for serially correlated errors
+- Cochrane-Orcutt estimator for serially correlated errors
 
 #### plm 
-Linear Models for Panel Data- A large collection of panel data methods
+- Linear Models for Panel Data- A large collection of panel data methods
 
 #### quantmod
-Quantitative Financial Modelling
+- Quantitative Financial Modelling
 
 #### quantreg
-Quantile regression, especially least absolute deviation (LAD) regression
+- Quantile regression, especially least absolute deviation (LAD) regression
 
 #### rio
-Conveniently import and export data files
+- Conveniently import and export data files
 
 #### sampleSelection
-Sample selection models
+- Sample selection models
 
 #### sandwich
-Different "robust" covariance matrix estimators
-
-#### stargazer
-Formatted tables of regression results
+- Different "robust" covariance matrix estimators
 
 #### survival
-Survival analysis and censored regression models
+- Survival analysis and censored regression models
 
 #### systemfit
-Estimation of simultaneous equations models
+- Estimation of simultaneous equations models
 
 #### truncreg
-Truncated Gaussian response models
+- Truncated Gaussian response models
 
 #### tseries
-Time series analysis and computational finance
+- Time series analysis and computational finance
 
 #### urca
-Unit root and cointegration tests for time series data
+- Unit root and cointegration tests for time series data
 
 #### vars
-Structural vector autoregressive and error correction models
+- Structural vector autoregressive and error correction models
 
 #### xtable 
-Export tables to LaTeX or HTML
+- Export tables to LaTeX or HTML
 
 #### xts 
-eXtensible Time Series- Irregular time series
+- eXtensible Time Series- Irregular time series
 
 #### WDI
-Search, extract, and format data from the World Bank's World Development Indicators
+- Search, extract, and format data from the World Bank's World Development Indicators
 
 #### wooldridge
-Data sets from the textbook of Wooldridge (2019)
+- Data sets from the textbook of Wooldridge (2019)
 
 #### zoo 
-Zeileis' Ordered Observations- Irregular time series
+- Zeileis' Ordered Observations- Irregular time series
 
 ### GIS Data Manipulation
 
