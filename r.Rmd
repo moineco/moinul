@@ -106,19 +106,164 @@ remotes::install_github("r-lib/conflicted")
 
 ####  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
 
+- Install the released version of remotes from CRAN:
+
+```{txt}
+install.packages("stargazer")
+```
+
+- Create Summary Statistics Table Using Stargazer
+
+```{txt}
+# Load your external dataset
+data(mtcars)
+# Check the summary of dataset
+summary(mtcars)
+# Create summary statistics table using stargazer
+stargazer(mtcars, type='text', title='Summary Statistics')
+```
+
+- Fit a Regression Model and exported to the specified file paths
+
+```{txt}
+# Fit regression model
+fit <- lm(mpg ~ wt + cyl, data = mtcars)
+# Create table that summarizes the new regression model
+stargazer(fit, type = 'text', title = 'Regression Summary Table', 
+           out = 'C:\\Users\\Downloads\\R.txt')
+```
+
 ####  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
+
+- Install `readxl` from CRAN:
+
+```{txt}
+install.packages("readxl")
+```
+
+- read_excel() reads both xls and xlsx files and detects the format from the extension
+
+```{txt}
+xlsx_example <- readxl_example("datasets.xlsx")
+read_excel(xlsx_example)
+```
+
+- List the sheet names with excel_sheets()
+
+```{txt}
+excel_sheets(xlsx_example)
+```
+
+- Specify a worksheet by name or number
+
+```{txt}
+read_excel(xlsx_example, sheet = "chickwts")
+read_excel(xls_example, sheet = 4)
+```
 
 ####  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
 
+- `here()` uses a reasonable heuristics to find your project's files, based on the current working directory at the time when the package is loaded. Use it as a drop-in replacement for file.path(), it will always locate the files relative to your project root.
+
+```{txt}
+install.packages("here")
+```
+
+- Use project-relative paths. You can build a path relative to the top-level directory in order to build the full path to a file:
+
+```{txt}
+here("data", "penguins.csv")
+```
+
 ####  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
+
+- `rvest` is a package that makes it easy to scrape (or harvest) data from html web pages. 
+
+```{txt}
+install.packages("rvest")
+```
+
+- If the page contains tabular data you can convert it directly to a data frame with html_table():
+
+```{txt}
+html <- read_html("https://en.wikipedia.org/w/index.php?title=The_Lego_Movie&oldid=998422565")
+```
+
+```{txt}
+html %>% 
+  html_element(".tracklist") %>% 
+  html_table()
+```
 
 ####  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
 
+-  Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and scales that replicate the look of plots.
+
+```{txt}
+install.packages('ggthemes')
+```
+
+- Example: Theme_base() in ggtheme in R
+
+```{txt}
+ggplot(mtcars) + geom_point(aes(x = wt, y = mpg, 
+					colour = factor(gear))) + theme_base() + ggtitle("theme_base()") 
+```
+
+- Example: theme_calc() in ggtheme in R
+
+```{txt}
+ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
+  geom_point() +
+  theme_calc() +
+  ggtitle("theme_calc()")
+```
+
 ####  [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
+
+- ggpubr is‘ggplot2’ Based Publication Ready Plots
+
+```{txt}
+install.packages("ggpubr")
+```
+
+- Example: Distribution
+
+```{txt}
+ggdensity(wdata, x = "weight",
+   add = "mean", rug = TRUE,
+   color = "sex", fill = "sex",
+   palette = c("#00AFBB", "#E7B800"))
+```
 
 ####  [plotly](https://plotly.com/r/)
 
+- plotly is an R package for creating interactive web-based graphs via the open source JavaScript graphing library plotly.js.
+
+```{txt}
+install.packages("plotly")
+```
+
+- Graphs created with the plotly R package are interactive!
+
+```{txt}
+fig <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+fig
+```
+
 ####  [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
+
+- The easiest way to get stringr is to install the whole tidyverse:
+
+```{txt}
+install.packages("tidyverse")
+```
+
+- Alternatively, install just stringr:
+
+```{txt}
+install.packages("stringr")
+```
 
 ####  [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
 

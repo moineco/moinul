@@ -458,34 +458,146 @@ an organization:</li>
 <div id="stargazer" class="section level4" number="2.3">
 <h4><span class="header-section-number">2.3</span> <a
 href="https://cran.r-project.org/web/packages/stargazer/index.html">stargazer</a></h4>
+<ul>
+<li>Install the released version of remotes from CRAN:</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;stargazer&quot;)</code></pre>
+<ul>
+<li>Create Summary Statistics Table Using Stargazer</li>
+</ul>
+<pre class="txt"><code># Load your external dataset
+data(mtcars)
+# Check the summary of dataset
+summary(mtcars)
+# Create summary statistics table using stargazer
+stargazer(mtcars, type=&#39;text&#39;, title=&#39;Summary Statistics&#39;)</code></pre>
+<ul>
+<li>Fit a Regression Model and exported to the specified file paths</li>
+</ul>
+<pre class="txt"><code># Fit regression model
+fit &lt;- lm(mpg ~ wt + cyl, data = mtcars)
+# Create table that summarizes the new regression model
+stargazer(fit, type = &#39;text&#39;, title = &#39;Regression Summary Table&#39;, 
+           out = &#39;C:\\Users\\Downloads\\R.txt&#39;)</code></pre>
 </div>
 <div id="readxl" class="section level4" number="2.4">
 <h4><span class="header-section-number">2.4</span> <a
 href="https://cran.r-project.org/web/packages/readxl/index.html">readxl</a></h4>
+<ul>
+<li>Install <code>readxl</code> from CRAN:</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;readxl&quot;)</code></pre>
+<ul>
+<li>read_excel() reads both xls and xlsx files and detects the format
+from the extension</li>
+</ul>
+<pre class="txt"><code>xlsx_example &lt;- readxl_example(&quot;datasets.xlsx&quot;)
+read_excel(xlsx_example)</code></pre>
+<ul>
+<li>List the sheet names with excel_sheets()</li>
+</ul>
+<pre class="txt"><code>excel_sheets(xlsx_example)</code></pre>
+<ul>
+<li>Specify a worksheet by name or number</li>
+</ul>
+<pre class="txt"><code>read_excel(xlsx_example, sheet = &quot;chickwts&quot;)
+read_excel(xls_example, sheet = 4)</code></pre>
 </div>
 <div id="here" class="section level4" number="2.5">
 <h4><span class="header-section-number">2.5</span> <a
 href="https://cran.r-project.org/web/packages/here/vignettes/here.html">here</a></h4>
+<ul>
+<li><code>here()</code> uses a reasonable heuristics to find your
+project’s files, based on the current working directory at the time when
+the package is loaded. Use it as a drop-in replacement for file.path(),
+it will always locate the files relative to your project root.</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;here&quot;)</code></pre>
+<ul>
+<li>Use project-relative paths. You can build a path relative to the
+top-level directory in order to build the full path to a file:</li>
+</ul>
+<pre class="txt"><code>here(&quot;data&quot;, &quot;penguins.csv&quot;)</code></pre>
 </div>
 <div id="rvest" class="section level4" number="2.6">
 <h4><span class="header-section-number">2.6</span> <a
 href="https://cran.r-project.org/web/packages/rvest/index.html">rvest</a></h4>
+<ul>
+<li><code>rvest</code> is a package that makes it easy to scrape (or
+harvest) data from html web pages.</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;rvest&quot;)</code></pre>
+<ul>
+<li>If the page contains tabular data you can convert it directly to a
+data frame with html_table():</li>
+</ul>
+<pre class="txt"><code>html &lt;- read_html(&quot;https://en.wikipedia.org/w/index.php?title=The_Lego_Movie&amp;oldid=998422565&quot;)</code></pre>
+<pre class="txt"><code>html %&gt;% 
+  html_element(&quot;.tracklist&quot;) %&gt;% 
+  html_table()</code></pre>
 </div>
 <div id="ggthemes" class="section level4" number="2.7">
 <h4><span class="header-section-number">2.7</span> <a
 href="https://cran.r-project.org/web/packages/ggthemes/index.html">ggthemes</a></h4>
+<ul>
+<li>Some extra themes, geoms, and scales for ‘ggplot2’. Provides
+‘ggplot2’ themes and scales that replicate the look of plots.</li>
+</ul>
+<pre class="txt"><code>install.packages(&#39;ggthemes&#39;)</code></pre>
+<ul>
+<li>Example: Theme_base() in ggtheme in R</li>
+</ul>
+<pre class="txt"><code>ggplot(mtcars) + geom_point(aes(x = wt, y = mpg, 
+                    colour = factor(gear))) + theme_base() + ggtitle(&quot;theme_base()&quot;) </code></pre>
+<ul>
+<li>Example: theme_calc() in ggtheme in R</li>
+</ul>
+<pre class="txt"><code>ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
+  geom_point() +
+  theme_calc() +
+  ggtitle(&quot;theme_calc()&quot;)</code></pre>
 </div>
 <div id="ggpubr" class="section level4" number="2.8">
 <h4><span class="header-section-number">2.8</span> <a
 href="https://cran.r-project.org/web/packages/ggpubr/index.html">ggpubr</a></h4>
+<ul>
+<li>ggpubr is‘ggplot2’ Based Publication Ready Plots</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;ggpubr&quot;)</code></pre>
+<ul>
+<li>Example: Distribution</li>
+</ul>
+<pre class="txt"><code>ggdensity(wdata, x = &quot;weight&quot;,
+   add = &quot;mean&quot;, rug = TRUE,
+   color = &quot;sex&quot;, fill = &quot;sex&quot;,
+   palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;))</code></pre>
 </div>
 <div id="plotly" class="section level4" number="2.9">
 <h4><span class="header-section-number">2.9</span> <a
 href="https://plotly.com/r/">plotly</a></h4>
+<ul>
+<li>plotly is an R package for creating interactive web-based graphs via
+the open source JavaScript graphing library plotly.js.</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;plotly&quot;)</code></pre>
+<ul>
+<li>Graphs created with the plotly R package are interactive!</li>
+</ul>
+<pre class="txt"><code>fig &lt;- plot_ly(midwest, x = ~percollege, color = ~state, type = &quot;box&quot;)
+fig</code></pre>
 </div>
 <div id="stringr" class="section level4" number="2.10">
 <h4><span class="header-section-number">2.10</span> <a
 href="https://cran.r-project.org/web/packages/stringr/index.html">stringr</a></h4>
+<ul>
+<li>The easiest way to get stringr is to install the whole
+tidyverse:</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;tidyverse&quot;)</code></pre>
+<ul>
+<li>Alternatively, install just stringr:</li>
+</ul>
+<pre class="txt"><code>install.packages(&quot;stringr&quot;)</code></pre>
 </div>
 <div id="patchwork" class="section level4" number="2.11">
 <h4><span class="header-section-number">2.11</span> <a
@@ -879,7 +991,7 @@ brief introduction to bibliometrix</a></li>
 href="https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf">Cran
 bibliometrix package</a></li>
 </ul>
-<p>Updated on: 2025-02-12</p>
+<p>Updated on: 2025-02-13</p>
 </div>
 </div>
 
