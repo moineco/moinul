@@ -16,10 +16,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Doctor of Engineering (equivalent to Ph.D.
-in Environmental Engineering) degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical public policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based public policies.
+I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering) degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical public policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based public policies.
 
-I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. For over a decade, I have been actively researching climate change adaptation and public policy, particularly in developing countries, examining how public policies can better protect climate vulnerable populations. 
+I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. For over a decade, I have been actively researching climate change adaptation and public policy, particularly in developing countries, examining how public policies can better protect climate vulnerable populations.
 
 My resume is available from this link: [**Moinul's resume**](https://moineco.github.io/moinul_resume/moinul_resume.pdf)
 
@@ -27,14 +26,11 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 
 -   Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering), Kyushu University, Kyushu, Japan, 2016
 
--   Master of Arts in International Development,
-    International University of Japan, Niigata, Japan, 2012
+-   Master of Arts in International Development, International University of Japan, Niigata, Japan, 2012
 
--   Master of Social Science in Economics, Shahjala University of
-    Science and Technology, Sylhet, Bangladesh, 2007
+-   Master of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh, 2007
 
--   Bachelor of Social Science in Economics, Shahjala University of
-    Science and Technology, Sylhet, Bangladesh, 2006
+-   Bachelor of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh, 2006
 
 ### Research interests
 
@@ -42,61 +38,44 @@ Applied Microeconomics, Agricultural Economics, Climate Change, Environmental Ec
 
 ### My vision
 
-Climate change and natural disasters pose significant threats to
-humankind, while human behaviors being the primary driver of the altered
-climate patterns. I envision a future where human actions foster a
-harmonious coexistence with nature while supporting sustainable economic
-progress.
+Climate change and natural disasters pose significant threats to humankind, while human behaviors being the primary driver of the altered climate patterns. I envision a future where human actions foster a harmonious coexistence with nature while supporting sustainable economic progress.
 
 ### Affiliation
 
--   Associate Professor, School of Economics and Management, Kochi
-    University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518,
-    Japan
+-   Associate Professor, School of Economics and Management, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
 
--   Associate Professor, Research Institute for Future Design, Kochi
-    University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515,
-    Japan
+-   Associate Professor, Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
--   Research Fellow, Urban Institute, Kyushu University, 744 Motooka,
-    Nishi-ku, Fukuoka 819-0395, Japan
+-   Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
 
 ### Links of my profile
 
-- [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
+-   [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
 
-- [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
+-   [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
 
-- [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
+-   [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
 
-- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
+-   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
 
-- [Research Map](https://researchmap.jp/moinul/?lang=english)
+-   [Research Map](https://researchmap.jp/moinul/?lang=english)
 
-- [Orcid](https://orcid.org/0000-0002-0309-3156)
+-   [Orcid](https://orcid.org/0000-0002-0309-3156)
 
-- [Github](https://github.com/moineco)
+-   [Github](https://github.com/moineco)
 
 ### Work experiences
 
--   2024, Associate Professor, School of Economics and Management &
-    Research Institute for Future Design, Kochi University of
-    Technology, Kochi, Japan
+-   2024, Associate Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
--   2020, Assistant Professor, School of Economics and Management &
-    Research Institute for Future Design, Kochi University of
-    Technology, Kochi, Japan
+-   2020, Assistant Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
--   2019, Assistant Professor, Graduate School for International
-    Development and Cooperation (IDEC), Hiroshima University, Hiroshima,
-    Japan
+-   2019, Assistant Professor, Graduate School for International Development and Cooperation (IDEC), Hiroshima University, Hiroshima, Japan
 
--   2016, Assistant Professor, Graduate School of Urban and
-    Environmental Engineering, Kyushu University, Fukuoka, Japan
+-   2016, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
 
--   2012, Research Assistant, Graduate School of Environmental Studies,
-    Tohoku University, Sendai, Japan
-    
+-   2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
+
 ### Programs
 
 -   Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
@@ -105,14 +84,24 @@ progress.
 
 ### Language
 
--   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali
-    (Native)
+-   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 ### Selected projects
 
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
+| Title | How does arsenic (As) contamination information provision to teenagers coupled with their perspective of the future generations impact on household level sustainable water management (SWM)? |
+| Primary fund type | Grant-in-Aid for Scientific Research (C) in Economic Policy |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Project ID | TBA |
+| Project Period | 2025 - 2029 |
+| Keywords | Sustainable water management; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
+
+: Project 1
+
+|  |  |
+|-------------------|-----------------------------------------------------|
 | Title | Do intergenerational transfer of environmental knowledge and self-monitoring behavior reduce indoor air pollution? |
 | Primary fund type | Grant-in-Aid for Early-Career Scientists in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
@@ -120,10 +109,10 @@ progress.
 | Project Period | 2021 - 2025 |
 | Keywords | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
 
-: Project 1
+: Project 2
 
 |  |  |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Title | Quantify the burden of mortality from pollution on the environmental sustainability of nations |
 | Primary fund type | Grant-in-Aid for Research Activity Start-up in Environmental Evaluation |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
@@ -131,7 +120,7 @@ progress.
 | Project Period | 2019 - 2022 |
 | Keywords | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
 
-: Project 2
+: Project 3
 :::
 
 **Contact**
