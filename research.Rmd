@@ -175,7 +175,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Fund for the Promotion of Joint International Research [Fostering Joint International Research (B)]. Principal Investigator: Koji Kotani. Co-investigator: Makoto Kakinaka, [**Moinul Islam**]{.underline}, Kostiantyn Ovsiannikov, Yuta Yasui. Grant number: 22KK0020. Project period: 2022/10 -- 2027/03.
 
-4.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 19K24384. Project period: 2019/04 -- 2021/03.
+4.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 19K24384. Project period: 2019/04 -- 2022/03.
 
 ### Professional service
 
