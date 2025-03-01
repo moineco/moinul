@@ -18,4 +18,8 @@ navbar:
     #   href: stata.html
     # - text: "LaTeX"
     #   href: latex.html
+    - icon: fa-github
+      href: "https://github.com/moineco"
+    - icon: fa-linkedin
+      href: "www.linkedin.com/in/moinul-islam-b7a140263"
 output_dir: "docs"
