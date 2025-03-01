@@ -86,7 +86,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 -   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
-### Selected projects
+### Funded research project
 
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
