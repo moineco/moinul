@@ -86,7 +86,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 -   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
-### Funded research project
+### Research grant as PI
 
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
@@ -95,7 +95,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | TBA |
 | Project Period | 2025 - 2029 |
-| Keywords | Sustainable water management; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
+| Keywords | Sustainable water management; environmental economics; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
 
 : Project 1
 
