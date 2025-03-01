@@ -2,7 +2,7 @@
 title: "R"
 output:
   html_document:
-    theme: darkly
+    theme: cerulean
     toc: true
     toc_float: true
     collapsed: false
