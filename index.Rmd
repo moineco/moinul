@@ -48,22 +48,6 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 -   Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
 
-### Links of my profile
-
--   [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
-
--   [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
-
--   [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
-
--   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
-
--   [Research Map](https://researchmap.jp/moinul/?lang=english)
-
--   [Orcid](https://orcid.org/0000-0002-0309-3156)
-
--   [Github](https://github.com/moineco)
-
 ### Work experiences
 
 -   2024, Associate Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
@@ -75,16 +59,6 @@ Climate change and natural disasters pose significant threats to humankind, whil
 -   2016, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
 
 -   2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
-
-### Programs
-
--   Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
-
--   Use occasionally: ArcGIS, QGIS, EViews, oTree
-
-### Language
-
--   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 ### Research grant as PI
 
@@ -119,6 +93,32 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 : Project 3
 :::
+
+### Programs
+
+-   Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
+
+-   Use occasionally: ArcGIS, QGIS, EViews, oTree
+
+### Language
+
+-   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+
+### Links of my profile
+
+-   [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)
+
+-   [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html)
+
+-   [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)
+
+-   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400)
+
+-   [Research Map](https://researchmap.jp/moinul/?lang=english)
+
+-   [Orcid](https://orcid.org/0000-0002-0309-3156)
+
+-   [Github](https://github.com/moineco)
 
 **Contact**
 
