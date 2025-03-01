@@ -91,8 +91,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
 |-------------------|-----------------------------------------------------|
-| Title | How does arsenic (As) contamination information provision to teenagers coupled with their perspective of the future generations impact on household level sustainable water management (SWM)? |
-| Primary fund type | Grant-in-Aid for Scientific Research (C) in Economic Policy |
+| Primary fund type | **Grant-in-Aid for Scientific Research (C)** in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | TBA |
 | Project Period | 2025 - 2029 |
@@ -102,8 +101,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 |  |  |
 |-------------------|-----------------------------------------------------|
-| Title | Do intergenerational transfer of environmental knowledge and self-monitoring behavior reduce indoor air pollution? |
-| Primary fund type | Grant-in-Aid for Early-Career Scientists in Economic Policy |
+| Primary fund type | **Grant-in-Aid for Early-Career Scientists** in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**21K13290**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-21K13290/) |
 | Project Period | 2021 - 2025 |
@@ -113,8 +111,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 |  |  |
 |-------------------|-----------------------------------------------------|
-| Title | Quantify the burden of mortality from pollution on the environmental sustainability of nations |
-| Primary fund type | Grant-in-Aid for Research Activity Start-up in Environmental Evaluation |
+| Primary fund type | **Grant-in-Aid for Research Activity Start-up** in Environmental Evaluation |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Project ID | [**19K24384**](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19K24384/) |
 | Project Period | 2019 - 2022 |
