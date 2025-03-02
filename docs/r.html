@@ -366,269 +366,79 @@ div.tocify {
 <div id="pacman" class="section level4" number="1.1">
 <h4><span class="header-section-number">1.1</span> <a
 href="https://cran.r-project.org/web/packages/pacman/index.html">pacman</a></h4>
-<ul>
-<li>Install <code>pacman</code> package in R. In order to use the
-functions that are contained in the <code>pacman</code> package, we have
-to install and load the package to R:</li>
-</ul>
 <pre class="txt"><code>install.packages(&quot;pacman&quot;)    # Install pacman package
 library(&quot;pacman&quot;)             # Load pacman package</code></pre>
-<ul>
-<li>After running the previous lines of code, we can use the functions
-provided by the <code>pacman</code> package.</li>
-</ul>
 <div
 id="example-1-install-load-multiple-r-packages-using-p_load-function"
 class="section level5" number="1.1.1">
 <h5><span class="header-section-number">1.1.1</span> Example 1: Install
 &amp; load multiple R packages using p_load function</h5>
-<ul>
-<li><p>In this example, I will illustrate how to apply the p_load
-function to load multiple add-on packages in one line of code.</p></li>
-<li><p>Have a look at the following R syntax:</p></li>
-</ul>
 <pre class="txt"><code>p_load(dplyr, stringr)   # Install &amp; load packages</code></pre>
-<ul>
-<li><p>After executing the previous code, we have loaded the packages
-<code>dplyr</code>, and <code>stringr</code>.</p></li>
-<li><p>Note that the p_load function also checks whether a package is
-installed already. If the package is not installed yet, it is installed
-automatically by the <code>pacman</code> package.</p></li>
-</ul>
 </div>
 <div id="example-2-unload-multiple-r-packages-using-p_unload-function"
 class="section level5" number="1.1.2">
 <h5><span class="header-section-number">1.1.2</span> Example 2: Unload
 multiple R packages using p_unload function</h5>
-<ul>
-<li><p>Another useful function of the <code>pacman</code> package is the
-p_unload function. The p_unload function can be used to detach one or
-multiple loaded packages from within R.</p></li>
-<li><p>Let’s apply the p_unload command to unload the packages
-<code>dplyr</code>, and <code>stringr</code> that we have loaded
-before:</p></li>
-</ul>
 <pre class="txt"><code>p_unload(dplyr, stringr)  # Unload packages</code></pre>
-<ul>
-<li>The following packages have been unloaded: <code>dplyr</code>,
-<code>stringr</code> The previous output of the RStudio console tells us
-that our three packages were detached.</li>
-</ul>
 </div>
 <div id="example-3-update-outdated-r-packages-using-p_update-function"
 class="section level5" number="1.1.3">
 <h5><span class="header-section-number">1.1.3</span> Example 3: Update
 Outdated R Packages Using p_update Function</h5>
-<ul>
-<li><p>In this example, I will show how to use the p_update function of
-the <code>pacman</code> package to check for outdated packages AND to
-update all of these packages.</p></li>
-<li><p>First, let’s check which of my packages are outdated:</p></li>
-</ul>
 <pre class="txt"><code>p_update(update = FALSE)  # Check for outdated packages</code></pre>
-<ul>
-<li><p>Second, the <code>pacman</code> package provides an easy solution
-to how we can update all outdated packages with only one line of R
-code.</p></li>
-<li><p>Make sure that you have some time before running the following R
-code. This may take some time, depending on the number of packages you
-need to update:</p></li>
-</ul>
 <pre class="txt"><code>p_update() # Update all packages</code></pre>
 </div>
 </div>
 </div>
 <div id="data-management" class="section level3" number="2">
 <h3><span class="header-section-number">2</span> Data Management</h3>
-<div id="devtools" class="section level4" number="2.1">
-<h4><span class="header-section-number">2.1</span> <a
-href="https://cran.r-project.org/web/packages/devtools/readme/README.html">devtools</a></h4>
-<ul>
-<li>Install the released version of remotes from CRAN:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;devtools&quot;)</code></pre>
-<ul>
-<li>Install a package from CRAN using devtools</li>
-</ul>
-<pre class="txt"><code>devtools::install_cran(&quot;MASS&quot;)</code></pre>
-<ul>
-<li>This command installs the “MASS” package from CRAN.</li>
-</ul>
-</div>
-<div id="remotes" class="section level4" number="2.2">
-<h4><span class="header-section-number">2.2</span> <a
-href="https://cran.r-project.org/web/packages/remotes/index.html">remotes</a></h4>
-<ul>
-<li>Install the released version of remotes from CRAN:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;remotes&quot;)</code></pre>
-<ul>
-<li>To install the latest version of a package in the default branch
-from GitHub, you can use the user/repo form. Note that user can also be
-an organization:</li>
-</ul>
-<pre class="txt"><code>remotes::install_github(&quot;r-lib/conflicted&quot;)</code></pre>
-</div>
-<div id="stargazer" class="section level4" number="2.3">
-<h4><span class="header-section-number">2.3</span> <a
-href="https://cran.r-project.org/web/packages/stargazer/index.html">stargazer</a></h4>
-<ul>
-<li>Install the released version of remotes from CRAN:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;stargazer&quot;)</code></pre>
-<ul>
-<li>Create Summary Statistics Table Using Stargazer</li>
-</ul>
-<pre class="txt"><code># Load your external dataset
-data(mtcars)
-# Check the summary of dataset
-summary(mtcars)
-# Create summary statistics table using stargazer
-stargazer(mtcars, type=&#39;text&#39;, title=&#39;Summary Statistics&#39;)</code></pre>
-<ul>
-<li>Fit a Regression Model and exported to the specified file paths</li>
-</ul>
-<pre class="txt"><code># Fit regression model
-fit &lt;- lm(mpg ~ wt + cyl, data = mtcars)
-# Create table that summarizes the new regression model
-stargazer(fit, type = &#39;text&#39;, title = &#39;Regression Summary Table&#39;, 
-           out = &#39;C:\\Users\\Downloads\\R.txt&#39;)</code></pre>
-</div>
-<div id="readxl" class="section level4" number="2.4">
-<h4><span class="header-section-number">2.4</span> <a
-href="https://cran.r-project.org/web/packages/readxl/index.html">readxl</a></h4>
-<ul>
-<li>Install <code>readxl</code> from CRAN:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;readxl&quot;)</code></pre>
-<ul>
-<li>read_excel() reads both xls and xlsx files and detects the format
-from the extension</li>
-</ul>
-<pre class="txt"><code>xlsx_example &lt;- readxl_example(&quot;datasets.xlsx&quot;)
-read_excel(xlsx_example)</code></pre>
-<ul>
-<li>List the sheet names with excel_sheets()</li>
-</ul>
-<pre class="txt"><code>excel_sheets(xlsx_example)</code></pre>
-<ul>
-<li>Specify a worksheet by name or number</li>
-</ul>
-<pre class="txt"><code>read_excel(xlsx_example, sheet = &quot;chickwts&quot;)
-read_excel(xls_example, sheet = 4)</code></pre>
-</div>
-<div id="here" class="section level4" number="2.5">
-<h4><span class="header-section-number">2.5</span> <a
-href="https://cran.r-project.org/web/packages/here/vignettes/here.html">here</a></h4>
-<ul>
-<li><code>here()</code> uses a reasonable heuristics to find your
-project’s files, based on the current working directory at the time when
-the package is loaded. Use it as a drop-in replacement for file.path(),
-it will always locate the files relative to your project root.</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;here&quot;)</code></pre>
-<ul>
-<li>Use project-relative paths. You can build a path relative to the
-top-level directory in order to build the full path to a file:</li>
-</ul>
-<pre class="txt"><code>here(&quot;data&quot;, &quot;penguins.csv&quot;)</code></pre>
-</div>
-<div id="rvest" class="section level4" number="2.6">
-<h4><span class="header-section-number">2.6</span> <a
-href="https://cran.r-project.org/web/packages/rvest/index.html">rvest</a></h4>
-<ul>
-<li><code>rvest</code> is a package that makes it easy to scrape (or
-harvest) data from html web pages.</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;rvest&quot;)</code></pre>
-<ul>
-<li>If the page contains tabular data you can convert it directly to a
-data frame with html_table():</li>
-</ul>
-<pre class="txt"><code>html &lt;- read_html(&quot;https://en.wikipedia.org/w/index.php?title=The_Lego_Movie&amp;oldid=998422565&quot;)</code></pre>
-<pre class="txt"><code>html %&gt;% 
-  html_element(&quot;.tracklist&quot;) %&gt;% 
-  html_table()</code></pre>
-</div>
-<div id="ggthemes" class="section level4" number="2.7">
-<h4><span class="header-section-number">2.7</span> <a
-href="https://cran.r-project.org/web/packages/ggthemes/index.html">ggthemes</a></h4>
-<ul>
-<li>Some extra themes, geoms, and scales for ‘ggplot2’. Provides
-‘ggplot2’ themes and scales that replicate the look of plots.</li>
-</ul>
-<pre class="txt"><code>install.packages(&#39;ggthemes&#39;)</code></pre>
-<ul>
-<li>Example: Theme_base() in ggtheme in R</li>
-</ul>
-<pre class="txt"><code>ggplot(mtcars) + geom_point(aes(x = wt, y = mpg, 
-                    colour = factor(gear))) + theme_base() + ggtitle(&quot;theme_base()&quot;) </code></pre>
-<ul>
-<li>Example: theme_calc() in ggtheme in R</li>
-</ul>
-<pre class="txt"><code>ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
-  geom_point() +
-  theme_calc() +
-  ggtitle(&quot;theme_calc()&quot;)</code></pre>
-</div>
-<div id="ggpubr" class="section level4" number="2.8">
-<h4><span class="header-section-number">2.8</span> <a
-href="https://cran.r-project.org/web/packages/ggpubr/index.html">ggpubr</a></h4>
-<ul>
-<li>ggpubr is‘ggplot2’ Based Publication Ready Plots</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;ggpubr&quot;)</code></pre>
-<ul>
-<li>Example: Distribution</li>
-</ul>
-<pre class="txt"><code>ggdensity(wdata, x = &quot;weight&quot;,
-   add = &quot;mean&quot;, rug = TRUE,
-   color = &quot;sex&quot;, fill = &quot;sex&quot;,
-   palette = c(&quot;#00AFBB&quot;, &quot;#E7B800&quot;))</code></pre>
-</div>
-<div id="plotly" class="section level4" number="2.9">
-<h4><span class="header-section-number">2.9</span> <a
-href="https://plotly.com/r/">plotly</a></h4>
-<ul>
-<li>plotly is an R package for creating interactive web-based graphs via
-the open source JavaScript graphing library plotly.js.</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;plotly&quot;)</code></pre>
-<ul>
-<li>Graphs created with the plotly R package are interactive!</li>
-</ul>
-<pre class="txt"><code>fig &lt;- plot_ly(midwest, x = ~percollege, color = ~state, type = &quot;box&quot;)
-fig</code></pre>
-</div>
-<div id="stringr" class="section level4" number="2.10">
-<h4><span class="header-section-number">2.10</span> <a
-href="https://cran.r-project.org/web/packages/stringr/index.html">stringr</a></h4>
-<ul>
-<li>The easiest way to get stringr is to install the whole
-tidyverse:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;tidyverse&quot;)</code></pre>
-<ul>
-<li>Alternatively, install just stringr:</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;stringr&quot;)</code></pre>
-</div>
-<div id="patchwork" class="section level4" number="2.11">
-<h4><span class="header-section-number">2.11</span> <a
-href="https://cran.r-project.org/web/packages/patchwork/index.html">patchwork</a></h4>
-</div>
-<div id="magrittr" class="section level4" number="2.12">
-<h4><span class="header-section-number">2.12</span> <a
-href="https://cran.r-project.org/web/packages/magrittr/index.html">magrittr</a></h4>
-</div>
-<div id="data.table" class="section level4" number="2.13">
-<h4><span class="header-section-number">2.13</span> <a
-href="https://cran.r-project.org/web/packages/data.table/index.html">data.table</a></h4>
-</div>
-<div id="cowplot" class="section level4" number="2.14">
-<h4><span class="header-section-number">2.14</span> <a
-href="https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html">cowplot</a></h4>
-</div>
+<table style="width:100%;">
+<colgroup>
+<col width="33%" />
+<col width="30%" />
+<col width="36%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><h4 id="devtools"><a
+href="https://cran.r-project.org/web/packages/devtools/readme/README.html">devtools</a></h4></td>
+<td><h4 id="rvest"><a
+href="https://cran.r-project.org/web/packages/rvest/index.html">rvest</a></h4></td>
+<td><h4 id="patchwork"><a
+href="https://cran.r-project.org/web/packages/patchwork/index.html">patchwork</a></h4></td>
+</tr>
+<tr class="even">
+<td><h4 id="remotes"><a
+href="https://cran.r-project.org/web/packages/remotes/index.html">remotes</a></h4></td>
+<td><h4 id="ggthemes"><a
+href="https://cran.r-project.org/web/packages/ggthemes/index.html">ggthemes</a></h4></td>
+<td><h4 id="magrittr"><a
+href="https://cran.r-project.org/web/packages/magrittr/index.html">magrittr</a></h4></td>
+</tr>
+<tr class="odd">
+<td><h4 id="stargazer"><a
+href="https://cran.r-project.org/web/packages/stargazer/index.html">stargazer</a></h4></td>
+<td><h4 id="ggpubr"><a
+href="https://cran.r-project.org/web/packages/ggpubr/index.html">ggpubr</a></h4></td>
+<td><h4 id="data.table"><a
+href="https://cran.r-project.org/web/packages/data.table/index.html">data.table</a></h4></td>
+</tr>
+<tr class="even">
+<td><h4 id="readxl"><a
+href="https://cran.r-project.org/web/packages/readxl/index.html">readxl</a></h4></td>
+<td><h4 id="plotly"><a href="https://plotly.com/r/">plotly</a></h4></td>
+<td><h4 id="cowplot"><a
+href="https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html">cowplot</a></h4></td>
+</tr>
+<tr class="odd">
+<td><h4 id="here"><a
+href="https://cran.r-project.org/web/packages/here/vignettes/here.html">here</a></h4></td>
+<td><h4 id="stringr"><a
+href="https://cran.r-project.org/web/packages/stringr/index.html">stringr</a></h4></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="data-visualization" class="section level3" number="3">
 <h3><span class="header-section-number">3</span> Data Visualization</h3>
@@ -698,199 +508,100 @@ href="https://cran.r-project.org/web/packages/visNetwork/index.html">visNetwork<
 <div id="aer" class="section level4" number="4.1">
 <h4><span class="header-section-number">4.1</span> <a
 href="https://www.rdocumentation.org/packages/AER/versions/1.2-14">AER</a></h4>
-<ul>
-<li>Applied Econometrics with R package installation:</li>
-</ul>
-<pre class="txt"><code>install.packages(&#39;AER&#39;)</code></pre>
 </div>
 <div id="car" class="section level4" number="4.2">
 <h4><span class="header-section-number">4.2</span> <a
 href="https://www.rdocumentation.org/packages/car/versions/3.1-3">car</a></h4>
-<ul>
-<li>Companion to Applied Regression package installation:</li>
-</ul>
-<pre class="txt"><code>install.packages(&#39;car&#39;)</code></pre>
 </div>
 <div id="censreg" class="section level4" number="4.3">
 <h4><span class="header-section-number">4.3</span> <a
 href="https://www.rdocumentation.org/packages/censReg/versions/0.5-38">censReg</a></h4>
-<ul>
-<li>Censored regression/tobit models package installation:</li>
-</ul>
-<pre class="txt"><code>install.packages(&#39;censReg&#39;)</code></pre>
 </div>
 <div id="dummies" class="section level4" number="4.4">
 <h4><span class="header-section-number">4.4</span> dummies</h4>
-<ul>
-<li>Automatically generating dummy/indicator variables</li>
-</ul>
 </div>
 <div id="dynlm" class="section level4" number="4.5">
 <h4><span class="header-section-number">4.5</span> dynlm</h4>
-<ul>
-<li>Dynamic linear regression for time series</li>
-</ul>
 </div>
 <div id="effects" class="section level4" number="4.6">
 <h4><span class="header-section-number">4.6</span> effects</h4>
-<ul>
-<li>Graphical and tabular illustration of partial effects</li>
-</ul>
 </div>
 <div id="ggplot2" class="section level4" number="4.7">
 <h4><span class="header-section-number">4.7</span> ggplot2</h4>
-<ul>
-<li>Advanced and powerful graphics</li>
-</ul>
 </div>
 <div id="knitr" class="section level4" number="4.8">
 <h4><span class="header-section-number">4.8</span> knitr</h4>
-<ul>
-<li>Combine R and IATEX code in one document</li>
-</ul>
 </div>
 <div id="imtest" class="section level4" number="4.9">
 <h4><span class="header-section-number">4.9</span> Imtest</h4>
-<ul>
-<li>Testing Linear Regression Models- Includes many useful tests for the
-linear regression model</li>
-</ul>
 </div>
 <div id="maps" class="section level4" number="4.10">
 <h4><span class="header-section-number">4.10</span> maps</h4>
-<ul>
-<li>Draw geographical maps</li>
-</ul>
 </div>
 <div id="matchit" class="section level4" number="4.11">
 <h4><span class="header-section-number">4.11</span> <a
 href="https://dlab.berkeley.edu/news/introduction-propensity-score-matching-matchit">MatchIt</a></h4>
-<ul>
-<li>Propensity Score Matching</li>
-</ul>
 </div>
 <div id="mfx" class="section level4" number="4.12">
 <h4><span class="header-section-number">4.12</span> mfx</h4>
-<ul>
-<li>Marginal effects, odds ratios and incidence rate ratios for
-GLMs</li>
-</ul>
 </div>
 <div id="orcutt" class="section level4" number="4.13">
 <h4><span class="header-section-number">4.13</span> orcutt</h4>
-<ul>
-<li>Cochrane-Orcutt estimator for serially correlated errors</li>
-</ul>
 </div>
 <div id="plm" class="section level4" number="4.14">
 <h4><span class="header-section-number">4.14</span> plm</h4>
-<ul>
-<li>Linear Models for Panel Data- A large collection of panel data
-methods</li>
-</ul>
 </div>
 <div id="quantmod" class="section level4" number="4.15">
 <h4><span class="header-section-number">4.15</span> quantmod</h4>
-<ul>
-<li>Quantitative Financial Modelling</li>
-</ul>
 </div>
 <div id="quantreg" class="section level4" number="4.16">
 <h4><span class="header-section-number">4.16</span> quantreg</h4>
-<ul>
-<li>Quantile regression, especially least absolute deviation (LAD)
-regression</li>
-</ul>
 </div>
 <div id="rio" class="section level4" number="4.17">
 <h4><span class="header-section-number">4.17</span> rio</h4>
-<ul>
-<li>Conveniently import and export data files</li>
-</ul>
 </div>
 <div id="sampleselection" class="section level4" number="4.18">
 <h4><span class="header-section-number">4.18</span> sampleSelection</h4>
-<ul>
-<li>Sample selection models</li>
-</ul>
 </div>
 <div id="sandwich" class="section level4" number="4.19">
 <h4><span class="header-section-number">4.19</span> sandwich</h4>
-<ul>
-<li>Different “robust” covariance matrix estimators</li>
-</ul>
 </div>
 <div id="survival" class="section level4" number="4.20">
 <h4><span class="header-section-number">4.20</span> survival</h4>
-<ul>
-<li>Survival analysis and censored regression models</li>
-</ul>
 </div>
 <div id="systemfit" class="section level4" number="4.21">
 <h4><span class="header-section-number">4.21</span> systemfit</h4>
-<ul>
-<li>Estimation of simultaneous equations models</li>
-</ul>
 </div>
 <div id="truncreg" class="section level4" number="4.22">
 <h4><span class="header-section-number">4.22</span> truncreg</h4>
-<ul>
-<li>Truncated Gaussian response models</li>
-</ul>
 </div>
 <div id="tseries" class="section level4" number="4.23">
 <h4><span class="header-section-number">4.23</span> tseries</h4>
-<ul>
-<li>Time series analysis and computational finance</li>
-</ul>
 </div>
 <div id="urca" class="section level4" number="4.24">
 <h4><span class="header-section-number">4.24</span> urca</h4>
-<ul>
-<li>Unit root and cointegration tests for time series data</li>
-</ul>
 </div>
 <div id="vars" class="section level4" number="4.25">
 <h4><span class="header-section-number">4.25</span> vars</h4>
-<ul>
-<li>Structural vector autoregressive and error correction models</li>
-</ul>
 </div>
 <div id="xtable" class="section level4" number="4.26">
 <h4><span class="header-section-number">4.26</span> xtable</h4>
-<ul>
-<li>Export tables to LaTeX or HTML</li>
-</ul>
 </div>
 <div id="xts" class="section level4" number="4.27">
 <h4><span class="header-section-number">4.27</span> xts</h4>
-<ul>
-<li>eXtensible Time Series- Irregular time series</li>
-</ul>
 </div>
 <div id="wdi" class="section level4" number="4.28">
 <h4><span class="header-section-number">4.28</span> WDI</h4>
-<ul>
-<li>Search, extract, and format data from the World Bank’s World
-Development Indicators</li>
-</ul>
 </div>
 <div id="wooldridge" class="section level4" number="4.29">
 <h4><span class="header-section-number">4.29</span> wooldridge</h4>
-<ul>
-<li>Data sets from the textbook of Wooldridge (2019)</li>
-</ul>
 </div>
 <div id="zoo" class="section level4" number="4.30">
 <h4><span class="header-section-number">4.30</span> zoo</h4>
-<ul>
-<li>Zeileis’ Ordered Observations- Irregular time series</li>
-</ul>
 </div>
 </div>
-<div id="gis-data-manipulation" class="section level3" number="5">
-<h3><span class="header-section-number">5</span> GIS Data
-Manipulation</h3>
+<div id="spatial-analysis" class="section level3" number="5">
+<h3><span class="header-section-number">5</span> Spatial Analysis</h3>
 <div id="sf" class="section level4" number="5.1">
 <h4><span class="header-section-number">5.1</span> <a
 href="https://r-spatial.github.io/sf/">sf</a></h4>
@@ -911,92 +622,68 @@ href="https://cran.r-project.org/web/packages/ncdf4/index.html">ncdf4</a></h4>
 <h4><span class="header-section-number">5.5</span> <a
 href="https://cran.r-project.org/web/packages/sp/index.html">sp</a></h4>
 </div>
+<div id="spatial" class="section level4" number="5.6">
+<h4><span class="header-section-number">5.6</span> spatial</h4>
 </div>
-<div id="spatial-analysis" class="section level3" number="6">
-<h3><span class="header-section-number">6</span> Spatial Analysis</h3>
-<div id="spatial" class="section level4" number="6.1">
-<h4><span class="header-section-number">6.1</span> spatial</h4>
+<div id="spatstat" class="section level4" number="5.7">
+<h4><span class="header-section-number">5.7</span> spatstat</h4>
 </div>
-<div id="spatstat" class="section level4" number="6.2">
-<h4><span class="header-section-number">6.2</span> spatstat</h4>
+<div id="gstat" class="section level4" number="5.8">
+<h4><span class="header-section-number">5.8</span> gstat</h4>
 </div>
-<div id="gstat" class="section level4" number="6.3">
-<h4><span class="header-section-number">6.3</span> gstat</h4>
+<div id="spdep" class="section level4" number="5.9">
+<h4><span class="header-section-number">5.9</span> spdep</h4>
 </div>
-<div id="spdep" class="section level4" number="6.4">
-<h4><span class="header-section-number">6.4</span> spdep</h4>
+<div id="geoshape" class="section level4" number="5.10">
+<h4><span class="header-section-number">5.10</span> geoshape</h4>
 </div>
-<div id="geoshape" class="section level4" number="6.5">
-<h4><span class="header-section-number">6.5</span> geoshape</h4>
+<div id="ggspatial" class="section level4" number="5.11">
+<h4><span class="header-section-number">5.11</span> ggspatial</h4>
 </div>
-<div id="ggspatial" class="section level4" number="6.6">
-<h4><span class="header-section-number">6.6</span> ggspatial</h4>
+<div id="geogrid" class="section level4" number="5.12">
+<h4><span class="header-section-number">5.12</span> geogrid</h4>
 </div>
-<div id="geogrid" class="section level4" number="6.7">
-<h4><span class="header-section-number">6.7</span> geogrid</h4>
+<div id="gistools" class="section level4" number="5.13">
+<h4><span class="header-section-number">5.13</span> GISTools</h4>
 </div>
-<div id="gistools" class="section level4" number="6.8">
-<h4><span class="header-section-number">6.8</span> GISTools</h4>
+<div id="openstreetmap" class="section level4" number="5.14">
+<h4><span class="header-section-number">5.14</span> OpenStreetMap</h4>
 </div>
+<div id="rnaturalearth" class="section level4" number="5.15">
+<h4><span class="header-section-number">5.15</span> rnaturalearth</h4>
 </div>
-<div id="spatial-data" class="section level3" number="7">
-<h3><span class="header-section-number">7</span> Spatial Data</h3>
-<div id="openstreetmap" class="section level4" number="7.1">
-<h4><span class="header-section-number">7.1</span> OpenStreetMap</h4>
-</div>
-<div id="rnaturalearth" class="section level4" number="7.2">
-<h4><span class="header-section-number">7.2</span> rnaturalearth</h4>
-</div>
-<div id="rnaturalearthdata" class="section level4" number="7.3">
-<h4><span class="header-section-number">7.3</span>
+<div id="rnaturalearthdata" class="section level4" number="5.16">
+<h4><span class="header-section-number">5.16</span>
 rnaturalearthdata</h4>
 </div>
-<div id="maps-1" class="section level4" number="7.4">
-<h4><span class="header-section-number">7.4</span> maps</h4>
+<div id="maps-1" class="section level4" number="5.17">
+<h4><span class="header-section-number">5.17</span> maps</h4>
 </div>
-<div id="spdata" class="section level4" number="7.5">
-<h4><span class="header-section-number">7.5</span> spData</h4>
+<div id="spdata" class="section level4" number="5.18">
+<h4><span class="header-section-number">5.18</span> spData</h4>
 </div>
-<div id="rgeos" class="section level4" number="7.6">
-<h4><span class="header-section-number">7.6</span> rgeos</h4>
+<div id="rgeos" class="section level4" number="5.19">
+<h4><span class="header-section-number">5.19</span> rgeos</h4>
 </div>
-<div id="jpndistrict" class="section level4" number="7.7">
-<h4><span class="header-section-number">7.7</span> jpndistrict</h4>
+<div id="jpndistrict" class="section level4" number="5.20">
+<h4><span class="header-section-number">5.20</span> jpndistrict</h4>
 </div>
-<div id="usmap" class="section level4" number="7.8">
-<h4><span class="header-section-number">7.8</span> usmap</h4>
+<div id="usmap" class="section level4" number="5.21">
+<h4><span class="header-section-number">5.21</span> usmap</h4>
 </div>
-<div id="tigris" class="section level4" number="7.9">
-<h4><span class="header-section-number">7.9</span> tigris</h4>
+<div id="tigris" class="section level4" number="5.22">
+<h4><span class="header-section-number">5.22</span> tigris</h4>
 </div>
-<div id="tidycensus" class="section level4" number="7.10">
-<h4><span class="header-section-number">7.10</span> tidycensus</h4>
-</div>
-</div>
-<div id="text-mining" class="section level3" number="8">
-<h3><span class="header-section-number">8</span> Text Mining</h3>
-<div id="tidytext" class="section level4" number="8.1">
-<h4><span class="header-section-number">8.1</span> tidytext</h4>
-</div>
-<div id="tm" class="section level4" number="8.2">
-<h4><span class="header-section-number">8.2</span> tm</h4>
+<div id="tidycensus" class="section level4" number="5.23">
+<h4><span class="header-section-number">5.23</span> tidycensus</h4>
 </div>
 </div>
-<div id="bibliometric-analysis" class="section level3" number="9">
-<h3><span class="header-section-number">9</span> Bibliometric
+<div id="bibliometric-analysis" class="section level3" number="6">
+<h3><span class="header-section-number">6</span> Bibliometric
 Analysis</h3>
-<div id="bibliometrix" class="section level4" number="9.1">
-<h4><span class="header-section-number">9.1</span> <a
+<div id="bibliometrix" class="section level4" number="6.1">
+<h4><span class="header-section-number">6.1</span> <a
 href="https://www.bibliometrix.org/home/">bibliometrix</a></h4>
-<ul>
-<li>Install stable version</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;bibliometrix&quot;)</code></pre>
-<ul>
-<li>Install beta version</li>
-</ul>
-<pre class="txt"><code>install.packages(&quot;remotes&quot;)         
-remotes::install_github(&quot;massimoaria/bibliometrix&quot;)</code></pre>
 <ul>
 <li>Introduction <a
 href="https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html">A
@@ -1005,7 +692,7 @@ brief introduction to bibliometrix</a></li>
 href="https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf">Cran
 bibliometrix package</a></li>
 </ul>
-<p>Updated on: 2025-03-01</p>
+<p>Updated on: 2025-03-02</p>
 </div>
 </div>
 

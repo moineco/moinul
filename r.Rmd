@@ -16,57 +16,30 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Package manager
 
-####  [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
-
-- Install `pacman` package in R. In order to use the functions that are contained in the `pacman` package, we have to install and load the package to R:
+#### [pacman](https://cran.r-project.org/web/packages/pacman/index.html)
 
 ```{txt}
 install.packages("pacman")    # Install pacman package
 library("pacman")             # Load pacman package
 ```
 
-- After running the previous lines of code, we can use the functions provided by the `pacman` package.
-
 ##### Example 1: Install & load multiple R packages using p_load function
-
-- In this example, I will illustrate how to apply the p_load function to load multiple add-on packages in one line of code.
-
-- Have a look at the following R syntax:
 
 ```{txt}
 p_load(dplyr, stringr)   # Install & load packages
 ```
 
-- After executing the previous code, we have loaded the packages `dplyr`, and `stringr`.
-
-- Note that the p_load function also checks whether a package is installed already. If the package is not installed yet, it is installed automatically by the `pacman` package.
-
 ##### Example 2: Unload multiple R packages using p_unload function
-
-- Another useful function of the `pacman` package is the p_unload function. The p_unload function can be used to detach one or multiple loaded packages from within R.
-
-- Let’s apply the p_unload command to unload the packages `dplyr`, and `stringr` that we have loaded before:
 
 ```{txt}
 p_unload(dplyr, stringr)  # Unload packages
 ```
 
-- The following packages have been unloaded: `dplyr`, `stringr`
-The previous output of the RStudio console tells us that our three packages were detached.
-
 ##### Example 3: Update Outdated R Packages Using p_update Function
-
-- In this example, I will show how to use the p_update function of the `pacman` package to check for outdated packages AND to update all of these packages.
-
-- First, let’s check which of my packages are outdated:
 
 ```{txt}
 p_update(update = FALSE)  # Check for outdated packages
 ```
-
-- Second, the `pacman` package provides an easy solution to how we can update all outdated packages with only one line of R code.
-
-- Make sure that you have some time before running the following R code. This may take some time, depending on the number of packages you need to update:
 
 ```{txt}
 p_update() # Update all packages
@@ -74,419 +47,165 @@ p_update() # Update all packages
 
 ### Data Management
 
-####  [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html)
-
-- Install the released version of remotes from CRAN:
-
-```{txt}
-install.packages("devtools")
-```
-
-- Install a package from CRAN using devtools
-
-```{txt}
-devtools::install_cran("MASS")
-```
-
-- This command installs the "MASS" package from CRAN.
-
-####  [remotes](https://cran.r-project.org/web/packages/remotes/index.html)
-
-- Install the released version of remotes from CRAN:
-
-```{txt}
-install.packages("remotes")
-```
-
-- To install the latest version of a package in the default branch from GitHub, you can use the user/repo form. Note that user can also be an organization:
-
-```{txt}
-remotes::install_github("r-lib/conflicted")
-```
-
-####  [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html) 
-
-- Install the released version of remotes from CRAN:
-
-```{txt}
-install.packages("stargazer")
-```
-
-- Create Summary Statistics Table Using Stargazer
-
-```{txt}
-# Load your external dataset
-data(mtcars)
-# Check the summary of dataset
-summary(mtcars)
-# Create summary statistics table using stargazer
-stargazer(mtcars, type='text', title='Summary Statistics')
-```
-
-- Fit a Regression Model and exported to the specified file paths
-
-```{txt}
-# Fit regression model
-fit <- lm(mpg ~ wt + cyl, data = mtcars)
-# Create table that summarizes the new regression model
-stargazer(fit, type = 'text', title = 'Regression Summary Table', 
-           out = 'C:\\Users\\Downloads\\R.txt')
-```
-
-####  [readxl](https://cran.r-project.org/web/packages/readxl/index.html)
-
-- Install `readxl` from CRAN:
-
-```{txt}
-install.packages("readxl")
-```
-
-- read_excel() reads both xls and xlsx files and detects the format from the extension
-
-```{txt}
-xlsx_example <- readxl_example("datasets.xlsx")
-read_excel(xlsx_example)
-```
-
-- List the sheet names with excel_sheets()
-
-```{txt}
-excel_sheets(xlsx_example)
-```
-
-- Specify a worksheet by name or number
-
-```{txt}
-read_excel(xlsx_example, sheet = "chickwts")
-read_excel(xls_example, sheet = 4)
-```
-
-####  [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)
-
-- `here()` uses a reasonable heuristics to find your project's files, based on the current working directory at the time when the package is loaded. Use it as a drop-in replacement for file.path(), it will always locate the files relative to your project root.
-
-```{txt}
-install.packages("here")
-```
-
-- Use project-relative paths. You can build a path relative to the top-level directory in order to build the full path to a file:
-
-```{txt}
-here("data", "penguins.csv")
-```
-
-####  [rvest](https://cran.r-project.org/web/packages/rvest/index.html)
-
-- `rvest` is a package that makes it easy to scrape (or harvest) data from html web pages. 
-
-```{txt}
-install.packages("rvest")
-```
-
-- If the page contains tabular data you can convert it directly to a data frame with html_table():
-
-```{txt}
-html <- read_html("https://en.wikipedia.org/w/index.php?title=The_Lego_Movie&oldid=998422565")
-```
-
-```{txt}
-html %>% 
-  html_element(".tracklist") %>% 
-  html_table()
-```
-
-####  [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html)
-
--  Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and scales that replicate the look of plots.
-
-```{txt}
-install.packages('ggthemes')
-```
-
-- Example: Theme_base() in ggtheme in R
-
-```{txt}
-ggplot(mtcars) + geom_point(aes(x = wt, y = mpg, 
-					colour = factor(gear))) + theme_base() + ggtitle("theme_base()") 
-```
-
-- Example: theme_calc() in ggtheme in R
-
-```{txt}
-ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(gear))) +
-  geom_point() +
-  theme_calc() +
-  ggtitle("theme_calc()")
-```
-
-####  [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html) 
-
-- ggpubr is‘ggplot2’ Based Publication Ready Plots
-
-```{txt}
-install.packages("ggpubr")
-```
-
-- Example: Distribution
-
-```{txt}
-ggdensity(wdata, x = "weight",
-   add = "mean", rug = TRUE,
-   color = "sex", fill = "sex",
-   palette = c("#00AFBB", "#E7B800"))
-```
-
-####  [plotly](https://plotly.com/r/)
-
-- plotly is an R package for creating interactive web-based graphs via the open source JavaScript graphing library plotly.js.
-
-```{txt}
-install.packages("plotly")
-```
-
-- Graphs created with the plotly R package are interactive!
-
-```{txt}
-fig <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
-fig
-```
-
-####  [stringr](https://cran.r-project.org/web/packages/stringr/index.html) 
-
-- The easiest way to get stringr is to install the whole tidyverse:
-
-```{txt}
-install.packages("tidyverse")
-```
-
-- Alternatively, install just stringr:
-
-```{txt}
-install.packages("stringr")
-```
-
-####  [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html) 
-
-####  [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)
-
-####  [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
-
-####  [cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) 
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| #### [devtools](https://cran.r-project.org/web/packages/devtools/readme/README.html) | #### [rvest](https://cran.r-project.org/web/packages/rvest/index.html)       | #### [patchwork](https://cran.r-project.org/web/packages/patchwork/index.html)              |
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| #### [remotes](https://cran.r-project.org/web/packages/remotes/index.html)           | #### [ggthemes](https://cran.r-project.org/web/packages/ggthemes/index.html) | #### [magrittr](https://cran.r-project.org/web/packages/magrittr/index.html)                |
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| #### [stargazer](https://cran.r-project.org/web/packages/stargazer/index.html)       | #### [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html)     | #### [data.table](https://cran.r-project.org/web/packages/data.table/index.html)            |
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| #### [readxl](https://cran.r-project.org/web/packages/readxl/index.html)             | #### [plotly](https://plotly.com/r/)                                         | #### [cowplot](https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html) |
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
+| #### [here](https://cran.r-project.org/web/packages/here/vignettes/here.html)        | #### [stringr](https://cran.r-project.org/web/packages/stringr/index.html)   |                                                                                             |
++--------------------------------------------------------------------------------------+------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
 
 ### Data Visualization
 
-####  [tidyverse](https://www.tidyverse.org/) 
+#### [tidyverse](https://www.tidyverse.org/)
 
-####  [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+#### [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
 
-####  [viridis](https://cran.r-project.org/web/packages/viridis/index.html) 
+#### [viridis](https://cran.r-project.org/web/packages/viridis/index.html)
 
-####  [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
+#### [tmap](https://cran.r-project.org/web/packages/tmap/index.html)
 
-####  [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
+#### [leaflet](https://cran.r-project.org/web/packages/leaflet/index.html)
 
-####  [mapview](https://r-spatial.github.io/mapview/) 
+#### [mapview](https://r-spatial.github.io/mapview/)
 
-####  [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
+#### [cartography](https://cran.r-project.org/web/packages/cartography/vignettes/cartography.html)
 
-####  [ggmap](https://cran.r-project.org/web/packages/ggmap/readme/README.html) 
+#### [ggmap](https://cran.r-project.org/web/packages/ggmap/readme/README.html)
 
-####  [rayshader](https://www.rayshader.com/)
+#### [rayshader](https://www.rayshader.com/)
 
-####  [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html) 
+#### [geojsonio](https://cran.r-project.org/web/packages/geojsonio/index.html)
 
-####  [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
+#### [shinyjs](https://cran.r-project.org/web/packages/shinyjs/vignettes/shinyjs.html)
 
-####  [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
+#### [GGally](https://cran.r-project.org/web/packages/GGally/index.html)
 
-####  [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+#### [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
 
-####  [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
+#### [cartogram](https://cran.r-project.org/web/packages/cartogram/readme/README.html)
 
-####  [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
+#### [visNetwork](https://cran.r-project.org/web/packages/visNetwork/index.html)
 
 ### Econometrics
 
-#### [AER](https://www.rdocumentation.org/packages/AER/versions/1.2-14) 
-- Applied Econometrics with R package installation:
+#### [AER](https://www.rdocumentation.org/packages/AER/versions/1.2-14)
 
-```{txt}
-install.packages('AER')
-```
-
-#### [car](https://www.rdocumentation.org/packages/car/versions/3.1-3) 
-- Companion to Applied Regression package installation:
-
-```{txt}
-install.packages('car')
-```
+#### [car](https://www.rdocumentation.org/packages/car/versions/3.1-3)
 
 #### [censReg](https://www.rdocumentation.org/packages/censReg/versions/0.5-38)
-- Censored regression/tobit models package installation:
-
-```{txt}
-install.packages('censReg')
-```
 
 #### dummies
-- Automatically generating dummy/indicator variables
 
-#### dynlm 
-- Dynamic linear regression for time series
+#### dynlm
 
 #### effects
-- Graphical and tabular illustration of partial effects
 
 #### ggplot2
-- Advanced and powerful graphics
 
-#### knitr 
-- Combine R and IATEX code in one document
+#### knitr
 
-#### Imtest 
-- Testing Linear Regression Models- Includes many useful tests for the linear regression model
+#### Imtest
 
 #### maps
-- Draw geographical maps
 
-#### [MatchIt](<https://dlab.berkeley.edu/news/introduction-propensity-score-matching-matchit>)
-- Propensity Score Matching
+#### [MatchIt](https://dlab.berkeley.edu/news/introduction-propensity-score-matching-matchit)
 
 #### mfx
-- Marginal effects, odds ratios and incidence rate ratios for GLMs
 
 #### orcutt
-- Cochrane-Orcutt estimator for serially correlated errors
 
-#### plm 
-- Linear Models for Panel Data- A large collection of panel data methods
+#### plm
 
 #### quantmod
-- Quantitative Financial Modelling
 
 #### quantreg
-- Quantile regression, especially least absolute deviation (LAD) regression
 
 #### rio
-- Conveniently import and export data files
 
 #### sampleSelection
-- Sample selection models
 
 #### sandwich
-- Different "robust" covariance matrix estimators
 
 #### survival
-- Survival analysis and censored regression models
 
 #### systemfit
-- Estimation of simultaneous equations models
 
 #### truncreg
-- Truncated Gaussian response models
 
 #### tseries
-- Time series analysis and computational finance
 
 #### urca
-- Unit root and cointegration tests for time series data
 
 #### vars
-- Structural vector autoregressive and error correction models
 
-#### xtable 
-- Export tables to LaTeX or HTML
+#### xtable
 
-#### xts 
-- eXtensible Time Series- Irregular time series
+#### xts
 
 #### WDI
-- Search, extract, and format data from the World Bank's World Development Indicators
 
 #### wooldridge
-- Data sets from the textbook of Wooldridge (2019)
 
-#### zoo 
-- Zeileis' Ordered Observations- Irregular time series
-
-### GIS Data Manipulation
-
-####  [sf](<https://r-spatial.github.io/sf/>) 
-
-####  [raster](<https://cran.r-project.org/web/packages/raster/index.html>) 
-
-####  [shapefiles](<https://cran.r-project.org/web/packages/shapefiles/index.html>) 
-
-####  [ncdf4](<https://cran.r-project.org/web/packages/ncdf4/index.html>)
-
-####  [sp](<https://cran.r-project.org/web/packages/sp/index.html>) 
+#### zoo
 
 ### Spatial Analysis
 
-####  spatial 
+#### [sf](https://r-spatial.github.io/sf/)
 
-####  spatstat 
+#### [raster](https://cran.r-project.org/web/packages/raster/index.html)
 
-####  gstat 
+#### [shapefiles](https://cran.r-project.org/web/packages/shapefiles/index.html)
 
-####  spdep 
+#### [ncdf4](https://cran.r-project.org/web/packages/ncdf4/index.html)
 
-####  geoshape 
+#### [sp](https://cran.r-project.org/web/packages/sp/index.html)
 
-####  ggspatial 
+#### spatial
 
-####  geogrid 
+#### spatstat
 
-####  GISTools 
+#### gstat
 
-### Spatial Data
+#### spdep
 
-####  OpenStreetMap
+#### geoshape
 
-####  rnaturalearth 
+#### ggspatial
 
-####  rnaturalearthdata 
+#### geogrid
 
-####  maps 
+#### GISTools
 
-####  spData 
+#### OpenStreetMap
 
-####  rgeos 
+#### rnaturalearth
 
-####  jpndistrict 
+#### rnaturalearthdata
 
-####  usmap 
+#### maps
 
-####  tigris 
+#### spData
 
-####  tidycensus
+#### rgeos
 
-### Text Mining
+#### jpndistrict
 
-#### tidytext
+#### usmap
 
-#### tm
+#### tigris
+
+#### tidycensus
 
 ### Bibliometric Analysis
 
 #### [bibliometrix](https://www.bibliometrix.org/home/)
 
-- Install stable version
-
-```{txt}
-install.packages("bibliometrix")
-```
-
-- Install beta version
-
-```{txt}
-install.packages("remotes")         
-remotes::install_github("massimoaria/bibliometrix")
-```
-
-- Introduction
-[A brief introduction to bibliometrix](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html)
-- Packages
-[Cran bibliometrix package](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
+-   Introduction [A brief introduction to bibliometrix](https://www.bibliometrix.org/vignettes/Introduction_to_bibliometrix.html)
+-   Packages [Cran bibliometrix package](https://cran.r-project.org/web/packages/bibliometrix/bibliometrix.pdf)
 
 Updated on: `r Sys.Date()`
