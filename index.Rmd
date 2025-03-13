@@ -60,7 +60,7 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 -   2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
 
-### Research grant as PI
+### Major research grants as PI
 
 ::: {#tbl-panel layout-ncol="2"}
 +-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
