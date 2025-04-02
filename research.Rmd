@@ -16,7 +16,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Journal articles (peer-review)
 
-1.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns.\
+1.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns.\
     *Future Foods* (Forthcoming). Q1
 
 2.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2025). Adaptation indicator to climate change and farm sizes in agriculture: A reflection of farming culture and history.\
