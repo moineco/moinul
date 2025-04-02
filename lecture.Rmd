@@ -250,37 +250,35 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 1: Introduction to human geography
 
-- Lecture 2: Population
+- Lecture 2: Population and health geography
 
-- Lecture 3: Migration
+- Lecture 3: Global inequality and development
+  
+- Lecture 4: Cultural geography: Language, religion, and identity
 
-- Lecture 4: Local culture, popular culture, and cultural landscapes
+- Lecture 5: Political geography: States and geopolitics
 
-- Lecture 5: Identity: Race, ethnicity, gender and sexuality
+- Lecture 6: Urban geography: Cities, infrastructure, and planning
+  
+- Lecture 7: Economic geography: Trade and globalization
 
-- Lecture 6: Political geography
+- Lecture 8: Environmental geography: Resources and sustainability
 
-- Lecture 7: Urban geography
+- Lecture 9: Agricultural geography: Food production and land use
 
-- Lecture 8: The humanized environment
+- Lecture 10: Industrial geography: Industry and trade
 
-**Section 2: Foundations of geographic plots in R and Python**
+**Section 2: Elegant geographic plots in R and Python**
 
-- Lecture 9: Processing shapefiles in R and Python
+- Lecture 11: Human geography lab_1
 
-- Lecture 10: Basic maps with R and Python
+- Lecture 12: Human geography lab_2
 
-**Section 3: Elegant geographic plots in R and Python**
+- Lecture 13: Human geography lab_3
 
-- Lecture 11: Human geography of Africa
-
-- Lecture 12: Human geography of Asia
-
-- Lecture 13: Human geography of Australia
-
-- Lecture 14: Human geography of Europe
-
-- Lecture 15: Human geography of North America
+- Lecture 14: Human geography lab_4
+  
+- Lecture 15: Human geography lab_5
 
 
 [**Textbooks:**]{.underline}
