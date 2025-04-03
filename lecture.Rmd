@@ -70,7 +70,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 4: Efficiency and markets
 
--   Lecture 5: Market failure: Public goods, public bads and externalities
+-   Lecture 5: Market failure: Public goods and externalities
 
 -   Lecture 6: Making decisions about environmental programs
 
@@ -270,15 +270,15 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 2: Elegant geographic plots in R and Python**
 
-- Lecture 11: Human geography lab_1
+- Lecture 11: Human geography lab 1
 
-- Lecture 12: Human geography lab_2
+- Lecture 12: Human geography lab 2
 
-- Lecture 13: Human geography lab_3
+- Lecture 13: Human geography lab 3
 
-- Lecture 14: Human geography lab_4
+- Lecture 14: Human geography lab 4
   
-- Lecture 15: Human geography lab_5
+- Lecture 15: Human geography lab 5
 
 
 [**Textbooks:**]{.underline}
@@ -309,7 +309,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 7: Globalization and the environment
 
--   Lecture 8: Market failure: Public goods, public bads and externalities
+-   Lecture 8: Market failure: Public goods and externalities
 
 -   Lecture 9: Future failures: Disruption of C-cycle and N-cycle
 
