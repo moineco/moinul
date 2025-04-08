@@ -198,6 +198,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Agricultural Economics
 
+**Section 1. Foundations of agricultural economics**
+
 -   Lecture 1: Introduction to agricultural economics
 
 -   Lecture 2: Agriculture industry overview
@@ -207,6 +209,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 -   Lecture 4: Market demand, elasticities & revenues
 
 -   Lecture 5: Introduction to production and resource use
+
+**Section 2. Microeconomic issues**
 
 -   Lecture 6: Costs of production
 
@@ -220,6 +224,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 11: Risk and risk management
 
+**Section 3. Macroeconomic issues**
+
 -   Lecture 12: Government intervention in agriculture
 
 -   Lecture 13: Agricultural trade and trade policy
@@ -230,9 +236,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th ed.). Pearson.
+1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th Edition). Pearson.
 
-2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd ed.). Pearson.
+2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
 
 ### Energy Economics
 
