@@ -198,7 +198,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Agricultural Economics
 
-**Section 1. Foundations of agricultural economics**
+**Section 1. Foundations of Agricultural Economics**
 
 -   Lecture 1: Introduction to agricultural economics
 
@@ -210,7 +210,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 5: Introduction to production and resource use
 
-**Section 2. Microeconomic issues**
+**Section 2. Microeconomic Issues**
 
 -   Lecture 6: Costs of production
 
@@ -224,7 +224,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 11: Risk and risk management
 
-**Section 3. Macroeconomic issues**
+**Section 3. Macroeconomic Issues**
 
 -   Lecture 12: Government intervention in agriculture
 
@@ -290,7 +290,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Human Geography
 
-**Section 1: Foundations of human geography**
+**Section 1: Foundations of Human Geography**
 
 - Lecture 1: Introduction to human geography
 
@@ -312,7 +312,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 10: Industrial geography: Industry and trade
 
-**Section 2: Elegant geographic plots in R and Python**
+**Section 2: Elegant Geographic Plots in R and Python**
 
 - Lecture 11: Human geography lab 1
 
