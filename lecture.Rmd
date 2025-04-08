@@ -20,13 +20,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 1: Economics foundations and models
 
--   Lecture 2: Trade-offs, comparative advantage, and the market system
+-   Lecture 2: Trade-offs, comparative advantage and the market system
 
 -   Lecture 3: Comparative advantage and the gains from international trade
 
 -   Lecture 4: The interaction of demand and supply
 
--   Lecture 5:  Economic efficiency, government price setting, and tax externalities
+-   Lecture 5:  Economic efficiency, government price setting and tax externalities
 
 -   Lecture 6:  Environmental policy and public goods
 
@@ -40,13 +40,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 10:  Unemployment and inflation
 
--   Lecture 11:  Economic growth, the financial system, and business cycles
+-   Lecture 11:  Economic growth, the financial system and business cycles
 
 -   Lecture 12:  Aggregate expenditure and output in the short run
 
 -   Lecture 13:  Aggregate demand and aggregate supply analysis
 
--   Lecture 14:  Money, banks, and the federal reserve system monetary policy
+-   Lecture 14:  Money, banks and the federal reserve system monetary policy
 
 -   Lecture 15:  Overview the government spending and tax multipliers
 
@@ -126,11 +126,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 8: Social insurance: The new function of government
 
-- Lecture 9: Social security, unemployment insurance, disability insurance, and workers’ compensation
+- Lecture 9: Social security, unemployment insurance, disability insurance and workers’ compensation
 
 - Lecture 10: Health insurance I: Health economics and private health insurance
 
-- Lecture 11: Health insurance II: Medicare, medicaid, and health care reform
+- Lecture 11: Health insurance II: Medicare, medicaid and health care reform
 
 - Lecture 12: Income distribution and welfare programs
 
@@ -206,7 +206,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 3: Fundamentals of consumer behavior
 
--   Lecture 4: Market demand, elasticities & revenues
+-   Lecture 4: Market demand, elasticities and revenues
 
 -   Lecture 5: Introduction to production and resource use
 
@@ -248,7 +248,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 2: Role of energy in the economy
 
--   Lecture 3: Energy markets, prices, and efficiency
+-   Lecture 3: Energy markets, prices and efficiency
 
 -   Lecture 4: The economics of renewable energy
 
@@ -298,11 +298,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 3: Global inequality and development
   
-- Lecture 4: Cultural geography: Language, religion, and identity
+- Lecture 4: Cultural geography: Language, religion and identity
 
 - Lecture 5: Political geography: States and geopolitics
 
-- Lecture 6: Urban geography: Cities, infrastructure, and planning
+- Lecture 6: Urban geography: Cities, infrastructure and planning
   
 - Lecture 7: Economic geography: Trade and globalization
 
@@ -327,7 +327,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 [**Textbooks:**]{.underline}
 
-1.  Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. 12th edition. Wiley.
+1.  Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place and culture. 12th edition. Wiley.
 
 2.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). Geocomputation with R. CRC Press.
 
