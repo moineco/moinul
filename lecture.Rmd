@@ -196,6 +196,44 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
+### Agricultural Economics
+
+-   Lecture 1: Introduction to agricultural economics
+
+-   Lecture 2: Agriculture industry overview
+
+-   Lecture 3: Fundamentals of consumer behavior
+
+-   Lecture 4: Market demand, elasticities & revenues
+
+-   Lecture 5: Introduction to production and resource use
+
+-   Lecture 6: Costs of production
+
+-   Lecture 7: Supply and price determination
+
+-   Lecture 8: Competition in the agricultural sector
+
+-   Lecture 9: Agriculture and the environment
+
+-   Lecture 10: Credit and the farm financial structure
+
+-   Lecture 11: Risk and risk management
+
+-   Lecture 12: Government intervention in agriculture
+
+-   Lecture 13: Agricultural trade and trade policy
+
+-   Lecture 14: Macroeconomics and agriculture
+
+-   Lecture 15: Futures of agricultural markets
+
+[**Textbooks:**]{.underline}
+
+1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th ed.). Pearson.
+
+2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd ed.). Pearson.
+
 ### Energy Economics
 
 **Section 1: Economics of Energy**
