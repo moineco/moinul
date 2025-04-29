@@ -16,11 +16,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Environmental Social Science
 
-**Section 1: Foundation to Environmental Economics**
+**Section 1: Foundation to Environmental Social Science**
 
--   Lecture 1: The environment and economics
+-   Lecture 1: The environment and social science
 
--   Lecture 2: Normative and positive economic analysis
+-   Lecture 2: Normative and positive analysis
 
 -   Lecture 3: Social choice: Environmental protection
 
