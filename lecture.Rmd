@@ -92,11 +92,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 **Section 4: Ethics and Governance of AI**
 
-- Lecture 13: Ethics and Fairness in AI
+- Lecture 13: Ethics and fairness in AI
 
-- Lecture 14: AI and Social Welfare
+- Lecture 14: AI and social welfare
 
-- Lecture 15: Public Sector Use of AI
+- Lecture 15: Public sector use of AI
 
 [**Textbooks:**]{.underline}
 
@@ -104,7 +104,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-### International Economics
+### International Trade and Finance
 
 **Section 1: Introduction to International Economics**
 
@@ -152,7 +152,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-### Agricultural Economics and Remote Sensing
+### Agricultural Economics: Remote Sensing and GIS
 
 **Section 1. Foundations of Agricultural Economics**
 
@@ -196,7 +196,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
 
-### Geography with R and Python
+### Human Geography with R and Python
 
 **Section 1: Foundations of Human Geography**
 
