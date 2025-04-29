@@ -24,13 +24,13 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 
 ### Qualifications
 
--   Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering), Kyushu University, Kyushu, Japan, 2016
+**2016**, Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering), Kyushu University, Kyushu, Japan
 
--   Master of Arts in International Development, International University of Japan, Niigata, Japan, 2012
+**2012**, Master of Arts in International Development, International University of Japan, Niigata, Japan
 
--   Master of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh, 2007
+**2007**, Master of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
 
--   Bachelor of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh, 2006
+**2006**, Bachelor of Social Science in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
 
 ### Research interests
 
@@ -42,82 +42,74 @@ Climate change and natural disasters pose significant threats to humankind, whil
 
 ### Affiliations
 
--   Associate Professor, School of Economics and Management, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
+Associate Professor, School of Economics and Management, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
 
--   Associate Professor, Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
+Associate Professor, Research Institute for Future Design, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8515, Japan
 
--   Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
+Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
 
 ### Work experiences
 
--   2024, Associate Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
+**2024-current**, Associate Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
--   2020, Assistant Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
+**2020-2024**, Assistant Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
--   2019, Assistant Professor, Graduate School for International Development and Cooperation (IDEC), Hiroshima University, Hiroshima, Japan
+**2019-2020**, Assistant Professor, Graduate School for International Development and Cooperation (IDEC), Hiroshima University, Hiroshima, Japan
 
--   2016, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
+**2016-2019**, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
 
--   2012, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
+**2012-2015**, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
 
 ### Research grants as PI
 
-I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** [2025-2029] for my research on sustainable water management. This funding will support my efforts to enhance water sustainability in the face of environmental and economic challenges. I also received the **Grant-in-Aid for Early-Career Scientists** [2021-2025] and the **Grant-in-Aid for Research Activity Start-up** [2019-2022] from Japan Society for the Promotion of Science (JSPS), which have supported my applied economics research for over a decade. 
+I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** [2025-2029] for my research on sustainable water management. This funding will support my efforts to enhance water sustainability in the face of environmental and economic challenges. I also received the **Grant-in-Aid for Early-Career Scientists** [2021-2025] and the **Grant-in-Aid for Research Activity Start-up** [2019-2022] from Japan Society for the Promotion of Science (JSPS), which have supported my applied economics research for over a decade.
 
 ::: {#tbl-panel layout-ncol="2"}
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Primary fund type | **Grant-in-Aid for Scientific Research (C)** in Economic Policy                                                                                           |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Funder            | Japan Society for the Promotion of Science (JSPS)                                                                                                         |   
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Keywords          | Sustainable water management; environmental economics; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  |  |
+|--------------|----------------------------------------------------------|
+| Primary fund type | **Grant-in-Aid for Scientific Research (C)** in Economic Policy |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Keywords | Sustainable water management; environmental economics; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
 
 : Project 1
 
-+-------------------+------------------------------------------------------------------------------------------------------------------+
-| Primary fund type | **Grant-in-Aid for Early-Career Scientists** in Economic Policy                                                  |
-+-------------------+------------------------------------------------------------------------------------------------------------------+
-| Funder            | Japan Society for the Promotion of Science (JSPS)                                                                |
-+-------------------+------------------------------------------------------------------------------------------------------------------+
-| Keywords          | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
-+-------------------+------------------------------------------------------------------------------------------------------------------+
+|  |  |
+|---------------|---------------------------------------------------------|
+| Primary fund type | **Grant-in-Aid for Early-Career Scientists** in Economic Policy |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Keywords | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
 
 : Project 2
 
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Primary fund type | **Grant-in-Aid for Research Activity Start-up** in Environmental Evaluation                                                                         |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Funder            | Japan Society for the Promotion of Science (JSPS)                                                                                                   |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-| Keywords          | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
+|  |  |
+|--------------|----------------------------------------------------------|
+| Primary fund type | **Grant-in-Aid for Research Activity Start-up** in Environmental Evaluation |
+| Funder | Japan Society for the Promotion of Science (JSPS) |
+| Keywords | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
 
 : Project 3
 :::
 
-### Programs
+### Software/Programs
 
--   Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
+Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
 
--   Use occasionally: ArcGIS, QGIS, EViews, oTree
+Use occasionally: ArcGIS, QGIS, EViews, oTree
 
 ### Languages
 
--   English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
 
 ### Links of my profile
 
-+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------+
-| -   [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019)                | -   [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) | -   [Github](https://github.com/moineco) |
-+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------+
-| -   [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | -   [Research Map](https://researchmap.jp/moinul/?lang=english)             |                                          |
-+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------+
-| -   [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en)            | -   [Orcid](https://orcid.org/0000-0002-0309-3156)                          |                                          |
-+-------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+------------------------------------------+
+|  |  |  |
+|-------------------------------|------------------------|-----------------|
+| [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) | [Github](https://github.com/moineco) |
+| [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |  |
+| [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |  |
 
 **Contact**
 
--   moinul[dot]eco[at]gmail[dot]com
+moinul[dot]eco[at]gmail[dot]com
 
 Updated on: `r Sys.Date()`
