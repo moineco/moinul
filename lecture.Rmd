@@ -14,51 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-### Principles of Economics
-
-**Section 1: Microeconomics**
-
--   Lecture 1: Economics foundations and models
-
--   Lecture 2: Trade-offs, comparative advantage and the market system
-
--   Lecture 3: Comparative advantage and the gains from international trade
-
--   Lecture 4: The interaction of demand and supply
-
--   Lecture 5:  Economic efficiency, government price setting and tax externalities
-
--   Lecture 6:  Environmental policy and public goods
-
--   Lecture 7:  Elasticity-the responsiveness of demand and supply
-
--   Lecture 8:  Monopoly
-
-**Section 2: Macroeconomics**
-
--   Lecture 9:  GDP-measuring total production and income
-
--   Lecture 10:  Unemployment and inflation
-
--   Lecture 11:  Economic growth, the financial system and business cycles
-
--   Lecture 12:  Aggregate expenditure and output in the short run
-
--   Lecture 13:  Aggregate demand and aggregate supply analysis
-
--   Lecture 14:  Money, banks and the federal reserve system monetary policy
-
--   Lecture 15:  Overview the government spending and tax multipliers
-
-[**Textbooks:**]{.underline}
-
-1. Acemoglu, D., Laibson, D., and List, J. (2022). Economics (3rd Edition). Pearson Education.
-
-2. Samuelson, P., and Nordhaus, W. (2020). Economics (20th Edition). McGraw-Hill Education.
-
-3. Mankiw, N. (2024). Principles of Economics (10th Edition). Cengage Learning. 
-
-### Environmental Economics
+### Environmental Social Science
 
 **Section 1: Foundation to Environmental Economics**
 
@@ -102,7 +58,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2.  Tietenberg, T., and Lewis, L. (2019). Environmental and natural resource economics (11th Edition). Routledge.
 
-### Economics of Public Policy 
+### Public Policy and AI Governance
 
 **Section 1: Introduction and Background**
 
@@ -134,13 +90,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 - Lecture 12: Income distribution and welfare programs
 
-**Section 4: Taxation in Theory and Practice**
+**Section 4: Ethics and Governance of AI**
 
-- Lecture 13: Taxation: How it works and what it means
+- Lecture 13: Ethics and Fairness in AI
 
-- Lecture 14: Taxation of business income
+- Lecture 14: AI and Social Welfare
 
-- Lecture 15: Fundamental tax reform and consumption taxation
+- Lecture 15: Public Sector Use of AI
 
 [**Textbooks:**]{.underline}
 
@@ -196,7 +152,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-### Agricultural Economics
+### Agricultural Economics and Remote Sensing
 
 **Section 1. Foundations of Agricultural Economics**
 
@@ -210,7 +166,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 5: Introduction to production and resource use
 
-**Section 2. Microeconomic Issues**
+**Section 2. Economic Issues**
 
 -   Lecture 6: Costs of production
 
@@ -220,19 +176,19 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 -   Lecture 9: Agriculture and the environment
 
--   Lecture 10: Credit and the farm financial structure
+-   Lecture 10: Agricultural trade and trade policy
 
--   Lecture 11: Risk and risk management
+-   Lecture 11: Government intervention in agriculture
 
-**Section 3. Macroeconomic Issues**
+**Section 3. Integrating Remote Sensing with Agricultural Economics**
 
--   Lecture 12: Government intervention in agriculture
+-   Lecture 12: Crop forecasting using remote sensing
 
--   Lecture 13: Agricultural trade and trade policy
+-   Lecture 13: Disaster impact assessment
 
--   Lecture 14: Macroeconomics and agriculture
+-   Lecture 14: Remote sensing for rural development planning
 
--   Lecture 15: Futures of agricultural markets
+-   Lecture 15: Valuing Ecosystem Services and Environmental Impacts Using Spatial Data
 
 [**Textbooks:**]{.underline}
 
@@ -240,55 +196,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
 
-### Energy Economics
-
-**Section 1: Economics of Energy**
-
--   Lecture 1: Energy overview
-
--   Lecture 2: Role of energy in the economy
-
--   Lecture 3: Energy markets, prices and efficiency
-
--   Lecture 4: The economics of renewable energy
-
--   Lecture 5: Energy and economic growth
-
--   Lecture 6: Economic theory of the mine
-
-**Section 2: Environmental and Natural Resource Economics**
-
--   Lecture 7: Oil and natural gas extraction and pricing
-
--   Lecture 8: Externalities and policy instruments
-
--   Lecture 9: The benefits and costs of environmental protection
-
-**Section 3: Industrial Ecology**
-
--   Lecture 10: The changing landscape for global oil companies
-
--   Lecture 11: Carbon-neutral energy systems
-
--   Lecture 12: Global energy disparities
-
-**Section 4: Energy Policy**
-
--   Lecture 13: International environmental agreements
-
--   Lecture 14: Energy efficiency: Puzzle and policies
-
--   Lecture 15: Energy policy consequences
-
-[**Textbooks:**]{.underline}
-
-1. Schwarz, P. (2021). Energy Economics. Routledge.
-
-2. Zweifel, P., Praktiknjo, A., and Erdmann, G. (2017). Energy Economics: Theory and Applications. Springer.
-
-3. Bhattacharyya, S. (2011). Energy Economics: Concepts, Issues, Markets, and Governance. Springer.
-
-### Human Geography
+### Geography with R and Python
 
 **Section 1: Foundations of Human Geography**
 
