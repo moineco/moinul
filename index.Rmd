@@ -16,7 +16,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, currently an Associate Professor at Kochi University of Technology. I earned my Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering) degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical public policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based public policies.
+I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (equivalent to Ph.D. in Environmental Engineering) degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in experimental economics. My research focuses on applying economic models to address critical public policy challenges, particularly in the area of intergenerational sustainability. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through evidence-based public policies.
 
 I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. For over a decade, I have been actively researching climate change adaptation and public policy, particularly in developing countries, examining how public policies can better protect climate vulnerable populations.
 
@@ -34,7 +34,7 @@ My resume is available from this link: [**Moinul's resume**](https://moineco.git
 
 ### Research interests
 
-Applied Microeconomics, Agricultural Economics, Climate Change, Environmental Economics, Environmental Social Science, Field Experiment, Human Geography, Natural Resource Economics, Public Policy
+Applied Microeconomics, Agricultural Economics, Climate Change, Environmental Social Science, Field Experiment, Human Geography, Natural Resource Economics, Public Policy
 
 ### My vision
 
