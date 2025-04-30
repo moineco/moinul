@@ -58,51 +58,51 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2.  Tietenberg, T., and Lewis, L. (2019). Environmental and natural resource economics (11th Edition). Routledge.
 
-### Public Policy and AI Governance
+### Future Design for Sustainable Development
 
-**Section 1: Introduction and Background**
+**Section 1: What is Future Design**
 
-- Lecture 1: Introduction to public policy
+-   Lecture 1: Introduction to future design
 
-- Lecture 2: Budget analysis and deficit financing
+-   Lecture 2: Future design: Combination of three academic disciplines
 
-**Section 2: Externalities and Public Goods**
+-   Lecture 3: Future design: From the perspective of economics
 
-- Lecture 3: Externalities: Problems and solutions
+**Section 2: Future Design and Sustainable Development**
 
-- Lecture 4: Externalities in action: Environmental and health externalities
+-   Lecture 4: Population growth and well-being
 
-- Lecture 5: Public goods and cost-benefit analysis
+-   Lecture 5: The environment and economics
 
-- Lecture 6: State and local government expenditures
+-   Lecture 6: The quality of the environment
 
-- Lecture 7: Education
+-   Lecture 7: Globalization and the environment
 
-**Section 3: Social Insurance and Redistribution**
+-   Lecture 8: Market failure: Public goods and externalities
 
-- Lecture 8: Social insurance: The new function of government
+-   Lecture 9: Future failures: Disruption of C-cycle and N-cycle
 
-- Lecture 9: Social security, unemployment insurance, disability insurance and workers’ compensation
+**Section 3: Future Design and Public Policy**
 
-- Lecture 10: Health insurance I: Health economics and private health insurance
+-   Lecture 10: The economics of biodiversity
 
-- Lecture 11: Health insurance II: Medicare, medicaid and health care reform
+-   Lecture 11: The economics of climate change
 
-- Lecture 12: Income distribution and welfare programs
+-   Lecture 12: Environmental goods valuation
 
-**Section 4: Ethics and Governance of AI**
+-   Lecture 13: Climate change: The ultimate challenge for economics
 
-- Lecture 13: Ethics and fairness in AI
+-   Lecture 14: Natural experiments help answer important questions
 
-- Lecture 14: AI and social welfare
-
-- Lecture 15: Public sector use of AI
+-   Lecture 15: How institutions affect economic development?
 
 [**Textbooks:**]{.underline}
 
 1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
+
+3. Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
 
 ### International Trade and Finance
 
@@ -152,50 +152,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-### Agricultural Economics: Remote Sensing and GIS
-
-**Section 1. Foundations of Agricultural Economics**
-
--   Lecture 1: Introduction to agricultural economics
-
--   Lecture 2: Agriculture industry overview
-
--   Lecture 3: Fundamentals of consumer behavior
-
--   Lecture 4: Market demand, elasticities and revenues
-
--   Lecture 5: Introduction to production and resource use
-
-**Section 2. Economic Issues**
-
--   Lecture 6: Costs of production
-
--   Lecture 7: Supply and price determination
-
--   Lecture 8: Competition in the agricultural sector
-
--   Lecture 9: Agriculture and the environment
-
--   Lecture 10: Agricultural trade and trade policy
-
--   Lecture 11: Government intervention in agriculture
-
-**Section 3. Integrating Remote Sensing with Agricultural Economics**
-
--   Lecture 12: Crop forecasting using remote sensing
-
--   Lecture 13: Disaster impact assessment
-
--   Lecture 14: Remote sensing for rural development planning
-
--   Lecture 15: Valuing Ecosystem Services and Environmental Impacts Using Spatial Data
-
-[**Textbooks:**]{.underline}
-
-1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th Edition). Pearson.
-
-2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
-
 ### Human Geography with R and Python
 
 **Section 1: Foundations of Human Geography**
@@ -241,43 +197,45 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
-### Future Design 
+### Public Policy and AI Governance
 
-**Section 1: What is Future Design**
+**Section 1: Introduction and Background**
 
--   Lecture 1: Introduction to future design
+- Lecture 1: Introduction to public policy
 
--   Lecture 2: Future design: Combination of three academic disciplines
+- Lecture 2: Budget analysis and deficit financing
 
--   Lecture 3: Future design: From the perspective of economics
+**Section 2: Externalities and Public Goods**
 
-**Section 2: Future Design and Sustainable Development**
+- Lecture 3: Externalities: Problems and solutions
 
--   Lecture 4: Population growth and well-being
+- Lecture 4: Externalities in action: Environmental and health externalities
 
--   Lecture 5: The environment and economics
+- Lecture 5: Public goods and cost-benefit analysis
 
--   Lecture 6: The quality of the environment
+- Lecture 6: State and local government expenditures
 
--   Lecture 7: Globalization and the environment
+- Lecture 7: Education
 
--   Lecture 8: Market failure: Public goods and externalities
+**Section 3: Social Insurance and Redistribution**
 
--   Lecture 9: Future failures: Disruption of C-cycle and N-cycle
+- Lecture 8: Social insurance: The new function of government
 
-**Section 3: Future Design and Public Policy**
+- Lecture 9: Social security, unemployment insurance, disability insurance and workers’ compensation
 
--   Lecture 10: The economics of biodiversity
+- Lecture 10: Health insurance I: Health economics and private health insurance
 
--   Lecture 11: The economics of climate change
+- Lecture 11: Health insurance II: Medicare, medicaid and health care reform
 
--   Lecture 12: Environmental goods valuation
+- Lecture 12: Income distribution and welfare programs
 
--   Lecture 13: Climate change: The ultimate challenge for economics
+**Section 4: Ethics and Governance of AI**
 
--   Lecture 14: Natural experiments help answer important questions
+- Lecture 13: Ethics and fairness in AI
 
--   Lecture 15: How institutions affect economic development?
+- Lecture 14: AI and social welfare
+
+- Lecture 15: Public sector use of AI
 
 [**Textbooks:**]{.underline}
 
@@ -285,6 +243,49 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-3. Kolstad, C. (2011), Environmental economics (2nd Edition). New York : Oxford University Press.
+### Agricultural Economics: Remote Sensing and GIS
+
+**Section 1. Foundations of Agricultural Economics**
+
+-   Lecture 1: Introduction to agricultural economics
+
+-   Lecture 2: Agriculture industry overview
+
+-   Lecture 3: Fundamentals of consumer behavior
+
+-   Lecture 4: Market demand, elasticities and revenues
+
+-   Lecture 5: Introduction to production and resource use
+
+**Section 2. Economic Issues**
+
+-   Lecture 6: Costs of production
+
+-   Lecture 7: Supply and price determination
+
+-   Lecture 8: Competition in the agricultural sector
+
+-   Lecture 9: Agriculture and the environment
+
+-   Lecture 10: Agricultural trade and trade policy
+
+-   Lecture 11: Government intervention in agriculture
+
+**Section 3. Integrating Remote Sensing with Agricultural Economics**
+
+-   Lecture 12: Crop forecasting using remote sensing
+
+-   Lecture 13: Disaster impact assessment
+
+-   Lecture 14: Remote sensing for rural development planning
+
+-   Lecture 15: Valuing Ecosystem Services and Environmental Impacts Using Spatial Data
+
+[**Textbooks:**]{.underline}
+
+1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th Edition). Pearson.
+
+2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
+
 
 Updated on: `r Sys.Date()`
