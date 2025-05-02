@@ -184,11 +184,11 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ##### Guest editor
 
--   [1] Sustainability Science (Springer).
+- [1] Sustainability Science (Springer).
 
 ##### Peer reviewer
 
--   [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science), [13] Journal of Industrial Ecology (Wiley).
+- [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science), [13] Journal of Industrial Ecology (Wiley), [14] Energy Research & Social Science (Elsevier).
 
 ### Working papers
 
