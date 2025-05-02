@@ -92,9 +92,9 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 ### Software/Programs
 
-Use regularly: R, Python, STATA, Quarto, LaTex, GNU Emacs
+Use regularly: R, Python, STATA, ArcGIS, Quarto, LaTex, GNU Emacs
 
-Use occasionally: ArcGIS, QGIS, EViews, oTree
+Use occasionally: QGIS, EViews, oTree, Microsoft Office
 
 ### Languages
 
