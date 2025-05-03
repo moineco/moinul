@@ -92,13 +92,13 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 ### Software/Programs
 
-Use regularly: R, Python, STATA, ArcGIS, Quarto, LaTex, GNU Emacs
+Use regularly: R, ArcGIS, Quarto, Python, STATA, LaTex, GNU Emacs
 
 Use occasionally: QGIS, EViews, oTree, Microsoft Office
 
 ### Languages
 
-English (Business), Japanese (Fluent), Hindi (Fluent), Bengali (Native)
+Bengali (Native), English (Business), Hindi (Fluent), Japanese (Fluent)
 
 ### Links of my profile
 
