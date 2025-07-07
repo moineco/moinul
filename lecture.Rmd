@@ -243,7 +243,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-### Agricultural Economics: Remote Sensing and GIS
+### Agricultural Economics and Remote Sensing
 
 **Section 1. Foundations of Agricultural Economics**
 
