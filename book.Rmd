@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, human geography, experimental economics, spatial economics, data science and energy economics.
+Recommended readings to everyone who is interested about microeconomics, public economics, environmental economics, econometrics, international economics, human geography, experimental economics, spatial economics and remote sensing, data science and energy economics.
 
 ### Microeconomics
 
@@ -74,13 +74,15 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-### Spatial Economics
+### Spatial Economics and Remote Sensing
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
 2.  Comber, L., and Brunsdon, C. (2020). Geographical data science and spatial data analysis: An Introduction in R. Sage.
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
+
+4.  Devillard, E (2023). Remote Sensing and Digital Image Processing with R- Lab Manual. Springer 
 
 ### Data Science
 
