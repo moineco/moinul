@@ -82,7 +82,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-4.  Devillard, E (2023). Remote Sensing and Digital Image Processing with R- Lab Manual. Springer 
+4.  Devillard, E (2023). Remote sensing and digital image processing with R- lab manual. Springer 
 
 ### Data Science
 
