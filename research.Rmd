@@ -178,7 +178,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Research grants
 
-1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Scientific Research (C) in Economic Policy. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: TBA. Project period: 2025/04 -- 2029/03.
+1.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Scientific Research (C) in Economic Policy. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 25K05109. Project period: 2025/04 -- 2028/03.
 
 2.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Early-Career Scientists. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 21K13290. Project period: 2021/04 -- 2025/03.
 
