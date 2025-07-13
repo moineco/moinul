@@ -6,7 +6,7 @@ output:
     #toc: true
     toc_float: true
     collapsed: false
-    number_sections: true
+    number_sections: false
     toc_depth: 3
 ---
 
