@@ -40,7 +40,7 @@ A future where human behavior aligns with nature to foster resilience against cl
 
 ### My mission
 
-Identify human behavioral gaps between current and ideal societal systems to formulate research questions (RQ) at the intersection of economics, environmental systems, and public policy, and investigate them through rigorous economic and experimental methods aimed at fostering sustainable human–nature coexistence.
+Identify human behavioral gaps between current and ideal societal systems to formulate research questions (RQ) at the intersection of economics, environmental systems, and public policy, and answer them through rigorous economic and experimental methods aimed at fostering sustainable human–nature coexistence.
 
 ### My strategies
 
@@ -76,7 +76,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | Primary fund type | **Grant-in-Aid for Scientific Research (C)** in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 25K05109 |
@@ -85,7 +85,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 : Project 1
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | Primary fund type | **Grant-in-Aid for Early-Career Scientists** in Economic Policy |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 21K13290 |
@@ -94,7 +94,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 : Project 2
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | Primary fund type | **Grant-in-Aid for Research Activity Start-up** in Environmental Evaluation |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 19K24384 |
@@ -116,7 +116,7 @@ Bengali (Native), English (Business), Japanese (Fluent), Hindi (Fluent), Arabic 
 ### Links of my profile
 
 |  |  |  |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) | [Github](https://github.com/moineco) |
 | [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |  |
 | [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |  |
