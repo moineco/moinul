@@ -1,0 +1,76 @@
+body {
+  background: #0d1117;
+  color: #e4e4e4;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background: rgba(13, 17, 23, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.card {
+  background: rgba(20, 24, 30, 0.85);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 20px rgba(0, 188, 212, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00bcd4, #14f1f1);
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 10px #14f1f1, 0 0 20px #00bcd4;
+  transform: translateY(-2px);
+}
+
+a, .nav-link {
+  color: #00bcd4;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover, .nav-link:hover {
+  color: #14f1f1;
+  text-shadow: 0 0 5px #14f1f1;
+}
+
+.tocify, .tocify .tocify-header, .tocify .tocify-subheader {
+  background: rgba(13, 17, 23, 0.95); /* Dark background */
+  color: #e4e4e4; /* Light text */
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.15);
+}
+
+.tocify .tocify-item a {
+  color: #b0b0b0;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.tocify .tocify-item a:hover {
+  color: #14f1f1; 
+  text-shadow: 0 0 4px #14f1f1;
+}
+
+.tocify .tocify-header a {
+  font-weight: 600;
+  color: #00bcd4;
+}
+
+.tocify-focus {
+  background-color: rgba(0, 188, 212, 0.1);
+  border-left: 3px solid #00bcd4;
+}

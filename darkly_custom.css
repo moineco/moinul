@@ -1,0 +1,101 @@
+/*====================================================================
+  Darkly Custom Theme (Dr. Moinul Islam) – with Enhanced Left-Side TOC
+====================================================================*/
+
+body {
+  background: #0d1117;
+  color: #e4e4e4;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  background: rgba(13, 17, 23, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.card {
+  background: rgba(20, 24, 30, 0.85);
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 4px 20px rgba(0, 188, 212, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #00bcd4, #14f1f1);
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  box-shadow: 0 0 10px #14f1f1, 0 0 20px #00bcd4;
+  transform: translateY(-2px);
+}
+
+a, .nav-link {
+  color: #00bcd4;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+a:hover, .nav-link:hover {
+  color: #14f1f1;
+  text-shadow: 0 0 5px #14f1f1;
+}
+
+/* --- Left Floating TOC --- */
+#toc {
+  position: fixed;
+  top: 70px; /* adjust if navbar height changes */
+  left: 0;
+  width: 240px;
+  height: calc(100% - 80px);
+  overflow-y: auto;
+  background: rgba(13, 17, 23, 0.95);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 20px 15px;
+  box-shadow: 2px 0 10px rgba(0, 188, 212, 0.05);
+}
+
+#toc .tocify-header, #toc .tocify-subheader {
+  color: #e4e4e4;
+  margin: 5px 0;
+}
+
+#toc a {
+  color: #b0b0b0;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#toc a:hover {
+  color: #14f1f1;
+  text-shadow: 0 0 4px #14f1f1;
+}
+
+#toc .tocify-focus > a {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+/* Main content shifts right due to TOC */
+.main-content {
+  margin-left: 260px; /* 240px + padding */
+  padding: 30px;
+}
+
+/* Scrollbar styling */
+#toc::-webkit-scrollbar {
+  width: 8px;
+}
+#toc::-webkit-scrollbar-track {
+  background: transparent;
+}
+#toc::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}

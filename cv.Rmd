@@ -2,7 +2,8 @@
 title: ""
 output:
   html_document:
-    theme: cerulean
+    theme: darkly
+    css: darkly_custom.css
     #toc: true
     toc_float: true
     collapsed: false
