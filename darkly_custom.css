@@ -14,6 +14,15 @@ body {
   border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff7f; /* green headings */
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+  text-shadow: 0 0 8px rgba(0, 255, 127, 0.6), 0 0 12px rgba(0, 255, 127, 0.4);
+}
+
 .card {
   background: rgba(20, 24, 30, 0.85);
   border-radius: 16px;
