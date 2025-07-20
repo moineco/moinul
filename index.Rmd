@@ -78,28 +78,28 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 ::: {#tbl-panel layout-ncol="2"}
 |  |  |
 |----|----|
-| Primary fund type | **Grant-in-Aid for Scientific Research (C)** in Economic Policy |
+| Primary fund type | **Grant-in-Aid for Scientific Research (C)** |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 25K05109 |
-| Keywords | Sustainable water management; environmental economics; field experiment; developing country; arsenic contamination; economic policy; environmental policy |
+| Keywords | Sustainable water management; social experiment |
 
 : Project 1
 
 |  |  |
 |----|----|
-| Primary fund type | **Grant-in-Aid for Early-Career Scientists** in Economic Policy |
+| Primary fund type | **Grant-in-Aid for Early-Career Scientists** |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 21K13290 |
-| Keywords | Indoor air pollution; field experiment; developing country; health policy; economic policy; environmental policy |
+| Keywords | Public health; social experiment |
 
 : Project 2
 
 |  |  |
 |----|----|
-| Primary fund type | **Grant-in-Aid for Research Activity Start-up** in Environmental Evaluation |
+| Primary fund type | **Grant-in-Aid for Research Activity Start-up** |
 | Funder | Japan Society for the Promotion of Science (JSPS) |
 | Grant number | 19K24384 |
-| Keywords | Environmental economics; environmental policy; resource economics; development economics; air pollution; human capital; natural disaster adaptation |
+| Keywords | Environmental economics; economic policy |
 
 : Project 3
 :::
