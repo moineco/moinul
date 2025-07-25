@@ -21,7 +21,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
     *Food Policy*, 135,  102916. Q1 <https://doi.org/10.1016/j.foodpol.2025.102916>
 
 2.  Tawhidul, I., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Arsenic health risks and interaction with salinity in coastal areas of Bangladesh.\
-    *Frontiers in Public Health* (forthcoming). Q1
+    *Frontiers in Public Health* 13, 1610311. Q1 <https://doi.org/10.3389/fpubh.2025.1610311>
 
 3.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns.\
     *Future Foods*, 11, 100609. Q1 <https://doi.org/10.1016/j.fufo.2025.100609>
