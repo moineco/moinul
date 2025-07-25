@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-### Background 
+### Background
 
 I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering] degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in field experiments. My research focuses on applying economic models to address critical public policy challenges. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through experimental evidence-based public policies.
 
@@ -33,13 +33,13 @@ I have extensive experience in designing laboratory, field, and survey experimen
 
 ### Research interests
 
-Economic Policy, Environmental Economics, Field Experiments, Sustainability Science, International Economics, Human Geography, Economic Data Science
+Economic Policy, Environmental Economics, Field Experiments, Sustainability Science, International Economics, Human Geography, Economic Data Science, Energy Policy
 
-### My vision 
+### My vision
 
 **Design a future where our daily behavior fosters human–nature coexistence**
 
-### My mission 
+### My mission
 
 Identify gaps between current and ideal societal systems to conceptualize research questions at the nexus of economics, environment, and public policy, while addressing them using rigorous economic as well as experimental methods to advance sustainable human–nature coexistence.
 
@@ -51,7 +51,7 @@ Identify gaps between current and ideal societal systems to conceptualize resear
 
 <!-- Engage with local governments and communities to co-produce context-sensitive social experiments that informs globally relevant and locally actionable sustainability policies. -->
 
-### Affiliations 
+### Affiliations
 
 Associate Professor, School of Economics and Management, Kochi University of Technology, 2-22 Eikokuji, Kochi City, Kochi 780-8518, Japan
 
@@ -59,7 +59,7 @@ Associate Professor, Research Institute for Future Design, Kochi University of T
 
 Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan
 
-### Work experiences 
+### Work experiences
 
 **2024-current**, Associate Professor, School of Economics and Management & Research Institute for Future Design, Kochi University of Technology, Kochi, Japan
 
@@ -71,7 +71,7 @@ Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fuku
 
 **2012-2015**, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
 
-### Research grants as PI 
+### Research grants as PI
 
 I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** [2025-2028] for my research on sustainable water management. This funding will support my efforts to enhance water sustainability in the face of environmental and economic challenges. I also received the **Grant-in-Aid for Early-Career Scientists** [2021-2025] and the **Grant-in-Aid for Research Activity Start-up** [2019-2022] from Japan Society for the Promotion of Science (JSPS), which have supported my applied economics research for over a decade.
 
@@ -110,7 +110,7 @@ Use regularly: R, ArcGIS, Quarto, Python, STATA, LaTex, GNU Emacs, Lisp
 
 Use occasionally: QGIS, EViews, oTree, Microsoft Office
 
-### Languages 
+### Languages
 
 Bengali (Native), English (Business), Japanese (Fluent), Hindi (Fluent), Arabic (Intermediate)
 
@@ -122,7 +122,7 @@ Bengali (Native), English (Business), Japanese (Fluent), Hindi (Fluent), Arabic 
 | [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |  |
 | [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |  |
 
-### Contact 
+### Contact
 
 moinul[dot]eco[at]gmail[dot]com
 
