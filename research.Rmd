@@ -18,7 +18,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ### Journal articles (peer-review)
 
 1.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. (2025). Does future design induce people to make a persistent change to sustainable food consumption?\
-    *Food Policy*, 135,  102916. Q1 <https://doi.org/10.1016/j.foodpol.2025.102916>
+    *Food Policy*, 135, 102916. Q1 <https://doi.org/10.1016/j.foodpol.2025.102916>
 
 2.  Tawhidul, I., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Arsenic health risks and interaction with salinity in coastal areas of Bangladesh.\
     *Frontiers in Public Health* 13, 1610311. Q1 <https://doi.org/10.3389/fpubh.2025.1610311>
