@@ -24,6 +24,5 @@ navbar:
       href: "https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en"
     - icon: fa-github
       href: "https://github.com/moineco"
-    - icon: fa-linkedin
-      href: "https://www.linkedin.com/in/moinul-islam-b7a140263/"
+
 output_dir: "docs"
