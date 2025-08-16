@@ -104,9 +104,14 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 : Project 3
 :::
 
-### Software/Programs
 
-Use regularly: R, ArcGIS, Quarto, Python, STATA, LaTex, GNU Emacs, Lisp
+### Programming languages
+
+R, Python, Lisp
+
+### Softwares
+
+Use regularly: ArcGIS, Quarto, STATA, LaTex, GNU Emacs 
 
 Use occasionally: QGIS, EViews, oTree, Microsoft Office
 
