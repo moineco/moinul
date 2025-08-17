@@ -17,6 +17,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
+![](img/IMG_Moinul.JPG){width="185"}
+
 I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering] degree from Kyushu University in 2016. My expertise spans agriculture, climate, ecological, environmental, and behavioral economics, with a particular interest in field experiments. My research focuses on applying economic models to address critical public policy challenges. I am engaged in understanding the far-reaching impacts of climate change and natural disasters on human life and finding solutions through experimental evidence-based public policies.
 
 I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am also proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. For over a decade, I have been actively researching climate change adaptation and public policy, particularly in developing countries to protect climate vulnerable populations.
@@ -104,14 +106,13 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 : Project 3
 :::
 
-
 ### Programming languages
 
 R, Python, Lisp
 
 ### Softwares
 
-Use regularly: ArcGIS, Quarto, STATA, LaTex, GNU Emacs 
+Use regularly: ArcGIS, Quarto, STATA, LaTex, GNU Emacs
 
 Use occasionally: QGIS, EViews, oTree, Microsoft Office
 
@@ -122,7 +123,7 @@ Bengali (Native), English (Business), Japanese (Fluent), Hindi (Fluent), Arabic 
 ### Links of my profile
 
 |  |  |
-|------------------------|------------------------|
+|----|----|
 | [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) |
 | [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |
 | [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |
