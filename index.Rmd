@@ -37,14 +37,6 @@ I have extensive experience in designing laboratory, field, and survey experimen
 
 Economic Policy, Environmental Economics, Field Experiments, Sustainability Science, International Economics, Human Geography, Economic Data Science, Energy Policy
 
-### My vision
-
-**Design a future where our daily behavior fosters human–nature coexistence**
-
-### My mission
-
-Identify gaps between current and ideal societal systems to conceptualize research questions at the nexus of economics, environment, and public policy, while addressing them using rigorous economic as well as experimental methods to advance sustainable human–nature coexistence.
-
 <!-- ### My strategies -->
 
 <!-- Pursue applied economics research that integrates environmental, behavioral, and policy perspectives to address pressing sustainability issues. -->
@@ -127,6 +119,18 @@ Bengali (Native), English (Business), Japanese (Fluent), Hindi (Fluent), Arabic 
 | [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) |
 | [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |
 | [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |
+
+### My vision
+
+**Design a future where our daily behavior fosters human–nature coexistence**
+
+### My mission
+
+**Execute empirical research for evidence based policy recommendation to ensure sustainable human behavior and human–nature coexistence**
+
+### My strategies
+
+Identify gaps between current and ideal societal systems to conceptualize research questions at the nexus of economics, environment, and public policy, while addressing them using rigorous economic as well as experimental methods to advance sustainable human–nature coexistence
 
 ### Contact
 
