@@ -151,31 +151,35 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### International conferences
 
-1.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 14--15 September, 2024.
+1.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, Australian New Zealand Workshop in Experimental Economics (ANZWEE) 2025, Macquarie University, Sydney, Australia, 29--30 August, 2025.
 
-2.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 27--28 July, 2024.
+2.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 14--15 September, 2024.
 
-3.  [**Islam, M.**]{.underline} Future design social experiments, The 17th Association of Behavioral Economics and Finance Conference, Kochi University of Technology, Kochi city, Kochi, Japan, 9--10 December, 2023.
+3.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 27--28 July, 2024.
 
-4.  [**Islam, M.**]{.underline} A future design workshop on inequality, The 4th International Conference on Anticipation, Arizona State University, Tempe, Arizona, USA, 16--18 November, 2022.
+4.  [**Islam, M.**]{.underline} Future design social experiments, The 17th Association of Behavioral Economics and Finance Conference, Kochi University of Technology, Kochi city, Kochi, Japan, 9--10 December, 2023.
 
-5.  [**Islam, M.**]{.underline} Growth potential for $CO_2$ emissions transfer by United States-China trade battle, The 24th SEEPS Annual Conference, Fukushima University, Fukushima, Japan, 28--29 September, 2019.
+5.  [**Islam, M.**]{.underline} A future design workshop on inequality, The 4th International Conference on Anticipation, Arizona State University, Tempe, Arizona, USA, 16--18 November, 2022.
 
-6.  [**Islam, M.**]{.underline} Natural capital of nations for sustainable development, The 25th IPSA World Congress of Political Science, Brisbane, Australia, 22--25 July, 2018.
+6.  [**Islam, M.**]{.underline} Growth potential for $CO_2$ emissions transfer by United States-China trade battle, The 24th SEEPS Annual Conference, Fukushima University, Fukushima, Japan, 28--29 September, 2019.
 
-7.  [**Islam, M.**]{.underline} Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 21--22 September, 2013.
+7.  [**Islam, M.**]{.underline} Natural capital of nations for sustainable development, The 25th IPSA World Congress of Political Science, Brisbane, Australia, 22--25 July, 2018.
+
+8.  [**Islam, M.**]{.underline} Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 21--22 September, 2013.
 
 ### International symposiums
 
-1.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
+1.  University of Western Sydney School of Business Research Seminar Series 2025, Sydney, Australia, 29 August, 2025.
 
-2.  Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
+2.  SEEPS workshop 2023, Ito campus, Kyushu University, Japan, 18 December, 2023.
 
-3.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
+3.  Future Design 2022, Kochi University of Technology, Japan, 29 -- 30 January 2022.
 
-4.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
+4.  Q-AOS Symposium on Inclusive Growth, Kyushu University, Japan, 14 October 2021.
 
-5.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
+5.  Joint Tianjin University-Kyushu University workshop on economics, Tianjin University, Tianjin, China, 9 -- 11 October 2018.
+
+6.  Workshop on Sustainability, SDGs and Security, Inamori Center (A Hall), Ito campus, Kyushu University, Japan, 27 -- 28 March 2018.
 
 ### Research grants
 
