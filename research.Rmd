@@ -151,21 +151,23 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### International conferences
 
-1.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, Australian New Zealand Workshop in Experimental Economics (ANZWEE) 2025, Macquarie University, Sydney, Australia, 29--30 August, 2025.
+1.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 30th SEEPS Annual Conference, Musashi University, Tokyo, Japan, 20--21 September, 2025.
 
-2.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 14--15 September, 2024.
+2.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, Australian New Zealand Workshop in Experimental Economics (ANZWEE) 2025, Macquarie University, Sydney, Australia, 29--30 August, 2025.
 
-3.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 27--28 July, 2024.
+3.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 29th SEEPS Annual Conference, Kansai University, Osaka, Japan, 14--15 September, 2024.
 
-4.  [**Islam, M.**]{.underline} Future design social experiments, The 17th Association of Behavioral Economics and Finance Conference, Kochi University of Technology, Kochi city, Kochi, Japan, 9--10 December, 2023.
+4.  [**Islam, M.**]{.underline} Can future design persistently improve indoor air quality?, The 8th International Symposium on Frontier Technology, Kochi University of Technology, Kami city, Kochi, Japan, 27--28 July, 2024.
 
-5.  [**Islam, M.**]{.underline} A future design workshop on inequality, The 4th International Conference on Anticipation, Arizona State University, Tempe, Arizona, USA, 16--18 November, 2022.
+5.  [**Islam, M.**]{.underline} Future design social experiments, The 17th Association of Behavioral Economics and Finance Conference, Kochi University of Technology, Kochi city, Kochi, Japan, 9--10 December, 2023.
 
-6.  [**Islam, M.**]{.underline} Growth potential for $CO_2$ emissions transfer by United States-China trade battle, The 24th SEEPS Annual Conference, Fukushima University, Fukushima, Japan, 28--29 September, 2019.
+6.  [**Islam, M.**]{.underline} A future design workshop on inequality, The 4th International Conference on Anticipation, Arizona State University, Tempe, Arizona, USA, 16--18 November, 2022.
 
-7.  [**Islam, M.**]{.underline} Natural capital of nations for sustainable development, The 25th IPSA World Congress of Political Science, Brisbane, Australia, 22--25 July, 2018.
+7.  [**Islam, M.**]{.underline} Growth potential for $CO_2$ emissions transfer by United States-China trade battle, The 24th SEEPS Annual Conference, Fukushima University, Fukushima, Japan, 28--29 September, 2019.
 
-8.  [**Islam, M.**]{.underline} Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 21--22 September, 2013.
+8.  [**Islam, M.**]{.underline} Natural capital of nations for sustainable development, The 25th IPSA World Congress of Political Science, Brisbane, Australia, 22--25 July, 2018.
+
+9.  [**Islam, M.**]{.underline} Farmer's adaptation strategy in Bangladesh, The 18th SEEPS Annual Conference, Kobe University, Kobe, Japan, 21--22 September, 2013.
 
 ### International symposiums
 
