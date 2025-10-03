@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Year 2025
 
-#### Engages in Major Academic Events in Australia
+#### Engages in major academic events in Australia
 
 - On 29 August 2025, I have delivered an invited seminar at the School of Business Research Seminar Series 2025, University of Western Sydney, where I have presented my research on sustainability and future design.
 
@@ -29,7 +29,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ![Macquarie University, Sydney, Australia 2025](img/ANZWEE_2025.JPG){width="511"}
 
-#### Showcase Future Design Research at SEEPS 2025 Conference
+#### Showcase future design research at SEEPS 2025 conference
 
 - On 21 September 2025, I have presented my research titled "Future Design for Indoor Air Quality in Bangladesh" in the Society for Environmental Economics and Policy Studies (SEEPS) 2025 Annual Conference at Musashi University through a dedicated session on “Future Design and Economic Experiments”.
 
