@@ -1,5 +1,5 @@
 ---
-title: "News & Research Updates"
+title: "News & Updates"
 output:
   html_document:
     theme: darkly
