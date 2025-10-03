@@ -12,6 +12,8 @@ navbar:
       href: book.html
     - text: "CV"
       href: cv.html
+    - text: "News & Updates"
+      href: announcements.html
     # - text: "R"
     #   href: r.html
     # - text: "Python"

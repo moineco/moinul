@@ -1,0 +1,42 @@
+---
+title: "News & Research Updates"
+output:
+  html_document:
+    theme: darkly
+    css: darkly_custom.css
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+### Year 2025
+
+#### Engages in Major Academic Events in Australia
+
+I have participated in two prestigious academic events in Australia.
+
+On 29 August 2025, I have delivered an invited seminar at the School of Business Research Seminar Series 2025, University of Western Sydney, where he presented his research on sustainability and future design.
+
+![University of Western Sydney 2025](img/Western_Sydney_2025_1.JPG){width="511"}
+
+![University of Western Sydney 2025](img/Western_Sydney_2025_2.JPG){width="514"}
+
+Immediately after, on 30 August 2025, I have presented my paper “Can Future Design Persistently Improve Indoor Air Quality?” at the Australian New Zealand Workshop in Experimental Economics (ANZWEE) 2025, hosted by Macquarie University, Sydney.
+
+![Macquarie University, Sydney, Australia 2025](img/ANZWEE_2025.JPG){width="511"}
+
+These back-to-back contributions underscore my active role on the international stage, advancing scholarship in environmental sustainability, experimental economics, and innovative approaches to policy design.
+
+#### Showcase Future Design Research at SEEPS 2025 Conference
+
+I have presented my research titled "Future Design for Indoor Air Quality in Bangladesh" in the Society for Environmental Economics and Policy Studies (SEEPS) 2025 Annual Conference at Musashi University through a dedicated session on “Future Design and Economic Experiments.” on September 21, 2025.
+
+![SEEPS 2025](img/SEEPS_2025.JPG){width="503"}
+
+
