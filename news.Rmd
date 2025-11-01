@@ -38,4 +38,3 @@ knitr::include_graphics("img/ANZWEE_2025.JPG")
 ```{r, echo=FALSE, out.width="500px", fig.align="center"}
 knitr::include_graphics("img/SEEPS_2025.JPG")
 ```
-
