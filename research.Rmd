@@ -17,112 +17,115 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Journal articles (peer-review)
 
-1.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. (2025). Does future design induce people to make a persistent change to sustainable food consumption?\
+1.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., Zaied, Y., and Saito, O. (2025). Editorial: Natural capital accounting for sustainable cities.\
+    *Sustainability Science*, (forthcoming)
+
+2.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. (2025). Does future design induce people to make a persistent change to sustainable food consumption?\
     *Food Policy*, 135, 102916. Q1 <https://doi.org/10.1016/j.foodpol.2025.102916>
 
-2.  Tawhidul, I., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Arsenic health risks and interaction with salinity in coastal areas of Bangladesh.\
+3.  Tawhidul, I., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Arsenic health risks and interaction with salinity in coastal areas of Bangladesh.\
     *Frontiers in Public Health* 13, 1610311. Q1 <https://doi.org/10.3389/fpubh.2025.1610311>
 
-3.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns.\
+4.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. (2025). Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns.\
     *Future Foods*, 11, 100609. Q1 <https://doi.org/10.1016/j.fufo.2025.100609>
 
-4.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2025). Adaptation indicator to climate change and farm sizes in agriculture: A reflection of farming culture and history.\
+5.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2025). Adaptation indicator to climate change and farm sizes in agriculture: A reflection of farming culture and history.\
     *Ecological Indicators*, 170, 112976. Q1 <https://doi.org/10.1016/j.ecolind.2024.112976>
 
-5.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., and Flammer, C. (2024). Nature positive strategy with social and economic policy.\
+6.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., and Flammer, C. (2024). Nature positive strategy with social and economic policy.\
     *Sustainability Science*, 1--3. Q1 <https://doi.org/10.1007/s11625-024-01606-2>
 
-6.  [**Islam, M.**]{.underline}, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation.\
+7.  [**Islam, M.**]{.underline}, Kotani, K., and Managi, S. (2024). Nature dependence and seasonality change perceptions for climate adaptation and mitigation.\
     *Economic Analysis and Policy*, 81, 34--44. Q1 <https://doi.org/10.1016/j.eap.2023.11.001>
 
-7.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture?\
+8.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Kotani, K. (2024). How does the number of water users in a land reform matter for water availability in agriculture?\
     *Agricultural Water Management*, 293, 108677. Q1 <https://doi.org/10.1016/j.agwat.2024.108677>
 
-8.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., Zaied, Y., and Saito, O. (2023). Natural capital accounting for sustainable cities.\
+9.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., Zaied, Y., and Saito, O. (2023). Natural capital accounting for sustainable cities.\
     *Sustainability Science*, 18, 2049--2051. Q1 <https://doi.org/10.1007/s11625-023-01356-7>
 
-9.  Yamaguchi, R., [**Islam, M.**]{.underline}, and Managi, S. (2023). Natural capital and wealth accounting for sustainability assessment: A global perspective.\
+10. Yamaguchi, R., [**Islam, M.**]{.underline}, and Managi, S. (2023). Natural capital and wealth accounting for sustainability assessment: A global perspective.\
     *International Review of Environmental and Resource Economics*, 16, 431--465. Q2 <http://dx.doi.org/10.1561/101.00000148>
 
-10. [**Islam, M.**]{.underline}, Zhang, B., and Managi, S. (2022). The trade-off between natural capital and other capitals in Pakistan.\
+11. [**Islam, M.**]{.underline}, Zhang, B., and Managi, S. (2022). The trade-off between natural capital and other capitals in Pakistan.\
     *Sustainability Science*, 17, 1799--1811. Q1 <https://doi.org/10.1007/s11625-022-01143-w>
 
-11. Managi, S., [**Islam, M.\***]{.underline} , Saito, O. et al. (2022). Valuation of nature and nature's contributions to people.\
+12. Managi, S., [**Islam, M.\***]{.underline} , Saito, O. et al. (2022). Valuation of nature and nature's contributions to people.\
     *Sustainability Science*, 17, 701--705. Q1 <https://doi.org/10.1007/s11625-022-01140-z>
 
-12. [**Islam, M.**]{.underline}, and Managi, S. (2022). Valuation of nature's contribution in Ladakh, India: An inclusive wealth method.\
+13. [**Islam, M.**]{.underline}, and Managi, S. (2022). Valuation of nature's contribution in Ladakh, India: An inclusive wealth method.\
     *Sustainability Science*, 17, 905--918. Q1 <https://doi.org/10.1007/s11625-021-01030-w>
 
-13. N'dri, L., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries?\
+14. N'dri, L., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2021). ICT and environmental sustainability: Any differences in developing countries?\
     *Journal of Cleaner Production*, 297, 126642. Q1 <https://doi.org/10.1016/j.jclepro.2021.126642>
 
-14. Badamvaanchig, M., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric?\
+15. Badamvaanchig, M., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2021). Pass-through of commodity price to Mongolian stock price: Symmetric or asymmetric?\
     *Resources Policy*, 70, 101955. Q1 <https://doi.org/10.1016/j.resourpol.2020.101955>
 
-15. Hongsakhone, S., [**Islam, M.\***]{.underline} , and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR.\
+16. Hongsakhone, S., [**Islam, M.\***]{.underline} , and Ichihashi, M. (2021). Producing a village input-output table (VIOT) from household survey data: A case study of a VIOT for a rural village in northern Lao PDR.\
     *Journal of Economic Structures*, 10, 1--24. <https://doi.org/10.1186/s40008-020-00231-3>
 
-16. Sharifi, A., Simangan, D., Lee, C., Reyes, S., Katramiz, T., Josol, J., and [**Islam, M.**]{.underline} (2021). Climate-induced stressors to peace: A review of recent literature.\
+17. Sharifi, A., Simangan, D., Lee, C., Reyes, S., Katramiz, T., Josol, J., and [**Islam, M.**]{.underline} (2021). Climate-induced stressors to peace: A review of recent literature.\
     *Environmental Research Letters*, 16, 073006. Q1 <https://doi.org/10.1088/1748-9326/abfc08>
 
-17. Simangan, D., Virji, H., Hendrix, C., [**Islam, M.**]{.underline}, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change.\
+18. Simangan, D., Virji, H., Hendrix, C., [**Islam, M.**]{.underline}, Kaneko, S., Ma, Y., Mechler, R., Pangotra, P., Peters, K., Sharifi, A. and Shams, S. (2021). A co-designed heuristic guide for investigating the peace-sustainability nexus in the context of global change.\
     *Sustainability Science*, 16, 1097--1109. Q1 <https://doi.org/10.1007/s11625-021-00970-7>
 
-18. Essandoh, O. K., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2020). Linking international trade and foreign direct investment to $CO_2$ emissions: Any differences between developed and developing countries?\
+19. Essandoh, O. K., [**Islam, M.\***]{.underline} , and Kakinaka, M. (2020). Linking international trade and foreign direct investment to $CO_2$ emissions: Any differences between developed and developing countries?\
     *Science of The Total Environment*, 712, 136437. Q1 <https://doi.org/10.1016/j.scitotenv.2019.136437>
 
-19. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., [**Islam M.**]{.underline}, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources.\
+20. Jingyu, W., Yuping B., Yihzong W., Zhihui L., Xiangzheng D., [**Islam M.**]{.underline}, and Managi S. (2020). Measuring inclusive wealth of China: Advances in sustainable use of resources.\
     *Journal of Environmental Management*, 264, 110328. Q1 <https://doi.org/10.1016/j.jenvman.2020.110328>
 
-20. Hotak, S., [**Islam, M.\***]{.underline} , Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis.\
+21. Hotak, S., [**Islam, M.\***]{.underline} , Kakinaka, M. and Kotani, K. (2020). Carbon emissions and carbon trade balances: International evidence from panel ARDL analysis.\
     *Environmental Science and Pollution Research*, 27, 24115--24128. Q1 <https://doi.org/10.1007/s11356-020-08478-w>
 
-21. Coulibaly, T., [**Islam, M.**]{.underline}, and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries.\
+22. Coulibaly, T., [**Islam, M.**]{.underline}, and Managi, S. (2020). The Impacts of climate change and natural disasters on agriculture in African countries.\
     *Economics of Disasters and Climate Change*, 4, 347--363. <https://doi.org/10.1007/s41885-019-00057-9>
 
-22. Coulibaly, T., Wakamatsu, M., [**Islam, M.**]{.underline}, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas.\
+23. Coulibaly, T., Wakamatsu, M., [**Islam, M.**]{.underline}, Fukai, H., Managi, S. and Zhang, B. (2020). Differences in water policy efficacy across South African water management areas.\
     *Ecological Economics*, 175, 106707. Q1 <https://doi.org/10.1016/j.ecolecon.2020.106707>
 
-23. [**Islam, M.**]{.underline}, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India.\
+24. [**Islam, M.**]{.underline}, and Managi, S. (2019). Green growth and pro-environmental behavior: Sustainable resource management using natural capital accounting in India.\
     *Resources, Conservation and Recycling*, 145, 126--138. Q1 <https://doi.org/10.1016/j.resconrec.2019.02.027>
 
-24. Managi, S., [**Islam, M.**]{.underline}, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people.\
+25. Managi, S., [**Islam, M.**]{.underline}, Saito, O., Stenseke, M., Dziba, L., Lavorel, S., Pascual, U., and Hashimoto, S. (2019). Valuation of nature and nature's contributions to people.\
     *Sustainability Science*, 1463--1465. Q1 <https://doi.org/10.1007/s11625-019-00732-6>
 
-25. [**Islam, M.**]{.underline}, Kanemoto, K., and Managi, S. (2019). Growth potential for $CO_2$ emissions transfer by tariff reduction.\
+26. [**Islam, M.**]{.underline}, Kanemoto, K., and Managi, S. (2019). Growth potential for $CO_2$ emissions transfer by tariff reduction.\
     *Environmental Research Letters*, 14, 024011. Q1 <https://iopscience.iop.org/article/10.1088/1748-9326/aaf688/meta>
 
-26. Yamaguchi, R., [**Islam, M.**]{.underline}, and Managi, S. (2019). Inclusive wealth in the 21st century.\
+27. Yamaguchi, R., [**Islam, M.**]{.underline}, and Managi, S. (2019). Inclusive wealth in the 21st century.\
     *Letters in Spatial and Resource Sciences*, 12, 101--111. Q2 <https://doi.org/10.1007/s12076-019-00229-x>
 
-27. Ying Lee, C., Lotsu, S., [**Islam, M.\***]{.underline} , Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana.\
+28. Ying Lee, C., Lotsu, S., [**Islam, M.\***]{.underline} , Yoshida, Y., and Kaneko, S. (2019). The Impact of an energy efficiency improvement policy on the economic performance of electricity-intensive firms in Ghana.\
     *Energies*, 12, 3684. Q3 <https://doi.org/10.3390/en12193684>
 
-28. [**Islam, M.**]{.underline}, Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review.\
+29. [**Islam, M.**]{.underline}, Yamaguchi, R., Sugiawan, Y., and Managi, S. (2018). Valuing natural capital and ecosystem services: A literature review.\
     *Sustainability Science*, 14, 159-174. Q1 <https://doi.org/10.1007/s11625-018-0597-7>
 
-29. [**Islam, M.**]{.underline}, and Managi, S. (2018). Sustainable adaptation to multiple water risks in agriculture: Evidence from Bangladesh.\
+30. [**Islam, M.**]{.underline}, and Managi, S. (2018). Sustainable adaptation to multiple water risks in agriculture: Evidence from Bangladesh.\
     *Sustainability* (Switzerland), 10, 1734. Q2 <https://doi.org/10.3390/su10061734>
 
-30. Rajapaksa, D., [**Islam, M.**]{.underline}, and Managi, S. (2018). Pro-environmental behavior: The role of public perception in infrastructure and the social factors for sustainable development.\
+31. Rajapaksa, D., [**Islam, M.**]{.underline}, and Managi, S. (2018). Pro-environmental behavior: The role of public perception in infrastructure and the social factors for sustainable development.\
     *Sustainability* (Switzerland), 10, 937. Q2 <https://doi.org/10.3390/su10040937>
 
-31. Tolliver, C., [**Islam, M.**]{.underline}, Shin, K., and Managi, S. (2018). The impact of energy security risks on energy consumption.\
+32. Tolliver, C., [**Islam, M.**]{.underline}, Shin, K., and Managi, S. (2018). The impact of energy security risks on energy consumption.\
     *International Journal of Innovation and Sustainable Development*, 12, 258--270. Q4 <https://doi.org/10.1504/IJISD.2018.091522>
 
-32. Sugiawan, Y., [**Islam, M.**]{.underline}, and Managi, S. (2017). Global marine fisheries with environmental sustainability.\
+33. Sugiawan, Y., [**Islam, M.**]{.underline}, and Managi, S. (2017). Global marine fisheries with environmental sustainability.\
     *Economic Analysis and Policy*, 55, 158--168. Q1 <https://doi.org/10.1016/j.eap.2017.08.004>
 
-33. Rajapaksa, D., [**Islam, M.**]{.underline}, and Managi, S. (2017). Natural capital depletion: The impact of natural disasters on inclusive growth.\
+34. Rajapaksa, D., [**Islam, M.**]{.underline}, and Managi, S. (2017). Natural capital depletion: The impact of natural disasters on inclusive growth.\
     *Economics of Disasters and Climate Change*, 1, 233--244. <https://doi.org/10.1007/s41885-017-0009-y>
 
-34. [**Islam, M.**]{.underline}, Kanemoto, K., and Managi, S. (2016). Impact of trade openness and sector trade on embodied greenhouse gases emissions and air pollutants.\
+35. [**Islam, M.**]{.underline}, Kanemoto, K., and Managi, S. (2016). Impact of trade openness and sector trade on embodied greenhouse gases emissions and air pollutants.\
     *Journal of Industrial Ecology*, 20, 494--505. Q1 <https://doi.org/10.1111/jiec.12455>
 
-35. [**Islam, M.**]{.underline}, Kotani, K., and Managi, S. (2016). Climate perception and flood mitigation cooperation: A Bangladesh case study.\
+36. [**Islam, M.**]{.underline}, Kotani, K., and Managi, S. (2016). Climate perception and flood mitigation cooperation: A Bangladesh case study.\
     *Economic Analysis and Policy*, 49, 117--133. Q1 <https://doi.org/10.1016/j.eap.2016.01.001>
 
-36. [**Islam, M.**]{.underline}, and Kotani, K. (2016). Changing seasonality in Bangladesh.\
+37. [**Islam, M.**]{.underline}, and Kotani, K. (2016). Changing seasonality in Bangladesh.\
     *Regional Environmental Change*, 16, 585--590. Q2 <https://doi.org/10.1007/s10113-015-0758-5>
 
 ### Policy reports (peer-review)
