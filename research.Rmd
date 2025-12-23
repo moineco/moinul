@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Journal articles (peer-review)
 
-1.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., Zaied, Y., and Saito, O. (2025). Editorial: Natural capital accounting for sustainable cities.\
+1.  Managi, S., [**Islam, M.\***]{.underline} , Zhang, D., Zaied, Y., and Saito, O. (Eds.). (2025). Natural capital accounting for sustainable cities.\
     *Sustainability Science*, (forthcoming)
 
 2.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. (2025). Does future design induce people to make a persistent change to sustainable food consumption?\
