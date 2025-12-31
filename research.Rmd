@@ -131,7 +131,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ### Working papers
 
 Find my working papers from the [RePEc](https://ideas.repec.org/s/kch/wpaper.html) and
-[Social Design Engineering Series (SDES)](https://www.souken.kochi-tech.ac.jp/seido/workingpaper.html)
+[Social Design Engineering Series (SDES)](https://www.souken.kochi-tech.ac.jp/seido/workingpaper.html).
 
 1.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Yutaka, K., and Kotani, K. Input-price uncertainty and land allocation decisions by farmers, Working Papers [SDES-2025-12](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-12.pdf), Kochi University of Technology, School of Economics and Management, 2025.
 
@@ -229,20 +229,14 @@ Find my working papers from the [RePEc](https://ideas.repec.org/s/kch/wpaper.htm
 
 4.  Grants-in-Aid for Scientific Research from the Japanese government. Category: Grant-in-Aid for Research Activity Start-up. Principal investigator: [**Moinul Islam**]{.underline}. Grant number: 19K24384. Project period: 2019/04 -- 2022/03.
 
-### Professional service
+### Professional services
 
 ##### Guest editor
 
 -   [1] Sustainability Science (Springer).
 
-##### Peer reviewer
+##### Peer reviewers
 
 -   [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science), [13] Journal of Industrial Ecology (Wiley), [14] Energy Research & Social Science (Elsevier).
-
-### Scholarly memberships
-
-1.  Society for Environmental Economics and Policy Studies (SEEPS)
-
-2.  Association of Environmental and Resource Economists (AERE)
 
 Updated on: `r Sys.Date()`
