@@ -130,7 +130,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Working papers
 
-Find my working papers from this RePec website: <https://ideas.repec.org/s/kch/wpaper.html>
+Find my working papers from the [RePEc](https://ideas.repec.org/s/kch/wpaper.html) and
+[Social Design Engineering Series (SDES)](https://www.souken.kochi-tech.ac.jp/seido/workingpaper.html)
 
 1.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Yutaka, K., and Kotani, K. Input-price uncertainty and land allocation decisions by farmers, Working Papers [SDES-2025-12](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-12.pdf), Kochi University of Technology, School of Economics and Management, 2025.
 
