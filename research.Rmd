@@ -208,6 +208,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Working papers
 
+Find my working papers from this RePec website: <https://ideas.repec.org/s/kch/wpaper.html>
+
 1.  Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. A future design social experiment for sustainable agricultural production, Working Papers [SDES-2025-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-3.pdf), Kochi University of Technology, School of Economics and Management, 2025.
 
 2.  Nasu, Y., Tawhidul, I., [**Islam, M.**]{.underline}, and Kotani, K. Intragenerational inequality and intergenerational sustainability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
