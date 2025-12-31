@@ -128,6 +128,38 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 37. [**Islam, M.**]{.underline}, and Kotani, K. (2016). Changing seasonality in Bangladesh.\
     *Regional Environmental Change*, 16, 585--590. Q2 <https://doi.org/10.1007/s10113-015-0758-5>
 
+### Working papers
+
+Find my working papers from this RePec website: <https://ideas.repec.org/s/kch/wpaper.html>
+
+1.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Yutaka, K., and Kotani, K. Input-price uncertainty and land allocation decisions by farmers, Working Papers [SDES-2025-12](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-12.pdf), Kochi University of Technology, School of Economics and Management, 2025.
+
+2.  Tomohiro, S., [**Islam, M.**]{.underline}, and Kotani, K. People’s preferences for future development scenarios in Miyako Island, Japan, Working Papers [SDES-2025-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-11.pdf), Kochi University of Technology, School of Economics and Management, 2025.
+
+3.  [**Islam, M.**]{.underline}, Hagimoto, N., Timilsina, R., and Kotani, K. Accountability for future generations, Working Papers [SDES-2025-10](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-10.pdf), Kochi University of Technology, School of Economics and Management, 2025.
+
+4.  Ovsiannikov, K., [**Islam, M.**]{.underline}, and Kotani, K. Median voting and intergenerational sustainability under intragenerational inequality, Working Papers [SDES-2025-7](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-7.pdf), Kochi University of Technology, School of Economics and Management, 2025.
+
+5.  Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. A future design social experiment for sustainable agricultural production, Working Papers [SDES-2025-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-3.pdf), Kochi University of Technology, School of Economics and Management, 2025.
+
+6.  Nasu, Y., Tawhidul, I., [**Islam, M.**]{.underline}, and Kotani, K. Intragenerational inequality and intergenerational sustainability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
+
+7.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns, Working Papers [SDES-2024-5](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-5.pdf), Kochi University of Technology, School of Economics and Management, 2024.
+
+8.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. Does future design induce people to make a persistent change to sustainable food consumption?, Working Papers [SDES-2024-4](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-4.pdf), Kochi University of Technology, School of Economics and Management, 2024.
+
+9.  Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. Farm sizes and adaptation responses to climate change in agriculture: A reflection of Tajikistan’s farming culture and history. Working Papers [SDES-2024-2](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-2.pdf), Kochi University of Technology, School of Economics and Management, 2024.
+
+10. Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. How does the number of water users in a land reform matter for irrigation water availability? Working Papers [SDES-2023-5](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2023-5.pdf), Kochi University of Technology, School of Economics and Management, 2023.
+
+11. Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers [SDES-2022-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2022-3.pdf), Kochi University of Technology, School of Economics and Management, 2022.
+
+12. [**Islam, M.**]{.underline}, and Kotani, K. Who perceive seasonality change? A case of the Meghna basin, Bangladesh, Working Papers [SDES-2020-15](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2020-15.pdf), Kochi University of Technology, School of Economics and Management, 2020.
+
+13. [**Islam, M.**]{.underline}, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers [SDES-2014-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2014-11.pdf), Kochi University of Technology, School of Economics and Management, 2014.
+
+14. [**Islam, M.**]{.underline}, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper [EMS-2013-06](https://www.iuj.ac.jp/research/workingpapers/EMS_2013_06.pdf), International University of Japan, Economics & Management Series, 2013.
+
 ### Policy reports (peer-review)
 
 1.  Inclusive wealth report 2023. United Nation Environmental Program (UNEP). [link](https://wedocs.unep.org/handle/20.500.11822/43131)
@@ -205,38 +237,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ##### Peer reviewer
 
 -   [1] Sustainability Science (Springer), [2] Economic Analysis and Policy (Elsevier), [3] Journal of Cleaner Production (Elsevier), [4] Environmental Research Letters (IOPScience), [5] Environmental Science and Pollution Research (Springer), [6] Journal of Behavioral and Experimental Economics (Elsevier), [7] Global Sustainability (Cambridge University Press), [8] IEEE Transactions on Engineering Management (Engineering Management Review), [9] Sustainability (MDPI), [10] Economics of Disasters and Climate Change (Springer), [11] Environmental Economics and Policy Studies (Springer), [12] Plos One (Public Library of Science), [13] Journal of Industrial Ecology (Wiley), [14] Energy Research & Social Science (Elsevier).
-
-### Working papers
-
-Find my working papers from this RePec website: <https://ideas.repec.org/s/kch/wpaper.html>
-
-1.  Sharofiddinov, H., [**Islam, M.**]{.underline}, Yutaka, K., and Kotani, K. Input-price uncertainty and land allocation decisions by farmers, Working Papers [SDES-2025-12](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-12.pdf), Kochi University of Technology, School of Economics and Management, 2025.
-
-2.  Tomohiro, S., [**Islam, M.**]{.underline}, and Kotani, K. People’s preferences for future development scenarios in Miyako Island, Japan, Working Papers [SDES-2025-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-11.pdf), Kochi University of Technology, School of Economics and Management, 2025.
-
-3.  [**Islam, M.**]{.underline}, Hagimoto, N., Timilsina, R., and Kotani, K. Accountability for future generations, Working Papers [SDES-2025-10](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-10.pdf), Kochi University of Technology, School of Economics and Management, 2025.
-
-4.  Ovsiannikov, K., [**Islam, M.**]{.underline}, and Kotani, K. Median voting and intergenerational sustainability under intragenerational inequality, Working Papers [SDES-2025-7](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-7.pdf), Kochi University of Technology, School of Economics and Management, 2025.
-
-5.  Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. A future design social experiment for sustainable agricultural production, Working Papers [SDES-2025-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2025-3.pdf), Kochi University of Technology, School of Economics and Management, 2025.
-
-6.  Nasu, Y., Tawhidul, I., [**Islam, M.**]{.underline}, and Kotani, K. Intragenerational inequality and intergenerational sustainability, Working Papers [SDES-2024-7](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-7.pdf), Kochi University of Technology, School of Economics and Management, 2024.
-
-7.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, and Kotani, K. Drivers for sustainable food purchase intentions: Prosocial attitudes for future generations and environmental concerns, Working Papers [SDES-2024-5](https://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-5.pdf), Kochi University of Technology, School of Economics and Management, 2024.
-
-8.  Rahman, M., Asma, K., [**Islam, M.**]{.underline}, Saijo, T., and Kotani, K. Does future design induce people to make a persistent change to sustainable food consumption?, Working Papers [SDES-2024-4](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-4.pdf), Kochi University of Technology, School of Economics and Management, 2024.
-
-9.  Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. Farm sizes and adaptation responses to climate change in agriculture: A reflection of Tajikistan’s farming culture and history. Working Papers [SDES-2024-2](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2024-2.pdf), Kochi University of Technology, School of Economics and Management, 2024.
-
-10. Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. How does the number of water users in a land reform matter for irrigation water availability? Working Papers [SDES-2023-5](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2023-5.pdf), Kochi University of Technology, School of Economics and Management, 2023.
-
-11. Husniddin, S., [**Islam, M.**]{.underline}, and Kotani, K. Does the reorganization of large agricultural farms decrease irrigation water availability? A case study of Tajikistan, Working Papers [SDES-2022-3](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2022-3.pdf), Kochi University of Technology, School of Economics and Management, 2022.
-
-12. [**Islam, M.**]{.underline}, and Kotani, K. Who perceive seasonality change? A case of the Meghna basin, Bangladesh, Working Papers [SDES-2020-15](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2020-15.pdf), Kochi University of Technology, School of Economics and Management, 2020.
-
-13. [**Islam, M.**]{.underline}, and Kotani, K. Six or four seasons? An evidence for seasonal change in Bangladesh, Working Papers [SDES-2014-11](http://www.souken.kochi-tech.ac.jp/seido/wp/SDES-2014-11.pdf), Kochi University of Technology, School of Economics and Management, 2014.
-
-14. [**Islam, M.**]{.underline}, and Kotani, K. Six or four seasons? Perceptions of climatic changes and people's cooperative attitudes toward food protection in Bangladesh. Working Paper [EMS-2013-06](https://www.iuj.ac.jp/research/workingpapers/EMS_2013_06.pdf), International University of Japan, Economics & Management Series, 2013.
 
 ### Scholarly memberships
 
