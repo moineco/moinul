@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 ### Background
 
-I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering] degree from Kyushu University in 2016. My expertise spans applied microeconomics, behavioral data science, sustainability science with a particular interest in field experiments. My research focuses on applying economic models to address critical public policy challenges. I am engaged in understanding the far-reaching impacts of human behavior on sustainable development and finding solutions through experimental evidence-based public policies. I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am also proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. My vision is to design a future where our daily behavior fosters human–nature coexistence. 
+I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering] degree from Kyushu University in 2016. My expertise spans applied microeconomics, behavioral data science, international economics, sustainability science with a particular interest in field experiments. My research focuses on applying economic models to address critical public policy challenges. I am engaged in understanding the far-reaching impacts of human behavior on sustainable development and finding solutions through experimental evidence-based public policies. I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am also proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. My vision is to design a future where our daily behavior fosters human–nature coexistence. 
 
 ### Qualifications
 
@@ -65,7 +65,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 | Grant number      | 25K05109                                          |
 | Keywords          | Sustainable water management; social experiment   |
 
-: Project 1
+: KAKENHI Kiban C
 
 |                   |                                                   |
 |-------------------|---------------------------------------------------|
@@ -74,7 +74,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 | Grant number      | 21K13290                                          |
 | Keywords          | Public health; social experiment                  |
 
-: Project 2
+: KAKENHI Wakate
 
 |                   |                                                   |
 |-------------------|---------------------------------------------------|
@@ -83,7 +83,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 | Grant number      | 19K24384                                          |
 | Keywords          | Environmental economics; economic policy          |
 
-: Project 3
+: KAKENHI Start-up
 :::
 
 ### Programming and Software
