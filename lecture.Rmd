@@ -244,49 +244,49 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
-### Agricultural Economics and Remote Sensing
+<!-- ### Agricultural Economics and Remote Sensing -->
 
-**Section 1. Foundations of Agricultural Economics**
+<!-- **Section 1. Foundations of Agricultural Economics** -->
 
--   Lecture 1: Introduction to agricultural economics
+<!-- -   Lecture 1: Introduction to agricultural economics -->
 
--   Lecture 2: Agriculture industry overview
+<!-- -   Lecture 2: Agriculture industry overview -->
 
--   Lecture 3: Fundamentals of consumer behavior
+<!-- -   Lecture 3: Fundamentals of consumer behavior -->
 
--   Lecture 4: Market demand, elasticities and revenues
+<!-- -   Lecture 4: Market demand, elasticities and revenues -->
 
--   Lecture 5: Introduction to production and resource use
+<!-- -   Lecture 5: Introduction to production and resource use -->
 
-**Section 2. Economic Issues**
+<!-- **Section 2. Economic Issues** -->
 
--   Lecture 6: Costs of production
+<!-- -   Lecture 6: Costs of production -->
 
--   Lecture 7: Supply and price determination
+<!-- -   Lecture 7: Supply and price determination -->
 
--   Lecture 8: Competition in the agricultural sector
+<!-- -   Lecture 8: Competition in the agricultural sector -->
 
--   Lecture 9: Agriculture and the environment
+<!-- -   Lecture 9: Agriculture and the environment -->
 
--   Lecture 10: Agricultural trade and trade policy
+<!-- -   Lecture 10: Agricultural trade and trade policy -->
 
--   Lecture 11: Government intervention in agriculture
+<!-- -   Lecture 11: Government intervention in agriculture -->
 
-**Section 3. Integrating Remote Sensing with Agricultural Economics**
+<!-- **Section 3. Integrating Remote Sensing with Agricultural Economics** -->
 
--   Lecture 12: Crop forecasting using remote sensing
+<!-- -   Lecture 12: Crop forecasting using remote sensing -->
 
--   Lecture 13: Disaster impact assessment
+<!-- -   Lecture 13: Disaster impact assessment -->
 
--   Lecture 14: Remote sensing for rural development planning
+<!-- -   Lecture 14: Remote sensing for rural development planning -->
 
--   Lecture 15: Valuing Ecosystem Services and Environmental Impacts Using Spatial Data
+<!-- -   Lecture 15: Valuing Ecosystem Services and Environmental Impacts Using Spatial Data -->
 
-[**Textbooks:**]{.underline}
+<!-- [**Textbooks:**]{.underline} -->
 
-1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th Edition). Pearson.
+<!-- 1. Penson, J. B., Jr., Capps, O., Jr., Rosson, C. P., III, & Woodward, R. T. (2014). Introduction to Agricultural Economics (6th Edition). Pearson. -->
 
-2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson.
+<!-- 2. Drummond, H. E., & Goodwin, J. W. (2010). Agricultural Economics (3rd Edition). Pearson. -->
 
 
 Updated on: `r Sys.Date()`
