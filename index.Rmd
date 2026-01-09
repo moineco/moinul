@@ -19,16 +19,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 I am Dr. Moinul Islam, serving as an Associate Professor at Kochi University of Technology, Japan. I earned my Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering] degree from Kyushu University in 2016. My expertise spans applied microeconomics, behavioral data science, international economics, sustainability science with a particular interest in field experiments. My research focuses on applying economic models to address critical public policy challenges. I am engaged in understanding the far-reaching impacts of human behavior on sustainable development and finding solutions through experimental evidence-based public policies. I have extensive experience in designing laboratory, field, and survey experiments, as well as in collecting and analyzing primary data to address my research questions. I am also proficient in analyzing secondary data, including cross-sectional, time series, spatial, and panel data by employing advanced econometric techniques to derive robust insights for my research. My vision is to design a future where our daily behavior fosters human–nature coexistence. 
 
-### Qualifications
-
-**2016**, Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering], Kyushu University, Kyushu, Japan
-
-**2012**, Master of Arts (M.A.) in International Development, International University of Japan, Niigata, Japan
-
-**2007**, Master of Social Science (M.S.S.) in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
-
-**2006**, Bachelor of Social Science (B.S.S.) in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
-
 ### Research interests
 
 Applied Microeconomics, Behavioral Data Science, Field Experiments, International Economics, Sustainability Science
@@ -52,6 +42,16 @@ Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fuku
 **2016-2019**, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
 
 **2012-2015**, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
+
+### Academic qualifications
+
+**2016**, Doctor of Engineering (D.Eng.) [equivalent to Ph.D. in Environmental Engineering], Kyushu University, Kyushu, Japan
+
+**2012**, Master of Arts (M.A.) in International Development, International University of Japan, Niigata, Japan
+
+**2007**, Master of Social Science (M.S.S.) in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
+
+**2006**, Bachelor of Social Science (B.S.S.) in Economics, Shahjala University of Science and Technology, Sylhet, Bangladesh
 
 ### Research grants as PI
 
