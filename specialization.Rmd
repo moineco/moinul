@@ -1,0 +1,32 @@
+---
+title: "Specialized research area"
+output:
+  html_document:
+    theme: darkly
+    css: darkly_custom.css
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Environmental Pollution, Public Health, and Economic Policy Innovation
+
+I am a specialist in environmental pollution, public health, and economic policy innovation research, with a focus on linking environmental degradation to health outcomes and developing evidence-based policy frameworks for sustainable development.
+
+### Anthropogenic and human induced environmental pollutions
+
+- Arsenic contamination, salinity, indoor air pollution, nitrogen (N) pollution, chemical poisoning of soil, CO2 emission
+
+### Health risk for human and environment  
+
+- Cardiovascular diseases, chronic disease, biodiversity loss
+
+### Evidence based Bottom up and top down economic policy measures
+
+- Future design, social experiments, lab experiments, UN inclusive wealth
