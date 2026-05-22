@@ -75,7 +75,7 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
-### Spatial Economics and Remote Sensing
+### Spatial Economics
 
 1.  Lovelace, R., Nowosad, J., and Muenchow, J. (2019). [Geocomputation with R](https://r.geocompx.org/index.html). CRC Press.
 
