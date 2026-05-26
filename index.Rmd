@@ -90,7 +90,15 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 : KAKENHI Start-up
 :::
 
-### Programming and Software
+### Affiliated academic society
+
+- Association of Environmental and Resource Economists (AERE) 
+
+- Economic Society of Australia (ESA)
+
+- Society for Environmental Economics and Policy Studies (SEEPS)
+
+### Programming and software
 
 - Programming language: R, Python, Lisp
 
