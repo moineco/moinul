@@ -153,7 +153,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education.
 
-### Human Geography with R
+### Human Geography
 
 **Section 1: Foundations of Human Geography**
 
