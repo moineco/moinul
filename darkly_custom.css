@@ -108,3 +108,9 @@ a:hover, .nav-link:hover {
   background-color: #444;
   border-radius: 4px;
 }
+
+blockquote {
+  font-size: 1.3em;
+  font-style: normal;
+  color: inherit;
+}

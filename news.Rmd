@@ -15,6 +15,8 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+<div style="font-size:12px;">
+
 > May 16, 2026: Present my research activities titled “Future design social experiments” at the 29th Experimental Social Science Conference, Kochi University of Technology, Kochi, Japan.
 
 > December 4, 2025: Participate in the 18th Medical-Engineering Collaboration Exchange Meeting 2025, Kochi University, Japan.
@@ -49,4 +51,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 > September 21–22, 2013: Present my research titled “Farmer’s adaptation strategy in Bangladesh” at the 18th SEEPS Annual Conference, Kobe University, Kobe, Japan.
 
+</div>
+
 Updated on: `r Sys.Date()`
+
+
