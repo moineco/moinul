@@ -49,7 +49,7 @@ Research Fellow, Urban Institute, Kyushu University, 744 Motooka, Nishi-ku, Fuku
 
 **2016-2019**, Assistant Professor, Graduate School of Urban and Environmental Engineering, Kyushu University, Fukuoka, Japan
 
-**2012-2015**, Research Assistant, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
+**2012-2015**, Research Associate, Graduate School of Environmental Studies, Tohoku University, Sendai, Japan
 
 ### Academic qualifications
 
@@ -106,7 +106,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 - Programming language: R, Python, Lisp
 
-- Software to use regularly: ArcGIS, Quarto, STATA, LaTex, GNU Emacs
+- Software to use regularly: ArcGIS, STATA, LaTex, GNU Emacs
 
 - Software to use occasionally: QGIS, EViews, oTree, Microsoft Office
 
