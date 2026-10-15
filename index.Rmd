@@ -96,7 +96,7 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 ### Affiliated academic societies
 
-- Association of Environmental and Resource Economists (AERE) 
+- Association of Environmental and Resource Economists (AERE)
 
 - Economic Society of Australia (ESA)
 
@@ -117,10 +117,11 @@ English (Business), Japanese (Business), Bengali (Native)
 ### Links of my profile
 
 |  |  |
-|------------------------------------|------------------------------------|
+|----|----|
 | [Web of Science](https://www.webofscience.com/wos/author/record/M-9369-2019) | [Scopus](https://www.scopus.com/authid/detail.uri?authorId=55348122400) |
 | [Kochi University of Technology](https://www.kochi-tech.ac.jp/profile/ja/islam-moinul.html) | [Research Map](https://researchmap.jp/moinul/?lang=english) |
 | [Google Scholar](https://scholar.google.co.jp/citations?user=UTZTmJ0AAAAJ&hl=en) | [Orcid](https://orcid.org/0000-0002-0309-3156) |
+| [Research Institute for Future Design](https://www.kutrifd.com/en/staff) |  |
 
 <!-- ### My mission -->
 
