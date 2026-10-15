@@ -31,9 +31,9 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 ### Public Economics
 
-1. Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
+1.  Gruber, J. (2018). Public finance and public policy (6th Edition), Worth Publishers.
 
-2. Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
+2.  Stiglitz, J., and Rosengard, J. (2015). Economics of the public sector (6th Edition). WW Norton & Company.
 
 ### Environmental Economics
 
@@ -55,25 +55,27 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 ### International Economics
 
-1. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
+1.  Krugman, P., Obstfeld, M., and Melitz, M. (2018). International economics: Theory and policy. Boston: Pearson Education
 
-2. Krugman, P., Obstfeld, M., and Melitz, M. (2017). International trade: Theory and policy. Boston: Pearson Education
+2.  Krugman, P., Obstfeld, M., and Melitz, M. (2017). International trade: Theory and policy. Boston: Pearson Education
 
-3. Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
+3.  Krugman, P., Obstfeld, M., and Melitz, M. (2018). International finance: Theory and policy. Boston: Pearson Education
 
 ### Human Geography
 
-1. Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. (12th Edition). Wiley.
+1.  Fouberg, E., Murphy, A., and De Blij, H. (2020). Human geography: People, place, and culture. (12th Edition). Wiley.
 
-2. Knox, P., and Marston, S. (2022). Human geography: Places and regions in global context (8th Edition). Pearson Education.
+2.  Knox, P., and Marston, S. (2022). Human geography: Places and regions in global context (8th Edition). Pearson Education.
 
-3. Rubenstein, J. (2020). The cultural Landscape: An introduction to human geography (13th Edition). Pearson Education
+3.  Rubenstein, J. (2020). The cultural Landscape: An introduction to human geography (13th Edition). Pearson Education
 
 ### Experimental Economics
 
-1.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
+1.  List, J. (2025) Experimental Economics: Theory and Practice. The University of Chicago Press.
 
-2.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
+2.  Friedman, D. (1994) Experimental methods: A primer for economists. Cambridge University Press.
+
+3.  Gibbons, R. (1992) Game theory for applied economists. Princeton University Press.
 
 ### Spatial Economics
 
@@ -83,11 +85,11 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 3.  Kopczewska, K. (2020). Applied spatial statistics and econometrics: Data analysis in R. Routledge.
 
-4.  Devillard, E (2023). Remote sensing and digital image processing with R- lab manual. Springer 
+4.  Devillard, E (2023). Remote sensing and digital image processing with R- lab manual. Springer
 
 ### Data Science
 
-1. McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
+1.  McKinney, W. (2022). [Python for data analysis: Data wrangling with pandas. numpy, and jupyter](https://wesmckinney.com/book/).
 
 2.  Wickham, H., Çetinkaya-Rundel, M., and Grolemund, G. (2023). [R for data science (2e)](https://r4ds.hadley.nz/). O'Reilly.
 
@@ -101,10 +103,10 @@ Recommended readings to everyone who is interested about microeconomics, public 
 
 ### Energy Economics
 
-1. Schwarz, P. (2021). Energy Economics. Routledge.
+1.  Schwarz, P. (2021). Energy Economics. Routledge.
 
-2. Zweifel, P., Praktiknjo, A., and Erdmann, G. (2017). Energy Economics: Theory and Applications. Springer.
+2.  Zweifel, P., Praktiknjo, A., and Erdmann, G. (2017). Energy Economics: Theory and Applications. Springer.
 
-3. Bhattacharyya, S. (2011). Energy Economics: Concepts, Issues, Markets, and Governance. Springer.
+3.  Bhattacharyya, S. (2011). Energy Economics: Concepts, Issues, Markets, and Governance. Springer.
 
 Updated on: `r Sys.Date()`
