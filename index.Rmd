@@ -96,19 +96,19 @@ I receive the Japanese Government **Grants-in-Aid for Scientific Research (C)** 
 
 ### Affiliated academic societies
 
-- Association of Environmental and Resource Economists (AERE)
+Association of Environmental and Resource Economists (AERE)
 
-- Economic Society of Australia (ESA)
+Economic Society of Australia (ESA)
 
-- Society for Environmental Economics and Policy Studies (SEEPS)
+Society for Environmental Economics and Policy Studies (SEEPS)
 
 ### Programming and software
 
-- Programming language: R, Python, Lisp
+Programming language: R, Python, Lisp
 
-- Software to use regularly: ArcGIS, STATA, LaTex, GNU Emacs
+Software to use regularly: ArcGIS, STATA, LaTex, GNU Emacs
 
-- Software to use occasionally: QGIS, EViews, oTree, Microsoft Office
+Software to use occasionally: QGIS, EViews, oTree, Microsoft Office
 
 ### Languages
 
